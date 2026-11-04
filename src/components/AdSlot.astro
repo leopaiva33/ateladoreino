@@ -1,0 +1,21 @@
+---
+interface Props {
+  slot: string;
+}
+import { SITE } from '../config';
+const { slot } = Astro.props;
+---
+
+<div class="ad-slot" aria-label="Publicidade">
+  <p class="ad-slot-label">Publicidade</p>
+  <ins
+    class="adsbygoogle"
+    style="display:block"
+    data-ad-client={SITE.adsense.client}
+    data-ad-slot={slot}
+    data-ad-format="auto"
+    data-full-width-responsive="true"></ins>
+  <script is:inline>
+    (window.adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+</div>

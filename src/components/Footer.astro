@@ -1,0 +1,23 @@
+---
+import { SITE } from '../config';
+const ano = new Date().getFullYear();
+---
+
+<footer class="site-footer">
+  <div class="container-amplo">
+    <nav aria-label="Rodapé">
+      <ul>
+        <li><a href="/blog">Reflexões</a></li>
+        <li><a href="/sobre">Sobre</a></li>
+        <li><a href="/contato">Contato</a></li>
+        <li><a href="/privacidade">Política de Privacidade</a></li>
+        <li><a href="/termos">Termos de Uso</a></li>
+      </ul>
+    </nav>
+    <p>&copy; {ano} {SITE.name}. Todos os direitos reservados.</p>
+    <p>
+      Este site utiliza o Google AdSense para exibir anúncios. Saiba mais na
+      <a href="/privacidade">política de privacidade</a>.
+    </p>
+  </div>
+</footer>

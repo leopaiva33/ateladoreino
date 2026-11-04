@@ -1,0 +1,28 @@
+---
+const path = Astro.url.pathname.replace(/\/$/, '') || '/';
+const links = [
+  { href: '/', label: 'Início' },
+  { href: '/blog', label: 'Reflexões' },
+  { href: '/sobre', label: 'Sobre' },
+  { href: '/contato', label: 'Contato' },
+];
+const isCurrent = (href: string) =>
+  href === '/' ? path === '/' : path === href || path.startsWith(`${href}/`);
+---
+
+<header class="site-header">
+  <div class="container-amplo">
+    <a class="logo" href="/">A Tela do Reino</a>
+    <nav aria-label="Principal">
+      <ul class="menu">
+        {
+          links.map((l) => (
+            <li>
+              <a href={l.href} aria-current={isCurrent(l.href) ? 'page' : undefined}>{l.label}</a>
+            </li>
+          ))
+        }
+      </ul>
+    </nav>
+  </div>
+</header>

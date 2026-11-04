@@ -1,0 +1,16 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PostList from '../../components/PostList.astro';
+import { getPublishedPosts } from '../../utils/posts';
+
+const posts = await getPublishedPosts();
+---
+
+<BaseLayout
+  title="Reflexões"
+  description="Devocionais e reflexões bíblicas sobre fé, oração, esperança e vida cristã."
+>
+  <h1>Reflexões</h1>
+  <p class="meta">Textos para meditar na Palavra e fortalecer sua caminhada com Deus.</p>
+  <PostList posts={posts} />
+</BaseLayout>

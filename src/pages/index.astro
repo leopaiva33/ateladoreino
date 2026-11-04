@@ -1,0 +1,24 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PostList from '../components/PostList.astro';
+import { getPublishedPosts } from '../utils/posts';
+
+const recentes = (await getPublishedPosts()).slice(0, 5);
+---
+
+<BaseLayout>
+  <section class="hero">
+    <h1>Bem-vindo à A Tela do Reino</h1>
+    <p>Palavra, reflexão e encorajamento para caminhar com Deus todos os dias.</p>
+  </section>
+
+  <aside class="versiculo-do-dia" aria-label="Versículo do dia">
+    <p class="meta">Versículo do dia</p>
+    <p class="texto">“O Senhor é o meu pastor; nada me faltará.”</p>
+    <p class="meta">Salmos 23:1</p>
+  </aside>
+
+  <h2>Reflexões recentes</h2>
+  <PostList posts={recentes} />
+  <p><a href="/blog">Ver todas as reflexões →</a></p>
+</BaseLayout>

@@ -1,0 +1,47 @@
+---
+import { render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import AdSlot from '../../components/AdSlot.astro';
+import { SITE } from '../../config';
+import { getPublishedPosts, formatDate } from '../../utils/posts';
+
+export async function getStaticPaths() {
+  const posts = await getPublishedPosts();
+  return posts.map((post) => ({ params: { slug: post.id }, props: { post } }));
+}
+
+const { post } = Astro.props;
+const { Content } = await render(post);
+const { title, description, pubDate, category, tags } = post.data;
+---
+
+<BaseLayout title={title} description={description} type="article" publishedTime={pubDate}>
+  <article class="artigo container">
+    <header>
+      <p class="meta">
+        <span class="tag">{category}</span>
+        Publicado em {formatDate(pubDate)}
+      </p>
+      <h1>{title}</h1>
+      <p><em>{description}</em></p>
+    </header>
+
+    <AdSlot slot={SITE.adsense.slots.topo} />
+
+    <div class="corpo">
+      <Content />
+    </div>
+
+    {
+      tags.length > 0 && (
+        <p class="meta">
+          Tags: {tags.map((t) => <span class="tag">{t}</span>)}
+        </p>
+      )
+    }
+
+    <AdSlot slot={SITE.adsense.slots.rodape} />
+
+    <p><a href="/blog">← Voltar para todas as reflexões</a></p>
+  </article>
+</BaseLayout>
