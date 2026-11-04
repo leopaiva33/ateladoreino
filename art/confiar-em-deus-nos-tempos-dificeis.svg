@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#121a33"/>
+      <stop offset=".65" stop-color="#2c2a4a"/>
+      <stop offset="1" stop-color="#4a3350"/>
+    </linearGradient>
+    <linearGradient id="beamL" gradientUnits="userSpaceOnUse" x1="600" y1="0" x2="0" y2="0">
+      <stop offset="0" stop-color="#f6d28f" stop-opacity=".6"/>
+      <stop offset="1" stop-color="#f6d28f" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="beamR" gradientUnits="userSpaceOnUse" x1="600" y1="0" x2="1200" y2="0">
+      <stop offset="0" stop-color="#f6d28f" stop-opacity=".6"/>
+      <stop offset="1" stop-color="#f6d28f" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="lamp" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#f9dc9b" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#f9dc9b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#sky)"/>
+
+  <!-- estrelas -->
+  <g fill="#fbf1dc" opacity=".7">
+    <circle cx="140" cy="70" r="2.5"/><circle cx="260" cy="130" r="2"/>
+    <circle cx="420" cy="60" r="2"/><circle cx="780" cy="90" r="2.5"/>
+    <circle cx="930" cy="50" r="2"/><circle cx="1060" cy="120" r="2.5"/>
+  </g>
+
+  <!-- nuvens carregadas -->
+  <g fill="#1d2140" opacity=".85">
+    <ellipse cx="170" cy="190" rx="190" ry="48"/>
+    <ellipse cx="300" cy="165" rx="150" ry="42"/>
+    <ellipse cx="1020" cy="200" rx="200" ry="50"/>
+    <ellipse cx="910" cy="170" rx="140" ry="40"/>
+    <ellipse cx="600" cy="70" rx="260" ry="36"/>
+  </g>
+
+  <!-- feixes de luz -->
+  <polygon points="600,222 0,140 0,310" fill="url(#beamL)"/>
+  <polygon points="600,222 1200,140 1200,310" fill="url(#beamR)"/>
+  <circle cx="600" cy="222" r="130" fill="url(#lamp)"/>
+
+  <!-- mar ao fundo -->
+  <path d="M0 540 Q100 515 200 540 T400 540 T600 540 T800 540 T1000 540 T1200 540 V630 H0 Z" fill="#1f2547"/>
+
+  <!-- rochas -->
+  <path d="M430 630 L475 562 L538 540 L560 522 H640 L668 545 L735 566 L790 630 Z" fill="#150f22"/>
+
+  <!-- farol -->
+  <path d="M560 524 L575 252 H625 L640 524 Z" fill="#fbf1dc"/>
+  <g fill="#7a1f2b">
+    <polygon points="572.2,300 627.8,300 630.6,350 569.4,350"/>
+    <polygon points="566.7,400 633.3,400 636.1,450 563.9,450"/>
+  </g>
+  <rect x="562" y="242" width="76" height="11" rx="2" fill="#3d0c14"/>
+  <rect x="582" y="204" width="36" height="38" fill="#f9dc9b"/>
+  <path d="M574 206 L600 178 L626 206 Z" fill="#7a1f2b"/>
+  <circle cx="600" cy="174" r="5" fill="#7a1f2b"/>
+
+  <!-- ondas e espuma -->
+  <path d="M0 585 Q100 558 200 585 T400 585 T600 585 T800 585 T1000 585 T1200 585 V630 H0 Z" fill="#2a2f57"/>
+  <g stroke="#fbf1dc" stroke-width="4" stroke-linecap="round" fill="none" opacity=".55">
+    <path d="M70 574 q18 -14 36 0"/>
+    <path d="M330 590 q18 -14 36 0"/>
+    <path d="M470 596 q20 -16 40 0"/>
+    <path d="M700 598 q20 -16 40 0"/>
+    <path d="M900 580 q18 -14 36 0"/>
+    <path d="M1100 592 q18 -14 36 0"/>
+  </g>
+</svg>

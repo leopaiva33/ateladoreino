@@ -2,6 +2,8 @@
 title: "Confiar em Deus nos tempos difíceis"
 description: "Uma reflexão sobre como manter a confiança no Senhor quando a vida parece fugir do controle."
 pubDate: 2026-10-28
+image: "/images/posts/confiar-em-deus-nos-tempos-dificeis.png"
+imageAlt: "Ilustração de um farol no meio do mar à noite, com feixes de luz atravessando o céu escuro"
 category: "Esperança"
 tags: ["fé", "confiança", "provações"]
 ---

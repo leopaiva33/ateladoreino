@@ -9,6 +9,10 @@ const blog = defineCollection({
     description: z.string(),
     pubDate: z.coerce.date(),
     updatedDate: z.coerce.date().optional(),
+    /** Caminho em /public (ex.: "/images/posts/slug.png"). Usada no post e no Open Graph. */
+    image: z.string().optional(),
+    /** Texto alternativo descritivo. Obrigatório quando houver imagem. */
+    imageAlt: z.string().optional(),
     category: z.string(),
     tags: z.array(z.string()).default([]),
     draft: z.boolean().default(false),

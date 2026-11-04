@@ -2,6 +2,8 @@
 title: "O poder da oração no dia a dia"
 description: "Por que orar não precisa ser complicado e como transformar a oração em uma conversa constante com Deus."
 pubDate: 2026-10-30
+image: "/images/posts/o-poder-da-oracao-no-dia-a-dia.png"
+imageAlt: "Ilustração de uma pessoa ajoelhada, de mãos unidas, diante de uma janela em arco iluminada pela luz do sol"
 category: "Oração"
 tags: ["oração", "intimidade com Deus", "vida cristã"]
 ---

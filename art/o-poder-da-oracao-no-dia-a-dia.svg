@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2a0a10"/>
+      <stop offset="1" stop-color="#5c1a26"/>
+    </linearGradient>
+    <linearGradient id="win" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff6dc"/>
+      <stop offset="1" stop-color="#f6c97a"/>
+    </linearGradient>
+    <radialGradient id="halo" cx=".5" cy=".4" r=".5">
+      <stop offset="0" stop-color="#f6c97a" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#f6c97a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f6d28f" stop-opacity=".5"/>
+      <stop offset="1" stop-color="#f6d28f" stop-opacity=".08"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#wall)"/>
+  <ellipse cx="600" cy="250" rx="420" ry="330" fill="url(#halo)"/>
+
+  <!-- feixe de luz -->
+  <polygon points="474,420 726,420 930,630 270,630" fill="url(#beam)"/>
+
+  <!-- janela em arco -->
+  <path d="M470 430 V205 A130 130 0 0 1 730 205 V430 Z" fill="url(#win)"/>
+  <g stroke="#3b0f18" stroke-width="12" fill="none" stroke-linecap="square">
+    <path d="M470 430 V205 A130 130 0 0 1 730 205 V430 Z"/>
+    <path d="M600 75 V430"/>
+    <path d="M470 250 H730"/>
+  </g>
+  <path d="M452 436 H748" stroke="#3b0f18" stroke-width="16" stroke-linecap="round"/>
+
+  <!-- piso -->
+  <rect y="540" width="1200" height="90" fill="#1d070c"/>
+  <polygon points="420,540 780,540 880,630 320,630" fill="#f6d28f" opacity=".22"/>
+
+  <!-- figura ajoelhada, de lado, mãos unidas, na luz -->
+  <g stroke="#12040a" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- tronco inclinado -->
+    <path d="M578 566 L626 534" stroke-width="38"/>
+    <!-- coxa e canela apoiadas no chão -->
+    <path d="M574 574 L612 600" stroke-width="30"/>
+    <path d="M612 602 L540 603" stroke-width="16"/>
+    <!-- braço e mãos unidas à frente do rosto -->
+    <path d="M630 544 L650 566 L662 540" stroke-width="13"/>
+  </g>
+  <circle cx="646" cy="519" r="17" fill="#12040a"/>
+  <circle cx="662" cy="540" r="8" fill="#12040a"/>
+</svg>

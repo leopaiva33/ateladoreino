@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f4d9c0"/>
+      <stop offset=".55" stop-color="#fbeedd"/>
+      <stop offset="1" stop-color="#fbf8f1"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e8c3a8"/>
+      <stop offset="1" stop-color="#b9606a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#f6c97a" stop-opacity=".8"/>
+      <stop offset="1" stop-color="#f6c97a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#sky)"/>
+  <circle cx="600" cy="380" r="340" fill="url(#glow)"/>
+  <circle cx="600" cy="380" r="112" fill="#e9b45f"/>
+
+  <!-- aves -->
+  <g fill="none" stroke="#7a1f2b" stroke-width="3" stroke-linecap="round" opacity=".55">
+    <path d="M250 150 q15 -14 30 0 q15 -14 30 0"/>
+    <path d="M330 200 q11 -10 22 0 q11 -10 22 0"/>
+    <path d="M930 130 q13 -12 26 0 q13 -12 26 0"/>
+  </g>
+
+  <!-- mar -->
+  <rect y="380" width="1200" height="250" fill="url(#sea)"/>
+
+  <!-- reflexo do sol -->
+  <g fill="#f6d28f" opacity=".75">
+    <rect x="490" y="391" width="220" height="6" rx="3"/>
+    <rect x="522" y="410" width="156" height="6" rx="3"/>
+    <rect x="546" y="430" width="108" height="6" rx="3"/>
+    <rect x="566" y="452" width="68" height="6" rx="3"/>
+  </g>
+
+  <!-- veleiro -->
+  <path d="M846 420 H922 L904 440 H862 Z" fill="#7a1f2b"/>
+  <path d="M884 354 V416" stroke="#7a1f2b" stroke-width="4"/>
+  <path d="M880 358 L880 412 L840 412 Z" fill="#fffaf0" stroke="#7a1f2b" stroke-opacity=".55" stroke-width="1.5"/>
+  <path d="M889 370 L889 412 L920 412 Z" fill="#fffaf0" stroke="#7a1f2b" stroke-opacity=".55" stroke-width="1.5"/>
+
+  <!-- ondas calmas -->
+  <path d="M0 480 Q150 460 300 480 T600 480 T900 480 T1200 480 V630 H0 Z" fill="#a14b58" opacity=".55"/>
+  <path d="M0 528 Q150 508 300 528 T600 528 T900 528 T1200 528 V630 H0 Z" fill="#8c3a47" opacity=".75"/>
+  <path d="M0 580 Q150 560 300 580 T600 580 T900 580 T1200 580 V630 H0 Z" fill="#7a1f2b"/>
+</svg>

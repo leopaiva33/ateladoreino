@@ -52,6 +52,16 @@ Texto em Markdown…
 
 Campos opcionais: `updatedDate` (só altere quando o texto mudar de verdade) e `draft: true` (não publica).
 
+## Imagens dos posts
+
+As ilustrações são vetoriais (SVG) em `art/<slug>.svg` e viram PNG 1200×630 em `public/images/posts/`:
+
+```bash
+npm run images
+```
+
+Para um post novo: crie `art/<slug>.svg`, rode `npm run images` e preencha `image` e `imageAlt` (texto alternativo descritivo) no frontmatter. A mesma imagem é usada no topo do post e no compartilhamento (Open Graph). Posts sem `image` usam `public/og-default.png`.
+
 ## AdSense
 
 - O ID do editor e os IDs dos blocos de anúncio ficam em `src/config.ts`.

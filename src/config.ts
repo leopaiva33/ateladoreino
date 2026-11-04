@@ -7,7 +7,8 @@ export const SITE = {
   locale: 'pt_BR',
   lang: 'pt-BR',
   email: 'contato@ateladoreino.com',
-  ogImage: '/og-default.svg',
+  /** PNG: as redes sociais não exibem SVG. Gerada por `npm run images`. */
+  ogImage: '/og-default.png',
 
   /**
    * Quem escreve e é responsável pelo site (E-E-A-T e LGPD).

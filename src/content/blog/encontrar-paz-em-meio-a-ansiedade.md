@@ -2,6 +2,8 @@
 title: "Encontrar paz em meio à ansiedade"
 description: "Caminhos bíblicos para lidar com a ansiedade, entregar as preocupações a Deus e viver com mais serenidade."
 pubDate: 2026-10-31
+image: "/images/posts/encontrar-paz-em-meio-a-ansiedade.png"
+imageAlt: "Ilustração de um nascer do sol sobre o mar calmo, com um pequeno veleiro e gaivotas"
 category: "Saúde emocional"
 tags: ["ansiedade", "paz", "oração", "esperança"]
 ---

@@ -50,3 +50,5 @@ h1{font-size:1.8rem}
 .site-header .container-amplo{justify-content:center;text-align:center}
 .menu{justify-content:center;gap:12px}
 }
+
+.imagem-destaque{margin:0 0 24px}.imagem-destaque img{width:100%;height:auto;border-radius:12px}

@@ -12,10 +12,16 @@ export async function getStaticPaths() {
 
 const { post } = Astro.props;
 const { Content } = await render(post);
-const { title, description, pubDate, category, tags } = post.data;
+const { title, description, pubDate, category, tags, image, imageAlt } = post.data;
 ---
 
-<BaseLayout title={title} description={description} type="article" publishedTime={pubDate}>
+<BaseLayout
+  title={title}
+  description={description}
+  type="article"
+  publishedTime={pubDate}
+  image={image}
+>
   <article class="artigo container">
     <header>
       <p class="meta">
@@ -25,6 +31,22 @@ const { title, description, pubDate, category, tags } = post.data;
       <h1>{title}</h1>
       <p><em>{description}</em></p>
     </header>
+
+    {
+      image && (
+        <figure class="imagem-destaque">
+          <img
+            src={image}
+            alt={imageAlt ?? ''}
+            width="1200"
+            height="630"
+            loading="eager"
+            fetchpriority="high"
+            decoding="async"
+          />
+        </figure>
+      )
+    }
 
     <AdSlot slot={SITE.adsense.slots.topo} />
 

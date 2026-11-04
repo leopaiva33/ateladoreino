@@ -2,6 +2,8 @@
 title: "Como ter um devocional diário que realmente funciona"
 description: "Um guia prático para criar o hábito de ler a Bíblia e orar todos os dias, mesmo com a rotina corrida."
 pubDate: 2026-10-29
+image: "/images/posts/como-ter-um-devocional-diario.png"
+imageAlt: "Ilustração de uma Bíblia aberta sobre uma mesa, ao lado de uma xícara de café e de uma planta, com a luz da manhã entrando pela janela"
 category: "Vida cristã"
 tags: ["devocional", "oração", "bíblia", "disciplina espiritual"]
 ---

@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="win" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fde3b8"/>
+      <stop offset="1" stop-color="#fff6e5"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f6c97a" stop-opacity=".4"/>
+      <stop offset="1" stop-color="#f6c97a" stop-opacity=".04"/>
+    </linearGradient>
+  </defs>
+
+  <!-- parede -->
+  <rect width="1200" height="630" fill="#f3e6d3"/>
+  <rect width="1200" height="470" fill="#f7ecdc"/>
+
+  <!-- janela -->
+  <rect x="90" y="80" width="270" height="310" rx="10" fill="url(#win)"/>
+  <circle cx="225" cy="205" r="46" fill="#e9b45f"/>
+  <circle cx="225" cy="205" r="76" fill="#e9b45f" opacity=".25"/>
+  <g stroke="#7a1f2b" stroke-width="9" fill="none">
+    <rect x="90" y="80" width="270" height="310" rx="10"/>
+    <path d="M225 80 V390 M90 235 H360"/>
+  </g>
+  <path d="M70 396 H380" stroke="#7a1f2b" stroke-width="14" stroke-linecap="round"/>
+
+  <!-- feixe de luz sobre a mesa -->
+  <polygon points="360,100 360,385 800,470 800,300" fill="url(#beam)"/>
+
+  <!-- mesa -->
+  <rect y="470" width="1200" height="160" fill="#7a1f2b"/>
+  <rect y="470" width="1200" height="12" fill="#97323f"/>
+
+  <!-- Bíblia aberta -->
+  <path d="M446 396 Q548 370 630 398 Q712 370 814 396 V506 Q712 480 630 512 Q548 480 446 506 Z" fill="#3d0c14"/>
+  <path d="M466 404 Q548 382 630 408 V492 Q548 470 466 490 Z" fill="#fffaf0"/>
+  <path d="M630 408 Q712 382 794 404 V490 Q712 470 630 492 Z" fill="#fff4e0"/>
+  <g stroke="#c9b9a5" stroke-width="3" stroke-linecap="round" fill="none">
+    <path d="M488 424 Q548 408 608 428"/>
+    <path d="M488 442 Q548 426 608 446"/>
+    <path d="M488 460 Q548 444 608 464"/>
+    <path d="M652 428 Q712 408 772 424"/>
+    <path d="M652 446 Q712 426 772 442"/>
+    <path d="M652 464 Q712 444 772 460"/>
+  </g>
+  <path d="M624 440 H636 V528 L630 520 L624 528 Z" fill="#e9b45f"/>
+
+  <!-- xícara -->
+  <path d="M880 428 H960 V470 Q960 498 920 498 Q880 498 880 470 Z" fill="#fffaf0"/>
+  <path d="M960 440 q30 0 30 20 q0 20 -30 20" stroke="#fffaf0" stroke-width="8" fill="none"/>
+  <ellipse cx="920" cy="500" rx="58" ry="8" fill="#f3e6d3"/>
+  <g stroke="#fffaf0" stroke-width="4" stroke-linecap="round" fill="none" opacity=".7">
+    <path d="M904 410 q-12 -18 0 -36 q12 -18 0 -36"/>
+    <path d="M934 412 q-12 -18 0 -36 q12 -18 0 -36"/>
+  </g>
+
+  <!-- vaso com planta -->
+  <path d="M1040 440 H1100 L1090 494 H1050 Z" fill="#f3e6d3"/>
+  <ellipse cx="1070" cy="440" rx="30" ry="6" fill="#e6d4b8"/>
+  <g fill="#7a9b6a">
+    <ellipse cx="1070" cy="395" rx="13" ry="42" transform="rotate(-22 1070 436)"/>
+    <ellipse cx="1070" cy="388" rx="13" ry="46"/>
+    <ellipse cx="1070" cy="395" rx="13" ry="42" transform="rotate(22 1070 436)"/>
+  </g>
+</svg>
