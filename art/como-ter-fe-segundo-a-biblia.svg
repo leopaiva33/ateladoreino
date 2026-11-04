@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f1cfae"/>
+      <stop offset=".65" stop-color="#fbe6cb"/>
+      <stop offset="1" stop-color="#fff4de"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#f6c97a" stop-opacity=".85"/>
+      <stop offset="1" stop-color="#f6c97a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#sky)"/>
+  <circle cx="600" cy="210" r="260" fill="url(#glow)"/>
+  <circle cx="600" cy="210" r="70" fill="#e9b45f"/>
+  <!-- raios suaves -->
+  <g stroke="#f6c97a" stroke-width="6" stroke-linecap="round" opacity=".45">
+    <path d="M600 90 V60"/><path d="M690 120 L712 98"/><path d="M510 120 L488 98"/>
+    <path d="M730 210 H764"/><path d="M470 210 H436"/>
+  </g>
+  <!-- colinas ao fundo -->
+  <path d="M0 440 Q250 380 520 430 T1010 410 T1200 436 V630 H0 Z" fill="#d9a58f"/>
+  <path d="M0 500 Q300 450 620 492 T1200 480 V630 H0 Z" fill="#a85a62"/>
+  <!-- terra -->
+  <path d="M0 548 Q300 520 600 540 T1200 530 V630 H0 Z" fill="#7a1f2b"/>
+  <!-- broto -->
+  <path d="M600 548 C602 500 598 460 600 408" stroke="#5f8553" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M600 430 C546 424 520 380 540 346 C586 352 606 392 600 430 Z" fill="#7a9b6a"/>
+  <path d="M600 408 C654 398 684 356 664 322 C616 330 596 368 600 408 Z" fill="#8fb07c"/>
+  <!-- semente -->
+  <ellipse cx="690" cy="556" rx="9" ry="7" fill="#e9b45f"/>
+  <ellipse cx="520" cy="560" rx="7" ry="5.5" fill="#e9b45f" opacity=".85"/>
+</svg>

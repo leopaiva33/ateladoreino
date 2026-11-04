@@ -1,0 +1,41 @@
+name: Publicação agendada
+
+# Publica os posts cuja data (pubDate) já chegou.
+# O site é estático: um post com data futura fica fora do build. Nas datas agendadas, este
+# workflow detecta o post vencido que ainda não está no ar e cria um commit vazio; o push
+# dispara o deploy automático da Vercel, que gera o site já com o post.
+on:
+  schedule:
+    - cron: '0 11 * * *' # 08:00 em Brasília
+    - cron: '0 15 * * *' # 12:00 em Brasília (reforço, caso o primeiro falhe)
+  workflow_dispatch:
+    inputs:
+      forcar:
+        description: 'Forçar um novo deploy mesmo sem post vencido'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publicacao-agendada
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Há post vencido que ainda não está no site?
+        id: check
+        run: node scripts/posts-agendados.mjs
+
+      - name: Dispara o deploy (commit vazio)
+        if: steps.check.outputs.publicar == 'true' || inputs.forcar == true
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit --allow-empty -m "chore: publicação agendada (${{ steps.check.outputs.slugs || 'forçado' }})"
+          git push

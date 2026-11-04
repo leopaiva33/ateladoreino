@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f1cfae"/>
+      <stop offset=".6" stop-color="#fbe6cb"/>
+      <stop offset="1" stop-color="#fff4de"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#f6c97a" stop-opacity=".85"/>
+      <stop offset="1" stop-color="#f6c97a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#sky)"/>
+  <circle cx="300" cy="340" r="280" fill="url(#glow)"/>
+  <circle cx="300" cy="350" r="76" fill="#e9b45f"/>
+  <!-- colinas e chão -->
+  <path d="M0 400 Q260 350 520 392 T1000 380 T1200 396 V630 H0 Z" fill="#d9a58f"/>
+  <path d="M0 450 Q300 410 640 444 T1200 436 V630 H0 Z" fill="#a85a62"/>
+  <rect y="500" width="1200" height="130" fill="#7a1f2b"/>
+  <!-- árvore -->
+  <rect x="936" y="270" width="26" height="240" fill="#4f1019"/>
+  <ellipse cx="950" cy="230" rx="130" ry="100" fill="#6f9a5c"/>
+  <ellipse cx="880" cy="270" rx="80" ry="60" fill="#7aa866"/>
+  <ellipse cx="1020" cy="266" rx="84" ry="62" fill="#5f8a4e"/>
+  <!-- banco -->
+  <rect x="470" y="440" width="320" height="22" rx="6" fill="#f3e6d3"/>
+  <rect x="470" y="394" width="320" height="16" rx="6" fill="#f3e6d3"/>
+  <rect x="486" y="410" width="10" height="34" fill="#e6d4b8"/><rect x="590" y="410" width="10" height="34" fill="#e6d4b8"/>
+  <rect x="690" y="410" width="10" height="34" fill="#e6d4b8"/><rect x="772" y="410" width="10" height="34" fill="#e6d4b8"/>
+  <rect x="496" y="462" width="12" height="52" fill="#e6d4b8"/><rect x="752" y="462" width="12" height="52" fill="#e6d4b8"/>
+  <!-- livro e fones sobre o banco -->
+  <path d="M560 438 Q600 424 630 440 Q660 424 700 438 V396 Q660 382 630 398 Q600 382 560 396 Z" fill="#3d0c14"/>
+  <path d="M570 432 Q600 420 628 434 V402 Q600 390 570 402 Z" fill="#fffaf0"/>
+  <path d="M632 434 Q660 420 690 432 V402 Q660 390 632 402 Z" fill="#fff4e0"/>
+  <g fill="none" stroke="#1d070c" stroke-width="7" stroke-linecap="round">
+    <path d="M730 436 Q730 396 756 396 Q782 396 782 436"/>
+  </g>
+  <g fill="#1d070c"><rect x="722" y="428" width="16" height="22" rx="6"/><rect x="774" y="428" width="16" height="22" rx="6"/></g>
+  <!-- aves -->
+  <g fill="none" stroke="#7a1f2b" stroke-width="3" stroke-linecap="round" opacity=".5">
+    <path d="M640 130 q14 -13 28 0 q14 -13 28 0"/><path d="M730 180 q10 -9 20 0 q10 -9 20 0"/>
+  </g>
+</svg>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0e1530"/>
+      <stop offset=".7" stop-color="#26356a"/>
+      <stop offset="1" stop-color="#4a4a7a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#f9dc9b" stop-opacity=".8"/>
+      <stop offset="1" stop-color="#f9dc9b" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="door" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#f6c97a" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#f6c97a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#sky)"/>
+  <g fill="#fbf1dc" opacity=".7">
+    <circle cx="130" cy="90" r="2.5"/><circle cx="260" cy="200" r="2"/><circle cx="380" cy="80" r="2.5"/>
+    <circle cx="880" cy="110" r="2.5"/><circle cx="1010" cy="220" r="2"/><circle cx="1120" cy="90" r="2.5"/>
+    <circle cx="170" cy="300" r="2"/><circle cx="1060" cy="330" r="2"/>
+  </g>
+  <!-- estrela de Belém -->
+  <circle cx="600" cy="170" r="190" fill="url(#glow)"/>
+  <path d="M600 52 L616 140 L704 170 L616 200 L600 290 L584 200 L496 170 L584 140 Z" fill="#f9dc9b"/>
+  <path d="M600 112 L607 158 L652 170 L607 182 L600 228 L593 182 L548 170 L593 158 Z" fill="#fffaf0"/>
+  <!-- colinas -->
+  <path d="M0 470 Q220 420 460 462 T900 450 T1200 466 V630 H0 Z" fill="#1c2149"/>
+  <path d="M0 540 Q300 500 640 536 T1200 520 V630 H0 Z" fill="#12091a"/>
+  <!-- estábulo -->
+  <circle cx="600" cy="500" r="90" fill="url(#door)"/>
+  <rect x="535" y="448" width="130" height="80" fill="#3b2418"/>
+  <polygon points="515,450 600,392 685,450" fill="#5a3a22"/>
+  <rect x="580" y="474" width="40" height="54" fill="#f6c97a"/>
+  <!-- árvores -->
+  <g fill="#0b0613">
+    <polygon points="250,536 290,536 270,456"/><polygon points="230,548 310,548 270,478"/>
+    <polygon points="930,534 970,534 950,462"/><polygon points="910,548 990,548 950,484"/>
+  </g>
+</svg>

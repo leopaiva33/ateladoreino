@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#16204a"/>
+      <stop offset=".65" stop-color="#4a3a6a"/>
+      <stop offset="1" stop-color="#d98a7a"/>
+    </linearGradient>
+    <radialGradient id="orb" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#f9dc9b" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#f9dc9b" stop-opacity="0"/>
+    </radialGradient>
+    <g id="asa">
+      <ellipse cx="0" cy="0" rx="150" ry="21" transform="translate(-99.8 -15.0) rotate(4)" fill="#f3e6d3" stroke="#d9c3a0" stroke-width="3"/>
+      <ellipse cx="0" cy="0" rx="142" ry="21" transform="translate(-96.6 -33.9) rotate(15)" fill="#fbf1dc" stroke="#d9c3a0" stroke-width="3"/>
+      <ellipse cx="0" cy="0" rx="130" ry="21" transform="translate(-89.9 -51.8) rotate(26)" fill="#f3e6d3" stroke="#d9c3a0" stroke-width="3"/>
+      <ellipse cx="0" cy="0" rx="116" ry="21" transform="translate(-79.9 -68.2) rotate(37)" fill="#fbf1dc" stroke="#d9c3a0" stroke-width="3"/>
+      <ellipse cx="0" cy="0" rx="100" ry="21" transform="translate(-66.9 -82.3) rotate(48)" fill="#f3e6d3" stroke="#d9c3a0" stroke-width="3"/>
+    </g>
+  </defs>
+  <rect width="1200" height="630" fill="url(#sky)"/>
+  <g fill="#fbf1dc" opacity=".7">
+    <circle cx="140" cy="90" r="2.5"/><circle cx="300" cy="170" r="2"/><circle cx="460" cy="70" r="2.5"/>
+    <circle cx="860" cy="100" r="2"/><circle cx="1020" cy="60" r="2.5"/><circle cx="1120" cy="180" r="2"/>
+  </g>
+  <!-- colinas -->
+  <path d="M0 470 Q250 410 520 460 T1010 440 T1200 466 V630 H0 Z" fill="#6b3a5a"/>
+  <path d="M0 540 Q300 500 640 534 T1200 520 V630 H0 Z" fill="#2a1430"/>
+  <!-- luz sob as asas -->
+  <circle cx="600" cy="470" r="150" fill="url(#orb)"/>
+  <circle cx="600" cy="470" r="38" fill="#f9d37a"/>
+  <!-- asas -->
+  <g transform="translate(600 470)"><use href="#asa"/></g>
+  <g transform="translate(600 470) scale(-1 1)"><use href="#asa"/></g>
+</svg>

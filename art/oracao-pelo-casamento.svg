@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3b0f18"/>
+      <stop offset="1" stop-color="#7a1f2b"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#f6c97a" stop-opacity=".6"/>
+      <stop offset="1" stop-color="#f6c97a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="620" cy="300" r="330" fill="url(#glow)"/>
+  <!-- raios suaves -->
+  <g stroke="#f6d28f" stroke-width="4" stroke-linecap="round" opacity=".35">
+    <path d="M620 130 V90"/><path d="M740 160 L768 132"/><path d="M500 160 L472 132"/>
+    <path d="M840 300 H880"/><path d="M400 300 H360"/>
+  </g>
+  <!-- alianças entrelaçadas -->
+  <circle cx="680" cy="300" r="90" fill="none" stroke="#f6d28f" stroke-width="16"/>
+  <circle cx="560" cy="300" r="90" fill="none" stroke="#e9b45f" stroke-width="16"/>
+  <path d="M656.7 386.9 A90 90 0 0 1 595.4 330.8" fill="none" stroke="#f6d28f" stroke-width="16"/>
+  <!-- brilhos -->
+  <g fill="#fffaf0" opacity=".85">
+    <path d="M470 232 l5 14 14 5 -14 5 -5 14 -5 -14 -14 -5 14 -5 z"/>
+    <path d="M770 372 l4 11 11 4 -11 4 -4 11 -4 -11 -11 -4 11 -4 z"/>
+  </g>
+  <!-- chão -->
+  <path d="M0 540 Q300 510 620 534 T1200 524 V630 H0 Z" fill="#2a0a10"/>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#241437"/>
+      <stop offset="1" stop-color="#4a2a52"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#f9dc9b" stop-opacity=".75"/>
+      <stop offset="1" stop-color="#f9dc9b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <g fill="#fbf1dc" opacity=".6">
+    <circle cx="150" cy="90" r="2.5"/><circle cx="300" cy="170" r="2"/><circle cx="1040" cy="110" r="2.5"/>
+    <circle cx="920" cy="60" r="2"/><circle cx="1110" cy="230" r="2"/><circle cx="90" cy="250" r="2"/>
+  </g>
+  <!-- brilho da primeira vela -->
+  <circle cx="380" cy="268" r="170" fill="url(#glow)"/>
+  <!-- coroa de ramos -->
+  <ellipse cx="620" cy="486" rx="360" ry="58" fill="#24472e"/>
+  <ellipse cx="620" cy="474" rx="340" ry="46" fill="#2f5d3a"/>
+  <g fill="#3f7a4c">
+    <ellipse cx="330" cy="478" rx="42" ry="14" transform="rotate(-12 330 478)"/>
+    <ellipse cx="460" cy="492" rx="44" ry="14" transform="rotate(8 460 492)"/>
+    <ellipse cx="590" cy="484" rx="44" ry="14" transform="rotate(-6 590 484)"/>
+    <ellipse cx="720" cy="494" rx="44" ry="14" transform="rotate(10 720 494)"/>
+    <ellipse cx="850" cy="482" rx="44" ry="14" transform="rotate(-10 850 482)"/>
+    <ellipse cx="930" cy="478" rx="36" ry="12" transform="rotate(14 930 478)"/>
+  </g>
+  <g fill="#b3202f">
+    <circle cx="410" cy="470" r="9"/><circle cx="545" cy="500" r="9"/><circle cx="670" cy="476" r="9"/>
+    <circle cx="790" cy="502" r="9"/><circle cx="905" cy="470" r="9"/><circle cx="300" cy="494" r="8"/>
+  </g>
+  <!-- quatro velas -->
+  <g>
+    <rect x="355" y="322" width="50" height="158" rx="5" fill="#6b3a84"/>
+    <rect x="515" y="322" width="50" height="158" rx="5" fill="#6b3a84"/>
+    <rect x="675" y="322" width="50" height="158" rx="5" fill="#d98aa8"/>
+    <rect x="835" y="322" width="50" height="158" rx="5" fill="#6b3a84"/>
+  </g>
+  <g stroke="#1b0f28" stroke-width="4" stroke-linecap="round">
+    <path d="M380 322 V310"/><path d="M540 322 V310"/><path d="M700 322 V310"/><path d="M860 322 V310"/>
+  </g>
+  <!-- chama acesa (1ª vela) -->
+  <path d="M380 246 C360 282 364 304 380 314 C396 304 400 282 380 246 Z" fill="#f9d37a"/>
+  <path d="M380 280 C373 294 374 304 380 308 C386 304 387 294 380 280 Z" fill="#fffaf0" opacity=".9"/>
+</svg>

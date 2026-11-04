@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7f93b8"/>
+      <stop offset=".55" stop-color="#d9c3bb"/>
+      <stop offset="1" stop-color="#fbe6cb"/>
+    </linearGradient>
+    <linearGradient id="ray" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff0c4" stop-opacity=".75"/>
+      <stop offset="1" stop-color="#fff0c4" stop-opacity=".05"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#sky)"/>
+  <!-- raios -->
+  <polygon points="560,120 640,120 900,500 300,500" fill="url(#ray)"/>
+  <polygon points="590,120 610,120 640,500 560,500" fill="url(#ray)" opacity=".7"/>
+  <!-- nuvens -->
+  <g fill="#fffaf0">
+    <ellipse cx="400" cy="120" rx="190" ry="50" opacity=".95"/><ellipse cx="520" cy="96" rx="120" ry="44" opacity=".95"/>
+    <ellipse cx="810" cy="116" rx="200" ry="52" opacity=".95"/><ellipse cx="700" cy="92" rx="120" ry="42" opacity=".95"/>
+    <ellipse cx="160" cy="180" rx="150" ry="36" opacity=".8"/><ellipse cx="1080" cy="190" rx="150" ry="36" opacity=".8"/>
+  </g>
+  <!-- montanhas e vale -->
+  <path d="M0 420 L180 300 L330 400 L470 320 L640 450 L820 330 L1000 420 L1200 340 V630 H0 Z" fill="#b97b86"/>
+  <path d="M0 500 Q200 450 420 490 T820 480 T1200 490 V630 H0 Z" fill="#a85a62"/>
+  <path d="M0 560 Q300 520 620 552 T1200 540 V630 H0 Z" fill="#7a1f2b"/>
+  <!-- pessoa em oração (silhueta) sobre a colina -->
+  <g stroke="#2a0a10" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M590 546 L610 524" stroke-width="22"/>
+    <path d="M590 548 L612 560" stroke-width="16"/>
+    <path d="M612 560 L576 562" stroke-width="10"/>
+    <path d="M612 528 L626 538 L630 520" stroke-width="9"/>
+  </g>
+  <circle cx="622" cy="508" r="12" fill="#2a0a10"/>
+</svg>
