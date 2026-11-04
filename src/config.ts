@@ -16,7 +16,7 @@ export const SITE = {
    * Não coloque credenciais que não existam.
    */
   author: {
-    name: '',
+    name: 'Leonardo Paiva',
     /** Ex.: "Escritor e líder de pequeno grupo há 10 anos" (apenas se for verdade). */
     bio: '',
   },
