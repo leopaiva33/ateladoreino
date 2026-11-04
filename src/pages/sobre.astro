@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { SITE } from '../config';
 ---
 
 <BaseLayout
@@ -9,27 +10,47 @@ import BaseLayout from '../layouts/BaseLayout.astro';
   <div class="pagina">
     <h1>Sobre a A Tela do Reino</h1>
     <p>
-    A <strong>A Tela do Reino</strong> nasceu com um propósito simples: levar a Palavra de Deus
-    para o cotidiano de quem busca crescer na fé. Aqui você encontra devocionais, reflexões
-    bíblicas e textos de encorajamento para os momentos de alegria, dúvida, cansaço e esperança.
+      A <strong>A Tela do Reino</strong> nasceu com um propósito simples: levar a Palavra de Deus
+      para o cotidiano de quem busca crescer na fé. Aqui você encontra devocionais, reflexões
+      bíblicas e textos de encorajamento para os momentos de alegria, dúvida, cansaço e esperança.
     </p>
+
+    {
+      SITE.author.name && (
+        <>
+          <h2>Quem escreve</h2>
+          <p>
+            Os textos são de responsabilidade de <strong>{SITE.author.name}</strong>.
+            {SITE.author.bio && <> {SITE.author.bio}</>}
+          </p>
+        </>
+      )
+    }
+
     <h2>No que acreditamos</h2>
     <p>
-    Cremos na Bíblia como a Palavra inspirada de Deus, suficiente para orientar a vida e a fé.
-    Nosso objetivo não é substituir a igreja nem o estudo pessoal das Escrituras, mas somar
-    a eles, incentivando a leitura, a oração e a comunhão.
+      Cremos na Bíblia como a Palavra inspirada de Deus, suficiente para orientar a vida e a fé.
+      Nosso objetivo não é substituir a igreja nem o estudo pessoal das Escrituras, mas somar
+      a eles, incentivando a leitura, a oração e a comunhão.
     </p>
+
     <h2>Como o conteúdo é produzido</h2>
     <p>
-    Os textos são escritos com cuidado, procurando respeitar o contexto bíblico e a tradição
-    cristã. Sempre que possível, indicamos a referência dos versículos citados para que você
-    possa consultar a passagem completa na sua Bíblia.
+      Os textos são escritos com cuidado, procurando respeitar o contexto bíblico e a tradição
+      cristã. Sempre que possível, indicamos a referência dos versículos citados para que você
+      possa consultar a passagem completa na sua Bíblia.
     </p>
+    <p>
+      Os conteúdos têm caráter devocional e não substituem o acompanhamento pastoral nem a
+      orientação de profissionais de saúde, quando necessária. Se você encontrar algum erro,
+      escreva para nós e faremos a correção.
+    </p>
+
     <h2>Fale com a gente</h2>
     <p>
-    Tem um pedido de tema, uma sugestão ou quer compartilhar um testemunho? Escreva para
-    <a href="mailto:contato@ateladoreino.com">contato@ateladoreino.com</a> ou visite nossa
-    <a href="/contato">página de contato</a>.
+      Tem um pedido de tema, uma sugestão ou quer compartilhar um testemunho? Escreva para
+      <a href={`mailto:${SITE.email}`}>{SITE.email}</a> ou visite nossa
+      <a href="/contato">página de contato</a>.
     </p>
   </div>
 </BaseLayout>

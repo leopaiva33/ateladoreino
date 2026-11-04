@@ -9,6 +9,18 @@ export const SITE = {
   email: 'contato@ateladoreino.com',
   ogImage: '/og-default.svg',
 
+  /**
+   * Quem escreve e é responsável pelo site (E-E-A-T e LGPD).
+   * Preencha com dados REAIS: quando `name` estiver preenchido, a página "Sobre" mostra a seção
+   * "Quem escreve" e a Política de Privacidade identifica o responsável pelo tratamento de dados.
+   * Não coloque credenciais que não existam.
+   */
+  author: {
+    name: '',
+    /** Ex.: "Escritor e líder de pequeno grupo há 10 anos" (apenas se for verdade). */
+    bio: '',
+  },
+
   adsense: {
     /** ID do editor (ca-pub-...). Também deve estar em public/ads.txt. */
     client: 'ca-pub-2321225607029896',

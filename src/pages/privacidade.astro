@@ -1,57 +1,134 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { SITE } from '../config';
 ---
 
 <BaseLayout
   title="Política de Privacidade"
-  description="Como o A Tela do Reino coleta, usa e protege seus dados."
+  description="Como o A Tela do Reino coleta, usa e protege seus dados, em conformidade com a LGPD."
 >
   <div class="pagina">
     <h1>Política de Privacidade</h1>
-    <p class="meta">Última atualização: 1 de novembro de 2026</p>
+    <p class="meta">Última atualização: 3 de novembro de 2026</p>
     <p>
-    Esta política explica como o site <strong>https://ateladoreino.com</strong> (“A Tela do Reino”) trata
-    informações de visitantes. Ao usar o site, você concorda com as práticas descritas aqui.
+      Esta política explica como o site <strong>{SITE.url}</strong> (“{SITE.name}”) trata informações
+      de visitantes, em conformidade com a Lei Geral de Proteção de Dados (LGPD – Lei nº 13.709/2018).
+      Ao usar o site, você declara ter lido esta política.
     </p>
-    <h2>1. Dados coletados</h2>
+
+    <h2>1. Quem é o responsável</h2>
     <p>
-    Não exigimos cadastro para ler o conteúdo. Podemos coletar dados de navegação de forma
-    automática, como endereço IP aproximado, tipo de navegador, páginas visitadas e tempo de
-    permanência, por meio de ferramentas de análise e de publicidade.
+      {
+        SITE.author.name ? (
+          <>
+            O responsável pelo tratamento dos dados (controlador) é <strong>{SITE.author.name}</strong>,
+            editor do {SITE.name}.{' '}
+          </>
+        ) : (
+          <>O responsável pelo tratamento dos dados (controlador) é o editor do {SITE.name}. </>
+        )
+      }
+      Para qualquer assunto sobre privacidade e dados pessoais, o canal de contato (encarregado) é
+      <a href={`mailto:${SITE.email}`}>{SITE.email}</a>.
     </p>
-    <h2>2. Cookies e publicidade</h2>
+
+    <h2>2. Dados coletados</h2>
     <p>
-    Este site exibe anúncios fornecidos pelo <strong>Google AdSense</strong>. O Google e seus
-    parceiros podem usar cookies e identificadores para veicular anúncios com base em visitas
-    anteriores a este e a outros sites. Você pode desativar a publicidade personalizada em
-    <a href="https://www.google.com/settings/ads" rel="noopener" target="_blank">google.com/settings/ads</a>.
+      Não exigimos cadastro para ler o conteúdo e não coletamos dados sensíveis. Alguns dados são
+      coletados automaticamente quando você navega: endereço IP, tipo de navegador e dispositivo,
+      páginas visitadas, data e hora do acesso e tempo de permanência. Isso é feito por meio de
+      registros técnicos dos provedores de infraestrutura do site e de ferramentas de publicidade
+      (e, se forem ativadas, de medição de audiência).
     </p>
     <p>
-    Para saber como o Google usa os dados de sites e aplicativos parceiros, consulte
-    <a href="https://policies.google.com/technologies/partner-sites" rel="noopener" target="_blank">
-    a página do Google sobre tecnologias de parceiros</a>.
+      Se você nos escrever por e-mail, usaremos as informações enviadas (nome, e-mail e mensagem)
+      apenas para responder ao seu contato.
     </p>
-    <p class="meta">Identificador de editor: ca-pub-2321225607029896</p>
-    <h2>3. Uso das informações</h2>
+
+    <h2>3. Cookies e publicidade</h2>
     <p>
-    As informações coletadas servem para melhorar o conteúdo, medir audiência, exibir anúncios
-    relevantes e garantir o funcionamento técnico do site. Não vendemos dados pessoais.
+      Este site exibe anúncios fornecidos pelo <strong>Google AdSense</strong>. O Google e seus
+      parceiros podem usar cookies e identificadores para veicular anúncios com base em visitas
+      anteriores a este e a outros sites, e para medir o desempenho e evitar fraudes. Você pode
+      desativar a publicidade personalizada em
+      <a href="https://www.google.com/settings/ads" rel="noopener" target="_blank">google.com/settings/ads</a>
+      ou em
+      <a href="https://www.aboutads.info" rel="noopener" target="_blank">aboutads.info</a>.
     </p>
-    <h2>4. Seus direitos</h2>
     <p>
-    Você pode solicitar esclarecimentos, correção ou exclusão de qualquer dado pessoal que
-    tenhamos, escrevendo para <a href="mailto:contato@ateladoreino.com">contato@ateladoreino.com</a>. Você também
-    pode desativar cookies diretamente no seu navegador.
+      Para saber como o Google usa os dados de sites e aplicativos parceiros, consulte
+      <a
+        href="https://policies.google.com/technologies/partner-sites"
+        rel="noopener"
+        target="_blank">a página do Google sobre tecnologias de parceiros</a
+      >.
     </p>
-    <h2>5. Links externos</h2>
     <p>
-    Podemos conter links para sites de terceiros. Não somos responsáveis pelas práticas de
-    privacidade desses sites.
+      Você também pode bloquear ou apagar cookies nas configurações do seu navegador. Isso pode
+      afetar a exibição de alguns recursos do site, mas não impede a leitura do conteúdo.
     </p>
-    <h2>6. Alterações</h2>
+    <p class="meta">Identificador de editor: {SITE.adsense.client}</p>
+
+    <h2>4. Para que usamos as informações</h2>
+    <p>As informações são usadas para:</p>
+    <ul>
+      <li>garantir o funcionamento técnico e a segurança do site;</li>
+      <li>medir audiência e melhorar o conteúdo;</li>
+      <li>exibir anúncios, o que ajuda a manter o site gratuito;</li>
+      <li>responder às mensagens que você nos enviar.</li>
+    </ul>
+    <p>Não vendemos dados pessoais.</p>
+
+    <h2>5. Bases legais</h2>
     <p>
-    Esta política pode ser atualizada a qualquer momento. A data no topo indica a versão
-    mais recente.
+      O tratamento ocorre com base no <strong>consentimento</strong> (por exemplo, para cookies de
+      publicidade personalizada), no <strong>legítimo interesse</strong> (segurança, funcionamento
+      e medição básica de audiência) e na <strong>execução de ações a pedido do titular</strong>
+      (responder ao seu contato), conforme o art. 7º da LGPD.
+    </p>
+
+    <h2>6. Compartilhamento e transferência internacional</h2>
+    <p>
+      Os dados podem ser compartilhados com provedores que viabilizam o site (hospedagem e rede de
+      distribuição de conteúdo) e com o Google, para a veiculação de anúncios. Esses provedores
+      podem estar localizados fora do Brasil; nesses casos, a transferência observa as exigências
+      da LGPD.
+    </p>
+
+    <h2>7. Por quanto tempo guardamos</h2>
+    <p>
+      Registros técnicos são mantidos pelo tempo necessário para a operação e a segurança do site.
+      Mensagens enviadas por e-mail são mantidas enquanto forem necessárias para atendê-lo. Os
+      dados coletados pelo Google seguem as políticas do próprio Google.
+    </p>
+
+    <h2>8. Seus direitos</h2>
+    <p>
+      Conforme o art. 18 da LGPD, você pode solicitar: confirmação de que tratamos seus dados,
+      acesso, correção de dados incompletos ou desatualizados, anonimização, bloqueio ou eliminação
+      de dados desnecessários, portabilidade, informação sobre com quem os dados são compartilhados
+      e a revogação do consentimento. Escreva para
+      <a href={`mailto:${SITE.email}`}>{SITE.email}</a>. Você também pode apresentar reclamação à
+      Autoridade Nacional de Proteção de Dados (ANPD).
+    </p>
+
+    <h2>9. Crianças e adolescentes</h2>
+    <p>
+      O site não é direcionado a crianças e não coleta intencionalmente dados de menores de idade.
+      Pais e responsáveis que acreditem que um menor nos enviou dados pessoais podem pedir a
+      exclusão pelo e-mail acima.
+    </p>
+
+    <h2>10. Links para outros sites</h2>
+    <p>
+      Podemos indicar sites de terceiros. Não controlamos nem respondemos pelas práticas de
+      privacidade desses sites; leia as políticas de cada um.
+    </p>
+
+    <h2>11. Alterações nesta política</h2>
+    <p>
+      Podemos atualizar esta política para refletir mudanças no site ou na lei. A data da última
+      atualização aparece no topo desta página.
     </p>
   </div>
 </BaseLayout>
