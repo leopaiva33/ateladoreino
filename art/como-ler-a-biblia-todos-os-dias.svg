@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f1cfae"/>
+      <stop offset=".6" stop-color="#fbe6cb"/>
+      <stop offset="1" stop-color="#fff4de"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#f6c97a" stop-opacity=".85"/>
+      <stop offset="1" stop-color="#f6c97a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#sky)"/>
+  <circle cx="600" cy="345" r="300" fill="url(#glow)"/>
+  <circle cx="600" cy="335" r="86" fill="#e9b45f"/>
+
+  <!-- aves -->
+  <g fill="none" stroke="#7a1f2b" stroke-width="3" stroke-linecap="round" opacity=".5">
+    <path d="M230 140 q14 -13 28 0 q14 -13 28 0"/>
+    <path d="M310 190 q10 -9 20 0 q10 -9 20 0"/>
+    <path d="M930 120 q13 -12 26 0 q13 -12 26 0"/>
+    <path d="M1010 175 q10 -9 20 0 q10 -9 20 0"/>
+  </g>
+
+  <!-- colinas -->
+  <path d="M0 372 Q200 306 430 352 T820 344 T1200 360 V630 H0 Z" fill="#d9a58f"/>
+  <path d="M0 430 Q250 352 520 410 T1010 392 T1200 420 V630 H0 Z" fill="#a85a62"/>
+  <path d="M0 520 Q300 458 610 506 T1200 486 V630 H0 Z" fill="#7a1f2b"/>
+
+  <!-- caminho -->
+  <path d="M500 630 C548 566 650 530 596 478 C556 440 604 412 600 378 L614 378 C648 410 614 440 656 480 C722 534 640 574 724 630 Z" fill="#f6ead8"/>
+
+  <!-- marcos do caminho: 4 semanas -->
+  <g fill="#e9b45f" stroke="#7a1f2b" stroke-opacity=".35" stroke-width="2">
+    <circle cx="612" cy="598" r="10"/>
+    <circle cx="628" cy="530" r="8"/>
+    <circle cx="607" cy="470" r="6"/>
+    <circle cx="607" cy="418" r="4.5"/>
+  </g>
+</svg>
