@@ -52,3 +52,11 @@ h1{font-size:1.8rem}
 }
 
 .imagem-destaque{margin:0 0 24px}.imagem-destaque img{width:100%;height:auto;border-radius:12px}
+.post-item{display:grid;grid-template-columns:220px 1fr;gap:20px;align-items:start}
+.post-item.sem-miniatura{display:block}
+.miniatura{display:block;border-radius:10px;overflow:hidden;line-height:0}
+.miniatura img{width:100%;height:auto;aspect-ratio:440/231;object-fit:cover;transition:transform .2s}
+.miniatura:hover img{transform:scale(1.03)}
+.post-texto .meta{display:block}
+@media(max-width:600px){.post-item{grid-template-columns:1fr;gap:12px}}
+@media(prefers-reduced-motion:reduce){.miniatura img{transition:none}}

@@ -21,6 +21,20 @@ for (const file of files) {
   console.log('gerado', out);
 }
 
+// Miniaturas (440x231, WebP) para as listas de posts, em public/images/posts/thumbs/.
+const THUMB_DIR = join(OUT_DIR, 'thumbs');
+await mkdir(THUMB_DIR, { recursive: true });
+for (const file of files) {
+  const name = basename(file, '.svg');
+  const svg = await readFile(join(ART_DIR, file));
+  const out = join(THUMB_DIR, `${name}.webp`);
+  await sharp(svg, { density: 144 })
+    .resize(440, 231, { fit: 'cover' })
+    .webp({ quality: 82 })
+    .toFile(out);
+  console.log('miniatura', out);
+}
+
 // Imagem padrão de compartilhamento (redes sociais não aceitam SVG).
 const og = await readFile(join('public', 'og-default.svg'));
 await sharp(og, { density: 144 })

@@ -6,20 +6,42 @@ interface Props {
   posts: CollectionEntry<'blog'>[];
 }
 const { posts } = Astro.props;
+
+/** "/images/posts/slug.png" -> "/images/posts/thumbs/slug.webp" (gerada por `npm run images`). */
+const thumbOf = (image?: string) =>
+  image ? image.replace(/\/([^/]+)\.\w+$/, '/thumbs/$1.webp') : undefined;
 ---
 
 <ul class="lista-posts">
   {
-    posts.map((post) => (
-      <li>
-        <span class="meta">
-          <span class="tag">{post.data.category}</span> {formatDate(post.data.pubDate)}
-        </span>
-        <h2>
-          <a href={`/blog/${post.id}`}>{post.data.title}</a>
-        </h2>
-        <p>{post.data.description}</p>
-      </li>
-    ))
+    posts.map((post, index) => {
+      const thumb = thumbOf(post.data.image);
+      const href = `/blog/${post.id}`;
+      return (
+        <li class:list={['post-item', { 'sem-miniatura': !thumb }]}>
+          {thumb && (
+            <a class="miniatura" href={href} tabindex="-1" aria-hidden="true">
+              <img
+                src={thumb}
+                alt=""
+                width="440"
+                height="231"
+                loading={index < 2 ? 'eager' : 'lazy'}
+                decoding="async"
+              />
+            </a>
+          )}
+          <div class="post-texto">
+            <span class="meta">
+              <span class="tag">{post.data.category}</span> {formatDate(post.data.pubDate)}
+            </span>
+            <h2>
+              <a href={href}>{post.data.title}</a>
+            </h2>
+            <p>{post.data.description}</p>
+          </div>
+        </li>
+      );
+    })
   }
 </ul>
