@@ -12,7 +12,7 @@ tags: ["fé", "confiança em Deus", "Bíblia", "vida cristã"]
 
 ## O que é fé, segundo a Bíblia
 
-A definição mais citada está em Hebreus 11:1: a fé é a certeza daquilo que esperamos e a prova das coisas que não vemos. O mesmo capítulo apresenta pessoas que confiaram em Deus antes de ver o resultado, como Abraão, Noé e Moisés.
+A definição mais citada está em Hebreus 11:1: "a fé é o firme fundamento das coisas que se esperam e a prova das coisas que se não veem". O mesmo capítulo apresenta pessoas que confiaram em Deus antes de ver o resultado, como Abraão, Noé e Moisés.
 
 Algumas ideias importantes do texto bíblico:
 
@@ -22,15 +22,15 @@ Algumas ideias importantes do texto bíblico:
 
 ## A fé não precisa ser grande para começar
 
-Os discípulos pediram a Jesus: "aumenta a nossa fé" (Lucas 17:5). Jesus respondeu que uma fé do tamanho de um grão de mostarda já pode muito (Mateus 17:20; Lucas 17:6). A lição é que o **tamanho da fé importa menos do que a grandeza daquele em quem se confia**.
+Os discípulos pediram a Jesus: "Acrescenta-nos a fé" (Lucas 17:5). Jesus respondeu que uma fé do tamanho de um grão de mostarda já pode muito (Mateus 17:20; Lucas 17:6). A lição é que o **tamanho da fé importa menos do que a grandeza daquele em quem se confia**.
 
-Um pai desesperado diz a Jesus uma frase honesta: "Eu creio; ajuda-me na minha falta de fé!" (Marcos 9:24). Você pode orar assim: reconhecer que confia um pouco e pedir ajuda para confiar mais.
+Um pai desesperado diz a Jesus uma frase honesta: "Eu creio, Senhor! Ajuda a minha incredulidade" (Marcos 9:24). Você pode orar assim: reconhecer que confia um pouco e pedir ajuda para confiar mais.
 
 ## 5 passos práticos para fortalecer a fé
 
 ### 1. Ouça a Palavra
 
-Romanos 10:17 diz que a fé vem pelo ouvir, e o ouvir pela palavra de Cristo. Reserve um tempo diário para ler ou ouvir a Bíblia. Se você está começando, veja [Como ler a Bíblia todos os dias](/blog/como-ler-a-biblia-todos-os-dias).
+Romanos 10:17 diz: "a fé é pelo ouvir, e o ouvir pela palavra de Deus". Reserve um tempo diário para ler ou ouvir a Bíblia. Se você está começando, veja [Como ler a Bíblia todos os dias](/blog/como-ler-a-biblia-todos-os-dias).
 
 ### 2. Ore com sinceridade
 

@@ -1,0 +1,17 @@
+{
+  "slug": "salmos-para-ler-antes-de-dormir",
+  "arte": "public/images/posts/salmos-para-ler-antes-de-dormir.png",
+  "legenda": "Qual salmo você costuma ler à noite? Conte nos comentários.\n\nCompartilhe com alguém que anda dormindo preocupado.\n\nLeia o texto completo, com o contexto de cada salmo e uma oração para antes de dormir, em ateladoreino.com (link na bio).\n\nConteúdo devocional. Não substitui ajuda profissional, médica ou pastoral. Se a dificuldade para dormir se repete por semanas, procure um médico ou psicólogo.\n\n#Salmos #OraçãoDaNoite #Descanso #Devocional #Bíblia #ATelaDoReino",
+  "slides": [
+    { "tipo": "capa", "titulo": "6 salmos para ler antes de dormir" },
+    { "tipo": "versiculo", "citacao": "…quando me lembrar de ti na minha cama e meditar em ti nas vigílias da noite.", "ref": "Salmos 63:6", "comentario": "Um salmo à noite é entrega." },
+    { "tipo": "versiculo", "citacao": "Em paz também me deitarei e dormirei, porque só tu, Senhor, me fazes habitar em segurança.", "ref": "Salmos 4:8", "comentario": "Para quando o dia foi tenso." },
+    { "tipo": "versiculo", "citacao": "Eu me deitei e dormi; acordei, porque o Senhor me sustentou.", "ref": "Salmos 3:5", "comentario": "Davi escreveu fugindo de Absalão. Para noites de medo." },
+    { "tipo": "texto", "titulo": "Salmo 23", "texto": "Deus como pastor que nos guia a águas tranquilas e acompanha até no vale escuro (Salmos 23:2-4). Para quem precisa de consolo." },
+    { "tipo": "versiculo", "citacao": "Aquele que habita no esconderijo do Altíssimo, à sombra do Onipotente descansará.", "ref": "Salmos 91:1", "comentario": "Um texto de confiança em Deus, não um amuleto." },
+    { "tipo": "versiculo", "citacao": "Eis que não tosquenejará nem dormirá o guarda de Israel.", "ref": "Salmos 121:4", "comentario": "Tosquenejar é cochilar: Deus continua atento." },
+    { "tipo": "versiculo", "citacao": "…pois assim dá ele aos seus amados o sono.", "ref": "Salmos 127:2", "comentario": "Descansar também é uma forma de confiar." },
+    { "tipo": "lista", "titulo": "Como ler", "itens": ["Escolha um salmo só.", "Leia devagar, em voz baixa.", "Deixe o celular de lado.", "Termine com uma oração curta."] },
+    { "tipo": "final", "titulo": "Salve este post", "texto": "Leia o texto completo, com uma oração para antes de dormir, em ateladoreino.com (link na bio).", "rodape": "Leonardo Paiva, A Tela do Reino" }
+  ]
+}

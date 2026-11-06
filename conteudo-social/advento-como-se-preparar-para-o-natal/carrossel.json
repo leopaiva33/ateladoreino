@@ -1,0 +1,17 @@
+{
+  "slug": "advento-como-se-preparar-para-o-natal",
+  "arte": "public/images/posts/advento-como-se-preparar-para-o-natal.png",
+  "legenda": "Você costuma viver o Advento em casa ou na igreja? Conte nos comentários.\n\nCompartilhe com quem quer chegar ao Natal com menos correria e mais esperança.\n\nLeia o texto completo, com o plano de leituras e ideias para viver o Advento com crianças, em ateladoreino.com (link na bio).\n\n#Advento #Natal #Esperança #Devocional #Bíblia #ATelaDoReino",
+  "slides": [
+    { "tipo": "capa", "titulo": "Advento: como se preparar para o Natal em 4 semanas" },
+    { "tipo": "texto", "texto": "Advento vem do latim adventus, “vinda”. São as quatro semanas antes do Natal: um tempo de espera e esperança." },
+    { "tipo": "texto", "titulo": "Em 2026", "texto": "Começa no domingo, 29 de novembro, e vai até 24 de dezembro, véspera de Natal." },
+    { "tipo": "versiculo", "citacao": "E a luz resplandece nas trevas…", "ref": "João 1:5", "comentario": "Cada vela acesa na coroa lembra que Cristo é a luz que brilha nas trevas." },
+    { "tipo": "versiculo", "citacao": "O povo que andava em trevas viu uma grande luz…", "ref": "Isaías 9:2", "comentario": "Semana 1, esperança: escreva o que espera de Deus e ore por isso." },
+    { "tipo": "texto", "titulo": "Semana 2: paz", "texto": "Leia Isaías 11:1-10. Reconcilie-se com alguém ou ore por quem você tem dificuldade em perdoar." },
+    { "tipo": "texto", "titulo": "Semana 3: alegria", "texto": "Leia Lucas 1:39-56: Maria visita Isabel e canta de alegria. Liste motivos de gratidão e compartilhe sua alegria com alguém." },
+    { "tipo": "versiculo", "citacao": "Porque Deus amou o mundo de tal maneira que deu o seu Filho unigênito…", "ref": "João 3:16", "comentario": "Semana 4, amor: faça um gesto concreto de amor." },
+    { "tipo": "texto", "titulo": "Na véspera", "texto": "Leia Lucas 2:1-20 em família antes da ceia. É a história de Belém, contada de forma simples." },
+    { "tipo": "final", "titulo": "Salve este post", "texto": "Leia o plano completo do Advento em ateladoreino.com (link na bio).", "rodape": "Leonardo Paiva, A Tela do Reino" }
+  ]
+}

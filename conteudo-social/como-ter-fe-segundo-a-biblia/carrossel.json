@@ -1,0 +1,17 @@
+{
+  "slug": "como-ter-fe-segundo-a-biblia",
+  "arte": "public/images/posts/como-ter-fe-segundo-a-biblia.png",
+  "legenda": "O que tem ajudado a sua fé a crescer? Conte nos comentários.\n\nCompartilhe com alguém que está com a fé cansada.\n\nLeia o texto completo, com 5 passos práticos para fortalecer a fé, em ateladoreino.com (link na bio).\n\nConteúdo devocional. Não substitui ajuda profissional, médica ou pastoral. Fé não garante cura: doença se trata com cuidado médico, e a fé acompanha.\n\n#Fé #ConfiançaEmDeus #Devocional #Bíblia #VidaCristã #ATelaDoReino",
+  "slides": [
+    { "tipo": "capa", "titulo": "Como ter fé segundo a Bíblia" },
+    { "tipo": "versiculo", "citacao": "Ora, a fé é o firme fundamento das coisas que se esperam e a prova das coisas que se não veem.", "ref": "Hebreus 11:1", "comentario": "Fé é confiança." },
+    { "tipo": "texto", "titulo": "Fé não é fórmula", "texto": "Não é uma força que você fabrica, nem um jeito de conseguir o que quer. É confiar em Deus." },
+    { "tipo": "versiculo", "citacao": "Eu creio, Senhor! Ajuda a minha incredulidade.", "ref": "Marcos 9:24", "comentario": "Fé e dúvida podem aparecer juntas. Você pode pedir ajuda para confiar mais." },
+    { "tipo": "texto", "titulo": "Do tamanho de um grão de mostarda", "texto": "Jesus ensinou que até uma fé pequena pode muito (Mateus 17:20). Importa mais em quem você confia." },
+    { "tipo": "versiculo", "citacao": "De sorte que a fé é pelo ouvir, e o ouvir pela palavra de Deus.", "ref": "Romanos 10:17", "comentario": "Reserve um tempo diário para a Bíblia." },
+    { "tipo": "lista", "titulo": "Outros passos", "itens": ["Ore com sinceridade.", "Lembre e anote o que Deus já fez (Salmos 77:11).", "Viva em comunidade.", "Dê um passo de obediência."] },
+    { "tipo": "versiculo", "citacao": "Assim também a fé, se não tiver as obras, é morta em si mesma.", "ref": "Tiago 2:17", "comentario": "Quem confia vive de acordo com o que confia." },
+    { "tipo": "versiculo", "citacao": "Todavia, eu me alegrarei no Senhor, exultarei no Deus da minha salvação.", "ref": "Habacuque 3:18", "comentario": "Mesmo sem colheita (v. 17), Habacuque confiou. Sofrer não é falta de fé." },
+    { "tipo": "final", "titulo": "Salve este post", "texto": "Leia o texto completo em ateladoreino.com (link na bio).", "rodape": "Leonardo Paiva, A Tela do Reino" }
+  ]
+}

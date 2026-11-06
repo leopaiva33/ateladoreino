@@ -1,0 +1,17 @@
+{
+  "slug": "como-orar",
+  "arte": "public/images/posts/como-orar.png",
+  "legenda": "Qual desses passos é o mais difícil para você? Conte nos comentários.\n\nCompartilhe com alguém que quer começar a orar.\n\nLeia o texto completo, com o Pai Nosso como roteiro e um exemplo de oração, em ateladoreino.com (link na bio).\n\nConteúdo devocional. Não substitui ajuda profissional, médica ou pastoral. Se você está em sofrimento intenso, ligue 188 (CVV), 24 horas.\n\n#ComoOrar #Oração #Devocional #Fé #Bíblia #ATelaDoReino",
+  "slides": [
+    { "tipo": "capa", "titulo": "Como orar: 5 passos simples para começar" },
+    { "tipo": "texto", "texto": "Orar é conversar com Deus com as suas próprias palavras. Não existe fórmula obrigatória nem palavras mágicas." },
+    { "tipo": "versiculo", "citacao": "Senhor, ensina-nos a orar…", "ref": "Lucas 11:1", "comentario": "Até os discípulos de Jesus precisaram aprender. Não há vergonha em começar do zero." },
+    { "tipo": "versiculo", "citacao": "Aquietai-vos e sabei que eu sou Deus…", "ref": "Salmos 46:10", "comentario": "Passo 1: silencie. Desligue as notificações e diga: “Deus, estou aqui”." },
+    { "tipo": "versiculo", "citacao": "…as vossas petições sejam em tudo conhecidas diante de Deus, pela oração e súplicas, com ação de graças.", "ref": "Filipenses 4:6", "comentario": "Passo 2: peça agradecendo." },
+    { "tipo": "versiculo", "citacao": "Se confessarmos os nossos pecados, ele é fiel e justo para nos perdoar…", "ref": "1 João 1:9", "comentario": "Passo 3: seja honesto sobre as suas falhas." },
+    { "tipo": "texto", "titulo": "Passo 4: peça", "texto": "Fale das suas necessidades reais. Depois ore pela família, pelos amigos e por quem passa por um momento difícil." },
+    { "tipo": "texto", "titulo": "Passo 5: escute", "texto": "Fique um minuto em silêncio, sem falar. Depois encerre agradecendo. “Amém” significa “assim seja”." },
+    { "tipo": "lista", "titulo": "Dúvidas comuns", "itens": ["Olhos fechados? Não é obrigatório.", "Palavras difíceis? Não precisa.", "Só em pensamento? Também vale.", "Travou? Diga: “Deus, não sei orar”."] },
+    { "tipo": "final", "titulo": "Salve este post", "texto": "Leia o guia completo, com um exemplo de oração, em ateladoreino.com (link na bio).", "rodape": "Leonardo Paiva, A Tela do Reino" }
+  ]
+}

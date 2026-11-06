@@ -12,7 +12,7 @@ tags: ["salmos", "oração da noite", "descanso", "confiança"]
 
 ## Por que ler salmos à noite
 
-O livro de Salmos reúne orações de pessoas reais em momentos de medo, cansaço, culpa e alegria. Um deles descreve um hábito simples: "quando me deito, lembro-me de ti e medito em ti durante as vigílias da noite" (Salmos 63:6). Encerrar o dia com um salmo cria um momento de pausa e de entrega, em vez de deixar a mente repassar tudo o que ficou por fazer.
+O livro de Salmos reúne orações de pessoas reais em momentos de medo, cansaço, culpa e alegria. Um deles descreve um hábito simples: "quando me lembrar de ti na minha cama e meditar em ti nas vigílias da noite" (Salmos 63:6). Encerrar o dia com um salmo cria um momento de pausa e de entrega, em vez de deixar a mente repassar tudo o que ficou por fazer.
 
 ## Como usar (sem complicar)
 
@@ -23,11 +23,11 @@ O livro de Salmos reúne orações de pessoas reais em momentos de medo, cansaç
 
 ## 6 salmos para ler antes de dormir
 
-### Salmo 4: "em paz me deito e logo adormeço"
+### Salmo 4: "em paz também me deitarei e dormirei"
 
 O Salmo 4 é uma oração de fim de dia de alguém em aperto. No último versículo, o salmista declara que se deita em paz e adormece, porque é Deus quem o faz habitar em segurança (Salmos 4:8). **Bom para:** quando o dia foi tenso e você precisa soltar as preocupações.
 
-### Salmo 3: "deitei-me e dormi; acordei, porque o Senhor me sustenta"
+### Salmo 3: "eu me deitei e dormi; acordei, porque o Senhor me sustentou"
 
 O título do Salmo 3 diz que ele foi escrito por Davi quando fugia de seu filho Absalão. Mesmo cercado de ameaças, ele diz que se deitou, dormiu e acordou, porque o Senhor o sustenta (Salmos 3:5). **Bom para:** noites de medo e de problemas sem solução à vista.
 
