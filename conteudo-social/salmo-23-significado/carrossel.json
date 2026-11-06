@@ -1,0 +1,17 @@
+{
+  "slug": "salmo-23-significado",
+  "arte": "public/images/posts/salmo-23-significado.png",
+  "legenda": "Qual versículo do Salmo 23 mais fala ao seu coração hoje? Conte nos comentários.\n\nCompartilhe com alguém que está atravessando um vale.\n\nLeia o texto completo, com o plano de 6 dias para meditar no salmo, em ateladoreino.com (link na bio).\n\nConteúdo devocional. Não substitui ajuda profissional, médica ou pastoral.\n\n#Salmo23 #Bíblia #Devocional #Fé #Oração #ATelaDoReino",
+  "slides": [
+    { "tipo": "capa", "titulo": "Salmo 23: o significado das imagens do pastor" },
+    { "tipo": "texto", "texto": "Atribuído a Davi, que foi pastor de ovelhas antes de ser rei. Ele fala de Deus como quem sabe o que um pastor faz." },
+    { "tipo": "versiculo", "citacao": "O Senhor é o meu pastor, nada me faltará.", "ref": "Salmos 23:1", "comentario": "Não é uma vida sem perdas. É não ficar sem cuidado, direção e presença." },
+    { "tipo": "versiculo", "citacao": "Deitar-me faz em verdes pastos, guia-me mansamente a águas tranquilas.", "ref": "Salmos 23:2", "comentario": "Deus leva você a um lugar de descanso." },
+    { "tipo": "versiculo", "citacao": "Ainda que eu andasse pelo vale da sombra da morte, não temeria mal algum, porque tu estás comigo.", "ref": "Salmos 23:4", "comentario": "O vale é passagem." },
+    { "tipo": "versiculo", "citacao": "Preparas uma mesa perante mim na presença dos meus inimigos.", "ref": "Salmos 23:5", "comentario": "Deus acolhe você com honra." },
+    { "tipo": "versiculo", "citacao": "…a bondade e a misericórdia me seguirão todos os dias da minha vida.", "ref": "Salmos 23:6", "comentario": "A bondade de Deus vai atrás de você." },
+    { "tipo": "texto", "titulo": "O que o Salmo 23 não promete", "texto": "Uma vida sem dor nem prosperidade garantida. Ele aponta para presença, cuidado e direção." },
+    { "tipo": "lista", "titulo": "Como orar com ele", "itens": ["Leia devagar.", "Escolha um versículo.", "Troque “ele” por “tu”.", "Conte a Deus qual é o seu vale."] },
+    { "tipo": "final", "titulo": "Salve este post", "texto": "Leia o texto completo em ateladoreino.com (link na bio).", "rodape": "Leonardo Paiva, A Tela do Reino" }
+  ]
+}

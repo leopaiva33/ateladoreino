@@ -1,0 +1,40 @@
+name: Publicar carrossel no Instagram
+
+# Disparo manual (Actions > Publicar carrossel no Instagram > Run workflow).
+# Exige os segredos IG_USER_ID e IG_ACCESS_TOKEN do repositório e que os slides
+# já estejam no ar em https://ateladoreino.com/social/<slug>/.
+on:
+  workflow_dispatch:
+    inputs:
+      slug:
+        description: 'Slug do artigo (ex.: salmo-23-significado)'
+        required: true
+        type: string
+      publicar:
+        description: 'Marque para publicar de verdade; desmarcado, só simula'
+        required: false
+        default: false
+        type: boolean
+
+jobs:
+  instagram:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Simular ou publicar
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          SLUG: ${{ inputs.slug }}
+          PUBLICAR: ${{ inputs.publicar }}
+        run: |
+          if [ "$PUBLICAR" = "true" ]; then
+            node scripts/publicar-instagram.mjs "$SLUG" --publicar
+          else
+            node scripts/publicar-instagram.mjs "$SLUG"
+          fi

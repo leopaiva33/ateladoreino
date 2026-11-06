@@ -9,7 +9,9 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "images": "node scripts/render-images.mjs"
+    "images": "node scripts/render-images.mjs",
+    "carrossel": "node scripts/gerar-carrossel.mjs",
+    "instagram": "node scripts/publicar-instagram.mjs"
   },
   "dependencies": {
     "@astrojs/rss": "^4.0.19",
