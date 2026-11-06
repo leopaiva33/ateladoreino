@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#26305c"/>
+      <stop offset=".5" stop-color="#c9805f"/>
+      <stop offset="1" stop-color="#f6d9a8"/>
+    </linearGradient>
+    <linearGradient id="lake" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e9b98a"/>
+      <stop offset="1" stop-color="#6a4a70"/>
+    </linearGradient>
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a2740"/>
+      <stop offset="1" stop-color="#150c1c"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#sky)"/>
+  <circle cx="600" cy="300" r="64" fill="#fffaf0"/>
+  <circle cx="600" cy="300" r="150" fill="#f9e4b0" opacity=".35"/>
+
+  <!-- montanhas distantes -->
+  <path d="M0 330 L180 250 L330 320 L520 240 L700 330 L880 260 L1060 330 L1200 290 V380 H0 Z" fill="#6a4a70" opacity=".8"/>
+
+  <!-- lago -->
+  <rect y="360" width="1200" height="120" fill="url(#lake)"/>
+  <g stroke="#fbf1dc" stroke-width="3" opacity=".4" stroke-linecap="round">
+    <path d="M520 400 H680"/>
+    <path d="M550 420 H650"/>
+  </g>
+
+  <!-- terra -->
+  <path d="M0 480 Q300 450 600 478 T1200 470 V630 H0 Z" fill="url(#ground)"/>
+
+  <!-- doze silhuetas em fila (sem rostos) -->
+  <defs>
+    <g id="p">
+      <circle cx="0" cy="-40" r="9"/>
+      <path d="M-11 -28 H11 L15 14 H-15 Z"/>
+    </g>
+  </defs>
+  <g fill="#0f0714">
+    <use href="#p" transform="translate(130 545) scale(1.15)"/>
+    <use href="#p" transform="translate(215 535) scale(1.1)"/>
+    <use href="#p" transform="translate(300 528) scale(1.05)"/>
+    <use href="#p" transform="translate(380 522) scale(1.0)"/>
+    <use href="#p" transform="translate(455 518) scale(.97)"/>
+    <use href="#p" transform="translate(525 514) scale(.94)"/>
+    <use href="#p" transform="translate(592 512) scale(.92)"/>
+    <use href="#p" transform="translate(655 514) scale(.94)"/>
+    <use href="#p" transform="translate(722 518) scale(.97)"/>
+    <use href="#p" transform="translate(795 522) scale(1.0)"/>
+    <use href="#p" transform="translate(880 528) scale(1.05)"/>
+    <use href="#p" transform="translate(968 535) scale(1.1)"/>
+  </g>
+</svg>

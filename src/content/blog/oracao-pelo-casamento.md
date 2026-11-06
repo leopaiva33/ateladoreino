@@ -1,7 +1,7 @@
 ---
 title: "Oração pelo casamento: como orar pelo seu casamento"
 description: "Como orar pelo casamento: o que a Bíblia diz sobre o matrimônio, 7 formas práticas de orar pelo cônjuge e pela relação, e um exemplo de oração."
-pubDate: 2027-01-04T07:00:00-03:00
+pubDate: 2026-11-23T07:00:00-03:00
 image: "/images/posts/oracao-pelo-casamento.png"
 imageAlt: "Ilustração de duas alianças de ouro entrelaçadas sobre um fundo vinho iluminado"
 category: "Vida cristã"

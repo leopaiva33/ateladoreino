@@ -2,8 +2,12 @@
 import { render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import AdSlot from '../../components/AdSlot.astro';
+import AutorBox from '../../components/AutorBox.astro';
+import LeiaTambem from '../../components/LeiaTambem.astro';
 import { SITE } from '../../config';
-import { getPublishedPosts, formatDate } from '../../utils/posts';
+import Compartilhar from '../../components/Compartilhar.astro';
+import { getPublishedPosts, getRelatedPosts, formatDate } from '../../utils/posts';
+import { jsonLdArtigo } from '../../utils/jsonld';
 
 export async function getStaticPaths() {
   const posts = await getPublishedPosts();
@@ -12,7 +16,19 @@ export async function getStaticPaths() {
 
 const { post } = Astro.props;
 const { Content } = await render(post);
-const { title, description, pubDate, category, tags, image, imageAlt } = post.data;
+const relacionados = await getRelatedPosts(post, 3);
+const { title, description, pubDate, updatedDate, category, tags, image, imageAlt } = post.data;
+const caminho = `/blog/${post.id}/`;
+const urlCompleta = new URL(caminho, SITE.url).href;
+const jsonLd = jsonLdArtigo({
+  titulo: title,
+  descricao: description,
+  caminho,
+  imagem: image,
+  publicado: pubDate,
+  atualizado: updatedDate,
+  body: post.body,
+});
 ---
 
 <BaseLayout
@@ -20,13 +36,22 @@ const { title, description, pubDate, category, tags, image, imageAlt } = post.da
   description={description}
   type="article"
   publishedTime={pubDate}
+  modifiedTime={updatedDate}
   image={image}
+  jsonLd={jsonLd}
 >
   <article class="artigo container">
     <header>
       <p class="meta">
         <span class="tag">{category}</span>
-        Publicado em {formatDate(pubDate)}
+        Publicado em <time datetime={pubDate.toISOString()}>{formatDate(pubDate)}</time>
+        {
+          updatedDate && (
+            <>
+              {' · '}Atualizado em <time datetime={updatedDate.toISOString()}>{formatDate(updatedDate)}</time>
+            </>
+          )
+        }
       </p>
       <h1>{title}</h1>
       <p><em>{description}</em></p>
@@ -63,6 +88,12 @@ const { title, description, pubDate, category, tags, image, imageAlt } = post.da
     }
 
     <AdSlot slot={SITE.adsense.slots.rodape} />
+
+    <Compartilhar url={urlCompleta} titulo={title} />
+
+    <AutorBox />
+
+    <LeiaTambem posts={relacionados} />
 
     <p><a href="/blog">← Voltar para todas as reflexões</a></p>
   </article>

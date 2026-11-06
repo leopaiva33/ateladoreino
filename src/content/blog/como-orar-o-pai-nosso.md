@@ -1,7 +1,7 @@
 ---
 title: "Como orar o Pai Nosso: o significado de cada pedido"
 description: "O Pai Nosso explicado linha por linha: o que cada pedido significa, como usar a oração como modelo para orar com as suas palavras e dúvidas comuns."
-pubDate: 2027-01-18T07:00:00-03:00
+pubDate: 2026-11-26T07:00:00-03:00
 image: "/images/posts/como-orar-o-pai-nosso.png"
 imageAlt: "Ilustração de uma casinha com a janela acesa no alto de uma colina ao entardecer, com um caminho que leva até ela"
 category: "Oração"

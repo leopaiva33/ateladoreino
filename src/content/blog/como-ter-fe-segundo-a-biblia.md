@@ -1,7 +1,7 @@
 ---
 title: "Como ter fé segundo a Bíblia (sem fórmula mágica)"
 description: "O que a Bíblia ensina sobre a fé e como fortalecê-la na prática: ouvir a Palavra, orar com sinceridade, lembrar o que Deus fez e agir com confiança."
-pubDate: 2026-11-30T07:00:00-03:00
+pubDate: 2026-11-14T07:00:00-03:00
 image: "/images/posts/como-ter-fe-segundo-a-biblia.png"
 imageAlt: "Ilustração de um pequeno broto crescendo na terra sob a luz do sol nascente"
 category: "Esperança"

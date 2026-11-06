@@ -1,7 +1,7 @@
 ---
 title: "Salmos para ler antes de dormir: 6 textos explicados"
 description: "Seis salmos para ler antes de dormir, com o contexto de cada um e uma oração curta para encerrar o dia com confiança e descanso."
-pubDate: 2026-11-16T07:00:00-03:00
+pubDate: 2026-11-10T07:00:00-03:00
 image: "/images/posts/salmos-para-ler-antes-de-dormir.png"
 imageAlt: "Ilustração de uma noite estrelada com lua crescente sobre um lago calmo e colinas"
 category: "Esperança"

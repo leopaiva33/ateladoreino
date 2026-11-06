@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#14182e"/>
+      <stop offset=".6" stop-color="#3a3560"/>
+      <stop offset="1" stop-color="#7a5a6e"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".72" cy=".3" r=".5">
+      <stop offset="0" stop-color="#f9e4b0" stop-opacity=".85"/>
+      <stop offset="1" stop-color="#f9e4b0" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="hill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2a2038"/>
+      <stop offset="1" stop-color="#0f0b18"/>
+    </linearGradient>
+    <linearGradient id="ray" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fbf1dc" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#fbf1dc" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#sky)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+
+  <!-- nuvens de tempestade abrindo -->
+  <g fill="#1b1c36" opacity=".9">
+    <ellipse cx="200" cy="110" rx="260" ry="70"/>
+    <ellipse cx="520" cy="70" rx="300" ry="60"/>
+    <ellipse cx="90" cy="220" rx="200" ry="50"/>
+    <ellipse cx="420" cy="190" rx="220" ry="45"/>
+  </g>
+
+  <!-- raios de luz -->
+  <polygon points="820,150 760,630 900,630" fill="url(#ray)"/>
+  <polygon points="860,150 940,630 1060,630" fill="url(#ray)" opacity=".7"/>
+  <circle cx="860" cy="150" r="46" fill="#fbf1dc"/>
+
+  <!-- colina -->
+  <path d="M0 520 Q300 400 620 470 T1200 440 V630 H0 Z" fill="url(#hill)"/>
+
+  <!-- árvore firme -->
+  <g stroke="#0b0812" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M600 470 C598 410 604 360 596 300" stroke-width="22"/>
+    <path d="M598 380 C560 360 530 330 505 290" stroke-width="12"/>
+    <path d="M600 340 C640 320 670 290 690 250" stroke-width="12"/>
+    <path d="M596 300 C590 270 592 240 600 215" stroke-width="10"/>
+  </g>
+  <g fill="#0b0812">
+    <ellipse cx="500" cy="270" rx="58" ry="40"/>
+    <ellipse cx="700" cy="235" rx="62" ry="42"/>
+    <ellipse cx="600" cy="195" rx="64" ry="46"/>
+    <ellipse cx="545" cy="235" rx="48" ry="34"/>
+    <ellipse cx="655" cy="270" rx="48" ry="34"/>
+  </g>
+
+  <!-- vento -->
+  <g stroke="#f9e4b0" stroke-width="3" stroke-linecap="round" fill="none" opacity=".35">
+    <path d="M120 360 Q200 340 280 360"/>
+    <path d="M900 340 Q990 318 1080 340"/>
+    <path d="M980 400 Q1040 385 1110 402"/>
+  </g>
+</svg>

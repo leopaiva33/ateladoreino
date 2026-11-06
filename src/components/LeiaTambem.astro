@@ -1,0 +1,37 @@
+---
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  posts: CollectionEntry<'blog'>[];
+}
+const { posts } = Astro.props;
+
+/** "/images/posts/slug.png" -> "/images/posts/thumbs/slug.webp" (gerada por `npm run images`). */
+const thumbOf = (image?: string) =>
+  image ? image.replace(/\/([^/]+)\.\w+$/, '/thumbs/$1.webp') : undefined;
+---
+
+{
+  posts.length > 0 && (
+    <section class="leia-tambem" aria-labelledby="leia-tambem-titulo">
+      <h2 id="leia-tambem-titulo">Leia também</h2>
+      <ul>
+        {posts.map((post) => {
+          const thumb = thumbOf(post.data.image);
+          const href = `/blog/${post.id}`;
+          return (
+            <li>
+              <a class="leia-tambem-card" href={href}>
+                {thumb && (
+                  <img src={thumb} alt="" width="440" height="231" loading="lazy" decoding="async" />
+                )}
+                <span class="leia-tambem-categoria">{post.data.category}</span>
+                <span class="leia-tambem-titulo">{post.data.title}</span>
+              </a>
+            </li>
+          );
+        })}
+      </ul>
+    </section>
+  )
+}

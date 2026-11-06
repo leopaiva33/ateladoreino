@@ -1,6 +1,8 @@
 ---
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import Analytics from '@vercel/analytics/astro';
+import SpeedInsights from '@vercel/speed-insights/astro';
 import { SITE } from '../config';
 import '../styles/global.css';
 
@@ -12,10 +14,14 @@ interface Props {
   type?: 'website' | 'article';
   /** Data de publicação (posts). */
   publishedTime?: Date;
+  /** Data da última atualização do texto (posts), quando houver. */
+  modifiedTime?: Date;
   /** Imagem de compartilhamento (caminho em /public). Padrão: SITE.ogImage. */
   image?: string;
   /** Largura estreita (padrão) usa .container no <main>. */
   mainClass?: string;
+  /** Dados estruturados (schema.org) desta página: um objeto ou uma lista. */
+  jsonLd?: Record<string, unknown> | Record<string, unknown>[];
 }
 
 const {
@@ -23,9 +29,12 @@ const {
   description = SITE.description,
   type = 'website',
   publishedTime,
+  modifiedTime,
   image,
   mainClass = 'container',
+  jsonLd,
 } = Astro.props;
+const blocosJsonLd = jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [];
 
 const fullTitle = title ? `${title} | ${SITE.name}` : SITE.name;
 const pathname = Astro.url.pathname.endsWith('/') ? Astro.url.pathname : `${Astro.url.pathname}/`;
@@ -60,6 +69,17 @@ const ogImage = new URL(image ?? SITE.ogImage, SITE.url).href;
         <meta property="article:published_time" content={publishedTime.toISOString()} />
       )
     }
+    {
+      modifiedTime && (
+        <meta property="article:modified_time" content={modifiedTime.toISOString()} />
+      )
+    }
+
+    {
+      blocosJsonLd.map((bloco) => (
+        <script type="application/ld+json" set:html={JSON.stringify(bloco)} />
+      ))
+    }
 
     <script
       is:inline
@@ -73,5 +93,7 @@ const ogImage = new URL(image ?? SITE.ogImage, SITE.url).href;
       <slot />
     </main>
     <Footer />
+    <Analytics />
+    <SpeedInsights />
   </body>
 </html>

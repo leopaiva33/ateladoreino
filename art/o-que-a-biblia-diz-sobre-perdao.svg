@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2d2a5c"/>
+      <stop offset=".55" stop-color="#b5738a"/>
+      <stop offset="1" stop-color="#f6d9a8"/>
+    </linearGradient>
+    <radialGradient id="halo" cx=".5" cy=".45" r=".4">
+      <stop offset="0" stop-color="#fbf1dc" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#fbf1dc" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a2740"/>
+      <stop offset="1" stop-color="#150c1c"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#sky)"/>
+  <ellipse cx="600" cy="290" rx="380" ry="260" fill="url(#halo)"/>
+
+  <!-- chão -->
+  <path d="M0 520 Q300 480 600 510 T1200 500 V630 H0 Z" fill="url(#ground)"/>
+
+  <!-- duas mãos que se aproximam (formas simples) -->
+  <g fill="#150c1c">
+    <path d="M250 330 Q330 300 420 320 L520 335 Q545 340 540 360 Q532 378 505 376 L430 366 Q400 395 330 392 Q270 390 250 370 Z"/>
+    <path d="M950 330 Q870 300 780 320 L680 335 Q655 340 660 360 Q668 378 695 376 L770 366 Q800 395 870 392 Q930 390 950 370 Z"/>
+  </g>
+
+  <!-- punhos arredondados -->
+  <g fill="#150c1c">
+    <ellipse cx="262" cy="350" rx="30" ry="36"/>
+    <ellipse cx="938" cy="350" rx="30" ry="36"/>
+  </g>
+
+  <!-- ponto de luz entre as mãos -->
+  <circle cx="600" cy="352" r="40" fill="#fffaf0"/>
+  <circle cx="600" cy="352" r="86" fill="#fbf1dc" opacity=".35"/>
+
+  <!-- corrente quebrada caindo -->
+  <g stroke="#0e0714" stroke-width="12" fill="none" stroke-linecap="round">
+    <ellipse cx="420" cy="455" rx="36" ry="20" transform="rotate(-18 420 455)"/>
+    <ellipse cx="500" cy="490" rx="36" ry="20" transform="rotate(14 500 490)"/>
+    <ellipse cx="700" cy="480" rx="36" ry="20" transform="rotate(-10 700 480)"/>
+    <ellipse cx="790" cy="505" rx="36" ry="20" transform="rotate(22 790 505)"/>
+  </g>
+</svg>

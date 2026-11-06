@@ -1,7 +1,7 @@
 ---
 title: "O significado do Natal cristão: muito além da festa"
 description: "O que os cristãos celebram no Natal: o nascimento de Jesus em Belém, o que a Bíblia conta e por que essa história continua importante hoje."
-pubDate: 2026-12-14T07:00:00-03:00
+pubDate: 2026-11-17T07:00:00-03:00
 image: "/images/posts/significado-do-natal-cristao.png"
 imageAlt: "Ilustração de uma estrela brilhante sobre um pequeno estábulo iluminado numa noite de colinas"
 category: "Vida cristã"

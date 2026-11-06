@@ -1,7 +1,7 @@
 ---
 title: "Versículos sobre o poder da oração (com contexto)"
 description: "12 versículos sobre a oração, com o contexto de cada um e o que ensinam: confiança, perseverança, pedir segundo a vontade de Deus e orar uns pelos outros."
-pubDate: 2027-01-11T07:00:00-03:00
+pubDate: 2026-11-24T07:00:00-03:00
 image: "/images/posts/versiculos-sobre-o-poder-da-oracao.png"
 imageAlt: "Ilustração de raios de luz atravessando as nuvens sobre montanhas, com uma pessoa orando de joelhos numa colina"
 category: "Oração"

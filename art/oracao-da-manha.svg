@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3b3a6e"/>
+      <stop offset=".5" stop-color="#d98c6a"/>
+      <stop offset="1" stop-color="#f9e4b0"/>
+    </linearGradient>
+    <radialGradient id="sun" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#fffaf0"/>
+      <stop offset=".45" stop-color="#fbf1dc"/>
+      <stop offset="1" stop-color="#f9e4b0" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="far" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8a5a6a"/>
+      <stop offset="1" stop-color="#5b3c58"/>
+    </linearGradient>
+    <linearGradient id="near" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3b2a48"/>
+      <stop offset="1" stop-color="#1b1226"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#sky)"/>
+  <circle cx="600" cy="330" r="230" fill="url(#sun)"/>
+  <circle cx="600" cy="330" r="62" fill="#fffaf0"/>
+
+  <!-- colinas -->
+  <path d="M0 400 Q200 340 420 390 T820 380 T1200 370 V630 H0 Z" fill="url(#far)"/>
+  <path d="M0 450 Q260 400 520 450 T1200 430 V630 H0 Z" fill="url(#near)"/>
+
+  <!-- janela aberta em primeiro plano -->
+  <path d="M0 0 H90 V630 H0 Z" fill="#150c1c"/>
+  <path d="M1110 0 H1200 V630 H1110 Z" fill="#150c1c"/>
+  <rect y="540" width="1200" height="90" fill="#150c1c"/>
+
+  <!-- xícara -->
+  <path d="M520 540 H640 V500 Q640 470 580 470 Q520 470 520 500 Z" fill="#f4e6cc"/>
+  <path d="M640 490 Q675 490 672 515 Q668 535 640 535" stroke="#f4e6cc" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <ellipse cx="580" cy="472" rx="58" ry="10" fill="#c98a52"/>
+  <!-- vapor -->
+  <g stroke="#fbf1dc" stroke-width="5" stroke-linecap="round" fill="none" opacity=".55">
+    <path d="M555 450 Q540 425 560 405 Q578 385 560 365"/>
+    <path d="M600 450 Q585 425 605 405 Q623 385 605 365"/>
+  </g>
+
+  <!-- pássaros -->
+  <g stroke="#2a1d36" stroke-width="4" stroke-linecap="round" fill="none">
+    <path d="M820 210 q15 -15 30 0 q15 -15 30 0"/>
+    <path d="M900 160 q12 -12 24 0 q12 -12 24 0"/>
+  </g>
+</svg>

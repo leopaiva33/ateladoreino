@@ -1,7 +1,7 @@
 ---
 title: "Devocional para jovens: como fazer o seu em 10 minutos"
 description: "Um modelo simples de devocional para jovens, em 4 passos e 10 minutos por dia, com textos para os primeiros 7 dias e dicas para vencer distrações."
-pubDate: 2026-12-28T07:00:00-03:00
+pubDate: 2026-11-21T07:00:00-03:00
 image: "/images/posts/devocional-para-jovens.png"
 imageAlt: "Ilustração de um banco de parque ao nascer do sol, com uma Bíblia aberta e fones de ouvido ao lado de uma árvore"
 category: "Vida cristã"

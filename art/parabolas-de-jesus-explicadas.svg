@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2c3566"/>
+      <stop offset=".55" stop-color="#d0845e"/>
+      <stop offset="1" stop-color="#f6d28f"/>
+    </linearGradient>
+    <linearGradient id="field" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6b4a3a"/>
+      <stop offset="1" stop-color="#2a1a22"/>
+    </linearGradient>
+    <linearGradient id="hill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7a5470"/>
+      <stop offset="1" stop-color="#4a3250"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#sky)"/>
+  <circle cx="900" cy="250" r="70" fill="#fbf1dc"/>
+  <circle cx="900" cy="250" r="140" fill="#f9e4b0" opacity=".3"/>
+
+  <!-- colinas ao fundo -->
+  <path d="M0 330 Q250 270 520 330 T1200 310 V630 H0 Z" fill="url(#hill)"/>
+
+  <!-- campo -->
+  <path d="M0 400 Q300 370 600 400 T1200 390 V630 H0 Z" fill="url(#field)"/>
+
+  <!-- sulcos -->
+  <g stroke="#1d1018" stroke-width="3" opacity=".5" fill="none">
+    <path d="M0 470 Q300 440 600 470 T1200 460"/>
+    <path d="M0 520 Q300 490 600 520 T1200 510"/>
+    <path d="M0 575 Q300 548 600 575 T1200 568"/>
+  </g>
+
+  <!-- caminho -->
+  <path d="M520 630 Q560 520 600 430 Q640 395 660 400" stroke="#c89a6a" stroke-width="46" fill="none" stroke-linecap="round" opacity=".6"/>
+
+  <!-- semeador (silhueta distante) -->
+  <g stroke="#150c18" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M360 480 L352 430" stroke-width="14"/>
+    <path d="M352 430 L395 405" stroke-width="8"/>
+    <path d="M356 480 L340 520 M364 480 L384 520" stroke-width="9"/>
+  </g>
+  <circle cx="352" cy="415" r="11" fill="#150c18"/>
+
+  <!-- sementes no ar -->
+  <g fill="#f9e4b0">
+    <circle cx="430" cy="440" r="4"/>
+    <circle cx="460" cy="460" r="4"/>
+    <circle cx="490" cy="445" r="4"/>
+    <circle cx="520" cy="470" r="4"/>
+    <circle cx="450" cy="490" r="4"/>
+    <circle cx="555" cy="455" r="4"/>
+  </g>
+
+  <!-- pássaros -->
+  <g stroke="#2a1d36" stroke-width="4" stroke-linecap="round" fill="none">
+    <path d="M640 200 q14 -14 28 0 q14 -14 28 0"/>
+    <path d="M720 160 q12 -12 24 0 q12 -12 24 0"/>
+    <path d="M560 150 q10 -10 20 0 q10 -10 20 0"/>
+  </g>
+</svg>

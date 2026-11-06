@@ -1,7 +1,7 @@
 ---
 title: "Estudo bíblico para iniciantes: um método em 4 passos"
 description: "Aprenda a fazer um estudo bíblico do zero: observar, entender o contexto, interpretar e aplicar, com um exemplo prático em Filipenses 4:6-7."
-pubDate: 2026-12-07T07:00:00-03:00
+pubDate: 2026-11-16T07:00:00-03:00
 image: "/images/posts/estudo-biblico-para-iniciantes.png"
 imageAlt: "Ilustração de uma mesa com Bíblia aberta, lupa, caderno, lápis e luminária acesa"
 category: "Vida cristã"

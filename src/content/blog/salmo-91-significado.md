@@ -1,7 +1,7 @@
 ---
 title: "Salmo 91: significado, contexto e como orá-lo"
 description: "O que o Salmo 91 significa, seu contexto e estrutura, como lê-lo com responsabilidade (sem tratá-lo como amuleto) e uma oração baseada no texto."
-pubDate: 2027-01-25T07:00:00-03:00
+pubDate: 2026-11-28T07:00:00-03:00
 image: "/images/posts/salmo-91-significado.png"
 imageAlt: "Ilustração de grandes asas abertas protegendo uma luz dourada num céu noturno sobre colinas"
 category: "Esperança"

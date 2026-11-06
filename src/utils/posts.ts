@@ -18,6 +18,27 @@ export async function getPublishedPosts(): Promise<CollectionEntry<'blog'>[]> {
   return posts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 }
 
+/**
+ * Artigos relacionados ao post atual, só entre os publicados (mesma regra de data do agendamento).
+ * Pontuação: mesma categoria vale 3; cada tag em comum vale 2. Empates: o mais recente primeiro.
+ */
+export async function getRelatedPosts(
+  current: CollectionEntry<'blog'>,
+  limit = 3,
+): Promise<CollectionEntry<'blog'>[]> {
+  const norm = (s: string) => s.trim().toLowerCase();
+  const tagsAtuais = new Set(current.data.tags.map(norm));
+  const outros = (await getPublishedPosts()).filter((p) => p.id !== current.id);
+  const pontos = (p: CollectionEntry<'blog'>) =>
+    (p.data.category === current.data.category ? 3 : 0) +
+    2 * p.data.tags.filter((t) => tagsAtuais.has(norm(t))).length;
+  return outros
+    .map((p) => ({ p, pontos: pontos(p) }))
+    .sort((a, b) => b.pontos - a.pontos || b.p.data.pubDate.valueOf() - a.p.data.pubDate.valueOf())
+    .slice(0, limit)
+    .map(({ p }) => p);
+}
+
 /** Ex.: "31 de outubro de 2026" (sempre em UTC, para não mudar o dia). */
 export function formatDate(date: Date): string {
   return date.toLocaleDateString('pt-BR', {

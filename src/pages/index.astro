@@ -2,11 +2,12 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import PostList from '../components/PostList.astro';
 import { getPublishedPosts } from '../utils/posts';
+import { jsonLdSite } from '../utils/jsonld';
 
 const recentes = (await getPublishedPosts()).slice(0, 5);
 ---
 
-<BaseLayout>
+<BaseLayout jsonLd={jsonLdSite()}>
   <section class="hero">
     <h1>Bem-vindo à A Tela do Reino</h1>
     <p>Palavra, reflexão e encorajamento para caminhar com Deus todos os dias.</p>

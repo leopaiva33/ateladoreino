@@ -1,0 +1,44 @@
+---
+interface Props {
+  url: string;
+  titulo: string;
+}
+const { url, titulo } = Astro.props;
+const texto = encodeURIComponent(`${titulo} — ${url}`);
+const whatsapp = `https://wa.me/?text=${texto}`;
+const facebook = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`;
+---
+
+<aside class="compartilhar" aria-label="Compartilhar este artigo">
+  <p class="compartilhar-rotulo">Gostou? Compartilhe com quem precisa ler.</p>
+  <div class="compartilhar-botoes">
+    <a class="btn-compartilhar btn-whatsapp" href={whatsapp} target="_blank" rel="noopener noreferrer">
+      Compartilhar no WhatsApp
+    </a>
+    <a class="btn-compartilhar" href={facebook} target="_blank" rel="noopener noreferrer">Facebook</a>
+    <button class="btn-compartilhar" type="button" data-copiar={url}>Copiar link</button>
+  </div>
+  <p class="compartilhar-aviso" role="status" aria-live="polite" hidden>Link copiado!</p>
+</aside>
+
+<script is:inline>
+  document.querySelectorAll('[data-copiar]').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var url = btn.getAttribute('data-copiar');
+      var aviso = btn.closest('.compartilhar').querySelector('.compartilhar-aviso');
+      var ok = function () {
+        aviso.hidden = false;
+        setTimeout(function () {
+          aviso.hidden = true;
+        }, 2500);
+      };
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(url).then(ok, function () {
+          window.prompt('Copie o link:', url);
+        });
+      } else {
+        window.prompt('Copie o link:', url);
+      }
+    });
+  });
+</script>

@@ -1,7 +1,7 @@
 ---
 title: "Oração de gratidão: como agradecer a Deus (com exemplo)"
 description: "Aprenda a fazer uma oração de gratidão: o que a Bíblia ensina sobre agradecer, um passo a passo simples, um exemplo de oração e ideias para praticar todo dia."
-pubDate: 2026-12-21T07:00:00-03:00
+pubDate: 2026-11-19T07:00:00-03:00
 image: "/images/posts/oracao-de-gratidao.png"
 imageAlt: "Ilustração de uma mesa com pão, tigela de frutas, copo e espigas de trigo sob a luz do sol"
 category: "Oração"
