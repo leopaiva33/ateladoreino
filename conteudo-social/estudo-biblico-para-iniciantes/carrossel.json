@@ -1,0 +1,17 @@
+{
+  "slug": "estudo-biblico-para-iniciantes",
+  "arte": "public/images/posts/estudo-biblico-para-iniciantes.png",
+  "legenda": "Qual livro da Bíblia você gostaria de estudar primeiro? Conte nos comentários.\n\nCompartilhe com alguém que quer começar a estudar a Bíblia.\n\nLeia o texto completo, com o exemplo passo a passo em Filipenses 4:6-7, em ateladoreino.com (link na bio).\n\nConteúdo devocional. Não substitui ajuda profissional, médica ou pastoral. Se a ansiedade for intensa, procure ajuda.\n\n#EstudoBíblico #Bíblia #Devocional #Fé #VidaCristã #ATelaDoReino",
+  "slides": [
+    { "tipo": "capa", "titulo": "Estudo bíblico para iniciantes: um método em 4 passos" },
+    { "tipo": "texto", "texto": "Ler é percorrer o texto. Estudar é parar numa passagem e investigar o que ela diz e o que muda em mim." },
+    { "tipo": "texto", "titulo": "1. Observar", "texto": "Leia duas ou três vezes. Quem fala, e para quem? Que palavras se repetem? Há ordens, promessas ou contrastes?" },
+    { "tipo": "texto", "titulo": "2. Entender o contexto", "texto": "Leia os versículos de antes e de depois. Que tipo de texto é? Qual era a situação de quem escreveu?" },
+    { "tipo": "texto", "titulo": "3. Interpretar", "texto": "Qual é a ideia central? Regra de ouro: o texto não pode significar o que nunca significou para os primeiros leitores." },
+    { "tipo": "texto", "titulo": "4. Aplicar", "texto": "Escreva uma ação específica e uma oração curta. Em vez de “ser melhor”: “hoje vou entregar a Deus a preocupação com o trabalho”." },
+    { "tipo": "texto", "titulo": "Exemplo: Filipenses 4", "texto": "Paulo escreveu preso (Filipenses 1:12-14) e, mesmo assim, convida a levar tudo a Deus em oração, com gratidão." },
+    { "tipo": "versiculo", "citacao": "E a paz de Deus, que excede todo o entendimento, guardará os vossos corações…", "ref": "Filipenses 4:7", "comentario": "A promessa é paz, não solução imediata." },
+    { "tipo": "versiculo", "citacao": "…examinando cada dia nas Escrituras se estas coisas eram assim.", "ref": "Atos 17:11", "comentario": "Estudar a Bíblia é um hábito antigo e bom." },
+    { "tipo": "final", "titulo": "Salve este post", "texto": "Comece por Marcos, Filipenses ou Tiago. Guia completo em ateladoreino.com (link na bio).", "rodape": "Leonardo Paiva, A Tela do Reino" }
+  ]
+}

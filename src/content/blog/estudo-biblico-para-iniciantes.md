@@ -55,11 +55,11 @@ Escreva uma ou duas ações práticas e uma oração curta. Em vez de "ser melho
 
 ## Exemplo prático: Filipenses 4:6-7
 
-**Observar.** O texto manda não andar ansioso por coisa alguma e apresentar a Deus os pedidos em oração, com ação de graças. Promete a paz de Deus, que excede todo entendimento e guarda corações e mentes em Cristo Jesus. Palavras repetidas: "tudo", "Deus", "paz".
+**Observar.** O texto diz para não estar inquieto por coisa alguma e apresentar a Deus as petições em oração, com ação de graças. Promete a paz de Deus, que excede todo o entendimento e guardará os corações e os sentimentos em Cristo Jesus. Palavras-chave: "tudo", "Deus", "paz".
 
-**Contexto.** É uma carta de Paulo aos cristãos de Filipos, escrita enquanto ele estava preso (Filipenses 1:12-14). O tema da carta é a alegria em Cristo, e logo antes ele diz "alegrai-vos" (4:4). Ou seja, quem escreve sobre ansiedade não está numa situação fácil.
+**Contexto.** É uma carta de Paulo aos cristãos de Filipos, escrita enquanto ele estava preso (Filipenses 1:12-14). O tema da carta é a alegria em Cristo, e logo antes ele diz "regozijai-vos" (4:4). Ou seja, quem escreve sobre ansiedade não está numa situação fácil.
 
-**Interpretar.** Deus não pede que a pessoa finja que não tem preocupações. Ele convida a levar tudo a ele em oração, com gratidão. O resultado prometido é paz, e não a solução imediata de todo problema: uma paz que "guarda" o coração.
+**Interpretar.** Deus não pede que a pessoa finja que não tem preocupações. Ele convida a levar tudo a ele em oração, com gratidão. O resultado prometido é paz, e não a solução imediata de todo problema: uma paz que "guardará" os corações.
 
 **Aplicar.** Hoje, escrever uma lista de preocupações, orar por cada uma e agradecer por três coisas. Se a ansiedade for intensa, procurar também ajuda profissional.
 
@@ -80,7 +80,7 @@ Escolha um livro curto e leia um parágrafo por vez, com o método acima:
 3. **Tiago** (5 capítulos): fé na prática.
 4. Um **salmo** por semana.
 
-Os bereanos são elogiados em Atos 17:11 porque examinavam as Escrituras todos os dias para ver se as coisas eram assim. Estudar a Bíblia é um hábito antigo e bom.
+Os bereanos são elogiados em Atos 17:11 porque examinavam as Escrituras todos os dias para ver se as coisas eram assim. Estudar a Bíblia é um hábito antigo e bom. Para encaixar o estudo na rotina, veja [Como ter um devocional diário](/blog/como-ter-um-devocional-diario).
 
 ## Perguntas frequentes
 

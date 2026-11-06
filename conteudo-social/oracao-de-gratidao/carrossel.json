@@ -1,0 +1,17 @@
+{
+  "slug": "oracao-de-gratidao",
+  "arte": "public/images/posts/oracao-de-gratidao.png",
+  "legenda": "Cite uma coisa pela qual você agradece a Deus hoje. Conte nos comentários.\n\nCompartilhe com alguém por quem você é grato.\n\nLeia o texto completo, com o passo a passo e ideias para praticar a gratidão todo dia, em ateladoreino.com (link na bio).\n\nConteúdo devocional. Não substitui ajuda profissional, médica ou pastoral. Se a tristeza for intensa e prolongada, ligue 188 (CVV), 24 horas.\n\n#Gratidão #Oração #Devocional #Fé #Bíblia #ATelaDoReino",
+  "slides": [
+    { "tipo": "capa", "titulo": "Oração de gratidão: como agradecer a Deus" },
+    { "tipo": "texto", "texto": "Não precisa ser longa nem bonita. Basta nomear o que você recebeu e dizer “obrigado”." },
+    { "tipo": "versiculo", "citacao": "Em tudo dai graças, porque esta é a vontade de Deus em Cristo Jesus para convosco.", "ref": "1 Tessalonicenses 5:18", "comentario": "Em tudo, não por tudo." },
+    { "tipo": "versiculo", "citacao": "Bendize, ó minha alma, ao Senhor, e não te esqueças de nenhum de seus benefícios.", "ref": "Salmos 103:2", "comentario": "A gratidão começa por lembrar." },
+    { "tipo": "versiculo", "citacao": "Não foram dez os limpos? E onde estão os nove?", "ref": "Lucas 17:17", "comentario": "Dez foram curados; só um voltou para agradecer." },
+    { "tipo": "lista", "titulo": "Passo a passo", "itens": ["Pare um minuto.", "Agradeça por quem Deus é.", "Nomeie três coisas concretas.", "Termine com um gesto de gratidão."] },
+    { "tipo": "texto", "titulo": "Exemplo de oração", "texto": "Senhor, obrigado por este dia, pela minha família e pelo alimento. Ajuda-me a ser generoso como tu és comigo. Amém." },
+    { "tipo": "lista", "titulo": "Para praticar", "itens": ["Anote três coisas por dia.", "Agradeça antes das refeições.", "Mande uma mensagem de gratidão.", "No jantar, cada um conta algo bom."] },
+    { "tipo": "texto", "titulo": "Quando é difícil agradecer", "texto": "Comece pelo básico. A Bíblia também tem salmos de lamento: gratidão e honestidade podem andar juntas." },
+    { "tipo": "final", "titulo": "Salve este post", "texto": "Leia o texto completo em ateladoreino.com (link na bio).", "rodape": "Leonardo Paiva, A Tela do Reino" }
+  ]
+}

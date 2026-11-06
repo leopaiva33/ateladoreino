@@ -27,11 +27,11 @@ O evangelho de João resume: "o Verbo se fez carne e habitou entre nós" (João 
 
 ### Uma promessa que se cumpre
 
-O Natal é lido à luz de promessas antigas: o profeta Miqueias aponta Belém como lugar de origem de um governante (Miqueias 5:2), e Isaías fala de um sinal, um filho chamado Emanuel, "Deus conosco" (Isaías 7:14). Gálatas 4:4 diz que, quando chegou a plenitude do tempo, Deus enviou o seu Filho.
+O Natal é lido à luz de promessas antigas: o profeta Miqueias aponta Belém como lugar de origem de um governante (Miqueias 5:2), e Isaías fala de um sinal, um filho chamado Emanuel (Isaías 7:14), nome que Mateus traduz como "Deus conosco" (Mateus 1:23). Gálatas 4:4 diz que, quando chegou a plenitude do tempo, Deus enviou o seu Filho.
 
 ### Esperança para quem mais precisa
 
-O anúncio dos anjos é de "boas-novas de grande alegria" para todo o povo (Lucas 2:10). Para quem enfrenta dor, solidão ou dificuldade, o Natal lembra que Deus não ficou distante.
+O anúncio dos anjos é de "novas de grande alegria, que será para todo o povo" (Lucas 2:10). Para quem enfrenta dor, solidão ou dificuldade, o Natal lembra que Deus não ficou distante.
 
 ## E a data de 25 de dezembro?
 
@@ -57,6 +57,8 @@ A Bíblia **não informa a data** do nascimento de Jesus. A tradição de celebr
 
 > *Senhor Jesus, obrigado por teres vindo viver entre nós. Que a alegria do teu nascimento chegue à minha casa e ao meu coração, e que eu saiba compartilhá-la com quem mais precisa. Amém.*
 
+Se quiser aprender a orar com as suas próprias palavras, veja [Como orar: guia passo a passo para iniciantes](/blog/como-orar).
+
 ## Perguntas frequentes
 
 **Por que os cristãos celebram o Natal?**
@@ -74,7 +76,7 @@ O Advento é o tempo de preparação (quatro semanas antes). O Natal é a celebr
 ## Referências
 
 - Lucas 1:26-38 · 2:1-20
-- Mateus 1:18-25 · 2:1-12
+- Mateus 1:18-25 · 1:23 · 2:1-12
 - João 1:14 · 8:12
 - Filipenses 2:6-8
 - Gálatas 4:4

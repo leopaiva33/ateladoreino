@@ -20,8 +20,8 @@ Se você quer o passo a passo geral do hábito, veja também [Como ter um devoci
 
 A Bíblia fala diretamente aos jovens:
 
-- "De que maneira poderá o jovem guardar puro o seu caminho? Observando-o segundo a tua palavra" (Salmos 119:9).
-- "Ninguém despreze a tua mocidade; mas sê exemplo dos fiéis" (1 Timóteo 4:12).
+- "Como purificará o jovem o seu caminho? Observando-o conforme a tua palavra" (Salmos 119:9).
+- "Ninguém despreze a tua mocidade; mas sê o exemplo dos fiéis" (1 Timóteo 4:12).
 - "Lembra-te do teu Criador nos dias da tua mocidade" (Eclesiastes 12:1).
 
 É uma fase de grandes decisões (estudos, carreira, relacionamentos, valores), e ter uma base diária ajuda a decidir com mais clareza.

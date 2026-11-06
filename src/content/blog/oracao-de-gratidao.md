@@ -20,12 +20,12 @@ tags: ["gratidão", "oração", "agradecimento", "fim de ano"]
 
 ## Por que praticar a gratidão
 
-Agradecer muda o foco: em vez de olhar só para o que falta, passamos a perceber o que já foi dado. Muita gente relata que o hábito traz mais calma e perspectiva. Para quem passa por um momento difícil, a gratidão não apaga a dor, mas ajuda a enxergar também o que ainda existe de bom.
+Agradecer muda o foco: em vez de olhar só para o que falta, passamos a perceber o que já foi dado. O hábito pode ajudar a trazer mais calma e perspectiva. Para quem passa por um momento difícil, a gratidão não apaga a dor, mas ajuda a enxergar também o que ainda existe de bom.
 
 ## Como fazer uma oração de gratidão (passo a passo)
 
 1. **Pare por um minuto.** Desligue o celular, respire fundo e fique em silêncio.
-2. **Comece por quem Deus é.** Agradeça por características dele: cuidado, paciência, perdão. O Salmo 136:1 repete "porque a sua misericórdia dura para sempre".
+2. **Comece por quem Deus é.** Agradeça por características dele: cuidado, paciência, perdão. O Salmo 136:1 repete "porque a sua benignidade é para sempre".
 3. **Nomeie coisas concretas.** Pense em três coisas do seu dia ou da sua semana: uma pessoa, um fato, algo simples (uma refeição, um problema que se resolveu).
 4. **Agradeça também pelo invisível.** Perdão recebido, proteção que você nem percebeu, oportunidades.
 5. **Termine com um compromisso.** Uma ação de gratidão: ligar para alguém, retribuir um favor, ajudar quem precisa.

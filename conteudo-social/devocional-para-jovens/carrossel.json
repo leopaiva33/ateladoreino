@@ -1,0 +1,17 @@
+{
+  "slug": "devocional-para-jovens",
+  "arte": "public/images/posts/devocional-para-jovens.png",
+  "legenda": "Qual é o melhor horário para o seu devocional: manhã ou noite? Conte nos comentários.\n\nMarque um amigo para fazer a primeira semana com você.\n\nLeia o texto completo, com o modelo de 10 minutos e ideias para variar, em ateladoreino.com (link na bio).\n\n#DevocionalParaJovens #Jovens #Devocional #Bíblia #Fé #ATelaDoReino",
+  "slides": [
+    { "tipo": "capa", "titulo": "Devocional para jovens: 10 minutos por dia" },
+    { "tipo": "texto", "texto": "Devocional é um encontro diário com Deus: ler um trecho da Bíblia, pensar nele e responder em oração." },
+    { "tipo": "versiculo", "citacao": "Ninguém despreze a tua mocidade; mas sê o exemplo dos fiéis…", "ref": "1 Timóteo 4:12", "comentario": "Ser jovem não impede ser exemplo." },
+    { "tipo": "versiculo", "citacao": "Lembra-te do teu Criador nos dias da tua mocidade…", "ref": "Eclesiastes 12:1", "comentario": "Lembrar de Deus cedo dá base para as grandes decisões da vida." },
+    { "tipo": "lista", "titulo": "Em 10 minutos", "itens": ["Respire: 1 minuto.", "Leia: 3 minutos.", "Reflita: 3 minutos.", "Responda em oração: 3 minutos."] },
+    { "tipo": "texto", "titulo": "Ao refletir, pergunte", "texto": "O que o texto diz? O que ele mostra sobre Deus? O que ele diz sobre mim?" },
+    { "tipo": "lista", "titulo": "Primeira semana", "itens": ["Salmos 119:9-11", "1 Timóteo 4:12", "Provérbios 3:5-6", "Eclesiastes 12:1", "Tiago 1:5", "Salmos 139:23-24", "Marcos 1:35"] },
+    { "tipo": "versiculo", "citacao": "Confia no Senhor de todo o teu coração e não te estribes no teu próprio entendimento.", "ref": "Provérbios 3:5", "comentario": "Dia 3: confiar em Deus ao decidir." },
+    { "tipo": "lista", "titulo": "Contra as distrações", "itens": ["Celular em “não perturbe”.", "Escolha um horário fixo.", "Faça com um amigo.", "Perdeu um dia? Recomece sem culpa."] },
+    { "tipo": "final", "titulo": "Salve este post", "texto": "Leia o texto completo em ateladoreino.com (link na bio).", "rodape": "Leonardo Paiva, A Tela do Reino" }
+  ]
+}

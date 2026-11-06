@@ -1,0 +1,17 @@
+{
+  "slug": "significado-do-natal-cristao",
+  "arte": "public/images/posts/significado-do-natal-cristao.png",
+  "legenda": "O que torna o Natal especial para você? Conte nos comentários.\n\nCompartilhe com alguém que você quer lembrar do sentido do Natal.\n\nLeia o texto completo, com o significado dos símbolos e uma oração de Natal, em ateladoreino.com (link na bio).\n\nAdvento: as quatro semanas de preparação antes do Natal.\n\n#Natal #NascimentoDeJesus #Belém #Devocional #Bíblia #ATelaDoReino",
+  "slides": [
+    { "tipo": "capa", "titulo": "O significado do Natal cristão: muito além da festa" },
+    { "tipo": "texto", "texto": "No Natal, os cristãos celebram o nascimento de Jesus em Belém: Deus que se aproxima das pessoas." },
+    { "tipo": "versiculo", "citacao": "…e deitou-o numa manjedoura, porque não havia lugar para eles na estalagem.", "ref": "Lucas 2:7", "comentario": "Jesus nasceu em circunstâncias simples." },
+    { "tipo": "versiculo", "citacao": "…eis aqui vos trago novas de grande alegria, que será para todo o povo…", "ref": "Lucas 2:10", "comentario": "A notícia chegou primeiro a pastores." },
+    { "tipo": "versiculo", "citacao": "E o Verbo se fez carne e habitou entre nós…", "ref": "João 1:14", "comentario": "Os cristãos chamam isso de encarnação: Deus entra na história humana." },
+    { "tipo": "texto", "titulo": "Uma promessa cumprida", "texto": "Miqueias apontou Belém (Miqueias 5:2). Isaías anunciou o Emanuel (Isaías 7:14), que quer dizer “Deus conosco” (Mateus 1:23)." },
+    { "tipo": "texto", "titulo": "E o 25 de dezembro?", "texto": "A Bíblia não informa a data. A tradição aparece registrada no século IV. O que importa é o acontecimento." },
+    { "tipo": "versiculo", "citacao": "Eu sou a luz do mundo…", "ref": "João 8:12", "comentario": "As luzes e as velas do Natal apontam para Jesus." },
+    { "tipo": "lista", "titulo": "Para viver o Natal", "itens": ["Leia Lucas 2:1-20 em família.", "Diga um motivo de gratidão.", "Faça um gesto de generosidade.", "Desacelere no Advento."] },
+    { "tipo": "final", "titulo": "Salve este post", "texto": "Leia o texto completo em ateladoreino.com (link na bio).", "rodape": "Leonardo Paiva, A Tela do Reino" }
+  ]
+}
