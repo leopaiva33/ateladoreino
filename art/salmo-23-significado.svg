@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f1cfae"/>
+      <stop offset=".6" stop-color="#fbe6cb"/>
+      <stop offset="1" stop-color="#fff4de"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#f6c97a" stop-opacity=".85"/>
+      <stop offset="1" stop-color="#f6c97a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#sky)"/>
+  <circle cx="820" cy="300" r="290" fill="url(#glow)"/>
+  <circle cx="820" cy="292" r="80" fill="#e9b45f"/>
+
+  <!-- aves -->
+  <g fill="none" stroke="#7a1f2b" stroke-width="3" stroke-linecap="round" opacity=".45">
+    <path d="M250 120 q14 -13 28 0 q14 -13 28 0"/>
+    <path d="M330 170 q10 -9 20 0 q10 -9 20 0"/>
+    <path d="M1010 110 q13 -12 26 0 q13 -12 26 0"/>
+  </g>
+
+  <!-- colinas (verdes pastos) -->
+  <path d="M0 360 Q220 296 460 346 T900 336 T1200 352 V630 H0 Z" fill="#c9bf8c"/>
+  <path d="M0 420 Q260 348 540 404 T1060 386 T1200 408 V630 H0 Z" fill="#9aa56b"/>
+  <path d="M0 520 Q300 452 620 502 T1200 482 V630 H0 Z" fill="#66794d"/>
+
+  <!-- águas tranquilas -->
+  <path d="M680 630 C700 584 760 560 748 520 C740 494 790 474 826 458 C868 440 906 436 944 430 C900 452 866 470 838 490 C800 514 828 548 800 580 C786 598 780 614 790 630 Z" fill="#f6ead8" opacity=".92"/>
+  <g stroke="#ffffff" stroke-opacity=".7" stroke-width="3" stroke-linecap="round" fill="none">
+    <path d="M770 596 q14 -6 28 0"/>
+    <path d="M800 548 q12 -5 24 0"/>
+    <path d="M846 488 q10 -4 20 0"/>
+  </g>
+
+  <!-- ovelhas -->
+  <g>
+    <g transform="translate(330 470)">
+      <ellipse cx="0" cy="0" rx="46" ry="30" fill="#fff7e8"/>
+      <circle cx="-26" cy="-14" r="16" fill="#fff7e8"/>
+      <circle cx="26" cy="-12" r="17" fill="#fff7e8"/>
+      <circle cx="0" cy="-22" r="18" fill="#fff7e8"/>
+      <ellipse cx="-50" cy="-6" rx="13" ry="16" fill="#7a1f2b" opacity=".75"/>
+      <rect x="-26" y="22" width="8" height="26" rx="4" fill="#7a1f2b" opacity=".75"/>
+      <rect x="18" y="22" width="8" height="26" rx="4" fill="#7a1f2b" opacity=".75"/>
+    </g>
+    <g transform="translate(470 520) scale(.78)">
+      <ellipse cx="0" cy="0" rx="46" ry="30" fill="#fff7e8"/>
+      <circle cx="-26" cy="-14" r="16" fill="#fff7e8"/>
+      <circle cx="26" cy="-12" r="17" fill="#fff7e8"/>
+      <circle cx="0" cy="-22" r="18" fill="#fff7e8"/>
+      <ellipse cx="50" cy="-6" rx="13" ry="16" fill="#7a1f2b" opacity=".75"/>
+      <rect x="-26" y="22" width="8" height="26" rx="4" fill="#7a1f2b" opacity=".75"/>
+      <rect x="18" y="22" width="8" height="26" rx="4" fill="#7a1f2b" opacity=".75"/>
+    </g>
+    <g transform="translate(236 540) scale(.62)">
+      <ellipse cx="0" cy="0" rx="46" ry="30" fill="#fff7e8"/>
+      <circle cx="-26" cy="-14" r="16" fill="#fff7e8"/>
+      <circle cx="26" cy="-12" r="17" fill="#fff7e8"/>
+      <circle cx="0" cy="-22" r="18" fill="#fff7e8"/>
+      <ellipse cx="-50" cy="-6" rx="13" ry="16" fill="#7a1f2b" opacity=".75"/>
+      <rect x="-26" y="22" width="8" height="26" rx="4" fill="#7a1f2b" opacity=".75"/>
+      <rect x="18" y="22" width="8" height="26" rx="4" fill="#7a1f2b" opacity=".75"/>
+    </g>
+  </g>
+
+  <!-- cajado do pastor -->
+  <path d="M590 600 L590 400 C590 350 650 350 650 392 C650 410 636 420 622 416" fill="none" stroke="#7a1f2b" stroke-width="9" stroke-linecap="round"/>
+</svg>
