@@ -49,13 +49,35 @@ if (faltando) {
   process.exit(1);
 }
 
-if (!publicar) {
-  console.log('\nSimulação concluída: nada foi publicado. Rode de novo com --publicar para postar.');
-  process.exit(0);
-}
 if (!IG_USER_ID || !IG_ACCESS_TOKEN) {
+  if (!publicar) {
+    console.log('\nSimulação concluída (credenciais não definidas, não foram testadas): nada foi publicado.');
+    process.exit(0);
+  }
   console.error('\nFaltam IG_USER_ID e/ou IG_ACCESS_TOKEN nas variáveis de ambiente.');
   process.exit(1);
+}
+
+// Confere as credenciais sem publicar nada: lê o nome da conta e a cota de publicação.
+{
+  const tk = encodeURIComponent(IG_ACCESS_TOKEN);
+  const conta = await (await fetch(`${BASE}/${IG_USER_ID}?fields=username&access_token=${tk}`)).json();
+  if (conta.error) {
+    console.error(`\nCredenciais recusadas pela Meta: ${conta.error.message}`);
+    process.exit(1);
+  }
+  const cota = await (await fetch(`${BASE}/${IG_USER_ID}/content_publishing_limit?fields=quota_usage&access_token=${tk}`)).json();
+  if (cota.error) {
+    console.error(`\nToken sem permissão de publicação (instagram_content_publish): ${cota.error.message}`);
+    process.exit(1);
+  }
+  const usadas = cota.data?.[0]?.quota_usage ?? 0;
+  console.log(`\nCredenciais OK: conta @${conta.username}, ${usadas} publicação(ões) via API nas últimas 24 h.`);
+}
+
+if (!publicar) {
+  console.log('Simulação concluída: nada foi publicado. Rode de novo com --publicar para postar.');
+  process.exit(0);
 }
 
 async function api(caminho, corpo) {
