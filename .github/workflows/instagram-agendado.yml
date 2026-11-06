@@ -1,0 +1,53 @@
+name: Instagram agendado
+
+# Publica no Instagram o carrossel de cada artigo no dia em que ele entra no blog.
+# O blog sai às 08:00 (publicacao-agendada.yml); o carrossel sai às 19:00 (Brasília),
+# com o artigo já no ar para o link da bio. Uma publicação por execução; a execução
+# das 21:00 é reforço (cobre falha ou um segundo artigo no mesmo dia).
+# Depois de publicar, grava conteudo-social/<slug>/instagram.json no repositório, o que
+# impede publicar o mesmo carrossel duas vezes.
+on:
+  schedule:
+    - cron: '0 22 * * *' # 19:00 em Brasília
+    - cron: '0 0 * * *'  # 21:00 em Brasília (reforço)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: instagram-agendado
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Qual carrossel publicar?
+        id: fila
+        run: node scripts/instagram-agendado.mjs
+
+      - name: Publicar no Instagram
+        if: steps.fila.outputs.slug != ''
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          SLUG: ${{ steps.fila.outputs.slug }}
+        run: node scripts/publicar-instagram.mjs "$SLUG" --publicar
+
+      - name: Registrar publicação
+        if: steps.fila.outputs.slug != ''
+        env:
+          SLUG: ${{ steps.fila.outputs.slug }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "conteudo-social/$SLUG/instagram.json"
+          git commit -m "chore: carrossel de $SLUG publicado no Instagram"
+          git pull --rebase
+          git push

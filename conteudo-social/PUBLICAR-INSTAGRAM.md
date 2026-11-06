@@ -1,5 +1,21 @@
 # Publicar carrosséis no Instagram (automático)
 
+## Agendamento (acompanha o blog)
+
+O workflow `instagram-agendado.yml` roda às 19:00 e às 21:00 (Brasília). Ele publica o carrossel de
+cada artigo no dia em que o artigo entra no blog (`pubDate`), depois de o artigo aparecer no sitemap.
+Para isso, antes da data do artigo deve existir no repositório:
+
+- `conteudo-social/<slug>/carrossel.json` (skill `carrossel-instagram` + aprovação do revisor);
+- `public/social/<slug>/slide-NN.png` (`npm run carrossel -- <slug>`).
+
+Depois de publicar, o workflow grava `conteudo-social/<slug>/instagram.json`, o que impede repetir a
+publicação. Artigos que entram no blog sem carrossel aparecem como aviso no log do Actions. Artigos
+anteriores a 07/11/2026 não entram na fila automática (use o workflow manual).
+
+Credenciais: usuário do sistema `publicador-instagram` (portfólio atela_reino), token sem expiração,
+nos segredos `IG_USER_ID` e `IG_ACCESS_TOKEN` do repositório.
+
 Fluxo: `carrossel.json` → `npm run carrossel` (PNGs) → commit/push (deploy) → `npm run instagram` (API da Meta).
 
 ## 1. Configuração única (feita por você, na Meta)

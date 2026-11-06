@@ -12,7 +12,7 @@
 //   IG_ACCESS_TOKEN  token de acesso de longa duração com a permissão instagram_content_publish
 //   GRAPH_VERSION    opcional, padrão v21.0
 //   SITE_URL         opcional, padrão https://ateladoreino.com
-import { readFile } from 'node:fs/promises';
+import { readFile, writeFile } from 'node:fs/promises';
 import { join } from 'node:path';
 
 const slug = process.argv[2];
@@ -26,6 +26,15 @@ const SITE_URL = (process.env.SITE_URL || 'https://ateladoreino.com').replace(/\
 const VERSAO = process.env.GRAPH_VERSION || 'v21.0';
 const BASE = `https://graph.facebook.com/${VERSAO}`;
 const { IG_USER_ID, IG_ACCESS_TOKEN } = process.env;
+
+const REGISTRO = join('conteudo-social', slug, 'instagram.json');
+if (publicar && !process.argv.includes('--de-novo')) {
+  const anterior = await readFile(REGISTRO, 'utf8').then(JSON.parse, () => null);
+  if (anterior) {
+    console.error(`"${slug}" já foi publicado em ${anterior.publicadoEm} (ID ${anterior.id}). Use --de-novo para repetir.`);
+    process.exit(1);
+  }
+}
 
 const spec = JSON.parse(await readFile(join('conteudo-social', slug, 'carrossel.json'), 'utf8'));
 const total = spec.slides.length;
@@ -118,3 +127,5 @@ const { id: carrossel } = await api(`${IG_USER_ID}/media`, {
 await esperar(carrossel, 'Carrossel');
 const { id: publicado } = await api(`${IG_USER_ID}/media_publish`, { creation_id: carrossel });
 console.log(`\nPublicado no Instagram. ID da publicação: ${publicado}`);
+await writeFile(REGISTRO, JSON.stringify({ id: publicado, publicadoEm: new Date().toISOString() }, null, 2) + '\n');
+console.log(`Registro salvo em ${REGISTRO}`);
