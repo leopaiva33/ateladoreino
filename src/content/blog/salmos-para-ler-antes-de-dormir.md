@@ -41,7 +41,7 @@ Fala de quem habita no esconderijo do Altíssimo e confia em Deus como refúgio 
 
 ### Salmo 121: o guarda que não dorme
 
-É um dos "cânticos de romagem" cantados por quem subia a Jerusalém. Diz que o guarda de Israel não dormita nem dorme (Salmos 121:3-4). Pode-se descansar porque Deus continua atento. **Bom para:** quando você se sente responsável por tudo e não consegue desligar.
+É um dos "cânticos de romagem" cantados por quem subia a Jerusalém. Diz que o guarda de Israel não tosqueneja (cochila) nem dorme (Salmos 121:3-4). Pode-se descansar porque Deus continua atento. **Bom para:** quando você se sente responsável por tudo e não consegue desligar.
 
 ### Salmo 127: descansar sem culpa
 
