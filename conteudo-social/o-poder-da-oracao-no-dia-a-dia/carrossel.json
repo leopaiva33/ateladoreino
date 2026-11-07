@@ -1,0 +1,17 @@
+{
+  "slug": "o-poder-da-oracao-no-dia-a-dia",
+  "arte": "public/images/posts/o-poder-da-oracao-no-dia-a-dia.png",
+  "legenda": "Em que momento do seu dia você vai fazer a sua pausa de oração? Conte nos comentários.\n\nCompartilhe com alguém que acha que não sabe orar.\n\nLeia o texto completo em ateladoreino.com (link na bio).\n\n#Oração #PoderDaOração #Fé #VidaCristã #Devocional #ATelaDoReino",
+  "slides": [
+    { "tipo": "capa", "titulo": "O poder da oração no dia a dia" },
+    { "tipo": "texto", "texto": "Orar é conversar com Deus como um filho conversa com o pai: com sinceridade, sem fórmulas e a qualquer hora." },
+    { "tipo": "versiculo", "citacao": "…vosso Pai sabe o que vos é necessário antes de vós lho pedirdes.", "ref": "Mateus 6:8", "comentario": "Orar não é impressionar, e sim se aproximar." },
+    { "tipo": "versiculo", "citacao": "Orai sem cessar.", "ref": "1 Tessalonicenses 5:17", "comentario": "Não é ficar o dia todo de joelhos. É manter o coração voltado para Deus na rotina." },
+    { "tipo": "lista", "titulo": "Momentos para orar", "itens": ["Ao acordar, antes do celular.", "Antes de uma conversa difícil.", "No trajeto.", "À noite, com gratidão."] },
+    { "tipo": "texto", "titulo": "Orações curtas", "texto": "“Senhor, este dia é teu.” “Dá-me sabedoria.” “Acalma o meu coração.” “Obrigado por este dia.”" },
+    { "tipo": "versiculo", "citacao": "…o dever de orar sempre e nunca desfalecer.", "ref": "Lucas 18:1", "comentario": "Quando a resposta demora, continue confiando, mesmo que o cenário não tenha mudado." },
+    { "tipo": "texto", "titulo": "Oração não é contrato", "texto": "A Bíblia não promete que a resposta virá como pedimos. A oração mantém o coração perto de Deus enquanto esperamos." },
+    { "tipo": "texto", "titulo": "Desafio de 7 dias", "texto": "Escolha um momento da rotina, como a louça ou o ônibus, e transforme-o em pausa de oração." },
+    { "tipo": "final", "titulo": "Salve este post", "texto": "Leia o texto completo, com uma oração para hoje, em ateladoreino.com (link na bio).", "rodape": "Leonardo Paiva, A Tela do Reino" }
+  ]
+}

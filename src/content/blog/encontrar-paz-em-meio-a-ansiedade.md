@@ -21,7 +21,7 @@ Este texto é de natureza devocional e **não substitui o cuidado de um médico 
 
 ## A ordem de Paulo
 
-Na carta aos Filipenses, o apóstolo orienta a não ficar inquieto por coisa alguma e a apresentar os pedidos a Deus "pela oração e súplica, com ação de graças" (Filipenses 4:6). Repare na sequência: a ansiedade é trazida para a oração, e a oração é acompanhada de gratidão. Não é uma fórmula mágica, mas um caminho de mudança de foco.
+Na carta aos Filipenses, o apóstolo orienta a não ficar inquieto por coisa alguma e a apresentar os pedidos a Deus "pela oração e súplicas, com ação de graças" (Filipenses 4:6). Repare na sequência: a ansiedade é trazida para a oração, e a oração é acompanhada de gratidão. Não é uma fórmula mágica, mas um caminho de mudança de foco.
 
 Paulo escreve isso da prisão. Ele não fala de um lugar confortável, e isso dá peso ao conselho: a paz que ele descreve não depende de a vida estar em ordem.
 

@@ -1,0 +1,17 @@
+{
+  "slug": "como-ter-um-devocional-diario",
+  "arte": "public/images/posts/como-ter-um-devocional-diario.png",
+  "legenda": "Qual horário funciona melhor para o seu devocional? Conte nos comentários.\n\nCompartilhe com alguém que quer começar um devocional.\n\nLeia o texto completo, com um exemplo do método LEO e uma oração para começar, em ateladoreino.com (link na bio).\n\n#Devocional #DevocionalDiário #Bíblia #Oração #VidaCristã #ATelaDoReino",
+  "slides": [
+    { "tipo": "capa", "titulo": "Devocional diário em 10 minutos" },
+    { "tipo": "texto", "texto": "Devocional é um tempo curto, todos os dias, para ler a Bíblia, pensar no que ela diz e orar." },
+    { "tipo": "versiculo", "citacao": "…entra no teu aposento e, fechando a tua porta, ora a teu Pai…", "ref": "Mateus 6:6", "comentario": "Não é estudo teológico nem tarefa a cumprir." },
+    { "tipo": "texto", "titulo": "10 minutos bastam", "texto": "1 minuto de silêncio, 4 de leitura, 3 de reflexão e 2 de oração, com uma anotação." },
+    { "tipo": "versiculo", "citacao": "…levantando-se de manhã muito cedo… foi para um lugar deserto, e ali orava.", "ref": "Marcos 1:35", "comentario": "Escolha um horário fixo e deixe tudo pronto." },
+    { "tipo": "lista", "titulo": "Método LEO", "itens": ["Leia a passagem duas vezes.", "Explique com suas palavras.", "Oriente: como isso se aplica hoje?"] },
+    { "tipo": "versiculo", "citacao": "Lâmpada para os meus pés é tua palavra…", "ref": "Salmos 119:105", "comentario": "A lâmpada ilumina o próximo passo, não a estrada inteira." },
+    { "tipo": "texto", "titulo": "Primeiras semanas", "texto": "Semana 1: Marcos. Semana 2: Salmos 1 a 7. Semana 3: Provérbios, um capítulo por dia." },
+    { "tipo": "versiculo", "citacao": "…novas são cada manhã; grande é a tua fidelidade.", "ref": "Lamentações 3:23", "comentario": "Falhou um dia? Não compense. Volte amanhã, com a mesma simplicidade." },
+    { "tipo": "final", "titulo": "Salve este post", "texto": "Leia o texto completo, com um exemplo do método LEO, em ateladoreino.com (link na bio).", "rodape": "Leonardo Paiva, A Tela do Reino" }
+  ]
+}

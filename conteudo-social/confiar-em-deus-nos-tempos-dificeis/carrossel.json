@@ -1,0 +1,17 @@
+{
+  "slug": "confiar-em-deus-nos-tempos-dificeis",
+  "arte": "public/images/posts/confiar-em-deus-nos-tempos-dificeis.png",
+  "legenda": "Qual destes três passos você vai dar hoje? Conte nos comentários.\n\nCompartilhe com alguém que está passando por um tempo difícil.\n\nLeia o texto completo em ateladoreino.com (link na bio).\n\nConteúdo devocional. Não substitui ajuda profissional, médica ou pastoral. Se você está em sofrimento intenso, ligue 188 (CVV), 24 horas.\n\n#ConfiarEmDeus #Fé #Esperança #Devocional #Bíblia #ATelaDoReino",
+  "slides": [
+    { "tipo": "capa", "titulo": "Confiar em Deus nos tempos difíceis" },
+    { "tipo": "texto", "texto": "Confiar não é fingir que a dor não existe. É entregar a Deus o que pesa e dar o próximo passo." },
+    { "tipo": "versiculo", "citacao": "Já estou cansado do meu gemido…", "ref": "Salmos 6:6", "comentario": "Davi chorou noites inteiras. A Bíblia não esconde a angústia de quem tem fé." },
+    { "tipo": "versiculo", "citacao": "…não se faça a minha vontade, mas a tua.", "ref": "Lucas 22:42", "comentario": "Jesus sentiu tristeza no Getsêmani e, ainda assim, entregou o momento ao Pai." },
+    { "tipo": "versiculo", "citacao": "Eu creio, Senhor! Ajuda a minha incredulidade.", "ref": "Marcos 9:24", "comentario": "Fé e dúvida na mesma frase. E Jesus não rejeitou aquele pai." },
+    { "tipo": "versiculo", "citacao": "Perto está o Senhor dos que têm o coração quebrantado…", "ref": "Salmos 34:18", "comentario": "Não apaga a dor de imediato, mas você não a atravessa sozinho." },
+    { "tipo": "lista", "titulo": "Três passos práticos", "itens": ["Nomeie o que está pesando.", "Lembre-se do que Deus já fez.", "Dê um passo pequeno de obediência."] },
+    { "tipo": "versiculo", "citacao": "…o mesmo Espírito intercede por nós com gemidos inexprimíveis.", "ref": "Romanos 8:26", "comentario": "Faltam palavras? Diga a Deus, em uma frase, o que pesa." },
+    { "tipo": "texto", "titulo": "Se o sofrimento é grande", "texto": "Este conteúdo é devocional e não substitui ajuda profissional, médica ou pastoral. CVV: 188, 24 horas." },
+    { "tipo": "final", "titulo": "Salve este post", "texto": "Leia o texto completo, com uma oração para hoje, em ateladoreino.com (link na bio).", "rodape": "Leonardo Paiva, A Tela do Reino" }
+  ]
+}

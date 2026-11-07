@@ -1,0 +1,17 @@
+{
+  "slug": "encontrar-paz-em-meio-a-ansiedade",
+  "arte": "public/images/posts/encontrar-paz-em-meio-a-ansiedade.png",
+  "legenda": "Qual destas práticas você vai experimentar hoje? Conte nos comentários.\n\nCompartilhe com alguém que anda com o coração apertado.\n\nLeia o texto completo em ateladoreino.com (link na bio).\n\nConteúdo devocional. Não substitui ajuda profissional, médica ou pastoral. Se você está em sofrimento intenso, ligue 188 (CVV), 24 horas.\n\n#Ansiedade #Paz #Fé #Oração #Devocional #ATelaDoReino",
+  "slides": [
+    { "tipo": "capa", "titulo": "Encontrar paz em meio à ansiedade" },
+    { "tipo": "texto", "titulo": "Antes de começar", "texto": "Conteúdo devocional. Não substitui ajuda profissional, médica ou pastoral. Em sofrimento intenso, ligue 188 (CVV), 24 horas." },
+    { "tipo": "versiculo", "citacao": "Não estejais inquietos por coisa alguma…", "ref": "Filipenses 4:6", "comentario": "Paulo convida a levar cada preocupação a Deus, em oração e com gratidão." },
+    { "tipo": "versiculo", "citacao": "…a paz de Deus, que excede todo o entendimento, guardará o vosso coração…", "ref": "Filipenses 4:7", "comentario": "Ela guarda por dentro, mesmo sem tudo resolvido." },
+    { "tipo": "versiculo", "citacao": "Não vos inquieteis, pois, pelo dia de amanhã…", "ref": "Mateus 6:34", "comentario": "Jesus traz o olhar para o que é possível hoje." },
+    { "tipo": "lista", "titulo": "Práticas que ajudam", "itens": ["Respire devagar antes de orar.", "Escreva o que pesa.", "Cuide do sono.", "Converse com alguém de confiança."] },
+    { "tipo": "lista", "titulo": "Oração em 5 minutos", "itens": ["Respire fundo.", "Nomeie a preocupação.", "Entregue-a a Deus.", "Agradeça três coisas.", "Escolha um passo para hoje."] },
+    { "tipo": "versiculo", "citacao": "…lançando sobre ele toda a vossa ansiedade, porque ele tem cuidado de vós.", "ref": "1 Pedro 5:7", "comentario": "Você não precisa carregar tudo sozinho." },
+    { "tipo": "texto", "titulo": "Quando procurar ajuda", "texto": "Preocupação por semanas, sono alterado ou crises de pânico? Procure um médico ou psicólogo. Não é falta de fé." },
+    { "tipo": "final", "titulo": "Salve este post", "texto": "Leia o texto completo, com uma oração para hoje, em ateladoreino.com (link na bio).", "rodape": "Leonardo Paiva, A Tela do Reino" }
+  ]
+}
