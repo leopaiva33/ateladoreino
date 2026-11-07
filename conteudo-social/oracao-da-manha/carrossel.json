@@ -1,0 +1,17 @@
+{
+  "slug": "oracao-da-manha",
+  "arte": "public/images/posts/oracao-da-manha.png",
+  "legenda": "Qual é a primeira coisa que você faz ao acordar? Conte nos comentários.\n\nCompartilhe com alguém que quer começar o dia com Deus.\n\nLeia o texto completo, com três orações da manhã para usar ou adaptar, em ateladoreino.com (link na bio).\n\n#OraçãoDaManhã #Oração #Devocional #Fé #Bíblia #ATelaDoReino",
+  "slides": [
+    { "tipo": "capa", "titulo": "Oração da manhã: como começar o dia com Deus" },
+    { "tipo": "texto", "texto": "Antes do celular, das notícias e das pendências: cinco minutos sinceros para entregar o dia a Deus." },
+    { "tipo": "versiculo", "citacao": "Pela manhã ouvirás a minha voz, ó Senhor…", "ref": "Salmos 5:3", "comentario": "Orar cedo é um costume antigo." },
+    { "tipo": "versiculo", "citacao": "Novas são cada manhã…", "ref": "Lamentações 3:23", "comentario": "As misericórdias de Deus se renovam a cada dia." },
+    { "tipo": "texto", "titulo": "Jesus também orava cedo", "texto": "De madrugada, ele foi a um lugar deserto para orar (Marcos 1:35)." },
+    { "tipo": "lista", "titulo": "Roteiro de 5 minutos", "itens": ["Agradeça.", "Entregue o dia.", "Peça o essencial.", "Ouça em silêncio."] },
+    { "tipo": "texto", "titulo": "Oração curta", "texto": "Senhor, obrigado por este novo dia. Guia os meus passos e dá-me sabedoria nas minhas escolhas. Amém." },
+    { "tipo": "lista", "titulo": "Manhã corrida?", "itens": ["Uma frase ao acordar: “Senhor, este dia é teu”.", "Ore no trajeto.", "Releia um versículo depois."] },
+    { "tipo": "lista", "titulo": "Para virar hábito", "itens": ["Celular longe da cama.", "Lugar fixo.", "Bíblia à vista.", "Comece pequeno."] },
+    { "tipo": "final", "titulo": "Salve este post", "texto": "Leia o texto completo em ateladoreino.com (link na bio).", "rodape": "Leonardo Paiva, A Tela do Reino" }
+  ]
+}

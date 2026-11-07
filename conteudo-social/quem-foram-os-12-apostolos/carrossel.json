@@ -1,0 +1,62 @@
+{
+  "slug": "quem-foram-os-12-apostolos",
+  "arte": "public/images/posts/quem-foram-os-12-apostolos.png",
+  "legenda": "Com qual apóstolo você mais se identifica? Conte nos comentários.\n\nCompartilhe com alguém que está lendo os evangelhos.\n\nLeia o texto completo, com o que a Bíblia diz sobre cada um dos doze, em ateladoreino.com (link na bio).\n\n#Apóstolos #Jesus #Discípulos #EstudoBíblico #Bíblia #ATelaDoReino",
+  "slides": [
+    {
+      "tipo": "capa",
+      "titulo": "Quem foram os 12 apóstolos de Jesus"
+    },
+    {
+      "tipo": "texto",
+      "texto": "Apóstolo quer dizer “enviado”. Jesus escolheu doze para estarem com ele e serem enviados a pregar (Marcos 3:14)."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Os doze (1 a 6)",
+      "texto": "Simão Pedro, André, Tiago (filho de Zebedeu), João, Filipe e Bartolomeu."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Os doze (7 a 12)",
+      "texto": "Tomé, Mateus, Tiago (filho de Alfeu), Tadeu, Simão (o Zelote) e Judas Iscariotes."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Pedro",
+      "texto": "Pescador, negou Jesus três vezes e foi restaurado depois da ressurreição (João 21:15-17)."
+    },
+    {
+      "tipo": "versiculo",
+      "citacao": "Senhor meu, e Deus meu!",
+      "ref": "João 20:28",
+      "comentario": "Tomé duvidou até ver Jesus ressuscitado. Então declarou a sua fé."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Mateus",
+      "texto": "Cobrador de impostos, também chamado Levi. Deixou tudo para seguir Jesus (Lucas 5:28)."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "E o lugar de Judas?",
+      "texto": "Depois da ascensão, os apóstolos escolheram Matias, testemunha da ressurreição (Atos 1:21-26)."
+    },
+    {
+      "tipo": "lista",
+      "titulo": "O que aprender",
+      "itens": [
+        "Deus chama pessoas comuns.",
+        "A fé convive com falhas.",
+        "Primeiro, estar com Jesus.",
+        "A comunidade importa."
+      ]
+    },
+    {
+      "tipo": "final",
+      "titulo": "Salve este post",
+      "texto": "Leia o texto completo em ateladoreino.com (link na bio).",
+      "rodape": "Leonardo Paiva, A Tela do Reino"
+    }
+  ]
+}

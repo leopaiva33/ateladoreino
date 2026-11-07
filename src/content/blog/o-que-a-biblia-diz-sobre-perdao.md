@@ -40,7 +40,7 @@ Muitos têm dificuldade de perdoar porque confundem perdão com outras coisas. P
 
 ## Quando há violência ou abuso
 
-Este texto é devocional e **não substitui ajuda profissional, jurídica ou pastoral**. Se você vive ou viveu violência doméstica ou abuso, procure proteção primeiro. No Brasil, o Ligue 180 atende mulheres em situação de violência, gratuitamente, e o CVV (188) oferece apoio emocional 24 horas. Perdoar, nesses casos, não significa voltar a conviver com quem machuca nem se calar. Um psicólogo ou um líder de confiança pode acompanhar você nesse caminho.
+Este texto é devocional e **não substitui ajuda profissional, jurídica ou pastoral**. Se você vive ou viveu violência doméstica ou abuso, procure proteção primeiro. No Brasil, o Ligue 180 atende mulheres em situação de violência, gratuitamente; em emergência, ligue para a polícia (190); e o CVV (188) oferece apoio emocional 24 horas. Perdoar, nesses casos, não significa voltar a conviver com quem machuca nem se calar. Um psicólogo ou um líder de confiança pode acompanhar você nesse caminho.
 
 ## Como dar passos em direção ao perdão
 

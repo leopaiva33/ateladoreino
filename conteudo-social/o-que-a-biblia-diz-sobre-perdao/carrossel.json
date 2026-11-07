@@ -1,0 +1,17 @@
+{
+  "slug": "o-que-a-biblia-diz-sobre-perdao",
+  "arte": "public/images/posts/o-que-a-biblia-diz-sobre-perdao.png",
+  "legenda": "O que é mais difícil para você: perdoar os outros ou a si mesmo? Conte nos comentários.\n\nCompartilhe com alguém que está tentando perdoar.\n\nLeia o texto completo, com passos práticos e uma oração sobre o perdão, em ateladoreino.com (link na bio).\n\nConteúdo devocional. Não substitui ajuda profissional, jurídica ou pastoral. Em situação de violência, a prioridade é a sua segurança: mulheres podem ligar para o 180; em emergência, 190. O CVV (188) oferece apoio emocional 24 horas.\n\n#Perdão #Perdoar #VidaCristã #Bíblia #Fé #ATelaDoReino",
+  "slides": [
+    { "tipo": "capa", "titulo": "O que a Bíblia diz sobre perdão: como perdoar" },
+    { "tipo": "texto", "texto": "Perdoar é soltar a dívida que alguém tem com você, assim como Deus perdoou a nossa." },
+    { "tipo": "versiculo", "citacao": "…perdoando-vos uns aos outros, como também Deus vos perdoou em Cristo.", "ref": "Efésios 4:32", "comentario": "O perdão que oferecemos nasce do perdão que recebemos." },
+    { "tipo": "versiculo", "citacao": "…até setenta vezes sete.", "ref": "Mateus 18:22", "comentario": "O perdão não é uma conta com limite." },
+    { "tipo": "versiculo", "citacao": "Pai, perdoa-lhes, porque não sabem o que fazem.", "ref": "Lucas 23:34", "comentario": "Jesus perdoou no momento da dor." },
+    { "tipo": "lista", "titulo": "Perdoar não é", "itens": ["Dizer que não doeu.", "Esquecer.", "Eliminar toda consequência.", "Reconciliar na hora.", "Permanecer em perigo."] },
+    { "tipo": "texto", "titulo": "Violência ou abuso?", "texto": "Primeiro, a sua segurança. Perdoar não é voltar a conviver com quem machuca. Mulheres: Ligue 180. Emergência: 190." },
+    { "tipo": "lista", "titulo": "Passos", "itens": ["Reconheça a dor.", "Leve-a a Deus.", "Decida perdoar.", "Entregue a justiça a Deus.", "Defina limites.", "Peça ajuda."] },
+    { "tipo": "texto", "titulo": "Perdoar a si mesmo", "texto": "Pedro negou Jesus e foi restaurado depois (João 21:15-17). Quem recebe o perdão de Deus pode seguir adiante." },
+    { "tipo": "final", "titulo": "Salve este post", "texto": "Leia o texto completo em ateladoreino.com (link na bio).", "rodape": "Leonardo Paiva, A Tela do Reino" }
+  ]
+}

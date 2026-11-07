@@ -1,0 +1,62 @@
+{
+  "slug": "parabolas-de-jesus-explicadas",
+  "arte": "public/images/posts/parabolas-de-jesus-explicadas.png",
+  "legenda": "Qual é a sua parábola favorita? Conte nos comentários.\n\nCompartilhe com alguém que gosta de estudar a Bíblia.\n\nLeia o texto completo, com o contexto de cada parábola e um método em cinco passos, em ateladoreino.com (link na bio).\n\n#Parábolas #Jesus #EstudoBíblico #Evangelhos #Bíblia #ATelaDoReino",
+  "slides": [
+    {
+      "tipo": "capa",
+      "titulo": "Parábolas de Jesus explicadas: 6 histórias e significados"
+    },
+    {
+      "tipo": "texto",
+      "texto": "Histórias simples do dia a dia que revelam verdades sobre o Reino de Deus e pedem uma resposta."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "O semeador",
+      "texto": "A mesma Palavra dá frutos diferentes conforme o coração (Mateus 13:1-23). Que terra tem sido o meu coração?"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "O bom samaritano",
+      "texto": "O amor ao próximo se mede pela ação (Lucas 10:25-37). De quem eu me aproximo, e de quem desvio?"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "A ovelha perdida",
+      "texto": "Deus busca quem se afastou e se alegra com a sua volta (Lucas 15:1-7)."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "O filho pródigo",
+      "texto": "A graça do Pai alcança quem volta e quem ficou em casa ressentido (Lucas 15:11-32). Em qual irmão me reconheço?"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Os talentos",
+      "texto": "Deus espera fidelidade, não perfeição (Mateus 25:14-30). O que eu estou “enterrando”?"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "O grão de mostarda",
+      "texto": "O Reino cresce a partir de começos pequenos (Mateus 13:31-32). Não despreze um passo pequeno."
+    },
+    {
+      "tipo": "lista",
+      "titulo": "Como ler",
+      "itens": [
+        "Contexto.",
+        "Resumo em duas frases.",
+        "Ponto principal.",
+        "Jesus explica?",
+        "O que isso pede de mim?"
+      ]
+    },
+    {
+      "tipo": "final",
+      "titulo": "Salve este post",
+      "texto": "Uma parábola por semana. Leia o texto completo em ateladoreino.com (link na bio).",
+      "rodape": "Leonardo Paiva, A Tela do Reino"
+    }
+  ]
+}

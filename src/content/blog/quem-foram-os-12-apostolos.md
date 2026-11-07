@@ -29,13 +29,13 @@ Pescador de Betsaida (João 1:44), que depois morou em Cafarnaum (Marcos 1:29). 
 Irmão de Pedro e pescador. Foi quem o apresentou a Jesus (João 1:40-42). Os evangelhos o mostram levando pessoas a Jesus, como o menino com os pães e peixes (João 6:8-9).
 
 ### 3. Tiago, filho de Zebedeu
-Pescador, irmão de João. Jesus deu a ele e a João o apelido "filhos do trovão" (Marcos 3:17). Foi morto à espada por ordem de Herodes (Atos 12:2).
+Pescador, irmão de João. Jesus deu a ele e a João o nome Boanerges, que significa "Filhos do trovão" (Marcos 3:17). Foi morto à espada por ordem de Herodes (Atos 12:2).
 
 ### 4. João
 Irmão de Tiago. Os evangelhos o descrevem como alguém muito próximo de Jesus. A tradição cristã o relaciona ao quarto evangelho, às cartas de João e ao Apocalipse, embora esse ponto seja debatido por estudiosos.
 
 ### 5. Filipe
-De Betsaida, a mesma cidade de André e Pedro. Chamou Natanael para conhecer Jesus com o convite "Vem, e vê" (João 1:43-46). Aparece também na multiplicação dos pães (João 6:5-7).
+De Betsaida, a mesma cidade de André e Pedro. Chamou Natanael para conhecer Jesus com o convite "Vem e vê" (João 1:43-46). Aparece também na multiplicação dos pães (João 6:5-7).
 
 ### 6. Bartolomeu
 Seu nome aparece nas listas dos sinóticos. Muitos estudiosos o identificam com Natanael, mencionado em João, mas essa associação é uma hipótese comum, não uma afirmação explícita do texto.
@@ -44,16 +44,16 @@ Seu nome aparece nas listas dos sinóticos. Muitos estudiosos o identificam com 
 Ficou conhecido por duvidar da ressurreição até ver Jesus (João 20:24-29). Quando o viu, declarou: "Senhor meu, e Deus meu!" (João 20:28). Também falou com coragem quando Jesus decidiu ir a Betânia (João 11:16).
 
 ### 8. Mateus
-Também chamado Levi (Marcos 2:14; Lucas 5:27). Era publicano, cobrador de impostos, e deixou tudo para seguir Jesus (Mateus 9:9). O evangelho que leva seu nome é atribuído a ele pela tradição.
+Também chamado Levi (Marcos 2:14; Lucas 5:27). Era publicano, cobrador de impostos, e, chamado por Jesus, levantou-se e o seguiu (Mateus 9:9); Lucas acrescenta que ele deixou tudo (Lucas 5:28). O evangelho que leva seu nome é atribuído a ele pela tradição.
 
 ### 9. Tiago, filho de Alfeu
 Pouco se sabe sobre ele além de seu nome nas listas. Podemos lembrar, a partir disso, que o serviço fiel nem sempre aparece nos registros.
 
-### 10. Tadeu (também chamado Judas, irmão de Tiago)
-Aparece com nomes diferentes nas listas: "Lebeu, que tinha por sobrenome Tadeu" (Mateus 10:3), "Tadeu" (Marcos 3:18) e "Judas, irmão de Tiago" (Lucas 6:16; Atos 1:13). Costumam ser vistos como a mesma pessoa. Provavelmente é também o "Judas, não o Iscariotes" que faz uma pergunta a Jesus na última ceia (João 14:22).
+### 10. Tadeu (também chamado Judas, filho de Tiago)
+Aparece com nomes diferentes nas listas: "Lebeu, apelidado Tadeu" (Mateus 10:3), "Tadeu" (Marcos 3:18) e "Judas, filho de Tiago" (Lucas 6:16; Atos 1:13; algumas traduções trazem "irmão de Tiago"). Costumam ser vistos como a mesma pessoa. Provavelmente é também o "Judas (não o Iscariotes)" que faz uma pergunta a Jesus na última ceia (João 14:22).
 
 ### 11. Simão, o zelote
-Chamado Zelote (Lucas 6:15) e também "o cananita" (Mateus 10:4), palavra que se liga ao zelo e não à cidade de Caná. O apelido pode indicar ligação com um grupo político ou simplesmente zelo religioso, e os estudiosos divergem.
+Chamado "o Zelote" (Lucas 6:15; Mateus 10:4). Algumas traduções antigas trazem "Cananita" em Mateus, palavra que se liga ao zelo e não à cidade de Caná. O apelido pode indicar ligação com um grupo político ou simplesmente zelo religioso, e os estudiosos divergem.
 
 ### 12. Judas Iscariotes
 Foi quem traiu Jesus (Mateus 26:14-16). Os evangelhos registram que ele cuidava do dinheiro do grupo (João 12:6). Após a traição, sua história termina de forma trágica (Mateus 27:3-5; Atos 1:18-19).
@@ -109,7 +109,7 @@ Para continuar, leia [Como ler a Bíblia todos os dias: guia para iniciantes](/b
 
 - Mateus 9:9 · 10:2-4 · 19:28 · 26:14-16 · 27:3-5
 - Marcos 1:29 · 2:14 · 3:14-19
-- Lucas 5:27 · 6:12-16 · 22:30
+- Lucas 5:27-28 · 6:12-16 · 22:30
 - João 1:40-46 · 6:5-9 · 11:16 · 12:6 · 14:22 · 20:24-29 · 21:15-17
 - Atos 1:13-26 · 2:14 · 12:2
 - 1 Coríntios 15:8-9

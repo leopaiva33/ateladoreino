@@ -28,7 +28,7 @@ Esse versículo foi dito a um povo desanimado, em exílio. Deus não manda o pov
 
 ## 3. "Os que esperam no Senhor renovarão as suas forças" (Isaías 40:31)
 
-O profeta fala a um povo cansado de esperar. A promessa é de renovo, e a palavra-chave é "esperar", que na Bíblia indica confiança ativa, não passividade. O texto não diz que a pessoa nunca se cansará, e sim que as forças serão renovadas por quem confia em Deus.
+O profeta fala a um povo cansado de esperar. A promessa é de renovo, e a palavra-chave é "esperar", que na Bíblia indica confiança ativa, não passividade. O versículo anterior reconhece que até os jovens se cansam (Isaías 40:30); a promessa é que quem espera no Senhor terá as forças renovadas.
 
 **Como aplicar:** em vez de cobrar de si uma força que você não tem, pare por alguns minutos, respire e peça renovo. Descansar também é um ato de confiança.
 
@@ -38,7 +38,7 @@ Paulo pediu a Deus que removesse um "espinho na carne" e recebeu uma resposta in
 
 **Como aplicar:** reconheça a sua limitação diante de Deus, sem vergonha. A fraqueza, aqui, é o lugar onde ele age, não um sinal de falta de fé.
 
-## 5. "Posso todas as coisas em Cristo que me fortalece" (Filipenses 4:13)
+## 5. "Posso todas as coisas naquele que me fortalece" (Filipenses 4:13)
 
 Este é um dos versículos mais mal usados. Paulo não estava falando de conquistar qualquer objetivo, e sim de aprender a viver bem tanto na abundância quanto na escassez (Filipenses 4:11-12). A força que ele recebe é para atravessar as circunstâncias com contentamento e fidelidade.
 
@@ -96,6 +96,6 @@ Para continuar, leia [Encontrar paz em meio à ansiedade](/blog/encontrar-paz-em
 ## Referências
 
 - Salmos 27:1 · 27:9 · 46:1
-- Isaías 40:31 · 41:10
+- Isaías 40:30-31 · 41:10
 - 2 Coríntios 12:9
 - Filipenses 4:11-13

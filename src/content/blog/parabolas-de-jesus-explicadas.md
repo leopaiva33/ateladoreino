@@ -16,7 +16,7 @@ Abaixo estão seis das parábolas mais conhecidas, com o contexto, o significado
 
 ## Por que Jesus ensinava em parábolas
 
-Os evangelhos mostram que Jesus usava parábolas para ensinar de modo concreto e para provocar uma resposta. Os discípulos chegaram a perguntar por que ele falava assim (Mateus 13:10). A resposta mostra que o coração com que se ouve importa tanto quanto as palavras.
+Os evangelhos mostram que Jesus usava parábolas para ensinar de modo concreto e para provocar uma resposta. Os discípulos chegaram a perguntar por que ele falava assim (Mateus 13:10-17). A resposta mostra que o coração com que se ouve importa tanto quanto as palavras.
 
 Uma boa regra de leitura é buscar o **ponto principal** da história. Cada detalhe nem sempre tem um significado escondido; muitas vezes a parábola gira em torno de uma ideia central.
 
@@ -76,7 +76,7 @@ Jesus compara o Reino de Deus a uma semente muito pequena que cresce e se torna 
 4. **Veja se Jesus explica.** Em alguns casos, como no semeador, ele mesmo dá a interpretação.
 5. **Pergunte a você.** Em que parte da história eu estou, e o que isso pede de mim hoje?
 
-**Exemplo com o bom samaritano:** o contexto é a pergunta "quem é o meu próximo?"; a história resumida é a de um ferido socorrido por um estrangeiro; o ponto principal é que o amor se mostra em ação; e a pergunta final é: de quem eu me aproximo hoje? Em cinco passos, a parábola deixa de ser uma história distante e vira um convite concreto.
+**Exemplo com o bom samaritano:** o contexto é a pergunta "quem é o meu próximo?" (Lucas 10:29); a história resumida é a de um ferido socorrido por um estrangeiro; o ponto principal é que o amor se mostra em ação; e a pergunta final é: de quem eu me aproximo hoje? Em cinco passos, a parábola deixa de ser uma história distante e vira um convite concreto.
 
 Para um método completo de estudo, veja [Estudo bíblico para iniciantes: um método em 4 passos](/blog/estudo-biblico-para-iniciantes).
 
@@ -110,5 +110,5 @@ Para continuar, leia [Como ler a Bíblia todos os dias: guia para iniciantes](/b
 
 ## Referências
 
-- Mateus 13:1-23 · 13:10 · 13:31-32 · 25:14-30
+- Mateus 13:1-23 · 13:10-17 · 13:31-32 · 25:14-30
 - Lucas 10:25-37 · 15:1-7 · 15:11-32
