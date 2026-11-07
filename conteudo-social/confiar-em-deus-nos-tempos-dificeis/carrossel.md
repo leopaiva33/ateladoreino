@@ -12,7 +12,7 @@ Confiar em Deus nos tempos difíceis
 Confiar não é fingir que a dor não existe. É entregar a Deus o que pesa e dar o próximo passo.
 
 **Slide 3:**
-"Já estou cansado do meu gemido…" (Salmos 6:6)
+"…molho o meu leito com as minhas lágrimas." (Salmos 6:6)
 Davi chorou noites inteiras. A Bíblia não esconde a angústia de quem tem fé.
 
 **Slide 4:**

@@ -36,7 +36,7 @@ O próprio Jesus, no Getsêmani, disse: "A minha alma está cheia de tristeza at
 **Narração:**
 Muitas pessoas acreditam que ter fé é nunca sentir ansiedade. Mas a confiança bíblica é uma decisão tomada no meio da dúvida. Provérbios 3:5 diz: "Confia no Senhor de todo o teu coração e não te estribes no teu próprio entendimento." Estribar-se é apoiar-se. Repare: o texto não pede que você entenda tudo. Ele pede que você não coloque todo o peso sobre a sua própria compreensão.
 
-Um exemplo bonito está em Marcos 9:24. Um pai aflito, com o filho doente, diz a Jesus: "Eu creio, Senhor! Ajuda a minha incredulidade." Fé e dúvida aparecem na mesma frase. E Jesus não rejeita aquele pai. Ele o acolhe. Você também pode chegar assim, com a fé que tem.
+Um exemplo bonito está em Marcos 9:24. Um pai aflito, que trouxe o filho a Jesus, diz: "Eu creio, Senhor! Ajuda a minha incredulidade." Fé e dúvida aparecem na mesma frase. E Jesus não rejeita aquele pai. Ele o acolhe. Você também pode chegar assim, com a fé que tem.
 
 **Na tela:** Provérbios 3:5, com a palavra "estribar-se = apoiar-se" destacada. Depois, Marcos 9:24 em letras grandes.
 
