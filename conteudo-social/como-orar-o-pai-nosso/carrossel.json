@@ -1,0 +1,17 @@
+{
+  "slug": "como-orar-o-pai-nosso",
+  "arte": "public/images/posts/como-orar-o-pai-nosso.png",
+  "legenda": "Qual parte do Pai Nosso mais fala com você? Conte nos comentários.\n\nCompartilhe com alguém que está aprendendo a orar.\n\nLeia o texto completo, com o significado de cada pedido e uma oração inspirada no Pai Nosso, em ateladoreino.com (link na bio).\n\n#PaiNosso #Oração #Jesus #Devocional #Bíblia #ATelaDoReino",
+  "slides": [
+    { "tipo": "capa", "titulo": "Como orar o Pai Nosso: o significado de cada pedido" },
+    { "tipo": "versiculo", "citacao": "…Senhor, ensina-nos a orar…", "ref": "Lucas 11:1", "comentario": "O Pai Nosso foi a resposta de Jesus: um modelo de oração." },
+    { "tipo": "texto", "titulo": "Pai nosso, que estás nos céus (Mateus 6:9)", "texto": "Proximidade e confiança. O “nosso” lembra que oramos junto de outros filhos." },
+    { "tipo": "texto", "titulo": "Santificado seja o teu nome (Mateus 6:9)", "texto": "Pedimos que o nome de Deus seja honrado. Reserve um momento de louvor." },
+    { "tipo": "texto", "titulo": "Venha o teu Reino (Mateus 6:10)", "texto": "“Seja feita a tua vontade”: entregue a Deus planos, decisões e expectativas." },
+    { "tipo": "texto", "titulo": "O pão nosso de cada dia (Mateus 6:11)", "texto": "Peça o necessário para hoje e confie um dia de cada vez." },
+    { "tipo": "texto", "titulo": "Perdoa-nos as nossas dívidas (Mateus 6:12)", "texto": "Pedimos perdão e nos comprometemos a perdoar (Mateus 6:14-15)." },
+    { "tipo": "texto", "titulo": "Livra-nos do mal (Mateus 6:13)", "texto": "Pedimos proteção e força nos pontos em que somos mais frágeis." },
+    { "tipo": "lista", "titulo": "Com suas palavras", "itens": ["Pai: aproxime-se.", "Santo: louve.", "Reino: entregue.", "Pão: peça.", "Perdão: confesse e perdoe.", "Livra-nos: peça proteção."] },
+    { "tipo": "final", "titulo": "Salve este post", "texto": "Leia o texto completo em ateladoreino.com (link na bio).", "rodape": "Leonardo Paiva, A Tela do Reino" }
+  ]
+}

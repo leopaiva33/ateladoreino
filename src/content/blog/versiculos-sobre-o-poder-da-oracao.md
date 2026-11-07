@@ -22,11 +22,11 @@ Jesus diz para entrar no quarto, fechar a porta e orar ao Pai em secreto. **Cont
 
 ### 2. Filipenses 4:6-7 — oração em vez de ansiedade
 
-Paulo escreve para não andar ansioso por nada, mas apresentar tudo a Deus em oração, com ação de graças; a paz de Deus guardará o coração e a mente. **Contexto:** Paulo escrevia da prisão. **O que ensina:** a oração é o caminho para lidar com a ansiedade, e o fruto prometido é paz.
+Paulo escreve para não andar ansioso por nada, mas apresentar tudo a Deus em oração, com ação de graças; a paz de Deus guardará os corações e os sentimentos. **Contexto:** Paulo escrevia da prisão. **O que ensina:** a oração é o caminho para lidar com a ansiedade, e o fruto prometido é paz. Este conteúdo é devocional e não substitui ajuda profissional, médica ou pastoral; se a ansiedade for intensa, procure ajuda.
 
 ### 3. Tiago 5:16 — orar uns pelos outros
 
-"A oração de um justo é poderosa e eficaz." **Contexto:** o versículo fala de confessar pecados uns aos outros e orar pela cura, dentro da comunidade. **O que ensina:** a oração pelos outros é valiosa, e a comunidade faz parte da vida de fé.
+"A oração feita por um justo pode muito em seus efeitos." **Contexto:** o versículo fala de confessar pecados uns aos outros e orar pela cura, dentro da comunidade. **O que ensina:** a oração pelos outros é valiosa, e a comunidade faz parte da vida de fé.
 
 ### 4. Mateus 7:7-8 — pedir, buscar, bater
 
@@ -34,7 +34,7 @@ Jesus ensina a pedir, buscar e bater à porta, com a promessa de que quem pede r
 
 ### 5. Jeremias 33:3 — "Clama a mim"
 
-"Clama a mim, e responder-te-ei e anunciar-te-ei coisas grandes e ocultas." **Contexto:** palavra dirigida a Jeremias quando estava preso, num tempo de crise para Israel. **O que ensina:** Deus convida a buscá-lo, inclusive em tempos difíceis.
+"Clama a mim, e responder-te-ei e anunciar-te-ei coisas grandes e firmes, que não sabes." **Contexto:** palavra dirigida a Jeremias quando estava preso, num tempo de crise para Israel. **O que ensina:** Deus convida a buscá-lo, inclusive em tempos difíceis.
 
 ### 6. 1 João 5:14 — segundo a sua vontade
 
@@ -42,7 +42,7 @@ Temos confiança de que, se pedirmos alguma coisa segundo a vontade de Deus, ele
 
 ### 7. João 15:7 — permanecer em Cristo
 
-"Se permanecerdes em mim, e as minhas palavras permanecerem em vós, pedireis o que quiserdes, e vos será feito." **Contexto:** a promessa vem ligada a permanecer em Jesus e na sua Palavra. **O que ensina:** quem vive próximo de Jesus passa a desejar o que ele deseja.
+"Se vós estiverdes em mim, e as minhas palavras estiverem em vós, pedireis tudo o que quiserdes, e vos será feito." **Contexto:** a promessa vem ligada a permanecer em Jesus e na sua Palavra. **O que ensina:** quem vive próximo de Jesus passa a desejar o que ele deseja.
 
 ### 8. Marcos 11:24 — pedir com fé
 
@@ -50,7 +50,7 @@ Jesus diz que tudo o que pedirmos em oração, crendo, receberemos. **Cuidado:**
 
 ### 9. Romanos 8:26 — o Espírito nos ajuda
 
-Paulo diz que não sabemos orar como convém, mas o Espírito intercede por nós com gemidos inexprimíveis. **O que ensina:** se você não sabe o que dizer, está tudo bem; Deus entende.
+Paulo diz que não sabemos o que havemos de pedir como convém, mas o Espírito intercede por nós com gemidos inexprimíveis. **O que ensina:** se você não sabe o que dizer, está tudo bem; Deus entende.
 
 ### 10. 1 Tessalonicenses 5:17 — orar sem cessar
 
@@ -62,7 +62,7 @@ Jesus conta uma parábola para mostrar que é preciso orar sempre e nunca desfal
 
 ### 12. Salmos 145:18 — Deus está perto
 
-"O Senhor está perto de todos os que o invocam, de todos os que o invocam em verdade." **O que ensina:** Deus não está distante; a sinceridade importa mais do que a eloquência.
+"Perto está o Senhor de todos os que o invocam, de todos os que o invocam em verdade." **O que ensina:** Deus não está distante; a sinceridade importa mais do que a eloquência.
 
 ## Como usar estes versículos
 

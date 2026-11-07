@@ -18,7 +18,7 @@ O Salmo 91 não traz, no título, o nome de um autor. É um poema de **confianç
 
 ### Versículos 1-2: o refúgio
 
-"Aquele que habita no esconderijo do Altíssimo e descansa à sombra do Todo-Poderoso" declara que o Senhor é o seu refúgio e fortaleza (Salmos 91:1-2). O salmo começa com a decisão de **confiar**: antes de qualquer promessa, vem a escolha de habitar em Deus.
+"Aquele que habita no esconderijo do Altíssimo, à sombra do Onipotente descansará"; e o salmista diz do Senhor: "Ele é o meu Deus, o meu refúgio, a minha fortaleza" (Salmos 91:1-2). O salmo começa com a decisão de **confiar**: antes de qualquer promessa, vem a escolha de habitar em Deus.
 
 ### Versículos 3-8: livramento em meio ao perigo
 
@@ -26,7 +26,7 @@ O salmo usa imagens de armadilha, peste, terror noturno e flecha de dia. A image
 
 ### Versículos 9-13: anjos e cuidado
 
-Quem faz do Senhor o seu abrigo recebe o cuidado dos anjos (91:9-12). **Aqui é preciso cuidado**: foi exatamente este texto que o diabo citou para tentar Jesus no deserto, sugerindo que ele se jogasse do templo. Jesus respondeu: "Não tentarás o Senhor teu Deus" (Mateus 4:5-7). O salmo **não autoriza** correr riscos desnecessários nem testar a Deus.
+Quem faz do Senhor o seu abrigo recebe o cuidado dos anjos (91:9-12). **Aqui é preciso cuidado**: foi exatamente este texto que o diabo citou para tentar Jesus no deserto, sugerindo que ele se jogasse do templo. Jesus respondeu: "Não tentarás o Senhor, teu Deus" (Mateus 4:7). O salmo **não autoriza** correr riscos desnecessários nem testar a Deus.
 
 ### Versículos 14-16: a voz de Deus
 
@@ -73,7 +73,7 @@ O salmo promete a presença e o cuidado de Deus, mas não garante ausência de s
 Sim, como oração e meditação. Evite tratá-lo como fórmula mágica.
 
 **Jesus citou o Salmo 91?**
-O diabo o citou ao tentar Jesus, e Jesus respondeu com Deuteronômio 6:16: "Não tentarás o Senhor teu Deus" (Mateus 4:5-7; Lucas 4:9-12).
+O diabo o citou ao tentar Jesus, e Jesus respondeu citando Deuteronômio 6:16: "Não tentarás o Senhor, teu Deus" (Mateus 4:7; veja também Lucas 4:9-12).
 
 ## Referências
 

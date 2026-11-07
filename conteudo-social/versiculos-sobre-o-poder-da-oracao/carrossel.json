@@ -1,0 +1,17 @@
+{
+  "slug": "versiculos-sobre-o-poder-da-oracao",
+  "arte": "public/images/posts/versiculos-sobre-o-poder-da-oracao.png",
+  "legenda": "Qual desses versículos fala mais com você hoje? Conte nos comentários.\n\nCompartilhe com alguém por quem você está orando.\n\nLeia o texto completo, com os 12 versículos e o contexto de cada um, em ateladoreino.com (link na bio).\n\n#Oração #VersículosBíblicos #PoderDaOração #Bíblia #Fé #ATelaDoReino",
+  "slides": [
+    { "tipo": "capa", "titulo": "Versículos sobre o poder da oração (com contexto)" },
+    { "tipo": "texto", "texto": "O poder da oração está em Deus, que ouve. Não está em palavras certas nem em fórmulas." },
+    { "tipo": "versiculo", "citacao": "…entra no teu aposento e, fechando a tua porta, ora a teu Pai…", "ref": "Mateus 6:6", "comentario": "Antes de tudo, um encontro pessoal." },
+    { "tipo": "versiculo", "citacao": "…a oração feita por um justo pode muito em seus efeitos.", "ref": "Tiago 5:16", "comentario": "Orar uns pelos outros faz parte da vida de fé." },
+    { "tipo": "versiculo", "citacao": "Pedi, e dar-se-vos-á; buscai e encontrareis; batei, e abrir-se-vos-á.", "ref": "Mateus 7:7", "comentario": "Podemos pedir com ousadia: Deus é bom." },
+    { "tipo": "versiculo", "citacao": "Clama a mim, e responder-te-ei…", "ref": "Jeremias 33:3", "comentario": "Dito a Jeremias quando estava preso, em tempo de crise." },
+    { "tipo": "texto", "titulo": "Não é cheque em branco", "texto": "Pedimos segundo a vontade de Deus (1 João 5:14): “não se faça a minha vontade, mas a tua” (Lucas 22:42)." },
+    { "tipo": "versiculo", "citacao": "…o mesmo Espírito intercede por nós com gemidos inexprimíveis.", "ref": "Romanos 8:26", "comentario": "Não sabe o que dizer? Deus entende." },
+    { "tipo": "versiculo", "citacao": "Perto está o Senhor de todos os que o invocam, de todos os que o invocam em verdade.", "ref": "Salmos 145:18", "comentario": "Sinceridade importa mais que eloquência." },
+    { "tipo": "final", "titulo": "Salve este post", "texto": "Escolha um versículo por dia e transforme-o em oração. Os 12 em ateladoreino.com (link na bio).", "rodape": "Leonardo Paiva, A Tela do Reino" }
+  ]
+}

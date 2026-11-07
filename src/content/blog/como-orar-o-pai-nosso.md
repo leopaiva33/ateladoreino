@@ -16,6 +16,8 @@ No Sermão do Monte, Jesus ensina a não orar para ser visto e a não usar "vãs
 
 Isso mostra que o Pai Nosso é, antes de tudo, um **modelo**, uma escola de oração.
 
+Os títulos abaixo seguem a forma tradicional, rezada nas igrejas. Na tradução Almeida Revista e Corrigida, Mateus 6:10 diz "tanto na terra como no céu", e 6:13, "não nos induzas à tentação".
+
 ## O Pai Nosso, linha por linha
 
 ### "Pai nosso, que estás nos céus"
@@ -42,17 +44,17 @@ Pedimos perdão e nos comprometemos a perdoar. Logo depois da oração, Jesus re
 
 Pedimos proteção e discernimento, reconhecendo que não somos fortes por conta própria. **Para praticar:** peça a Deus força para os pontos em que você é mais frágil.
 
-### "Porque teu é o reino, o poder e a glória, para sempre. Amém."
+### "Porque teu é o Reino, e o poder, e a glória, para sempre. Amém!"
 
-Esse final (chamado de doxologia) **não aparece nos manuscritos mais antigos** de Mateus e, por isso, algumas traduções o omitem ou o colocam em nota. Muitas igrejas protestantes o usam; na tradição católica, a oração costuma terminar em "livrai-nos do mal", com a doxologia dita à parte na missa. Use a versão da sua comunidade.
+Esse final (chamado de doxologia) está na Almeida Revista e Corrigida, no fim de Mateus 6:13, mas **não aparece nos manuscritos mais antigos** de Mateus e, por isso, algumas traduções o omitem ou o colocam em nota. Muitas igrejas protestantes o usam; na tradição católica, a oração costuma terminar em "livrai-nos do mal", com a doxologia dita à parte na missa. Use a versão da sua comunidade.
 
 ## Como usar o Pai Nosso como modelo (sem decorar)
 
 Ore com as próprias palavras, seguindo a ordem:
 
 1. **Pai**: aproxime-se com gratidão e confiança.
-2. **Santo seja o teu nome**: louve.
-3. **Venha o teu reino**: entregue seus planos.
+2. **Santificado seja o teu nome**: louve.
+3. **Venha o teu Reino**: entregue seus planos.
 4. **O pão de cada dia**: peça o necessário.
 5. **Perdoa-nos**: confesse e perdoe.
 6. **Livra-nos**: peça proteção.

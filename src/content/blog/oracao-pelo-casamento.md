@@ -13,10 +13,10 @@ tags: ["casamento", "oração", "família", "relacionamento"]
 ## O que a Bíblia diz sobre o casamento
 
 - **Uma aliança de unidade.** Gênesis 2:24 fala de deixar pai e mãe e unir-se ao cônjuge, formando uma só carne. Jesus retoma o texto em Mateus 19:4-6.
-- **Cordão de três dobras.** Eclesiastes 4:9-12 diz que dois são melhores do que um e que "o cordão de três dobras não se rebenta com facilidade". Muitos cristãos veem aí a imagem de um casamento em que Deus está no centro.
-- **Amor que se pratica.** 1 Coríntios 13:4-7 descreve o amor como paciente, bondoso, que não se ressente do mal e que tudo suporta.
+- **Cordão de três dobras.** Eclesiastes 4:9-12 diz que dois são melhores do que um e que "o cordão de três dobras não se quebra tão depressa". Muitos cristãos veem aí a imagem de um casamento em que Deus está no centro.
+- **Amor que se pratica.** 1 Coríntios 13:4-7 descreve o amor como sofredor e benigno, que não suspeita mal e que tudo suporta.
 - **Perdão e humildade.** Colossenses 3:12-14 manda revestir-se de compaixão, bondade, humildade e mansidão, suportando uns aos outros e perdoando, e acima de tudo, o amor.
-- **Submissão mútua e amor sacrificial.** Efésios 5:21 inicia a passagem sobre o casamento dizendo "sujeitando-vos uns aos outros no temor de Cristo", e o versículo 25 manda os maridos amar as esposas como Cristo amou a Igreja. A Bíblia pede aos dois serviço e cuidado, e não dominação.
+- **Submissão mútua e amor sacrificial.** Efésios 5:21 inicia a passagem sobre o casamento dizendo "sujeitando-vos uns aos outros no temor de Deus", e o versículo 25 manda os maridos amar as esposas como Cristo amou a Igreja. A Bíblia pede aos dois serviço e cuidado, e não dominação.
 
 ## 7 formas práticas de orar pelo seu casamento
 
