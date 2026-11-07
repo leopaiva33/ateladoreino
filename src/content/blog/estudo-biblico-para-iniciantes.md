@@ -55,7 +55,7 @@ Escreva uma ou duas ações práticas e uma oração curta. Em vez de "ser melho
 
 ## Exemplo prático: Filipenses 4:6-7
 
-**Observar.** O texto diz para não estar inquieto por coisa alguma e apresentar a Deus as petições em oração, com ação de graças. Promete a paz de Deus, que excede todo o entendimento e guardará os corações e os sentimentos em Cristo Jesus. Palavras-chave: "tudo", "Deus", "paz".
+**Observar.** O texto diz para não estar inquieto por coisa alguma e que as petições sejam em tudo conhecidas diante de Deus, pela oração e súplicas, com ação de graças. Promete a paz de Deus, que excede todo o entendimento e guardará os corações e os sentimentos em Cristo Jesus. Palavras-chave: "tudo", "Deus", "paz".
 
 **Contexto.** É uma carta de Paulo aos cristãos de Filipos, escrita enquanto ele estava preso (Filipenses 1:12-14). O tema da carta é a alegria em Cristo, e logo antes ele diz "regozijai-vos" (4:4). Ou seja, quem escreve sobre ansiedade não está numa situação fácil.
 
@@ -80,7 +80,7 @@ Escolha um livro curto e leia um parágrafo por vez, com o método acima:
 3. **Tiago** (5 capítulos): fé na prática.
 4. Um **salmo** por semana.
 
-Os bereanos são elogiados em Atos 17:11 porque examinavam as Escrituras todos os dias para ver se as coisas eram assim. Estudar a Bíblia é um hábito antigo e bom. Para encaixar o estudo na rotina, veja [Como ter um devocional diário](/blog/como-ter-um-devocional-diario).
+Os bereanos são elogiados em Atos 17:11 porque examinavam cada dia as Escrituras para ver se estas coisas eram assim. Estudar a Bíblia é um hábito antigo e bom. Para encaixar o estudo na rotina, veja [Como ter um devocional diário](/blog/como-ter-um-devocional-diario).
 
 ## Perguntas frequentes
 

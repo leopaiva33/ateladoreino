@@ -18,7 +18,7 @@ Duração prevista: cerca de 7 minutos e 35 segundos (narração de 965 palavras
 ### 1. Abertura (0:00 a 0:35)
 
 **Narração:**
-Quando o medo chega, o que você diz para o seu coração? O Salmo 23 tem só seis versículos, mas cada frase carrega uma imagem que vale a pena entender. Neste vídeo eu vou mostrar, versículo por versículo, o que ele quer dizer, o que ele não promete e como você pode orar com ele hoje, em poucos minutos. Fique até o final, porque vamos terminar com uma oração. Eu sou Leonardo Paiva, da A Tela do Reino.
+Quando o medo chega, o que você diz para o seu coração? O Salmo 23 tem só seis versículos, mas cada frase carrega uma imagem que vale a pena entender. Neste vídeo eu vou mostrar, versículo por versículo, o que ele quer dizer, o que ele não promete e como você pode orar com ele hoje, em poucos minutos. Fique até o final, porque vamos terminar com uma oração. Eu sou Leonardo Paiva, do canal A Tela do Reino.
 
 **Na tela:** abertura com a ilustração do artigo (colinas ao amanhecer, ovelhas e cajado). Texto grande: "SALMO 23". Legenda curta: "versículo por versículo". Nome e logo "A Tela do Reino" no canto. Aviso pequeno no rodapé: "Conteúdo devocional. Não substitui ajuda profissional, médica ou pastoral."
 

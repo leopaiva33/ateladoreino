@@ -24,7 +24,7 @@ O que a oração **não** é:
 
 ## Antes de começar: lugar, tempo e postura
 
-**Lugar.** Jesus recomendou: "quando você orar, entre no seu quarto, feche a porta e ore a seu Pai, que está em secreto" (Mateus 6:6, em paráfrase). A ideia é um lugar onde você consiga se concentrar. Pode ser o quarto, um canto da sala, o carro estacionado ou um parque.
+**Lugar.** Jesus recomendou: "Mas tu, quando orares, entra no teu aposento e, fechando a tua porta, ora a teu Pai, que vê o que está oculto" (Mateus 6:6). A ideia é um lugar onde você consiga se concentrar. Pode ser o quarto, um canto da sala, o carro estacionado ou um parque.
 
 **Tempo.** Os evangelhos relatam que Jesus se retirava para orar em lugares isolados, inclusive de madrugada (Marcos 1:35). Escolha o horário em que você está menos interrompido. Para começar, uma sugestão prática é reservar de **5 a 10 minutos** e ampliar com o tempo. Esse número é só uma sugestão, não uma regra bíblica.
 
@@ -60,10 +60,10 @@ Quando os discípulos pediram que Jesus os ensinasse a orar, ele deu um modelo, 
 |---|---|
 | "Pai nosso, que estás nos céus" | Dirigir-se a Deus com proximidade e respeito |
 | "Santificado seja o teu nome" | Louvar e reconhecer quem Deus é |
-| "Venha o teu reino, seja feita a tua vontade" | Entregar seus planos e buscar alinhar sua vida ao que Deus quer |
-| "O pão nosso de cada dia nos dá hoje" | Pedir o que você precisa, um dia de cada vez |
-| "Perdoa as nossas ofensas, assim como perdoamos" | Pedir perdão e perdoar quem errou com você |
-| "Não nos deixes cair em tentação, mas livra-nos do mal" | Pedir proteção e discernimento |
+| "Venha o teu Reino. Seja feita a tua vontade" | Entregar seus planos e buscar alinhar sua vida ao que Deus quer |
+| "O pão nosso de cada dia dá-nos hoje" | Pedir o que você precisa, um dia de cada vez |
+| "Perdoa-nos as nossas dívidas, assim como nós perdoamos aos nossos devedores" | Pedir perdão e perdoar quem errou com você |
+| "E não nos induzas à tentação, mas livra-nos do mal" | Pedir proteção e discernimento |
 
 *Observação:* existem pequenas diferenças de texto entre as traduções e entre tradições católicas e evangélicas, principalmente no final da oração. Use a versão da sua comunidade.
 

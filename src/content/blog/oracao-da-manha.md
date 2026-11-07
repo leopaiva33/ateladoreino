@@ -16,7 +16,7 @@ Veja a seguir por que orar cedo faz sentido, um roteiro simples, três orações
 
 ## Por que orar de manhã
 
-A Bíblia mostra vários exemplos de oração no início do dia. O salmista diz ao Senhor: "Pela manhã ouvirás a minha voz, ó Senhor" (Salmos 5:3). Jesus, em Marcos 1:35, levantou-se de madrugada e foi a um lugar deserto para orar. E o livro de Lamentações lembra que as misericórdias de Deus "novas são cada manhã" (Lamentações 3:23).
+A Bíblia mostra vários exemplos de oração no início do dia. O salmista diz ao Senhor: "Pela manhã ouvirás a minha voz, ó Senhor" (Salmos 5:3). Jesus, em Marcos 1:35, levantou-se de manhã muito cedo e foi a um lugar deserto para orar. E o livro de Lamentações lembra que as misericórdias de Deus "novas são cada manhã" (Lamentações 3:23).
 
 Isso não significa que só a oração da manhã vale. Deus ouve a qualquer hora. Mas começar o dia orando tem benefícios práticos:
 

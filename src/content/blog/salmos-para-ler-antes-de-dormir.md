@@ -33,7 +33,7 @@ O título do Salmo 3 diz que ele foi escrito por Davi quando fugia de seu filho 
 
 ### Salmo 23: o pastor que cuida
 
-É o salmo mais conhecido. Descreve Deus como pastor que conduz a pastos verdejantes e águas de descanso (Salmos 23:1-3) e que acompanha até no vale mais escuro (23:4). **Bom para:** qualquer noite, em especial para quem precisa de consolo.
+É o salmo mais conhecido. Descreve Deus como pastor que faz deitar em verdes pastos e guia a águas tranquilas (Salmos 23:1-3) e que acompanha até no vale mais escuro (23:4). **Bom para:** qualquer noite, em especial para quem precisa de consolo.
 
 ### Salmo 91: abrigo em Deus
 
@@ -41,11 +41,11 @@ Fala de quem habita no esconderijo do Altíssimo e confia em Deus como refúgio 
 
 ### Salmo 121: o guarda que não dorme
 
-É um dos "cânticos de romagem" cantados por quem subia a Jerusalém. Diz que o guarda de Israel não tosqueneja (cochila) nem dorme (Salmos 121:3-4). Pode-se descansar porque Deus continua atento. **Bom para:** quando você se sente responsável por tudo e não consegue desligar.
+É um dos "cânticos dos degraus", cantados por quem subia a Jerusalém. Diz que o guarda de Israel não tosqueneja (cochila) nem dorme (Salmos 121:3-4). Pode-se descansar porque Deus continua atento. **Bom para:** quando você se sente responsável por tudo e não consegue desligar.
 
 ### Salmo 127: descansar sem culpa
 
-O Salmo 127:2 lembra que de nada adianta acordar cedo, dormir tarde e se desgastar em trabalho ansioso: Deus dá descanso àqueles que ama. O texto não elogia a preguiça; mostra que o descanso é uma forma de confiar. **Bom para:** quem leva o trabalho para a cama.
+O Salmo 127:2 lembra que é inútil levantar de madrugada, repousar tarde e comer o pão de dores, pois Deus dá aos seus amados o sono. O texto não elogia a preguiça; mostra que o descanso é uma forma de confiar. **Bom para:** quem leva o trabalho para a cama.
 
 ## Uma oração curta para antes de dormir
 

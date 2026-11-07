@@ -62,7 +62,7 @@ Um homem entrega valores a três servos antes de viajar. Dois os fazem render; o
 
 ## 6. O grão de mostarda (Mateus 13:31-32)
 
-Jesus compara o Reino de Deus a uma semente muito pequena que cresce e se torna uma árvore onde as aves fazem ninho. É uma imagem de começo modesto e crescimento surpreendente.
+Jesus compara o Reino dos céus a um grão de mostarda, uma semente muito pequena que cresce e se torna uma árvore onde as aves fazem ninho. É uma imagem de começo modesto e crescimento surpreendente.
 
 **Significado:** o Reino de Deus costuma crescer de modo discreto, a partir de começos pequenos.
 

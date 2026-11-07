@@ -14,7 +14,7 @@ tags: ["natal", "nascimento de Jesus", "Belém", "advento"]
 
 Os relatos estão em dois evangelhos:
 
-- **Lucas 1 e 2:** o anjo anuncia a Maria que ela será mãe de Jesus; por causa do recenseamento, Maria e José vão a Belém; Jesus nasce e é colocado numa manjedoura; anjos anunciam a notícia aos pastores (Lucas 2:1-20).
+- **Lucas 1 e 2:** o anjo anuncia a Maria que ela será mãe de Jesus; por causa do alistamento, Maria e José vão a Belém; Jesus nasce e é colocado numa manjedoura; anjos anunciam a notícia aos pastores (Lucas 2:1-20).
 - **Mateus 1 e 2:** o anjo orienta José a receber Maria como esposa; magos do oriente seguem uma estrela, procuram o menino e o adoram (Mateus 1:18-25; 2:1-12).
 
 Duas coisas chamam a atenção: Jesus nasce em circunstâncias **simples** (uma manjedoura) e a notícia chega primeiro a **pastores**, pessoas comuns daquele tempo.
@@ -23,11 +23,11 @@ Duas coisas chamam a atenção: Jesus nasce em circunstâncias **simples** (uma 
 
 ### Deus se aproxima
 
-O evangelho de João resume: "o Verbo se fez carne e habitou entre nós" (João 1:14). Paulo diz que Jesus, sendo de natureza divina, se esvaziou e assumiu a forma de servo (Filipenses 2:6-8). Os cristãos entendem o Natal como a **encarnação**: Deus entra na história humana.
+O evangelho de João resume: "o Verbo se fez carne e habitou entre nós" (João 1:14). Paulo diz que Jesus, sendo em forma de Deus, aniquilou-se a si mesmo, tomando a forma de servo (Filipenses 2:6-8). Os cristãos entendem o Natal como a **encarnação**: Deus entra na história humana.
 
 ### Uma promessa que se cumpre
 
-O Natal é lido à luz de promessas antigas: o profeta Miqueias aponta Belém como lugar de origem de um governante (Miqueias 5:2), e Isaías fala de um sinal, um filho chamado Emanuel (Isaías 7:14), nome que Mateus traduz como "Deus conosco" (Mateus 1:23). Gálatas 4:4 diz que, quando chegou a plenitude do tempo, Deus enviou o seu Filho.
+O Natal é lido à luz de promessas antigas: o profeta Miqueias diz que de Belém sairia "o que será Senhor em Israel" (Miqueias 5:2), e Isaías fala de um sinal, um filho chamado Emanuel (Isaías 7:14), nome que Mateus traduz como "Deus conosco" (Mateus 1:23). Gálatas 4:4 diz que, vindo a plenitude dos tempos, Deus enviou seu Filho.
 
 ### Esperança para quem mais precisa
 
@@ -39,7 +39,7 @@ A Bíblia **não informa a data** do nascimento de Jesus. A tradição de celebr
 
 ## Os símbolos do Natal e seus significados
 
-- **Estrela:** lembra a estrela que guiou os magos (Mateus 2:2).
+- **Estrela:** lembra a estrela que guiou os magos (Mateus 2:2, 9).
 - **Presépio:** representa a cena de Belém, com a manjedoura, Maria, José, pastores e magos.
 - **Luzes e velas:** lembram que Jesus é descrito como a luz do mundo (João 8:12).
 - **Presentes:** recordam os presentes dos magos e, principalmente, o "dom inefável" de Deus (2 Coríntios 9:15).

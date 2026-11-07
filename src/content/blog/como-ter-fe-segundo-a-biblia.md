@@ -17,12 +17,12 @@ A definição mais citada está em Hebreus 11:1: "a fé é o firme fundamento da
 Algumas ideias importantes do texto bíblico:
 
 - **A fé é confiança, não sentimento.** Há dias em que você sente menos, e a fé continua sendo uma decisão de confiar.
-- **A fé é um presente.** Efésios 2:8 diz que somos salvos pela graça, mediante a fé, e que isso é dom de Deus.
+- **A fé é um presente.** Efésios 2:8 diz que somos salvos pela graça, por meio da fé, e que isso é dom de Deus.
 - **A fé produz ação.** Tiago 2:17 afirma que a fé sem obras é morta: quem confia, vive de acordo com o que confia.
 
 ## A fé não precisa ser grande para começar
 
-Os discípulos pediram a Jesus: "Acrescenta-nos a fé" (Lucas 17:5). Jesus respondeu que uma fé do tamanho de um grão de mostarda já pode muito (Mateus 17:20; Lucas 17:6). A lição é que o **tamanho da fé importa menos do que a grandeza daquele em quem se confia**.
+Os apóstolos pediram ao Senhor: "Acrescenta-nos a fé" (Lucas 17:5). Jesus respondeu que uma fé do tamanho de um grão de mostarda já pode muito (Mateus 17:20; Lucas 17:6). A lição é que o **tamanho da fé importa menos do que a grandeza daquele em quem se confia**.
 
 Um pai desesperado diz a Jesus uma frase honesta: "Eu creio, Senhor! Ajuda a minha incredulidade" (Marcos 9:24). Você pode orar assim: reconhecer que confia um pouco e pedir ajuda para confiar mais.
 
@@ -56,7 +56,7 @@ Confiar é também agir: perdoar, servir, ser honesto, dar o próximo passo que 
 
 ## Fé quando tudo dá errado
 
-O profeta Habacuque diz que, ainda que a figueira não floresça e não haja produto nas vinhas, ele se alegrará no Senhor (Habacuque 3:17-18). A fé madura se apoia em quem Deus é, e não apenas em como as coisas estão indo. Se você passa por um momento assim, leia também [Confiar em Deus nos tempos difíceis](/blog/confiar-em-deus-nos-tempos-dificeis).
+O profeta Habacuque diz que, ainda que a figueira não floresça, nem haja fruto na vide, ele se alegrará no Senhor (Habacuque 3:17-18). A fé madura se apoia em quem Deus é, e não apenas em como as coisas estão indo. Se você passa por um momento assim, leia também [Confiar em Deus nos tempos difíceis](/blog/confiar-em-deus-nos-tempos-dificeis).
 
 Se a tristeza ou a ansiedade forem intensas e duradouras, procure ajuda profissional. No Brasil, o CVV atende gratuitamente, 24 horas por dia, pelo telefone 188.
 

@@ -39,13 +39,13 @@ A Bíblia fala diretamente aos jovens:
 
 | Dia | Texto | Ideia central |
 |---|---|---|
-| 1 | Salmos 119:9-11 | Guardar a Palavra no coração |
+| 1 | Salmos 119:9-11 | Esconder a Palavra no coração |
 | 2 | 1 Timóteo 4:12 | Ser exemplo, mesmo sendo jovem |
 | 3 | Provérbios 3:5-6 | Confiar em Deus ao decidir |
 | 4 | Eclesiastes 12:1 | Lembrar o Criador desde cedo |
 | 5 | Tiago 1:5 | Pedir sabedoria a Deus |
-| 6 | Salmos 139:23-24 | Pedir que Deus examine o coração |
-| 7 | Marcos 1:35 | Jesus orava em um lugar tranquilo |
+| 6 | Salmos 139:23-24 | Pedir que Deus sonde o coração |
+| 7 | Marcos 1:35 | Jesus orava num lugar deserto, de manhã muito cedo |
 
 No dia 8, avance para o Evangelho de Marcos ou escolha um salmo por dia.
 

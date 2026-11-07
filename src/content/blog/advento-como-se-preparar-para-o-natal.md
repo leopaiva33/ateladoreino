@@ -28,7 +28,7 @@ O Advento começa no **quarto domingo antes do Natal**. Em 2026, o Natal cai num
 ## Símbolos do Advento
 
 - **Coroa de Advento:** um círculo de ramos verdes, que lembra a vida que não acaba, com **quatro velas**, uma acesa a cada domingo. Muitas igrejas usam três velas roxas e uma rosa, mas as cores variam; o que importa é o sentido.
-- **Velas:** a luz que cresce a cada semana lembra que Cristo é a luz que vence a escuridão (João 1:5).
+- **Velas:** a luz que cresce a cada semana lembra que Cristo é a luz que resplandece nas trevas (João 1:5).
 - **Temas das semanas:** muitas tradições dedicam as semanas à **esperança, à paz, à alegria e ao amor**. Há outras sequências (como os profetas, Belém, os pastores e os anjos); escolha a que fizer sentido para a sua comunidade.
 
 ## Plano de 4 semanas para se preparar
@@ -37,12 +37,12 @@ Reserve de 10 a 15 minutos por dia, com uma leitura e uma oração curta. No dom
 
 ### Semana 1: Esperança (29/11 a 5/12)
 
-**Leitura-guia:** Isaías 9:2-7. O profeta fala de um povo que andava em trevas e viu uma grande luz, e anuncia um filho que será chamado Príncipe da Paz.
-**Prática:** escreva uma esperança que você está esperando que Deus cumpra e ore por ela todos os dias.
+**Leitura-guia:** Isaías 9:2-7. O profeta fala de um povo que andava em trevas e viu uma grande luz, e anuncia um filho cujo nome será Príncipe da Paz (Isaías 9:6).
+**Prática:** escreva algo que você espera que Deus cumpra e ore por isso todos os dias.
 
 ### Semana 2: Paz (6/12 a 12/12)
 
-**Leitura-guia:** Isaías 11:1-10. A imagem de um reino de paz, em que o lobo habita com o cordeiro.
+**Leitura-guia:** Isaías 11:1-10. A imagem de um reino de paz, em que o lobo morará com o cordeiro.
 **Prática:** reconcilie-se com alguém, mande uma mensagem de paz ou ore por quem você tem dificuldade em perdoar.
 
 ### Semana 3: Alegria (13/12 a 19/12)

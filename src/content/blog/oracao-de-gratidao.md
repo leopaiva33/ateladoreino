@@ -13,8 +13,8 @@ tags: ["gratidão", "oração", "agradecimento", "fim de ano"]
 ## O que a Bíblia ensina sobre gratidão
 
 - **Agradecer em todas as circunstâncias.** Paulo escreve: "em tudo dai graças, porque esta é a vontade de Deus em Cristo Jesus para convosco" (1 Tessalonicenses 5:18). Isso não manda agradecer *pelo* sofrimento, e sim reconhecer que Deus continua presente e digno de gratidão *em meio* a ele.
-- **Gratidão faz parte da oração.** Filipenses 4:6 manda apresentar os pedidos a Deus "com ação de graças".
-- **Louvar entrando em sua presença.** O Salmo 100:4 convida a entrar pelas portas de Deus com gratidão.
+- **Gratidão faz parte da oração.** Filipenses 4:6 pede que as nossas petições sejam conhecidas diante de Deus "com ação de graças".
+- **Louvar entrando em sua presença.** O Salmo 100:4 convida a entrar pelas portas de Deus com louvor.
 - **Lembrar os benefícios.** "Bendize, ó minha alma, ao Senhor, e não te esqueças de nenhum de seus benefícios" (Salmos 103:2).
 - **Um só voltou para agradecer.** Lucas 17:11-19 conta que dez homens foram curados de lepra, mas só um, um samaritano, voltou para agradecer a Jesus. A história mostra que **receber é fácil; reconhecer e agradecer exige atenção**.
 
@@ -54,7 +54,7 @@ Há fases em que a gratidão não vem fácil, e tudo bem. Comece pelo básico (o
 Pare um momento, agradeça a Deus por quem ele é, nomeie coisas concretas e termine com um compromisso de gratidão.
 
 **Preciso agradecer por tudo, até pelo sofrimento?**
-A Bíblia manda agradecer *em* tudo, isto é, em todas as circunstâncias, sem negar a dor. Você pode ser grato pela presença de Deus mesmo em dias difíceis.
+Paulo orienta a agradecer *em* tudo (1 Tessalonicenses 5:18), isto é, em todas as circunstâncias, sem negar a dor. Você pode ser grato pela presença de Deus mesmo em dias difíceis.
 
 **Qual a diferença entre gratidão e louvor?**
 Gratidão agradece pelo que Deus fez. Louvor reconhece e exalta quem Deus é. As duas andam juntas.
