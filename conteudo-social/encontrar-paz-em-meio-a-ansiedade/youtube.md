@@ -73,7 +73,7 @@ Agora, um exercício para quando a mente estiver acelerada. Se puder, faça comi
 **Narração:**
 A ansiedade pode ser uma resposta normal a um período difícil, mas também pode ser um quadro que precisa de tratamento. Vale buscar um médico ou psicólogo quando a preocupação dura semanas e você não consegue controlá-la. Quando há mudanças no sono, no apetite ou na concentração. Quando surgem crises de pânico, falta de ar ou palpitações frequentes. Ou quando a ansiedade atrapalha o trabalho, os estudos ou os relacionamentos. Procurar ajuda não é falta de fé. A oração traz paz e perspectiva, e muitas pessoas sentem alívio ao orar. Mas ela não substitui o tratamento quando há um quadro de ansiedade persistente. Os dois caminhos se completam. E um bom texto para ler devagar, em voz alta se possível, é Filipenses 4:6 e 7, junto com 1 Pedro 5:7 e Mateus 6, do versículo 25 ao 34. Cuidar da mente é parte de cuidar da vida que Deus deu a você.
 
-**Na tela:** lista de quatro sinais com marcadores. Texto final: "Procurar ajuda não é falta de fé."
+**Na tela:** lista de quatro sinais com marcadores. Texto final: "Procurar ajuda não é falta de fé." Ao citar os textos, mostrar as referências: Filipenses 4:6-7, 1 Pedro 5:7 e Mateus 6:25-34.
 
 ### 9. Oração e encerramento (6:45 a 7:30)
 
