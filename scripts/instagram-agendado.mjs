@@ -6,6 +6,7 @@
 //   - o artigo já aparece no sitemap do site no ar (o link da bio precisa funcionar);
 //   - existe conteudo-social/<slug>/carrossel.json e os slides em public/social/<slug>/;
 //   - ainda não existe conteudo-social/<slug>/instagram.json (registro de publicação).
+// Também entram os slugs de conteudo-social/agenda-instagram.json cuja data já chegou.
 // Publica um por execução, do mais antigo para o mais novo.
 // Artigos vencidos sem carrossel geram um aviso no log do GitHub Actions.
 import { readdir, readFile, appendFile, access } from 'node:fs/promises';
@@ -13,7 +14,8 @@ import { join } from 'node:path';
 
 const DIR = 'src/content/blog';
 const SITEMAP = process.env.SITEMAP_URL ?? 'https://www.ateladoreino.com/sitemap-0.xml';
-// Artigos anteriores a esta data não são publicados automaticamente (use o workflow manual).
+// Artigos anteriores a esta data só são publicados automaticamente se estiverem em
+// conteudo-social/agenda-instagram.json (ou pelo workflow manual).
 const INICIO = Date.parse(process.env.INICIO_ISO ?? '2026-11-07T00:00:00-03:00');
 const agora = process.env.AGORA_ISO ? Date.parse(process.env.AGORA_ISO) : Date.now();
 const existe = (p) => access(p).then(() => true, () => false);
@@ -26,6 +28,21 @@ for (const file of (await readdir(DIR)).filter((f) => f.endsWith('.md'))) {
   const data = raw ? Date.parse(raw) : NaN;
   if (Number.isNaN(data) || data > agora || data < INICIO) continue;
   vencidos.push({ slug: file.replace(/\.md$/, ''), data });
+}
+
+// Carrosséis de artigos antigos (anteriores a INICIO) agendados à mão: { "slug": "AAAA-MM-DDTHH:MM:SS-03:00" }.
+const AGENDA = 'conteudo-social/agenda-instagram.json';
+if (await existe(AGENDA)) {
+  const agenda = JSON.parse(await readFile(AGENDA, 'utf8'));
+  for (const [slug, quando] of Object.entries(agenda)) {
+    const data = Date.parse(quando);
+    if (Number.isNaN(data)) {
+      console.log(`::warning::Data inválida em ${AGENDA} para "${slug}": ${quando}`);
+      continue;
+    }
+    if (data > agora || vencidos.some((v) => v.slug === slug)) continue;
+    vencidos.push({ slug, data });
+  }
 }
 vencidos.sort((a, b) => a.data - b.data);
 

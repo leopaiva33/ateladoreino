@@ -11,7 +11,8 @@ Para isso, antes da data do artigo deve existir no repositório:
 
 Depois de publicar, o workflow grava `conteudo-social/<slug>/instagram.json`, o que impede repetir a
 publicação. Artigos que entram no blog sem carrossel aparecem como aviso no log do Actions. Artigos
-anteriores a 07/11/2026 não entram na fila automática (use o workflow manual).
+anteriores a 07/11/2026 só entram na fila automática se estiverem em
+`conteudo-social/agenda-instagram.json` (slug e data/hora de Brasília); fora disso, use o workflow manual.
 
 Credenciais: usuário do sistema `publicador-instagram` (portfólio atela_reino), token sem expiração,
 nos segredos `IG_USER_ID` e `IG_ACCESS_TOKEN` do repositório.
