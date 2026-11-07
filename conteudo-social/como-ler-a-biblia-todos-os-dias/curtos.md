@@ -47,7 +47,7 @@ Orar, ler duas vezes, perguntar e agir. Experimente amanhã na sua leitura.
 Hábito em 21 dias? Não é bem assim.
 
 **Narração (cerca de 35 segundos):**
-Um estudo publicado no European Journal of Social Psychology acompanhou voluntários criando um hábito novo. O tempo até ele ficar automático variou de 18 a 254 dias. O estudo não era sobre leitura bíblica, mas a lição serve: não existe prazo mágico. E outra descoberta: perder um único dia não atrapalhou de forma relevante. Então, se você falhar, não tente compensar lendo cinco capítulos. Só volte de onde parou. Constância, não perfeição.
+Um estudo publicado no European Journal of Social Psychology acompanhou voluntários criando um hábito novo. O tempo até ele ficar automático variou de 18 a 254 dias. O estudo não era sobre leitura bíblica, mas a lição serve: não existe prazo mágico. E outra descoberta: perder um único dia não atrapalhou o hábito de forma relevante. Então, se você falhar, não tente compensar lendo cinco capítulos. Só volte de onde parou. Constância, não perfeição.
 
 **Versículo:** "Toda Escritura divinamente inspirada é proveitosa para ensinar…" (2 Timóteo 3:16)
 
