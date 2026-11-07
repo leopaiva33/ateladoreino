@@ -26,7 +26,7 @@ Orar é conversar com Deus como um filho conversa com o pai. Sem fórmulas, com 
 ## Vídeo 2: orar sem cessar na rotina
 
 **Gancho (letras grandes, 3 primeiros segundos):**
-"Orar sem cessar" não é ficar de joelhos o dia todo.
+"Orai sem cessar" não é ficar de joelhos o dia todo.
 
 **Narração (cerca de 35 segundos):**
 Paulo escreveu: orai sem cessar. Isso não significa passar o dia ajoelhado, e sim manter o coração voltado para Deus durante a rotina. Alguns momentos ajudam. Ao acordar, entregue o dia a Deus antes de olhar as notificações. Antes de uma reunião ou conversa difícil, faça uma oração rápida, mesmo de olhos abertos. No caminho para o trabalho, converse com Deus. E à noite, agradeça por três coisas do dia.
@@ -47,7 +47,7 @@ Desafio de 7 dias: escolha um momento da rotina e transforme-o em pausa de oraç
 Orou e nada mudou?
 
 **Narração (cerca de 35 segundos):**
-Nem sempre a resposta vem como esperamos, no tempo que gostaríamos. A Bíblia não promete que vai ser exatamente como pedimos. Mas Jesus contou uma parábola para ensinar que devemos orar sempre e não desanimar. Persistir na oração não é cansar Deus com repetição. É continuar confiando, mesmo quando o cenário ainda não mudou. Enquanto você espera, a oração mantém o seu coração perto de Deus.
+Nem sempre a resposta vem como esperamos, no tempo que gostaríamos. A Bíblia não promete que vai ser exatamente como pedimos. Mas Jesus contou uma parábola para ensinar que devemos orar sempre e não desanimar. Persistir na oração não é cansar Deus com repetição. É continuar confiando, mesmo quando o cenário ainda não mudou. Enquanto você espera, a oração pode manter o seu coração perto de Deus.
 
 **Versículo:** "…o dever de orar sempre e nunca desfalecer." (Lucas 18:1)
 

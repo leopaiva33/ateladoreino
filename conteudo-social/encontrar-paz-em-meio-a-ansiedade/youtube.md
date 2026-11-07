@@ -2,7 +2,7 @@
 
 Artigo de origem: `src/content/blog/encontrar-paz-em-meio-a-ansiedade.md`
 Link: https://ateladoreino.com/blog/encontrar-paz-em-meio-a-ansiedade
-Duração prevista: cerca de 7 minutos (narração de cerca de 815 palavras, a ~140 palavras por minuto, mais pausas para as imagens).
+Duração prevista: cerca de 7 minutos e 30 segundos (narração de cerca de 868 palavras, a ~140 palavras por minuto, mais pausas para as imagens).
 
 ## Título
 
@@ -41,7 +41,7 @@ E tem um detalhe que dá peso a esse conselho: Paulo escreve isso da prisão. El
 ### 4. A paz que guarda (2:10 a 3:05)
 
 **Narração:**
-O texto continua, no versículo 7: "E a paz de Deus, que excede todo o entendimento, guardará o vosso coração e os vossos sentimentos em Cristo Jesus." Essa paz funciona como uma sentinela. Ela protege o interior enquanto o exterior ainda está em movimento.
+O texto continua, no versículo 7: "E a paz de Deus, que excede todo o entendimento, guardará os vossos corações…" Essa paz funciona como uma sentinela. Ela protege o interior enquanto o exterior ainda está em movimento.
 
 Jesus fala de uma paz parecida, em João 14:27: "a minha paz vos dou." E Isaías 26:3 diz: "Tu conservarás em paz aquele cuja mente está firme em ti." Em todos esses textos, a paz vem da presença de Deus, e não da ausência de problemas.
 
@@ -68,14 +68,14 @@ Agora, um exercício para quando a mente estiver acelerada. Se puder, faça comi
 
 **Na tela:** os cinco passos numerados: "Respire", "Nomeie", "Entregue", "Agradeça", "Escolha um passo". Pausas visuais curtas entre eles.
 
-### 8. Quando procurar ajuda profissional (5:40 a 6:20)
+### 8. Quando procurar ajuda profissional (5:40 a 6:45)
 
 **Narração:**
-A ansiedade pode ser uma resposta normal a um período difícil, mas também pode ser um quadro que precisa de tratamento. Vale buscar um médico ou psicólogo quando a preocupação dura semanas e você não consegue controlá-la. Quando há mudanças no sono, no apetite ou na concentração. Quando surgem crises de pânico, falta de ar ou palpitações frequentes. Ou quando a ansiedade atrapalha o trabalho, os estudos ou os relacionamentos. Procurar ajuda não é falta de fé. Cuidar da mente é parte de cuidar da vida que Deus deu a você.
+A ansiedade pode ser uma resposta normal a um período difícil, mas também pode ser um quadro que precisa de tratamento. Vale buscar um médico ou psicólogo quando a preocupação dura semanas e você não consegue controlá-la. Quando há mudanças no sono, no apetite ou na concentração. Quando surgem crises de pânico, falta de ar ou palpitações frequentes. Ou quando a ansiedade atrapalha o trabalho, os estudos ou os relacionamentos. Procurar ajuda não é falta de fé. A oração traz paz e perspectiva, e muitas pessoas sentem alívio ao orar. Mas ela não substitui o tratamento quando há um quadro de ansiedade persistente. Os dois caminhos se completam. E um bom texto para ler devagar, em voz alta se possível, é Filipenses 4:6 e 7, junto com 1 Pedro 5:7 e Mateus 6, do versículo 25 ao 34. Cuidar da mente é parte de cuidar da vida que Deus deu a você.
 
 **Na tela:** lista de quatro sinais com marcadores. Texto final: "Procurar ajuda não é falta de fé."
 
-### 9. Oração e encerramento (6:20 a 7:05)
+### 9. Oração e encerramento (6:45 a 7:30)
 
 **Narração:**
 Vamos orar juntos. Senhor, minha mente está cheia e o meu coração, apertado. Eu te entrego o que eu não consigo controlar. Ensina-me a confiar um dia de cada vez e a pedir ajuda quando eu precisar. Dá-me a tua paz e guarda os meus pensamentos em ti. Amém.
@@ -99,7 +99,7 @@ Capítulos:
 3:50 Práticas que ajudam
 4:50 Oração de cinco minutos
 5:40 Quando procurar ajuda profissional
-6:20 Oração e encerramento
+6:45 Oração e encerramento
 
 Conteúdo devocional. Não substitui ajuda profissional, médica ou pastoral. No Brasil, o CVV atende gratuitamente, 24 horas, pelo 188.
 

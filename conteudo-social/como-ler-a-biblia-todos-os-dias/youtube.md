@@ -2,7 +2,7 @@
 
 Artigo de origem: `src/content/blog/como-ler-a-biblia-todos-os-dias.md`
 Link: https://ateladoreino.com/blog/como-ler-a-biblia-todos-os-dias
-Duração prevista: cerca de 7 minutos e 20 segundos (narração de cerca de 912 palavras, a ~140 palavras por minuto, mais pausas para as imagens).
+Duração prevista: cerca de 7 minutos e 20 segundos (narração de cerca de 893 palavras, a ~140 palavras por minuto, mais pausas para as imagens).
 
 ## Título
 
@@ -18,7 +18,7 @@ Duração prevista: cerca de 7 minutos e 20 segundos (narração de cerca de 912
 ### 1. Abertura (0:00 a 0:35)
 
 **Narração:**
-Você quer ler a Bíblia todos os dias, mas não sabe por onde começar, ou sempre desiste no meio do caminho? Ler a Bíblia todos os dias é um hábito que se constrói com três coisas: um horário fixo, um ponto de partida simples e um método para entender o que você lê. Você não precisa de uma hora livre nem de conhecimento de teologia. Neste vídeo, você vai ver por onde começar, um método em quatro passos, um plano pronto de quatro semanas e o que fazer quando perder um dia. Eu sou Leonardo Paiva, do canal A Tela do Reino.
+Você quer ler a Bíblia todos os dias, mas não sabe por onde começar? Ler a Bíblia todos os dias é um hábito que se constrói com três coisas: um horário fixo, um ponto de partida simples e um método para entender o que você lê. Neste vídeo, você vai ver por onde começar, um método em quatro passos, um plano pronto de quatro semanas e o que fazer quando perder um dia. Eu sou Leonardo Paiva, do canal A Tela do Reino.
 
 **Na tela:** ilustração do artigo, o caminho entre colinas com quatro marcos dourados. Texto grande: "COMO LER A BÍBLIA". Legenda: "todos os dias". Logo "A Tela do Reino" no canto.
 

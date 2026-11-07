@@ -11,9 +11,9 @@ Os 3 vídeos tratam de pontos diferentes do artigo. Todos levam o aviso de conte
 A Bíblia não manda "parar de se preocupar".
 
 **Narração (cerca de 35 segundos):**
-Em Filipenses, Paulo escreve: não estejais inquietos por coisa alguma. Mas repare no que vem depois. Ele convida a levar os pedidos a Deus em oração, com ação de graças. A preocupação é trazida para a oração, e a oração vem com gratidão. E Paulo escreveu isso da prisão. A paz que ele descreve não depende de a vida estar em ordem. É uma paz que guarda o coração enquanto as coisas ainda estão se resolvendo.
+Em Filipenses 4, versículo 6, Paulo escreve: não estejais inquietos por coisa alguma. Mas repare no que vem depois. Ele convida a levar os pedidos a Deus em oração, com ação de graças. A preocupação é trazida para a oração, e a oração vem com gratidão. E Paulo escreveu isso da prisão. A paz que ele descreve não depende de a vida estar em ordem. É uma paz que guarda o coração enquanto as coisas ainda estão se resolvendo.
 
-**Versículo:** "…a paz de Deus, que excede todo o entendimento, guardará o vosso coração…" (Filipenses 4:7)
+**Versículo:** "…a paz de Deus, que excede todo o entendimento, guardará os vossos corações…" (Filipenses 4:7)
 
 **Chamada final:** Salve este vídeo para quando a mente acelerar. Leia o texto completo em ateladoreino.com.
 
@@ -55,7 +55,7 @@ Ter ansiedade é falta de fé?
 **Narração (cerca de 35 segundos):**
 Não. Muitas pessoas de fé enfrentam ansiedade, e a Bíblia mostra gente aflita levando a angústia a Deus. A oração traz paz e perspectiva, mas não substitui o tratamento quando a ansiedade persiste. Procure um médico ou psicólogo se a preocupação dura semanas, se o sono e o apetite mudaram, se surgem crises de pânico ou se o trabalho e os relacionamentos estão sendo afetados. Fé e cuidado profissional caminham juntos.
 
-**Versículo:** "Não vos inquieteis, pois, pelo dia de amanhã…" (Mateus 6:34)
+**Versículo:** "Tu conservarás em paz aquele cuja mente está firme em ti…" (Isaías 26:3)
 
 **Chamada final:** Compartilhe com alguém que precisa ouvir isso. Leia o texto completo em ateladoreino.com.
 

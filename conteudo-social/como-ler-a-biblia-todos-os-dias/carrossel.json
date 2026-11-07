@@ -4,14 +4,14 @@
   "legenda": "Por qual livro você vai começar? Conte nos comentários.\n\nCompartilhe com alguém que quer ler a Bíblia todos os dias.\n\nLeia o guia completo, com o plano de 4 semanas, em ateladoreino.com (link na bio).\n\n#LeituraBíblica #Bíblia #Devocional #Fé #VidaCristã #ATelaDoReino",
   "slides": [
     { "tipo": "capa", "titulo": "Como ler a Bíblia todos os dias" },
-    { "tipo": "texto", "texto": "Três coisas bastam: um horário fixo, um ponto de partida simples e um método para entender o que você lê." },
-    { "tipo": "versiculo", "citacao": "…examinando cada dia nas Escrituras se estas coisas eram assim.", "ref": "Atos 17:11", "comentario": "Um pouco por dia vale mais que muito de vez em quando." },
+    { "tipo": "texto", "texto": "Três coisas ajudam a começar: um horário fixo, um ponto de partida simples e um método para entender o que você lê." },
+    { "tipo": "versiculo", "citacao": "…examinando cada dia nas Escrituras se estas coisas eram assim.", "ref": "Atos 17:11", "comentario": "Examinar as Escrituras todos os dias é um hábito antigo." },
     { "tipo": "texto", "titulo": "Comece pequeno", "texto": "De 10 a 15 minutos, um capítulo curto por dia. É uma sugestão, não uma regra bíblica." },
     { "tipo": "lista", "titulo": "Por onde começar", "itens": ["Evangelho de Marcos", "Salmos", "Filipenses ou Tiago", "Provérbios, um por dia"] },
     { "tipo": "lista", "titulo": "Método em 4 passos", "itens": ["Ore antes de ler.", "Leia duas vezes, devagar.", "Pergunte ao texto.", "Responda com uma ação."] },
     { "tipo": "texto", "titulo": "Leia no contexto", "texto": "Leia os versículos de antes e de depois. A Bíblia não é um oráculo para abrir ao acaso." },
     { "tipo": "texto", "titulo": "Plano de 4 semanas", "texto": "Semanas 1 e 2: Marcos 1 a 14. Semana 3: Marcos 15 e 16 e Salmos. Semana 4: Filipenses e Salmos." },
-    { "tipo": "versiculo", "citacao": "Lâmpada para os meus pés é tua palavra e luz, para o meu caminho.", "ref": "Salmos 119:105", "comentario": "Perdeu um dia? Volte de onde parou." },
+    { "tipo": "versiculo", "citacao": "Lâmpada para os meus pés é tua palavra e luz, para o meu caminho.", "ref": "Salmos 119:105", "comentario": "A Palavra ilumina um passo de cada vez." },
     { "tipo": "final", "titulo": "Salve este post", "texto": "Leia o guia completo, com o plano de 4 semanas, em ateladoreino.com (link na bio).", "rodape": "Leonardo Paiva, A Tela do Reino" }
   ]
 }

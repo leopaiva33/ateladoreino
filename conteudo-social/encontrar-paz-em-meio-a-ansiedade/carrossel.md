@@ -17,7 +17,7 @@ Conteúdo devocional. Não substitui ajuda profissional, médica ou pastoral. Em
 Paulo convida a levar cada preocupação a Deus, em oração e com gratidão.
 
 **Slide 4:**
-"…a paz de Deus, que excede todo o entendimento, guardará o vosso coração…" (Filipenses 4:7)
+"…a paz de Deus, que excede todo o entendimento, guardará os vossos corações…" (Filipenses 4:7)
 Ela guarda por dentro, mesmo sem tudo resolvido.
 
 **Slide 5:**

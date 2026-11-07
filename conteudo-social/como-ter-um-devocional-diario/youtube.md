@@ -2,7 +2,7 @@
 
 Artigo de origem: `src/content/blog/como-ter-um-devocional-diario.md`
 Link: https://ateladoreino.com/blog/como-ter-um-devocional-diario
-Duração prevista: cerca de 7 minutos (narração de cerca de 828 palavras, a ~140 palavras por minuto, mais pausas para as imagens).
+Duração prevista: cerca de 7 minutos (narração de cerca de 838 palavras, a ~140 palavras por minuto, mais pausas para as imagens).
 
 ## Título
 
@@ -50,16 +50,16 @@ O hábito cresce quando está ligado a algo que você já faz. Pode ser logo ao 
 ### 5. O método LEO, com um exemplo (3:25 a 4:45)
 
 **Narração:**
-Agora, um modelo fácil de lembrar: o LEO. L de leia: leia a passagem do dia com calma, se possível duas vezes. E de explique: diga com as suas palavras o que o texto diz. O que ele revela sobre Deus? O de oriente: pergunte, como isso se aplica a mim hoje? Depois, feche com uma oração curta.
+Agora, um modelo fácil de lembrar: o LEO. L de leia: leia a passagem do dia com calma, se possível duas vezes. E de explique: diga com as suas palavras o que o texto diz. O que ele revela sobre Deus? O de oriente: pergunte a si mesmo como isso se aplica a você hoje. Depois, feche com uma oração curta.
 
 Veja um exemplo com o Salmo 119, versículo 105: "Lâmpada para os meus pés é tua palavra e luz, para o meu caminho." Leia: duas vezes, devagar. Explique: uma lâmpada para os pés não ilumina a estrada inteira, só o próximo passo. A Palavra de Deus orienta o caminho dia após dia. Oriente: qual é a decisão pequena de hoje em que eu preciso de luz? Pode ser uma conversa difícil, uma tarefa ou a forma de usar o tempo. E ore: Senhor, ilumina o meu próximo passo. Ajuda-me a confiar em ti e a agir com sabedoria. Amém.
 
-**Na tela:** as letras L, E e O grandes, uma de cada vez, com a palavra completa ao lado. Depois, Salmos 119:105 com a referência e uma lanterna iluminando só um trecho do caminho.
+**Na tela:** as letras L, E e O grandes, uma de cada vez, com a palavra completa ao lado. Depois, Salmos 119:105 com a referência e uma lamparina (lâmpada a óleo) iluminando só o próximo passo.
 
 ### 6. O que ler e como registrar (4:45 a 5:35)
 
 **Narração:**
-O que ler nas primeiras semanas? Na semana um, um capítulo do Evangelho de Marcos por dia. Na semana dois, um salmo por dia, por exemplo do Salmo 1 ao Salmo 7. Na semana três, um capítulo de Provérbios por dia. São 31 capítulos, bons para ler um por dia.
+O que ler nas primeiras semanas? Na semana um, um capítulo do Evangelho de Marcos por dia. Na semana dois, um salmo por dia, por exemplo do Salmo 1 ao Salmo 7. Na semana três, um capítulo de Provérbios por dia. São 31 capítulos, um para cada dia do mês.
 
 E registre o que aprendeu. Três linhas bastam: o versículo, o que você aprendeu e uma atitude para o dia. Com o tempo, esse registro mostra como Deus foi falando com você em diferentes fases da vida, e ajuda a retomar o hábito depois de uma pausa.
 
@@ -75,7 +75,7 @@ Você vai perder dias. Isso acontece com todo mundo. A diferença está no retor
 ### 8. Oração e encerramento (6:20 a 7:05)
 
 **Narração:**
-Vamos orar juntos. Senhor, obrigado por este novo dia e por falares comigo pela tua Palavra. Abre os meus olhos para entender o que vou ler e o meu coração para obedecer. Ajuda-me a ser constante, sem pressa e sem culpa. Amém.
+Vamos orar juntos. Senhor, obrigado por este novo dia e por falares comigo pela tua Palavra. Abre os meus olhos para entender o que vou ler e o meu coração para obedecer. Ajuda-me a ser constante, sem pressa e sem culpa. Que este tempo me aproxime de ti. Amém.
 
 Escolha um horário, separe dez minutos e comece pelo Evangelho de Marcos ou por um salmo. Não espere o momento perfeito. Leia o texto completo em ateladoreino.com. Se este vídeo ajudou você, inscreva-se no canal A Tela do Reino. Um abraço, Leonardo Paiva, A Tela do Reino.
 

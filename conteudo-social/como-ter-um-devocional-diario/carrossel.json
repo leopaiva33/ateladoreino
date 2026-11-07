@@ -11,7 +11,7 @@
     { "tipo": "lista", "titulo": "Método LEO", "itens": ["Leia a passagem duas vezes.", "Explique com suas palavras.", "Oriente: como isso se aplica hoje?"] },
     { "tipo": "versiculo", "citacao": "Lâmpada para os meus pés é tua palavra…", "ref": "Salmos 119:105", "comentario": "A lâmpada ilumina o próximo passo, não a estrada inteira." },
     { "tipo": "texto", "titulo": "Primeiras semanas", "texto": "Semana 1: Marcos. Semana 2: Salmos 1 a 7. Semana 3: Provérbios, um capítulo por dia." },
-    { "tipo": "versiculo", "citacao": "…novas são cada manhã; grande é a tua fidelidade.", "ref": "Lamentações 3:23", "comentario": "Falhou um dia? Não compense. Volte amanhã, com a mesma simplicidade." },
+    { "tipo": "versiculo", "citacao": "…novas são cada manhã; grande é a tua fidelidade.", "ref": "Lamentações 3:23", "comentario": "Falhou um dia? Não tente compensar. Volte amanhã, com a mesma simplicidade." },
     { "tipo": "final", "titulo": "Salve este post", "texto": "Leia o texto completo, com um exemplo do método LEO, em ateladoreino.com (link na bio).", "rodape": "Leonardo Paiva, A Tela do Reino" }
   ]
 }

@@ -9,11 +9,11 @@ Formato: 10 slides. Cada ponto tem no máximo 25 palavras. Citações na ARC.
 Como ler a Bíblia todos os dias
 
 **Slide 2:**
-Três coisas bastam: um horário fixo, um ponto de partida simples e um método para entender o que você lê.
+Três coisas ajudam a começar: um horário fixo, um ponto de partida simples e um método para entender o que você lê.
 
 **Slide 3:**
 "…examinando cada dia nas Escrituras se estas coisas eram assim." (Atos 17:11)
-Um pouco por dia vale mais que muito de vez em quando.
+Examinar as Escrituras todos os dias é um hábito antigo.
 
 **Slide 4:**
 Comece pequeno
@@ -37,7 +37,7 @@ Semanas 1 e 2: Marcos 1 a 14. Semana 3: Marcos 15 e 16 e Salmos. Semana 4: Filip
 
 **Slide 9:**
 "Lâmpada para os meus pés é tua palavra e luz, para o meu caminho." (Salmos 119:105)
-Perdeu um dia? Volte de onde parou.
+A Palavra ilumina um passo de cada vez.
 
 **Slide 10 (final):**
 Salve este post

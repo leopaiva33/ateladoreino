@@ -33,7 +33,7 @@ Quando a resposta demora, continue confiando, mesmo que o cenário não tenha mu
 
 **Slide 8:**
 Oração não é contrato
-A Bíblia não promete que a resposta virá como pedimos. A oração mantém o coração perto de Deus enquanto esperamos.
+A Bíblia não promete que a resposta virá como pedimos. A oração pode manter o coração perto de Deus enquanto esperamos.
 
 **Slide 9:**
 Desafio de 7 dias

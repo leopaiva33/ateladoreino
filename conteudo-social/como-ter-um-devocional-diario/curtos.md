@@ -10,7 +10,7 @@ Os 3 vídeos tratam de pontos diferentes do artigo.
 **Gancho (letras grandes, 3 primeiros segundos):**
 Seu devocional não precisa de uma hora.
 
-**Narração (cerca de 30 segundos):**
+**Narração (cerca de 35 segundos):**
 Muita gente começa um plano de leitura bíblica cheio de entusiasmo e desiste duas semanas depois. Muitas vezes, o problema é a meta grande demais. Comece com dez minutos. Um minuto de silêncio e uma oração curta. Quatro minutos lendo a passagem duas vezes. Três minutos pensando no que o texto diz e no que ele pede de você. E dois minutos de oração, com uma anotação. Dez minutos bem vividos valem mais do que uma hora que você nunca repete.
 
 **Versículo:** "…entra no teu aposento e, fechando a tua porta, ora a teu Pai…" (Mateus 6:6)
@@ -29,7 +29,7 @@ Muita gente começa um plano de leitura bíblica cheio de entusiasmo e desiste d
 Três letras para o seu devocional: LEO.
 
 **Narração (cerca de 35 segundos):**
-Um modelo fácil de lembrar para o devocional é o LEO. L: leia a passagem com calma, se possível duas vezes. E: explique com as suas palavras. O que o texto revela sobre Deus? O: oriente a sua vida. Como isso se aplica a mim hoje? Por exemplo, o Salmo 119:105. Uma lâmpada para os pés não ilumina a estrada inteira, só o próximo passo. Então pergunte: em qual decisão de hoje eu preciso de luz? E feche com uma oração curta.
+Um modelo fácil de lembrar para o devocional é o LEO. L: leia a passagem com calma, se possível duas vezes. E: explique com as suas palavras. O que o texto revela sobre Deus? O: oriente a sua vida. Como isso se aplica a mim hoje? Por exemplo, o Salmo 119, versículo 105. Uma lâmpada para os pés não ilumina a estrada inteira, só o próximo passo. Então pergunte: em qual decisão de hoje eu preciso de luz? E feche com uma oração curta.
 
 **Versículo:** "Lâmpada para os meus pés é tua palavra e luz, para o meu caminho." (Salmos 119:105)
 

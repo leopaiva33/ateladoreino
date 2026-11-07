@@ -8,7 +8,7 @@ Os 3 vídeos tratam de pontos diferentes do artigo.
 ## Vídeo 1: não comece pelo Gênesis
 
 **Gancho (letras grandes, 3 primeiros segundos):**
-Vai ler a Bíblia? Não comece pelo Gênesis.
+Vai ler a Bíblia? Talvez não pelo Gênesis.
 
 **Narração (cerca de 35 segundos):**
 Muita gente tenta ler do Gênesis ao Apocalipse e desiste nos livros de leis e genealogias. Não é falta de fé: é um ponto de partida difícil. Um caminho mais simples: comece pelo Evangelho de Marcos, o mais curto dos quatro evangelhos, direto e cheio de ação. Depois, os Salmos. Em seguida, uma carta curta, como Filipenses ou Tiago. E Provérbios, um capítulo por dia. O Antigo Testamento fica mais fácil depois, com mais contexto.
@@ -47,9 +47,9 @@ Orar, ler duas vezes, perguntar e agir. Experimente amanhã na sua leitura.
 Hábito em 21 dias? Não é bem assim.
 
 **Narração (cerca de 35 segundos):**
-Um estudo publicado no European Journal of Social Psychology acompanhou voluntários criando um hábito novo. O tempo até ele ficar automático variou de 18 a 254 dias. O estudo não era sobre leitura bíblica, mas a lição serve: não existe prazo mágico. E outra descoberta: perder um único dia não derrubou o hábito. Então, se você falhar, não tente compensar lendo cinco capítulos. Só volte de onde parou. Constância, não perfeição.
+Um estudo publicado no European Journal of Social Psychology acompanhou voluntários criando um hábito novo. O tempo até ele ficar automático variou de 18 a 254 dias. O estudo não era sobre leitura bíblica, mas a lição serve: não existe prazo mágico. E outra descoberta: perder um único dia não atrapalhou de forma relevante. Então, se você falhar, não tente compensar lendo cinco capítulos. Só volte de onde parou. Constância, não perfeição.
 
-**Versículo:** "Lâmpada para os meus pés é tua palavra…" (Salmos 119:105)
+**Versículo:** "Toda Escritura divinamente inspirada é proveitosa para ensinar…" (2 Timóteo 3:16)
 
 **Chamada final:** Compartilhe com alguém que quer ler a Bíblia todos os dias. Leia o texto completo em ateladoreino.com.
 

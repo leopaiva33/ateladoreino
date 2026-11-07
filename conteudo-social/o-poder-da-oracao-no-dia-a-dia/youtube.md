@@ -2,7 +2,7 @@
 
 Artigo de origem: `src/content/blog/o-poder-da-oracao-no-dia-a-dia.md`
 Link: https://ateladoreino.com/blog/o-poder-da-oracao-no-dia-a-dia
-Duração prevista: cerca de 7 minutos (narração de cerca de 819 palavras, a ~140 palavras por minuto, mais pausas para as imagens).
+Duração prevista: cerca de 7 minutos (narração de cerca de 828 palavras, a ~140 palavras por minuto, mais pausas para as imagens).
 
 ## Título
 
@@ -18,7 +18,7 @@ Duração prevista: cerca de 7 minutos (narração de cerca de 819 palavras, a ~
 ### 1. Abertura (0:00 a 0:35)
 
 **Narração:**
-Você acha que não sabe orar? Muita gente associa a oração a longos períodos de joelhos e a uma linguagem religiosa difícil. E, por isso, ora pouco. Mas a Bíblia apresenta a oração de um jeito mais próximo e mais simples. Orar é conversar com Deus como um filho conversa com o pai: com sinceridade, sem fórmulas e a qualquer hora do dia. Neste vídeo, você vai ver o que Jesus ensinou sobre orar, hábitos para orar ao longo do dia e o que fazer quando a resposta demora. Eu sou Leonardo Paiva, do canal A Tela do Reino.
+Você acha que não sabe orar? Muita gente associa a oração a longos períodos de joelhos e a uma linguagem religiosa difícil. Mas a Bíblia apresenta a oração de um jeito mais próximo e mais simples. Orar é conversar com Deus como um filho conversa com o pai: com sinceridade, sem fórmulas e a qualquer hora do dia. Neste vídeo, você vai ver o que Jesus ensinou sobre orar, hábitos para orar ao longo do dia e o que fazer quando a resposta demora. Eu sou Leonardo Paiva, do canal A Tela do Reino.
 
 **Na tela:** ilustração do artigo, a pessoa ajoelhada diante da janela em arco iluminada. Texto grande: "O PODER DA ORAÇÃO". Legenda: "no dia a dia". Logo "A Tela do Reino" no canto.
 
@@ -59,11 +59,11 @@ Orações simples também são orações. Algumas ideias. Ao acordar: Senhor, es
 ### 6. Quando a resposta demora (4:20 a 5:35)
 
 **Narração:**
-E quando a resposta demora? Nem sempre recebemos o que esperamos, no tempo que gostaríamos. A Bíblia convida a apresentar os pedidos a Deus com gratidão e fala de uma paz que guarda o coração, em Filipenses 4:6 e 7. Mas ela não promete que a resposta virá exatamente como pedimos. A oração não é um contrato. Ela mantém o coração perto de Deus enquanto esperamos.
+E quando a resposta demora? Nem sempre recebemos o que esperamos, no tempo que gostaríamos. A Bíblia convida a apresentar os pedidos a Deus com gratidão e fala de uma paz que guarda o coração, em Filipenses 4:6 e 7. Mas ela não promete que a resposta virá exatamente como pedimos. A oração não é um contrato. Ela pode manter o coração perto de Deus enquanto esperamos.
 
 Jesus contou uma parábola, em Lucas 18:1, sobre "o dever de orar sempre e nunca desfalecer." Persistir na oração não é cansar Deus com repetição. É continuar confiando mesmo quando o cenário ainda não mudou.
 
-E Tiago 5:16 diz que "a oração feita por um justo pode muito em seus efeitos." Ser justo, aqui, não significa ser perfeito, e sim viver um relacionamento verdadeiro com Deus, reconhecendo a própria necessidade da graça. O texto encoraja a orar com confiança, mas também não garante que Deus responderá exatamente como pedimos.
+E Tiago 5:16 diz que "a oração feita por um justo pode muito em seus efeitos." O texto fala da oração pelos enfermos e lembra o exemplo de Elias. Ser justo, aqui, não significa ser perfeito, e sim viver um relacionamento verdadeiro com Deus, reconhecendo a própria necessidade da graça. O texto encoraja a orar com confiança, mas também não garante que Deus responderá exatamente como pedimos.
 
 **Na tela:** Filipenses 4:6-7 com a referência. Depois, Lucas 18:1 e Tiago 5:16. Texto de apoio: "Oração não é contrato. É confiança."
 
@@ -110,6 +110,6 @@ Leonardo Paiva, A Tela do Reino.
 ## Ideia de miniatura
 
 - **Imagem:** a ilustração do artigo (pessoa ajoelhada diante da janela em arco iluminada), recortada para 16:9, com a janela no terço direito.
-- **Texto curto:** "ORE ASSIM" em letras grandes e, embaixo, menor, "no meio da rotina".
+- **Texto curto:** "ORE NA ROTINA" em letras grandes e, embaixo, menor, "sem complicação".
 - **Cores:** texto creme (`#fff7e8`) com contorno vinho (`#7a1f2b`).
 - **Sem rostos.**

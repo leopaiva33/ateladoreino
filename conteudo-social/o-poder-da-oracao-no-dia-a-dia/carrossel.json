@@ -10,7 +10,7 @@
     { "tipo": "lista", "titulo": "Momentos para orar", "itens": ["Ao acordar, antes do celular.", "Antes de uma conversa difícil.", "No trajeto.", "À noite, com gratidão."] },
     { "tipo": "texto", "titulo": "Orações curtas", "texto": "“Senhor, este dia é teu.” “Dá-me sabedoria.” “Acalma o meu coração.” “Obrigado por este dia.”" },
     { "tipo": "versiculo", "citacao": "…o dever de orar sempre e nunca desfalecer.", "ref": "Lucas 18:1", "comentario": "Quando a resposta demora, continue confiando, mesmo que o cenário não tenha mudado." },
-    { "tipo": "texto", "titulo": "Oração não é contrato", "texto": "A Bíblia não promete que a resposta virá como pedimos. A oração mantém o coração perto de Deus enquanto esperamos." },
+    { "tipo": "texto", "titulo": "Oração não é contrato", "texto": "A Bíblia não promete que a resposta virá como pedimos. A oração pode manter o coração perto de Deus enquanto esperamos." },
     { "tipo": "texto", "titulo": "Desafio de 7 dias", "texto": "Escolha um momento da rotina, como a louça ou o ônibus, e transforme-o em pausa de oração." },
     { "tipo": "final", "titulo": "Salve este post", "texto": "Leia o texto completo, com uma oração para hoje, em ateladoreino.com (link na bio).", "rodape": "Leonardo Paiva, A Tela do Reino" }
   ]

@@ -37,7 +37,7 @@ Semana 1: Marcos. Semana 2: Salmos 1 a 7. Semana 3: Provérbios, um capítulo po
 
 **Slide 9:**
 "…novas são cada manhã; grande é a tua fidelidade." (Lamentações 3:23)
-Falhou um dia? Não compense. Volte amanhã, com a mesma simplicidade.
+Falhou um dia? Não tente compensar. Volte amanhã, com a mesma simplicidade.
 
 **Slide 10 (final):**
 Salve este post

@@ -6,7 +6,7 @@
     { "tipo": "capa", "titulo": "Encontrar paz em meio à ansiedade" },
     { "tipo": "texto", "titulo": "Antes de começar", "texto": "Conteúdo devocional. Não substitui ajuda profissional, médica ou pastoral. Em sofrimento intenso, ligue 188 (CVV), 24 horas." },
     { "tipo": "versiculo", "citacao": "Não estejais inquietos por coisa alguma…", "ref": "Filipenses 4:6", "comentario": "Paulo convida a levar cada preocupação a Deus, em oração e com gratidão." },
-    { "tipo": "versiculo", "citacao": "…a paz de Deus, que excede todo o entendimento, guardará o vosso coração…", "ref": "Filipenses 4:7", "comentario": "Ela guarda por dentro, mesmo sem tudo resolvido." },
+    { "tipo": "versiculo", "citacao": "…a paz de Deus, que excede todo o entendimento, guardará os vossos corações…", "ref": "Filipenses 4:7", "comentario": "Ela guarda por dentro, mesmo sem tudo resolvido." },
     { "tipo": "versiculo", "citacao": "Não vos inquieteis, pois, pelo dia de amanhã…", "ref": "Mateus 6:34", "comentario": "Jesus traz o olhar para o que é possível hoje." },
     { "tipo": "lista", "titulo": "Práticas que ajudam", "itens": ["Respire devagar antes de orar.", "Escreva o que pesa.", "Cuide do sono.", "Converse com alguém de confiança."] },
     { "tipo": "lista", "titulo": "Oração em 5 minutos", "itens": ["Respire fundo.", "Nomeie a preocupação.", "Entregue-a a Deus.", "Agradeça três coisas.", "Escolha um passo para hoje."] },
