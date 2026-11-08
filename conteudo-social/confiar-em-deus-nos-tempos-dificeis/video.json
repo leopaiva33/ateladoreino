@@ -1,0 +1,68 @@
+{
+  "slug": "confiar-em-deus-nos-tempos-dificeis",
+  "arte": "public/images/posts/confiar-em-deus-nos-tempos-dificeis.png",
+  "miniatura": { "titulo": "ONDE ESTÁ DEUS?", "subtitulo": "nos tempos difíceis" },
+  "secoes": [
+    {
+      "titulo": "Abertura",
+      "cenas": [
+        { "tipo": "arte", "titulo": "Confiar em Deus", "subtitulo": "nos tempos difíceis", "peso": 2 },
+        { "tipo": "aviso", "texto": "Conteúdo devocional. Não substitui ajuda profissional, médica ou pastoral." }
+      ]
+    },
+    {
+      "titulo": "A Bíblia não esconde a angústia",
+      "cenas": [
+        { "tipo": "texto", "titulo": "A Bíblia não esconde a angústia", "texto": "Confiar em Deus não é fingir que a dor não existe." },
+        { "tipo": "versiculo", "citacao": "…molho o meu leito com as minhas lágrimas.", "ref": "Salmos 6:6" },
+        { "tipo": "versiculo", "citacao": "A minha alma está cheia de tristeza até à morte…", "ref": "Mateus 26:38" },
+        { "tipo": "versiculo", "citacao": "…não se faça a minha vontade, mas a tua.", "ref": "Lucas 22:42", "comentario": "Dizer a Deus como você está já é um ato de confiança." }
+      ]
+    },
+    {
+      "titulo": "Confiança não é ausência de medo",
+      "cenas": [
+        { "tipo": "versiculo", "citacao": "Confia no Senhor de todo o teu coração e não te estribes no teu próprio entendimento.", "ref": "Provérbios 3:5", "comentario": "Estribar-se = apoiar-se" },
+        { "tipo": "versiculo", "citacao": "Eu creio, Senhor! Ajuda a minha incredulidade.", "ref": "Marcos 9:24" }
+      ]
+    },
+    {
+      "titulo": "Deus está perto de quem sofre",
+      "cenas": [
+        { "tipo": "versiculo", "citacao": "Perto está o Senhor dos que têm o coração quebrantado…", "ref": "Salmos 34:18" },
+        { "tipo": "versiculo", "citacao": "…socorro bem presente na angústia.", "ref": "Salmos 46:1" },
+        { "tipo": "versiculo", "citacao": "Vinde a mim, todos os que estais cansados e oprimidos…", "ref": "Mateus 11:28" },
+        { "tipo": "versiculo", "citacao": "Não temas, porque eu sou contigo…", "ref": "Isaías 41:10" }
+      ]
+    },
+    {
+      "titulo": "Três passos práticos",
+      "cenas": [
+        { "tipo": "texto", "titulo": "Passo 1: nomeie", "texto": "O que eu não controlo?\nO que eu posso fazer hoje?" },
+        { "tipo": "texto", "titulo": "Passo 2: lembre", "texto": "Um caderno de livramentos, como as pedras memoriais de Israel.", "rodape": "Josué 4:4-9" },
+        { "tipo": "texto", "titulo": "Passo 3: aja", "texto": "Passos pequenos, repetidos, vencem a paralisia." }
+      ]
+    },
+    {
+      "titulo": "Quando é difícil até orar",
+      "cenas": [
+        { "tipo": "versiculo", "citacao": "…o mesmo Espírito intercede por nós com gemidos inexprimíveis.", "ref": "Romanos 8:26" },
+        { "tipo": "lista", "titulo": "Um roteiro de cinco minutos", "itens": ["Respire e fique em silêncio.", "Leia um salmo curto.", "Diga a Deus o que pesa.", "Entregue esse peso a ele.", "Peça ajuda a alguém hoje."], "peso": 2 },
+        { "tipo": "aviso", "texto": "Conteúdo devocional. Não substitui ajuda profissional, médica ou pastoral.", "rodape": "CVV: 188, 24 horas" }
+      ]
+    },
+    {
+      "titulo": "Oração final",
+      "cenas": [
+        { "tipo": "arte", "titulo": "Uma oração para hoje" }
+      ]
+    },
+    {
+      "titulo": "Encerramento",
+      "cenas": [
+        { "tipo": "lista", "titulo": "Um passo de cada vez", "itens": ["Nomear", "Lembrar", "Agir"], "numerar": false },
+        { "tipo": "texto", "titulo": "Leia o texto completo", "texto": "ateladoreino.com", "rodape": "Leonardo Paiva, A Tela do Reino" }
+      ]
+    }
+  ]
+}
