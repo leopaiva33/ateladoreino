@@ -1,11 +1,15 @@
 name: Gerar vídeo do YouTube
 
-# Disparo manual (Actions > Gerar vídeo do YouTube > Run workflow).
-# Gera video.mp4 (1920x1080), legendas.srt e miniatura.png a partir de
-# conteudo-social/<slug>/youtube.md e video.json, e anexa como artefato da execução.
-# Voz: segredo ELEVENLABS_API_KEY + variável ELEVENLABS_VOICE_ID (voz clonada).
-# Sem eles, usa a voz sintética provisória do espeak-ng (só para testar).
+# Gera video.mp4 (1920x1080), legendas.srt, miniatura.png e creditos.txt a partir de
+# conteudo-social/<slug>/youtube.md, video.json e imagens.json, e anexa como artefato
+# da execução (baixe em Actions > execução > Artifacts).
+# Roda sozinho quando um imagens.json muda (fotos escolhidas) ou manualmente.
+# Voz: segredo ELEVENLABS_API_KEY + variável ELEVENLABS_VOICE_ID (voz clonada);
+# sem eles, usa a voz sintética provisória do espeak-ng (só para testar).
 on:
+  push:
+    paths:
+      - 'conteudo-social/*/imagens.json'
   workflow_dispatch:
     inputs:
       slug:
@@ -16,9 +20,11 @@ on:
 jobs:
   video:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 90
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
           node-version: 22
@@ -26,18 +32,34 @@ jobs:
       - name: Instalar ffmpeg e espeak-ng
         run: sudo apt-get update -q && sudo apt-get install -y -q ffmpeg espeak-ng fonts-dejavu
       - run: npm ci
-      - name: Gerar vídeo
+      - name: Quais vídeos gerar
+        id: quais
+        env:
+          SLUG: ${{ inputs.slug }}
+          ANTES: ${{ github.event.before }}
+        run: |
+          if [ -n "$SLUG" ]; then
+            slugs="$SLUG"
+          else
+            slugs=$(git diff --name-only "$ANTES" "$GITHUB_SHA" -- 'conteudo-social/*/imagens.json' | cut -d/ -f2 | sort -u | tr '\n' ' ')
+          fi
+          echo "slugs=$slugs" >> "$GITHUB_OUTPUT"
+          echo "Vídeos: $slugs"
+      - name: Gerar vídeos
         env:
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
           ELEVENLABS_VOICE_ID: ${{ vars.ELEVENLABS_VOICE_ID }}
-          SLUG: ${{ inputs.slug }}
-        run: npm run video -- "$SLUG"
-      - name: Anexar vídeo, legendas e miniatura
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+          SLUGS: ${{ steps.quais.outputs.slugs }}
+        run: |
+          for s in $SLUGS; do npm run video -- "$s"; done
+      - name: Anexar vídeos, legendas, miniaturas e créditos
         uses: actions/upload-artifact@v4
         with:
-          name: video-${{ inputs.slug }}
+          name: videos
           path: |
-            video-out/${{ inputs.slug }}/video.mp4
-            video-out/${{ inputs.slug }}/legendas.srt
-            video-out/${{ inputs.slug }}/miniatura.png
+            video-out/*/video.mp4
+            video-out/*/legendas.srt
+            video-out/*/miniatura.png
+            video-out/*/creditos.txt
           retention-days: 14

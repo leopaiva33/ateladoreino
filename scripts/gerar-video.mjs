@@ -151,12 +151,12 @@ async function imagem(nome) {
 }
 
 /** Desloca a ilustração (ampliada) para o lado oposto ao painel, para o assunto da cena ficar visível. */
-async function fundoDeslocado(buf, lado) {
+async function fundoDeslocado(buf, lado, ehFoto = false) {
   if (lado !== 'esquerda' && lado !== 'direita') return buf;
-  const ESC = 1.42;
+  const ESC = ehFoto ? 1.22 : 1.42; // fotos já são amplas e perdem nitidez se ampliadas demais
   const w = Math.round(W * ESC);
   const h = Math.round(H * ESC);
-  const foco = lado === 'direita' ? 0.3 : 0.7; // onde o centro da ilustração fica no quadro
+  const foco = lado === 'direita' ? (ehFoto ? 0.38 : 0.3) : ehFoto ? 0.62 : 0.7; // onde o centro da imagem fica no quadro
   const left = Math.min(w - W, Math.max(0, Math.round(w / 2 - foco * W)));
   const top = Math.round((h - H) / 2);
   return sharp(buf).resize(w, h).extract({ left, top, width: W, height: H }).png().toBuffer();
@@ -172,8 +172,16 @@ async function foto(f) {
   const arq = join(cache, 'fotos', `${f.id}.jpg`);
   if (!(await existe(arq))) {
     await mkdir(join(cache, 'fotos'), { recursive: true });
-    const r = await fetch(f.src);
-    if (!r.ok) throw new Error(`Não consegui baixar a foto ${f.id} (${r.status}): ${f.src}`);
+    let src = f.src;
+    const ua = { headers: { 'user-agent': 'ateladoreino-video/1.0 (+https://ateladoreino.com)' } };
+    let r = await fetch(src, ua);
+    // Os links do Pixabay expiram em 24 h: com a chave, pede um link novo pelo id da foto.
+    if (!r.ok && f.id.startsWith('pixabay-') && process.env.PIXABAY_API_KEY) {
+      const j = await (await fetch(`https://pixabay.com/api/?key=${process.env.PIXABAY_API_KEY}&id=${f.id.slice(8)}`)).json();
+      src = j.hits?.[0]?.largeImageURL ?? src;
+      r = await fetch(src, ua);
+    }
+    if (!r.ok) throw new Error(`Não consegui baixar a foto ${f.id} (${r.status}). Se o link expirou, rode no Actions (com PIXABAY_API_KEY).`);
     await writeFile(arq, Buffer.from(await r.arrayBuffer()));
   }
   // Leve tom quente e um pouco mais escura, para combinar com a marca e destacar o painel.
@@ -183,7 +191,7 @@ async function foto(f) {
 async function cena(c, chave) {
   const lado = c.tipo === 'arte' ? 'centro' : (c.lado ?? spec.lado ?? 'direita');
   const fundoBuf = fotos[chave] ? await foto(fotos[chave]) : await imagem(c.fundo ?? spec.arte);
-  const camadas = [{ input: await fundoDeslocado(fundoBuf, lado), top: 0, left: 0 }];
+  const camadas = [{ input: await fundoDeslocado(fundoBuf, lado, Boolean(fotos[chave])), top: 0, left: 0 }];
   const base = () => sharp({ create: { width: W, height: H, channels: 3, background: '#000' } });
 
   if (c.tipo === 'arte') {
