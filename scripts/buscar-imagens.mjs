@@ -1,16 +1,18 @@
-// Busca fotos no Pexels (grátis, uso comercial liberado) para as cenas dos vídeos.
+// Busca fotos grátis (uso comercial liberado, sem crédito obrigatório) para as cenas dos vídeos:
+// Pixabay (PIXABAY_API_KEY) ou Pexels (PEXELS_API_KEY), o que estiver configurado.
 // Para cada cena de conteudo-social/<slug>/video.json que tenha "busca", grava em
 // conteudo-social/<slug>/imagens.json até 6 candidatas e a escolhida (sem repetir foto no vídeo).
 // Só busca o que ainda não tem escolha ou cuja busca mudou; não mexe nas escolhas feitas à mão.
 //
-// Uso: PEXELS_API_KEY=... node scripts/buscar-imagens.mjs [slug ...]   (sem slug: todos os vídeos)
-// Roda no GitHub Actions (buscar-imagens.yml), com o segredo PEXELS_API_KEY.
+// Uso: PIXABAY_API_KEY=... node scripts/buscar-imagens.mjs [slug ...]   (sem slug: todos os vídeos)
+// Roda no GitHub Actions (buscar-imagens.yml), com o segredo PIXABAY_API_KEY (ou PEXELS_API_KEY).
 import { readdir, readFile, writeFile, access } from 'node:fs/promises';
 import { join } from 'node:path';
 
-const KEY = process.env.PEXELS_API_KEY;
-if (!KEY) {
-  console.error('Defina PEXELS_API_KEY (chave grátis em https://www.pexels.com/api/).');
+const PIXABAY = process.env.PIXABAY_API_KEY;
+const PEXELS = process.env.PEXELS_API_KEY;
+if (!PIXABAY && !PEXELS) {
+  console.error('Defina PIXABAY_API_KEY (chave grátis em https://pixabay.com/api/docs/) ou PEXELS_API_KEY.');
   process.exit(1);
 }
 const existe = (p) => access(p).then(() => true, () => false);
@@ -23,12 +25,29 @@ if (!slugs.length) {
 }
 
 async function buscar(q) {
+  if (PIXABAY) {
+    const url = `https://pixabay.com/api/?key=${PIXABAY}&q=${encodeURIComponent(q)}&image_type=photo&orientation=horizontal&safesearch=true&min_width=1920&per_page=6&lang=en`;
+    const r = await fetch(url);
+    if (!r.ok) throw new Error(`Pixabay respondeu ${r.status} para "${q}": ${(await r.text()).slice(0, 200)}`);
+    const j = await r.json();
+    return j.hits.map((p) => ({
+      id: `pixabay-${p.id}`,
+      banco: 'Pixabay',
+      pagina: p.pageURL,
+      fotografo: p.user,
+      fotografo_url: `https://pixabay.com/users/${p.user}-${p.user_id}/`,
+      alt: p.tags,
+      src: p.largeImageURL,
+      miniatura: p.webformatURL,
+    }));
+  }
   const url = `https://api.pexels.com/v1/search?query=${encodeURIComponent(q)}&orientation=landscape&size=large&per_page=6`;
-  const r = await fetch(url, { headers: { Authorization: KEY } });
+  const r = await fetch(url, { headers: { Authorization: PEXELS } });
   if (!r.ok) throw new Error(`Pexels respondeu ${r.status} para "${q}": ${(await r.text()).slice(0, 200)}`);
   const j = await r.json();
   return j.photos.map((p) => ({
-    id: p.id,
+    id: `pexels-${p.id}`,
+    banco: 'Pexels',
     pagina: p.url,
     fotografo: p.photographer,
     fotografo_url: p.photographer_url,

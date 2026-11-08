@@ -7,7 +7,7 @@
 //   - ElevenLabs (voz clonada): defina ELEVENLABS_API_KEY e ELEVENLABS_VOICE_ID.
 //   - Sem essas variáveis, usa a voz sintética do espeak-ng, se instalada (provisória, só para testar),
 //     ou silêncio com a duração estimada da fala. Para forçar uma delas: VOZ_PROVISORIA=espeak|silencio.
-// Fundo de cada cena: a foto escolhida em imagens.json (Pexels; ver buscar-imagens.mjs) ou, sem foto,
+// Fundo de cada cena: a foto escolhida em imagens.json (Pixabay ou Pexels; ver buscar-imagens.mjs) ou, sem foto,
 // a ilustração de "fundo" (art/cenas/*.svg ou public/images/posts/*.png). SEM_FOTOS=1 ignora as fotos.
 // Música de fundo opcional: assets/musica/fundo.mp3 (abaixa sozinha durante a narração).
 //
@@ -162,7 +162,7 @@ async function fundoDeslocado(buf, lado) {
   return sharp(buf).resize(w, h).extract({ left, top, width: W, height: H }).png().toBuffer();
 }
 
-// Fotos do Pexels escolhidas para as cenas (conteudo-social/<slug>/imagens.json, gerado por buscar-imagens.mjs).
+// Fotos dos bancos de imagens escolhidas para as cenas (conteudo-social/<slug>/imagens.json, gerado por buscar-imagens.mjs).
 const arqFotos = join(pasta, 'imagens.json');
 const fotos = {};
 if (!process.env.SEM_FOTOS && (await existe(arqFotos))) {
@@ -374,7 +374,7 @@ const creditos = [...new Map(Object.values(fotos).map((f) => [f.id, f])).values(
 if (creditos.length) {
   await writeFile(
     join(saida, 'creditos.txt'),
-    `Fotos: Pexels (pexels.com)\n${creditos.map((f) => `- ${f.fotografo}: ${f.pagina}`).join('\n')}\n`,
+    `Fotos:\n${creditos.map((f) => `- ${f.fotografo} (${f.banco ?? 'Pexels'}): ${f.pagina}`).join('\n')}\n`,
   );
 }
 console.log(`Pronto: ${final} (${(await duracao(final)).toFixed(1)} s), legendas.srt e miniatura.png em ${saida}/`);
