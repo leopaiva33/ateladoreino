@@ -126,35 +126,46 @@ async function texto(conteudo, { fonte = 'Georgia 60', cor = C.texto, largura = 
   const meta = await sharp(buf).metadata();
   return { input: buf, w: meta.width, h: meta.height };
 }
-const fundo = Buffer.from(`<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}">
-  <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${C.fundo1}"/><stop offset="1" stop-color="${C.fundo2}"/></linearGradient>
-    <radialGradient id="h" cx=".5" cy=".45" r=".6"><stop offset="0" stop-color="#f6c97a" stop-opacity=".45"/><stop offset="1" stop-color="#f6c97a" stop-opacity="0"/></radialGradient>
-  </defs>
-  <rect width="${W}" height="${H}" fill="url(#g)"/><rect width="${W}" height="${H}" fill="url(#h)"/>
-  <rect x="40" y="40" width="${W - 80}" height="${H - 80}" rx="20" fill="none" stroke="${C.ouro}" stroke-opacity=".5" stroke-width="3"/>
-</svg>`);
 const linha = () => ({
   input: Buffer.from(`<svg xmlns="http://www.w3.org/2000/svg" width="140" height="8"><rect y="2" width="140" height="4" rx="2" fill="${C.ouro}"/></svg>`),
   w: 140,
   h: 8,
 });
-function empilhar(blocos, topo, base, folga = 40) {
-  const total = blocos.reduce((s, b) => s + b.h, 0) + folga * (blocos.length - 1);
-  let y = Math.round(topo + Math.max(0, (base - topo - total) / 2));
-  return blocos.map((b) => {
-    const item = { input: b.input, top: y, left: b.left ?? Math.round((W - b.w) / 2) };
-    y += b.h + folga;
-    return item;
-  });
+
+/** Ilustração de fundo: art/cenas/<nome>.svg ou public/images/posts/<nome>.png, em 1920x1080. */
+const imagens = new Map();
+async function imagem(nome) {
+  if (!imagens.has(nome)) {
+    const svg = join('art', 'cenas', `${nome}.svg`);
+    const png = join('public', 'images', 'posts', `${nome}.png`);
+    let buf;
+    if (await existe(svg)) buf = await sharp(svg, { density: 96 }).resize(W, H, { fit: 'cover' }).png().toBuffer();
+    else if (await existe(png)) buf = await sharp(png).resize(W, H, { fit: 'cover', kernel: 'lanczos3' }).png().toBuffer();
+    else if (await existe(nome)) buf = await sharp(nome).resize(W, H, { fit: 'cover' }).png().toBuffer();
+    else throw new Error(`Imagem de fundo não encontrada: "${nome}" (art/cenas/${nome}.svg ou public/images/posts/${nome}.png)`);
+    imagens.set(nome, buf);
+  }
+  return imagens.get(nome);
 }
-const arteBuf = await readFile(spec.arte);
+
+/** Desloca a ilustração (ampliada) para o lado oposto ao painel, para o assunto da cena ficar visível. */
+async function fundoDeslocado(buf, lado) {
+  if (lado !== 'esquerda' && lado !== 'direita') return buf;
+  const ESC = 1.42;
+  const w = Math.round(W * ESC);
+  const h = Math.round(H * ESC);
+  const foco = lado === 'direita' ? 0.3 : 0.7; // onde o centro da ilustração fica no quadro
+  const left = Math.min(w - W, Math.max(0, Math.round(w / 2 - foco * W)));
+  const top = Math.round((h - H) / 2);
+  return sharp(buf).resize(w, h).extract({ left, top, width: W, height: H }).png().toBuffer();
+}
 
 async function cena(c) {
-  const camadas = [];
+  const lado = c.tipo === 'arte' ? 'centro' : (c.lado ?? spec.lado ?? 'direita');
+  const camadas = [{ input: await fundoDeslocado(await imagem(c.fundo ?? spec.arte), lado), top: 0, left: 0 }];
+  const base = () => sharp({ create: { width: W, height: H, channels: 3, background: '#000' } });
+
   if (c.tipo === 'arte') {
-    const img = await sharp(arteBuf).resize(W, H, { fit: 'cover' }).toBuffer();
-    camadas.push({ input: img, top: 0, left: 0 });
     if (c.titulo) {
       const faixa = Buffer.from(
         `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}"><defs><linearGradient id="v" x1="0" y1="0" x2="0" y2="1"><stop offset=".45" stop-color="#2a0d12" stop-opacity="0"/><stop offset="1" stop-color="#2a0d12" stop-opacity=".78"/></linearGradient></defs><rect width="${W}" height="${H}" fill="url(#v)"/></svg>`,
@@ -162,36 +173,69 @@ async function cena(c) {
       camadas.push({ input: faixa, top: 0, left: 0 });
       const blocos = [await texto(c.titulo, { fonte: 'Georgia 96', cor: '#fff7e8', estilo: 'b', largura: 1600 })];
       if (c.subtitulo) blocos.push(await texto(c.subtitulo, { fonte: 'Georgia 50', cor: C.ouroClaro, estilo: 'i' }));
-      camadas.push(...empilhar(blocos, H - 420, H - 90, 24));
+      let y = H - 90 - blocos.reduce((s, b) => s + b.h, 0) - 24 * (blocos.length - 1);
+      for (const b of blocos) {
+        camadas.push({ input: b.input, top: y, left: Math.round((W - b.w) / 2) });
+        y += b.h + 24;
+      }
     }
-    return sharp({ create: { width: W, height: H, channels: 3, background: '#000' } }).composite(camadas).png().toBuffer();
+    return base().composite(camadas).png().toBuffer();
   }
-  const marca = await texto('A TELA DO REINO', { fonte: 'Arial 28', cor: C.ouro, estilo: 'b' });
-  camadas.push({ input: marca.input, top: 80, left: Math.round((W - marca.w) / 2) });
-  const blocos = [];
-  if (c.tipo === 'versiculo') {
-    blocos.push(await texto('“', { fonte: 'Georgia 140', cor: C.ouroClaro, largura: 200 }));
-    blocos.push(await texto(c.citacao, { fonte: 'Georgia 66', cor: C.vinho, estilo: 'i', largura: 1500 }));
-    blocos.push(await texto(c.ref, { fonte: 'Arial 40', cor: C.ouro, estilo: 'b' }));
-    if (c.comentario) blocos.push(linha(), await texto(c.comentario, { fonte: 'Georgia 48' }));
-  } else if (c.tipo === 'lista') {
-    blocos.push(await texto(c.titulo, { fonte: 'Georgia 76', cor: C.vinho, estilo: 'b' }), linha());
-    const itens = [];
-    for (let k = 0; k < c.itens.length; k++) {
-      itens.push(await texto(`${c.numerar === false ? '•' : `${k + 1}.`} ${c.itens[k]}`, { fonte: 'Georgia 50', alinhar: 'left', largura: 1400 }));
+
+  // Cartão: painel claro sobre a ilustração. O texto encolhe até caber no painel.
+  const lateral = lado === 'esquerda' || lado === 'direita';
+  const LARG = lateral ? 720 : 1240;
+  const folga = c.tipo === 'lista' ? 22 : 28;
+  const ALT_MAX = H - 280;
+  let blocos;
+  let altTexto;
+  for (let k = lateral ? 0.82 : 1; ; k -= 0.06) {
+    const F = (nome, tam) => `${nome} ${Math.round(tam * k)}`;
+    blocos = [await texto('A TELA DO REINO', { fonte: 'Arial 22', cor: C.ouro, estilo: 'b' })];
+    if (c.tipo === 'versiculo') {
+      blocos.push(await texto('“', { fonte: F('Georgia', 110), cor: C.ouroClaro, largura: 200 }));
+      blocos.push(await texto(c.citacao, { fonte: F('Georgia', 58), cor: C.vinho, estilo: 'i', largura: LARG }));
+      blocos.push(await texto(c.ref, { fonte: F('Arial', 36), cor: C.ouro, estilo: 'b' }));
+      if (c.comentario) blocos.push(linha(), await texto(c.comentario, { fonte: F('Georgia', 44), largura: LARG }));
+    } else if (c.tipo === 'lista') {
+      blocos.push(await texto(c.titulo, { fonte: F('Georgia', 66), cor: C.vinho, estilo: 'b', largura: LARG }), linha());
+      const itens = [];
+      for (let n = 0; n < c.itens.length; n++) {
+        itens.push(await texto(`${c.numerar === false ? '•' : `${n + 1}.`} ${c.itens[n]}`, { fonte: F('Georgia', 46), alinhar: 'left', largura: LARG }));
+      }
+      const larg = Math.max(...itens.map((b) => b.w));
+      itens.forEach((b) => (b.left = Math.round((W - larg) / 2)));
+      blocos.push(...itens);
+    } else if (c.tipo === 'texto' || c.tipo === 'aviso') {
+      if (c.titulo) blocos.push(await texto(c.titulo, { fonte: F('Georgia', 70), cor: C.vinho, estilo: 'b', largura: LARG }), linha());
+      blocos.push(await texto(c.texto, { fonte: F('Georgia', c.tipo === 'aviso' ? 48 : 54), largura: LARG }));
+      if (c.rodape) blocos.push(await texto(c.rodape, { fonte: F('Arial', 36), cor: C.ouro, estilo: 'b', largura: LARG }));
+    } else {
+      throw new Error(`Tipo de cena desconhecido: ${c.tipo}`);
     }
-    const larg = Math.max(...itens.map((b) => b.w));
-    itens.forEach((b) => (b.left = Math.round((W - larg) / 2)));
-    blocos.push(...itens);
-  } else if (c.tipo === 'texto' || c.tipo === 'aviso') {
-    if (c.titulo) blocos.push(await texto(c.titulo, { fonte: 'Georgia 80', cor: C.vinho, estilo: 'b' }), linha());
-    blocos.push(await texto(c.texto, { fonte: c.tipo === 'aviso' ? 'Georgia 54' : 'Georgia 62', largura: 1450 }));
-    if (c.rodape) blocos.push(await texto(c.rodape, { fonte: 'Arial 40', cor: C.ouro, estilo: 'b' }));
-  } else {
-    throw new Error(`Tipo de cena desconhecido: ${c.tipo}`);
+    altTexto = blocos.reduce((sm, b) => sm + b.h, 0) + folga * (blocos.length - 1);
+    if (altTexto <= ALT_MAX || k < 0.5) break;
   }
-  camadas.push(...empilhar(blocos, 170, H - 120, 34));
-  return sharp(fundo).composite(camadas).png().toBuffer();
+  const pw = lateral ? 880 : Math.min(W - 160, Math.max(980, Math.max(...blocos.map((b) => b.w)) + 200));
+  const ph = Math.min(H - 120, altTexto + 150);
+  const px = lado === 'direita' ? W - pw - 110 : lado === 'esquerda' ? 110 : Math.round((W - pw) / 2);
+  const cx = px + pw / 2; // centro horizontal do painel
+  const py = Math.round((H - ph) / 2);
+  const painel = Buffer.from(`<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}">
+    <defs><filter id="s" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="22"/></filter></defs>
+    <rect width="${W}" height="${H}" fill="#1c0d12" fill-opacity="${lateral ? '.08' : '.18'}"/>
+    <rect x="${px + 6}" y="${py + 18}" width="${pw}" height="${ph}" rx="28" fill="#1c0d12" fill-opacity=".45" filter="url(#s)"/>
+    <rect x="${px}" y="${py}" width="${pw}" height="${ph}" rx="28" fill="#fff7e8" fill-opacity=".93"/>
+    <rect x="${px + 14}" y="${py + 14}" width="${pw - 28}" height="${ph - 28}" rx="20" fill="none" stroke="${C.ouro}" stroke-opacity=".55" stroke-width="2.5"/>
+  </svg>`);
+  camadas.push({ input: painel, top: 0, left: 0 });
+  let y = Math.round(py + (ph - altTexto) / 2);
+  for (const b of blocos) {
+    const left = b.left !== undefined ? b.left + Math.round(cx - W / 2) : Math.round(cx - b.w / 2);
+    camadas.push({ input: b.input, top: y, left });
+    y += b.h + folga;
+  }
+  return base().composite(camadas).png().toBuffer();
 }
 
 // ---------- Montagem ----------
@@ -259,9 +303,9 @@ const entradas = [];
 const filtros = [];
 audios.forEach((a, k) => {
   entradas.push('-i', a.arq);
-  filtros.push(`[${k}:a]aresample=44100,aformat=channel_layouts=stereo,apad=pad_dur=${PAUSA}[a${k}]`);
+  filtros.push(`[${k}:a]aresample=44100,aformat=channel_layouts=stereo,apad=whole_dur=${(a.dur + PAUSA).toFixed(3)}[a${k}]`);
 });
-filtros.push(`${audios.map((_, k) => `[a${k}]`).join('')}concat=n=${audios.length}:v=0:a=1,loudnorm=I=-16:TP=-1.5:LRA=11[voz]`);
+filtros.push(`${audios.map((_, k) => `[a${k}]`).join('')}concat=n=${audios.length}:v=0:a=1,apad=pad_dur=5,loudnorm=I=-16:TP=-1.5:LRA=11,atrim=0:${t.toFixed(3)}[voz]`);
 const musica = 'assets/musica/fundo.mp3';
 let mapa = '[voz]';
 if (await existe(musica)) {
@@ -294,7 +338,7 @@ const sombra = Buffer.from(
 );
 const tTit = await texto(mini.titulo, { fonte: 'Arial Black 62', cor: '#fff7e8', estilo: 'b', largura: 560, alinhar: 'left' });
 const tSub = await texto(mini.subtitulo, { fonte: 'Georgia 34', cor: C.ouroClaro, estilo: 'i', largura: 560, alinhar: 'left' });
-await sharp(arteBuf)
+await sharp(await readFile(spec.arte))
   .resize(1280, 720, { fit: 'cover' })
   .composite([
     { input: sombra, top: 0, left: 0 },

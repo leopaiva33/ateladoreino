@@ -1,67 +1,188 @@
 {
   "slug": "confiar-em-deus-nos-tempos-dificeis",
   "arte": "public/images/posts/confiar-em-deus-nos-tempos-dificeis.png",
-  "miniatura": { "titulo": "ONDE ESTÁ DEUS?", "subtitulo": "nos tempos difíceis" },
+  "miniatura": {
+    "titulo": "ONDE ESTÁ DEUS?",
+    "subtitulo": "nos tempos difíceis"
+  },
   "secoes": [
     {
       "titulo": "Abertura",
       "cenas": [
-        { "tipo": "arte", "titulo": "Confiar em Deus", "subtitulo": "nos tempos difíceis", "peso": 2 },
-        { "tipo": "aviso", "texto": "Conteúdo devocional. Não substitui ajuda profissional, médica ou pastoral." }
+        {
+          "tipo": "arte",
+          "titulo": "Confiar em Deus",
+          "subtitulo": "nos tempos difíceis",
+          "peso": 2
+        },
+        {
+          "tipo": "aviso",
+          "texto": "Conteúdo devocional. Não substitui ajuda profissional, médica ou pastoral.",
+          "fundo": "como-orar"
+        }
       ]
     },
     {
       "titulo": "A Bíblia não esconde a angústia",
       "cenas": [
-        { "tipo": "texto", "titulo": "A Bíblia não esconde a angústia", "texto": "Confiar em Deus não é fingir que a dor não existe." },
-        { "tipo": "versiculo", "citacao": "…molho o meu leito com as minhas lágrimas.", "ref": "Salmos 6:6" },
-        { "tipo": "versiculo", "citacao": "A minha alma está cheia de tristeza até à morte…", "ref": "Mateus 26:38" },
-        { "tipo": "versiculo", "citacao": "…não se faça a minha vontade, mas a tua.", "ref": "Lucas 22:42", "comentario": "Dizer a Deus como você está já é um ato de confiança." }
+        {
+          "tipo": "texto",
+          "titulo": "A Bíblia não esconde a angústia",
+          "texto": "Confiar em Deus não é fingir que a dor não existe.",
+          "fundo": "versiculos-de-forca-para-momentos-dificeis"
+        },
+        {
+          "tipo": "versiculo",
+          "citacao": "…molho o meu leito com as minhas lágrimas.",
+          "ref": "Salmos 6:6",
+          "fundo": "salmos-para-ler-antes-de-dormir"
+        },
+        {
+          "tipo": "versiculo",
+          "citacao": "A minha alma está cheia de tristeza até à morte…",
+          "ref": "Mateus 26:38",
+          "fundo": "getsemani"
+        },
+        {
+          "tipo": "versiculo",
+          "citacao": "…não se faça a minha vontade, mas a tua.",
+          "ref": "Lucas 22:42",
+          "comentario": "Dizer a Deus como você está já é um ato de confiança.",
+          "fundo": "o-poder-da-oracao-no-dia-a-dia"
+        }
       ]
     },
     {
       "titulo": "Confiança não é ausência de medo",
       "cenas": [
-        { "tipo": "versiculo", "citacao": "Confia no Senhor de todo o teu coração e não te estribes no teu próprio entendimento.", "ref": "Provérbios 3:5", "comentario": "Estribar-se = apoiar-se" },
-        { "tipo": "versiculo", "citacao": "Eu creio, Senhor! Ajuda a minha incredulidade.", "ref": "Marcos 9:24" }
+        {
+          "tipo": "versiculo",
+          "citacao": "Confia no Senhor de todo o teu coração e não te estribes no teu próprio entendimento.",
+          "ref": "Provérbios 3:5",
+          "comentario": "Estribar-se = apoiar-se",
+          "fundo": "como-ler-a-biblia-todos-os-dias"
+        },
+        {
+          "tipo": "versiculo",
+          "citacao": "Eu creio, Senhor! Ajuda a minha incredulidade.",
+          "ref": "Marcos 9:24",
+          "fundo": "como-ter-fe-segundo-a-biblia"
+        }
       ]
     },
     {
       "titulo": "Deus está perto de quem sofre",
       "cenas": [
-        { "tipo": "versiculo", "citacao": "Perto está o Senhor dos que têm o coração quebrantado…", "ref": "Salmos 34:18" },
-        { "tipo": "versiculo", "citacao": "…socorro bem presente na angústia.", "ref": "Salmos 46:1" },
-        { "tipo": "versiculo", "citacao": "Vinde a mim, todos os que estais cansados e oprimidos…", "ref": "Mateus 11:28" },
-        { "tipo": "versiculo", "citacao": "Não temas, porque eu sou contigo…", "ref": "Isaías 41:10" }
+        {
+          "tipo": "versiculo",
+          "citacao": "Perto está o Senhor dos que têm o coração quebrantado…",
+          "ref": "Salmos 34:18",
+          "fundo": "o-que-a-biblia-diz-sobre-perdao"
+        },
+        {
+          "tipo": "versiculo",
+          "citacao": "…socorro bem presente na angústia.",
+          "ref": "Salmos 46:1",
+          "fundo": "salmo-91-significado"
+        },
+        {
+          "tipo": "versiculo",
+          "citacao": "Vinde a mim, todos os que estais cansados e oprimidos…",
+          "ref": "Mateus 11:28",
+          "fundo": "salmo-23-significado"
+        },
+        {
+          "tipo": "versiculo",
+          "citacao": "Não temas, porque eu sou contigo…",
+          "ref": "Isaías 41:10",
+          "fundo": "encontrar-paz-em-meio-a-ansiedade"
+        }
       ]
     },
     {
       "titulo": "Três passos práticos",
       "cenas": [
-        { "tipo": "texto", "titulo": "Passo 1: nomeie", "texto": "O que eu não controlo?\nO que eu posso fazer hoje?" },
-        { "tipo": "texto", "titulo": "Passo 2: lembre", "texto": "Um caderno de livramentos, como as pedras memoriais de Israel.", "rodape": "Josué 4:4-9" },
-        { "tipo": "texto", "titulo": "Passo 3: aja", "texto": "Passos pequenos, repetidos, vencem a paralisia." }
+        {
+          "tipo": "texto",
+          "titulo": "Passo 1: nomeie",
+          "texto": "O que eu não controlo?\nO que eu posso fazer hoje?",
+          "fundo": "estudo-biblico-para-iniciantes"
+        },
+        {
+          "tipo": "texto",
+          "titulo": "Passo 2: lembre",
+          "texto": "Um caderno de livramentos, como as pedras memoriais de Israel.",
+          "rodape": "Josué 4:4-9",
+          "fundo": "pedras-memoriais"
+        },
+        {
+          "tipo": "texto",
+          "titulo": "Passo 3: aja",
+          "texto": "Passos pequenos, repetidos, vencem a paralisia.",
+          "fundo": "como-orar-o-pai-nosso"
+        }
       ]
     },
     {
       "titulo": "Quando é difícil até orar",
       "cenas": [
-        { "tipo": "versiculo", "citacao": "…o mesmo Espírito intercede por nós com gemidos inexprimíveis.", "ref": "Romanos 8:26" },
-        { "tipo": "lista", "titulo": "Um roteiro de cinco minutos", "itens": ["Respire e fique em silêncio.", "Leia um salmo curto.", "Diga a Deus o que pesa.", "Entregue esse peso a ele.", "Peça ajuda a alguém hoje."], "peso": 2 },
-        { "tipo": "aviso", "texto": "Conteúdo devocional. Não substitui ajuda profissional, médica ou pastoral.", "rodape": "CVV: 188, 24 horas" }
+        {
+          "tipo": "versiculo",
+          "citacao": "…o mesmo Espírito intercede por nós com gemidos inexprimíveis.",
+          "ref": "Romanos 8:26",
+          "fundo": "versiculos-sobre-o-poder-da-oracao"
+        },
+        {
+          "tipo": "lista",
+          "titulo": "Um roteiro de cinco minutos",
+          "itens": [
+            "Respire e fique em silêncio.",
+            "Leia um salmo curto.",
+            "Diga a Deus o que pesa.",
+            "Entregue esse peso a ele.",
+            "Peça ajuda a alguém hoje."
+          ],
+          "peso": 2,
+          "fundo": "oracao-da-manha"
+        },
+        {
+          "tipo": "aviso",
+          "texto": "Conteúdo devocional. Não substitui ajuda profissional, médica ou pastoral.",
+          "rodape": "CVV: 188, 24 horas",
+          "fundo": "como-orar"
+        }
       ]
     },
     {
       "titulo": "Oração final",
       "cenas": [
-        { "tipo": "arte", "titulo": "Uma oração para hoje" }
+        {
+          "tipo": "arte",
+          "titulo": "Uma oração para hoje"
+        }
       ]
     },
     {
       "titulo": "Encerramento",
       "cenas": [
-        { "tipo": "lista", "titulo": "Um passo de cada vez", "itens": ["Nomear", "Lembrar", "Agir"], "numerar": false },
-        { "tipo": "texto", "titulo": "Leia o texto completo", "texto": "ateladoreino.com", "rodape": "Leonardo Paiva, A Tela do Reino" }
+        {
+          "tipo": "lista",
+          "titulo": "Um passo de cada vez",
+          "itens": [
+            "Nomear",
+            "Lembrar",
+            "Agir"
+          ],
+          "numerar": false,
+          "fundo": "devocional-para-jovens"
+        },
+        {
+          "tipo": "texto",
+          "titulo": "Leia o texto completo",
+          "texto": "ateladoreino.com",
+          "rodape": "Leonardo Paiva, A Tela do Reino",
+          "fundo": "confiar-em-deus-nos-tempos-dificeis"
+        }
       ]
     }
   ]
