@@ -1,0 +1,43 @@
+name: Gerar vídeo do YouTube
+
+# Disparo manual (Actions > Gerar vídeo do YouTube > Run workflow).
+# Gera video.mp4 (1920x1080), legendas.srt e miniatura.png a partir de
+# conteudo-social/<slug>/youtube.md e video.json, e anexa como artefato da execução.
+# Voz: segredo ELEVENLABS_API_KEY + variável ELEVENLABS_VOICE_ID (voz clonada).
+# Sem eles, usa a voz sintética provisória do espeak-ng (só para testar).
+on:
+  workflow_dispatch:
+    inputs:
+      slug:
+        description: 'Slug do artigo (ex.: confiar-em-deus-nos-tempos-dificeis)'
+        required: true
+        type: string
+
+jobs:
+  video:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - name: Instalar ffmpeg e espeak-ng
+        run: sudo apt-get update -q && sudo apt-get install -y -q ffmpeg espeak-ng fonts-dejavu
+      - run: npm ci
+      - name: Gerar vídeo
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+          ELEVENLABS_VOICE_ID: ${{ vars.ELEVENLABS_VOICE_ID }}
+          SLUG: ${{ inputs.slug }}
+        run: npm run video -- "$SLUG"
+      - name: Anexar vídeo, legendas e miniatura
+        uses: actions/upload-artifact@v4
+        with:
+          name: video-${{ inputs.slug }}
+          path: |
+            video-out/${{ inputs.slug }}/video.mp4
+            video-out/${{ inputs.slug }}/legendas.srt
+            video-out/${{ inputs.slug }}/miniatura.png
+          retention-days: 14
