@@ -7,6 +7,8 @@
 //   - ElevenLabs (voz clonada): defina ELEVENLABS_API_KEY e ELEVENLABS_VOICE_ID.
 //   - Sem essas variáveis, usa a voz sintética do espeak-ng, se instalada (provisória, só para testar),
 //     ou silêncio com a duração estimada da fala. Para forçar uma delas: VOZ_PROVISORIA=espeak|silencio.
+// Fundo de cada cena: a foto escolhida em imagens.json (Pexels; ver buscar-imagens.mjs) ou, sem foto,
+// a ilustração de "fundo" (art/cenas/*.svg ou public/images/posts/*.png). SEM_FOTOS=1 ignora as fotos.
 // Música de fundo opcional: assets/musica/fundo.mp3 (abaixa sozinha durante a narração).
 //
 // Uso: npm run video -- <slug> [--so-cenas]
@@ -160,9 +162,28 @@ async function fundoDeslocado(buf, lado) {
   return sharp(buf).resize(w, h).extract({ left, top, width: W, height: H }).png().toBuffer();
 }
 
-async function cena(c) {
+// Fotos do Pexels escolhidas para as cenas (conteudo-social/<slug>/imagens.json, gerado por buscar-imagens.mjs).
+const arqFotos = join(pasta, 'imagens.json');
+const fotos = {};
+if (!process.env.SEM_FOTOS && (await existe(arqFotos))) {
+  for (const [chave, e] of Object.entries(JSON.parse(await readFile(arqFotos, 'utf8')))) if (e.escolhida) fotos[chave] = e.escolhida;
+}
+async function foto(f) {
+  const arq = join(cache, 'fotos', `${f.id}.jpg`);
+  if (!(await existe(arq))) {
+    await mkdir(join(cache, 'fotos'), { recursive: true });
+    const r = await fetch(f.src);
+    if (!r.ok) throw new Error(`Não consegui baixar a foto ${f.id} (${r.status}): ${f.src}`);
+    await writeFile(arq, Buffer.from(await r.arrayBuffer()));
+  }
+  // Leve tom quente e um pouco mais escura, para combinar com a marca e destacar o painel.
+  return sharp(arq).resize(W, H, { fit: 'cover', position: 'attention' }).modulate({ brightness: 0.88, saturation: 0.9 }).tint('#f3d9b8').png().toBuffer();
+}
+
+async function cena(c, chave) {
   const lado = c.tipo === 'arte' ? 'centro' : (c.lado ?? spec.lado ?? 'direita');
-  const camadas = [{ input: await fundoDeslocado(await imagem(c.fundo ?? spec.arte), lado), top: 0, left: 0 }];
+  const fundoBuf = fotos[chave] ? await foto(fotos[chave]) : await imagem(c.fundo ?? spec.arte);
+  const camadas = [{ input: await fundoDeslocado(fundoBuf, lado), top: 0, left: 0 }];
   const base = () => sharp({ create: { width: W, height: H, channels: 3, background: '#000' } });
 
   if (c.tipo === 'arte') {
@@ -265,11 +286,12 @@ for (let i = 0; i < spec.secoes.length; i++) {
   // Cenas da seção: duração dividida pelo peso de cada uma.
   const cenas = spec.secoes[i].cenas;
   const pesoTotal = cenas.reduce((s, c) => s + (c.peso ?? 1), 0);
-  for (const c of cenas) {
+  for (let j = 0; j < cenas.length; j++) {
+    const c = cenas[j];
     const d = (durSecao * (c.peso ?? 1)) / pesoTotal;
     const png = join(saida, 'cenas', `${String(++nCena).padStart(2, '0')}.png`);
-    await writeFile(png, await cena(c));
-    clipes.push({ png, dur: d, zoom: c.tipo === 'arte' });
+    await writeFile(png, await cena(c, `${i + 1}.${j + 1}`));
+    clipes.push({ png, dur: d, zoom: c.tipo === 'arte' || Boolean(fotos[`${i + 1}.${j + 1}`]) });
   }
   t += durSecao;
 }
@@ -348,4 +370,11 @@ await sharp(await readFile(spec.arte))
   .png()
   .toFile(join(saida, 'miniatura.png'));
 
+const creditos = [...new Map(Object.values(fotos).map((f) => [f.id, f])).values()];
+if (creditos.length) {
+  await writeFile(
+    join(saida, 'creditos.txt'),
+    `Fotos: Pexels (pexels.com)\n${creditos.map((f) => `- ${f.fotografo}: ${f.pagina}`).join('\n')}\n`,
+  );
+}
 console.log(`Pronto: ${final} (${(await duracao(final)).toFixed(1)} s), legendas.srt e miniatura.png em ${saida}/`);
