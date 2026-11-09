@@ -150,18 +150,6 @@ async function imagem(nome) {
   return imagens.get(nome);
 }
 
-/** Desloca a ilustração (ampliada) para o lado oposto ao painel, para o assunto da cena ficar visível. */
-async function fundoDeslocado(buf, lado, ehFoto = false) {
-  if (lado !== 'esquerda' && lado !== 'direita') return buf;
-  const ESC = ehFoto ? 1.22 : 1.42; // fotos já são amplas e perdem nitidez se ampliadas demais
-  const w = Math.round(W * ESC);
-  const h = Math.round(H * ESC);
-  const foco = lado === 'direita' ? (ehFoto ? 0.38 : 0.3) : ehFoto ? 0.62 : 0.7; // onde o centro da imagem fica no quadro
-  const left = Math.min(w - W, Math.max(0, Math.round(w / 2 - foco * W)));
-  const top = Math.round((h - H) / 2);
-  return sharp(buf).resize(w, h).extract({ left, top, width: W, height: H }).png().toBuffer();
-}
-
 // Fotos dos bancos de imagens escolhidas para as cenas (conteudo-social/<slug>/imagens.json, gerado por buscar-imagens.mjs).
 const arqFotos = join(pasta, 'imagens.json');
 const fotos = {};
@@ -184,85 +172,122 @@ async function foto(f) {
     if (!r.ok) throw new Error(`Não consegui baixar a foto ${f.id} (${r.status}). Se o link expirou, rode no Actions (com PIXABAY_API_KEY).`);
     await writeFile(arq, Buffer.from(await r.arrayBuffer()));
   }
-  // Leve tom quente e um pouco mais escura, para combinar com a marca e destacar o painel.
-  return sharp(arq).resize(W, H, { fit: 'cover', position: 'attention' }).modulate({ brightness: 0.88, saturation: 0.9 }).tint('#f3d9b8').png().toBuffer();
+  return sharp(arq).resize(W, H, { fit: 'cover', position: 'attention', kernel: 'lanczos3' }).png().toBuffer();
+}
+
+// ---------- Estilo das cenas ----------
+// Foto em tela cheia e o texto direto sobre a parte mais "limpa" da imagem (céu, fundo liso),
+// em Montserrat, sem caixa: escuro sobre fundo claro, branco com sombra suave sobre fundo escuro.
+const FONTE_BOLD = 'assets/fonts/Montserrat-Bold.ttf';
+const FONTE_MEDIA = 'assets/fonts/Montserrat-Medium.ttf';
+async function mont(conteudo, { peso = 'Bold', tam = 60, cor = '#1b1410', largura = 860, alinhar = 'centre' } = {}) {
+  const buf = await sharp({
+    text: {
+      text: `<span foreground="${cor}">${esc(conteudo)}</span>`,
+      font: `Montserrat ${peso} ${tam}`,
+      fontfile: peso === 'Bold' ? FONTE_BOLD : FONTE_MEDIA,
+      width: largura,
+      rgba: true,
+      align: alinhar,
+      spacing: Math.round(tam * 0.08),
+      dpi: 110,
+    },
+  })
+    .png()
+    .toBuffer();
+  const meta = await sharp(buf).metadata();
+  return { input: buf, w: meta.width, h: meta.height };
+}
+
+/** Analisa as metades da imagem: escolhe a mais lisa para o texto e mede o brilho dela. */
+async function analisar(buf) {
+  const { data, info } = await sharp(buf).resize(96, 54, { fit: 'fill' }).greyscale().raw().toBuffer({ resolveWithObject: true });
+  const metade = (x0, x1) => {
+    const v = [];
+    for (let y = 4; y < info.height - 4; y++) for (let x = x0; x < x1; x++) v.push(data[y * info.width + x] / 255);
+    const m = v.reduce((s, a) => s + a, 0) / v.length;
+    const dp = Math.sqrt(v.reduce((s, a) => s + (a - m) ** 2, 0) / v.length);
+    return { m, dp };
+  };
+  return { esquerda: metade(4, 46), direita: metade(50, 92), centro: metade(24, 72) };
+}
+
+/** Sombra suave (para texto claro sobre fundo escuro). */
+async function sombraTexto(bloco) {
+  const pad = 30;
+  const preto = await sharp(bloco.input).ensureAlpha().linear([0, 0, 0, 0.75], [0, 0, 0, 0]).toBuffer();
+  const input = await sharp(preto)
+    .extend({ top: pad, bottom: pad, left: pad, right: pad, background: { r: 0, g: 0, b: 0, alpha: 0 } })
+    .blur(9)
+    .png()
+    .toBuffer();
+  return { input, pad };
 }
 
 async function cena(c, chave) {
-  const lado = c.tipo === 'arte' ? 'centro' : (c.lado ?? spec.lado ?? 'direita');
   const fundoBuf = fotos[chave] ? await foto(fotos[chave]) : await imagem(c.fundo ?? spec.arte);
-  const camadas = [{ input: await fundoDeslocado(fundoBuf, lado, Boolean(fotos[chave])), top: 0, left: 0 }];
+  const camadas = [{ input: fundoBuf, top: 0, left: 0 }];
   const base = () => sharp({ create: { width: W, height: H, channels: 3, background: '#000' } });
+  const an = await analisar(fundoBuf);
 
-  if (c.tipo === 'arte') {
-    if (c.titulo) {
-      const faixa = Buffer.from(
-        `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}"><defs><linearGradient id="v" x1="0" y1="0" x2="0" y2="1"><stop offset=".45" stop-color="#2a0d12" stop-opacity="0"/><stop offset="1" stop-color="#2a0d12" stop-opacity=".78"/></linearGradient></defs><rect width="${W}" height="${H}" fill="url(#v)"/></svg>`,
-      );
-      camadas.push({ input: faixa, top: 0, left: 0 });
-      const blocos = [await texto(c.titulo, { fonte: 'Georgia 96', cor: '#fff7e8', estilo: 'b', largura: 1600 })];
-      if (c.subtitulo) blocos.push(await texto(c.subtitulo, { fonte: 'Georgia 50', cor: C.ouroClaro, estilo: 'i' }));
-      let y = H - 90 - blocos.reduce((s, b) => s + b.h, 0) - 24 * (blocos.length - 1);
-      for (const b of blocos) {
-        camadas.push({ input: b.input, top: y, left: Math.round((W - b.w) / 2) });
-        y += b.h + 24;
-      }
-    }
-    return base().composite(camadas).png().toBuffer();
-  }
+  // Lado do texto: o pedido na cena, ou a metade mais lisa da imagem. Títulos ("arte") ficam embaixo, no centro.
+  let lado = c.lado ?? (c.tipo === 'arte' ? 'centro' : an.esquerda.dp + 0.02 < an.direita.dp ? 'esquerda' : 'direita');
+  const regiao = an[lado];
+  const claro = regiao.m > 0.56; // fundo claro -> texto escuro
+  const cor = claro ? '#1b1410' : '#fffaf2';
+  const corRef = claro ? '#3a2a22' : '#f3e6d0';
+  const LARG = lado === 'centro' ? 1500 : 900;
+  const cx = lado === 'esquerda' ? W * 0.27 : lado === 'direita' ? W * 0.73 : W / 2;
 
-  // Cartão: painel claro sobre a ilustração. O texto encolhe até caber no painel.
-  const lateral = lado === 'esquerda' || lado === 'direita';
-  const LARG = lateral ? 720 : 1240;
-  const folga = c.tipo === 'lista' ? 22 : 28;
-  const ALT_MAX = H - 280;
+  // Véu suave (sem caixa) atrás do texto, só para garantir a leitura.
+  const veu = claro
+    ? `<radialGradient id="v" cx="${cx / W}" cy=".45" r=".42"><stop offset="0" stop-color="#fff6e6" stop-opacity=".35"/><stop offset="1" stop-color="#fff6e6" stop-opacity="0"/></radialGradient>`
+    : `<radialGradient id="v" cx="${cx / W}" cy="${lado === 'centro' ? '.8' : '.45'}" r=".5"><stop offset="0" stop-color="#120a06" stop-opacity=".45"/><stop offset="1" stop-color="#120a06" stop-opacity="0"/></radialGradient>`;
+  camadas.push({ input: Buffer.from(`<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}"><defs>${veu}</defs><rect width="${W}" height="${H}" fill="url(#v)"/></svg>`), top: 0, left: 0 });
+
   let blocos;
-  let altTexto;
-  for (let k = lateral ? 0.82 : 1; ; k -= 0.06) {
-    const F = (nome, tam) => `${nome} ${Math.round(tam * k)}`;
-    blocos = [await texto('A TELA DO REINO', { fonte: 'Arial 22', cor: C.ouro, estilo: 'b' })];
-    if (c.tipo === 'versiculo') {
-      blocos.push(await texto('“', { fonte: F('Georgia', 110), cor: C.ouroClaro, largura: 200 }));
-      blocos.push(await texto(c.citacao, { fonte: F('Georgia', 58), cor: C.vinho, estilo: 'i', largura: LARG }));
-      blocos.push(await texto(c.ref, { fonte: F('Arial', 36), cor: C.ouro, estilo: 'b' }));
-      if (c.comentario) blocos.push(linha(), await texto(c.comentario, { fonte: F('Georgia', 44), largura: LARG }));
+  let folgas;
+  for (let k = 1; ; k -= 0.07) {
+    const t = (n) => Math.round(n * k);
+    blocos = [];
+    folgas = [];
+    const add = (b, folga) => {
+      if (blocos.length) folgas.push(folga);
+      blocos.push(b);
+    };
+    if (c.tipo === 'arte') {
+      if (c.titulo) add(await mont(c.titulo, { tam: t(78), cor, largura: LARG }), 0);
+      if (c.subtitulo) add(await mont(c.subtitulo, { peso: 'Medium', tam: t(42), cor: corRef, largura: LARG }), t(14));
+    } else if (c.tipo === 'versiculo') {
+      add(await mont(`“${c.citacao}”`, { tam: t(62), cor, largura: LARG }), 0);
+      add(await mont(`(${c.ref})`, { peso: 'Medium', tam: t(38), cor: corRef, largura: LARG }), t(22));
+      if (c.comentario) add(await mont(c.comentario, { peso: 'Medium', tam: t(40), cor, largura: LARG }), t(44));
     } else if (c.tipo === 'lista') {
-      blocos.push(await texto(c.titulo, { fonte: F('Georgia', 66), cor: C.vinho, estilo: 'b', largura: LARG }), linha());
-      const itens = [];
+      add(await mont(c.titulo, { tam: t(62), cor, largura: LARG }), 0);
       for (let n = 0; n < c.itens.length; n++) {
-        itens.push(await texto(`${c.numerar === false ? '•' : `${n + 1}.`} ${c.itens[n]}`, { fonte: F('Georgia', 46), alinhar: 'left', largura: LARG }));
+        add(await mont(`${c.numerar === false ? '' : `${n + 1}. `}${c.itens[n]}`, { peso: 'Medium', tam: t(44), cor, largura: LARG }), t(n ? 14 : 34));
       }
-      const larg = Math.max(...itens.map((b) => b.w));
-      itens.forEach((b) => (b.left = Math.round((W - larg) / 2)));
-      blocos.push(...itens);
     } else if (c.tipo === 'texto' || c.tipo === 'aviso') {
-      if (c.titulo) blocos.push(await texto(c.titulo, { fonte: F('Georgia', 70), cor: C.vinho, estilo: 'b', largura: LARG }), linha());
-      blocos.push(await texto(c.texto, { fonte: F('Georgia', c.tipo === 'aviso' ? 48 : 54), largura: LARG }));
-      if (c.rodape) blocos.push(await texto(c.rodape, { fonte: F('Arial', 36), cor: C.ouro, estilo: 'b', largura: LARG }));
+      if (c.titulo) add(await mont(c.titulo, { tam: t(66), cor, largura: LARG }), 0);
+      add(await mont(c.texto, { peso: c.tipo === 'aviso' ? 'Medium' : c.titulo ? 'Medium' : 'Bold', tam: t(c.tipo === 'aviso' ? 44 : c.titulo ? 46 : 60), cor, largura: LARG }), t(26));
+      if (c.rodape) add(await mont(c.rodape, { peso: 'Medium', tam: t(36), cor: corRef, largura: LARG }), t(22));
     } else {
       throw new Error(`Tipo de cena desconhecido: ${c.tipo}`);
     }
-    altTexto = blocos.reduce((sm, b) => sm + b.h, 0) + folga * (blocos.length - 1);
-    if (altTexto <= ALT_MAX || k < 0.5) break;
+    const alt = blocos.reduce((s, b) => s + b.h, 0) + folgas.reduce((s, f) => s + f, 0);
+    if (alt <= H - 260 || k < 0.5) break;
   }
-  const pw = lateral ? 880 : Math.min(W - 160, Math.max(980, Math.max(...blocos.map((b) => b.w)) + 200));
-  const ph = Math.min(H - 120, altTexto + 150);
-  const px = lado === 'direita' ? W - pw - 110 : lado === 'esquerda' ? 110 : Math.round((W - pw) / 2);
-  const cx = px + pw / 2; // centro horizontal do painel
-  const py = Math.round((H - ph) / 2);
-  const painel = Buffer.from(`<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}">
-    <defs><filter id="s" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="22"/></filter></defs>
-    <rect width="${W}" height="${H}" fill="#1c0d12" fill-opacity="${lateral ? '.08' : '.18'}"/>
-    <rect x="${px + 6}" y="${py + 18}" width="${pw}" height="${ph}" rx="28" fill="#1c0d12" fill-opacity=".45" filter="url(#s)"/>
-    <rect x="${px}" y="${py}" width="${pw}" height="${ph}" rx="28" fill="#fff7e8" fill-opacity=".93"/>
-    <rect x="${px + 14}" y="${py + 14}" width="${pw - 28}" height="${ph - 28}" rx="20" fill="none" stroke="${C.ouro}" stroke-opacity=".55" stroke-width="2.5"/>
-  </svg>`);
-  camadas.push({ input: painel, top: 0, left: 0 });
-  let y = Math.round(py + (ph - altTexto) / 2);
-  for (const b of blocos) {
-    const left = b.left !== undefined ? b.left + Math.round(cx - W / 2) : Math.round(cx - b.w / 2);
+  const alt = blocos.reduce((s, b) => s + b.h, 0) + folgas.reduce((s, f) => s + f, 0);
+  let y = c.tipo === 'arte' ? H - 110 - alt : Math.round((H - alt) / 2 - H * 0.04);
+  for (let n = 0; n < blocos.length; n++) {
+    const b = blocos[n];
+    const left = Math.round(cx - b.w / 2);
+    if (!claro) {
+      const s = await sombraTexto(b);
+      camadas.push({ input: s.input, top: y - s.pad + 3, left: left - s.pad + 2 });
+    }
     camadas.push({ input: b.input, top: y, left });
-    y += b.h + folga;
+    y += b.h + (folgas[n] ?? 0);
   }
   return base().composite(camadas).png().toBuffer();
 }
@@ -361,19 +386,23 @@ const ts = (s) => {
 };
 await writeFile(join(saida, 'legendas.srt'), legendas.map((l, k) => `${k + 1}\n${ts(l.ini)} --> ${ts(l.fim)}\n${l.texto}\n`).join('\n'));
 
-// Miniatura 1280x720.
+// Miniatura 1280x720: a foto da abertura (ou a ilustração do artigo) e o título em Montserrat.
 const mini = spec.miniatura;
-const sombra = Buffer.from(
-  `<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720"><defs><linearGradient id="v" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2a0d12" stop-opacity=".82"/><stop offset=".6" stop-color="#2a0d12" stop-opacity="0"/></linearGradient></defs><rect width="1280" height="720" fill="url(#v)"/></svg>`,
+const baseMini = fotos['1.1'] ? await foto(fotos['1.1']) : await readFile(spec.arte);
+const escuro = Buffer.from(
+  `<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720"><defs><linearGradient id="v" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#120a06" stop-opacity=".75"/><stop offset=".65" stop-color="#120a06" stop-opacity="0"/></linearGradient></defs><rect width="1280" height="720" fill="url(#v)"/></svg>`,
 );
-const tTit = await texto(mini.titulo, { fonte: 'Arial Black 62', cor: '#fff7e8', estilo: 'b', largura: 560, alinhar: 'left' });
-const tSub = await texto(mini.subtitulo, { fonte: 'Georgia 34', cor: C.ouroClaro, estilo: 'i', largura: 560, alinhar: 'left' });
-await sharp(await readFile(spec.arte))
+const tTit = await mont(mini.titulo, { tam: 64, cor: '#fffaf2', largura: 640, alinhar: 'left' });
+const tSub = await mont(mini.subtitulo, { peso: 'Medium', tam: 34, cor: '#f6c97a', largura: 640, alinhar: 'left' });
+const sTit = await sombraTexto(tTit);
+const yTit = Math.round((720 - tTit.h - tSub.h - 20) / 2);
+await sharp(baseMini)
   .resize(1280, 720, { fit: 'cover' })
   .composite([
-    { input: sombra, top: 0, left: 0 },
-    { input: tTit.input, top: Math.round((720 - tTit.h - tSub.h - 20) / 2), left: 60 },
-    { input: tSub.input, top: Math.round((720 + tTit.h - tSub.h + 20) / 2), left: 60 },
+    { input: escuro, top: 0, left: 0 },
+    { input: sTit.input, top: yTit - sTit.pad + 3, left: 60 - sTit.pad + 2 },
+    { input: tTit.input, top: yTit, left: 60 },
+    { input: tSub.input, top: yTit + tTit.h + 20, left: 62 },
   ])
   .png()
   .toFile(join(saida, 'miniatura.png'));
