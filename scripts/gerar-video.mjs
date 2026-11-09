@@ -160,16 +160,24 @@ async function foto(f) {
   const arq = join(cache, 'fotos', `${f.id}.jpg`);
   if (!(await existe(arq))) {
     await mkdir(join(cache, 'fotos'), { recursive: true });
-    let src = f.src;
     const ua = { headers: { 'user-agent': 'ateladoreino-video/1.0 (+https://ateladoreino.com)' } };
-    let r = await fetch(src, ua);
-    // Os links do Pixabay expiram em 24 h: com a chave, pede um link novo pelo id da foto.
-    if (!r.ok && f.id.startsWith('pixabay-') && process.env.PIXABAY_API_KEY) {
-      const j = await (await fetch(`https://pixabay.com/api/?key=${process.env.PIXABAY_API_KEY}&id=${f.id.slice(8)}`)).json();
-      src = j.hits?.[0]?.largeImageURL ?? src;
-      r = await fetch(src, ua);
+    const espera = (ms) => new Promise((ok) => setTimeout(ok, ms));
+    // Pede ao servidor, esperando e tentando de novo quando o banco limita os pedidos (429).
+    const pedir = async (url) => {
+      for (let tentativa = 0; ; tentativa++) {
+        const resp = await fetch(url, ua);
+        if (resp.status !== 429 || tentativa >= 5) return resp;
+        await espera(Number(resp.headers.get('retry-after')) * 1000 || 4000 * 2 ** tentativa);
+      }
+    };
+    // Os links do Pixabay expiram em 24 h: com a chave, pede um link novo pelo id antes de baixar.
+    let src = f.src;
+    if (f.id.startsWith('pixabay-') && process.env.PIXABAY_API_KEY) {
+      const rApi = await pedir(`https://pixabay.com/api/?key=${process.env.PIXABAY_API_KEY}&id=${f.id.slice(8)}`);
+      if (rApi.ok) src = (await rApi.json()).hits?.[0]?.largeImageURL ?? src;
     }
-    if (!r.ok) throw new Error(`Não consegui baixar a foto ${f.id} (${r.status}). Se o link expirou, rode no Actions (com PIXABAY_API_KEY).`);
+    const r = await pedir(src);
+    if (!r.ok) throw new Error(`Não consegui baixar a foto ${f.id} (${r.status}).`);
     await writeFile(arq, Buffer.from(await r.arrayBuffer()));
   }
   return sharp(arq).resize(W, H, { fit: 'cover', position: 'attention', kernel: 'lanczos3' }).png().toBuffer();

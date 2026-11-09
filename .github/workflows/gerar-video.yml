@@ -34,6 +34,12 @@ jobs:
       - name: Instalar ffmpeg e espeak-ng
         run: sudo apt-get update -q && sudo apt-get install -y -q ffmpeg espeak-ng fonts-dejavu
       - run: npm ci
+      - name: Cache das fotos baixadas
+        uses: actions/cache@v4
+        with:
+          path: .cache-video/*/fotos
+          key: fotos-${{ hashFiles('conteudo-social/*/imagens.json') }}
+          restore-keys: fotos-
       - name: Quais vídeos gerar
         id: quais
         env:
