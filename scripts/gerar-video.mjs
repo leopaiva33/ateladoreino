@@ -230,19 +230,19 @@ async function cena(c, chave) {
   const base = () => sharp({ create: { width: W, height: H, channels: 3, background: '#000' } });
   const an = await analisar(fundoBuf);
 
-  // Lado do texto: o pedido na cena, ou a metade mais lisa da imagem. Títulos ("arte") ficam embaixo, no centro.
-  let lado = c.lado ?? (c.tipo === 'arte' ? 'centro' : an.esquerda.dp + 0.02 < an.direita.dp ? 'esquerda' : 'direita');
+  // Texto centralizado no quadro (padrão). Uma cena pode pedir "lado": "esquerda" ou "direita".
+  const lado = c.lado ?? 'centro';
   const regiao = an[lado];
   const claro = regiao.m > 0.56; // fundo claro -> texto escuro
   const cor = claro ? '#1b1410' : '#fffaf2';
   const corRef = claro ? '#3a2a22' : '#f3e6d0';
-  const LARG = lado === 'centro' ? 1500 : 900;
+  const LARG = lado === 'centro' ? 1300 : 900;
   const cx = lado === 'esquerda' ? W * 0.27 : lado === 'direita' ? W * 0.73 : W / 2;
 
   // Véu suave (sem caixa) atrás do texto, só para garantir a leitura.
   const veu = claro
-    ? `<radialGradient id="v" cx="${cx / W}" cy=".45" r=".42"><stop offset="0" stop-color="#fff6e6" stop-opacity=".35"/><stop offset="1" stop-color="#fff6e6" stop-opacity="0"/></radialGradient>`
-    : `<radialGradient id="v" cx="${cx / W}" cy="${lado === 'centro' ? '.8' : '.45'}" r=".5"><stop offset="0" stop-color="#120a06" stop-opacity=".45"/><stop offset="1" stop-color="#120a06" stop-opacity="0"/></radialGradient>`;
+    ? `<radialGradient id="v" cx="${cx / W}" cy=".48" r=".5"><stop offset="0" stop-color="#fff6e6" stop-opacity=".4"/><stop offset="1" stop-color="#fff6e6" stop-opacity="0"/></radialGradient>`
+    : `<radialGradient id="v" cx="${cx / W}" cy=".48" r=".55"><stop offset="0" stop-color="#120a06" stop-opacity=".45"/><stop offset="1" stop-color="#120a06" stop-opacity="0"/></radialGradient>`;
   camadas.push({ input: Buffer.from(`<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}"><defs>${veu}</defs><rect width="${W}" height="${H}" fill="url(#v)"/></svg>`), top: 0, left: 0 });
 
   let blocos;
@@ -278,7 +278,7 @@ async function cena(c, chave) {
     if (alt <= H - 260 || k < 0.5) break;
   }
   const alt = blocos.reduce((s, b) => s + b.h, 0) + folgas.reduce((s, f) => s + f, 0);
-  let y = c.tipo === 'arte' ? H - 110 - alt : Math.round((H - alt) / 2 - H * 0.04);
+  let y = Math.round((H - alt) / 2);
   for (let n = 0; n < blocos.length; n++) {
     const b = blocos[n];
     const left = Math.round(cx - b.w / 2);
