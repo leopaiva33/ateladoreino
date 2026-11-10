@@ -9,7 +9,7 @@
 // - Grava conteudo-social/<slug>/youtube.json, o que impede enviar o mesmo vídeo duas vezes.
 //
 // Credenciais (segredos do repositório): YOUTUBE_CLIENT_ID, YOUTUBE_CLIENT_SECRET e
-// YOUTUBE_REFRESH_TOKEN (escopo https://www.googleapis.com/auth/youtube.upload).
+// YOUTUBE_REFRESH_TOKEN (escopos youtube.upload e youtube.readonly, este para conferir o status).
 // Cota: cada envio custa cerca de 1.650 das 10.000 unidades diárias (cerca de 6 vídeos por dia).
 //
 // Uso: node scripts/publicar-youtube.mjs <slug> [<slug> ...]
