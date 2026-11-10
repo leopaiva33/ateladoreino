@@ -1,0 +1,45 @@
+---
+/**
+ * Vídeo do YouTube que só carrega depois do clique (página mais leve e sem cookies do YouTube
+ * antes disso). Mostra a imagem do artigo com um botão de play; ao clicar, troca por um player
+ * do youtube-nocookie.com.
+ */
+interface Props {
+  id: string; // id do vídeo (11 caracteres)
+  titulo: string;
+  imagem?: string; // capa (a imagem do artigo)
+}
+const { id, titulo, imagem } = Astro.props;
+---
+
+<section class="video-artigo" aria-label="Vídeo deste artigo">
+  <h2>Prefere assistir?</h2>
+  <div class="video-quadro" data-video={id} data-titulo={titulo}>
+    <button type="button" class="video-play" aria-label={`Assistir ao vídeo: ${titulo}`}>
+      {imagem && <img src={imagem} alt="" width="1200" height="630" loading="lazy" decoding="async" />}
+      <span class="video-icone" aria-hidden="true">
+        <svg viewBox="0 0 68 48" width="68" height="48"><path d="M66.5 7.7a8.5 8.5 0 0 0-6-6C55.3.3 34 .3 34 .3s-21.3 0-26.5 1.4a8.5 8.5 0 0 0-6 6C.1 13 .1 24 .1 24s0 11 1.4 16.3a8.5 8.5 0 0 0 6 6C12.7 47.7 34 47.7 34 47.7s21.3 0 26.5-1.4a8.5 8.5 0 0 0 6-6C67.9 35 67.9 24 67.9 24s0-11-1.4-16.3z" fill="#7a1f2b"></path><path d="M45 24 27 14v20z" fill="#fff"></path></svg>
+      </span>
+      <span class="video-legenda">Assistir no player do YouTube</span>
+    </button>
+  </div>
+  <p class="meta">
+    Ou veja <a href={`https://www.youtube.com/watch?v=${id}`} rel="noopener" target="_blank">direto no YouTube</a>.
+    O player só é carregado quando você clica.
+  </p>
+</section>
+
+<script>
+  for (const quadro of document.querySelectorAll<HTMLElement>('.video-quadro')) {
+    const botao = quadro.querySelector('button');
+    botao?.addEventListener('click', () => {
+      const iframe = document.createElement('iframe');
+      iframe.src = `https://www.youtube-nocookie.com/embed/${quadro.dataset.video}?autoplay=1&rel=0`;
+      iframe.title = quadro.dataset.titulo ?? 'Vídeo';
+      iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+      iframe.referrerPolicy = 'strict-origin-when-cross-origin';
+      iframe.allowFullscreen = true;
+      quadro.replaceChildren(iframe);
+    });
+  }
+</script>

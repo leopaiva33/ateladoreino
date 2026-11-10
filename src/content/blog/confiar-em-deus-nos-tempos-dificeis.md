@@ -4,6 +4,7 @@ description: "Como confiar em Deus quando a vida foge do controle: o que a Bíbl
 pubDate: 2026-10-28
 updatedDate: 2026-11-05
 image: "/images/posts/confiar-em-deus-nos-tempos-dificeis.png"
+video: "-mmuJefCvZs"
 imageAlt: "Ilustração de um farol no meio do mar à noite, com feixes de luz atravessando o céu escuro"
 category: "Esperança"
 tags: ["fé", "confiança", "provações"]

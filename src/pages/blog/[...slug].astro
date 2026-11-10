@@ -6,6 +6,7 @@ import AutorBox from '../../components/AutorBox.astro';
 import LeiaTambem from '../../components/LeiaTambem.astro';
 import { SITE } from '../../config';
 import Compartilhar from '../../components/Compartilhar.astro';
+import VideoYoutube from '../../components/VideoYoutube.astro';
 import { getPublishedPosts, getRelatedPosts, formatDate } from '../../utils/posts';
 import { jsonLdArtigo } from '../../utils/jsonld';
 
@@ -17,7 +18,7 @@ export async function getStaticPaths() {
 const { post } = Astro.props;
 const { Content } = await render(post);
 const relacionados = await getRelatedPosts(post, 3);
-const { title, description, pubDate, updatedDate, category, tags, image, imageAlt } = post.data;
+const { title, description, pubDate, updatedDate, category, tags, image, imageAlt, video } = post.data;
 const caminho = `/blog/${post.id}/`;
 const urlCompleta = new URL(caminho, SITE.url).href;
 const jsonLd = jsonLdArtigo({
@@ -78,6 +79,8 @@ const jsonLd = jsonLdArtigo({
     <div class="corpo">
       <Content />
     </div>
+
+    {video && <VideoYoutube id={video} titulo={title} imagem={image} />}
 
     {
       tags.length > 0 && (

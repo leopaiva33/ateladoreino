@@ -13,6 +13,11 @@ const blog = defineCollection({
     image: z.string().optional(),
     /** Texto alternativo descritivo. Obrigatório quando houver imagem. */
     imageAlt: z.string().optional(),
+    /** Id do vídeo do YouTube (11 caracteres) que acompanha o artigo. Aparece no post, carregado só no clique. */
+    video: z
+      .string()
+      .regex(/^[\w-]{11}$/)
+      .optional(),
     category: z.string(),
     tags: z.array(z.string()).default([]),
     draft: z.boolean().default(false),
