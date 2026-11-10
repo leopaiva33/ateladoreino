@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <linearGradient id="ceu" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#141b36"/><stop offset=".6" stop-color="#2d2b4d"/><stop offset="1" stop-color="#4b3552"/>
+    </linearGradient>
+    <radialGradient id="lua" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#fbeac4" stop-opacity=".55"/><stop offset="1" stop-color="#fbeac4" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#ceu)"/>
+  <g fill="#fbf1dc" opacity=".7">
+    <circle cx="210" cy="120" r="3"/><circle cx="420" cy="210" r="2.5"/><circle cx="640" cy="90" r="2.5"/>
+    <circle cx="1180" cy="150" r="3"/><circle cx="1560" cy="80" r="2.5"/><circle cx="1760" cy="220" r="3"/>
+  </g>
+  <circle cx="1450" cy="250" r="230" fill="url(#lua)"/>
+  <circle cx="1450" cy="250" r="78" fill="#f8e7bd"/>
+  <path d="M0 760 Q 480 650 960 720 T 1920 690 L1920 1080 L0 1080 Z" fill="#3a2a45"/>
+  <path d="M0 860 Q 600 780 1100 840 T 1920 820 L1920 1080 L0 1080 Z" fill="#2a1d33"/>
+  <!-- oliveiras -->
+  <g fill="#1b1424">
+    <path d="M330 860 C 320 780 350 720 340 650 L 365 650 C 372 720 352 790 372 860 Z"/>
+    <ellipse cx="300" cy="610" rx="120" ry="62"/><ellipse cx="410" cy="585" rx="110" ry="58"/><ellipse cx="350" cy="540" rx="95" ry="50"/>
+    <path d="M1560 880 C 1548 800 1585 740 1572 660 L 1600 660 C 1608 740 1585 810 1605 880 Z"/>
+    <ellipse cx="1530" cy="620" rx="130" ry="66"/><ellipse cx="1650" cy="600" rx="115" ry="58"/><ellipse cx="1585" cy="550" rx="100" ry="52"/>
+    <path d="M1180 830 C 1172 780 1192 740 1186 700 L 1204 700 C 1208 742 1196 784 1210 830 Z"/>
+    <ellipse cx="1170" cy="680" rx="80" ry="40"/><ellipse cx="1240" cy="665" rx="72" ry="36"/>
+  </g>
+  <!-- pedra e figura ajoelhada -->
+  <ellipse cx="900" cy="905" rx="190" ry="48" fill="#3d2c3f"/>
+  <path d="M760 900 Q 800 840 900 835 Q 1010 838 1040 900 Z" fill="#4a3548"/>
+  <g fill="#120c18">
+    <circle cx="905" cy="760" r="24"/>
+    <path d="M880 785 Q 905 775 930 790 L 945 860 Q 950 880 930 885 L 870 885 Q 850 880 858 860 Z"/>
+    <path d="M920 795 L 948 760 L 958 768 L 935 805 Z"/>
+  </g>
+  <ellipse cx="905" cy="740" rx="70" ry="70" fill="#fbeac4" opacity=".08"/>
+</svg>

@@ -1,0 +1,210 @@
+{
+  "slug": "confiar-em-deus-nos-tempos-dificeis",
+  "arte": "public/images/posts/confiar-em-deus-nos-tempos-dificeis.png",
+  "miniatura": {
+    "titulo": "ONDE ESTÁ DEUS?",
+    "subtitulo": "nos tempos difíceis"
+  },
+  "secoes": [
+    {
+      "titulo": "Abertura",
+      "cenas": [
+        {
+          "tipo": "arte",
+          "titulo": "Confiar em Deus",
+          "subtitulo": "nos tempos difíceis",
+          "peso": 2,
+          "busca": "lighthouse stormy sea night"
+        },
+        {
+          "tipo": "aviso",
+          "texto": "Conteúdo devocional. Não substitui ajuda profissional, médica ou pastoral.",
+          "fundo": "como-orar",
+          "busca": "candle flame dark"
+        }
+      ]
+    },
+    {
+      "titulo": "A Bíblia não esconde a angústia",
+      "cenas": [
+        {
+          "tipo": "texto",
+          "titulo": "A Bíblia não esconde a angústia",
+          "texto": "Confiar em Deus não é fingir que a dor não existe.",
+          "fundo": "versiculos-de-forca-para-momentos-dificeis",
+          "busca": "storm clouds lonely tree"
+        },
+        {
+          "tipo": "versiculo",
+          "citacao": "…molho o meu leito com as minhas lágrimas.",
+          "ref": "Salmos 6:6",
+          "fundo": "salmos-para-ler-antes-de-dormir",
+          "busca": "raindrops window night"
+        },
+        {
+          "tipo": "versiculo",
+          "citacao": "A minha alma está cheia de tristeza até à morte…",
+          "ref": "Mateus 26:38",
+          "fundo": "getsemani",
+          "busca": "olive trees night moon"
+        },
+        {
+          "tipo": "versiculo",
+          "citacao": "…não se faça a minha vontade, mas a tua.",
+          "ref": "Lucas 22:42",
+          "comentario": "Dizer a Deus como você está já é um ato de confiança.",
+          "fundo": "o-poder-da-oracao-no-dia-a-dia",
+          "busca": "person praying window light"
+        }
+      ]
+    },
+    {
+      "titulo": "Confiança não é ausência de medo",
+      "cenas": [
+        {
+          "tipo": "versiculo",
+          "citacao": "Confia no Senhor de todo o teu coração e não te estribes no teu próprio entendimento.",
+          "ref": "Provérbios 3:5",
+          "comentario": "Estribar-se = apoiar-se",
+          "fundo": "como-ler-a-biblia-todos-os-dias",
+          "busca": "foggy path forest morning"
+        },
+        {
+          "tipo": "versiculo",
+          "citacao": "Eu creio, Senhor! Ajuda a minha incredulidade.",
+          "ref": "Marcos 9:24",
+          "fundo": "como-ter-fe-segundo-a-biblia",
+          "busca": "small plant sprout sunlight"
+        }
+      ]
+    },
+    {
+      "titulo": "Deus está perto de quem sofre",
+      "cenas": [
+        {
+          "tipo": "versiculo",
+          "citacao": "Perto está o Senhor dos que têm o coração quebrantado…",
+          "ref": "Salmos 34:18",
+          "fundo": "o-que-a-biblia-diz-sobre-perdao",
+          "busca": "sunrise hope light rays"
+        },
+        {
+          "tipo": "versiculo",
+          "citacao": "…socorro bem presente na angústia.",
+          "ref": "Salmos 46:1",
+          "fundo": "salmo-91-significado",
+          "busca": "shelter rock sunrise mountains"
+        },
+        {
+          "tipo": "versiculo",
+          "citacao": "Vinde a mim, todos os que estais cansados e oprimidos…",
+          "ref": "Mateus 11:28",
+          "fundo": "salmo-23-significado",
+          "busca": "shepherd sheep green field"
+        },
+        {
+          "tipo": "versiculo",
+          "citacao": "Não temas, porque eu sou contigo…",
+          "ref": "Isaías 41:10",
+          "fundo": "encontrar-paz-em-meio-a-ansiedade",
+          "busca": "calm sea sunrise"
+        }
+      ]
+    },
+    {
+      "titulo": "Três passos práticos",
+      "cenas": [
+        {
+          "tipo": "texto",
+          "titulo": "Passo 1: nomeie",
+          "texto": "O que eu não controlo?\nO que eu posso fazer hoje?",
+          "fundo": "estudo-biblico-para-iniciantes",
+          "busca": "notebook pen journal writing"
+        },
+        {
+          "tipo": "texto",
+          "titulo": "Passo 2: lembre",
+          "texto": "Um caderno de livramentos, como as pedras memoriais de Israel.",
+          "rodape": "Josué 4:4-9",
+          "fundo": "pedras-memoriais",
+          "busca": "stacked stones river"
+        },
+        {
+          "tipo": "texto",
+          "titulo": "Passo 3: aja",
+          "texto": "Passos pequenos, repetidos, vencem a paralisia.",
+          "fundo": "como-orar-o-pai-nosso",
+          "busca": "footpath steps nature"
+        }
+      ]
+    },
+    {
+      "titulo": "Quando é difícil até orar",
+      "cenas": [
+        {
+          "tipo": "versiculo",
+          "citacao": "…o mesmo Espírito intercede por nós com gemidos inexprimíveis.",
+          "ref": "Romanos 8:26",
+          "fundo": "versiculos-sobre-o-poder-da-oracao",
+          "busca": "praying hands silhouette sunset"
+        },
+        {
+          "tipo": "lista",
+          "titulo": "Um roteiro de cinco minutos",
+          "itens": [
+            "Respire e fique em silêncio.",
+            "Leia um salmo curto.",
+            "Diga a Deus o que pesa.",
+            "Entregue esse peso a ele.",
+            "Peça ajuda a alguém hoje."
+          ],
+          "peso": 2,
+          "fundo": "oracao-da-manha",
+          "busca": "coffee cup bible morning"
+        },
+        {
+          "tipo": "aviso",
+          "texto": "Conteúdo devocional. Não substitui ajuda profissional, médica ou pastoral.",
+          "rodape": "CVV: 188, 24 horas",
+          "fundo": "como-orar",
+          "busca": "candle light warm"
+        }
+      ]
+    },
+    {
+      "titulo": "Oração final",
+      "cenas": [
+        {
+          "tipo": "arte",
+          "titulo": "Uma oração para hoje",
+          "busca": "lighthouse light night sea"
+        }
+      ]
+    },
+    {
+      "titulo": "Encerramento",
+      "cenas": [
+        {
+          "tipo": "lista",
+          "titulo": "Um passo de cada vez",
+          "itens": [
+            "Nomear",
+            "Lembrar",
+            "Agir"
+          ],
+          "numerar": false,
+          "fundo": "devocional-para-jovens",
+          "busca": "walking path sunrise hills"
+        },
+        {
+          "tipo": "texto",
+          "titulo": "Leia o texto completo",
+          "texto": "ateladoreino.com",
+          "rodape": "Leonardo Paiva, A Tela do Reino",
+          "fundo": "confiar-em-deus-nos-tempos-dificeis",
+          "busca": "lighthouse sunset"
+        }
+      ]
+    }
+  ]
+}

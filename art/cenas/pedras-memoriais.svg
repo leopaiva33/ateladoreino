@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <linearGradient id="ceu" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f7e3c4"/><stop offset=".55" stop-color="#f1c9a0"/><stop offset="1" stop-color="#e7a98a"/>
+    </linearGradient>
+    <radialGradient id="sol" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#f6c97a" stop-opacity=".8"/><stop offset="1" stop-color="#f6c97a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="rio" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d9a08a"/><stop offset="1" stop-color="#b9737a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#ceu)"/>
+  <circle cx="1400" cy="430" r="300" fill="url(#sol)"/>
+  <circle cx="1400" cy="440" r="110" fill="#e9b45f"/>
+  <path d="M0 520 Q 400 450 800 500 T 1920 470 L1920 640 L0 640 Z" fill="#d79a86"/>
+  <path d="M0 600 Q 500 560 1000 590 T 1920 580 L1920 700 L0 700 Z" fill="#c07e7f"/>
+  <!-- rio Jordão -->
+  <path d="M0 690 Q 600 660 1100 700 T 1920 690 L1920 800 Q 1400 770 900 800 T 0 790 Z" fill="url(#rio)"/>
+  <g stroke="#f7e3c4" stroke-width="5" stroke-linecap="round" opacity=".6" fill="none">
+    <path d="M300 735 h 90"/><path d="M760 750 h 120"/><path d="M1300 735 h 100"/><path d="M1650 755 h 80"/>
+  </g>
+  <path d="M0 790 Q 500 760 900 800 T 1920 790 L1920 1080 L0 1080 Z" fill="#7a1f2b"/>
+  <!-- pilha de pedras -->
+  <g stroke="#5a1720" stroke-width="4" transform="translate(-330 0)">
+    <ellipse cx="1340" cy="905" rx="150" ry="58" fill="#a98a80"/>
+    <ellipse cx="1205" cy="900" rx="95" ry="48" fill="#bfa196"/>
+    <ellipse cx="1480" cy="910" rx="90" ry="44" fill="#9c7d74"/>
+    <ellipse cx="1290" cy="835" rx="110" ry="50" fill="#c8ab9f"/>
+    <ellipse cx="1430" cy="840" rx="95" ry="46" fill="#b3958a"/>
+    <ellipse cx="1360" cy="775" rx="100" ry="46" fill="#d2b6aa"/>
+    <ellipse cx="1350" cy="715" rx="72" ry="36" fill="#bfa196"/>
+    <ellipse cx="1360" cy="664" rx="48" ry="26" fill="#d8bfb3"/>
+  </g>
+  <g fill="#f7e3c4" opacity=".5" transform="translate(-330 0)">
+    <path d="M1290 760 q 20 -10 40 0" stroke="#f7e3c4" stroke-width="4" fill="none"/>
+  </g>
+  <g stroke="#7a1f2b" stroke-width="4" fill="none" opacity=".5">
+    <path d="M300 230 q 15 -12 30 0 q 15 -12 30 0"/><path d="M420 180 q 12 -10 24 0 q 12 -10 24 0"/>
+  </g>
+</svg>

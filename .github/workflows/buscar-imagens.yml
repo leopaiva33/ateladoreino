@@ -1,0 +1,44 @@
+name: Buscar imagens dos vídeos
+
+# Busca no Pixabay (ou Pexels) as fotos das cenas (campo "busca" do video.json) e grava
+# conteudo-social/<slug>/imagens.json no mesmo branch. Roda sozinho quando um
+# video.json muda, ou manualmente (Actions > Buscar imagens dos vídeos).
+# Requer o segredo PIXABAY_API_KEY (chave grátis em https://pixabay.com/api/docs/)
+# ou PEXELS_API_KEY.
+on:
+  push:
+    paths:
+      - 'conteudo-social/*/video.json'
+  workflow_dispatch:
+    inputs:
+      slug:
+        description: 'Slug do artigo (vazio = todos os vídeos)'
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  imagens:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Buscar fotos
+        env:
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          SLUG: ${{ inputs.slug }}
+        run: node scripts/buscar-imagens.mjs $SLUG
+      - name: Gravar imagens.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add conteudo-social/*/imagens.json
+          if git diff --cached --quiet; then echo "Nada novo."; exit 0; fi
+          git commit -m "chore: fotos dos bancos de imagens para os vídeos"
+          git pull --rebase
+          git push

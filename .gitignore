@@ -33,3 +33,8 @@ rascunhos/
 
 # pesquisas locais (não publicar)
 pesquisas/
+
+# vídeos gerados (grandes demais para o git)
+video-out/
+.cache-video/
+video-previa/

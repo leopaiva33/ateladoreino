@@ -1,0 +1,84 @@
+name: Gerar vídeo do YouTube
+
+# Gera video.mp4 (1920x1080), legendas.srt, miniatura.png e creditos.txt a partir de
+# conteudo-social/<slug>/youtube.md, video.json e imagens.json, e anexa como artefato
+# da execução (baixe em Actions > execução > Artifacts).
+# Roda sozinho quando imagens.json, video.json ou o gerador mudam, ou manualmente.
+# Voz: segredo ELEVENLABS_API_KEY + variável ELEVENLABS_VOICE_ID (voz clonada);
+# sem eles, usa a voz sintética provisória do espeak-ng (só para testar).
+on:
+  push:
+    paths:
+      - 'conteudo-social/*/imagens.json'
+      - 'conteudo-social/*/video.json'
+      - 'scripts/gerar-video.mjs'
+  workflow_dispatch:
+    inputs:
+      slug:
+        description: 'Slug do artigo (ex.: confiar-em-deus-nos-tempos-dificeis)'
+        required: true
+        type: string
+
+jobs:
+  video:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - name: Instalar ffmpeg e espeak-ng
+        run: sudo apt-get update -q && sudo apt-get install -y -q ffmpeg espeak-ng fonts-dejavu
+      - run: npm ci
+      - name: Cache das fotos baixadas
+        uses: actions/cache@v4
+        with:
+          path: .cache-video/*/fotos
+          key: fotos-${{ hashFiles('conteudo-social/*/imagens.json') }}
+          restore-keys: fotos-
+      - name: Cache das narrações (não gasta créditos da ElevenLabs de novo)
+        uses: actions/cache@v4
+        with:
+          path: .cache-video/*/*.mp3
+          key: narracao-${{ vars.ELEVENLABS_VOICE_ID }}-${{ hashFiles('conteudo-social/*/youtube.md') }}
+          restore-keys: narracao-${{ vars.ELEVENLABS_VOICE_ID }}-
+      - name: Quais vídeos gerar
+        id: quais
+        env:
+          SLUG: ${{ inputs.slug }}
+          ANTES: ${{ github.event.before }}
+        run: |
+          if [ -n "$SLUG" ]; then
+            slugs="$SLUG"
+          else
+            slugs=$(git diff --name-only "$ANTES" "$GITHUB_SHA" -- 'conteudo-social/*/imagens.json' 'conteudo-social/*/video.json' | cut -d/ -f2 | sort -u | tr '\n' ' ')
+            # Mudança no gerador: refaz todos os vídeos que já têm fotos escolhidas.
+            if git diff --name-only "$ANTES" "$GITHUB_SHA" | grep -q '^scripts/gerar-video.mjs$'; then
+              slugs=$(ls conteudo-social/*/imagens.json | cut -d/ -f2 | tr '\n' ' ')
+            fi
+          fi
+          echo "slugs=$slugs" >> "$GITHUB_OUTPUT"
+          echo "Vídeos: $slugs"
+      - name: Gerar vídeos
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+          ELEVENLABS_VOICE_ID: ${{ vars.ELEVENLABS_VOICE_ID }}
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+          SLUGS: ${{ steps.quais.outputs.slugs }}
+        run: |
+          for s in $SLUGS; do npm run video -- "$s"; done
+      - name: Anexar vídeos, narrações, legendas, miniaturas e créditos
+        uses: actions/upload-artifact@v4
+        with:
+          name: videos
+          path: |
+            video-out/*/video.mp4
+            video-out/*/legendas.srt
+            video-out/*/miniatura.png
+            video-out/*/creditos.txt
+            video-out/*/narracao.m4a
+          retention-days: 14

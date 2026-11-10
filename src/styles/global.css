@@ -66,6 +66,16 @@ h1{font-size:1.8rem}
 .leia-tambem-categoria{display:block;padding:10px 14px 0;font-family:system-ui,sans-serif;font-size:.75rem;letter-spacing:.06em;text-transform:uppercase;color:var(--cor-texto-suave)}
 .leia-tambem-titulo{display:block;padding:2px 14px 14px;font-size:1rem;line-height:1.4;font-weight:700}
 @media(max-width:700px){.leia-tambem ul{grid-template-columns:1fr}}
+.video-artigo{margin:40px 0}.video-artigo h2{margin-top:0}
+.video-quadro{position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000}
+.video-quadro iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.video-play{all:unset;cursor:pointer;position:absolute;inset:0;display:block}
+.video-play img{width:100%;height:100%;object-fit:cover;filter:brightness(.82);transition:filter .2s}
+.video-play:hover img,.video-play:focus-visible img{filter:brightness(.95)}
+.video-play:focus-visible{outline:3px solid var(--cor-destaque);outline-offset:3px}
+.video-icone{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);line-height:0}
+.video-legenda{position:absolute;left:0;right:0;bottom:14px;text-align:center;color:#fff;font-family:system-ui,sans-serif;font-size:.95rem;text-shadow:0 1px 4px #000}
+@media(prefers-reduced-motion:reduce){.video-play img{transition:none}}
 .imagem-destaque{margin:0 0 24px}.imagem-destaque img{width:100%;height:auto;border-radius:12px}
 .post-item{display:grid;grid-template-columns:220px 1fr;gap:20px;align-items:start}
 .post-item.sem-miniatura{display:block}
