@@ -1,0 +1,160 @@
+{
+  "slug": "salmos-para-ler-antes-de-dormir",
+  "arte": "public/images/posts/salmos-para-ler-antes-de-dormir.png",
+  "miniatura": {
+    "titulo": "SALMOS PARA DORMIR",
+    "subtitulo": "6 textos para a noite"
+  },
+  "secoes": [
+    {
+      "titulo": "Abertura",
+      "cenas": [
+        {
+          "tipo": "arte",
+          "titulo": "Salmos para ler antes de dormir",
+          "busca": "night sky stars calm lake",
+          "subtitulo": "6 textos para a noite",
+          "peso": 2
+        },
+        {
+          "tipo": "aviso",
+          "texto": "Conteúdo devocional. Não substitui ajuda profissional, médica ou pastoral.",
+          "busca": "candle night window"
+        }
+      ]
+    },
+    {
+      "titulo": "Por que ler salmos à noite",
+      "cenas": [
+        {
+          "tipo": "versiculo",
+          "citacao": "…quando me lembrar de ti na minha cama e meditar em ti nas vigílias da noite.",
+          "ref": "Salmos 63:6",
+          "busca": "bedside lamp book night"
+        },
+        {
+          "tipo": "lista",
+          "titulo": "Como usar",
+          "itens": [
+            "Um salmo só",
+            "Devagar, em voz baixa",
+            "Celular de lado",
+            "Uma frase e uma oração"
+          ],
+          "busca": "cozy bedroom warm light"
+        }
+      ]
+    },
+    {
+      "titulo": "Salmo 4",
+      "cenas": [
+        {
+          "tipo": "versiculo",
+          "citacao": "Em paz também me deitarei e dormirei, porque só tu, Senhor, me fazes habitar em segurança.",
+          "ref": "Salmos 4:8",
+          "busca": "moon night peaceful",
+          "comentario": "Bom para: dias tensos"
+        }
+      ]
+    },
+    {
+      "titulo": "Salmo 3",
+      "cenas": [
+        {
+          "tipo": "versiculo",
+          "citacao": "Eu me deitei e dormi; acordei, porque o Senhor me sustentou.",
+          "ref": "Salmos 3:5",
+          "busca": "sunrise after night mountains",
+          "comentario": "Bom para: noites de medo"
+        }
+      ]
+    },
+    {
+      "titulo": "Salmos 23 e 91",
+      "cenas": [
+        {
+          "tipo": "versiculo",
+          "citacao": "Ainda que eu andasse pelo vale da sombra da morte, não temeria mal algum, porque tu estás comigo.",
+          "ref": "Salmos 23:4",
+          "busca": "still waters valley evening"
+        },
+        {
+          "tipo": "versiculo",
+          "citacao": "Aquele que habita no esconderijo do Altíssimo, à sombra do Onipotente descansará.",
+          "ref": "Salmos 91:1",
+          "busca": "shelter rock night stars",
+          "comentario": "Confiança, não amuleto"
+        }
+      ]
+    },
+    {
+      "titulo": "Salmos 121 e 127",
+      "cenas": [
+        {
+          "tipo": "versiculo",
+          "citacao": "Eis que não tosquenejará nem dormirá o guarda de Israel.",
+          "ref": "Salmos 121:4",
+          "busca": "starry night mountains",
+          "comentario": "Tosquenejar = cochilar"
+        },
+        {
+          "tipo": "versiculo",
+          "citacao": "…pois assim dá ele aos seus amados o sono.",
+          "ref": "Salmos 127:2",
+          "busca": "sleeping peaceful night lamp",
+          "comentario": "Bom para quem leva o trabalho para a cama"
+        }
+      ]
+    },
+    {
+      "titulo": "Quando o sono não vem",
+      "cenas": [
+        {
+          "tipo": "texto",
+          "titulo": "Um cuidado importante",
+          "texto": "Insônia por semanas? Procure um médico ou psicólogo. Fé e cuidado profissional caminham juntos.",
+          "busca": "dawn window light bedroom"
+        },
+        {
+          "tipo": "lista",
+          "titulo": "Dúvidas",
+          "itens": [
+            "Melhor salmo? O 4 e o 23 são muito escolhidos.",
+            "Ler o mesmo toda noite? Pode.",
+            "Em voz alta? Não precisa."
+          ],
+          "busca": "night city lights calm",
+          "numerar": false
+        }
+      ]
+    },
+    {
+      "titulo": "Oração final",
+      "cenas": [
+        {
+          "tipo": "arte",
+          "titulo": "Uma oração para a noite",
+          "busca": "moonlight sea calm"
+        }
+      ]
+    },
+    {
+      "titulo": "Encerramento",
+      "cenas": [
+        {
+          "tipo": "texto",
+          "titulo": "Os seis salmos",
+          "texto": "4 · 3 · 23 · 91 · 121 · 127",
+          "busca": "night sky milky way"
+        },
+        {
+          "tipo": "texto",
+          "titulo": "Leia o texto completo",
+          "texto": "ateladoreino.com",
+          "rodape": "Leonardo Paiva, A Tela do Reino",
+          "busca": "night lake reflection"
+        }
+      ]
+    }
+  ]
+}

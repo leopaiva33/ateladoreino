@@ -3,14 +3,14 @@ name: Gerar vídeo do YouTube
 # Gera video.mp4 (1920x1080), legendas.srt, miniatura.png e creditos.txt a partir de
 # conteudo-social/<slug>/youtube.md, video.json e imagens.json, e anexa como artefato
 # da execução (baixe em Actions > execução > Artifacts).
-# Roda sozinho quando imagens.json, video.json ou o gerador mudam, ou manualmente.
+# Roda sozinho quando imagens.json (fotos revisadas) ou o gerador mudam, ou manualmente.
+# Um video.json novo só dispara a busca de fotos (buscar-imagens.yml); o vídeo sai depois da revisão.
 # Voz: segredo ELEVENLABS_API_KEY + variável ELEVENLABS_VOICE_ID (voz clonada);
 # sem eles, usa a voz sintética provisória do espeak-ng (só para testar).
 on:
   push:
     paths:
       - 'conteudo-social/*/imagens.json'
-      - 'conteudo-social/*/video.json'
       - 'scripts/gerar-video.mjs'
   workflow_dispatch:
     inputs:
@@ -55,7 +55,7 @@ jobs:
           if [ -n "$SLUG" ]; then
             slugs="$SLUG"
           else
-            slugs=$(git diff --name-only "$ANTES" "$GITHUB_SHA" -- 'conteudo-social/*/imagens.json' 'conteudo-social/*/video.json' | cut -d/ -f2 | sort -u | tr '\n' ' ')
+            slugs=$(git diff --name-only "$ANTES" "$GITHUB_SHA" -- 'conteudo-social/*/imagens.json' | cut -d/ -f2 | sort -u | tr '\n' ' ')
             # Mudança no gerador: refaz todos os vídeos que já têm fotos escolhidas.
             if git diff --name-only "$ANTES" "$GITHUB_SHA" | grep -q '^scripts/gerar-video.mjs$'; then
               slugs=$(ls conteudo-social/*/imagens.json | cut -d/ -f2 | tr '\n' ' ')

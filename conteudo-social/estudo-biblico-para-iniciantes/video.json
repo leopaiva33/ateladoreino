@@ -1,0 +1,174 @@
+{
+  "slug": "estudo-biblico-para-iniciantes",
+  "arte": "public/images/posts/estudo-biblico-para-iniciantes.png",
+  "miniatura": {
+    "titulo": "ESTUDE A BÍBLIA",
+    "subtitulo": "em 4 passos"
+  },
+  "secoes": [
+    {
+      "titulo": "Abertura",
+      "cenas": [
+        {
+          "tipo": "arte",
+          "titulo": "Estudo bíblico para iniciantes",
+          "busca": "open bible notebook desk",
+          "subtitulo": "um método em 4 passos",
+          "peso": 2
+        },
+        {
+          "tipo": "lista",
+          "titulo": "O método",
+          "itens": [
+            "Observar",
+            "Contexto",
+            "Interpretar",
+            "Aplicar"
+          ],
+          "busca": "bible study table coffee"
+        }
+      ]
+    },
+    {
+      "titulo": "Ler e estudar",
+      "cenas": [
+        {
+          "tipo": "texto",
+          "titulo": "Ler e estudar",
+          "texto": "Ler é percorrer o texto. Estudar é parar e investigar.",
+          "busca": "person reading book window"
+        },
+        {
+          "tipo": "lista",
+          "titulo": "Você vai precisar",
+          "itens": [
+            "Uma tradução que você entenda",
+            "Caderno",
+            "Marcador",
+            "20 a 30 minutos"
+          ],
+          "busca": "notebook pen highlighter",
+          "numerar": false
+        }
+      ]
+    },
+    {
+      "titulo": "Passo 1: observar",
+      "cenas": [
+        {
+          "tipo": "texto",
+          "titulo": "Passo 1: observar",
+          "texto": "Quem fala? Para quem? O que se repete? Ordens, promessas, contrastes?",
+          "busca": "magnifying glass book"
+        }
+      ]
+    },
+    {
+      "titulo": "Passo 2: contexto",
+      "cenas": [
+        {
+          "tipo": "texto",
+          "titulo": "Passo 2: contexto",
+          "texto": "Leia antes e depois. Narrativa, poesia, carta, profecia, lei ou provérbio?",
+          "busca": "old library books"
+        }
+      ]
+    },
+    {
+      "titulo": "Passos 3 e 4",
+      "cenas": [
+        {
+          "tipo": "texto",
+          "titulo": "Passo 3: interpretar",
+          "texto": "Qual é a ideia central? O que revela sobre Deus e sobre as pessoas?",
+          "busca": "light rays through window"
+        },
+        {
+          "tipo": "texto",
+          "titulo": "Passo 4: aplicar",
+          "texto": "Uma ou duas ações práticas e uma oração curta.",
+          "busca": "hands writing journal"
+        }
+      ]
+    },
+    {
+      "titulo": "Exemplo: Filipenses 4:6-7",
+      "cenas": [
+        {
+          "tipo": "versiculo",
+          "citacao": "Não estejais inquietos por coisa alguma…",
+          "ref": "Filipenses 4:6",
+          "busca": "calm lake morning"
+        },
+        {
+          "tipo": "versiculo",
+          "citacao": "…a paz de Deus, que excede todo o entendimento, guardará os vossos corações…",
+          "ref": "Filipenses 4:7",
+          "busca": "peaceful sunrise sea"
+        },
+        {
+          "tipo": "texto",
+          "titulo": "Contexto",
+          "texto": "Paulo escreve preso. A promessa é paz, e não a solução imediata de tudo.",
+          "busca": "prison window light"
+        }
+      ]
+    },
+    {
+      "titulo": "Erros e por onde começar",
+      "cenas": [
+        {
+          "tipo": "lista",
+          "titulo": "Evite",
+          "itens": [
+            "Versículo fora do contexto",
+            "Ler com pressa",
+            "Só comentários e vídeos"
+          ],
+          "busca": "crumpled paper desk",
+          "numerar": false
+        },
+        {
+          "tipo": "versiculo",
+          "citacao": "…examinando cada dia nas Escrituras se estas coisas eram assim.",
+          "ref": "Atos 17:11",
+          "busca": "bible open table sunlight",
+          "comentario": "Comece por Marcos, Filipenses ou Tiago."
+        }
+      ]
+    },
+    {
+      "titulo": "Oração final",
+      "cenas": [
+        {
+          "tipo": "arte",
+          "titulo": "Senhor, obrigado pela tua Palavra",
+          "busca": "bible candle warm light"
+        }
+      ]
+    },
+    {
+      "titulo": "Encerramento",
+      "cenas": [
+        {
+          "tipo": "lista",
+          "titulo": "Hoje, um parágrafo",
+          "itens": [
+            "Observar",
+            "Contexto",
+            "Interpretar",
+            "Aplicar"
+          ],
+          "busca": "sunrise desk window"
+        },
+        {
+          "tipo": "texto",
+          "titulo": "Leia o texto completo",
+          "texto": "ateladoreino.com",
+          "rodape": "Leonardo Paiva, A Tela do Reino",
+          "busca": "open book sunset"
+        }
+      ]
+    }
+  ]
+}
