@@ -1,0 +1,1127 @@
+{
+  "1.1": {
+    "busca": "night sky stars calm lake",
+    "escolhida": {
+      "id": "pixabay-838667",
+      "banco": "Pixabay",
+      "pagina": "https://pixabay.com/photos/tree-lake-stars-reflection-water-838667/",
+      "fotografo": "Bessi",
+      "fotografo_url": "https://pixabay.com/users/Bessi-909086/",
+      "alt": "tree, lake, stars, reflection, water, calm, tranquil, nature, scene, night sky, beautiful",
+      "src": "https://pixabay.com/get/gc1a211fe222b8f3b6e0e89f3c6d09fdcbba794c25d403e20d3d05f6f44cc70ea4699fca5e603993b38873c5352d7e668dfa78d9c4fad9a2a12ac04647db5dc61_1280.jpg",
+      "miniatura": "https://pixabay.com/get/g66434d41b781435db1da39a64665a50d8032186ed41b08fc420d961dcf895f5e29fd39984f56c063db999fe10dac9b0a_640.jpg"
+    },
+    "candidatas": [
+      {
+        "id": "pixabay-838667",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/tree-lake-stars-reflection-water-838667/",
+        "fotografo": "Bessi",
+        "fotografo_url": "https://pixabay.com/users/Bessi-909086/",
+        "alt": "tree, lake, stars, reflection, water, calm, tranquil, nature, scene, night sky, beautiful",
+        "src": "https://pixabay.com/get/gc1a211fe222b8f3b6e0e89f3c6d09fdcbba794c25d403e20d3d05f6f44cc70ea4699fca5e603993b38873c5352d7e668dfa78d9c4fad9a2a12ac04647db5dc61_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g66434d41b781435db1da39a64665a50d8032186ed41b08fc420d961dcf895f5e29fd39984f56c063db999fe10dac9b0a_640.jpg"
+      },
+      {
+        "id": "pixabay-10377274",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/starry-sky-reflections-lake-10377274/",
+        "fotografo": "EvgeniT",
+        "fotografo_url": "https://pixabay.com/users/EvgeniT-4930349/",
+        "alt": "starry sky, reflections, lake, nature, nature reserve, milky way, night sky, natural landscape, cosmos, astrophotography, breathtaking view, space landscape, combination of water and stars, night photography, germany, sauerland, central european nature, evening landscape, romantic landscape, lake shore relaxation, natural mirroring",
+        "src": "https://pixabay.com/get/g966ea37fe8778386b1a556437cdac96bb938822767862d843f1455fdb2be4eecdcf6c4ee4d188eb7d313fe4f38f26379a5008819b3843fa3fcde8664c92275c6_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g092f5aba0b24bc0d6d3e57db72cbce8c8006e275b56bfb253d8edbaa76627c3dbfbde74fb4840b4ad75e30429b43abd9cf94befe17c3f47aae36033b387fb6be_640.jpg"
+      },
+      {
+        "id": "pixabay-9733930",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/mounthood-milky-way-lake-reflection-9733930/",
+        "fotografo": "ColiN00B",
+        "fotografo_url": "https://pixabay.com/users/ColiN00B-346653/",
+        "alt": "mounthood, milky way, lake, reflection, blue, summer, heaven, night, space, long exposure, forest, trees, wide angle, nature",
+        "src": "https://pixabay.com/get/gafb4a1091fc390ea22538e063175c323ebd3b2b8a1d87fb3b7839f954d02b6cdad57627b425ba9460f43db3290ab0f06b7352ae594723b2aa1001bd3b422a6c9_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g83bc12332cc67198edafb181ff9c53ed18a3c777a5279b740438303d7c24ff6011171e0c65d53778a8a7f161d7e7d2f81c821761e77130867e2bebcd1c1ff28a_640.jpg"
+      },
+      {
+        "id": "pixabay-4441297",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/landscape-sea-northern-lights-4441297/",
+        "fotografo": "ELG21",
+        "fotografo_url": "https://pixabay.com/users/ELG21-3764790/",
+        "alt": "landscape, sea, northern lights, darling, clouds, moon, reflection, fantasy, nature, barca",
+        "src": "https://pixabay.com/get/g97a3f454af23066ddc30a57106126f15a97221335ddad4424aca9b639a666fb36e896f3e3120ccc4faba9c21e62fdfb0a6202bea5a0660850bcfbdedab462ee1_1280.jpg",
+        "miniatura": "https://pixabay.com/get/gfb884ec9403c8e2121d4a2db581295b7b1f6f3ac43e2739fa5901a3c10b5a731234eb05c4f82a0591beaa06bd516e2a0012f177c40f5289df897da5eb0115fbe_640.jpg"
+      },
+      {
+        "id": "pixabay-7821542",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/mountain-sea-sunset-star-lighting-7821542/",
+        "fotografo": "ELG21",
+        "fotografo_url": "https://pixabay.com/users/ELG21-3764790/",
+        "alt": "mountain, sea, sunset, nature, star, lighting, sun, reflection, landscape",
+        "src": "https://pixabay.com/get/g3034c2d60a5df769e40857ef64c2a96ebac7fb8214ed205ebc7153d648e96c2cb81969692e78edc76398074ac73ef76d689715c9b268a29f749cb8108e0dff9b_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g6b11c0870ba5468a7339afcd5e40a91a6c9dbfbc6e74538bdaa534fadb48b3236c47d9ae778e0902dd92cef48b363c01a3952518a3bd597461d0ac1d989ecdd0_640.jpg"
+      },
+      {
+        "id": "pixabay-894500",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/star-trails-stars-894500/",
+        "fotografo": "jonathansautter",
+        "fotografo_url": "https://pixabay.com/users/jonathansautter-1125250/",
+        "alt": "star trails, stars, nature, rotation of the earth, rotation, night sky, heaven, startrails, landscape, lake",
+        "src": "https://pixabay.com/get/g1164f1926b5eca7a5e83aaa4f04bc1c44b39261779a099087c4a3cf8500ecffd23f43f010d7c0889b36aa615840548d3c806c8f550a15acd98358c0c8ba1f4c3_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g9c7bcba4d5849a2f3e69a3b37e129bf2e6ae911d3c6e416cbd6e1a43e5d60e1a1664485170738aadf67b7abecab9c78b_640.jpg"
+      }
+    ]
+  },
+  "1.2": {
+    "busca": "candle night window",
+    "escolhida": {
+      "id": "pixabay-7672890",
+      "banco": "Pixabay",
+      "pagina": "https://pixabay.com/photos/oil-candles-burning-candles-hanukkah-7672890/",
+      "fotografo": "Ri_Ya",
+      "fotografo_url": "https://pixabay.com/users/Ri_Ya-12911237/",
+      "alt": "oil candles, burning candles, hanukkah, menorah, window, reflection, flame, burn, oil burning, jewish holyday, jewish tradition, mizva, hanukkah festival, elegant, reception, israeli, hanukah celebration, transparent glasses, candles lightening, traditional, pray, shamash, crystal menorah, jew, candle wicks, hanukkah, hanukkah, hanukkah, hanukkah, hanukkah, menorah, menorah, menorah, window, elegant, reception, pray, pray, pray, pray, jew",
+      "src": "https://pixabay.com/get/g211ed31e9e9e1e9a459cddded0367882be8478951fd54a2df217c20fe3d81d555af771fa0b531a76eac13e915d3844644866d7a7b06fda0459e260215a5138f4_1280.jpg",
+      "miniatura": "https://pixabay.com/get/gcc02918d3505449fd93580c876ac476df4877bef68138afe623f6adec6d6bd64b5160fb803d675d3d34fe010cc78df135eb2fc8614276609fe33c3b31d0ab5c8_640.jpg"
+    },
+    "candidatas": [
+      {
+        "id": "pixabay-7672890",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/oil-candles-burning-candles-hanukkah-7672890/",
+        "fotografo": "Ri_Ya",
+        "fotografo_url": "https://pixabay.com/users/Ri_Ya-12911237/",
+        "alt": "oil candles, burning candles, hanukkah, menorah, window, reflection, flame, burn, oil burning, jewish holyday, jewish tradition, mizva, hanukkah festival, elegant, reception, israeli, hanukah celebration, transparent glasses, candles lightening, traditional, pray, shamash, crystal menorah, jew, candle wicks, hanukkah, hanukkah, hanukkah, hanukkah, hanukkah, menorah, menorah, menorah, window, elegant, reception, pray, pray, pray, pray, jew",
+        "src": "https://pixabay.com/get/g211ed31e9e9e1e9a459cddded0367882be8478951fd54a2df217c20fe3d81d555af771fa0b531a76eac13e915d3844644866d7a7b06fda0459e260215a5138f4_1280.jpg",
+        "miniatura": "https://pixabay.com/get/gcc02918d3505449fd93580c876ac476df4877bef68138afe623f6adec6d6bd64b5160fb803d675d3d34fe010cc78df135eb2fc8614276609fe33c3b31d0ab5c8_640.jpg"
+      },
+      {
+        "id": "pixabay-8431868",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/window-pillows-candles-lights-cozy-8431868/",
+        "fotografo": "Albertfotofilms",
+        "fotografo_url": "https://pixabay.com/users/Albertfotofilms-11437400/",
+        "alt": "window, pillows, candles, lights, cozy, decoration, ornaments, decor, christmas, christmas, christmas, christmas, christmas, christmas",
+        "src": "https://pixabay.com/get/g1ab3d17024ffbbce416a8e8f52e64d271143e2944899a39faca4ac962665ff7d9f67bc210820d87b155a49300f5192cb051c131c7657a31ef5629e466467d0f2_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g4ac424a1b1cdd955c8dcb66cb240bc8a33e34882fddb635c120a3929fad607b50f203013fca6ed32e463b927bb9d5360c212e351c55ae59a9063bdd909c33ef3_640.jpg"
+      },
+      {
+        "id": "pixabay-8431880",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/christmas-decor-ornaments-window-8431880/",
+        "fotografo": "Albertfotofilms",
+        "fotografo_url": "https://pixabay.com/users/Albertfotofilms-11437400/",
+        "alt": "christmas, decor, ornaments, window, window, window, window, window, window",
+        "src": "https://pixabay.com/get/g47ec68e86779e3a09d4e336b36e5d5ef43ddba658e79766079d430498e1c374e12d757e8a6a04554d4faba1dcfb9bae9db05d2ff448aa4794b79aa7558953d61_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g24de009a95a5b7d3a029211d76f855dc3425775b3e1ff6d8d3d83428f03f921dd57f79aee743f8dbb5fb5410e7092afd16a7d7d1eed86c0f4e25baa68cd02d25_640.jpg"
+      },
+      {
+        "id": "pixabay-6359355",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/window-devil-horror-dark-ghost-6359355/",
+        "fotografo": "Infinite-Creations",
+        "fotografo_url": "https://pixabay.com/users/Infinite-Creations-16964020/",
+        "alt": "window, devil, horror, dark, ghost, haunted, creepy, scary, gothic, abandoned, mysterious, night, gloomy, fantasy, house, devil, devil, devil, devil, devil, ghost, ghost",
+        "src": "https://pixabay.com/get/g3fcc416a314a0fe819714c034774930e109622834c5f624915f7038b6bf2448cb05f4dcecddc7a284942b426c026598264e865ae07bd386d85ad08aa1dd0df25_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g1ceccb288d7a31a4cbba76fb2534df214b187f8ada46f89d13d0d2f29a5b585e65e3dbfebfa313d65dbc7b88e4b069f9ab3774f5bf611836fc92e7291ae68ef0_640.jpg"
+      },
+      {
+        "id": "pixabay-8431871",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/window-candles-lights-cozy-8431871/",
+        "fotografo": "Albertfotofilms",
+        "fotografo_url": "https://pixabay.com/users/Albertfotofilms-11437400/",
+        "alt": "window, candles, lights, cozy, decoration, ornaments, decor, christmas",
+        "src": "https://pixabay.com/get/gc69d2a67a266b1288a63b50112de1003989cabf9bcb28e8981a1d975bb46470e54571a13d795f38563838462569d0f286be29708eb350a5c6f1e8b97dac0ce6f_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g0cc30ff80fc1d6883dcf994057ccc9ad4bee5d888dd2ea303a1e37c5337887e22273e39a78ed0aa7e90333247906c93825121eb6e564ccda0e918d42d30d2d6a_640.jpg"
+      },
+      {
+        "id": "pixabay-4057707",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/fantasy-sad-girl-light-composing-4057707/",
+        "fotografo": "Willgard",
+        "fotografo_url": "https://pixabay.com/users/Willgard-4665627/",
+        "alt": "fantasy, sad, girl, light, composing, nostalgia, female, sad girl, crow, candle, castle, mysticism",
+        "src": "https://pixabay.com/get/g04616ced6f770bc8e4844e1bce972a84072a429d7d4e26636b084185709ec93999743e10828b75c71f552d4952b6b8badfa121e46ba4e2503d97f102a909f8fd_1280.jpg",
+        "miniatura": "https://pixabay.com/get/gfbbec901dd6438263da2774dc66400188bfbc0105d10a8cfcd599dee25d46ea805241d7e6454aa10cf87011ee2867dde921167c6c61508545fbeba276f11e074_640.jpg"
+      }
+    ]
+  },
+  "2.1": {
+    "busca": "bedside lamp book night",
+    "escolhida": {
+      "id": "pixabay-1824814",
+      "banco": "Pixabay",
+      "pagina": "https://pixabay.com/photos/book-lamp-night-reading-candle-1824814/",
+      "fotografo": "Visor69",
+      "fotografo_url": "https://pixabay.com/users/Visor69-3487920/",
+      "alt": "book, lamp, night, reading, candle, literature, education, romantic, book, reading, literature, education, education, education, education, education",
+      "src": "https://pixabay.com/get/g57ea11278074298f7958905321c7288e1a1268f53b3befb9320104efec9bc8c15d7398478374dae2dc27303119a74dcd3efa77dfdb0f295de814f69c9ee94e6e_1280.jpg",
+      "miniatura": "https://pixabay.com/get/g8aca46b9ac28ea01d71f369449fdb34725b1fca0004632d06c0506ce9479d1f216678d07cb684b83d7bd5d7fcbfbbfe7edd0edac056c24ec3014453b868827a8_640.jpg"
+    },
+    "candidatas": [
+      {
+        "id": "pixabay-1824814",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/book-lamp-night-reading-candle-1824814/",
+        "fotografo": "Visor69",
+        "fotografo_url": "https://pixabay.com/users/Visor69-3487920/",
+        "alt": "book, lamp, night, reading, candle, literature, education, romantic, book, reading, literature, education, education, education, education, education",
+        "src": "https://pixabay.com/get/g57ea11278074298f7958905321c7288e1a1268f53b3befb9320104efec9bc8c15d7398478374dae2dc27303119a74dcd3efa77dfdb0f295de814f69c9ee94e6e_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g8aca46b9ac28ea01d71f369449fdb34725b1fca0004632d06c0506ce9479d1f216678d07cb684b83d7bd5d7fcbfbbfe7edd0edac056c24ec3014453b868827a8_640.jpg"
+      },
+      {
+        "id": "pixabay-465350",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/light-lamp-bedside-lamp-465350/",
+        "fotografo": "stevepb",
+        "fotografo_url": "https://pixabay.com/users/stevepb-282134/",
+        "alt": "light, lamp, bedside lamp, illumination, lampshade, illuminate, book, reading, literature, study, knowledge, wisdom, reading lamp, open book, lamp, lamp, lamp, lamp, lamp, lampshade, book, book, study, wisdom, wisdom, wisdom, wisdom, open book, open book, open book, open book",
+        "src": "https://pixabay.com/get/gd181f903835817c4c305d726fc79cc146e041bfd36b91968c7a083276698fffbe3bc0f682d0bcfffdf15e3b1e064a08eb71932a62b2aabeda163aaf0404fcbb4_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g1c7eaee48fc6d3fbfa0d5b76b8f029d9925916b09eefc1b2230c02133c63bd22d3e1f508d40fe12255bacd44c402bdf2_640.jpg"
+      },
+      {
+        "id": "pixabay-1627703",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/work-workaholic-writer-programmer-1627703/",
+        "fotografo": "51581",
+        "fotografo_url": "https://pixabay.com/users/51581-51581/",
+        "alt": "work, workaholic, writer, programmer, one, laptop, notebook, office, bank, park, park bench, hedge, outdoors, people, the atmosphere, dark, eve, light, illuminated, night, lamp, work, work, work, workaholic, writer, writer, writer, writer, writer, programmer, programmer, programmer, laptop, laptop, office, office, office, office, bank",
+        "src": "https://pixabay.com/get/gbd72195f01868202d89beb493480b8402675b73fcb75e1f934b003997185f109b292edb939722af71855690380dc88070fbc9ac47a7362726974bab362612c17_1280.jpg",
+        "miniatura": "https://pixabay.com/get/ge6029abaaa422a863dfe0191cabaade642d297d7b2d5d38fca8620d6d8bda5bcaea2ec6ce4caad106bc327d6f36767e3ea27465517811f44dd4959bef77dd4d2_640.jpg"
+      },
+      {
+        "id": "pixabay-5069314",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/cinema-projector-home-video-movie-5069314/",
+        "fotografo": "Antonio_Cansino",
+        "fotografo_url": "https://pixabay.com/users/Antonio_Cansino-6477209/",
+        "alt": "cinema, projector, home, video, movie, camera, cinema, video, video, video, video, video, movie",
+        "src": "https://pixabay.com/get/g170de697ac51be8a29f15a45bf46151c4fee760b743a109d7ac32132c6b484844fa1ed17c4840e04601906aea8f6e04b3cba401c8eecd86b4adc04a56447b143_1280.jpg",
+        "miniatura": "https://pixabay.com/get/ga4847a6a41d4fa96a084e8ac50b781a67dae6b6935ff050ee0934bf4d288f8f0968d260c7fb9a7eed33962ee4e5f5350851d202f6af0dc26ab8c20d8be36db23_640.jpg"
+      },
+      {
+        "id": "pixabay-6778193",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/bedroom-interior-design-furniture-6778193/",
+        "fotografo": "23555986",
+        "fotografo_url": "https://pixabay.com/users/23555986-23555986/",
+        "alt": "bedroom, interior design, furniture, interior, bed, room, modern, apartment, home, house, decor, architecture, window, comfortable, contemporary, residential, bedroom, bedroom, bedroom, bedroom, bedroom, interior design, bed, room, apartment, home, house",
+        "src": "https://pixabay.com/get/g8baf9db9bc0d8306b0a37a3258d780d2a05cb236e0d29d017936a897e63151445b5f1067592f62002370a900842887d9329737e5c1816ad41174da21031093f7_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g0a6e93ef0a445767b88c2c593bc30151055d4ba12657bb85d4f2613a3c36f578563427564f8807ca036474af49d7253813ff151e31559df1b289a878d29da6a2_640.jpg"
+      },
+      {
+        "id": "pixabay-6577523",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/bedroom-indoors-interior-design-bed-6577523/",
+        "fotografo": "lequangutc89",
+        "fotografo_url": "https://pixabay.com/users/lequangutc89-14619215/",
+        "alt": "bedroom, indoors, interior design, bed, furniture, hotel, bedroom, bedroom, bedroom, bedroom, interior design, furniture, hotel, hotel, hotel, hotel, hotel",
+        "src": "https://pixabay.com/get/g8379879b1e9fbfb0675f29795679e53bbb859914a1a677aafdcc6a67f49005c2996456e99431593629063388b6bb324d0c9434f459330a8f5c66ab0806eca8f2_1280.jpg",
+        "miniatura": "https://pixabay.com/get/gbcf90b89e4982e5f55a8281d3095051029f5b4f5f85985b0c9403e1aebac7654419f50813230ae9ff2eada304a886b16fccf399db8443abf1007e96d2d6af0eb_640.jpg"
+      }
+    ]
+  },
+  "2.2": {
+    "busca": "cozy bedroom warm light",
+    "escolhida": {
+      "id": "pixabay-555653",
+      "banco": "Pixabay",
+      "pagina": "https://pixabay.com/photos/girl-asian-looking-up-model-555653/",
+      "fotografo": "windsing",
+      "fotografo_url": "https://pixabay.com/users/windsing-609891/",
+      "alt": "girl, asian, looking up, model, portrait, sensual, woman, female, indoors, bedroom, black hair, hairstyle, asian model, young woman, modeling, pose, posing",
+      "src": "https://pixabay.com/get/ga67ed6bfab77bb176acbe06d1ae836d6800d6c74ddb77561aac280a6671161a91929c102d7a529d776e9613e19cbbc6f65291c42533ce43e25dd7628c299871f_1280.jpg",
+      "miniatura": "https://pixabay.com/get/g67d6f25d94c176f029bfc76fc340efc76cdb6b88133398aa0509ec8791c7fafbb42a39a0cb9f043be3dfa5e5a67cc2c2_640.jpg"
+    },
+    "candidatas": [
+      {
+        "id": "pixabay-555653",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/girl-asian-looking-up-model-555653/",
+        "fotografo": "windsing",
+        "fotografo_url": "https://pixabay.com/users/windsing-609891/",
+        "alt": "girl, asian, looking up, model, portrait, sensual, woman, female, indoors, bedroom, black hair, hairstyle, asian model, young woman, modeling, pose, posing",
+        "src": "https://pixabay.com/get/ga67ed6bfab77bb176acbe06d1ae836d6800d6c74ddb77561aac280a6671161a91929c102d7a529d776e9613e19cbbc6f65291c42533ce43e25dd7628c299871f_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g67d6f25d94c176f029bfc76fc340efc76cdb6b88133398aa0509ec8791c7fafbb42a39a0cb9f043be3dfa5e5a67cc2c2_640.jpg"
+      },
+      {
+        "id": "pixabay-8431865",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/window-pillows-candles-lights-cozy-8431865/",
+        "fotografo": "Albertfotofilms",
+        "fotografo_url": "https://pixabay.com/users/Albertfotofilms-11437400/",
+        "alt": "window, pillows, candles, lights, cozy, decoration, ornaments, decor, christmas, cozy, cozy, cozy, cozy, cozy",
+        "src": "https://pixabay.com/get/g326a85fdef2861468b7271013320c0100933f64f7d7be63bc0f55d657cf9a15e6196ba7fa16537bd6527855cecc616488b8cbc53cf12af3bc36a8863cd072080_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g80e3dcc9dea9796a42d1e463c3334eb7320a9a96a5dc7b7540311853724402a11d46e0149e2a49966467e9ee096187a3391f6cc75bf14daa27ceb6017634785b_640.jpg"
+      },
+      {
+        "id": "pixabay-8390092",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/bed-bedroom-room-mattress-hotel-8390092/",
+        "fotografo": "HomeoGrapher",
+        "fotografo_url": "https://pixabay.com/users/HomeoGrapher-39677170/",
+        "alt": "bed, bedroom, room, mattress, hotel, interior, pillow, furniture, home, luxury, design, bedding, house, apartment, sleep, sheet, blanket, decor, decoration, indoors, bed, bedroom, mattress, mattress, mattress, bedding, bedding, bedding, bedding, bedding",
+        "src": "https://pixabay.com/get/gf3a8d8590c92affaa95f39a41c64f594b214c096b8d79612782914dfec98bb33f472a879326f8340a708bd13be2a9d85c8ca76962795afbaf84f173b3345eb90_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g45a9cafad704fa1b4402894b316b3139ad8b8956251f74160165057bb0698d615512754faf4df4060f721c0f04b54a3525734c03109902a9a95026dfab50bc3f_640.jpg"
+      },
+      {
+        "id": "pixabay-1215004",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/double-bed-read-cushions-sleep-1215004/",
+        "fotografo": "sferrario1968",
+        "fotografo_url": "https://pixabay.com/users/sferrario1968-214554/",
+        "alt": "double bed, read, cushions, sleep, bedroom, rest, bedroom, bedroom, bedroom, bedroom, bedroom",
+        "src": "https://pixabay.com/get/gf74367ec8c3c8e718a7bbf69088089c0c5922442a8842ed6cab9c9cb32c5394a792d4c6904dd47b6634ce3b0e5b9adc4ea5c8fcb5e792e5fffbf427c7877b571_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g23513b1bde412aa6cb649bbc9f22068f931338ee7434b0b26f3e2e31de496966f767e14d952ec8527a935346239e1352b2eb13ff26f625282633994962266aa2_640.jpg"
+      },
+      {
+        "id": "pixabay-1202127",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/lamp-bedroom-climate-light-mood-1202127/",
+        "fotografo": "JacekAbramowicz",
+        "fotografo_url": "https://pixabay.com/users/JacekAbramowicz-1981807/",
+        "alt": "lamp, bedroom, climate, light, mood, magic, silence, lamp, lamp, lamp, lamp, bedroom, bedroom, bedroom, bedroom, bedroom",
+        "src": "https://pixabay.com/get/gb3e8a7204eb9d653c8648ce1fe5ad4b657bbaf6c9d38b4a7c25386387d172243e7d1bb5f025292b190fe2acbc2d25846e108ce8d846f40386058d1a6819a33eb_1280.jpg",
+        "miniatura": "https://pixabay.com/get/gb9129319cefbd9848d88dda6b5fdb5e0bc1a5234be782075cd27d5c9df86a29d0025f733323fb92cda74ab59cedab4a40591d6d79131bc8d46c4a071440c75ef_640.jpg"
+      },
+      {
+        "id": "pixabay-2606260",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/bed-child-light-night-sleep-rest-2606260/",
+        "fotografo": "StockSnap",
+        "fotografo_url": "https://pixabay.com/users/StockSnap-894430/",
+        "alt": "bed, child, light, night, sleep, rest, people, pillows, lamp, sheet, bedding, brown sleep, brown night, brown sleeping, brown bed, brown lamp, bed, sleep, sleep, sleep, sleep, sleep",
+        "src": "https://pixabay.com/get/g1319661770a403221f8dae54d344da02a86c4f95cd8c74a1d18c1f3732b3826ea9d47151acafb46e10f882e974ed2a3eddc8d3f4f41896156cd4a3732a02b791_1280.jpg",
+        "miniatura": "https://pixabay.com/get/gb9e99a5e93431a1837393b1d3e7e44368c030bcc02b661e4c61e2cccae971ad48c8076420494bb28c3d343faa4ad72c9b0d4e4827fd0e985f6343a84d9d806c1_640.jpg"
+      }
+    ]
+  },
+  "3.1": {
+    "busca": "moon night peaceful",
+    "escolhida": {
+      "id": "pixabay-9304008",
+      "banco": "Pixabay",
+      "pagina": "https://pixabay.com/photos/baby-newborn-little-child-sleep-9304008/",
+      "fotografo": "bongbabyhousevn",
+      "fotografo_url": "https://pixabay.com/users/bongbabyhousevn-15950077/",
+      "alt": "baby, newborn, little, child, sleep, cute, dream, moon, night, dark, young, star",
+      "src": "https://pixabay.com/get/g03a12114f24ecf51d33a4b55849598a3b8c676b4a7bf86baddec00e86925f83a02480389a8139d4494b3fa505738f9c32176a7f98169cd1326c437a9d13260bd_1280.jpg",
+      "miniatura": "https://pixabay.com/get/g13e75c93041ca1423592639bef0c27ebcefaf845251e66a16ea5150d015deffda0a8933d1c2dc064ffc9ed521b118d0d968a6748c87abae3338c1f9d242b5f1c_640.jpg"
+    },
+    "candidatas": [
+      {
+        "id": "pixabay-9304008",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/baby-newborn-little-child-sleep-9304008/",
+        "fotografo": "bongbabyhousevn",
+        "fotografo_url": "https://pixabay.com/users/bongbabyhousevn-15950077/",
+        "alt": "baby, newborn, little, child, sleep, cute, dream, moon, night, dark, young, star",
+        "src": "https://pixabay.com/get/g03a12114f24ecf51d33a4b55849598a3b8c676b4a7bf86baddec00e86925f83a02480389a8139d4494b3fa505738f9c32176a7f98169cd1326c437a9d13260bd_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g13e75c93041ca1423592639bef0c27ebcefaf845251e66a16ea5150d015deffda0a8933d1c2dc064ffc9ed521b118d0d968a6748c87abae3338c1f9d242b5f1c_640.jpg"
+      },
+      {
+        "id": "pixabay-7852589",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/baby-child-newborn-sleep-night-7852589/",
+        "fotografo": "bongbabyhousevn",
+        "fotografo_url": "https://pixabay.com/users/bongbabyhousevn-15950077/",
+        "alt": "baby, child, newborn, sleep, night, star, moon",
+        "src": "https://pixabay.com/get/g15847b77225680abbc553a760809b64c9301d5b3e9acb4040484b47a3bad9e8a524603cb4b6f359adebc4766eddc772b78f80093b6b159cf06225ce9a4673632_1280.jpg",
+        "miniatura": "https://pixabay.com/get/gfefd24bfb2e335a37e6dfa0aa83cec1bed30fe9b239e1b3502d773ad313bda1f4073101ecac59d8d49d158428c52862df81fd0f3b0e6c50c26fd864129976d2c_640.jpg"
+      },
+      {
+        "id": "pixabay-7965365",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/moon-sky-clouds-night-dark-ocean-7965365/",
+        "fotografo": "flutie8211",
+        "fotografo_url": "https://pixabay.com/users/flutie8211-17475707/",
+        "alt": "moon, laptop wallpaper, cool backgrounds, sky, beautiful nature, mac wallpaper, clouds, night sky, night, hd wallpaper, dark, nature, desktop backgrounds, ocean, full hd wallpaper, windows wallpaper, coffee cup, free wallpaper, wallpaper 4k, sea, reflection, sky background, ledge, cup, wallpaper hd, coffee, hot drink, steam, nature background, relaxing, view, beautiful wallpaper, 4k wallpaper, peaceful, seascape, free background, wallpaper, 4k wallpaper 1920x1080, nature wallpaper, greeting card",
+        "src": "https://pixabay.com/get/g57bd93f0651755e779557271caa35f03b7b475ef5da630291b390fdd5c40802bb70178e081b244da98d999b09459f198f187bc6bdc7ed7054081cfde59f36393_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g491d1b8db7d5f47143976ba77df85a410aa5284e7a3a257524dc7cfe7f973da12b59a56309543c67003e702e71560b20fcb7937c2f1721a16c94efe6f26a86e5_640.jpg"
+      },
+      {
+        "id": "pixabay-6513944",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/newborn-baby-costume-sleeping-6513944/",
+        "fotografo": "bongbabyhousevn",
+        "fotografo_url": "https://pixabay.com/users/bongbabyhousevn-15950077/",
+        "alt": "newborn, baby, costume, sleeping, clothing, child, childhood, cute, newborn photography, moon, star, baby, baby, baby, baby, baby, newborn photography, newborn photography, newborn photography",
+        "src": "https://pixabay.com/get/g85ec4da9c0e7af2acd56a0a5645ec992cdbc5bdeba2525aa67b19cd36a145f9679c61356310d7f1df515827c15e9b0a25d1b412e0242e0b3b6206b48fc86937c_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g110fcd99ae8b8a3b0c9dbfd9b5a6ce797ce42eb13615b719f3a66d461ca54f798059502e801fa912c3740a45039701298ed758913a4c53cc2256e89c7c5681ba_640.jpg"
+      },
+      {
+        "id": "pixabay-2554757",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/full-moon-house-meadow-trees-fox-2554757/",
+        "fotografo": "Myriams-Fotos",
+        "fotografo_url": "https://pixabay.com/users/Myriams-Fotos-1627417/",
+        "alt": "full moon, house, meadow, trees, fox, owl, night, moonlight, nature, mysterious, dark, fantasy, mood, photomontage, composing, romantic, atmospheric, the atmosphere, quiet, landscape, fairytale, peaceful",
+        "src": "https://pixabay.com/get/gdbc460f2b134df2b7635a969fca4b77e700c9f3f7c059a3e772750c13fd7bc91dd1a0eee695a123dd1733c10824f3e0a49a05f483490d48d54e5d66f4be9b2e3_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g18cd48f95e4a4b09b8f5039c956272681a5a182ea697053f78f9c43bda3f8441c98d91eff1dbe623764559be00ca76af7ebc0120962610729627316ee2f629a0_640.jpg"
+      },
+      {
+        "id": "pixabay-10385686",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/wolf-nature-mountain-sleep-night-10385686/",
+        "fotografo": "TimeGrassArt",
+        "fotografo_url": "https://pixabay.com/users/TimeGrassArt-56634419/",
+        "alt": "wolf, nature, mountain, sleep, night, moon, forest, stars, wild, animal, mammal, calm, evening, wilderness, peace, den, relaxation, solitary, harmony, silence",
+        "src": "https://pixabay.com/get/g68adacacfe0570ea8c362d792d0dca4883226b5d73d681ff7a19d8e653a13bdf317c633171f5b15f8ba0662f90d9e435d6e8ac7fddc63cf95730708dd6f331e6_1280.png",
+        "miniatura": "https://pixabay.com/get/g0031f6d4702fc7633ef74c0a98068f630ca09d75a4986536b40ea313ecce67823432baf47c0701465542cdea7c3afccb44f9fbe6223a9cb4e504fdcbc4bf9930_640.png"
+      }
+    ]
+  },
+  "4.1": {
+    "busca": "sunrise after night mountains",
+    "escolhida": {
+      "id": "pixabay-5039388",
+      "banco": "Pixabay",
+      "pagina": "https://pixabay.com/photos/rainbow-sky-landscape-clouds-5039388/",
+      "fotografo": "wpquadrosemolduras",
+      "fotografo_url": "https://pixabay.com/users/wpquadrosemolduras-13495262/",
+      "alt": "rainbow, sky, landscape, clouds, sunset, brown sky, brown rainbow, nature, brown sunset, brown clouds",
+      "src": "https://pixabay.com/get/g5da6493380a6176562dbc5f54f8b8db016f22f3e60a0455003aab2a107066d16d74db8dfa5ef91bf698fce2d3bf7e36386a70bc70e5db542d471592ad2e05aa6_1280.jpg",
+      "miniatura": "https://pixabay.com/get/gc20bb81f78d051d6302b3cb8af109a248084eb57033c1e4ddbe75950f99f76c530cdd85d16b99ccab1ed88e79416e71998c2fbc2ed1379e5a27fe80e51df14c3_640.jpg"
+    },
+    "candidatas": [
+      {
+        "id": "pixabay-5039388",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/rainbow-sky-landscape-clouds-5039388/",
+        "fotografo": "wpquadrosemolduras",
+        "fotografo_url": "https://pixabay.com/users/wpquadrosemolduras-13495262/",
+        "alt": "rainbow, sky, landscape, clouds, sunset, brown sky, brown rainbow, nature, brown sunset, brown clouds",
+        "src": "https://pixabay.com/get/g5da6493380a6176562dbc5f54f8b8db016f22f3e60a0455003aab2a107066d16d74db8dfa5ef91bf698fce2d3bf7e36386a70bc70e5db542d471592ad2e05aa6_1280.jpg",
+        "miniatura": "https://pixabay.com/get/gc20bb81f78d051d6302b3cb8af109a248084eb57033c1e4ddbe75950f99f76c530cdd85d16b99ccab1ed88e79416e71998c2fbc2ed1379e5a27fe80e51df14c3_640.jpg"
+      },
+      {
+        "id": "pixabay-5422901",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/milky-way-sky-night-space-5422901/",
+        "fotografo": "Baptiste_lheurette",
+        "fotografo_url": "https://pixabay.com/users/Baptiste_lheurette-15407445/",
+        "alt": "milky way, sky, night, nature, space, landscape, astro, night sky, astronomy, star",
+        "src": "https://pixabay.com/get/gb91e010518061a876d08e74ab0a594d792c61983c82be09bb3932a5a09215f607bbfe2be5da05d1d67edbfd7907f26c3455a81060a5ff0b7e60911de76b8cf3e_1280.jpg",
+        "miniatura": "https://pixabay.com/get/gcf816fdf78c1b51bb9fcdb7a1f93233d48585f0acba846ace84de288a3bfab6bba2c923eb74c991f3c2dbe13036f8b43593c57c7359cea8564fbc224be72a6ad_640.jpg"
+      },
+      {
+        "id": "pixabay-1850638",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/dark-sky-stars-night-outdoors-1850638/",
+        "fotografo": "Pexels",
+        "fotografo_url": "https://pixabay.com/users/Pexels-2286921/",
+        "alt": "dark, sky, stars, night, nature, outdoors, night sky, starry, starry sky, starry night, constellations, stargazing, clouds, mountains, landscape",
+        "src": "https://pixabay.com/get/g067b5640bfd559e6398d8ac4780a3b2b6a2d6836d51bf64328dc868beb8cafc2cffe9fc71572abee94217bcbba238d198a391141b1d5d2c26ce989d31d8a53e4_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g1d028c8efa6473e6a6d81809cbdf9a209158ffe6ebd20b96ee4bf48d7cb1989cca86e4d5004ed2a72534045dae87c53d4fe85e8bc1ffcadae502c582169f18d5_640.jpg"
+      },
+      {
+        "id": "pixabay-4702174",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/night-moon-mountains-alps-4702174/",
+        "fotografo": "jplenio",
+        "fotografo_url": "https://pixabay.com/users/jplenio-7645255/",
+        "alt": "night, moon, mountains, alps, nature, landscape, full moon, dark, moonlight, fantasy, heaven, mystical, forest, winter, snow, night sky",
+        "src": "https://pixabay.com/get/gdca1f2d2ebc8c09809827bbf2181ca4cd64b5b71dc2d7e874a4ec235fd46fe232a2828f6f80523861a150842b304050f4a5bc9b50078f5df9c1d2c50b3a5c208_1280.jpg",
+        "miniatura": "https://pixabay.com/get/gc21db7f5a2be1cafe7e9e71169b144193c23160d1ce4385d31c2407ace04095853f8f747f7b2e78b223540b9aa95610fb77a44f3678f007ca571a934f3be42f8_640.jpg"
+      },
+      {
+        "id": "pixabay-2297204",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/alberta-canada-lake-mountains-2297204/",
+        "fotografo": "jameswheeler",
+        "fotografo_url": "https://pixabay.com/users/jameswheeler-5314099/",
+        "alt": "alberta, canada, lake, mountains, banff, beautiful, amazing, blue, forest, lake louise, landscape, nature, reflection, rock, sunrise, water, canadian, destination, outdoor, peaceful, peaks, pristine, rockies, scenery, scenic, summit, tranquil, nature wallpaper, blue nature, blue water, blue forest, blue landscape, blue mountain, blue sunrise, blue beauty, blue wallpaper, blue peace, blue rock, blue lake, blue natural, canada, canada, lake, mountains, mountains, forest, landscape, nature, nature, nature, nature, nature",
+        "src": "https://pixabay.com/get/gc545f959359dae68999bf5257decf5087ef6c2457781cec1defbbaa2ebe70a3b782e2e885f7a98511657154cdd7be19b4e3c98dea127f30a50cda8599d558912_1280.jpg",
+        "miniatura": "https://pixabay.com/get/gc599b847f2814d21828a0ae73ce706601ea23adef64000545933f7bb80b4454f72886d629530dadebca781df6550dd7832c1949d56e51350af2208749e38c4d2_640.jpg"
+      },
+      {
+        "id": "pixabay-7690893",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/mountain-sea-forest-night-space-7690893/",
+        "fotografo": "yt_ggfischlul",
+        "fotografo_url": "https://pixabay.com/users/yt_ggfischlul-32540363/",
+        "alt": "mountain, sea, forest, night, space, sky, night sky, stars, nature",
+        "src": "https://pixabay.com/get/g23a3aa7ad04ffc2e2f0cb30989defecff566ab1c45d6effb2916e2b0eb0135c69fc5dea252729fc5572d949d8680dd9e71885916d4219c16368a180c694ac61c_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g04c71f704b8c6c067a1db9d2d7cb750fe60a77d4f08c73a431b38a89aa2446c93818e14cf2175a4d9a16bea851f5c399e00a4e522aa9e2abfdb7815aa362bf4c_640.jpg"
+      }
+    ]
+  },
+  "5.1": {
+    "busca": "still waters valley evening",
+    "escolhida": {
+      "id": "pixabay-4793879",
+      "banco": "Pixabay",
+      "pagina": "https://pixabay.com/photos/nature-reserve-wendland-elbe-flow-4793879/",
+      "fotografo": "SilviaStoedter",
+      "fotografo_url": "https://pixabay.com/users/SilviaStoedter-32976/",
+      "alt": "nature reserve, wendland, elbe, flow, water, landscape, heaven, quiet, nature, elbe valley, elbaue",
+      "src": "https://pixabay.com/get/g28381d0baa23e2b8fc99b658961e6d0a60b5b2490253a10ccfd6b84b1c5b0ca3cf104eb70ea1ced3b7112535ec88a30f0b7cea3d3f1dbfd6baf040dfa9650b96_1280.jpg",
+      "miniatura": "https://pixabay.com/get/gced636aef09061fc4ccbb113ba91ea40723aba6fcc8afef80d7a1376f3b5b6b0376219fe52d6cd25d0e887890feaf5eeaa771cd98471776c785aff701ee97f92_640.jpg"
+    },
+    "candidatas": [
+      {
+        "id": "pixabay-4793879",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/nature-reserve-wendland-elbe-flow-4793879/",
+        "fotografo": "SilviaStoedter",
+        "fotografo_url": "https://pixabay.com/users/SilviaStoedter-32976/",
+        "alt": "nature reserve, wendland, elbe, flow, water, landscape, heaven, quiet, nature, elbe valley, elbaue",
+        "src": "https://pixabay.com/get/g28381d0baa23e2b8fc99b658961e6d0a60b5b2490253a10ccfd6b84b1c5b0ca3cf104eb70ea1ced3b7112535ec88a30f0b7cea3d3f1dbfd6baf040dfa9650b96_1280.jpg",
+        "miniatura": "https://pixabay.com/get/gced636aef09061fc4ccbb113ba91ea40723aba6fcc8afef80d7a1376f3b5b6b0376219fe52d6cd25d0e887890feaf5eeaa771cd98471776c785aff701ee97f92_640.jpg"
+      },
+      {
+        "id": "pixabay-123926",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/river-silhouette-sunset-dusk-water-123926/",
+        "fotografo": "newsanek",
+        "fotografo_url": "https://pixabay.com/users/newsanek-38801/",
+        "alt": "river, silhouette, sunset, dusk, water, scenery, scenic, countryside, nature, oregon, river, river, river, river, river",
+        "src": "https://pixabay.com/get/g701127fe2357dd298bfeafb1a58683240444eb971e578ac3725833ab380c73c148964e4995d5bf3a05851f11a517d87d2d532db7772050c380ca644bb3f06f3e_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g334473f7332a49d0c48b357a4905705c7bfd0cc24af11561004befca5459aca173e070b274716187cdb7365a46ec1ed4_640.jpg"
+      },
+      {
+        "id": "pixabay-6843799",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/town-lake-travel-rural-night-6843799/",
+        "fotografo": "johnNaturePhotos",
+        "fotografo_url": "https://pixabay.com/users/johnNaturePhotos-11966122/",
+        "alt": "town, lake, nature, travel, rural, night, greece",
+        "src": "https://pixabay.com/get/gd5973955ef4e928cf477a1faf8b837dab59799dc6ae41ae504d5eb7c759d8ac5a49ca21eb7d539f203e6ea0a009dc9ab222ebc2b23410c46f68390ef821e5ceb_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g5ac7187c72f8f8324fe971f359dc4390ed6fb615f66f84ac05d75116e90d79a275389cbeac0addc1d9c4e6c14fe7dffd23720251445e2be9e0d65790036e330a_640.jpg"
+      },
+      {
+        "id": "pixabay-3449509",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/sea-reflection-clouds-water-3449509/",
+        "fotografo": "jplenio",
+        "fotografo_url": "https://pixabay.com/users/jplenio-7645255/",
+        "alt": "sea, reflection, clouds, water, backlighting, eve, sun, reflections, weather, nature, silhouette, heaven, coast, smooth, calm, landscape, the atmosphere",
+        "src": "https://pixabay.com/get/g12b9642297af18322ae8c5240cf5c68c3a3c30b6dfdc742c9138764b866b458a48472a7c6ad5b00fb35583f51f2693a6c0dd71506c7097cf02bedc2945463c5b_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g3315d6654fe2d78ccce39f72b2d7844912b59bbbde2af42809aa23295081d4c01db0f049d51d06bc7dba9b7725322d2dc6450c27999752239783e5120fb7f8d7_640.jpg"
+      },
+      {
+        "id": "pixabay-8544333",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/sailboat-lake-constance-haze-8544333/",
+        "fotografo": "olleaugust",
+        "fotografo_url": "https://pixabay.com/users/olleaugust-4857856/",
+        "alt": "sailboat, lake constance, haze, langenargen, sailboat, sailboat, sailboat, sailboat, sailboat",
+        "src": "https://pixabay.com/get/g6fa87332264a5427ec589d461ce6ab9665aa6722dfaad1336bc42a1dab1396a5c6d894a19f5038da50bba4eea4e6840f86697181478ef9890065150ead9aaab8_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g6b5b97df8cac5e7e2e4dc81e4a675350e77677493b341121869ee7975d1e85a3dad27f6bd65e6a918f456abedfc475aa47572549426ad1969703af9c06cdd35d_640.jpg"
+      },
+      {
+        "id": "pixabay-10476495",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/frog-animal-nature-amphibian-10476495/",
+        "fotografo": "Irwan23",
+        "fotografo_url": "https://pixabay.com/users/Irwan23-57549893/",
+        "alt": "frog, animal, nature, amphibian, wildlife, green, pond, water, fauna, cute, branch, two, balancing, biotope, symbiosis, macro, front view, reflection, sunny, calm",
+        "src": "https://pixabay.com/get/g2bc3ce37bc0bc71b6e15c6959f473861ad76a25fdd0f613504b7b7caa6e1a2d4f6059c9b08524d4803631bed090628b917013f604679a4567436b98e598de8b0_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g666ffc567f1024ab05df76ba3b18406a123c3a2f4ebbff5efd0f80a72ef854d7537021c781a7037ed75717bced40370253439b4323b62577cd30f4288b9cdc83_640.jpg"
+      }
+    ]
+  },
+  "5.2": {
+    "busca": "shelter rock night stars",
+    "escolhida": {
+      "id": "pixabay-1851128",
+      "banco": "Pixabay",
+      "pagina": "https://pixabay.com/photos/constellations-stargazing-person-1851128/",
+      "fotografo": "Pexels",
+      "fotografo_url": "https://pixabay.com/users/Pexels-2286921/",
+      "alt": "constellations, 4k wallpaper, 4k wallpaper 1920x1080, stargazing, cool backgrounds, person, starry, mac wallpaper, laptop wallpaper, starry night, starry sky, cosmos, dark, wallpaper 4k, space wallpaper, full hd wallpaper, desktop backgrounds, exploration, galaxy, free background, light, windows wallpaper, milky way, night, wallpaper hd, space, hd wallpaper, stars, free wallpaper, beautiful wallpaper, space background, wallpaper",
+      "src": "https://pixabay.com/get/g6d7de81ab21444097b69cdbc6259cbd914635e1ee8cdd098738c4873e0a0d0e442eac52e0def6ab1dc4b61b7ec0d74cec756b0c50c0e0ca4588d9bfe15f4aa70_1280.jpg",
+      "miniatura": "https://pixabay.com/get/gb9e5f0a8e418a7ad6c7dac7144fc918468cbe4a901100863877078c90f5b4cf93006837579f3d40d77e95082a05e0221522239275a461a8417a217eea3cde664_640.jpg"
+    },
+    "candidatas": [
+      {
+        "id": "pixabay-1851128",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/constellations-stargazing-person-1851128/",
+        "fotografo": "Pexels",
+        "fotografo_url": "https://pixabay.com/users/Pexels-2286921/",
+        "alt": "constellations, 4k wallpaper, 4k wallpaper 1920x1080, stargazing, cool backgrounds, person, starry, mac wallpaper, laptop wallpaper, starry night, starry sky, cosmos, dark, wallpaper 4k, space wallpaper, full hd wallpaper, desktop backgrounds, exploration, galaxy, free background, light, windows wallpaper, milky way, night, wallpaper hd, space, hd wallpaper, stars, free wallpaper, beautiful wallpaper, space background, wallpaper",
+        "src": "https://pixabay.com/get/g6d7de81ab21444097b69cdbc6259cbd914635e1ee8cdd098738c4873e0a0d0e442eac52e0def6ab1dc4b61b7ec0d74cec756b0c50c0e0ca4588d9bfe15f4aa70_1280.jpg",
+        "miniatura": "https://pixabay.com/get/gb9e5f0a8e418a7ad6c7dac7144fc918468cbe4a901100863877078c90f5b4cf93006837579f3d40d77e95082a05e0221522239275a461a8417a217eea3cde664_640.jpg"
+      },
+      {
+        "id": "pixabay-1845281",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/backlit-stars-night-sky-beautiful-1845281/",
+        "fotografo": "Pexels",
+        "fotografo_url": "https://pixabay.com/users/Pexels-2286921/",
+        "alt": "backlit, stars, night sky, beautiful, evening, idyllic, night, nighttime, outdoors, people, scenery, scenic, silhouettes, sky, nature, stargazing, starry sky, universe",
+        "src": "https://pixabay.com/get/g7669463ac5fd0eb41c82991071888473b51125e2720d7a3c86a8ba91d9830942aef034fe17a5402533012d8173b2f5d8271dd4b4d12c1aee92a503d2c3780245_1280.jpg",
+        "miniatura": "https://pixabay.com/get/gb1c0e3318241c6cde87eaa79784b60b5f7c76f88a6cd5d12ed5516045fef73a90ee97fc47e5dfceae189d3b704b92e7c939883937b0ff7f0e51987ebeec95722_640.jpg"
+      },
+      {
+        "id": "pixabay-3847784",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/northern-lights-astronomy-sky-3847784/",
+        "fotografo": "Photo-View",
+        "fotografo_url": "https://pixabay.com/users/Photo-View-7444623/",
+        "alt": "northern lights, nature, astronomy, sky, aurora borealis, night sky, night, aurora, norway, landscape, beauty, travel",
+        "src": "https://pixabay.com/get/g2a128bbaa2573fcad7ad34713d4a8fd908401634c10676a489afdc018811f6091e6963ea56d9c864fc454ba9668d807728c91aeea726497debd09679226a1eb1_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g9b4a4bb99b31ae079dd66c211c1e1b5817fcbcb9393bcd4eb6ed9dac6ba3fb5a863746b6101b4dc06785c780b897c9659f8f936edcf8e3ce64d70efef35d1585_640.jpg"
+      },
+      {
+        "id": "pixabay-4965488",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/aurora-borealis-northern-lights-4965488/",
+        "fotografo": "KevinSchmid",
+        "fotografo_url": "https://pixabay.com/users/KevinSchmid-15711311/",
+        "alt": "aurora borealis, northern lights, night, phenomenon, landscape, nature, night sky, evening, sky, aurora",
+        "src": "https://pixabay.com/get/gcff7939eba818c5d086b5dc09688609c52d6ab44af526f03260e220b876e0088fccc9739a17c3843488832becfab3d81f7ee61900245619d3c992bd4f8988e0d_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g85522f91ce93940ef2f934fc6095ae089cd62327deb578fa213e0dfa692f533ff610b3efaf855db0d30c0aa4c2bcaeef3f650a69b620197a3e64288ecdc6b9d7_640.jpg"
+      },
+      {
+        "id": "pixabay-1846734",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/star-trails-night-stars-rotation-1846734/",
+        "fotografo": "Pexels",
+        "fotografo_url": "https://pixabay.com/users/Pexels-2286921/",
+        "alt": "star trails, night, stars, rotation, starry sky, dark, light streaks, motion, nature, pattern, round, night sky, sky, space, long exposure",
+        "src": "https://pixabay.com/get/g7b8a02ac514561000cc934c8358bb5bbbf0056ab43f7cb97feb4b07a263838903847ac438789653ddfd84804908d8bd6bd0961721167c003c1ddc6471b35810f_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g6b8db45795c4a75464d2cfa3cac74040f48d3862357cb3477401ac1ad6b6cd72b18afc2edce958da63b1f3725e45dfd786856281a6e1c8e8cbab4cf294a8b3d2_640.jpg"
+      },
+      {
+        "id": "pixabay-1866822",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/astronomy-constellation-dark-1866822/",
+        "fotografo": "Pexels",
+        "fotografo_url": "https://pixabay.com/users/Pexels-2286921/",
+        "alt": "astronomy, constellation, dark, daylight, exploration, forest, galaxy, landscape, light, planet, silhouette, stars, blue forest, blue landscape, blue light, blue stars, blue galaxy, nature, blue dark, blue planet, blue lights",
+        "src": "https://pixabay.com/get/g1baf4c4ab4eaaa69b955ec9b8e35e7b4ef128e9edb608362fa43b3945e9fa1d9a9325ce4f53099f3e27f0e635cda05d934c8dccbf2de1cedd71b73929d1af735_1280.jpg",
+        "miniatura": "https://pixabay.com/get/gb94c25a41b34afcc6447c7a64ee0d76f1646a47d2211d91906166857b05b55688673ad9cbc48f12d663049ef2acfed09e29c2f0effcd611db0f06be7a351c65e_640.jpg"
+      }
+    ]
+  },
+  "6.1": {
+    "busca": "starry night mountains",
+    "escolhida": {
+      "id": "pixabay-1850638",
+      "banco": "Pixabay",
+      "pagina": "https://pixabay.com/photos/dark-sky-stars-night-outdoors-1850638/",
+      "fotografo": "Pexels",
+      "fotografo_url": "https://pixabay.com/users/Pexels-2286921/",
+      "alt": "dark, sky, stars, night, nature, outdoors, night sky, starry, starry sky, starry night, constellations, stargazing, clouds, mountains, landscape",
+      "src": "https://pixabay.com/get/gd04a7ce11a161d14190f6649ca55887fb42cc30e6269afefbdaacd8c020c9f8d1ea63317fec8a442b11c03552b9b44d0883b93ee2de6795d4c8f747486b7ee08_1280.jpg",
+      "miniatura": "https://pixabay.com/get/gc40aadd51e6a31da6166e659a5d5756e6d2ba4865602258cae1564fc6467c47c6685094d3710f4dbe99686e6e85fa544df3308c81b54734faee7d8cef22babe3_640.jpg"
+    },
+    "candidatas": [
+      {
+        "id": "pixabay-1850638",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/dark-sky-stars-night-outdoors-1850638/",
+        "fotografo": "Pexels",
+        "fotografo_url": "https://pixabay.com/users/Pexels-2286921/",
+        "alt": "dark, sky, stars, night, nature, outdoors, night sky, starry, starry sky, starry night, constellations, stargazing, clouds, mountains, landscape",
+        "src": "https://pixabay.com/get/gd04a7ce11a161d14190f6649ca55887fb42cc30e6269afefbdaacd8c020c9f8d1ea63317fec8a442b11c03552b9b44d0883b93ee2de6795d4c8f747486b7ee08_1280.jpg",
+        "miniatura": "https://pixabay.com/get/gc40aadd51e6a31da6166e659a5d5756e6d2ba4865602258cae1564fc6467c47c6685094d3710f4dbe99686e6e85fa544df3308c81b54734faee7d8cef22babe3_640.jpg"
+      },
+      {
+        "id": "pixabay-5442598",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/stars-mountains-night-sky-summer-5442598/",
+        "fotografo": "JoshuaWoroniecki",
+        "fotografo_url": "https://pixabay.com/users/JoshuaWoroniecki-12734309/",
+        "alt": "stars, mountains, night sky, summer, night, nature, planet, galaxy, astronomy, camping, pine, wild, wilderness, nebula, space, earth, clouds, night sky, night sky, night sky, night sky, night sky, night, night, night, night, space, space",
+        "src": "https://pixabay.com/get/g477ebebbb98347a93fa96f92a135a7450f3911b4b16c247b546c15bcad1aa27e3dc3263b2bfcb74e1f7b5b5c059e24ff72ceeada10e18b0adc4489d0c126696f_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g8e4b4e99331c2222dae46a573ebf3e91bdc8fe28add79471c4fda823fbd064bb874fe2bf0856abffb1b63feda513d3c6fa24ef2236ce74d79489183609a17fac_640.jpg"
+      },
+      {
+        "id": "pixabay-1197753",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/christmas-background-aurora-1197753/",
+        "fotografo": "Noel_Bauza",
+        "fotografo_url": "https://pixabay.com/users/Noel_Bauza-2019050/",
+        "alt": "christmas background, aurora, northern lights, aurora borealis, snow, fields, snow fields, hoarfrost, stars, starry night, night sky, starry, arctic, snowy, landscape, cold, night, nature, phenomenon, natural phenomenon, zoom background",
+        "src": "https://pixabay.com/get/g76efe3de70032e66ac9ecd00e158cf9aa0e637d5578958c9f81a6dd83fbc944ee59c2acf937cdd54197ff1883f040e4df4fa32e2ccc052ed695fd1a03629985f_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g32c165698bd7702da9e9690c472a737904fdb7e589f409bc40148516b99d94498b5a1b0b68bfd6a59d7292cf5cdb7dc91e45c01fd6f8970507c259f44071cfc8_640.jpg"
+      },
+      {
+        "id": "pixabay-2048727",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/moon-universe-space-milky-way-2048727/",
+        "fotografo": "2780243",
+        "fotografo_url": "https://pixabay.com/users/2780243-2780243/",
+        "alt": "moon, free background, 4k wallpaper, universe, free wallpaper, space, milky way, galaxy, planet, cosmos, star, earth, fantasy world, astronaut, hd wallpaper, space travel, sky background, infinity, background, astronomy, science, nature, wallpaper hd, laptop wallpaper, lights, mystical, mac wallpaper, full hd wallpaper, cool backgrounds, sky, windows wallpaper, solar system, mountains, landscape, atmosphere, wallpaper 4k, night sky, starry sky, spherical, beautiful wallpaper, 4k wallpaper 1920x1080, desktop backgrounds, crater, vision, moon rock, space wallpaper, space background",
+        "src": "https://pixabay.com/get/gdf62b7a5a31183684967852a1bca0941bda57fbe514071ac69927a0c84b19e60c75559f58a7a6f24e8feb611fcf150f201009ac1f0d7d76ec686a9ae44beca21_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g8780087fdc2820348a04c296f3ec6e691fe7ee1d9613137236eea7e69acf1b6625df74b72f0f60fb7afbb0b160cc979233aaed31fcd6930a2dec17202f26475e_640.jpg"
+      },
+      {
+        "id": "pixabay-10506842",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/night-sky-starry-sky-nature-space-10506842/",
+        "fotografo": "Tama66",
+        "fotografo_url": "https://pixabay.com/users/Tama66-1032521/",
+        "alt": "night sky, starry sky, nature, space, stars, mountains, galaxy, sky, dawn, distant planet, moon, astronomy, cosmos, mood, beauty, panorama, landscape, rocks, natural beauty, silhouette, romantic",
+        "src": "https://pixabay.com/get/gc5f95e36f96f88c4c620930ce2e71549c4001ac9ce2e23aeb414484293c174960880f4a01dcf5bc70dcd22fbf5c78cc222e937f6b56f6a8e709344db1f4b8a88_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g93ddbc5f71c71d97711edcabf46ee113848d08db4c782a108d753dadfbc4ff23877d997d817e2f25c0ac84eaaec44e011b4ea06f8851d169ac20996214197235_640.jpg"
+      },
+      {
+        "id": "pixabay-8031511",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/mountains-starry-sky-milky-way-8031511/",
+        "fotografo": "Kanenori",
+        "fotografo_url": "https://pixabay.com/users/Kanenori-4749850/",
+        "alt": "mountains, starry sky, milky way, universe, japan, nature, yakushima, landscape",
+        "src": "https://pixabay.com/get/gfa670c3f29850d5168653c4c872d1c3342ec2d1417ec74e24e1c99981c74a594a49a330b102b5e92eef043c4d506f6f4e7c342b413a83de35ba70f207fbddd2a_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g4dd5e987fa11f5c9cc3d73c7318a683b8e953dc1ed59947ee8e1fb887d60096812740d7e9d37f88d9f6b1f1479772d97ef9e246782b22d2e5c127f3d61b3c395_640.jpg"
+      }
+    ]
+  },
+  "6.2": {
+    "busca": "sleeping peaceful night lamp",
+    "escolhida": {
+      "id": "pixabay-2606260",
+      "banco": "Pixabay",
+      "pagina": "https://pixabay.com/photos/bed-child-light-night-sleep-rest-2606260/",
+      "fotografo": "StockSnap",
+      "fotografo_url": "https://pixabay.com/users/StockSnap-894430/",
+      "alt": "bed, child, light, night, sleep, rest, people, pillows, lamp, sheet, bedding, brown sleep, brown night, brown sleeping, brown bed, brown lamp, bed, sleep, sleep, sleep, sleep, sleep",
+      "src": "https://pixabay.com/get/g678afb1fb4152059ef79b810a28fe6ff7230c9fc85de7d57ef332f70147b657b151c19196ef43598dc9ef39bf90949927b4f7e03302b18324a904cce25169340_1280.jpg",
+      "miniatura": "https://pixabay.com/get/gfb2bc2c89acfa002033e628aa4eb4d70f68bc757ff2db36c35ebe126a58cfba9b294466d07e742a1ad0d54a29ae98538668457266d3988e9fe4a78f94b40a7ef_640.jpg"
+    },
+    "candidatas": [
+      {
+        "id": "pixabay-2606260",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/bed-child-light-night-sleep-rest-2606260/",
+        "fotografo": "StockSnap",
+        "fotografo_url": "https://pixabay.com/users/StockSnap-894430/",
+        "alt": "bed, child, light, night, sleep, rest, people, pillows, lamp, sheet, bedding, brown sleep, brown night, brown sleeping, brown bed, brown lamp, bed, sleep, sleep, sleep, sleep, sleep",
+        "src": "https://pixabay.com/get/g678afb1fb4152059ef79b810a28fe6ff7230c9fc85de7d57ef332f70147b657b151c19196ef43598dc9ef39bf90949927b4f7e03302b18324a904cce25169340_1280.jpg",
+        "miniatura": "https://pixabay.com/get/gfb2bc2c89acfa002033e628aa4eb4d70f68bc757ff2db36c35ebe126a58cfba9b294466d07e742a1ad0d54a29ae98538668457266d3988e9fe4a78f94b40a7ef_640.jpg"
+      },
+      {
+        "id": "pixabay-8003369",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/woman-sleep-bedroom-bed-lamp-8003369/",
+        "fotografo": "MARXCINE",
+        "fotografo_url": "https://pixabay.com/users/MARXCINE-9709625/",
+        "alt": "woman, sleep, bedroom, bed, lamp, night, sleep, sleep, sleep, sleep, sleep",
+        "src": "https://pixabay.com/get/g820bab1058460b0e0cf132ae2f9f43aad8aba433b78333214c31eee9fe54f38f1fc52f73856088418aff634b7e2ab41d48dc0ba9f1504b368597e042d6f0a630_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g940e9e99cafb870e0a1489ffd6cb6545cbd89a551a933d8c609e9bc2021826696a32472546f32af1aca471e35d73a02e760a05aae7e151931d81745fa0c99a7e_640.jpg"
+      },
+      {
+        "id": "pixabay-4067403",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/amelie-movie-face-expensive-woman-4067403/",
+        "fotografo": "kathGA",
+        "fotografo_url": "https://pixabay.com/users/kathGA-6704759/",
+        "alt": "amelie, movie, face, expensive, woman, model, young, sleep, women, make-up",
+        "src": "https://pixabay.com/get/g9e0a50e8fb4cbe4d1d5f75a7849d512218d14672e7640b1dae668de54474942cd817f4310b10bacc510d7d0c2626f798742272ad9b44c8c67d953b4231c9cdc6_1280.jpg",
+        "miniatura": "https://pixabay.com/get/gb15562acb3f3adcd4266954c44de8496b4f81df5b6d3d11de06166faf37613c51ef7c7ca2fd667977905875ba289cb5f9517b29892e12d4d93f3f667bf3ab071_640.jpg"
+      },
+      {
+        "id": "pixabay-1822614",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/boy-sitting-lantern-outdoors-asia-1822614/",
+        "fotografo": "sasint",
+        "fotografo_url": "https://pixabay.com/users/sasint-3639875/",
+        "alt": "boy, sitting, lantern, outdoors, asia, vietnam, dawn, evening, lamp, light, morning, nature, dusk, alone, lonely, calm, peaceful, landscape, boy, boy, light, morning, nature, nature, nature, alone, alone, alone, alone, alone, lonely, calm, landscape",
+        "src": "https://pixabay.com/get/g5dd6390cf57fa22853cf5b0ab96fcfa603ea005c3d3a596cc7329bafc0e00c3a2de124a32519f9b2a96bd98bcaacb6479a514849b628bd876dc72932fdfad44d_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g16dd5a7f07d31314043ccc25db444ccafd864403276db67b87ed332b1a847438713482a20daebcc4a1a8c9877d8e550eea58d841bbc1a7c9b32fc18a5efe836d_640.jpg"
+      },
+      {
+        "id": "pixabay-9972634",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/newborn-creative-photography-9972634/",
+        "fotografo": "bongbabyhousevn",
+        "fotografo_url": "https://pixabay.com/users/bongbabyhousevn-15950077/",
+        "alt": "newborn, creative photography, sleeping baby, blue color, moon and stars, baby studio, peaceful, baby hat, swaddle wrap, moonlight, newborn in studio, soft fabric, baby photography, fabric with stars, night sky, newborn with hat, snug baby, baby portrait, dreamy, newborn pose",
+        "src": "https://pixabay.com/get/ge96f01e52d59c8ecefdf6bc3529e38646faa76a13e654b9809d78cce6674f5463832fa748daa2c1d042b84a79aaff7e5f8d2939b543b2d7a83620355fd7d1edd_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g26629d3c1a4ec0342abe0933f351b130ed2f5595d837c8887ee57cfe27c7f6ac2c5bcf3c999e9c19e858603924404e01bb743140f816b8061b95a09a20218c37_640.jpg"
+      },
+      {
+        "id": "pixabay-9304008",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/baby-newborn-little-child-sleep-9304008/",
+        "fotografo": "bongbabyhousevn",
+        "fotografo_url": "https://pixabay.com/users/bongbabyhousevn-15950077/",
+        "alt": "baby, newborn, little, child, sleep, cute, dream, moon, night, dark, young, star",
+        "src": "https://pixabay.com/get/g5944a2f16e1b235ac373fd953dfac39d444dc0335937e8213ad70da89b2d3508e4a277377f58bb801582cbf6a4306d654f17bc81c15fadf5dbd175440561ee53_1280.jpg",
+        "miniatura": "https://pixabay.com/get/gf783e1072742f0615b1146c63d5bcb1b8eca44effb47ddec50e88f274ace80ab0aa8e60ff581d5fa60caf79a5e3ffa97d6d9a0ce4ba04dca3c387a6291bb4695_640.jpg"
+      }
+    ]
+  },
+  "7.1": {
+    "busca": "dawn window light bedroom",
+    "escolhida": {
+      "id": "pixabay-4955125",
+      "banco": "Pixabay",
+      "pagina": "https://pixabay.com/photos/architecture-room-bed-design-4955125/",
+      "fotografo": "BENG-ART",
+      "fotografo_url": "https://pixabay.com/users/BENG-ART-10416073/",
+      "alt": "architecture, room, bed, design, luxury",
+      "src": "https://pixabay.com/get/gf77c1f64b923e1840346b25486067df40cde9287d47d73ab7461a2b4be01892c3fce44098a5c8299cd63dd0cae4de41fa17c97f9099eef21583e106078987444_1280.jpg",
+      "miniatura": "https://pixabay.com/get/g1639ea69d2178440fb50c2096a0ebaabee24a63d73a74348245bf2b215281080817ae86bdfa096cfe333a929f879bbeb045828e7cae4af24a32d82cfd658894d_640.jpg"
+    },
+    "candidatas": [
+      {
+        "id": "pixabay-4955125",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/architecture-room-bed-design-4955125/",
+        "fotografo": "BENG-ART",
+        "fotografo_url": "https://pixabay.com/users/BENG-ART-10416073/",
+        "alt": "architecture, room, bed, design, luxury",
+        "src": "https://pixabay.com/get/gf77c1f64b923e1840346b25486067df40cde9287d47d73ab7461a2b4be01892c3fce44098a5c8299cd63dd0cae4de41fa17c97f9099eef21583e106078987444_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g1639ea69d2178440fb50c2096a0ebaabee24a63d73a74348245bf2b215281080817ae86bdfa096cfe333a929f879bbeb045828e7cae4af24a32d82cfd658894d_640.jpg"
+      },
+      {
+        "id": "pixabay-10519593",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/luxury-interior-bedroom-with-sea-view-10519593/",
+        "fotografo": "GraphixMade",
+        "fotografo_url": "https://pixabay.com/users/GraphixMade-24773918/",
+        "alt": "luxury interior, bedroom with sea view, marble wall, luxury chandelier, contemporary design, ambient lighting, open space, panoramic view, wooden floor, minimalist style, outdoor terrace, exclusive amenities, fully equipped wardrobe, comfort and elegance, gourmet experience, luxury decor, private residence, fireplace ambience",
+        "src": "https://pixabay.com/get/g04be903d30fefe792391deb2fcc2321eb358fb1cd780e81ac26afd9b48c3a0135063ee2cbd34af5abc822b011e8cc973414ecb62ef3d961684cfb7a8d8f093d5_1280.png",
+        "miniatura": "https://pixabay.com/get/g29a7a1dfbbd8270bf4b12a70e62baf9a44d1822345228d2a8314a3ce7ee23aee06a1d3890d3a0debb10685138d7061ff9c46819b6de3ef81d5b22cc88c52d08c_640.png"
+      },
+      {
+        "id": "pixabay-8407977",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/bed-room-hotel-bedroom-interior-8407977/",
+        "fotografo": "HomeoGrapher",
+        "fotografo_url": "https://pixabay.com/users/HomeoGrapher-39677170/",
+        "alt": "bed, room, hotel, bedroom, interior, furniture, home, lamp, luxury, sofa, house, design, comfortable, pillows, apartment, bedding, decor, travel, mattress, couch, light, indoor, relax",
+        "src": "https://pixabay.com/get/g6c1a3ab9dbd7ad744ceb9826166694511b14d22207d31ef7c75c949d3b01b9881b62a1ec18d1efb8e9728d35b18fe98789ea5d98ee285cccab3646437f817388_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g3bf80ad0992e3adc68f38aea928511c1a6d525fc485d53b36daed1ac3775b04d985fd21dc5d63cc2208c39e3b67015139394d799e56f8113852a130f9fb0f6df_640.jpg"
+      },
+      {
+        "id": "pixabay-416062",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/bedroom-bed-apartment-room-416062/",
+        "fotografo": "keresi72",
+        "fotografo_url": "https://pixabay.com/users/keresi72-16512/",
+        "alt": "bedroom, bed, apartment, room, interior design, decoration, sleeping, cozy, bedroom furniture, beddings, interior decoration, home furniture, interior, indoors, bedroom, bedroom, bedroom, bedroom, bedroom, bed, bed, room, room, interior design",
+        "src": "https://pixabay.com/get/g737a1bcd94ffe05dbfe8bc4ff136dd2a74e00a0ab6e90e7e8b6527a3831f5a2ee5a4b7c7d47e737ac5e52c01f465fba28b038d47597aff45d98652b49d191a47_1280.jpg",
+        "miniatura": "https://pixabay.com/get/gc03dfca5fd7dd055078241c48b01b9e7bc2798ebe553f318d738ea5229842a07d17c5c8e6e217365cc3462253fb7791f_640.jpg"
+      },
+      {
+        "id": "pixabay-1872196",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/bedroom-cupboard-bed-room-sofa-1872196/",
+        "fotografo": "manbob86",
+        "fotografo_url": "https://pixabay.com/users/manbob86-2516790/",
+        "alt": "bedroom, cupboard, bed, room, sofa, window, living room, modern, bedroom, bedroom, bedroom, bedroom, room, room, room, room, room, window, living room, living room, living room, living room",
+        "src": "https://pixabay.com/get/g7316bdb7424a8dc0b189d687ba559fe39b25caf63b4163417c289bac17efb071d71be5cbe09b8d529991f950708278b77946fcb34e5dfd5056a0ff934ced0b12_1280.jpg",
+        "miniatura": "https://pixabay.com/get/gf739071b66991468c60c3170ad3b20c9f6c24b05e9568ac3ffcce2b3db7be3e5e02ca27a9e76ff32440e668c73d4957af619e54e4e38d12a4218923e2917d06e_640.jpg"
+      },
+      {
+        "id": "pixabay-3104077",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/reside-bedroom-architecture-modern-3104077/",
+        "fotografo": "PIRO4D",
+        "fotografo_url": "https://pixabay.com/users/PIRO4D-2707530/",
+        "alt": "reside, bedroom, architecture, modern, window, wall, concrete, luxury, house, empty, stone, contemporary, 3d, lifestyle, bed, bedroom, bedroom, bedroom, bedroom, bedroom, window, wall, wall, house, house, bed, bed, bed, bed",
+        "src": "https://pixabay.com/get/g6c413e5927a7e20b7c21724f630aba2cb0f0bbc04bbd6b22713296d05207e58efed87263b4d8618740caa48931808f6a3f7da84edf32d04d85024e2c21ccde9a_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g1b68390ae9ffb4acf8201e60fd58225e2dd63447de5fdcb13b25ec076557192c8acc262dc6f32b1c34cf146bab265ef95df921d9b447cf34887e94bdb5075df6_640.jpg"
+      }
+    ]
+  },
+  "7.2": {
+    "busca": "night city lights calm",
+    "escolhida": {
+      "id": "pixabay-5423736",
+      "banco": "Pixabay",
+      "pagina": "https://pixabay.com/photos/night-city-sea-architecture-urban-5423736/",
+      "fotografo": "AveCalvar",
+      "fotografo_url": "https://pixabay.com/users/AveCalvar-17265152/",
+      "alt": "night, city, sea, architecture, urban, business, dark, japan, lights, building, cityscape, singapore, skyscrapers, skyline, alone, paris, camera, nature, dubai, amsterdam, toronto, thailand, modern, buildings, travel, neon",
+      "src": "https://pixabay.com/get/g24f8ee5b8ecf594f4b5f2974e00fc6ead0001a0d900d9d434bffed43e9926458b92454690d7b57579f2fc7d8e932289c13d0ff289092fefd8b2886897c445431_1280.jpg",
+      "miniatura": "https://pixabay.com/get/g12f363024cf8993bca8d9f6f9662e1554a378ed604357b36a8893684c1e3727e4bf512f83b2ce5d5e58192cc1603b6c627d487f075b3964e34b877ffe312b834_640.jpg"
+    },
+    "candidatas": [
+      {
+        "id": "pixabay-5423736",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/night-city-sea-architecture-urban-5423736/",
+        "fotografo": "AveCalvar",
+        "fotografo_url": "https://pixabay.com/users/AveCalvar-17265152/",
+        "alt": "night, city, sea, architecture, urban, business, dark, japan, lights, building, cityscape, singapore, skyscrapers, skyline, alone, paris, camera, nature, dubai, amsterdam, toronto, thailand, modern, buildings, travel, neon",
+        "src": "https://pixabay.com/get/g24f8ee5b8ecf594f4b5f2974e00fc6ead0001a0d900d9d434bffed43e9926458b92454690d7b57579f2fc7d8e932289c13d0ff289092fefd8b2886897c445431_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g12f363024cf8993bca8d9f6f9662e1554a378ed604357b36a8893684c1e3727e4bf512f83b2ce5d5e58192cc1603b6c627d487f075b3964e34b877ffe312b834_640.jpg"
+      },
+      {
+        "id": "pixabay-5277504",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/dark-lamp-shining-street-mountain-5277504/",
+        "fotografo": "Hoangcan",
+        "fotografo_url": "https://pixabay.com/users/Hoangcan-16488555/",
+        "alt": "dark, lamp, shining, street, mountain, nature, people, night, city, cold, shadow, lake",
+        "src": "https://pixabay.com/get/g413c9a4707bb99b3a5b8754dd612f4d5ff695d8251c1e9af672df1e317eebcd71a4bab27bead7d1d20921a089d59a6a8ca24205ee064a224e064ae392a7d1284_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g455ddab2e06a2207bf6b2c0f5d81eaee3c975ee8b2d58ff898bbac14616d625b7551c00b87597f16f7dcf3d89ee1cdf4a5ebb8cedaa777589444ee4515a85bb5_640.jpg"
+      },
+      {
+        "id": "pixabay-5423737",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/night-lighthouse-city-light-beacon-5423737/",
+        "fotografo": "AveCalvar",
+        "fotografo_url": "https://pixabay.com/users/AveCalvar-17265152/",
+        "alt": "night, lighthouse, city, light, night sky, beacon, sea, clouds, dark, coast, glow, rays, atmospheric, darkness, sky, holland, nature, moon, building, tower, evening, sunset, ocean, composing, cosmic, horizon, weather",
+        "src": "https://pixabay.com/get/gbbc4d34d2beec965ad612f6bce9ced0dddf290d6ef84b7557386cf442cd2a7d07eb57cb1c39ddf3e682eebcb8e0cff93451ee1963b531b75bd3c9406588380ec_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g6db08835bd78cb69a286bd3345b036b0089afbe7495131093dbf0e655d3e2df271948ca89f4aa926057415ddaaaf983bbd51ce182dd6b8b21623f24cedc3e2e0_640.jpg"
+      },
+      {
+        "id": "pixabay-4719888",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/crete-rethymno-port-historic-center-4719888/",
+        "fotografo": "burjuva",
+        "fotografo_url": "https://pixabay.com/users/burjuva-4704653/",
+        "alt": "crete, rethymno, port, historic center, full moon, night, rethymno, rethymno, rethymno, rethymno, rethymno",
+        "src": "https://pixabay.com/get/g450e1d0704f55a11a978b9aeaa94acbd4beff9dfdbf327373004cb13774dc6e81cd76971b9084598ec3ae1f1980f55ab3ae174dea4e5fb01af845e04b8f80664_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g6afeb812f51e6fa523ffc001a2aed68cbf7b8482286d8f71c8c693e9587f72e4a3e730e1f88a381d2c5474001b9c8bdcb0e8d7ec62c90bb2a7909394b1a920d2_640.jpg"
+      },
+      {
+        "id": "pixabay-10218344",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/woman-night-car-dreamy-portrait-10218344/",
+        "fotografo": "videophotoart",
+        "fotografo_url": "https://pixabay.com/users/videophotoart-12878064/",
+        "alt": "woman, night, car, dreamy, portrait, urban, bokeh, city, lights, model, fashion, nightscape, emotions, loneliness, car wallpapers, contemplation, cityscape, illuminated, profile, blurred, atmosphere",
+        "src": "https://pixabay.com/get/gf052af16ebf634d5575a22eb0c2f9f444cafbce09b6825024ddd3fbe162e7d14f73c02346227529d7c070adc46e9a8a4c949697c27b9d81316fbf933255813d4_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g8bf3ed754b3edb363b0aefb86655b6185908bec013f8aed6f9efc10f75b73cb2e88102fe44eb66ae8934d50a500a6cc5aa36062d1a2b49694cc01a394b204f60_640.jpg"
+      },
+      {
+        "id": "pixabay-7226997",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/lake-maggiore-city-night-evening-7226997/",
+        "fotografo": "adege",
+        "fotografo_url": "https://pixabay.com/users/adege-4994132/",
+        "alt": "lake maggiore, city, nature, night, evening, lake, ticino, gambarogno, landscape, brissago, panorama",
+        "src": "https://pixabay.com/get/g94a6c727063e65cb2ad67a5e33c6ff66272acb8168fc66443962dfd01c390467d055b74f0846f01b6a320e03a9c3147c7b74225e4acf180aacd28917d9325ff2_1280.jpg",
+        "miniatura": "https://pixabay.com/get/gcee1b71b6f4afe03424b13f794277b25262d67f7b07547248743a3da5c098a0c1ea55cd20c1efe6425fc452de65f5d5bc1d94b63494d268c875d90d85a61ccb8_640.jpg"
+      }
+    ]
+  },
+  "8.1": {
+    "busca": "moonlight sea calm",
+    "escolhida": {
+      "id": "pixabay-1587278",
+      "banco": "Pixabay",
+      "pagina": "https://pixabay.com/photos/italy-sicily-sea-ocean-reflections-1587278/",
+      "fotografo": "12019",
+      "fotografo_url": "https://pixabay.com/users/12019-12019/",
+      "alt": "italy, sicily, sea, ocean, reflections, nature, hdr, sunset, twilight, dusk, evening, moon, silhouettes, sky, clouds, beautiful, peaceful, tranquility, serenity, solitude, outcrop, crag, formation, panorama, blue sky, blue sunset, blue sea, blue moon, blue clouds, blue beauty, blue ocean, night sky, blue peace",
+      "src": "https://pixabay.com/get/g19a13664e0bc876047bf2c072a33508ca7613e6880457f8eb760ff579c34754bb29638cedb85697fb65258e118e1b186176457bafe935a3bcf477932868aae9b_1280.jpg",
+      "miniatura": "https://pixabay.com/get/gd6fb39fb0301b2f7f9d927a75ee4d7a1927683336ed1feb7fe60aad60c495b5b10c3f46d16c162e0c9205df5258fe8fc842fb94e3a1c2b3e00930440e828c797_640.jpg"
+    },
+    "candidatas": [
+      {
+        "id": "pixabay-1587278",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/italy-sicily-sea-ocean-reflections-1587278/",
+        "fotografo": "12019",
+        "fotografo_url": "https://pixabay.com/users/12019-12019/",
+        "alt": "italy, sicily, sea, ocean, reflections, nature, hdr, sunset, twilight, dusk, evening, moon, silhouettes, sky, clouds, beautiful, peaceful, tranquility, serenity, solitude, outcrop, crag, formation, panorama, blue sky, blue sunset, blue sea, blue moon, blue clouds, blue beauty, blue ocean, night sky, blue peace",
+        "src": "https://pixabay.com/get/g19a13664e0bc876047bf2c072a33508ca7613e6880457f8eb760ff579c34754bb29638cedb85697fb65258e118e1b186176457bafe935a3bcf477932868aae9b_1280.jpg",
+        "miniatura": "https://pixabay.com/get/gd6fb39fb0301b2f7f9d927a75ee4d7a1927683336ed1feb7fe60aad60c495b5b10c3f46d16c162e0c9205df5258fe8fc842fb94e3a1c2b3e00930440e828c797_640.jpg"
+      },
+      {
+        "id": "pixabay-3054804",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/fantasy-illusion-lie-3054804/",
+        "fotografo": "512893",
+        "fotografo_url": "https://pixabay.com/users/512893-512893/",
+        "alt": "fantasy, illusion, lie, fantasy, fantasy, illusion, illusion, illusion, illusion, illusion, lie",
+        "src": "https://pixabay.com/get/gfb4a052e343b9c47f0a26a15d32d38a1611c0d4738ec69661c765d60ad64c7d16172620dd1d0f05c21d2f0d5ce139e787499d09a1026a846532577faf2a190f8_1280.jpg",
+        "miniatura": "https://pixabay.com/get/gaff4f369b7c811c0728d5f9723f657867a8040ceeaa6e5b33d9131f2ab47b85b2e4af10f7ac8c7851d3b264234e78cc13c4e4edc346aa682160fcb8bc1a2dd38_640.jpg"
+      },
+      {
+        "id": "pixabay-5175691",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/moon-night-reflection-dark-5175691/",
+        "fotografo": "susan-lu4esm",
+        "fotografo_url": "https://pixabay.com/users/susan-lu4esm-7009216/",
+        "alt": "moon, nature, night, reflection, dark, full moon, moonlight, dusk, night sky, sea, calm down",
+        "src": "https://pixabay.com/get/g86458aadfa54d81bae192ddb51a5f758922817103e326b5a337f10577a71dc16affe3060184b539a7b44579b8ba96c6eaa4d853e352022c2ebed68b95832296f_1280.jpg",
+        "miniatura": "https://pixabay.com/get/gaf246c3d6bfc4ed6629653dd6381eddc88950f73cb2822ee253093aba07a0e46fef5a21d438b05189df9ec7a7cf89011d3a86d134f3344de6b200d7cbd0f4c10_640.jpg"
+      },
+      {
+        "id": "pixabay-2927115",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/sea-night-moon-shine-light-2927115/",
+        "fotografo": "Arcaion",
+        "fotografo_url": "https://pixabay.com/users/Arcaion-2057886/",
+        "alt": "sea, nature, night, moon, shine, light, the horizon, dark, twilight, darkness, the baltic sea, evening, water, clouds, smooth, blue, navy blue, color",
+        "src": "https://pixabay.com/get/gb8e6db77ef0bad739af6b593f22f9d267bae7568f86bdaec6cdda54fcae3223b8f7724c7ce468af07c0b371c53628f5cb5dbfce64b28056369bbb6edf657933c_1280.jpg",
+        "miniatura": "https://pixabay.com/get/ge7f2dd6b872419563fa6030e4d8b345bb875399bd9d885810a3255bc0ef96088afcfae6a9b8f804edffcb7b490dd6144da617f94293ff9d30072335c5f9f1695_640.jpg"
+      },
+      {
+        "id": "pixabay-3232487",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/moon-astronomy-darling-nature-3232487/",
+        "fotografo": "bigprinting",
+        "fotografo_url": "https://pixabay.com/users/bigprinting-1066925/",
+        "alt": "moon, astronomy, darling, nature, darkness, moon, moon, moon, moon, moon",
+        "src": "https://pixabay.com/get/g3462abc0f6d6af2d785a698713e35006e3ab5f8104904da45aeebfdc6beb8eee5b531f1f2f6a3f4335725af1abc8742e1e73328870bb65e904d27cbc75448272_1280.jpg",
+        "miniatura": "https://pixabay.com/get/gdb1bc052177ba14b9dce3dc6b40429aab60b0ba9472720c3fe5fe4384fb822af96cbeff7c137262083a92aa2d473330b1a479749a5232fdf5b24e3b295674d99_640.jpg"
+      },
+      {
+        "id": "pixabay-7965365",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/moon-sky-clouds-night-dark-ocean-7965365/",
+        "fotografo": "flutie8211",
+        "fotografo_url": "https://pixabay.com/users/flutie8211-17475707/",
+        "alt": "moon, laptop wallpaper, cool backgrounds, sky, beautiful nature, mac wallpaper, clouds, night sky, night, hd wallpaper, dark, nature, desktop backgrounds, ocean, full hd wallpaper, windows wallpaper, coffee cup, free wallpaper, wallpaper 4k, sea, reflection, sky background, ledge, cup, wallpaper hd, coffee, hot drink, steam, nature background, relaxing, view, beautiful wallpaper, 4k wallpaper, peaceful, seascape, free background, wallpaper, 4k wallpaper 1920x1080, nature wallpaper, greeting card",
+        "src": "https://pixabay.com/get/g5054aa215e49509437e7e3155ef5a2da1907fc0332e0954cec41b31c9e199da247d49f13726c5aa4aee64e03aabe75ff876248fae8776ef92ed0296e3d4f8663_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g967a86af0af0a9855518b277fd6a3d06afe0a768efba40c41881978d6e8cf6b96ddca41cf9f6f41209c8bb2d328a42c517e4a7cd115045bd70a5356f19006d7c_640.jpg"
+      }
+    ]
+  },
+  "9.1": {
+    "busca": "night sky milky way",
+    "escolhida": {
+      "id": "pixabay-2750627",
+      "banco": "Pixabay",
+      "pagina": "https://pixabay.com/photos/milky-way-stars-night-sky-2750627/",
+      "fotografo": "Felix-Mittermeier",
+      "fotografo_url": "https://pixabay.com/users/Felix-Mittermeier-4397258/",
+      "alt": "milky way, laptop wallpaper, hd wallpaper, free wallpaper, space wallpaper, beautiful wallpaper, 4k wallpaper, windows wallpaper, wallpaper hd, stars, 4k wallpaper 1920x1080, night sky, starry sky, desktop backgrounds, cool backgrounds, wallpaper 4k, full hd wallpaper, night, free background, mac wallpaper, space, cosmos, universe, background, evening, constellation, wallpaper",
+      "src": "https://pixabay.com/get/gaea7f4bd75fe6db7b328cb51e3593e1704a3f686985478edb720616e8f0bf94731336868b61f0e1d27cc7d045a2db3c0337743e08ab3ec720794ae176dff249d_1280.jpg",
+      "miniatura": "https://pixabay.com/get/g437b6bcd50164c8fbb80915c19e1aa64e6652bf0a5802585a14b68b40e77d151d62e597d8c5084447caabdc3a1378ede67d005bcfbdcf5174d6ebafabf0e1710_640.jpg"
+    },
+    "candidatas": [
+      {
+        "id": "pixabay-2750627",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/milky-way-stars-night-sky-2750627/",
+        "fotografo": "Felix-Mittermeier",
+        "fotografo_url": "https://pixabay.com/users/Felix-Mittermeier-4397258/",
+        "alt": "milky way, laptop wallpaper, hd wallpaper, free wallpaper, space wallpaper, beautiful wallpaper, 4k wallpaper, windows wallpaper, wallpaper hd, stars, 4k wallpaper 1920x1080, night sky, starry sky, desktop backgrounds, cool backgrounds, wallpaper 4k, full hd wallpaper, night, free background, mac wallpaper, space, cosmos, universe, background, evening, constellation, wallpaper",
+        "src": "https://pixabay.com/get/gaea7f4bd75fe6db7b328cb51e3593e1704a3f686985478edb720616e8f0bf94731336868b61f0e1d27cc7d045a2db3c0337743e08ab3ec720794ae176dff249d_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g437b6bcd50164c8fbb80915c19e1aa64e6652bf0a5802585a14b68b40e77d151d62e597d8c5084447caabdc3a1378ede67d005bcfbdcf5174d6ebafabf0e1710_640.jpg"
+      },
+      {
+        "id": "pixabay-3605547",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/ocean-milky-way-boat-sailing-3605547/",
+        "fotografo": "jplenio",
+        "fotografo_url": "https://pixabay.com/users/jplenio-7645255/",
+        "alt": "ocean, wallpaper 4k, milky way, cool backgrounds, wallpaper hd, beautiful nature, hd wallpaper, boat, sailing, 4k wallpaper 1920x1080, free background, reflection, full hd wallpaper, sea, sky background, beautiful wallpaper, water, desktop backgrounds, sailing boat, stars, nature, sky, nature wallpaper, starry, fantasy, night sky, evening, night, scenic, nature background, windows wallpaper, free wallpaper, peaceful, mac wallpaper, mood, panorama, background, desktop background, wallpaper, laptop wallpaper, 4k wallpaper, zoom background",
+        "src": "https://pixabay.com/get/gc9bb036440a3febdc00a92bcb8cc271d13905df4af135a04640358685aaea0537df755ab6d6dceae101fb607c96e6ef87b767dad593f885ad09eff6594692086_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g5cc4596dd98b012a10f4eb03ece20fd322717d66ce74b0f0c07244a8282eeaa2bb435d7c97ff8fde13149997bfe5d03bd4c2eadbebe9c4bc1b1a1ec212bd8acc_640.jpg"
+      },
+      {
+        "id": "pixabay-2675322",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/starry-sky-night-sky-stars-night-2675322/",
+        "fotografo": "Felix-Mittermeier",
+        "fotografo_url": "https://pixabay.com/users/Felix-Mittermeier-4397258/",
+        "alt": "starry sky, hd wallpaper, night sky, stars, 4k wallpaper 1920x1080, full hd wallpaper, wallpaper 4k, night, sky, free wallpaper, space, wallpaper hd, cool backgrounds, nature background, cosmos, beautiful wallpaper, astro, laptop wallpaper, astronomy, beautiful nature, nature wallpaper, desktop backgrounds, universe, windows wallpaper, 4k wallpaper, galaxies, dark, evening, night photography, nature, free background, constellation, space wallpaper, mac wallpaper, sky background, astrophotography, milky way, background, wallpaper, infinity",
+        "src": "https://pixabay.com/get/gcb358b82b1b3db95f2539bc4963fde32ab90176cd9b8aae63201501c6e77edaf7c1534725e02a209e7fb59594dd59d2bb5c4f8a5e75dfdf46d262e7af2d00b56_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g6b10a5677e03fa738f6a607c376fe14fc354fb319365bc8e0e94a733994c41d5e58c2069733de4ddfe885614b1c0d33f7d0acd9b8d823cdd7856084ac88fb811_640.jpg"
+      },
+      {
+        "id": "pixabay-10506842",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/night-sky-starry-sky-nature-space-10506842/",
+        "fotografo": "Tama66",
+        "fotografo_url": "https://pixabay.com/users/Tama66-1032521/",
+        "alt": "night sky, starry sky, nature, space, stars, mountains, galaxy, sky, dawn, distant planet, moon, astronomy, cosmos, mood, beauty, panorama, landscape, rocks, natural beauty, silhouette, romantic",
+        "src": "https://pixabay.com/get/g385b17c6ed7f9a9471af85a8b9db393e9b1a633a59f4ad968490eee49a9431e301826333985d457d88cd482403a2eac6c8e2ce6c586f2e439400cf65565ca519_1280.jpg",
+        "miniatura": "https://pixabay.com/get/gc550452a2033371a92baaf91f44b01304e5a88bee022d9cd65bbac428d735a5427df17cac88ac417725360f06eb76948270dbb448a3257616809905b8f7d5a91_640.jpg"
+      },
+      {
+        "id": "pixabay-1851128",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/constellations-stargazing-person-1851128/",
+        "fotografo": "Pexels",
+        "fotografo_url": "https://pixabay.com/users/Pexels-2286921/",
+        "alt": "constellations, 4k wallpaper, 4k wallpaper 1920x1080, stargazing, cool backgrounds, person, starry, mac wallpaper, laptop wallpaper, starry night, starry sky, cosmos, dark, wallpaper 4k, space wallpaper, full hd wallpaper, desktop backgrounds, exploration, galaxy, free background, light, windows wallpaper, milky way, night, wallpaper hd, space, hd wallpaper, stars, free wallpaper, beautiful wallpaper, space background, wallpaper",
+        "src": "https://pixabay.com/get/gfbfaadecdde0b8868a505d8061533179541cf803cf1174b5a3e2c72a979b658916049fa600322140e783ebebcc7d952a05070a4ac803c77054837a046d13f4a0_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g09c98ce49d078d7f82a1f0603def73afe562a224cc3f6e083132f5bb225571251f68522b156c3d7492058ee56156014eef83aaa525f9c3dd87b4bf427611beb1_640.jpg"
+      },
+      {
+        "id": "pixabay-10398079",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/stars-milky-way-night-sky-10398079/",
+        "fotografo": "r-q",
+        "fotografo_url": "https://pixabay.com/users/r-q-3635702/",
+        "alt": "stars, milky way, night sky, star field, desert, sand dune, sunrise, cosmos, astronomy, space photography, galaxy, night photography, silence, nature, tranquility, purity, infinity, expanse, mysterious",
+        "src": "https://pixabay.com/get/gca8b701cb3a616c99e27dea911cea528145123f14ec86ac3004a0d00f8a279fa42bbd42571675cbc902d197543a7124ffac91ea3a4fe28a198d4e432b710fe5f_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g18af1e2b891e5b745f1c84a6cda8aad838131e74ea3cd20e0b117d4504efe7c8c2fb1f0e938c09a858a75c78739258613c9bc9723e3a1d0ff06b77da8665c22c_640.jpg"
+      }
+    ]
+  },
+  "9.2": {
+    "busca": "night lake reflection",
+    "escolhida": {
+      "id": "pixabay-7938396",
+      "banco": "Pixabay",
+      "pagina": "https://pixabay.com/photos/lake-cherry-blossoms-sunset-7938396/",
+      "fotografo": "Kanenori",
+      "fotografo_url": "https://pixabay.com/users/Kanenori-4749850/",
+      "alt": "lake, cherry blossoms, sunset, night view, nature, lake biwa, street light, japan",
+      "src": "https://pixabay.com/get/g89ea3bf75b4268c7b255642813da463f24f0df4b5d7e8ce420d481010d5e7a731d96908798e0eb6ecbb84f9fa4a1a30b57177c75a8ee894f2f6b1d367980f926_1280.jpg",
+      "miniatura": "https://pixabay.com/get/gfa29479ad793355ce0272fc36036eeb1702c84c550639d5fdf8453e5c59aa0055d1bff556b9754203e869ce994049c6eff10f33099bcdfcf5e263229ebe348f6_640.jpg"
+    },
+    "candidatas": [
+      {
+        "id": "pixabay-838667",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/tree-lake-stars-reflection-water-838667/",
+        "fotografo": "Bessi",
+        "fotografo_url": "https://pixabay.com/users/Bessi-909086/",
+        "alt": "tree, lake, stars, reflection, water, calm, tranquil, nature, scene, night sky, beautiful",
+        "src": "https://pixabay.com/get/g6ffc17186d1feb99dbe09813e0e17053799ce54b545d829a3b2ee047ce0de9e6de91de2dff645279a2d289e2012719ca3c060d62324db86eefa40e3f0612e77b_1280.jpg",
+        "miniatura": "https://pixabay.com/get/gf8e417bd7998755f0c16672cadd702793a1b1fe5c04f3865988275ced12b666a62a698387720180685ddd0b7b1049237_640.jpg"
+      },
+      {
+        "id": "pixabay-7938396",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/lake-cherry-blossoms-sunset-7938396/",
+        "fotografo": "Kanenori",
+        "fotografo_url": "https://pixabay.com/users/Kanenori-4749850/",
+        "alt": "lake, cherry blossoms, sunset, night view, nature, lake biwa, street light, japan",
+        "src": "https://pixabay.com/get/g89ea3bf75b4268c7b255642813da463f24f0df4b5d7e8ce420d481010d5e7a731d96908798e0eb6ecbb84f9fa4a1a30b57177c75a8ee894f2f6b1d367980f926_1280.jpg",
+        "miniatura": "https://pixabay.com/get/gfa29479ad793355ce0272fc36036eeb1702c84c550639d5fdf8453e5c59aa0055d1bff556b9754203e869ce994049c6eff10f33099bcdfcf5e263229ebe348f6_640.jpg"
+      },
+      {
+        "id": "pixabay-8149815",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/milky-way-universe-stars-night-sky-8149815/",
+        "fotografo": "ChiemSeherin",
+        "fotografo_url": "https://pixabay.com/users/ChiemSeherin-1425977/",
+        "alt": "milky way, free background, universe, desktop backgrounds, full hd wallpaper, stars, 4k wallpaper, night sky, galaxy, cosmos, beautiful wallpaper, 4k wallpaper 1920x1080, cool backgrounds, mac wallpaper, bavaria, landscape, hd wallpaper, windows wallpaper, laptop wallpaper, background, free wallpaper, wallpaper 4k, wallpaper hd, chiemsee",
+        "src": "https://pixabay.com/get/ge2a7837c92fba40802404568a7e60d17a38d3c19e88f92a27d18719e97e32826cb4a20c5d3e03c41d5aa88133fbea50f689d41582b13121998eb603adbb8c40e_1280.jpg",
+        "miniatura": "https://pixabay.com/get/gfb22cccc481f72e11966297a846315795f9d6873096cb93414c520debe524e782780b84670987a63b77f2c54f84e6644cad1b9db0776319c384b6043c7e20718_640.jpg"
+      },
+      {
+        "id": "pixabay-736881",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/tree-lake-reflection-night-sky-736881/",
+        "fotografo": "Bessi",
+        "fotografo_url": "https://pixabay.com/users/Bessi-909086/",
+        "alt": "tree, lake, reflection, night sky, silhouettes, tree silhouette, single tree, water reflection, mirroring, mirror image, starry night, starry sky, calm water, nature, stars",
+        "src": "https://pixabay.com/get/g8fa2ed04d6f3dd3fbf5e9a77b8f3c159b7d60fa96be4c26dd018e63c9de80b2eb8c1a0ebc0e99199654dbf878135d5c027d6118ac321d91cc178087a77a911a4_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g37fbc1f4b0364e1923297c5d828a99ded4505a226e6e7b8f6e4ca23445fa978b983023aa42a74c43fa7335d1e83c544a_640.jpg"
+      },
+      {
+        "id": "pixabay-2111811",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/iceland-aurora-borealis-2111811/",
+        "fotografo": "12019",
+        "fotografo_url": "https://pixabay.com/users/12019-12019/",
+        "alt": "iceland, aurora borealis, northern lights, beautiful, night, sky, landscape, winter, snow, mountains, lake, water, night sky, reflections, nature, outdoors, wilderness, colorful, phenomenon, nature wallpaper, zoom background",
+        "src": "https://pixabay.com/get/g3defb59d159bd00a84d881239622046b57ad394f207ecccba7dccf7d12b70f56be4bf726cbd8074e9cc349eb2fbc15f34ed4cebbc57971a0a7dc833912aabfd2_1280.jpg",
+        "miniatura": "https://pixabay.com/get/ge7fea55f2066a8fddbc68c17aab8eb2081aee16dc675f08cc2ec7790fbb74343d79c3d750541274ff9e488b25a8dbd52dafebf8cebcd1accc86d517b3ba674ae_640.jpg"
+      },
+      {
+        "id": "pixabay-6826698",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/lantern-sea-heaven-beach-water-6826698/",
+        "fotografo": "2780243",
+        "fotografo_url": "https://pixabay.com/users/2780243-2780243/",
+        "alt": "lantern, sea, heaven, beach, water, tree, clouds, riverbank, nature, myfestiveseason, germany, lantern, lantern, lantern, lantern, lantern, heaven, heaven",
+        "src": "https://pixabay.com/get/g55d6bffa5f4bb6ac67064a18d726307308ff8c5d36c2b587133c30df602deb46284d7a40bb19e9c1253a7565064023270417ecb50dd7b4172e5690f23211f6a2_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g357d21a09765fe40be11d724d70689bdef863134254e915acfb6ff1d15c9684439f6f4e155028b0e9a5558f3b0d60c47eea8d0e07b8295a935a7c83f7ba4c59e_640.jpg"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1277 @@
+{
+  "1.1": {
+    "busca": "person praying sunrise field",
+    "escolhida": {
+      "id": "pixabay-1868418",
+      "banco": "Pixabay",
+      "pagina": "https://pixabay.com/photos/man-fog-silhouette-kneeling-kneel-1868418/",
+      "fotografo": "Pexels",
+      "fotografo_url": "https://pixabay.com/users/Pexels-2286921/",
+      "alt": "man, fog, silhouette, kneeling, kneel, pray, praying, male silhouette, praying man, prayer, foggy, misty, haze, mist, dawn, dusk, landscape, outdoors, person, pray, pray, pray, praying, praying, prayer, prayer, prayer, prayer, prayer",
+      "src": "https://pixabay.com/get/gf6536671bab562036c4fc984a3939e0cae024ebd120b7b5f10cce2162fd4648450729c9f28fb73aa1399519718440104ce95356902b0ea5fa4d175fa2b5ec485_1280.jpg",
+      "miniatura": "https://pixabay.com/get/g0c367c3044ff47d4df608af0199440be25004f5fda69562593aa42255332bdfc8d3c5f9455e8cbf42902a3ab0cfb82405ef788778fc3b5c5ed4e82abcba20873_640.jpg"
+    },
+    "candidatas": [
+      {
+        "id": "pixabay-1868418",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/man-fog-silhouette-kneeling-kneel-1868418/",
+        "fotografo": "Pexels",
+        "fotografo_url": "https://pixabay.com/users/Pexels-2286921/",
+        "alt": "man, fog, silhouette, kneeling, kneel, pray, praying, male silhouette, praying man, prayer, foggy, misty, haze, mist, dawn, dusk, landscape, outdoors, person, pray, pray, pray, praying, praying, prayer, prayer, prayer, prayer, prayer",
+        "src": "https://pixabay.com/get/gf6536671bab562036c4fc984a3939e0cae024ebd120b7b5f10cce2162fd4648450729c9f28fb73aa1399519718440104ce95356902b0ea5fa4d175fa2b5ec485_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g0c367c3044ff47d4df608af0199440be25004f5fda69562593aa42255332bdfc8d3c5f9455e8cbf42902a3ab0cfb82405ef788778fc3b5c5ed4e82abcba20873_640.jpg"
+      },
+      {
+        "id": "pixabay-9913878",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/vietnam-blind-cang-brush-terraces-9913878/",
+        "fotografo": "Namden",
+        "fotografo_url": "https://pixabay.com/users/Namden-45689105/",
+        "alt": "vietnam, blind cang brush, terraces, mountain, paddy, cloud, nature, sunset, people",
+        "src": "https://pixabay.com/get/g76b4b2e449aab0355f0c34968f5bb55c88b0401971cd4bc587d590caa8b6b4accc927246a97805dd9fd7ad26a4e690823ce105d49f8beca0e4edea93ca224a3d_1280.png",
+        "miniatura": "https://pixabay.com/get/gf2fceacc5c0d73dc03cdd4597a7f19a9daa5f304e9b484eac8005d811b5f733e9b2d94d12b8df2b4dbf9e0e2807182c20d6a8b9bb13968c492e82217f5a24ebb_640.png"
+      },
+      {
+        "id": "pixabay-7489530",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/lavender-field-sunset-clouds-7489530/",
+        "fotografo": "jplenio",
+        "fotografo_url": "https://pixabay.com/users/jplenio-7645255/",
+        "alt": "lavender, field, beautiful nature, hd wallpaper, nature wallpaper, sunset, clouds, landscape, france, provence, nature, agriculture, flower wallpaper, flower background, violet flowers, flowers, bloom, meadow, countryside, beautiful flowers, desktop wallpaper, nature background, dusk",
+        "src": "https://pixabay.com/get/gd9b2063bf08f990648e589ff6516b4ff0612aa9476e1c0491498a2de85565230ae598234f0bbf563cfa967e81f17cf0d963b2d79398565fc622a5907b11e1ea2_1280.jpg",
+        "miniatura": "https://pixabay.com/get/gef4209c06376188344f4925fae9675ed8ddad86fe45869ac4e7e88516f3a66fad983d29440da43939678d9128e11a0115d7cf98b7cedc03706281fea0930e68b_640.jpg"
+      },
+      {
+        "id": "pixabay-5956897",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/person-sit-bench-alone-sitting-5956897/",
+        "fotografo": "Bananayota",
+        "fotografo_url": "https://pixabay.com/users/Bananayota-20054590/",
+        "alt": "person, sit, bench, alone, sitting, human, city view, viewpoint, solitary, solitude, wooden bench, alone, alone, alone, alone, alone, human",
+        "src": "https://pixabay.com/get/gad7c66672ca45bf7eb67682a56a2670d283fe806f1e2abc7e9e9e341895794221b45b6235c5fb4e380a99d0bffdcd17d51a6a3830de1b51bc996f528b3325e9d_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g1cdb116adf60e21f2cade4e82d3c68bf4c6795b2a70021006367fc693735158d60e2e77942eb1ab3f43257accd4b0def64e6216648cdf5209b50d55567e37173_640.jpg"
+      },
+      {
+        "id": "pixabay-1867402",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/blur-close-up-girl-woman-hands-1867402/",
+        "fotografo": "Pexels",
+        "fotografo_url": "https://pixabay.com/users/Pexels-2286921/",
+        "alt": "blur, close-up, girl, woman, hands, model, praying, waiting, patient, hope, hoping, girl, praying, praying, praying, praying, praying, waiting, waiting, patient, hope, hope, hope, hope",
+        "src": "https://pixabay.com/get/gff73660ef2154d88ef191120f5385f12433f99cb00479d5e9fb9b1f66140e73658566ea90255f6ac738d10012555d03c2490560e4237d2df83b5029b24bb9a93_1280.jpg",
+        "miniatura": "https://pixabay.com/get/gc1f87f2e916aa0c6d8c96425475f7044aeca3ef173a96ce3318110eba6bca5c469a159341f24ff42fc6b79eff402f68b1aa16ba2c73e4c48d3b6e6a077f38589_640.jpg"
+      },
+      {
+        "id": "pixabay-8561676",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/sea-beach-man-morning-silhouette-8561676/",
+        "fotografo": "Matthias_Groeneveld",
+        "fotografo_url": "https://pixabay.com/users/Matthias_Groeneveld-4535957/",
+        "alt": "sea, beach, man, morning, silhouette, sunrise, nature, waves, horizon, canary islands, lanzarote",
+        "src": "https://pixabay.com/get/gd4238225a9ba0088d82c7f7ef8cf06f1ec6232dd1f78c5b177c92ba525cf76f51cee1d25352a04b2caa2af57be66a41b41913a8290d453c17b5d2684aa3fe87f_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g31ffbd2af90e6294ca9be6293dd278f88072f0a9a845416657b0dc9900931b48fbb43cbc85a8caef69ac83c5ad239da4b5cbefed4de1cd90f1a70c4147bf8860_640.jpg"
+      }
+    ]
+  },
+  "1.2": {
+    "busca": "candle flame dark",
+    "escolhida": {
+      "id": "pixabay-1883840",
+      "banco": "Pixabay",
+      "pagina": "https://pixabay.com/photos/advent-advent-candles-candles-1883840/",
+      "fotografo": "Myriams-Fotos",
+      "fotografo_url": "https://pixabay.com/users/Myriams-Fotos-1627417/",
+      "alt": "advent, advent candles, candles, candlelights, flames, burning, burning candles, red candles, christmas candles, wax, shining, christmas, advent, advent, advent, advent, advent, advent candles, candles, christmas, christmas, christmas, christmas",
+      "src": "https://pixabay.com/get/g705b2b36950bc971b05e1074861e596381a1a1a0b66c67771173a077a0f13865864bf4c21b35413f9413966089b32faec6ab496aea18a6e4d0e796652d75663d_1280.jpg",
+      "miniatura": "https://pixabay.com/get/g71b65e0fed2804dc70275e9095557212becf697efb5f7daa4e3831cdbcba78d2d3296f0d9b8b76cfa94a62a78a364d9803985c0d40388f8d831dc72651859830_640.jpg"
+    },
+    "candidatas": [
+      {
+        "id": "pixabay-1883840",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/advent-advent-candles-candles-1883840/",
+        "fotografo": "Myriams-Fotos",
+        "fotografo_url": "https://pixabay.com/users/Myriams-Fotos-1627417/",
+        "alt": "advent, advent candles, candles, candlelights, flames, burning, burning candles, red candles, christmas candles, wax, shining, christmas, advent, advent, advent, advent, advent, advent candles, candles, christmas, christmas, christmas, christmas",
+        "src": "https://pixabay.com/get/g705b2b36950bc971b05e1074861e596381a1a1a0b66c67771173a077a0f13865864bf4c21b35413f9413966089b32faec6ab496aea18a6e4d0e796652d75663d_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g71b65e0fed2804dc70275e9095557212becf697efb5f7daa4e3831cdbcba78d2d3296f0d9b8b76cfa94a62a78a364d9803985c0d40388f8d831dc72651859830_640.jpg"
+      },
+      {
+        "id": "pixabay-3612508",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/christmas-wallpaper-candlelight-3612508/",
+        "fotografo": "pixel2013",
+        "fotografo_url": "https://pixabay.com/users/pixel2013-2364555/",
+        "alt": "christmas wallpaper, candlelight, faith, candles, tea lights, religion, christianity, meditation, prayer, church, lights",
+        "src": "https://pixabay.com/get/gd6a12b3bae28c9292cdb32a827049f979364d35e7c55fddbbc111a8916341918b5f51c457556f0096a7b00cc5fb9dc5f330ba50edab46dd908f4b8dd7cac6365_1280.jpg",
+        "miniatura": "https://pixabay.com/get/ga6ecc113016444af22786c988c8571d4d70db897f74c5483b53392496932405516831958c8b938588bb2502dea9d08c53a57c5071a2e1043c4a8c86bd9be4e6f_640.jpg"
+      },
+      {
+        "id": "pixabay-1835449",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/birthday-candles-candlelights-1835449/",
+        "fotografo": "Pexels",
+        "fotografo_url": "https://pixabay.com/users/Pexels-2286921/",
+        "alt": "candles, candlelights, celebration, colorful, flames, burn, burning, burning candles, birthday candles, happy birthday, birthday celebration, incandescent",
+        "src": "https://pixabay.com/get/g083ff918b7ac006e6eb6868309aaac0d6f423188c329ab5f651ab43eda4266bdfc015131becb2ac6fcced0e3a08adbe4d4d576688cdf37d390de1e5fb15f0d22_1280.jpg",
+        "miniatura": "https://pixabay.com/get/gd774f2bc1d7ab2268653ea3c91b781fd93f426617860843f6deb7aec506fb7f2dae31ee70e0b0effa54ee79ea9e6e195db775ea54ea8bf1b927b9136e5951e1a_640.jpg"
+      },
+      {
+        "id": "pixabay-2223898",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/christmas-background-tea-lights-2223898/",
+        "fotografo": "pixel2013",
+        "fotografo_url": "https://pixabay.com/users/pixel2013-2364555/",
+        "alt": "christmas background, tea lights, candles, light, tea candles, candlelights, burn, burning candles, incandescent, prayer, faith, religion, flames, memorial candles, church candles, lights, memorial lights, sacrificial candle, heat, mourning",
+        "src": "https://pixabay.com/get/g243d5d0633497323a07b61dbc00315d61c149d8efa882ff356fbdf30b6f52835acf881d1a0ac1d52517b4f2514815355f19949c10d6d1eae51fc9055a9d4c8f5_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g5e528b6a439053f89f44076523c5f94ca24799fc02f5c44fcf51a0379a1dac6659673280a8c0c20fcf169581feb89978b77f603493f99bb304a06457e8831d6a_640.jpg"
+      },
+      {
+        "id": "pixabay-1883820",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/advent-2-advent-advent-season-1883820/",
+        "fotografo": "Myriams-Fotos",
+        "fotografo_url": "https://pixabay.com/users/Myriams-Fotos-1627417/",
+        "alt": "advent, 2 advent, advent season, advent candles, christmas jewelry, candles, second candle, light, flame, shining, contemplative, candlelight, christmas, pre-christmas time, christmas decoration, candle flames, advent, advent, advent, advent, advent, advent candles, advent candles",
+        "src": "https://pixabay.com/get/g5ff7c710422ced54dfe1456280e0097fc05de9cedf836f9a082a9c8ecb350b1bc3c8d4cde28331c09d5b222c04db50c5f58193b1516a91679242842fc6a80f8d_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g564921499e980f6824bbdded39e47780087e0ab9a4eff2a35d163a62186fefd479266f9e5380ada1f3b691db762808fc8e9b87fcda72293a79b7fec5cdf5cd7b_640.jpg"
+      },
+      {
+        "id": "pixabay-1645551",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/candles-heart-candlelight-1645551/",
+        "fotografo": "klimkin",
+        "fotografo_url": "https://pixabay.com/users/klimkin-1298145/",
+        "alt": "candles, heart, candlelight, tea candles, incandescent, burning candles, flame, love, valentine, romance, fire, symbol, candles, heart, heart, love, love, love, love, love, fire, fire",
+        "src": "https://pixabay.com/get/gd909349c6a28fcce0a86e6a92ce3eacf3024818e4ed3bb7d38b8106a6ce7ad9f387ef0390c8f134023fc8a0720e47b903cdefa7d38514e4ba386eb0006adbe7d_1280.jpg",
+        "miniatura": "https://pixabay.com/get/gfe0b5dd5ab9ed6791e14ec475c13288a505dad215692f2c8005af88749ca98788279f2660558dca94cd0113791fa9af868c3fcee70e2295b0570e8a07d0ac806_640.jpg"
+      }
+    ]
+  },
+  "2.1": {
+    "busca": "open bible morning light",
+    "escolhida": {
+      "id": "pixabay-6015298",
+      "banco": "Pixabay",
+      "pagina": "https://pixabay.com/photos/candle-holder-bible-light-flame-6015298/",
+      "fotografo": "11082974",
+      "fotografo_url": "https://pixabay.com/users/11082974-11082974/",
+      "alt": "candle holder, bible, light, flame, fire, grief, prayer, hope, believe, religion, god, pray, trust, dark, darkness, candle, candlelight, candle holder, candle holder, bible, bible, bible, bible, bible, grief, prayer, pray, pray, trust",
+      "src": "https://pixabay.com/get/g4dc18da22908b01b5edf1615b24fe817e4f749ddc590280a9f73825b5acce993c80e42bb7b36889169abb4c1f035a1d2289561881d94ad32144e04ce83e814e3_1280.jpg",
+      "miniatura": "https://pixabay.com/get/g86b5eef8ac77452813981dba170a8c6a2cc946c522ccbf182a74844b8613387bc531063d9b7e9804de9b8b09a8933056abd798bcd1eb1ce4641b91b4d3af7138_640.jpg"
+    },
+    "candidatas": [
+      {
+        "id": "pixabay-6015298",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/candle-holder-bible-light-flame-6015298/",
+        "fotografo": "11082974",
+        "fotografo_url": "https://pixabay.com/users/11082974-11082974/",
+        "alt": "candle holder, bible, light, flame, fire, grief, prayer, hope, believe, religion, god, pray, trust, dark, darkness, candle, candlelight, candle holder, candle holder, bible, bible, bible, bible, bible, grief, prayer, pray, pray, trust",
+        "src": "https://pixabay.com/get/g4dc18da22908b01b5edf1615b24fe817e4f749ddc590280a9f73825b5acce993c80e42bb7b36889169abb4c1f035a1d2289561881d94ad32144e04ce83e814e3_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g86b5eef8ac77452813981dba170a8c6a2cc946c522ccbf182a74844b8613387bc531063d9b7e9804de9b8b09a8933056abd798bcd1eb1ce4641b91b4d3af7138_640.jpg"
+      },
+      {
+        "id": "pixabay-1869164",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/bible-blur-book-close-up-open-1869164/",
+        "fotografo": "Pexels",
+        "fotografo_url": "https://pixabay.com/users/Pexels-2286921/",
+        "alt": "bible, blur, book, close up, open, open book, open bible, read, reading, bible reading, bible study, study, pages, paper, knowledge, wisdom, learning, bible, bible, bible, bible, bible, book",
+        "src": "https://pixabay.com/get/g8b414dd21a52483f03eb7f3c0672aa1f328234670e9eb8acc5130332e8a9cca521b18866f9347d313f4316b5673580200d75dc46f4afb2253050d5a842429223_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g0c3cd9b2b3c6883390c53f253738b66178e82fc00ba68620c924ebf54292c9ccc0901ea05191042cec18ca1876eff79df6527706e66b380429b7a58446dca514_640.jpg"
+      },
+      {
+        "id": "pixabay-1868070",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/bible-book-pages-open-reading-1868070/",
+        "fotografo": "Pexels",
+        "fotografo_url": "https://pixabay.com/users/Pexels-2286921/",
+        "alt": "bible, book, pages, open, reading, open bible, bible reading, bible study, chapters, psalms, religion, faith, bible, bible, bible, bible, bible, book",
+        "src": "https://pixabay.com/get/g7dc9e8a79356d69e4e927b4731ce405496762b9dca26081670be9e769ddd7f6be8a713b94449a2c561a9ce0dffb806bcb08e9c0b7daeca901dbf975f8a4da11c_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g7a77873233e65092b4d8495251607a6cd00d2eebdb3d97d843e37f64adc398ff14ed9a22df2c30040c4070089f3d53a7c107eb9d544b3a77374634496f27a463_640.jpg"
+      },
+      {
+        "id": "pixabay-1846174",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/bible-open-book-pages-open-bible-1846174/",
+        "fotografo": "Pexels",
+        "fotografo_url": "https://pixabay.com/users/Pexels-2286921/",
+        "alt": "bible, open, book, pages, open bible, psalms, bible reading, faith, religion, prayer, bible verses, chapter, knowledge, literature, outdoors, text, verses, wisdom, bible, bible, bible, bible, bible",
+        "src": "https://pixabay.com/get/g5313bb5041568eb26fe6d1001c264ee50d687475e09b6e1b5a3bf0eef2e45c056e632790d2e00e3b56f785ea5c350f7a06cad7b9d0c4f2fff0530190b08e6c7b_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g52708891d5d3d4651bd13370f64ee9ce6dde864c8aa2a94b80332c5647a9260444ad5217e3bcaea7959e035e719a425453fbaebb92c7b905efc7716c53c64186_640.jpg"
+      },
+      {
+        "id": "pixabay-1868359",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/bible-book-open-open-bible-1868359/",
+        "fotografo": "Pexels",
+        "fotografo_url": "https://pixabay.com/users/Pexels-2286921/",
+        "alt": "bible, book, open, open bible, open book, pages, chapters, bible reading, bible study, scriptures, bible scriptures, knowledge, literature, paper, print, study, bible, bible, bible, bible, bible",
+        "src": "https://pixabay.com/get/g5a9a630d85b765a925c0430dbdb4e3fac2e328cade40c11a676f33f7a70eb543f5f91cabb52ecdd44aa031153f4037288ca5b172f338b9fc736ea01106fe89b7_1280.jpg",
+        "miniatura": "https://pixabay.com/get/ge1fb21ae8e300d0e3f20c693e7ea11336a66c8105858c14475422e2d52728d6e2cb41b3585a3860de0eb6b8c92f368ca3214be8d0ae4f2caac698b1e531174e6_640.jpg"
+      },
+      {
+        "id": "pixabay-3510326",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/music-book-old-literature-hymnal-3510326/",
+        "fotografo": "Tama66",
+        "fotografo_url": "https://pixabay.com/users/Tama66-1032521/",
+        "alt": "music, book, old, literature, hymnal, sing, religion, music, music, book, book, book, book, book",
+        "src": "https://pixabay.com/get/g3381e522f0b765b9bfd793cc109addb2889eb8411dee99be38cfec0be2c397661264405ac00c804152f577c9b2f6dc03e2f8c73229aca185c322e4873cf3dfd8_1280.jpg",
+        "miniatura": "https://pixabay.com/get/gd4f35ff82b99cf28cd1cacb8ca49e639fe5f6389a8cc74cd0d631daad9d2ed5d88a1ff2905d6f4b9a8d9adbac37792175f73f7f699ceafb9f8e90e96d33a2d0f_640.jpg"
+      }
+    ]
+  },
+  "2.2": {
+    "busca": "quiet chapel window light",
+    "escolhida": {
+      "id": "pixabay-3786790",
+      "banco": "Pixabay",
+      "pagina": "https://pixabay.com/photos/light-window-temple-3786790/",
+      "fotografo": "Jonatanya",
+      "fotografo_url": "https://pixabay.com/users/Jonatanya-8621174/",
+      "alt": "light, window, temple",
+      "src": "https://pixabay.com/get/gd9529e46c0a382236261377d0a7f1811e65386c1b3bffb44668977bfb687cba0683aad019ba6e822bb9f7a1acbb22dcd79c38d01a1b6055b62e925e715a9b900_1280.jpg",
+      "miniatura": "https://pixabay.com/get/g2d9faeed123131b9354625c0c40f04fd7a982f46e7acc6c9b34c893a78434f693d255caba4ca8462609a83a897ee1bf7a53792222e00273c9ac1aa3bebcd2d0f_640.jpg"
+    },
+    "candidatas": [
+      {
+        "id": "pixabay-3786790",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/light-window-temple-3786790/",
+        "fotografo": "Jonatanya",
+        "fotografo_url": "https://pixabay.com/users/Jonatanya-8621174/",
+        "alt": "light, window, temple",
+        "src": "https://pixabay.com/get/gd9529e46c0a382236261377d0a7f1811e65386c1b3bffb44668977bfb687cba0683aad019ba6e822bb9f7a1acbb22dcd79c38d01a1b6055b62e925e715a9b900_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g2d9faeed123131b9354625c0c40f04fd7a982f46e7acc6c9b34c893a78434f693d255caba4ca8462609a83a897ee1bf7a53792222e00273c9ac1aa3bebcd2d0f_640.jpg"
+      },
+      {
+        "id": "pixabay-1181864",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/stained-glass-spiral-circle-pattern-1181864/",
+        "fotografo": "msandersmusic",
+        "fotografo_url": "https://pixabay.com/users/msandersmusic-1972097/",
+        "alt": "stained glass, spiral, circle, pattern, glass, religion, stained glass windows, illusion, colorful, round, chapel, spiritual, dallas, texas, spiral, spiral, circle, circle, pattern, pattern, pattern, pattern, religion, religion, religion, illusion, illusion, spiritual, spiritual, spiritual, spiritual, spiritual",
+        "src": "https://pixabay.com/get/g7c1a2a3540eadfbecbea8c1db8bbc014a8baffbb7af0aeffb72c60952a8f3e59f63448108fcf01562c5116e8bbcf9ef1f934c2b00d17211db885a15324473ec1_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g038262f4e68b0b159cf5f599540d9991b55f2e970bc9d5b1f3a9549f6f71af24767f9b4db33b9bbb9b80b6c52c10b50b817588a1b4727fd1479446720030b0a9_640.jpg"
+      },
+      {
+        "id": "pixabay-3176887",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/light-chapel-church-architecture-3176887/",
+        "fotografo": "jplenio",
+        "fotografo_url": "https://pixabay.com/users/jplenio-7645255/",
+        "alt": "light, chapel, nature, church, architecture, religion, memorial chapel, mood, small chapel, blue, evening atmosphere, wayside chapel, christian, cross, seem, glow of light, snow, winter, cold, cool, door, gate",
+        "src": "https://pixabay.com/get/g330a11ef3cd2cb837f2ba51fbef64a27097c88190b6ca21a0bcc0810154b96e196e05efde6bfc489e05c4f6b4c71640918829b9a539ab06d8b1befb51ae713b9_1280.jpg",
+        "miniatura": "https://pixabay.com/get/gced10f7da882225bc7bc1557ccdfab4244513eb74bda054d1053585e3b4d5dcc6501c2ca51e983133fb701be4808765fe2d1d6460196bcdd6d1598be6c98441e_640.jpg"
+      },
+      {
+        "id": "pixabay-4465904",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/reading-woman-book-women-window-4465904/",
+        "fotografo": "julio_55",
+        "fotografo_url": "https://pixabay.com/users/julio_55-13483957/",
+        "alt": "reading, woman, book, women, window, read, women, women, women, women, women",
+        "src": "https://pixabay.com/get/g31b00f16add1c4edaa8415ee06043e2baf7c23ac715ca69576f092ff512509492e4809c142a41334f951ffc383ca58bf39d36abea1895d293c6f6d7d9a4c0bcd_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g29c1985a18d571cfd9f603d744d52af5ac6fa8f0a46916f60fdfb8d541aabd51434a80fe911e77583008e4f28c1c0be2900f6b1d38220e26707102279ed68d45_640.jpg"
+      },
+      {
+        "id": "pixabay-3284639",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/church-cathedral-architecture-3284639/",
+        "fotografo": "Tama66",
+        "fotografo_url": "https://pixabay.com/users/Tama66-1032521/",
+        "alt": "church, cathedral, architecture, chapel, france, normandy, religion, faith, christianity, catholic, church, church, church, church, church, cathedral, cathedral, france, france, catholic",
+        "src": "https://pixabay.com/get/ge56b1ca0c7e479085d70223616481b72fdbbe351db79578c7bd2b12b1bd22ecfbce42a08c202b3fbf2e18f551c85c715be758ea281ebf2e96a67e7f8ee412204_1280.jpg",
+        "miniatura": "https://pixabay.com/get/ge273d14cf12f4dbe793d5ce06f6dc191e93173ed4eb87494a4903f0ca0bbb73c19d1ef806631819edd4b52767c217b38824ab2e3bd78c944357c4935d22a48c3_640.jpg"
+      },
+      {
+        "id": "pixabay-2989682",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/church-interiors-arches-windows-2989682/",
+        "fotografo": "iankelsall1",
+        "fotografo_url": "https://pixabay.com/users/iankelsall1-7126962/",
+        "alt": "church, interiors, arches, windows, stained glass windows, chandeliers, church interior, cathedral, catholic, religion, sainte-chapelle, stained glass, paris, architecture, france, historical architecture, gothic architecture, church, church, church, church, cathedral, catholic, sainte-chapelle, sainte-chapelle, paris, paris, paris, paris, paris, france, france, gothic architecture",
+        "src": "https://pixabay.com/get/g4323bd6a6eb7943306aafe920ced0f58f7bed6760350b18708f5515ae00fe95c4251926f0c13cc2c6c10072e7833eb53f0f48ec6c135fb006eca6fb7872960c8_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g466996f7b9e7c94893a83e8e92c5b51a9aaf065475fcb8c1f1c4c47a4583c50d037d39fd56191b92bbe848ecf5e626cf9148712796fc2929ab589d69ca90aa5e_640.jpg"
+      }
+    ]
+  },
+  "3.1": {
+    "busca": "quiet room window morning",
+    "escolhida": {
+      "id": "pixabay-2410125",
+      "banco": "Pixabay",
+      "pagina": "https://pixabay.com/photos/picture-creative-studio-craft-2410125/",
+      "fotografo": "wabulos",
+      "fotografo_url": "https://pixabay.com/users/wabulos-5655518/",
+      "alt": "picture, creative, studio, craft, coloring",
+      "src": "https://pixabay.com/get/g6427958f2ab908128dbb07799319767f529e0428b190de6a4b3bd78b6a3c15257c119ad5587897b308a363b7dba58dea9a78749b17fdc8852acee996b53f6215_1280.jpg",
+      "miniatura": "https://pixabay.com/get/gdd1c083edc28fc09c45b904d4abaab84d7e5de1646fb8f813c138b6044c110ed4ff38b0c92556450315803a53e7344eefaad01314d03418f9d96884b6e34fc72_640.jpg"
+    },
+    "candidatas": [
+      {
+        "id": "pixabay-2410125",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/picture-creative-studio-craft-2410125/",
+        "fotografo": "wabulos",
+        "fotografo_url": "https://pixabay.com/users/wabulos-5655518/",
+        "alt": "picture, creative, studio, craft, coloring",
+        "src": "https://pixabay.com/get/g6427958f2ab908128dbb07799319767f529e0428b190de6a4b3bd78b6a3c15257c119ad5587897b308a363b7dba58dea9a78749b17fdc8852acee996b53f6215_1280.jpg",
+        "miniatura": "https://pixabay.com/get/gdd1c083edc28fc09c45b904d4abaab84d7e5de1646fb8f813c138b6044c110ed4ff38b0c92556450315803a53e7344eefaad01314d03418f9d96884b6e34fc72_640.jpg"
+      },
+      {
+        "id": "pixabay-668257",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/sunlight-sun-sunny-sunrise-light-668257/",
+        "fotografo": "Sh1ra",
+        "fotografo_url": "https://pixabay.com/users/Sh1ra-107088/",
+        "alt": "sunlight, sun, sunny, sunrise, light, sunshine, window, blinds, room, rays, ray, heater, windows, lines, pattern, sunrise, blinds, blinds, blinds, blinds, blinds, room, heater, heater, heater",
+        "src": "https://pixabay.com/get/g870b9c47d5e271a92cc24de1548cf201debe8a99e59b0c49d447f585239e3fcd4ea97a380e818d91cdc00c4dc6103c143d1744ff5f0191bde4a35d5ba23cf4b3_1280.jpg",
+        "miniatura": "https://pixabay.com/get/gc87745b06b9e7e2f05db84f917662e01afa41e5775ea44bc80d475b7b5573c7bd5538fe0788cfb231628799198a5e659_640.jpg"
+      },
+      {
+        "id": "pixabay-1281581",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/books-students-library-university-1281581/",
+        "fotografo": "Pexels",
+        "fotografo_url": "https://pixabay.com/users/Pexels-2286921/",
+        "alt": "books, students, library, university, knowledge, literature, brown book, brown books, brown library, brown knowledge, books, library, library, library, library, library, university, university",
+        "src": "https://pixabay.com/get/g2e7f031c2ba5612e023978f224c950f03963c85fa8be3b1e3bceff5eb46eec1e672267600abf25b2e415c6d165c1cc151b471f940cf812c9b131a01fe4d05ec9_1280.jpg",
+        "miniatura": "https://pixabay.com/get/ge2e78b49b7687e19345c978dee074258e43d4475546d568f5663ff4fb2ca6f2f7f8052837f3d34e5878f311a04dd4e991da42ef8f83debc03df6feffed390292_640.jpg"
+      },
+      {
+        "id": "pixabay-2181947",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/chairs-floor-furniture-indoors-2181947/",
+        "fotografo": "Pexels",
+        "fotografo_url": "https://pixabay.com/users/Pexels-2286921/",
+        "alt": "chairs, floor, furniture, indoors, interior design, lamp, parquet, room, tables, windows, rug, interiors, home interior, home furniture, interior decoration, home, house, floor, interior design, room, room, home, home, home, house, house, house, house, house",
+        "src": "https://pixabay.com/get/gc788f56395d139a0e304533236247d8b61f4ac26eb80f1d5a3a496e196cdc441bbfd6eb10cfa4ea0aacc45efadcd1db5d510f2d8481b2f446d7f3d1ea739c39e_1280.jpg",
+        "miniatura": "https://pixabay.com/get/gc975523144d1076c6d35fabfbabcb7f249f3f3d441c2a3a251f444ca30731c2785b3e343ff06f4e55deefa928f272c48d54800788838d148ae9f85cb8530c98f_640.jpg"
+      },
+      {
+        "id": "pixabay-2181919",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/chairs-conference-room-empty-2181919/",
+        "fotografo": "Pexels",
+        "fotografo_url": "https://pixabay.com/users/Pexels-2286921/",
+        "alt": "chairs, conference room, empty, indoors, tables, monitor, furniture, interior design, interior decoration, minimalist, minimalistic, conference room, conference room, conference room, conference room, conference room, furniture, furniture, interior design, interior design, interior design",
+        "src": "https://pixabay.com/get/ga6a27b0c2693821dd163a031a2a7d5aa978fd8afb1bbbf2a50817a944899e41514ac44ea81231a7ee05f7fc5e1ed32aa060fa1720a58a3dcf7d04f0738709fe1_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g30075e180c15a100bed3c6ddb90fed96cacc25c5bdf63381ba6db19726905c758825e30ec7b408130a40e10772b122d6931b5851ca4b912feb73e8d8c23cefcd_640.jpg"
+      },
+      {
+        "id": "pixabay-2181960",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/chairs-table-contemporary-furniture-2181960/",
+        "fotografo": "Pexels",
+        "fotografo_url": "https://pixabay.com/users/Pexels-2286921/",
+        "alt": "chairs, table, contemporary, furniture, indoors, interior design, office, room, spacious, windows, interior decoration, office furniture, meeting room, boardroom, office, office, office, office, office",
+        "src": "https://pixabay.com/get/gc768781cf0aca834b1751f8dd4ddf8ac369b301e9953ffc900c540215d5b6fbacccce820a147d6059b6acc72fd20b41e194c7b96fa2003273cd4cb0b6d103c08_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g30a5db78612fd791db373c16121faee438d61b0c9f05bfd8458d325fd9be57ce6390f5c3638594331f154888d99a958d47615d34342cc5eeef75e5047adea456_640.jpg"
+      }
+    ]
+  },
+  "3.2": {
+    "busca": "early morning sunrise mist",
+    "escolhida": {
+      "id": "pixabay-3189339",
+      "banco": "Pixabay",
+      "pagina": "https://pixabay.com/photos/tree-dawn-morning-sun-sunrise-3189339/",
+      "fotografo": "pixel2013",
+      "fotografo_url": "https://pixabay.com/users/pixel2013-2364555/",
+      "alt": "tree, dawn, morning sun, sunrise, early fog, morning mist, sun, weather, weather mood, the atmosphere, mood, peaceful mood, nature, peaceful, moment, quiet, morning mood, bare tree, morning sun, sun, sun, sun, sun, sun, weather, weather, peaceful",
+      "src": "https://pixabay.com/get/gf28bcbaf2a858790bcb4bee6262ba06c1783562613a0d8eb32269015f7f9990666b673e647070aeef3911be81b6fc2138a6ce7ecbffcbd511fe2b32bdacf6da4_1280.jpg",
+      "miniatura": "https://pixabay.com/get/g3aa889edc6ca629e21d6d0a2d15b6b110113e3ae0aaa029ec34683e8c711a2deb40f31cbdd1aa9dde397f8cedd5e7bb1133deb886cc8a4317e4b7780b92d465e_640.jpg"
+    },
+    "candidatas": [
+      {
+        "id": "pixabay-3189339",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/tree-dawn-morning-sun-sunrise-3189339/",
+        "fotografo": "pixel2013",
+        "fotografo_url": "https://pixabay.com/users/pixel2013-2364555/",
+        "alt": "tree, dawn, morning sun, sunrise, early fog, morning mist, sun, weather, weather mood, the atmosphere, mood, peaceful mood, nature, peaceful, moment, quiet, morning mood, bare tree, morning sun, sun, sun, sun, sun, sun, weather, weather, peaceful",
+        "src": "https://pixabay.com/get/gf28bcbaf2a858790bcb4bee6262ba06c1783562613a0d8eb32269015f7f9990666b673e647070aeef3911be81b6fc2138a6ce7ecbffcbd511fe2b32bdacf6da4_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g3aa889edc6ca629e21d6d0a2d15b6b110113e3ae0aaa029ec34683e8c711a2deb40f31cbdd1aa9dde397f8cedd5e7bb1133deb886cc8a4317e4b7780b92d465e_640.jpg"
+      },
+      {
+        "id": "pixabay-10279298",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/birds-dawn-island-lake-nature-10279298/",
+        "fotografo": "aszak",
+        "fotografo_url": "https://pixabay.com/users/aszak-22997580/",
+        "alt": "birds, dawn, island, lake, nature, sunrise, fog, orange, reflections, calm, edge, serenity, silence, natural tranquility, stillness, rest, special light, water surface, golden hour, silhouette, peacefulness",
+        "src": "https://pixabay.com/get/ga8a315aa64a4f6310092794bc91e5bc262e54588840d78551102aec3a557e2be3d2f88e82a02b08e5bcfb606dbc32826a6dceea1bf1497e27cdd515fb2e80872_1280.jpg",
+        "miniatura": "https://pixabay.com/get/gad665fe5798346bb7cf73c69269a69c075b1e8284fcb6e5689d20fbd1f93ccab6b8c0f824ee7c4c3b5cfea14e176a8ceaf762d2d202fcb3958f44995a9fccdef_640.jpg"
+      },
+      {
+        "id": "pixabay-7317119",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/morning-view-city-dawn-mist-7317119/",
+        "fotografo": "ignartonosbg",
+        "fotografo_url": "https://pixabay.com/users/ignartonosbg-21428489/",
+        "alt": "morning view, city, dawn, mist, sunrise, nature, foggy, early morning, landscape",
+        "src": "https://pixabay.com/get/g13f0c9da71561013333b1880d2e03a8dd7ca6eeeb5aeff096b2b931160c29f6cd746408f8e9d7a12d9150f8c0262fb5c9d8db028c2bcae6942b87499d1177967_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g960d8aa891557bbbda97a0ad520fc990ce2dec370da82ba9cf593f41c5cbfda27c731816280103fda13591a7e022b40fa133574e5db03d1e01c59de59dec3daa_640.jpg"
+      },
+      {
+        "id": "pixabay-4886290",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/mist-patch-autumn-early-morning-4886290/",
+        "fotografo": "chulmin1700",
+        "fotografo_url": "https://pixabay.com/users/chulmin1700-15022416/",
+        "alt": "mist, nature, patch, autumn, early morning, lake",
+        "src": "https://pixabay.com/get/g5754b0b33fa77a54148b64c39035a7216021b74323d9b51bd575728a87021e8ea620c9d4868481ae937f9a89d26cec5189d6f54f5fb6c8e29f153344ec8bea3d_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g6e272356bd39eac3cbfa44f70c55532d0fabafc9b6ef6be04cbbb41681cd297d9bec076840822495439903a4dda78d170785227afcad0b7b4da871fc3f69284a_640.jpg"
+      },
+      {
+        "id": "pixabay-4693394",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/sunrise-fields-fog-early-morning-4693394/",
+        "fotografo": "micfrom",
+        "fotografo_url": "https://pixabay.com/users/micfrom-14615661/",
+        "alt": "sunrise, fields, fog, nature, early morning",
+        "src": "https://pixabay.com/get/gdfe1a8062e32c6de119fe55f6af8d56d5a63a7f7f395cc961eb69fa655b1dd0fc80fddebee8d1696eea620d9d2cf7d2e3a33aba1196ea667e177cfbb5f6809bb_1280.jpg",
+        "miniatura": "https://pixabay.com/get/gb56092140674bfc6aca144d8a47836eb3c71575afa3c9efd082c4a02b756a5ebed5cd8db7acc3540dd0464d12a4387e613f87bcabcfa9c3e6bead81621cd158a_640.jpg"
+      },
+      {
+        "id": "pixabay-4815379",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/fog-nature-dawn-trees-4815379/",
+        "fotografo": "jjbacelar",
+        "fotografo_url": "https://pixabay.com/users/jjbacelar-1351497/",
+        "alt": "fog, nature, dawn, trees",
+        "src": "https://pixabay.com/get/g065ad2db7a1301d5851298c52d4c09e447c00d25e67691e89840b918be4a6b92610782982b6c7e924f0ec71542f19b3689e091513967c96daf311e0e35a21c68_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g21c745554e989e4e1b0b466137ac50b4468fcddf8a3cc73f17d73156eb10f1067cf9d3cd1f72c11bb0e5b43b436f6ef945be51c6eab9f031fe4e074ba53408bc_640.jpg"
+      }
+    ]
+  },
+  "3.3": {
+    "busca": "kneeling prayer silhouette",
+    "escolhida": {
+      "id": "pixabay-1448946",
+      "banco": "Pixabay",
+      "pagina": "https://pixabay.com/photos/cross-sunset-humility-devotion-1448946/",
+      "fotografo": "geralt",
+      "fotografo_url": "https://pixabay.com/users/geralt-9301/",
+      "alt": "cross, sunset, humility, devotion, silhouette, human, kneeling, knee, pray, worships, prayer, faith, religion, church, symbol, clouds, heaven, christian, crucifixion, quiet, immersion, jesus christ, meditation, jesus, christ, nature, christianity, black, figure",
+      "src": "https://pixabay.com/get/g4adccf7d8a0b8bbe83e9dccd1cb0735b7a2a4badca3de701931cd3584fcada3f5648f25540602045d026bf523c1455ebd8942d942b3dd14a22c06bfb27bf6b48_1280.jpg",
+      "miniatura": "https://pixabay.com/get/ge3b31bda9888492edf72ca838020d9ffa751c1f31ee6b5c2c22d339218e3bd89e5e2304a43090cd24f0668c2a60fad3e48f94b590bb6f4f68cb807505677ffea_640.jpg"
+    },
+    "candidatas": [
+      {
+        "id": "pixabay-1448946",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/cross-sunset-humility-devotion-1448946/",
+        "fotografo": "geralt",
+        "fotografo_url": "https://pixabay.com/users/geralt-9301/",
+        "alt": "cross, sunset, humility, devotion, silhouette, human, kneeling, knee, pray, worships, prayer, faith, religion, church, symbol, clouds, heaven, christian, crucifixion, quiet, immersion, jesus christ, meditation, jesus, christ, nature, christianity, black, figure",
+        "src": "https://pixabay.com/get/g4adccf7d8a0b8bbe83e9dccd1cb0735b7a2a4badca3de701931cd3584fcada3f5648f25540602045d026bf523c1455ebd8942d942b3dd14a22c06bfb27bf6b48_1280.jpg",
+        "miniatura": "https://pixabay.com/get/ge3b31bda9888492edf72ca838020d9ffa751c1f31ee6b5c2c22d339218e3bd89e5e2304a43090cd24f0668c2a60fad3e48f94b590bb6f4f68cb807505677ffea_640.jpg"
+      },
+      {
+        "id": "pixabay-1868418",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/man-fog-silhouette-kneeling-kneel-1868418/",
+        "fotografo": "Pexels",
+        "fotografo_url": "https://pixabay.com/users/Pexels-2286921/",
+        "alt": "man, fog, silhouette, kneeling, kneel, pray, praying, male silhouette, praying man, prayer, foggy, misty, haze, mist, dawn, dusk, landscape, outdoors, person, pray, pray, pray, praying, praying, prayer, prayer, prayer, prayer, prayer",
+        "src": "https://pixabay.com/get/gbbabc77b62bc22f632ccb5d004319f8d2cf52885287c1a1686379c0e2439c33cbb2607c1c2372a8342c2ba2063d9c91af7aa1b2e66eee7d4d02a277c2dfe1430_1280.jpg",
+        "miniatura": "https://pixabay.com/get/ge8727ed73826108e78b7ad0e72391f84e2155510b1a9f87ad1077694a1cb63d699e201c5f0a8511f980b63213ec8fc82e8e0664c2e22bebbe5ae977f0a70549d_640.jpg"
+      },
+      {
+        "id": "pixabay-2981216",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/cross-sunset-humility-devotion-2981216/",
+        "fotografo": "geralt",
+        "fotografo_url": "https://pixabay.com/users/geralt-9301/",
+        "alt": "cross, sunset, humility, devotion, silhouette, human, kneeling, knee, pray, worships, prayer, faith, religion, church, symbol, clouds, nature, heaven, christian, crucifixion, quiet, immersion, jesus christ, meditation, jesus, christ, christianity, black, figure",
+        "src": "https://pixabay.com/get/g3cd43fb143425f35f20a77ead70697f0b9f4428a307ef67a8bde9b988d428cf20cb8c336f11d35a5b63a92f31063c64d669f39becec51d6cecf22b7dd42440af_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g9f99f026ac2ec69720d296e2ece8bfd6755417560a5478387daacc55ac06d3c4e82b3b0bb5db9fdc378ccdf6a709c1824cbee92266cd0f45e604cb4285b6c1f4_640.jpg"
+      },
+      {
+        "id": "pixabay-106416",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/cross-sunset-silhouette-human-106416/",
+        "fotografo": "geralt",
+        "fotografo_url": "https://pixabay.com/users/geralt-9301/",
+        "alt": "cross, sunset, silhouette, human, kneeling, knee, nature, pray, worships, devotion, prayer, faith, religion, believe, church, symbol, clouds, heaven, christian, crucifixion, quiet, immersion, silence, jesus christ, meditation, jesus, christ, christianity, black, figure",
+        "src": "https://pixabay.com/get/g9b9f80c6f2f2d9976b40b07519d9d74144716b40e995b507623c118f5350dec762a8abb115975bba65233ad5e7ab128396b553f307b67f43c4b0982aa34cd18a_1280.jpg",
+        "miniatura": "https://pixabay.com/get/gf086288957b30f29f4c819ff801f5c767abc87e99c70486cb3152b5e065e10de29cdea7bda4c2757e50335182e261f3e_640.jpg"
+      },
+      {
+        "id": "pixabay-1668637",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/man-praying-prayer-cry-illustration-1668637/",
+        "fotografo": "waldryano",
+        "fotografo_url": "https://pixabay.com/users/waldryano-309781/",
+        "alt": "man praying, prayer, cry, illustration, prayer, cry, cry, cry, cry, cry",
+        "src": "https://pixabay.com/get/gafe4e9fd61a7fae0742286055e05b09d3f6b09eb02f4e731c6a3d60854d940256cce68934c3308b9c6d5c0eaedd3dfb0bfd043a1c5adbfacb21f274be6b4b60d_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g6440e6f5744fc52528d0229d23fa77d80ca465ce2f99013e8997946723cdcb6966ff67c14254444cda054a366fed79a483c5f3332687b585c399ac510faca4f9_640.jpg"
+      },
+      {
+        "id": "pixabay-4822046",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/the-knees-prayer-faith-religion-4822046/",
+        "fotografo": "jobertjamis23",
+        "fotografo_url": "https://pixabay.com/users/jobertjamis23-1796913/",
+        "alt": "the knees, prayer, faith, religion, nature, meditation, god, pray, knee, church, marriage, casal, love, affair, engagement, christianity, silhouette, sea, beach",
+        "src": "https://pixabay.com/get/ge4bb987238635a7f6b9e82139735d56598b30b3bb682b0432f96f3bf7387585ba10052e47d4722d193129ac54657e3762726f8631efab4031312961c747a9ef2_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g291743aa82ebc92a9ed167684f6b829220b526c32d4e429084b2face73af5d2adaa7c775283d9bbc01fa8e5f92307fe960cf63156937e8a1c236a4db9a566f7b_640.jpg"
+      }
+    ]
+  },
+  "4.1": {
+    "busca": "calm lake morning reflection",
+    "escolhida": {
+      "id": "pixabay-2702172",
+      "banco": "Pixabay",
+      "pagina": "https://pixabay.com/photos/blue-lake-lake-constance-nature-2702172/",
+      "fotografo": "Nordseher",
+      "fotografo_url": "https://pixabay.com/users/Nordseher-6327161/",
+      "alt": "blue, lake, lake constance, nature, water, landscape, atmospheric, clouds, calm waters, reflection, water reflection, mirroring, boats, lake, lake, lake, lake, lake",
+      "src": "https://pixabay.com/get/g70f7c21eb4373d6e48072c29b9059c0a9454a909c6e1fa5e90264353ea3063bfde631fee4242b721524bc3eac781f9641c946da969b441910422b27504ae5acb_1280.jpg",
+      "miniatura": "https://pixabay.com/get/g82ff6bc6d345d86392f80654977e6927b07ccf574d9e5897c73cf47db93874762c4d9ebdc286a8c6b0a1103ebecce413773ed43ed873b4be1f42a692fe44f1e8_640.jpg"
+    },
+    "candidatas": [
+      {
+        "id": "pixabay-2702172",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/blue-lake-lake-constance-nature-2702172/",
+        "fotografo": "Nordseher",
+        "fotografo_url": "https://pixabay.com/users/Nordseher-6327161/",
+        "alt": "blue, lake, lake constance, nature, water, landscape, atmospheric, clouds, calm waters, reflection, water reflection, mirroring, boats, lake, lake, lake, lake, lake",
+        "src": "https://pixabay.com/get/g70f7c21eb4373d6e48072c29b9059c0a9454a909c6e1fa5e90264353ea3063bfde631fee4242b721524bc3eac781f9641c946da969b441910422b27504ae5acb_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g82ff6bc6d345d86392f80654977e6927b07ccf574d9e5897c73cf47db93874762c4d9ebdc286a8c6b0a1103ebecce413773ed43ed873b4be1f42a692fe44f1e8_640.jpg"
+      },
+      {
+        "id": "pixabay-8686902",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/trees-lake-sunrise-mist-reflection-8686902/",
+        "fotografo": "jplenio",
+        "fotografo_url": "https://pixabay.com/users/jplenio-7645255/",
+        "alt": "trees, lake, nature background, sunrise, hd wallpaper, mist, nature wallpaper, reflection, serenity, beautiful nature, golden, mountains, calm, woodland, ethereal, morning, 4k, nature, desktop wallpaper, landscape",
+        "src": "https://pixabay.com/get/g411d4edab5c297208b5e79bf27139ea0fe2a02f70986f6897cf596d8b85c728ef8d50e601b7a5920847e582a22affc494d663fd6056ca5f273ba74a89ceb1f51_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g79ac2d188da6a8b0fa4537dc567902e93f20d8f151d43747bf9db2bf71a2678b103c2f409e3185a3362cdcaaef8f60aef889f861d251cbab1a8ffae9abf68d61_640.jpg"
+      },
+      {
+        "id": "pixabay-1192669",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/landscape-summer-sunrise-1192669/",
+        "fotografo": "biancamentil",
+        "fotografo_url": "https://pixabay.com/users/biancamentil-2023852/",
+        "alt": "landscape, summer, sunrise, lighting mood, sun, nature, lake, scenic, landscapes, carinthia, tree, riverbank, water, summer, summer, summer, sunrise, sunrise, sunrise, sunrise, sun, sun, lake, lake, tree, tree, tree, tree, tree",
+        "src": "https://pixabay.com/get/g12f79059385eb1250a8881c5bfca9a8c05bfd01ac8e1855ac1c5edbf437c6b8f6abdfbb0d2fd750f9f9bb0c21834ec12d6dbc4f068d50885f8b16b36283a461c_1280.jpg",
+        "miniatura": "https://pixabay.com/get/gb36f31fb3beb4224d53885f59397527fb78a21502086a36178850a4fe089f01a85f66713911d8dd73a19ec9c7d27d1914254518e1c81ce4db6eca246d40c69fd_640.jpg"
+      },
+      {
+        "id": "pixabay-3091991",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/nature-tree-fog-waters-snow-lake-3091991/",
+        "fotografo": "jplenio",
+        "fotografo_url": "https://pixabay.com/users/jplenio-7645255/",
+        "alt": "nature, tree, fog, waters, snow, lake, water, reflection, panorama, haze, cold, frosty, landscape, winter, wintry, snow, winter, winter, winter, winter, winter",
+        "src": "https://pixabay.com/get/gc8f8ba46705da7761d64f967142f39a2007217aa34cba4028e5b11b777129507099415fd5d92bb2a9427035584644bdc183910ba5175efe4f20bae2061d1b6f8_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g2ce030d4ea429ca6aba05b9e33382d559a6fdb51551821e85d114bf041638456f470c7e34e0cb8bcf1e4988d7f5179353a3b7eadc65bb4b82e7ebfa1ee779799_640.jpg"
+      },
+      {
+        "id": "pixabay-10338948",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/sunrise-quebec-lake-water-outdoors-10338948/",
+        "fotografo": "NUNZG",
+        "fotografo_url": "https://pixabay.com/users/NUNZG-38523823/",
+        "alt": "sunrise, quebec, lake, water, outdoors, boat, calm, morning, nature, reflection, sky, scenic, morning calm, silence, lonely, canoe, pond, light reflection, calm water, beautiful landscape, geographic location",
+        "src": "https://pixabay.com/get/ge4f737c4affff28d1b39b7a29a26b20f4a0e46eb78f559265747f5030dc243731588c359d40320d9cb007364ea2ff979aa42ac6736676aa5e93d8c9493320fdf_1280.jpg",
+        "miniatura": "https://pixabay.com/get/gfd599eb6efe8b7768323d11aa6cad793d92f52388a75d7fe2d51dd2e9f2b55246ccd0fadf7772e40484e6c913fcc3aab1a095372d4da84711451e0b2f23700d5_640.jpg"
+      },
+      {
+        "id": "pixabay-8763490",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/lake-lake-wolfgang-salzkammergut-8763490/",
+        "fotografo": "the_iop",
+        "fotografo_url": "https://pixabay.com/users/the_iop-1181394/",
+        "alt": "lake, lake wolfgang, salzkammergut, austria, water, reflection, nature, landscape",
+        "src": "https://pixabay.com/get/g75197f681c9e64263d79a7e77994953f7fc3094a5eedc8f71edc434dee1adf9b4bc8638e86c1601cacea07595e6198d229653a86acae65bff37a5973a1e3123f_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g1c6df3a9233a38ba0e6fdc64c6374a879be324ffa1b7c4cdd6552bbf8d65d0a130474b28663b24e3563cbf034bf9012654d42af9ef28e5d5e763d7002382be7b_640.jpg"
+      }
+    ]
+  },
+  "4.2": {
+    "busca": "gratitude hands sunlight",
+    "escolhida": {
+      "id": "pixabay-3717899",
+      "banco": "Pixabay",
+      "pagina": "https://pixabay.com/photos/religion-faith-hand-trust-cross-3717899/",
+      "fotografo": "geralt",
+      "fotografo_url": "https://pixabay.com/users/geralt-9301/",
+      "alt": "religion, faith, hand, trust, cross, god, pray, prayer, peace, soul, freedom, spirituality, nature, spiritual, sunset, heavenly, christian, message",
+      "src": "https://pixabay.com/get/gde4d0146b269f8ff299073bac099caa6f7a4aab5760eaf5f7b44fc38f3bc7071ed8d30ec761bd947dcf29a90a4fb311ca172af8fe449e763d3d9b9c306932d4b_1280.jpg",
+      "miniatura": "https://pixabay.com/get/gc2139215b35a1dc706431b0d97e62559270e7358964a458d9ba4fd72830189cedaffdfd0d5c944ce85177fd3f9fba0a3d585ebd7373cc0acde7d590f9acb51d8_640.jpg"
+    },
+    "candidatas": [
+      {
+        "id": "pixabay-3717899",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/religion-faith-hand-trust-cross-3717899/",
+        "fotografo": "geralt",
+        "fotografo_url": "https://pixabay.com/users/geralt-9301/",
+        "alt": "religion, faith, hand, trust, cross, god, pray, prayer, peace, soul, freedom, spirituality, nature, spiritual, sunset, heavenly, christian, message",
+        "src": "https://pixabay.com/get/gde4d0146b269f8ff299073bac099caa6f7a4aab5760eaf5f7b44fc38f3bc7071ed8d30ec761bd947dcf29a90a4fb311ca172af8fe449e763d3d9b9c306932d4b_1280.jpg",
+        "miniatura": "https://pixabay.com/get/gc2139215b35a1dc706431b0d97e62559270e7358964a458d9ba4fd72830189cedaffdfd0d5c944ce85177fd3f9fba0a3d585ebd7373cc0acde7d590f9acb51d8_640.jpg"
+      },
+      {
+        "id": "pixabay-5978545",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/hand-yoga-healing-mind-meditation-5978545/",
+        "fotografo": "1857643",
+        "fotografo_url": "https://pixabay.com/users/1857643-1857643/",
+        "alt": "hand, yoga, healing, mind, meditation, peace, hope, god, joy, praise, spiritual, christianity, praying, forgiveness, holy, worship, religion, pray, faith, enjoying, gratitude, healing, healing, praise, praise, forgiveness, forgiveness, forgiveness, forgiveness, forgiveness",
+        "src": "https://pixabay.com/get/gff6cd5ec05ae621391a8611ca3fb9b1abff7bb47592d28cb3f106b1c24fc2e371fbb26033ad56fb182fccf12617d1a23953e35af85122ff7a8f597cb16a0ddf3_1280.jpg",
+        "miniatura": "https://pixabay.com/get/gdbdf09b5b7de81e24285ba57c46eedc7fc82305ec5c53607b302721ec3a25b4c4752fd1082c8dafaf7bda2c6989bf0e37ee10c78edfe1fe87c1cfac602f0fcb7_640.jpg"
+      },
+      {
+        "id": "pixabay-1821066",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/hand-flower-don-to-offer-dandelion-1821066/",
+        "fotografo": "Red_Raccoon",
+        "fotografo_url": "https://pixabay.com/users/Red_Raccoon-1849069/",
+        "alt": "hand, flower, don, to offer, dandelion, hippie, hold on, gift, nature, simple, spontaneous, thank you",
+        "src": "https://pixabay.com/get/g3eb149f7843c5a1d1c7d99a70253c1d7becf6238a3c01649bbbe52292d85dcd855bfbc914e6e707af370870489d7158dc101736bb32d0acd421550360c41cc60_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g106d0fcea26db4e2fd010c2778fa938e31e6d21d96b0e5cbda5e65989bade9a96af0dd5bf4958aaa1cf7fbc61cb81763e580eb77e67da97126e6cf27f7f52b8f_640.jpg"
+      },
+      {
+        "id": "pixabay-2667455",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/woman-sky-sunlight-arms-open-arms-2667455/",
+        "fotografo": "Fotorech",
+        "fotografo_url": "https://pixabay.com/users/Fotorech-5554393/",
+        "alt": "woman, sky, sunlight, arms, open arms, sunbeams, sunrays, clouds, worship, freedom, happiness, nature, relieved, prayer, praise, success, joy",
+        "src": "https://pixabay.com/get/g1bb51ad18c5f0a571b946e1e66f8284c9202facdce32bf893f82b77f002208fd6e42205fbfd2b75d7b8a27bb1910f9c6d219eb40baf6334151f3b35c8be584a8_1280.jpg",
+        "miniatura": "https://pixabay.com/get/gf3cf960ac1f36d70b116b95dbfbf574f4d4199b567adaf18b7b34e49ff98e6476a649018b05e32a6eb70920ca47f7e430e65b54f6705010ad85f47be8775a57d_640.jpg"
+      },
+      {
+        "id": "pixabay-2243465",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/morning-sunrise-woman-silhouette-2243465/",
+        "fotografo": "avi_acl",
+        "fotografo_url": "https://pixabay.com/users/avi_acl-5075433/",
+        "alt": "morning, sunrise, woman, silhouette, sunlight, nature, peace, sky, spirituality, peaceful, grateful, gratitude, morning, morning, morning, morning, morning, sunrise, sunrise, peace, peace, peace",
+        "src": "https://pixabay.com/get/gde48330490a5051d893aaa5a6fee97a01cc6592b039618eeeb06bb02af35231206dac09080b828f2e8cf52794d7d19f081ccca0cb330112b8e86210a1a7bcf13_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g6482bdcb82830372c4ba1a6d87fc7599fa19cf728cdb612fa5d1ce3c50f232ec01eeffb7969105fef8d401853d9667c54ec5155d1a0655182341e2cc36c5b06a_640.jpg"
+      },
+      {
+        "id": "pixabay-817365",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/children-siblings-brother-sister-817365/",
+        "fotografo": "Bessi",
+        "fotografo_url": "https://pixabay.com/users/Bessi-909086/",
+        "alt": "children, siblings, brother, sister, holding hands, family, love, childhood, kids, people, portrait, happiness, together, girl, friends, cute, boy, friendship, children, children, family, family, love, love, love, love, love, kids, people, girl",
+        "src": "https://pixabay.com/get/gc03afc6c02098963413e8224e929629cff389f9bc5c83a644cfc2b2a8d4c41518d6690ba90f5690669f8b6a87f38ac30af41ae0f2c75b3e23bf17687d91f95da_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g7598263dfd2641d28db44f70834b6c50c4b424777ac7c61dbad4db4942cc41cf48dcf81b1afd99b2ae06fceba56e2e75_640.jpg"
+      }
+    ]
+  },
+  "5.1": {
+    "busca": "sunrise light rays forest",
+    "escolhida": {
+      "id": "pixabay-9914605",
+      "banco": "Pixabay",
+      "pagina": "https://pixabay.com/photos/fog-mist-haze-valley-golden-hour-9914605/",
+      "fotografo": "AnikaRichmann",
+      "fotografo_url": "https://pixabay.com/users/AnikaRichmann-13205421/",
+      "alt": "fog, mist, haze, valley, golden hour, sunrise, sunset, landscape, mountains, hills, forest, woods, trees, serene, tranquil, nature, outdoors, travel, scenic, glow, atmosphere, light rays, wilderness, low clouds, sauerland",
+      "src": "https://pixabay.com/get/g8cc7189385bb81177de6a9b157baef5e0c8a3a958d50f8e69f1c6e8cb35fbd1507f4c7225fafa522cb9a8856d380e05aefe4af94b9b7e4a167a23811de555d38_1280.jpg",
+      "miniatura": "https://pixabay.com/get/gc40314f180c7ffb3596f4a71045df3d03344c1609423f9d009a3183777d376a8b330b76be8de6767b6a21bab792a4d2cd1aae3364991b7c82f80d65db505ca68_640.jpg"
+    },
+    "candidatas": [
+      {
+        "id": "pixabay-9914605",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/fog-mist-haze-valley-golden-hour-9914605/",
+        "fotografo": "AnikaRichmann",
+        "fotografo_url": "https://pixabay.com/users/AnikaRichmann-13205421/",
+        "alt": "fog, mist, haze, valley, golden hour, sunrise, sunset, landscape, mountains, hills, forest, woods, trees, serene, tranquil, nature, outdoors, travel, scenic, glow, atmosphere, light rays, wilderness, low clouds, sauerland",
+        "src": "https://pixabay.com/get/g8cc7189385bb81177de6a9b157baef5e0c8a3a958d50f8e69f1c6e8cb35fbd1507f4c7225fafa522cb9a8856d380e05aefe4af94b9b7e4a167a23811de555d38_1280.jpg",
+        "miniatura": "https://pixabay.com/get/gc40314f180c7ffb3596f4a71045df3d03344c1609423f9d009a3183777d376a8b330b76be8de6767b6a21bab792a4d2cd1aae3364991b7c82f80d65db505ca68_640.jpg"
+      },
+      {
+        "id": "pixabay-1555249",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/sunbeams-sun-fog-heaven-sunrise-1555249/",
+        "fotografo": "pixifant",
+        "fotografo_url": "https://pixabay.com/users/pixifant-2995268/",
+        "alt": "sunbeams, sun, fog, heaven, sunrise, shine, light effect, light, tomorrow, sun hole, backlighting, mood, lichtspiel, nature, mountains, sunbeam, landscape, forest, fall, light rays, trees",
+        "src": "https://pixabay.com/get/gdaa1eb9530478b1dda8596e1997d2719aca9a43f91e832ca56245f35bf8c78b6c277af6247f52d2ecaef0a366d6121c8900024ba25007b20fbd9d69edb9c6dd1_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g83e403f5cac03924cffcee34c579de354df6be64393f2bafb4c6c1b9a2c930174a6ffbc22c229e777c7699d2db6937451a97a52ac3513982fc79085292239e9f_640.jpg"
+      },
+      {
+        "id": "pixabay-4711958",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/forest-mystical-sun-shine-mood-4711958/",
+        "fotografo": "Tama66",
+        "fotografo_url": "https://pixabay.com/users/Tama66-1032521/",
+        "alt": "forest, mystical, sun, shine, mood, trees, light, mysterious, dark, magic, fantasy, nature, dream, fairy tale, fog, the atmosphere",
+        "src": "https://pixabay.com/get/ge0c2ff2a05557f2fe14905325f20780e6f360fbb5d35c7cbf2ad65f7fb99daf70754f1c9cdb2ed7c6c3335467dddeb2638e8effe021d964f798f5317a3018613_1280.jpg",
+        "miniatura": "https://pixabay.com/get/gd0017654b9c1798babe460e56d5d9f25b09fe62fbb68325276e9ecf61f8172b25d62e20985572a4f3fb0248268f14b225beb908d51f7c3c6b6e5e17d379803cd_640.jpg"
+      },
+      {
+        "id": "pixabay-2761911",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/sunbeams-autumn-fog-autumn-forest-2761911/",
+        "fotografo": "GuentherDillingen",
+        "fotografo_url": "https://pixabay.com/users/GuentherDillingen-4926783/",
+        "alt": "sunbeams, autumn fog, autumn forest, sunlight, forest, fall, nature, trees, backlighting, sun, mood, landscape, light rays, sunbeam, morning mood, light, mystical, to shine through, forest path, lighting mood, beam of light, morning sun, sun, light rays, light rays, light rays, light rays, light rays, sunbeam, morning sun, morning sun, morning sun, morning sun",
+        "src": "https://pixabay.com/get/gbe7cbc69f6628ba9a23d8776c9accc3bfbb1f0a55daf1af06172af303959f4be36e1962de54994dac568ee796c7834b6a6b6fe7f4a3f52c378f7ed399ecd92f2_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g70d3f64717ee7bef54c193916ecaf2b4c5af40967bcadcae8b448d68d82fed94b1b1c0ebdd76106edb6f2f981278a87aa4b6e5c7798dc2b789ebf5f95706b503_640.jpg"
+      },
+      {
+        "id": "pixabay-4491549",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/ith-forest-fog-trees-nature-4491549/",
+        "fotografo": "11703009",
+        "fotografo_url": "https://pixabay.com/users/11703009-11703009/",
+        "alt": "ith, forest, fog, trees, nature, mysterious, mystical, light, fairytale, fall, atmospheric",
+        "src": "https://pixabay.com/get/g241c75c7c0bb1cfb29221fae382a0887f51924136c1050c8acfe82547d8c7ec0e7e2ae3400020acb4c0aa53270a194ab5737e0cf6e0e68982f963e161ad8eb35_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g6066ac60e0a0461b99933cb3b80f71c91a58ff297cf44ec2f37bcddf75d4dcc1ba0363adc46234e83c0b1fdff686a2b267896bd22f8bc9792621a8290a99bb85_640.jpg"
+      },
+      {
+        "id": "pixabay-2562807",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/trees-plant-forest-fog-cold-2562807/",
+        "fotografo": "jplenio",
+        "fotografo_url": "https://pixabay.com/users/jplenio-7645255/",
+        "alt": "trees, plant, forest, fog, cold, weather, in the free, magic, nature, light, beam of light, foggy",
+        "src": "https://pixabay.com/get/g7f03bf13d9aeb07ce8ecc008901de14daae028a95e03d118adb763285d55b6b8840472d491d317b73e9c81f7a29f9963490fac1acd562794d87081d61ace1a82_1280.jpg",
+        "miniatura": "https://pixabay.com/get/gefcbe1135941b4027cf9d9a45dd66a969f9dd6a9d9abea69fc58b1442369e2be355ad9301efb9f3d38126aa0ebc30130677cb002a768a2f45622fb58f4b3a240_640.jpg"
+      }
+    ]
+  },
+  "5.2": {
+    "busca": "journal pen prayer list",
+    "escolhida": {
+      "id": "pixabay-1284248",
+      "banco": "Pixabay",
+      "pagina": "https://pixabay.com/photos/arm-hand-write-planner-planning-1284248/",
+      "fotografo": "Pexels",
+      "fotografo_url": "https://pixabay.com/users/Pexels-2286921/",
+      "alt": "arm, hand, write, planner, planning, writing, notebook, pen, to do, organized, organizer, journal, write, planner, planning, planning, planning, planning, writing, writing, writing, writing, writing, notebook, pen, journal, journal",
+      "src": "https://pixabay.com/get/g6cb85123a44dc452a01e19eee359492993be724d2d49b574e0780238ed57b30923b31c64a90256675c299f18f439b4741445c8efcfb4c9a60e931de9dc12befa_1280.jpg",
+      "miniatura": "https://pixabay.com/get/gcdbef68d0be2c068c25a672ae6ffc0edfa2959dc7b8a120e7b02825f865d7d66b8e8193c53e142184f81bf610d3c8a8f60e563634ffaacfe6807aa97c4d3e633_640.jpg"
+    },
+    "candidatas": [
+      {
+        "id": "pixabay-1284248",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/arm-hand-write-planner-planning-1284248/",
+        "fotografo": "Pexels",
+        "fotografo_url": "https://pixabay.com/users/Pexels-2286921/",
+        "alt": "arm, hand, write, planner, planning, writing, notebook, pen, to do, organized, organizer, journal, write, planner, planning, planning, planning, planning, writing, writing, writing, writing, writing, notebook, pen, journal, journal",
+        "src": "https://pixabay.com/get/g6cb85123a44dc452a01e19eee359492993be724d2d49b574e0780238ed57b30923b31c64a90256675c299f18f439b4741445c8efcfb4c9a60e931de9dc12befa_1280.jpg",
+        "miniatura": "https://pixabay.com/get/gcdbef68d0be2c068c25a672ae6ffc0edfa2959dc7b8a120e7b02825f865d7d66b8e8193c53e142184f81bf610d3c8a8f60e563634ffaacfe6807aa97c4d3e633_640.jpg"
+      },
+      {
+        "id": "pixabay-1840276",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/notebook-notes-pen-writing-diary-1840276/",
+        "fotografo": "Pexels",
+        "fotografo_url": "https://pixabay.com/users/Pexels-2286921/",
+        "alt": "notebook, notes, pen, writing, diary, paper, fountain pen, journal, write, writing notes, writing, writing, writing, writing, writing, diary, journal, journal",
+        "src": "https://pixabay.com/get/g44bf2bce50a9964d28848fe08dea82cb2c7b76f5e5387cb695680098f8094f06e493b082315fb60f69b90dab13ddd21b87a7a83a4d607aa0d1d38652fd5d853c_1280.jpg",
+        "miniatura": "https://pixabay.com/get/gd5b2f68651c044fb6538fe319aea66819c9a407913e41ed64fcc5ea77da1b3bcf9edb100cd3c6c1c19c9d9263f270320d4dc7ed64508930f5515261862216d82_640.jpg"
+      },
+      {
+        "id": "pixabay-1854169",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/fountain-pen-notebook-paper-writing-1854169/",
+        "fotografo": "Pexels",
+        "fotografo_url": "https://pixabay.com/users/Pexels-2286921/",
+        "alt": "fountain pen, notebook, paper, writing, write, pen, written, calligraphy, notes, vintage, old, nostalgic, nostalgia, writing, writing, writing, writing, writing, pen, pen, pen",
+        "src": "https://pixabay.com/get/g5850f68f7977601d6ce04726b94faa9e678abf2cf020b5612b5709aecb84e17b806032375673d8f8a018213d810b6e98b520ecee6e509cf776284cffe595871a_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g3bf5acfb2690e7c0d713ff2da6d113d2d89104a8c6d0d5e22f534948874dc1a3cfc52d1241ec439bfc30e529c1bf6405f87ef235dbd5ac6225da9607f69317b3_640.jpg"
+      },
+      {
+        "id": "pixabay-1276779",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/notepad-coffee-pen-fountain-pen-1276779/",
+        "fotografo": "freephotocc",
+        "fotografo_url": "https://pixabay.com/users/freephotocc-2275370/",
+        "alt": "notepad, coffee, pen, fountain pen, empty notebook, empty pages, pages, open notebook, journal, diary, notebook, notes, write, notepad, notepad, pen, pen, journal, journal, journal, journal, journal, diary, diary, notebook, notebook, write",
+        "src": "https://pixabay.com/get/g7911f53236f0e31209a99efb0b0b23ccbbeb69f1d0ba8bff959a14a1550ae91367426d6a1389d0c98824cc1aa9fa440cdfd604084bc88ec1e4ab5bf8d139179e_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g7dd78813527b5ec8872c71c8f5e8704bda717633a06e3f170233e96dfebda456c135f4ffc5fb85947854819199ede7bbdf2faec1b15376139a62238f60b1035b_640.jpg"
+      },
+      {
+        "id": "pixabay-1565402",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/pocket-leather-goods-purse-notebook-1565402/",
+        "fotografo": "LUM3N",
+        "fotografo_url": "https://pixabay.com/users/LUM3N-1066559/",
+        "alt": "pocket, leather goods, purse, notebook, accessories, mobile, smartphone, pen, fountain pen, contents, fashion, agenda, calendar, cellphone, still life, vintage, leather, accessories, mobile, pen, fashion, fashion, fashion, agenda, agenda, agenda, agenda, agenda, calendar, calendar, calendar, calendar, leather, leather",
+        "src": "https://pixabay.com/get/ge6b4d9c27b3ae605b52d986fcdaa66534787104587e45c8ab364dc34e80281e080377f51bbb455e86b2a5161ae17e7e02e8353bde0d3da1a32e833a902e9964f_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g15fb3b34ec6040aadc002e7e3762b66482183262b83ba4fc5c8ed5e045d8a1ff0d4fe1136e928224477f8cfb0dc0377fb9d65f711789f3c601ff4d28f9b98e02_640.jpg"
+      },
+      {
+        "id": "pixabay-923882",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/writing-writer-notes-pen-notebook-923882/",
+        "fotografo": "StockSnap",
+        "fotografo_url": "https://pixabay.com/users/StockSnap-894430/",
+        "alt": "writing, writer, notes, pen, nature, notebook, book, girl, woman, people, hands, grass, outdoors",
+        "src": "https://pixabay.com/get/gf5dcf6ee467c316081c5a40f0fd293afce92c70b7f97b244443c22f2de0d825e062d91526084fa0a873472cd4f87b4125859be9dd75d80a756d782b4c9c576b8_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g748b6ad0e73f6e1bffb6a20a0d58465d9eebf895de41c8f73b666b4fa5ddf1d0de18fc6519657a17638c3dad56b9c03a_640.jpg"
+      }
+    ]
+  },
+  "5.3": {
+    "busca": "peaceful sunset meadow",
+    "escolhida": {
+      "id": "pixabay-2160352",
+      "banco": "Pixabay",
+      "pagina": "https://pixabay.com/photos/sunset-panorama-fields-horizon-2160352/",
+      "fotografo": "Felix-Mittermeier",
+      "fotografo_url": "https://pixabay.com/users/Felix-Mittermeier-4397258/",
+      "alt": "sunset, panorama, fields, horizon, barn, hut, cottage, cabin, meadows, farm, farmlands, rural, countryside, dusk, twilight, skyscape, landscape, sky, nature, clouds, scenic, peaceful, idyllic, dramatic, barn, barn, hut, cottage, cabin, cabin, farm, farm, farm, farm, farm, nature, peaceful, peaceful, peaceful, peaceful",
+      "src": "https://pixabay.com/get/ga615242a81b875ba4f1cd317477e57e7fbf18202560bc6becba4989f4063267b75d0b9d1b274040711e9e3b2bb795a8c96f8e78d70e3f584f77d558bd2c946ee_1280.jpg",
+      "miniatura": "https://pixabay.com/get/g28d7f1334c3fde25036ac59a2a3290866881f71e991feb5e4ec1f6424e0620ad5ac1598497a0f339d1f93975b10843a9709b47eae0e1861a764ab55758c01f3b_640.jpg"
+    },
+    "candidatas": [
+      {
+        "id": "pixabay-2160352",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/sunset-panorama-fields-horizon-2160352/",
+        "fotografo": "Felix-Mittermeier",
+        "fotografo_url": "https://pixabay.com/users/Felix-Mittermeier-4397258/",
+        "alt": "sunset, panorama, fields, horizon, barn, hut, cottage, cabin, meadows, farm, farmlands, rural, countryside, dusk, twilight, skyscape, landscape, sky, nature, clouds, scenic, peaceful, idyllic, dramatic, barn, barn, hut, cottage, cabin, cabin, farm, farm, farm, farm, farm, nature, peaceful, peaceful, peaceful, peaceful",
+        "src": "https://pixabay.com/get/ga615242a81b875ba4f1cd317477e57e7fbf18202560bc6becba4989f4063267b75d0b9d1b274040711e9e3b2bb795a8c96f8e78d70e3f584f77d558bd2c946ee_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g28d7f1334c3fde25036ac59a2a3290866881f71e991feb5e4ec1f6424e0620ad5ac1598497a0f339d1f93975b10843a9709b47eae0e1861a764ab55758c01f3b_640.jpg"
+      },
+      {
+        "id": "pixabay-4911852",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/church-sunset-sunrise-worship-4911852/",
+        "fotografo": "2780243",
+        "fotografo_url": "https://pixabay.com/users/2780243-2780243/",
+        "alt": "church, nature, sunset, sunrise, worship",
+        "src": "https://pixabay.com/get/g4f9793c8790ebd84d811e8fccbe52cb6a03aae7f13806c6448f16a9551d61b05e10e9bc6e4e3354ed46c9890ef60c12add6b32e4e906b59f5e5b91691c878bce_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g2c68d4a8da90f3ba43b1186d553cd1f2cb738f4899c9cfd76f3c5c2d6c38b6816ef1943b2664468b44bf1ee4a1d69272e730baf6ef7d4653452e8c827b0bd2a9_640.jpg"
+      },
+      {
+        "id": "pixabay-4356963",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/nature-landscape-moor-high-fens-4356963/",
+        "fotografo": "652234",
+        "fotografo_url": "https://pixabay.com/users/652234-652234/",
+        "alt": "nature, landscape, moor, high fens, clouds, heaven, sunset, scenic, trees, hike, relaxation, mood, recreation, relax, vacations, peaceful, atmospheric, moor, moor, moor, moor, moor, relaxation, relax, relax, relax, peaceful, peaceful, peaceful",
+        "src": "https://pixabay.com/get/g00e7ceb24477fc1936e4ac13780170fbba7225c132401b422e84abebf37a3d0071505de7c2efac9b31c0103c1d95d644c881a17694f4f18526561cf9be3793a1_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g16b822c4c4685aa182c2405be7534827c3b43c20b4d874449ac213bb041163147deb698beb86a86893b548ca053dbc45cf75c6236ac8837017a2b6593307c015_640.jpg"
+      },
+      {
+        "id": "pixabay-9718387",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/la-mure-village-france-barley-field-9718387/",
+        "fotografo": "MARTINOPHUC",
+        "fotografo_url": "https://pixabay.com/users/MARTINOPHUC-13713779/",
+        "alt": "la mure village, france, barley field, sorghum, mountains, nature, countryside, brick season",
+        "src": "https://pixabay.com/get/g06c7119656b7844d0c7188191c3df3831e51c29de937be7e8af83302caf808e14aca0fa1ab3929234a3a106bd76069130310480fd9ee7dd83cc388a56d2095c7_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g5c686669d8d3fea49880e953c6fe077531aa6c663a0671416c8a2f1f89da0c24572ef8530fef5a14f46d2e7cf98c37b3dfe477e7f25eb8029bf8dbfb71af62ae_640.jpg"
+      },
+      {
+        "id": "pixabay-792818",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/woman-country-side-hat-summer-792818/",
+        "fotografo": "Republica",
+        "fotografo_url": "https://pixabay.com/users/Republica-24347/",
+        "alt": "woman, country side, hat, nature, summer, field, young, female, girl, relax, calm, peaceful, quiet, pasture",
+        "src": "https://pixabay.com/get/g9508dfd89ec61bfa15e7f13907c8689424d6b3f76cc229fe1a24bb7da6495e466b8ad913df38e03f9ce59ba3b933ca34245da38ca9c8913789370da8b3cbdef0_1280.jpg",
+        "miniatura": "https://pixabay.com/get/geafdfb3b90fcc43310ce243f11b7dd6ed3bd72b8846077366a06ed9a83658951efb7c6dcd3ace84167726d16e94984b7_640.jpg"
+      },
+      {
+        "id": "pixabay-8294459",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/sunrise-morning-chairs-table-trees-8294459/",
+        "fotografo": "jplenio",
+        "fotografo_url": "https://pixabay.com/users/jplenio-7645255/",
+        "alt": "sunrise, morning, chairs, table, trees, foggy, misty, backlight, nature, happy, quiet, optimism, positive, beginning, green, leaves, garden, garden, garden, garden, garden, garden",
+        "src": "https://pixabay.com/get/g1fefd4d5f9cb70fba75b91b7c56571ca8227f049e018192b88a29462bd0a1b434e5374b1a70f999ba850aee26dd567677bb14cf9b442f0c31f90fccf0f996e51_1280.jpg",
+        "miniatura": "https://pixabay.com/get/gc8edb0e6d54b447e567743b0a3c0c7439e7bc258db713fe418a978cedcabc8757524ca90d4e5fde2b5aa68d9fde8f7f8fcbef85be7fa1fbd3b8b96e5b31c7f2a_640.jpg"
+      }
+    ]
+  },
+  "6.1": {
+    "busca": "wheat field golden light",
+    "escolhida": {
+      "id": "pixabay-7161095",
+      "banco": "Pixabay",
+      "pagina": "https://pixabay.com/photos/weizenfeld-weizen-mais-field-7161095/",
+      "fotografo": "VitalyKobzun",
+      "fotografo_url": "https://pixabay.com/users/VitalyKobzun-25145253/",
+      "alt": "weizenfeld, weizen, mais, field, landwirtschaft, sommer, getreidefeld, goldgelb, ahre, natur, landscape",
+      "src": "https://pixabay.com/get/gaedb472e64bb76f7e48a72e7e691d25557e239b84042da5e786f62d9cc4921dda0e85657332290c8e629ce3b48d2700dd197ebf5c5f712df605ea1edaea7f9de_1280.jpg",
+      "miniatura": "https://pixabay.com/get/gcca6b382dd3f1bedce87f2aa1f8232f36ebdefc029b099f771aa5d4ccc53ce0827b6b0368976bf0b0f612802d8452332ed6b4ff23b0e5e357843ade0cf768308_640.jpg"
+    },
+    "candidatas": [
+      {
+        "id": "pixabay-7161095",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/weizenfeld-weizen-mais-field-7161095/",
+        "fotografo": "VitalyKobzun",
+        "fotografo_url": "https://pixabay.com/users/VitalyKobzun-25145253/",
+        "alt": "weizenfeld, weizen, mais, field, landwirtschaft, sommer, getreidefeld, goldgelb, ahre, natur, landscape",
+        "src": "https://pixabay.com/get/gaedb472e64bb76f7e48a72e7e691d25557e239b84042da5e786f62d9cc4921dda0e85657332290c8e629ce3b48d2700dd197ebf5c5f712df605ea1edaea7f9de_1280.jpg",
+        "miniatura": "https://pixabay.com/get/gcca6b382dd3f1bedce87f2aa1f8232f36ebdefc029b099f771aa5d4ccc53ce0827b6b0368976bf0b0f612802d8452332ed6b4ff23b0e5e357843ade0cf768308_640.jpg"
+      },
+      {
+        "id": "pixabay-7252585",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/wheat-spike-field-dusk-grain-7252585/",
+        "fotografo": "Peggychoucair",
+        "fotografo_url": "https://pixabay.com/users/Peggychoucair-1130890/",
+        "alt": "wheat, spike, field, dusk, grain, plants, sunset, evening sky, nature, landscape, stalks, grain field, wheat, wheat, wheat, wheat, wheat, spike, nature, grain field",
+        "src": "https://pixabay.com/get/g92441bc404ac9e5bbb08e66a3c1806c331cf1d49e3fa892e95131ddae8f67286410e589a7a93e1e5d6ee52cad461473e0b369f7211bec30e8bd130757eb31c78_1280.jpg",
+        "miniatura": "https://pixabay.com/get/gd91fd9c3c59b8c9e11b21cff5d0cec74446fda83450eaa665e458f8337705bafa255dfedf339d79408fd5a8108f8cab7117f88c20cf5719e6d815fa4d8551033_640.jpg"
+      },
+      {
+        "id": "pixabay-5331415",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/sunset-sun-sunny-wheat-field-field-5331415/",
+        "fotografo": "Anrita1705",
+        "fotografo_url": "https://pixabay.com/users/Anrita1705-11109462/",
+        "alt": "sunset, sun, sunny, wheat field, field, sunrise, heaven, meditation, mood, freedom, light, nature, evening atmosphere, quiet, summer, wheat, idyllic, the atmosphere, atmospheric, romantic, silence, landscape, wheat field, wheat field, wheat field, wheat field, wheat field, sunrise, meditation, meditation, wheat, wheat, wheat",
+        "src": "https://pixabay.com/get/gfc7184e243d1553b2556c70ddfbbd20121bb968fab590a3c74413b53301047cadb37ad597a0002d68831887298f0c4ae54bc760d78946ef05a5885fb6e5587dc_1280.jpg",
+        "miniatura": "https://pixabay.com/get/gc50e3966e4547b796d09ca6e8d4b6379e1aa3e99d16594dc814ed30bb182bd8ae1fc880ddacf7e34f744bc541902a1f81cea17c40cee3c6ba989df22aac533bb_640.jpg"
+      },
+      {
+        "id": "pixabay-7385676",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/cornfield-sunset-field-landscape-7385676/",
+        "fotografo": "4376257",
+        "fotografo_url": "https://pixabay.com/users/4376257-4376257/",
+        "alt": "cornfield, sunset, field, landscape, nature, wheat field, mountain, eve, heaven, clouds",
+        "src": "https://pixabay.com/get/g3cb83b345269d16e5264239544c08790e5718db25b65f8e3a1a2be5f6f61884397206df1c7f0eab5ee089bc3814b4e27e51f37455bb392b023ea4dd0159bfc1b_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g497fbbf81ea44ef76e4491f22dcabfc40ba8a4356a4bbaceab9988b958fcb858d6f8ea74e458b9536709827732915715a4a0371a2e40b09795b52e13ad0224e0_640.jpg"
+      },
+      {
+        "id": "pixabay-7422617",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/fantasy-composing-child-butterfly-7422617/",
+        "fotografo": "Willgard",
+        "fotografo_url": "https://pixabay.com/users/Willgard-4665627/",
+        "alt": "fantasy, composing, child, butterfly, cornfield, light, magic, fantasy, fantasy, fantasy, fantasy, fantasy, child, child, child",
+        "src": "https://pixabay.com/get/g981be9a2195ca8f37f89b6f34b805b5b9ccb067e054c71b9dd9b7f8d36501a4eb5f0808f7af1e8fdecf5dd31adafc720101eba1b4853ac98ecb52223b04a0141_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g742558bf1a963736c5a7a8008344d146e2337338fbb7425e8a94133305f327f4214357163df601c5022c0c936850d843d0bcf289a68d1bab35b779f9d12b57fd_640.jpg"
+      },
+      {
+        "id": "pixabay-8238900",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/field-weather-meadow-clouds-storm-8238900/",
+        "fotografo": "Peggychoucair",
+        "fotografo_url": "https://pixabay.com/users/Peggychoucair-1130890/",
+        "alt": "field, weather, meadow, clouds, storm, thunderstorm, cornfield, agriculture, landscape, nature, grain field, grain",
+        "src": "https://pixabay.com/get/g0dd936bfdc139a48d8f89d87cfb11b89dad16aaa51cb192c685524f8fc6f9b4fee648d4b5b94c6a8dfb78b83f56a22bbd1723ec185f0e344dea79e8c21a0278f_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g6475450875a191f77d1f34c42bdbe67f6c559d2c51da0ec37001bc7a50fafb60a91ac6aec402fe44503e3410ab3aee27163c5fed2dfa3a25ccfab33197b2fee3_640.jpg"
+      }
+    ]
+  },
+  "7.1": {
+    "busca": "person sitting window thinking",
+    "escolhida": {
+      "id": "pixabay-8282467",
+      "banco": "Pixabay",
+      "pagina": "https://pixabay.com/photos/man-window-guitar-human-thoughtful-8282467/",
+      "fotografo": "RuslanSikunov",
+      "fotografo_url": "https://pixabay.com/users/RuslanSikunov-11647343/",
+      "alt": "man, window, guitar, human, thoughtful, silhouette, window, guitar, guitar, guitar, human, human, human, human, human, silhouette",
+      "src": "https://pixabay.com/get/g907aa2ef2f4fb447af936a150d255b13b10014f379c08c078332acc40dc1b73078aee9643b7952d0045a37f84f73a6a04218a6efaf37875a2b04cb41bfbb7e01_1280.jpg",
+      "miniatura": "https://pixabay.com/get/g8210c8d26787a2ee8b20870b49979be12d83b891adf3ad389d551d79b9249c22a994e4801512ee454a76a9b8aba5fc5de5ce495b6fa44d3197661795b65fee85_640.jpg"
+    },
+    "candidatas": [
+      {
+        "id": "pixabay-8282467",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/man-window-guitar-human-thoughtful-8282467/",
+        "fotografo": "RuslanSikunov",
+        "fotografo_url": "https://pixabay.com/users/RuslanSikunov-11647343/",
+        "alt": "man, window, guitar, human, thoughtful, silhouette, window, guitar, guitar, guitar, human, human, human, human, human, silhouette",
+        "src": "https://pixabay.com/get/g907aa2ef2f4fb447af936a150d255b13b10014f379c08c078332acc40dc1b73078aee9643b7952d0045a37f84f73a6a04218a6efaf37875a2b04cb41bfbb7e01_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g8210c8d26787a2ee8b20870b49979be12d83b891adf3ad389d551d79b9249c22a994e4801512ee454a76a9b8aba5fc5de5ce495b6fa44d3197661795b65fee85_640.jpg"
+      },
+      {
+        "id": "pixabay-865110",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/female-diary-journal-write-865110/",
+        "fotografo": "picjumbo_com",
+        "fotografo_url": "https://pixabay.com/users/picjumbo_com-2130229/",
+        "alt": "female, diary, journal, write, beautiful, inspire, create, sketch, contemplate, girl, think, inspiration, plan, schedule, creative",
+        "src": "https://pixabay.com/get/gc6eaa2d21235a4c3323c389493e6ca9c1cd9523cce2b0ff6cca702c6f4b2b5e1d9a502ce3f5207316a62c530628ee3a2896b692b0a4e7ab2135f259dd936e9bc_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g9035f89f87b1b082995f4dc08e81009490b310b99898bc7ee3584bb29aba005501091e19d5aedb5717fcdebc27c169a4_640.jpg"
+      },
+      {
+        "id": "pixabay-3157821",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/portrait-people-adult-africa-3157821/",
+        "fotografo": "artsysolomon",
+        "fotografo_url": "https://pixabay.com/users/artsysolomon-6715447/",
+        "alt": "portrait, people, adult, africa, person, young, smile, face, man, casual, lifestyle, successful, confident, male, cheerful, glasses, thoughts, people, people, people, africa, person, person, person, person, person, man, man, man, male, thoughts, thoughts, thoughts",
+        "src": "https://pixabay.com/get/ge1c242b35baa5385034aae9aed3e0cd4c6c02f469da0b9a46569294451bf51471c69f7cfe9f1b84f985b97b116a58b8df22555172985846eeb1179508ff85b5d_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g01d62d6e4ba4ff328d1fc7ad60aeedf5218bec3dfc1c101e857a8bc71173d5841c554aa506de2dfc29ca43ea7822c194ffb31d920667ce24ed9e4e87befbf0f4_640.jpg"
+      },
+      {
+        "id": "pixabay-1477601",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/businessman-silhouette-windows-1477601/",
+        "fotografo": "mhouge",
+        "fotografo_url": "https://pixabay.com/users/mhouge-2504901/",
+        "alt": "businessman, silhouette, windows, looking out, man, window, looking out window, corporate, thinking, looking, executive, professional, businessman, businessman, businessman, businessman, businessman, corporate, thinking, thinking, thinking, executive, professional",
+        "src": "https://pixabay.com/get/g5da41b4fe3cf30cfe4beb586ecdf920412eb8bcb972443ad16a78b83efe195e90af51d97b00492c6ff2f503c15f16efbc56332f481a1eb51c974239023f1b8c1_1280.jpg",
+        "miniatura": "https://pixabay.com/get/gc3e742314d4aea65bd976bb0aa8485873fec5e4954436b41f0a4f30ee86b45b6508cd972e64053495d1e931a4aa0da7d78d26d6ec7943a09977c2e85c3c11eee_640.jpg"
+      },
+      {
+        "id": "pixabay-2293377",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/desperate-sad-depressed-feet-hands-2293377/",
+        "fotografo": "Anemone123",
+        "fotografo_url": "https://pixabay.com/users/Anemone123-2637160/",
+        "alt": "desperate, sad, depressed, feet, hands, crossed, hopeless, loss, worries, teenager, despair, depression, tormented, torment, sadness, grief, fear, anxious, defenseless, alone, lonely, bullying, emotion, person, human, problem, black-and-white, pulled back",
+        "src": "https://pixabay.com/get/g2e23facec79351f38e21842c20615d46b5b605e282f0decbd87ab6f1a580b7e399f9ae12466dc980010d173758ee0e1097fdadcdb69469e547a2032fb64b7cf2_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g27b0ac8ba5dc736f66c75ec016be6e4496639a9f1044510f0ba863c809269d93d22d635b758fcd05d2734eac1a19d06b8bb40aa58fe62a7c9c0ae1b92c419d0d_640.jpg"
+      },
+      {
+        "id": "pixabay-1562025",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/girl-woman-female-person-mountain-1562025/",
+        "fotografo": "thatsphotography",
+        "fotografo_url": "https://pixabay.com/users/thatsphotography-3017066/",
+        "alt": "girl, woman, female, nature, person, mountain, view, calm, forest, hat, adventure, leisure",
+        "src": "https://pixabay.com/get/ga5db8f1fe741ad1045eba774545bb7bd857d1936ce20f76abe4eb385e380582763aea4e9f4b8e8738c489315969875ff368ad229517812ef8a217b3eaed76c6d_1280.jpg",
+        "miniatura": "https://pixabay.com/get/ga6c285a885b91c524ef7b3b7cf037a74730e0379ca79dfdc786e745a4a1ac8f6bc3664275b7e4c9eb5f3ac150e3a55111ea3c98bdda926116589e560590c917f_640.jpg"
+      }
+    ]
+  },
+  "8.1": {
+    "busca": "praying hands light",
+    "escolhida": {
+      "id": "pixabay-2544994",
+      "banco": "Pixabay",
+      "pagina": "https://pixabay.com/photos/prayer-hands-church-light-religion-2544994/",
+      "fotografo": "Himsan",
+      "fotografo_url": "https://pixabay.com/users/Himsan-6011594/",
+      "alt": "prayer, hands, church, light, religion, faith, belief, prayer, prayer, prayer, prayer, prayer, church, church, faith",
+      "src": "https://pixabay.com/get/g11b230c83b9b5a0362c3262fb1e34a92f8e602d6ba73b5573f63ce9d3223e080f146d81bb6b25820bdd82b5c08a46544b36f809ff9336d2b4864f36f0d898a8b_1280.jpg",
+      "miniatura": "https://pixabay.com/get/g3a0468a165c6f64d8a2596332d8d81be849323c883693da5311604f1c86e95dbe172ab7acc60a7bfe994dc2b8a97932c361b2abd0521bcbad449985e4db4c1cd_640.jpg"
+    },
+    "candidatas": [
+      {
+        "id": "pixabay-2544994",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/prayer-hands-church-light-religion-2544994/",
+        "fotografo": "Himsan",
+        "fotografo_url": "https://pixabay.com/users/Himsan-6011594/",
+        "alt": "prayer, hands, church, light, religion, faith, belief, prayer, prayer, prayer, prayer, prayer, church, church, faith",
+        "src": "https://pixabay.com/get/g11b230c83b9b5a0362c3262fb1e34a92f8e602d6ba73b5573f63ce9d3223e080f146d81bb6b25820bdd82b5c08a46544b36f809ff9336d2b4864f36f0d898a8b_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g3a0468a165c6f64d8a2596332d8d81be849323c883693da5311604f1c86e95dbe172ab7acc60a7bfe994dc2b8a97932c361b2abd0521bcbad449985e4db4c1cd_640.jpg"
+      },
+      {
+        "id": "pixabay-7334372",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/bible-hands-prayer-low-key-7334372/",
+        "fotografo": "retepwal",
+        "fotografo_url": "https://pixabay.com/users/retepwal-13455952/",
+        "alt": "bible, hands, prayer, low key, religion, church, faith, dark, clasped, gesture, bible, bible, bible, prayer, prayer, prayer, prayer, prayer",
+        "src": "https://pixabay.com/get/g65376e59cd6d6e527c92570686c3c481c4a4af028a0b754e7e35aac8aa39ff521ad6c6047c90227e7b143f49d5f65bd419ea2b7080e43ffe052b1fee807b6743_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g0df9140160840584941ce5b707377bd4c1eaf077ad2bdc2372b043f72a0f04614225e3215a7a109432f0c0c1319bc2562bdef2f85d578094df449a76a49ea525_640.jpg"
+      },
+      {
+        "id": "pixabay-2256096",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/hands-shadow-man-person-light-2256096/",
+        "fotografo": "Photorama",
+        "fotografo_url": "https://pixabay.com/users/Photorama-5047024/",
+        "alt": "hands, shadow, man, person, light, adult, male, gray light, gray lights",
+        "src": "https://pixabay.com/get/gb24e9d5f0bf2d5ef1b4771672895c310faee0e511b4f6d8809d5b43d4f00e0a078957df80eabc097b162b087ddbb2f05af209828377e77b6341c79a61f60dd4a_1280.jpg",
+        "miniatura": "https://pixabay.com/get/gbf92f90483370b46ab2553e0e87e4f2bde516c06ce3e52f4667aa62331e1e40844941c6f2bba59d19beb9720069c98dcb9a6474891d7f59778f25ffc17c7ea39_640.jpg"
+      },
+      {
+        "id": "pixabay-7121574",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/pray-prayer-meditation-peace-7121574/",
+        "fotografo": "Photography_by_Sebbi",
+        "fotografo_url": "https://pixabay.com/users/Photography_by_Sebbi-11339632/",
+        "alt": "pray, prayer, meditation, peace, ukraine, symbol, church, worship, wait, praying, hands, folding hands, god, religion, faith, bible, pray, pray, pray, pray, pray, prayer, prayer, prayer, ukraine, worship, worship, worship, praying, praying",
+        "src": "https://pixabay.com/get/g5dceb98d1635d37ca58eb00ad7cd744cde56a88beb3e0e5b7305e7dc1e280e12da7453e638533e561cb223561b2b3bfd11f27fb2c84a8a9389410d802b3d24e4_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g1f7827a3a99be18b9e5df6f4a330aa59bfed99d476c54e19562a35c03d402f64c6d529190ed36346c2d80bd1c48dd0527ae04e8f8f95f0e855fcec3b8d4a9aee_640.jpg"
+      },
+      {
+        "id": "pixabay-7754571",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/virgin-mary-saint-mary-christianity-7754571/",
+        "fotografo": "terski",
+        "fotografo_url": "https://pixabay.com/users/terski-5330276/",
+        "alt": "virgin mary, saint mary, christianity, sculpture, statue, catholic, religion, virgin mary, virgin mary, virgin mary, virgin mary, virgin mary, catholic, catholic",
+        "src": "https://pixabay.com/get/g4923112836db73de9d6a74c3e31f0d838da9030ccc6ed7e3b7f6801f9941b462b7db313cd92a79e69394d1f99c17df6ce2526ee1b6c0b831af45d481f69226d5_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g3f6fbca673021dfe44998b95fff83ca4c437f2e2037fb43d8d0913d803e3270406f25fa3810705b21ce420db3516c05a69fc48be236acfa3715a6dc68d328f34_640.jpg"
+      },
+      {
+        "id": "pixabay-6800089",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/woman-model-portrait-pose-goddess-6800089/",
+        "fotografo": "RingoStudio",
+        "fotografo_url": "https://pixabay.com/users/RingoStudio-13205073/",
+        "alt": "woman, model, portrait, pose, goddess, angel, style, fashion, posing, young woman, girl, modeling, female, woman portrait, goddess, goddess, goddess, goddess, goddess",
+        "src": "https://pixabay.com/get/g2f7afdcbf82b39bc16a11bb727ed5a459c643b388c3606433b749bc3d97cbf870e1a119c53e985cb18f2260cefdea0ff470b1cf2954c39062892999510f5ce5b_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g4e2a1b3688d18b7263eec509ff346681378138b2c84ea3006bccdd79441942c9fa3b08a3daa94e27a8792cc2722cc9da4c6e0d709ef2a04176ac33bb8425fbe4_640.jpg"
+      }
+    ]
+  },
+  "9.1": {
+    "busca": "sunrise over hills",
+    "escolhida": {
+      "id": "pixabay-10534213",
+      "banco": "Pixabay",
+      "pagina": "https://pixabay.com/photos/pond-water-nature-steam-sunrise-10534213/",
+      "fotografo": "Zaimful",
+      "fotografo_url": "https://pixabay.com/users/Zaimful-2736382/",
+      "alt": "pond, water, nature, steam, sunrise, desktop backgrounds, free wallpaper, trees, beautiful wallpaper, hills, contrast, silhouette, nature wallpaper, cool backgrounds, hd wallpaper, bird, free background, nature background, weeds, windows wallpaper, orange, laptop wallpaper, full hd wallpaper, wallpaper, wallpaper 4k, beautiful nature, background, mac wallpaper, reflection, wallpaper hd, mist, calm, natural landscape, golden, 4k wallpaper 1920x1080, dawn, 4k wallpaper, peace",
+      "src": "https://pixabay.com/get/g834c55b186d37e596539df3bde8f64680c7f8949d329baf3c67505021726b0cc4956758a364fa135e0514f27cd45eae912ee5d4bd770fc65c2f88e5dff52877f_1280.jpg",
+      "miniatura": "https://pixabay.com/get/gf67f3b0e064f23e28aa938fd7cae9b4b59280badf8f84b67ef5d358d09a0306ae6b42c49726119f0e0d9bbd16a6e908dbb8761dd10b42e67bdebfcf888c2ed4a_640.jpg"
+    },
+    "candidatas": [
+      {
+        "id": "pixabay-10534213",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/pond-water-nature-steam-sunrise-10534213/",
+        "fotografo": "Zaimful",
+        "fotografo_url": "https://pixabay.com/users/Zaimful-2736382/",
+        "alt": "pond, water, nature, steam, sunrise, desktop backgrounds, free wallpaper, trees, beautiful wallpaper, hills, contrast, silhouette, nature wallpaper, cool backgrounds, hd wallpaper, bird, free background, nature background, weeds, windows wallpaper, orange, laptop wallpaper, full hd wallpaper, wallpaper, wallpaper 4k, beautiful nature, background, mac wallpaper, reflection, wallpaper hd, mist, calm, natural landscape, golden, 4k wallpaper 1920x1080, dawn, 4k wallpaper, peace",
+        "src": "https://pixabay.com/get/g834c55b186d37e596539df3bde8f64680c7f8949d329baf3c67505021726b0cc4956758a364fa135e0514f27cd45eae912ee5d4bd770fc65c2f88e5dff52877f_1280.jpg",
+        "miniatura": "https://pixabay.com/get/gf67f3b0e064f23e28aa938fd7cae9b4b59280badf8f84b67ef5d358d09a0306ae6b42c49726119f0e0d9bbd16a6e908dbb8761dd10b42e67bdebfcf888c2ed4a_640.jpg"
+      },
+      {
+        "id": "pixabay-9017041",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/sunset-tea-hill-asia-vietnam-9017041/",
+        "fotografo": "MrBinZ",
+        "fotografo_url": "https://pixabay.com/users/MrBinZ-45765645/",
+        "alt": "sunset, tea, hill, asia, vietnam, nature, landscape",
+        "src": "https://pixabay.com/get/g5aafe3182cd1f5295338ec4c1a76cb21659768db21a4d0c6abed34dbd6334e1f7c5a6973119030782acddd60cd82e0e82674f9427472804360b460b4dffe9da1_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g1230651f7b20a046d735435eeca66b3b3af3642979325b86f824d5111bc71b44a45611efded3c3966c530687e01461d5ef02ad89da1b78b9753178b52f45b0e5_640.jpg"
+      },
+      {
+        "id": "pixabay-7344887",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/tea-plantation-hills-dawn-sunrise-7344887/",
+        "fotografo": "sjoker13",
+        "fotografo_url": "https://pixabay.com/users/sjoker13-28845884/",
+        "alt": "tea plantation, hills, dawn, sunrise, morning, fog, fields, croplands, agriculture, cultivation, rural, countryside, nature, landscape, tea plantation, sunrise, sunrise, sunrise, sunrise, sunrise, morning, morning",
+        "src": "https://pixabay.com/get/ge519c1cc94e6cde1b2dac6b1dd620a994c9a40649934c07079d528362ca43b4f42be439106e1240dbfcb0f8cbe9c8281c9bb4b3d9359082bf0709515edc8d64d_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g0f982c2ab2f32fc4f6f6f404ee90a103094c45dec3fa2bb75a0aa707ac445bb70237f79737fefcf2c375b28d6cc1ecc14c8f70ce5bd0caebbb435df901a1e524_640.jpg"
+      },
+      {
+        "id": "pixabay-10279027",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/jamniki-church-blue-hour-morning-10279027/",
+        "fotografo": "ninalozej",
+        "fotografo_url": "https://pixabay.com/users/ninalozej-55812084/",
+        "alt": "jamniki, church, blue hour, morning, sunrise, foggy, slovenia, landscape, mountains, nature, fog, dawn, sun, mountainous, chapel, natural, east, range, lonely",
+        "src": "https://pixabay.com/get/ga1f17d8ccb0c07561cd9859ea14dd08a1ce7f99cf44ba1f936a438bcbcf0f66104ee57d82f6b9b9665e5993e3243b8612e8dd3a1dd9544c9623acc21cad2ebae_1280.jpg",
+        "miniatura": "https://pixabay.com/get/gc9754af810b7b38d6cb428a82b90e2385b652da7c95144dba4c4e762189d6c5771991f42069071ab377744a2aa1607e5078a8d849390acec90719a235b5c840d_640.jpg"
+      },
+      {
+        "id": "pixabay-1341536",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/tuscany-hills-landscape-sunset-1341536/",
+        "fotografo": "monica_valladares",
+        "fotografo_url": "https://pixabay.com/users/monica_valladares-2429185/",
+        "alt": "tuscany, free background, hills, beautiful nature, cool backgrounds, full hd wallpaper, 4k wallpaper 1920x1080, landscape, laptop wallpaper, windows wallpaper, nature wallpaper, free wallpaper, wallpaper 4k, desktop backgrounds, nature, beautiful wallpaper, nature background, sunset, wallpaper hd, mac wallpaper, trees, thuja, hd wallpaper, 4k wallpaper, fields, wallpaper",
+        "src": "https://pixabay.com/get/g7d8e55d14da24bac0c57901e9d21e98625493f2274c8b8b373c74ab778340ebba8606c83d1b53390a1eff757e86ad6cfbfd3699aa886dcbf7e0d6935e4cd4c1f_1280.jpg",
+        "miniatura": "https://pixabay.com/get/gd1f66a1c11cbfea892cd3a7541c0ec7e05de7d073b9cf553ba5ff6a69e476872f6223230a37badb73acd872f7665c4416eec096ea6cd594d237938a94ea2cca5_640.jpg"
+      },
+      {
+        "id": "pixabay-3404534",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/snow-field-landscape-winter-nature-3404534/",
+        "fotografo": "jplenio",
+        "fotografo_url": "https://pixabay.com/users/jplenio-7645255/",
+        "alt": "snow, field, landscape, winter, nature, wintry, winter landscape, cold, snowy, orange, warm, sunset, dusk, embers, evening sky, hill, hilly, winter, winter landscape, orange, orange, warm, warm, warm, warm, warm",
+        "src": "https://pixabay.com/get/g25a2be9b6f67a49714f85173c70acf7cfe566800fbc40ef6116ea6c0a91e1dbe8659f23bfc059dd9b1bcf9479bc951f1ae49c319d04d62b0813d69ac2e0479c2_1280.jpg",
+        "miniatura": "https://pixabay.com/get/gd884f8cc5a7b31ce0b225174cff9e8cd48d67b0d3ff54a076b665c36b1a57ed38ba1a8951b376d12f887326708282f00fe679a3188329358987c2b8da70954c7_640.jpg"
+      }
+    ]
+  },
+  "9.2": {
+    "busca": "sunset sky clouds",
+    "escolhida": {
+      "id": "pixabay-8401670",
+      "banco": "Pixabay",
+      "pagina": "https://pixabay.com/photos/sunset-mountains-clouds-weather-8401670/",
+      "fotografo": "ELG21",
+      "fotografo_url": "https://pixabay.com/users/ELG21-3764790/",
+      "alt": "sunset, mountains, clouds, nature, weather, landscape",
+      "src": "https://pixabay.com/get/g34770d1d926e3d5ed547efd8de3c0f95253349c7670683d72b2baec1b69a55e40f14f0c4efc68572bf507f25e5dbca17f3edc96a3c0ae586351cb65c53d21c48_1280.jpg",
+      "miniatura": "https://pixabay.com/get/g027d6860c96f862c0556e1cf9ec004d8948c9d730e6438a095a8b9d3da690f7857ccdfef4d087612b5b47d11d38601e68612a3dd0f6ddeb6f879d73230f954e7_640.jpg"
+    },
+    "candidatas": [
+      {
+        "id": "pixabay-8401670",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/sunset-mountains-clouds-weather-8401670/",
+        "fotografo": "ELG21",
+        "fotografo_url": "https://pixabay.com/users/ELG21-3764790/",
+        "alt": "sunset, mountains, clouds, nature, weather, landscape",
+        "src": "https://pixabay.com/get/g34770d1d926e3d5ed547efd8de3c0f95253349c7670683d72b2baec1b69a55e40f14f0c4efc68572bf507f25e5dbca17f3edc96a3c0ae586351cb65c53d21c48_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g027d6860c96f862c0556e1cf9ec004d8948c9d730e6438a095a8b9d3da690f7857ccdfef4d087612b5b47d11d38601e68612a3dd0f6ddeb6f879d73230f954e7_640.jpg"
+      },
+      {
+        "id": "pixabay-736885",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/new-year-background-tree-sunset-736885/",
+        "fotografo": "Bessi",
+        "fotografo_url": "https://pixabay.com/users/Bessi-909086/",
+        "alt": "new year background, tree, sunset, clouds, sky, silhouette, hill, sea, ocean, tree silhouette, sun, dusk, twilight, afterglow, seascape, nature, landscape, island, sundown, zoom background",
+        "src": "https://pixabay.com/get/g6641154f3a79bbc17ce934f69993121c7b0538c86037979401cfc51c471ba27e126a98ff29b9adb57c241045a03a8df97545a8683b5edbcbe53fb670b8d2e37f_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g6511ea77b931e36f1e2e1dfae803eb7a18cdffc44081d18621177176859c9b799be0619ddb723b7ef465fffd67a0e1f7_640.jpg"
+      },
+      {
+        "id": "pixabay-1072923",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/sunset-clouds-sky-sun-dusk-1072923/",
+        "fotografo": "Bergadder",
+        "fotografo_url": "https://pixabay.com/users/Bergadder-20679/",
+        "alt": "sunset, clouds, sky, sun, dusk, twilight, orange, orange sky, nature, skyscape, cloudscape, sundown, horizon",
+        "src": "https://pixabay.com/get/g9ffd7641f159e15ee6b76255a7ad6de05d2b3ed19a893c46e4c01aeb44b3f791a767a8e175e62d309c913c73a7408c8da1e261126e9949ef9fa7a90ec89b20d1_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g5488f65675dfe34f8aaa967783a0a8548a210efb83e32f78f6dda8573f1ad16c576e3e9782355ee897eb8ad6c76663225ade11abbb894679106468f795f5459b_640.jpg"
+      },
+      {
+        "id": "pixabay-1852945",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/beach-birds-sea-ocean-flying-birds-1852945/",
+        "fotografo": "Pexels",
+        "fotografo_url": "https://pixabay.com/users/Pexels-2286921/",
+        "alt": "beach, birds, sea, ocean, flying birds, seabirds, shore, seashore, waves, ocean waves, sunset, sunrise, dusk, dawn, nature, outdoors, sand, seascape, sky, water, beach, beach, sea, ocean, sunrise, nature, sky, sky, sky, sky, sky",
+        "src": "https://pixabay.com/get/g205db9e70a3b4e475bd097f24a552f1b4d31395c4561e2c46d62a32f4ad89db179e266b48e7b3f2e754ac6ba32035e37d94be8cf468c96d8a3e67cef851799dc_1280.jpg",
+        "miniatura": "https://pixabay.com/get/gb2357349d0babe348060fd94c24928efd5c6b0596a075a0ae4a2a4a6236c1df128d470ee579b5f16eec14f859502e01eb12b40b78ee3d45a34c6a558e47afa5f_640.jpg"
+      },
+      {
+        "id": "pixabay-4086848",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/sunset-sky-clouds-dusk-nature-4086848/",
+        "fotografo": "LevaNevsky",
+        "fotografo_url": "https://pixabay.com/users/LevaNevsky-8336355/",
+        "alt": "sunset, sky, clouds, dusk, nature, twilight, outdoors, scenic, reflection, scenery, horizon, sunlight, evening, atmosphere, sunset, sky, sky, sky, sky, sky, clouds, clouds, clouds",
+        "src": "https://pixabay.com/get/g58e1b226a2496680c44248f0edc4349311a6baa6230e8fac820a0406f346adf699edcd85c6a4acf15fa01a453c88fd5056df27705807a2ef37745f88e9162d3f_1280.jpg",
+        "miniatura": "https://pixabay.com/get/g6926e0712a063e32daab29a756e42919d08fafb0c2f4ee116fc0f2e2e1927a87679bb699cb3e27e479d5ab39e657bfb6e7dd1a4960b57b2a9e9f2a5df8ac1ed1_640.jpg"
+      },
+      {
+        "id": "pixabay-9271140",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/hot-air-balloons-clouds-sunset-9271140/",
+        "fotografo": "ELG21",
+        "fotografo_url": "https://pixabay.com/users/ELG21-3764790/",
+        "alt": "hot air balloons, clouds, nature, sunset, fantasy",
+        "src": "https://pixabay.com/get/gb8694b41aa1042129803bf19846329fb69274d010f9f59ac5758f243f48dbc106a17caa0429c067fe649162fbbe15eb4a66239f88ea39db6e8803999de9ee20f_1280.jpg",
+        "miniatura": "https://pixabay.com/get/ge4d44acc330e72294a083447c46d3c79baaee264424ebed11ecf49fb8b1e195e5dd3524e63507087a6acdd3bcc1cfdbccec6a0641ca0dcbea88044be2d5bfc60_640.jpg"
+      }
+    ]
+  }
+}
