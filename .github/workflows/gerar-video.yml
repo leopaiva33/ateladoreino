@@ -40,6 +40,12 @@ jobs:
           path: .cache-video/*/fotos
           key: fotos-${{ hashFiles('conteudo-social/*/imagens.json') }}
           restore-keys: fotos-
+      - name: Cache das narrações (não gasta créditos da ElevenLabs de novo)
+        uses: actions/cache@v4
+        with:
+          path: .cache-video/*/*.mp3
+          key: narracao-${{ vars.ELEVENLABS_VOICE_ID }}-${{ hashFiles('conteudo-social/*/youtube.md') }}
+          restore-keys: narracao-${{ vars.ELEVENLABS_VOICE_ID }}-
       - name: Quais vídeos gerar
         id: quais
         env:
@@ -65,7 +71,7 @@ jobs:
           SLUGS: ${{ steps.quais.outputs.slugs }}
         run: |
           for s in $SLUGS; do npm run video -- "$s"; done
-      - name: Anexar vídeos, legendas, miniaturas e créditos
+      - name: Anexar vídeos, narrações, legendas, miniaturas e créditos
         uses: actions/upload-artifact@v4
         with:
           name: videos
@@ -74,4 +80,5 @@ jobs:
             video-out/*/legendas.srt
             video-out/*/miniatura.png
             video-out/*/creditos.txt
+            video-out/*/narracao.m4a
           retention-days: 14

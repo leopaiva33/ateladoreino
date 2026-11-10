@@ -383,8 +383,28 @@ if (await existe(musica)) {
 const audio = join(saida, 'audio.m4a');
 await run('ffmpeg', ['-y', '-v', 'error', ...entradas, '-filter_complex', filtros.join(';'), '-map', mapa, '-c:a', 'aac', '-b:a', '192k', audio]);
 
+// Narração sozinha (sem música), para conferir a voz.
+await run('ffmpeg', [
+  '-y', '-v', 'error', ...audios.flatMap((a) => ['-i', a.arq]),
+  '-filter_complex', filtros.slice(0, audios.length + 1).join(';'),
+  '-map', '[voz]', '-c:a', 'aac', '-b:a', '160k', join(saida, 'narracao.m4a'),
+]);
+
 const final = join(saida, 'video.mp4');
 await run('ffmpeg', ['-y', '-v', 'error', '-i', soVideo, '-i', audio, '-map', '0:v', '-map', '1:a', '-c:v', 'copy', '-c:a', 'copy', '-shortest', '-movflags', '+faststart', final]);
+
+// Diagnóstico do áudio no log: volume de cada trecho de voz e do vídeo final.
+async function volume(arq) {
+  const { stderr } = await run('ffmpeg', ['-hide_banner', '-i', arq, '-vn', '-af', 'volumedetect', '-f', 'null', '-']);
+  const media = stderr.match(/mean_volume: (-?[\d.]+|-inf) dB/)?.[1];
+  const pico = stderr.match(/max_volume: (-?[\d.]+|-inf) dB/)?.[1];
+  return `média ${media} dB, pico ${pico} dB`;
+}
+console.log(`Voz (${MODO}):`);
+for (const [k, a] of audios.entries()) console.log(`  seção ${k + 1}: ${a.dur.toFixed(1)} s, ${await volume(a.arq)}`);
+const { stdout: fluxos } = await run('ffprobe', ['-v', 'error', '-show_entries', 'stream=codec_type,codec_name,channels,duration', '-of', 'compact=p=0', final]);
+console.log(`Vídeo final: ${fluxos.trim().replace(/\n/g, ' | ')}`);
+console.log(`Áudio do vídeo: ${await volume(final)}`);
 
 // Legendas SRT.
 const ts = (s) => {
