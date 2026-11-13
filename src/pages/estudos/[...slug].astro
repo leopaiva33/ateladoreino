@@ -1,0 +1,94 @@
+---
+import { render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import AutorBox from '../../components/AutorBox.astro';
+import Compartilhar from '../../components/Compartilhar.astro';
+import { SITE } from '../../config';
+import { getPublishedEstudos } from '../../utils/estudos';
+import { formatDate } from '../../utils/posts';
+import { jsonLdArtigo } from '../../utils/jsonld';
+
+export async function getStaticPaths() {
+  const estudos = await getPublishedEstudos();
+  return estudos.map((estudo, i) => ({
+    params: { slug: estudo.id },
+    props: { estudo, anterior: estudos[i - 1], proximo: estudos[i + 1] },
+  }));
+}
+
+const { estudo, anterior, proximo } = Astro.props;
+const { Content } = await render(estudo);
+const { title, description, pubDate, updatedDate, parasha, significado, numero, livro, leituras } =
+  estudo.data;
+const caminho = `/estudos/${estudo.id}/`;
+const urlCompleta = new URL(caminho, SITE.url).href;
+const jsonLd = jsonLdArtigo({
+  titulo: title,
+  descricao: description,
+  caminho,
+  publicado: pubDate,
+  atualizado: updatedDate,
+});
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  type="article"
+  publishedTime={pubDate}
+  modifiedTime={updatedDate}
+  jsonLd={jsonLd}
+>
+  <article class="artigo container">
+    <header>
+      <p class="meta">
+        <span class="tag">Porção {numero} · {livro}</span>
+        Publicado em <time datetime={pubDate.toISOString()}>{formatDate(pubDate)}</time>
+        {
+          updatedDate && (
+            <>
+              {' · '}Atualizado em <time datetime={updatedDate.toISOString()}>{formatDate(updatedDate)}</time>
+            </>
+          )
+        }
+      </p>
+      <h1>{title}</h1>
+      <p><em>{description}</em></p>
+    </header>
+
+    {
+      leituras.length > 0 && (
+        <section class="leituras" aria-labelledby="leituras-titulo">
+          <h2 id="leituras-titulo">
+            Leituras da porção {parasha}
+            {significado && ` (${significado})`}
+          </h2>
+          <ul>
+            {leituras.map((l) => (
+              <li>
+                <span class="leituras-rotulo">{l.rotulo}</span>
+                <strong>{l.texto}</strong>
+                {l.tema && <span class="leituras-tema">{l.tema}</span>}
+              </li>
+            ))}
+          </ul>
+        </section>
+      )
+    }
+
+    <div class="corpo">
+      <Content />
+    </div>
+
+    <Compartilhar url={urlCompleta} titulo={title} />
+
+    <AutorBox />
+
+    <p class="meta">
+      {anterior && <a href={`/estudos/${anterior.id}`}>← {anterior.data.parasha}</a>}
+      {anterior && proximo && ' · '}
+      {proximo && <a href={`/estudos/${proximo.id}`}>{proximo.data.parasha} →</a>}
+    </p>
+    <p><a href="/estudos">← Voltar para todos os estudos</a></p>
+  </article>
+</BaseLayout>

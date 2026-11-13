@@ -139,6 +139,22 @@ Use os títulos que fizerem sentido; não force seções vazias.
 - Responde em **português do Brasil**, a não ser que o usuário peça outra
   língua.
 
+## Estudos das porções da Torá (seção "Estudos" do site)
+
+Estudo de uma porção semanal (parashá) fica em `src/content/estudos/<slug>.md`
+e aparece em `/estudos/<slug>` (menu "Estudos"). Use `toldot.md` como modelo.
+
+- Cabeçalho: `title` (até 60 caracteres), `description` (até 155), `pubDate`
+  (ISO com fuso `-03:00`; data futura deixa o estudo fora do site até lá),
+  `parasha`, `significado`, `numero` (1 a 54, posição no ciclo anual; define a
+  ordem da lista), `livro` (Gênesis, Êxodo, Levítico, Números ou Deuteronômio)
+  e `leituras` (lista de `rotulo`, `texto` e `tema`). `draft: true` esconde.
+- As leituras de cada semana estão em `public/plano-de-leitura-tora/index.html`.
+- No corpo, comece em `##` (o título e o quadro de leituras vêm do cabeçalho)
+  e não inclua a lista interna "o que merece conferência": entregue-a ao
+  usuário na conversa.
+- Valide com `npm run build` e confira que `/estudos/<slug>/` foi gerada.
+
 ## Ao terminar
 
 - Se o estudo for virar conteúdo publicado, lembre que deve passar pelo agente

@@ -1,14 +1,28 @@
-# Toldot — Gêmeos, primogenitura, bênção e amor
-
-**Estudo bíblico com olhar judaico, histórico e dos primeiros discípulos judeus de Yeshua**
-
-| Leitura | Texto | Tema |
-|---|---|---|
-| 1 | Gênesis 25:19–26:5 | Gêmeos |
-| 2 | Gênesis 26:13–22 | Primogenitura |
-| 3 | Gênesis 26:30–27:27 | Bênção |
-| Haftará (Profetas) | Malaquias 1:1–2:7 | Amor |
-| Escritos apostólicos | Romanos 9:6–16 | Eleição e misericórdia |
+---
+title: "Toldot: gêmeos, primogenitura, bênção e amor"
+description: "Estudo da porção Toldot: Jacó e Esaú, os poços de Isaque, a bênção, Malaquias 1 e Romanos 9, com olhar judaico e histórico."
+pubDate: 2026-11-12T07:00:00-03:00
+parasha: "Toldot"
+significado: "Gerações"
+numero: 6
+livro: "Gênesis"
+leituras:
+  - rotulo: "Torá 1"
+    texto: "Gênesis 25:19–26:5"
+    tema: "Gêmeos"
+  - rotulo: "Torá 2"
+    texto: "Gênesis 26:13–22"
+    tema: "Primogenitura"
+  - rotulo: "Torá 3"
+    texto: "Gênesis 26:30–27:27"
+    tema: "Bênção"
+  - rotulo: "Haftará (Profetas)"
+    texto: "Malaquias 1:1–2:7"
+    tema: "Amor"
+  - rotulo: "Escritos apostólicos"
+    texto: "Romanos 9:6–16"
+    tema: "Eleição e misericórdia"
+---
 
 > Tradução bíblica: ARC (Almeida Revista e Corrigida). Os termos hebraicos
 > aparecem transliterados, com o sentido ao lado.
@@ -583,15 +597,6 @@ fidelidade de Deus a pessoas reais. Se Deus manteve sua aliança com Jacó, o
 
 ---
 
-### O que merece conferência
-
-- **Citações da ARC:** as passagens entre aspas foram escritas de memória;
-  confira a redação exata antes de publicar ou imprimir. As marcadas como
-  "paráfrase" não são citação literal.
-- **Fontes judaicas e patrísticas:** confira as indicações de *Yevamot* 64a,
-  *Bava Batra* 16b, *Bereshit Rabá* 63:6, *Kiddushin* 4:14, Rashi e Ramban sobre
-  os versículos citados, Tertuliano (*Contra os Judeus* 1) e *Didaquê* 14.
-- **Datas:** a data de 14/11/2026 para a leitura de Toldot e a datação de
-  Malaquias e do declínio de Edom são aproximadas ou debatidas.
-- Este estudo foi preparado com apoio de IA e é material de ensino; não
-  substitui a orientação do seu pastor, rabino ou líder de comunidade.
+> Este estudo foi preparado com apoio de inteligência artificial. É material
+> de ensino e não substitui a orientação do seu pastor, rabino ou líder de
+> comunidade.
