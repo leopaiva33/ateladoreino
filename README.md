@@ -23,11 +23,12 @@ Requer Node 22.12 ou superior (veja `.nvmrc`).
 │   └── og-default.svg      imagem padrão de compartilhamento
 ├── src/
 │   ├── config.ts           nome, URL, e-mail e IDs do AdSense
-│   ├── content.config.ts   schema da coleção "blog"
+│   ├── content.config.ts   schema das coleções "blog" e "estudos"
 │   ├── content/blog/*.md   uma reflexão por arquivo
+│   ├── content/estudos/*.md   um estudo de porção da Torá por arquivo (menu "Estudos", /estudos)
 │   ├── components/         Header, Footer, PostList, AdSlot
 │   ├── layouts/BaseLayout.astro   <head>, SEO, Open Graph, script do AdSense
-│   ├── pages/              rotas (/, /blog, /sobre, /contato, /privacidade, /termos, /rss.xml)
+│   ├── pages/              rotas (/, /blog, /estudos, /sobre, /contato, /privacidade, /termos, /rss.xml)
 │   ├── styles/global.css   estilos do site (claro/escuro)
 │   └── utils/posts.ts      leitura/ordenação dos posts e formatação de data
 ├── astro.config.mjs        site + sitemap

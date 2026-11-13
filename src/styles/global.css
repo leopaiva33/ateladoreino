@@ -17,7 +17,7 @@ blockquote{margin:1.5em 0;padding:.8em 1.2em;border-left:4px solid var(--cor-des
 .site-header{border-bottom:1px solid var(--cor-borda);padding:18px 0}
 .site-header .container-amplo{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px}
 .logo{font-size:1.4rem;font-weight:700;color:var(--cor-texto);text-decoration:none}
-.menu{display:flex;gap:18px;list-style:none;margin:0;padding:0;font-family:system-ui,sans-serif;font-size:.95rem}
+.menu{display:flex;flex-wrap:wrap;gap:18px;list-style:none;margin:0;padding:0;font-family:system-ui,sans-serif;font-size:.95rem}
 .menu a{color:var(--cor-texto-suave);text-decoration:none}
 .menu a:hover,.menu a[aria-current=page]{color:var(--cor-destaque)}
 main{padding:40px 0 60px;min-height:70vh}
@@ -97,3 +97,18 @@ h1{font-size:1.8rem}
 .btn-whatsapp:hover{background:#18623e}
 .compartilhar-aviso{margin-top:10px!important;font-size:.9rem}
 @media (max-width:700px){.btn-whatsapp{flex:1 1 100%;text-align:center}}
+
+/* Estudos das porções da Torá */
+.artigo .corpo table{display:block;max-width:100%;overflow-x:auto;border-collapse:collapse;margin:0 0 1.4em;font-family:system-ui,sans-serif;font-size:.92rem;line-height:1.5}
+.artigo .corpo th,.artigo .corpo td{padding:8px 12px;border:1px solid var(--cor-borda);text-align:left;vertical-align:top}
+.artigo .corpo th{background:var(--cor-destaque-claro)}
+.artigo .corpo hr{border:0;border-top:1px solid var(--cor-borda);margin:2.4em 0}
+.leituras{margin:0 0 28px;padding:18px 24px;border:1px solid var(--cor-borda);border-radius:12px;background:var(--cor-destaque-claro)}
+.leituras h2{font-size:1.1rem;margin:0 0 10px}
+.leituras ul{list-style:none;padding:0;margin:0;font-family:system-ui,sans-serif;font-size:.95rem}
+.leituras li{display:flex;flex-wrap:wrap;gap:4px 12px;padding:6px 0;border-top:1px solid var(--cor-borda)}
+.leituras li:first-child{border-top:0}
+.leituras-rotulo{flex:0 0 11em;color:var(--cor-texto-suave)}
+.leituras-tema{color:var(--cor-texto-suave)}
+.estudos-livro{font-size:1.3rem;margin:1.8em 0 0;padding-bottom:6px;border-bottom:2px solid var(--cor-destaque)}
+.estudos-leituras{display:block;margin-top:6px;font-family:system-ui,sans-serif;font-size:.85rem;color:var(--cor-texto-suave)}

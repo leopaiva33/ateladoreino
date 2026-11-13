@@ -1,0 +1,51 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getPublishedEstudos, LIVROS_DA_TORA } from '../../utils/estudos';
+
+const estudos = await getPublishedEstudos();
+const porLivro = LIVROS_DA_TORA.map((livro) => ({
+  livro,
+  estudos: estudos.filter((e) => e.data.livro === livro),
+})).filter((grupo) => grupo.estudos.length > 0);
+---
+
+<BaseLayout
+  title="Estudos das porções da Torá"
+  description="Estudos bíblicos das porções semanais da Torá, com a leitura dos Profetas e dos escritos apostólicos, contexto judaico e histórico."
+>
+  <h1>Estudos das porções</h1>
+  <p class="meta">
+    Estudos das porções semanais da Torá, com a leitura dos Profetas e dos escritos apostólicos.
+    Acompanhe a ordem das leituras no <a href="/plano-de-leitura-tora/">plano de leitura da Torá</a>.
+  </p>
+
+  {estudos.length === 0 && <p>Os primeiros estudos serão publicados em breve.</p>}
+
+  {
+    porLivro.map((grupo) => (
+      <section>
+        <h2 class="estudos-livro">{grupo.livro}</h2>
+        <ul class="lista-posts">
+          {grupo.estudos.map((estudo) => (
+            <li>
+              <span class="meta">
+                <span class="tag">Porção {estudo.data.numero}</span>
+                {estudo.data.parasha}
+                {estudo.data.significado && ` (${estudo.data.significado})`}
+              </span>
+              <h2>
+                <a href={`/estudos/${estudo.id}`}>{estudo.data.title}</a>
+              </h2>
+              <p>{estudo.data.description}</p>
+              {estudo.data.leituras.length > 0 && (
+                <span class="estudos-leituras">
+                  {estudo.data.leituras.map((l) => l.texto).join(' · ')}
+                </span>
+              )}
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))
+  }
+</BaseLayout>
