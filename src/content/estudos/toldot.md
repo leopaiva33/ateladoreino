@@ -69,7 +69,7 @@ que recebemos.
   resposta é um pequeno poema profético:
 
   > "Duas nações há no teu ventre, e dois povos se dividirão das tuas
-  > entranhas, e um povo será mais forte do que o outro povo, e o maior
+  > entranhas: um povo será mais forte do que o outro povo, e o maior
   > servirá ao menor." (Gênesis 25:23)
 
 - **O nascimento (25:24-26).** O primeiro sai ruivo e peludo: Esaú. O segundo
@@ -77,9 +77,9 @@ que recebemos.
 - **Dois jeitos de ser (25:27-28).** Esaú é "perito na caça, varão do campo";
   Jacó é "varão simples, habitando em tendas". Isaque ama Esaú "porque a caça
   era de seu gosto"; Rebeca ama Jacó.
-- **O ensopado vermelho (25:29-34).** Esaú volta exausto, pede "desse vermelho"
-  e vende a primogenitura a Jacó por pão e lentilhas. O narrador fecha: "Assim
-  desprezou Esaú a sua primogenitura" (Gênesis 25:34).
+- **O ensopado vermelho (25:29-34).** Esaú volta exausto, pede "desse guisado
+  vermelho" e vende a primogenitura a Jacó por pão e lentilhas. O narrador
+  fecha: "Assim, desprezou Esaú a sua primogenitura" (Gênesis 25:34).
 - **A promessa passa a Isaque (26:1-5).** Numa fome, Deus proíbe Isaque de
   descer ao Egito, manda que fique na terra e renova com ele o juramento feito a
   Abraão, "porquanto Abraão obedeceu à minha voz e guardou o meu mandado, os
@@ -98,11 +98,11 @@ que recebemos.
   como "trapaça" ecoa a palavra da obediência de Abraão — como se a Torá
   dissesse a Jacó qual "calcanhar" seguir.
 - **Ish tam** (אִישׁ תָּם, 25:27) — a ARC traduz "varão simples". *Tam* é a
-  palavra usada para Jó, "sincero (*tam*) e reto" (Jó 1:1): íntegro, inteiro,
+  palavra usada para Jó, "sincero (*tam*), reto" (Jó 1:1): íntegro, inteiro,
   sem duplicidade. É um elogio, e isso torna a cena da bênção, no capítulo 27,
   ainda mais dolorosa.
 - **Edom / adom** (אֱדוֹם / אָדֹם) — Esaú nasce "ruivo" (*admoni*) e pede o
-  ensopado "vermelho" (*adom*); "por isso se chamou o seu nome Edom"
+  ensopado "vermelho" (*adom*); "Por isso, se chamou o seu nome Edom"
   (25:30). E por ser "peludo" (*se'ar*), sua terra será **Seir**. Os nomes
   já contam a história de um povo.
 
@@ -171,8 +171,8 @@ primogenitura e como Isaque a vive.
   (Deuteronômio 21:17) e normalmente a liderança da família.
 - **Na tradição judaica:** Rashi (sobre 25:31-32) diz que, antes de os levitas
   serem escolhidos, o serviço sagrado da família cabia ao primogênito, e que
-  Esaú desprezou justamente essa responsabilidade: "Que me aproveitará?"
-  (25:32). A ideia de que os primogênitos serviam como sacerdotes antes do
+  Esaú desprezou justamente essa responsabilidade: "para que me
+  servirá logo a primogenitura?" (25:32). A ideia de que os primogênitos serviam como sacerdotes antes do
   Sinai é apoiada por Números 3:12-13 (os levitas "no lugar" dos primogênitos).
 - **No contexto histórico:** documentos de Nuzi (Mesopotâmia, séc. XV a.C.)
   mostram direitos de herança negociados entre irmãos — um contrato célebre
@@ -253,7 +253,7 @@ próprias mãos — e a Torá mostra com honestidade o preço disso.
 ### O texto
 
 - **Paz com os vizinhos (26:26-33).** Abimeleque, antes hostil, vem a Isaque:
-  "Havemos visto, na verdade, que o Senhor é contigo" (26:28, paráfrase).
+  "Havemos visto, na verdade, que o Senhor é contigo" (26:28).
   Isaque prepara um banquete (26:30), fazem juramento e se separam "em paz"
   (26:31). No mesmo dia encontram água: o poço se chama **Seba** (*shiv'á*,
   juramento/sete), e a cidade, **Berseba** (26:33).
@@ -264,7 +264,7 @@ próprias mãos — e a Torá mostra com honestidade o preço disso.
   guisado de caça para abençoá-lo. Rebeca ouve, prepara cabritos e veste Jacó
   com as roupas de Esaú e peles nas mãos e no pescoço. Jacó hesita: e se meu
   pai me apalpar? (27:12). Rebeca responde: "Meu filho, sobre mim seja a tua
-  maldição" (27:13, paráfrase). Diante do pai, Jacó mente duas vezes (27:19,
+  maldição" (27:13). Diante do pai, Jacó mente duas vezes (27:19,
   24). Isaque desconfia — "A voz é a voz de Jacó, porém as mãos são as mãos de
   Esaú" (Gênesis 27:22) — mas, ao beijá-lo, sente o cheiro das roupas e
   começa a bênção: o cheiro do filho "é como o cheiro do campo, que o Senhor
@@ -276,9 +276,9 @@ próprias mãos — e a Torá mostra com honestidade o preço disso.
   em muitos textos, abençoar é transmitir vida, fecundidade e destino. Para o
   mundo antigo, uma bênção solene de um pai à morte era palavra eficaz,
   irrevogável (27:33, "também será bendito").
-- **Mirmá** (מִרְמָה) — engano. Isaque dirá a Esaú: "Veio teu irmão com
-  astúcia (*bemirmá*)" (27:35). Guarde a palavra: anos depois, Jacó dirá a
-  Labão, ao ser enganado com Lia, "por que me enganaste (*rimitani*)?"
+- **Mirmá** (מִרְמָה) — engano. Isaque dirá a Esaú: "Veio o teu irmão com
+  sutileza (*bemirmá*)" (27:35). Guarde a palavra: anos depois, Jacó dirá a
+  Labão, ao ser enganado com Leia, "Por que, pois, me enganaste (*rimitani*)?"
   (Gênesis 29:25). Mesma raiz.
 - **Re'ach** (רֵיחַ) — cheiro, aroma. É também a palavra dos sacrifícios de
   "cheiro suave" (*re'ach nichoach*, Gênesis 8:21; Levítico 1:9).
@@ -304,8 +304,8 @@ próprias mãos — e a Torá mostra com honestidade o preço disso.
   cheiro como lembrança de algo santo que permanece.
 - **E Esaú?** A tradição não apaga as lágrimas de Esaú (27:34, 38). Um midrash
   diz que as lágrimas de Esaú tiveram peso na história. E a própria Torá dá a
-  Esaú uma bênção (27:39-40) e, mais tarde, mandará: "Não abominarás o edomeu,
-  pois é teu irmão" (Deuteronômio 23:7; paráfrase próxima da ARC).
+  Esaú uma bênção (27:39-40) e, mais tarde, mandará: "Não abominarás o edomita,
+  pois é teu irmão" (Deuteronômio 23:7).
 
 ### No contexto histórico
 
@@ -318,7 +318,7 @@ conversa junta. A falha de comunicação é parte da mensagem.
 ### Yeshua e os primeiros discípulos
 
 - A carta aos Hebreus, escrita para crentes com forte vínculo judaico, lê os
-  dois lados da cena: "Pela fé Isaque abençoou Jacó e Esaú, no tocante às
+  dois lados da cena: "Pela fé, Isaque abençoou Jacó e Esaú, no tocante às
   coisas futuras" (Hebreus 11:20), e adverte para que ninguém seja "profano,
   como Esaú, que, por um manjar, vendeu o seu direito de primogenitura"
   (Hebreus 12:16; ver 12:17).
@@ -348,13 +348,13 @@ como Esaú desprezou a primogenitura.
 
 - **O amor contestado (1:2-5).**
 
-  > "Eu vos amei, diz o Senhor; mas vós dizeis: Em que nos amaste? Não era
+  > "Eu vos amei, diz o Senhor; mas vós dizeis: Em que nos amaste? Não foi
   > Esaú irmão de Jacó? — disse o Senhor; todavia amei a Jacó e aborreci a
   > Esaú..." (Malaquias 1:2-3)
 
   Deus aponta a desolação de Edom como sinal de que cuidou de Israel.
-- **Sacerdotes que desprezam o Nome (1:6-14).** "O filho honra o pai... se eu
-  sou pai, onde está a minha honra?" (1:6, paráfrase). Eles oferecem animais
+- **Sacerdotes que desprezam o Nome (1:6-14).** "O filho honrará o pai... se eu
+  sou Pai, onde está a minha honra?" (1:6). Eles oferecem animais
   cegos, coxos e doentes. O profeta ironiza: ofereça isso ao governador e veja
   se ele te recebe bem (1:8). E anuncia que o nome de Deus será grande entre as
   nações, do nascente ao poente (1:11).
@@ -371,8 +371,8 @@ como Esaú desprezou a primogenitura.
   amor de **aliança** (*berit*): escolha, compromisso e fidelidade.
 - **Saneti** (שָׂנֵאתִי) — "aborreci", "odiei". Em hebraico, "amar × odiar" em
   contraste pode significar **preferir × não escolher**, sem a carga
-  emocional de ódio. Veja Gênesis 29:30-31: Jacó "amava também a Raquel mais
-  do que a Lia", e logo o texto diz que Lia era "aborrecida". Jesus usa o
+  emocional de ódio. Veja Gênesis 29:30-31: Jacó "amou também a Raquel mais
+  do que a Leia", e logo o texto diz que Leia era "aborrecida". Jesus usa o
   mesmo idioma em Lucas 14:26, que Mateus 10:37 explica como "amar mais".
 - **Bazá** (בָּזָה) — **desprezar**. Esta é a chave que liga a haftará à
   parashá: Esaú "desprezou (*vayivez*) a sua primogenitura" (Gênesis 25:34), e
@@ -447,7 +447,7 @@ mérito.
 ### O texto e o contexto
 
 Romanos 9–11 é uma unidade. Paulo começa com dor: ele daria a própria vida por
-"os meus parentes segundo a carne" (9:3) e lista os dons de Israel — adoção,
+"meus parentes segundo a carne" (9:3) e lista os dons de Israel — adoção,
 glória, alianças, lei, culto, promessas, os patriarcas e o Cristo segundo a
 carne (9:4-5). A pergunta é: se muitos em Israel não creram em Yeshua, a
 palavra de Deus falhou?
@@ -461,7 +461,7 @@ palavra de Deus falhou?
   e mesmo assim foi dito: "o maior servirá o menor" (Gênesis 25:23). "Como
   está escrito: Amei Jacó e aborreci Esaú" (Romanos 9:13, citando Malaquias
   1:2-3).
-- **9:14-15** — "Há injustiça da parte de Deus? De maneira nenhuma." Paulo cita
+- **9:14-15** — "Que há injustiça da parte de Deus? De maneira nenhuma!" Paulo cita
   Êxodo 33:19: Deus terá misericórdia de quem tiver misericórdia.
 - **9:16** — "Assim, pois, isto não depende do que quer, nem do que corre, mas
   de Deus, que se compadece."
@@ -490,7 +490,8 @@ palavra de Deus falhou?
 ### Os judeus nazarenos e este texto
 
 Para os primeiros discípulos judeus, Romanos 9–11 não era teoria: eles eram o
-"remanescente" de que Paulo fala (Romanos 11:5), judeus que criam em Yeshua e
+remanescente de que Paulo fala ("um resto, segundo a eleição da graça",
+Romanos 11:5), judeus que criam em Yeshua e
 continuavam judeus — "milhares de judeus... todos zelosos da lei" (Atos 21:20).
 Nos séculos seguintes, Justino Mártir (*Diálogo com Trifão* 47, c. 150 d.C.)
 ainda reconhecia como irmãos os judeus crentes que guardavam a Lei sem
@@ -517,7 +518,7 @@ apresentadas sem tomar partido:
 4. **Leitura judaica:** a escolha de Jacó/Israel é um chamado à aliança e à
    responsabilidade, não um privilégio que despreza as nações; a tradição
    rabínica não lê Esaú como condenado por natureza, e a Torá manda tratar o
-   edomeu como irmão (Deuteronômio 23:7).
+   edomita como irmão (Deuteronômio 23:7).
 
 **Um alerta histórico.** Judeus e cristãos já usaram estes textos um contra o
 outro. Na literatura rabínica posterior, Esaú/Edom virou Roma e, depois, a
