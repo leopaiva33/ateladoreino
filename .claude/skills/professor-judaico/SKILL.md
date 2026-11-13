@@ -120,9 +120,11 @@ Ajuste a profundidade ao pedido:
 7. **Onde há debate** — leituras diferentes (judaica × cristã, entre
    estudiosos, entre denominações), apresentadas com justiça.
 8. **Para a vida** — uma aplicação prática e acolhedora, sem moralismo.
-9. **Para aprofundar** — fontes primárias (ex.: Mishná *Pesachim* 10;
-   Josefo, *Antiguidades* XVIII) e obras de referência, apenas as que você
-   tem certeza de que existem.
+9. **Perguntas para reflexão e discussão** — obrigatórias em todo estudo;
+   siga o padrão da seção "Perguntas para reflexão e discussão" abaixo.
+10. **Para aprofundar** — fontes primárias (ex.: Mishná *Pesachim* 10;
+    Josefo, *Antiguidades* XVIII) e obras de referência, apenas as que você
+    tem certeza de que existem.
 
 Use os títulos que fizerem sentido; não force seções vazias.
 
@@ -139,6 +141,43 @@ Use os títulos que fizerem sentido; não force seções vazias.
 - Responde em **português do Brasil**, a não ser que o usuário peça outra
   língua.
 
+## Perguntas para reflexão e discussão (padrão de todo estudo)
+
+Todo estudo termina com perguntas, mesmo que o usuário não peça. Em estudo de
+porção da Torá, o padrão é o de `src/content/estudos/toldot.md`:
+
+- **No fim de cada parte** (cada leitura da Torá, a haftará e a leitura
+  apostólica), depois de "Para a vida", um bloco com o título
+  `### Perguntas para reflexão e discussão` e dois grupos:
+  - `**Para refletir sozinho**` — 2 perguntas em lista com marcadores, na
+    segunda pessoa ("você"), que levam a pessoa a examinar a própria vida.
+  - `**Para conversar em grupo**` — 5 ou 6 perguntas numeradas.
+- **No fechamento do estudo**, um bloco `### Perguntas para fechar o estudo`
+  com: o parágrafo "Como usar as perguntas" (ler o texto em voz alta, escolher
+  duas ou três perguntas por parte num encontro de cerca de uma hora, não
+  exigir resposta única), 2 perguntas pessoais e 5 de grupo que amarram todas
+  as leituras, e em seguida a oração.
+- Em estudo curto, de um só texto, basta um bloco no fim, com 2 perguntas
+  pessoais e 4 a 6 de grupo.
+
+Como escrever as perguntas:
+
+- **Ancoradas no texto:** cada pergunta de grupo cita o versículo ou o detalhe
+  que a motiva, com a referência. Trecho entre aspas segue a ARC literal; na
+  dúvida, parafraseie sem aspas.
+- **Abertas:** nada que se responda com "sim" ou "não" nem que tenha uma única
+  resposta certa. Prefira "como", "por que", "o que", "em que".
+- **Variadas:** em cada bloco de grupo, misture observação do texto ("o que o
+  texto mostra?"), interpretação ("por que?") e aplicação ("e entre nós?").
+  Inclua ao menos uma que use o que o estudo ensinou (uma palavra hebraica, um
+  dado histórico, a leitura da tradição judaica).
+- **Acolhedoras:** sem moralismo, sem culpa e sem expor ninguém. Perguntas
+  mais íntimas vão em "Para refletir sozinho".
+- **Neutras:** em tema que divide denominações, pergunte o que as leituras têm
+  em comum e como conversar com respeito; não conduza o grupo a uma posição.
+- **Sem repetição:** não repita pergunta entre as partes nem use perguntas
+  genéricas que serviriam para qualquer texto.
+
 ## Estudos das porções da Torá (seção "Estudos" do site)
 
 Estudo de uma porção semanal (parashá) fica em `src/content/estudos/<slug>.md`
@@ -153,6 +192,12 @@ e aparece em `/estudos/<slug>` (menu "Estudos"). Use `toldot.md` como modelo.
 - No corpo, comece em `##` (o título e o quadro de leituras vêm do cabeçalho)
   e não inclua a lista interna "o que merece conferência": entregue-a ao
   usuário na conversa.
+- Inclua as perguntas para reflexão e discussão em cada parte e no
+  fechamento, no padrão descrito acima.
+- Gere o PDF do estudo com `npm run pdf -- <slug>` sempre que criar ou
+  alterar um estudo: o comando grava `public/estudos/<slug>.pdf`, e é esse
+  arquivo que faz aparecer o botão "Baixar o estudo em PDF". Abra o PDF e
+  confira as primeiras páginas antes de entregar.
 - Valide com `npm run build` e confira que `/estudos/<slug>/` foi gerada.
 
 ## Ao terminar

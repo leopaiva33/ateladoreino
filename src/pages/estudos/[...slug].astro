@@ -1,4 +1,5 @@
 ---
+import { existsSync } from 'node:fs';
 import { render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import AutorBox from '../../components/AutorBox.astro';
@@ -22,6 +23,8 @@ const { title, description, pubDate, updatedDate, parasha, significado, numero, 
   estudo.data;
 const caminho = `/estudos/${estudo.id}/`;
 const urlCompleta = new URL(caminho, SITE.url).href;
+/** PDF gerado por `npm run pdf -- <slug>` em public/estudos/<slug>.pdf; sem arquivo, sem botão. */
+const pdf = existsSync(`public/estudos/${estudo.id}.pdf`) ? `/estudos/${estudo.id}.pdf` : undefined;
 const jsonLd = jsonLdArtigo({
   titulo: title,
   descricao: description,
@@ -54,6 +57,15 @@ const jsonLd = jsonLdArtigo({
       </p>
       <h1>{title}</h1>
       <p><em>{description}</em></p>
+      {
+        pdf && (
+          <p class="baixar-pdf">
+            <a class="btn-compartilhar" href={pdf} download={`${estudo.id}-a-tela-do-reino.pdf`}>
+              Baixar o estudo em PDF
+            </a>
+          </p>
+        )
+      }
     </header>
 
     {
@@ -80,15 +92,25 @@ const jsonLd = jsonLdArtigo({
       <Content />
     </div>
 
+    {
+      pdf && (
+        <p class="baixar-pdf">
+          <a class="btn-compartilhar" href={pdf} download={`${estudo.id}-a-tela-do-reino.pdf`}>
+            Baixar o estudo em PDF
+          </a>
+        </p>
+      )
+    }
+
     <Compartilhar url={urlCompleta} titulo={title} />
 
     <AutorBox />
 
-    <p class="meta">
+    <p class="meta navegacao-estudos">
       {anterior && <a href={`/estudos/${anterior.id}`}>← {anterior.data.parasha}</a>}
       {anterior && proximo && ' · '}
       {proximo && <a href={`/estudos/${proximo.id}`}>{proximo.data.parasha} →</a>}
     </p>
-    <p><a href="/estudos">← Voltar para todos os estudos</a></p>
+    <p class="navegacao-estudos"><a href="/estudos">← Voltar para todos os estudos</a></p>
   </article>
 </BaseLayout>

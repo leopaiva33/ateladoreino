@@ -26,6 +26,7 @@ Requer Node 22.12 ou superior (veja `.nvmrc`).
 │   ├── content.config.ts   schema das coleções "blog" e "estudos"
 │   ├── content/blog/*.md   uma reflexão por arquivo
 │   ├── content/estudos/*.md   um estudo de porção da Torá por arquivo (menu "Estudos", /estudos)
+│   │                          (`npm run pdf -- <slug>` gera public/estudos/<slug>.pdf, o "Baixar em PDF")
 │   ├── components/         Header, Footer, PostList, AdSlot
 │   ├── layouts/BaseLayout.astro   <head>, SEO, Open Graph, script do AdSense
 │   ├── pages/              rotas (/, /blog, /estudos, /sobre, /contato, /privacidade, /termos, /rss.xml)

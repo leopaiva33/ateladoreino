@@ -2,6 +2,7 @@
 title: "Toldot: gêmeos, primogenitura, bênção e amor"
 description: "Estudo da porção Toldot: Jacó e Esaú, os poços de Isaque, a bênção, Malaquias 1 e Romanos 9, com olhar judaico e histórico."
 pubDate: 2026-11-12T07:00:00-03:00
+updatedDate: 2026-11-13T07:00:00-03:00
 parasha: "Toldot"
 significado: "Gerações"
 numero: 6
@@ -153,6 +154,29 @@ Rebeca recebe o oráculo; Isaque, até onde o texto mostra, não. Será que essa
 assimetria explica parte do que acontece no capítulo 27? A Torá não responde,
 e isso é proposital: ela nos convida a perguntar.
 
+### Perguntas para reflexão e discussão
+
+**Para refletir sozinho**
+
+- Rebeca levou a sua angústia a Deus: "foi-se a perguntar ao Senhor"
+  (Gênesis 25:22). Que pergunta você precisa levar a ele hoje?
+- Esaú trocou algo de valor duradouro por um alívio imediato. Qual é o "prato
+  de lentilhas" que mais tenta você?
+
+**Para conversar em grupo**
+
+1. Isaque e Rebeca esperaram vinte anos por filhos (Gênesis 25:20, 26). O que a
+   espera ensina que a resposta rápida não ensina?
+2. "E amava Isaque a Esaú... mas Rebeca amava a Jacó" (Gênesis 25:28). Que marcas
+   a preferência dos pais deixa nos filhos? Como evitar isso em casa?
+3. Jacó é chamado de íntegro (*tam*) e, logo depois, negocia a primogenitura com
+   o irmão faminto. Como o grupo avalia a atitude dele em Gênesis 25:29-34?
+4. O texto diz que Esaú "desprezou" a primogenitura (Gênesis 25:34). Que
+   heranças espirituais corremos o risco de tratar como coisa sem valor?
+5. Deus renova a promessa a Isaque por causa da obediência de Abraão
+   (Gênesis 26:5). De que forma a fidelidade de uma geração abençoa a
+   seguinte? Alguém pode contar um exemplo da própria família?
+
 ---
 
 ## 2. Primogenitura — Gênesis 26:13–22
@@ -240,6 +264,30 @@ encontrar Reobote. Há fases em que nossa herança de fé — orações, costume
 família, a Palavra que ouvimos de pais e avós — fica "entupida". O caminho de
 Isaque é paciente: desentupir, honrar o que veio antes e confiar que Deus abre
 espaço.
+
+### Perguntas para reflexão e discussão
+
+**Para refletir sozinho**
+
+- Qual "poço" da sua vida de fé está entupido: a oração, a leitura da
+  Palavra, a comunhão? O que seria cavá-lo de novo nesta semana?
+- Você está hoje em Eseque (contenda), em Sitna (inimizade) ou em Reobote
+  (lugar amplo)? Como Deus tem conduzido você entre um e outro?
+
+**Para conversar em grupo**
+
+1. Isaque prospera e passa a ser invejado (Gênesis 26:12-14). Como lidar com a
+   inveja dos outros, e com a nossa, sem perder a paz?
+2. Isaque manteve os nomes que o pai tinha dado aos poços (Gênesis 26:18). O
+   que vale a pena conservar da fé de quem veio antes de nós? O que precisa
+   ser renovado?
+3. Diante da disputa, Isaque cede e cava outro poço, duas vezes
+   (Gênesis 26:19-22). Isso é fraqueza ou sabedoria? Quando é hora de abrir
+   mão e quando é hora de insistir?
+4. Esaú desprezou a herança; Isaque trabalhou para preservá-la. Em que nos
+   parecemos com cada um?
+5. A primogenitura trazia privilégio e também responsabilidade. Que
+   responsabilidades acompanham as bênçãos que cada um de nós recebeu?
 
 ---
 
@@ -333,6 +381,32 @@ Rebeca tinha uma promessa de Deus (25:23) e mesmo assim achou que precisava
 condena Rebeca de forma simples — ela é a mulher que buscou o Senhor —, mas
 o texto não registra que ela tenha voltado a ver Jacó depois que ele fugiu.
 Confiar é também esperar que Deus cumpra do jeito dele.
+
+### Perguntas para reflexão e discussão
+
+**Para refletir sozinho**
+
+- Em que área da vida você está tentando "ajudar" Deus com um atalho, em vez
+  de esperar?
+- Há alguma conversa que a sua família vem evitando? O que impede você de dar
+  o primeiro passo?
+
+**Para conversar em grupo**
+
+1. Isaque responde aos antigos adversários com um banquete e um juramento de
+   paz (Gênesis 26:30-31). O que essa atitude ensina sobre reconciliação?
+2. Os casamentos de Esaú foram "uma amargura de espírito" para os pais
+   (Gênesis 26:35). Como as escolhas de um membro afetam a família inteira?
+3. Em Gênesis 27, a família nunca conversa toda junta: os diálogos são sempre
+   de dois em dois. O que a falta de conversa franca produz num lar ou numa
+   comunidade?
+4. Jacó estava certo em desejar a bênção? E estava certo no **modo** como a
+   buscou? Separem as duas perguntas.
+5. Jacó teme ser visto como "enganador" (Gênesis 27:12), mas não teme o engano
+   em si. Que diferença há entre ter medo das consequências e amar a verdade?
+6. Anos depois, Jacó é enganado por Labão e pelos próprios filhos
+   (Gênesis 29:25; 37:31-33). O que isso ensina sobre colher o que se planta,
+   e sobre a fidelidade de Deus a quem falhou?
 
 ---
 
@@ -433,6 +507,28 @@ como Esaú desprezou a primogenitura.
 duvidamos do amor de Deus. Malaquias responde lembrando a história — olhe para
 trás e veja como fui fiel. E a resposta ao amor de Deus não é um sentimento
 vago: é oferecer o melhor, e não o resto, e guardar a verdade na boca.
+
+### Perguntas para reflexão e discussão
+
+**Para refletir sozinho**
+
+- "Em que nos amaste?" (Malaquias 1:2). Em que momento você já fez essa
+  pergunta a Deus? Olhando para trás, que sinais do amor dele você enxerga?
+- O que você tem oferecido a Deus: o melhor do seu tempo e da sua atenção, ou
+  o que sobra?
+
+**Para conversar em grupo**
+
+1. Deus responde à dúvida do povo lembrando a história (Malaquias 1:2-5). Por
+   que a memória é tão importante para a fé? Como o grupo pode cultivá-la?
+2. O profeta desafia: ofereça isso ao seu governador (Malaquias 1:8). O que
+   seria, hoje, oferecer a Deus um "animal coxo"?
+3. Os sacerdotes desprezavam o Nome sem perceber: "Em que desprezamos nós o teu
+   nome?" (Malaquias 1:6). Como a rotina religiosa pode esconder o desprezo?
+4. Malaquias 2:6-7 descreve o servo ideal: verdade na boca, paz e retidão no
+   andar, e muitos afastados do mal. Qual desses traços mais falta entre nós?
+5. "Amei a Jacó e aborreci a Esaú" fala de escolha e de aliança, não de ódio
+   pessoal. Como essa explicação muda a leitura do versículo?
 
 ---
 
@@ -536,6 +632,29 @@ recebeu bênção e terra (Deuteronômio 2:5). A mensagem que une judeus e crist
 aqui é humilde: ninguém conquista o amor de Deus; recebe-o, e responde com
 gratidão e fidelidade.
 
+### Perguntas para reflexão e discussão
+
+**Para refletir sozinho**
+
+- Você vive a fé mais como quem precisa merecer ou como quem recebeu
+  misericórdia? Onde isso aparece no seu dia a dia?
+- Paulo sente "grande tristeza" pelos seus parentes que não creem
+  (Romanos 9:2-3). Por quem você carrega essa dor em oração?
+
+**Para conversar em grupo**
+
+1. "Não que a palavra de Deus haja faltado" (Romanos 9:6). Em que situações
+   parece que a promessa de Deus falhou? Como Paulo responde a essa sensação?
+2. O estudo apresenta quatro maneiras de ler Romanos 9. O que todas têm em
+   comum? Como conversar sobre as diferenças com respeito?
+3. "Que há injustiça da parte de Deus?" (Romanos 9:14). Por que a misericórdia, por
+   definição, não pode ser exigida?
+4. Se tudo depende "de Deus, que se compadece" (Romanos 9:16), qual é o lugar
+   do nosso esforço, da obediência e da oração?
+5. Paulo adverte os crentes gentios a não se gloriarem contra os ramos naturais
+   (Romanos 11:18). Que atitudes de respeito pelo povo judeu esse texto pede
+   de nós hoje?
+
 ---
 
 ## Fechando: o fio que une as cinco leituras
@@ -557,16 +676,31 @@ resposta da tradição: a Torá não é a história de heróis perfeitos, mas da
 fidelidade de Deus a pessoas reais. Se Deus manteve sua aliança com Jacó, o
 "calcanhar", ele pode manter conosco.
 
-### Para conversar em grupo
+### Perguntas para fechar o estudo
+
+**Como usar as perguntas.** Cada parte do estudo termina com perguntas para
+refletir sozinho e para conversar em grupo. Num encontro de cerca de uma hora,
+leiam o texto bíblico em voz alta, escolham duas ou três perguntas por parte e
+deixem as demais para a semana. Não é preciso chegar a uma resposta única:
+ouvir bem vale mais do que concluir depressa.
+
+**Para refletir sozinho**
+
+- Qual das cinco leituras falou mais com você? Por quê?
+- Que passo concreto você quer dar nesta semana a partir do que estudou?
+
+**Para conversar em grupo**
 
 1. Rebeca recebeu o oráculo e Isaque não (pelo que o texto mostra). Como essa
    diferença pode ter afetado a família?
-2. O que, na sua vida, é um "poço do pai" que precisa ser reaberto?
-3. Jacó estava certo em buscar a bênção? E estava certo no **modo** como a
-   buscou? Separe as duas perguntas.
-4. Malaquias liga amor e oferta. O que seria oferecer um "animal coxo" hoje?
-5. Romanos 9 é lido de formas diferentes na igreja. O que todas as leituras têm
-   em comum?
+2. A palavra "desprezar" liga Esaú aos sacerdotes de Malaquias. O que a nossa
+   geração corre o risco de desprezar?
+3. Por que a Bíblia conta com tanta franqueza as falhas de Isaque, Rebeca,
+   Jacó e Esaú? O que isso revela sobre Deus?
+4. Depois de tudo, Esaú e Jacó se reencontram e se abraçam (Gênesis 33:4). Que
+   reconciliação parece impossível hoje e precisa da nossa oração?
+5. Se tivéssemos de resumir o estudo em uma frase para alguém de fora, qual
+   seria?
 
 ### Oração
 
