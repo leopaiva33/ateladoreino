@@ -12,7 +12,8 @@
     "images": "node scripts/render-images.mjs",
     "carrossel": "node scripts/gerar-carrossel.mjs",
     "instagram": "node scripts/publicar-instagram.mjs",
-    "video": "node scripts/gerar-video.mjs"
+    "video": "node scripts/gerar-video.mjs",
+    "pdf": "node scripts/gerar-pdf-estudos.mjs"
   },
   "dependencies": {
     "@astrojs/rss": "^4.0.19",

@@ -194,6 +194,10 @@ e aparece em `/estudos/<slug>` (menu "Estudos"). Use `toldot.md` como modelo.
   usuário na conversa.
 - Inclua as perguntas para reflexão e discussão em cada parte e no
   fechamento, no padrão descrito acima.
+- Gere o PDF do estudo com `npm run pdf -- <slug>` sempre que criar ou
+  alterar um estudo: o comando grava `public/estudos/<slug>.pdf`, e é esse
+  arquivo que faz aparecer o botão "Baixar o estudo em PDF". Abra o PDF e
+  confira as primeiras páginas antes de entregar.
 - Valide com `npm run build` e confira que `/estudos/<slug>/` foi gerada.
 
 ## Ao terminar

@@ -112,3 +112,21 @@ h1{font-size:1.8rem}
 .leituras-tema{color:var(--cor-texto-suave)}
 .estudos-livro{font-size:1.3rem;margin:1.8em 0 0;padding-bottom:6px;border-bottom:2px solid var(--cor-destaque)}
 .estudos-leituras{display:block;margin-top:6px;font-family:system-ui,sans-serif;font-size:.85rem;color:var(--cor-texto-suave)}
+.baixar-pdf{margin:18px 0 0;font-family:system-ui,sans-serif}
+.baixar-pdf .btn-compartilhar{border-color:var(--cor-destaque);color:var(--cor-destaque);font-weight:600}
+
+/* Impressão e PDF (npm run pdf): só o conteúdo, em cores claras */
+@media print{
+:root{--cor-fundo:#fff;--cor-texto:#1c1c1f;--cor-texto-suave:#55555c;--cor-destaque:#7a1f2b;--cor-destaque-claro:#f6eee1;--cor-borda:#d9cfbd}
+body{font-size:11pt;line-height:1.55;background:#fff}
+.site-header nav,.site-footer nav,.site-footer p:last-child,.compartilhar,.ad-slot,.baixar-pdf,.navegacao-estudos,.leia-tambem,.video-artigo{display:none!important}
+.site-header{padding:0 0 8px;margin-bottom:14px}
+main{padding:0;min-height:0}
+.container,.container-amplo{width:100%}
+h1{font-size:22pt}h2{font-size:15pt}h3{font-size:12pt}
+h2,h3{break-after:avoid}
+blockquote,.leituras,.autor-box,tr,li{break-inside:avoid}
+.artigo .corpo table{display:table;width:100%;font-size:9.5pt}
+a{color:inherit;text-decoration:none}
+.site-footer{padding:10px 0 0;font-size:8.5pt}
+}
