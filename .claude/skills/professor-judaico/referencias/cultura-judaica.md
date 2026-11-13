@@ -102,7 +102,7 @@ civil, outono).
 
 ## Oração e vida na sinagoga
 
-- **Shemá Israel:** "Ouve, Israel, o Senhor nosso Deus é o único Senhor"
+- **Shemá Israel:** "Ouve, Israel, o Senhor, nosso Deus, é o único Senhor"
   (Deuteronômio 6:4), mais Deuteronômio 6:5-9; 11:13-21; Números 15:37-41.
   Jesus o cita como o primeiro mandamento (Marcos 12:29-30).
 - **Amidá / Shemoné Esré:** a oração "de pé", com 18 (hoje 19) bênçãos.
