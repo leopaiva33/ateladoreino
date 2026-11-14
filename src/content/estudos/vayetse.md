@@ -93,12 +93,13 @@ Deus aparece sem ser chamado e promete estar com ele por onde for.
 
 - **Sulam** (סֻלָּם, 28:12) — "escada". A palavra só aparece aqui em toda a
   Bíblia hebraica. Pode indicar uma escada ou uma rampa com degraus; alguns
-  estudiosos a comparam às escadarias dos templos-torre da Mesopotâmia
-  (hipótese, não certeza).
+  estudiosos a aproximam de uma palavra acádia para "escadaria" e das
+  escadarias dos templos-torre da Mesopotâmia (hipótese debatida).
 - **Hamakom** (הַמָּקוֹם) — "o lugar". A palavra aparece três vezes só no
   versículo 11 e volta nos versículos 16, 17 e 19. Na tradição rabínica
-  posterior, *HaMakom* ("o Lugar") tornou-se um dos nomes de Deus: aquele em
-  quem o mundo tem lugar.
+  posterior, *HaMakom* ("o Lugar") tornou-se um dos nomes de Deus. O Midrash
+  explica, a partir deste versículo: ele é o lugar do mundo, e o mundo não é
+  o lugar dele (*Bereshit Rabá* 68:9).
 - **Beit-El** (בֵּית־אֵל) — "Casa de Deus". O nome antigo da cidade era Luz
   (28:19).
 - **Bo** (בּוֹ, 28:12) — "por ela". Em hebraico, o pronome também pode ser
@@ -367,7 +368,7 @@ na fronteira com os mesmos anjos da partida.
 
 - **Jegar-Saaduta / Galeede** (31:47) — os dois nomes significam "monte do
   testemunho", o primeiro em aramaico, a língua de Labão, e o segundo em
-  hebraico. *Jegar-Saaduta* é a única expressão em aramaico de toda a Torá.
+  hebraico. *Jegar-Saaduta* é o exemplo mais claro de aramaico dentro da Torá.
   Cada um nomeia o lugar na própria língua: os caminhos se separaram.
 - **Terafim** (תְּרָפִים, 31:19) — a ARC traduz "ídolos". Eram imagens
   domésticas, ligadas à proteção da casa e à adivinhação.
@@ -401,8 +402,8 @@ na fronteira com os mesmos anjos da partida.
   Próximo. Labão jura pelo "Deus de Naor"; Jacó, pelo "Temor de Isaque"
   (31:53).
 - Durante o século XX, textos de Nuzi (Mesopotâmia) foram usados para sugerir
-  que a posse dos ídolos domésticos dava direito à herança. Hoje a maioria dos
-  estudiosos considera essa ligação incerta.
+  que a posse dos ídolos domésticos dava direito à herança. Essa ligação foi
+  contestada (Moshe Greenberg, 1962) e hoje é tratada com cautela.
 - Maanaim, a leste do Jordão, reaparece na história de Israel: Davi se refugia
   ali durante a revolta de Absalão (2 Samuel 17:24).
 
@@ -502,9 +503,10 @@ descendentes que também para eles existe um caminho de volta.
   haftará do sábado entre Rosh Hashaná e Yom Kipur, que por isso se chama
   *Shabat Shuvá*, o "sábado do retorno".
 - **Palavras no lugar de sacrifícios.** "Tomai convosco palavras... e daremos
-  como bezerros os sacrifícios dos nossos lábios" (14:2). Depois da destruição
-  do Templo, a tradição rabínica apoiou-se neste versículo para ensinar que a
-  oração e a confissão ocupam o lugar dos sacrifícios.
+  como bezerros os sacrifícios dos nossos lábios" (14:2). O Talmude (*Yoma*
+  86b) ensina, a partir deste versículo, que quem se arrepende é considerado
+  como se tivesse oferecido bezerros no altar, e como oferta voluntária, por
+  causa de "eu voluntariamente os amarei" (14:4).
 
 ### No contexto histórico
 
@@ -609,8 +611,9 @@ encontram agora é uma pessoa.
   causa de Jacó. João apresenta Jesus como o novo Betel: a "Casa de Deus" e a
   "porta dos céus".
 - **A figueira.** Sentar-se debaixo da própria videira e da própria figueira é
-  imagem profética dos dias de paz (Miqueias 4:4; Zacarias 3:10). Tradições
-  judaicas posteriores também associam a sombra da figueira ao estudo da Torá.
+  imagem profética dos dias de paz (Miqueias 4:4; Zacarias 3:10). O Talmude,
+  mais tarde, compara a própria Torá a uma figueira, em que sempre se acha
+  fruto novo (*Eruvin* 54a-b).
   O texto não diz o que Natanael fazia ali; diz apenas que foi visto.
 - **Os títulos.** "Filho de Deus" e "Rei de Israel" são, no Tanakh, títulos do
   rei da linhagem de Davi (2 Samuel 7:14; Salmos 2:6-7). Natanael faz uma
@@ -743,12 +746,83 @@ ouvir bem vale mais do que concluir depressa.
 - Rashi e Ramban sobre Gênesis 28–32 (disponíveis em português e inglês em
   sites como Sefaria e Chabad.org).
 - A Hagadá de Pessach, no trecho sobre Labão (Deuteronômio 26:5).
+- *Pirkei de-Rabi Eliezer* 35 (os impérios na escada); Talmude *Yoma* 86b (o
+  arrependimento e Oseias 14) e *Eruvin* 54a-b (a Torá e a figueira).
 
 **Obras de referência**
 - Nahum M. Sarna, *Understanding Genesis* (1966).
 - Robert Alter, *Genesis: Translation and Commentary* (1996).
-- Jonathan Sacks, *Covenant & Conversation: Genesis* (2009).
+- Jonathan Sacks, *Covenant & Conversation — Genesis: The Book of Beginnings*
+  (2009).
 - Craig S. Keener, *The Gospel of John: A Commentary* (2003).
+
+## Referências
+
+Fontes consultadas na preparação deste estudo, em novembro de 2026. As
+citações bíblicas foram comparadas com o texto da ARC, e cada fonte judaica
+abaixo foi lida no trecho indicado (em tradução inglesa).
+
+**Texto bíblico**
+- Bíblia Almeida Revista e Corrigida (ARC), Sociedade Bíblica do Brasil, em
+  [bibliaonline.com.br/arc](https://www.bibliaonline.com.br/arc/gn/28):
+  Gênesis 28–32, Oseias 12–14 e João 1.
+- Texto hebraico de [Gênesis 28:12](https://www.sefaria.org/Genesis.28.12) e
+  [Gênesis 31:47](https://www.sefaria.org/Genesis.31.47), na Sefaria.
+- Septuaginta, [Gênesis 27:35](https://www.blueletterbible.org/verse/lxx/gen/27/35/),
+  na Blue Letter Bible (a palavra grega para "dolo").
+
+**Talmude Babilônico**
+- [Berakhot 26b](https://www.sefaria.org/Berakhot.26b) — as três orações diárias e os
+  patriarcas.
+- [Berakhot 7b](https://www.sefaria.org/Berakhot.7b) — Leia, a primeira a agradecer.
+- [Chullin 91b](https://www.sefaria.org/Chullin.91b) — as pedras, o pôr do sol e os anjos na
+  noite de Betel.
+- [Megillah 13b](https://www.sefaria.org/Megillah.13b) — os sinais de Raquel.
+- [Bava Batra 123a](https://www.sefaria.org/Bava_Batra.123a) — os olhos de Leia.
+- [Yoma 86b](https://www.sefaria.org/Yoma.86b) — o arrependimento e Oseias 14.
+- [Eruvin 54a](https://www.sefaria.org/Eruvin.54a) e [54b](https://www.sefaria.org/Eruvin.54b) — a Torá
+  comparada a uma figueira.
+
+**Midrash e Hagadá**
+- [Bereshit Rabá 68:9](https://www.sefaria.org/Bereshit_Rabbah.68.9) — "o Lugar" como nome de
+  Deus.
+- [Bereshit Rabá 68:12](https://www.sefaria.org/Bereshit_Rabbah.68.12) — as leituras da
+  escada (o Templo, o Sinai).
+- [Pirkei de-Rabi Eliezer 35](https://www.sefaria.org/Pirkei_DeRabbi_Eliezer.35) — os impérios
+  na escada.
+- [Hagadá de Pessach, Maguid](https://www.sefaria.org/Pesach_Haggadah%2C_Magid%2C_First_Fruits_Declaration.2)
+  — "Vai e aprende o que Labão, o arameu, quis fazer".
+
+**Comentaristas**
+- Rashi sobre Gênesis [28:10](https://www.sefaria.org/Rashi_on_Genesis.28.10),
+  [28:11](https://www.sefaria.org/Rashi_on_Genesis.28.11),
+  [28:12](https://www.sefaria.org/Rashi_on_Genesis.28.12),
+  [28:13](https://www.sefaria.org/Rashi_on_Genesis.28.13),
+  [28:17](https://www.sefaria.org/Rashi_on_Genesis.28.17),
+  [29:11](https://www.sefaria.org/Rashi_on_Genesis.29.11),
+  [29:17](https://www.sefaria.org/Rashi_on_Genesis.29.17),
+  [29:25](https://www.sefaria.org/Rashi_on_Genesis.29.25),
+  [29:35](https://www.sefaria.org/Rashi_on_Genesis.29.35),
+  [31:19](https://www.sefaria.org/Rashi_on_Genesis.31.19),
+  [31:32](https://www.sefaria.org/Rashi_on_Genesis.31.32) e
+  [32:1-2](https://www.sefaria.org/Rashi_on_Genesis.32.2) (32:2-3 na numeração hebraica).
+- Ramban sobre [Gênesis 28:12](https://www.sefaria.org/Ramban_on_Genesis.28.12) (os impérios)
+  e [Gênesis 26:5](https://www.sefaria.org/Ramban_on_Genesis.26.5) (os patriarcas e a Torá
+  fora da terra).
+
+**Calendário e costumes de leitura**
+- [Calendário de leituras da Sefaria](https://www.sefaria.org/calendars) — a
+  porção e a haftará de 21 de novembro de 2026.
+- [Hebcal, Parashat Vayetzei](https://www.hebcal.com/sedrot/vayetzei-29141117) — as
+  haftarot asquenazita e sefardita.
+
+**Estudos**
+- Moshe Greenberg, ["Another Look at Rachel's Theft of the
+  Teraphim"](https://gospelstudies.org.uk/biblicalstudies/pdf/jbl/1962_greenberg.pdf),
+  *Journal of Biblical Literature* 81 (1962).
+- [NET Bible, nota a Gênesis 28:12](https://biblia.com/bible/gs-netbible/Ge28.12)
+  — a palavra *sulam*.
+
 
 ---
 
