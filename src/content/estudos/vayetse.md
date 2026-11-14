@@ -756,6 +756,74 @@ ouvir bem vale mais do que concluir depressa.
   (2009).
 - Craig S. Keener, *The Gospel of John: A Commentary* (2003).
 
+## Referências
+
+Fontes consultadas na preparação deste estudo, em novembro de 2026. As
+citações bíblicas foram comparadas com o texto da ARC, e cada fonte judaica
+abaixo foi lida no trecho indicado (em tradução inglesa).
+
+**Texto bíblico**
+- Bíblia Almeida Revista e Corrigida (ARC), Sociedade Bíblica do Brasil, em
+  [bibliaonline.com.br/arc](https://www.bibliaonline.com.br/arc/gn/28):
+  Gênesis 28–32, Oseias 12–14 e João 1.
+- Texto hebraico de [Gênesis 28:12](https://www.sefaria.org/Genesis.28.12) e
+  [Gênesis 31:47](https://www.sefaria.org/Genesis.31.47), na Sefaria.
+- Septuaginta, [Gênesis 27:35](https://www.blueletterbible.org/verse/lxx/gen/27/35/),
+  na Blue Letter Bible (a palavra grega para "dolo").
+
+**Talmude Babilônico**
+- [Berakhot 26b](https://www.sefaria.org/Berakhot.26b) — as três orações diárias e os
+  patriarcas.
+- [Berakhot 7b](https://www.sefaria.org/Berakhot.7b) — Leia, a primeira a agradecer.
+- [Chullin 91b](https://www.sefaria.org/Chullin.91b) — as pedras, o pôr do sol e os anjos na
+  noite de Betel.
+- [Megillah 13b](https://www.sefaria.org/Megillah.13b) — os sinais de Raquel.
+- [Bava Batra 123a](https://www.sefaria.org/Bava_Batra.123a) — os olhos de Leia.
+- [Yoma 86b](https://www.sefaria.org/Yoma.86b) — o arrependimento e Oseias 14.
+- [Eruvin 54a](https://www.sefaria.org/Eruvin.54a) e [54b](https://www.sefaria.org/Eruvin.54b) — a Torá
+  comparada a uma figueira.
+
+**Midrash e Hagadá**
+- [Bereshit Rabá 68:9](https://www.sefaria.org/Bereshit_Rabbah.68.9) — "o Lugar" como nome de
+  Deus.
+- [Bereshit Rabá 68:12](https://www.sefaria.org/Bereshit_Rabbah.68.12) — as leituras da
+  escada (o Templo, o Sinai).
+- [Pirkei de-Rabi Eliezer 35](https://www.sefaria.org/Pirkei_DeRabbi_Eliezer.35) — os impérios
+  na escada.
+- [Hagadá de Pessach, Maguid](https://www.sefaria.org/Pesach_Haggadah%2C_Magid%2C_First_Fruits_Declaration.2)
+  — "Vai e aprende o que Labão, o arameu, quis fazer".
+
+**Comentaristas**
+- Rashi sobre Gênesis [28:10](https://www.sefaria.org/Rashi_on_Genesis.28.10),
+  [28:11](https://www.sefaria.org/Rashi_on_Genesis.28.11),
+  [28:12](https://www.sefaria.org/Rashi_on_Genesis.28.12),
+  [28:13](https://www.sefaria.org/Rashi_on_Genesis.28.13),
+  [28:17](https://www.sefaria.org/Rashi_on_Genesis.28.17),
+  [29:11](https://www.sefaria.org/Rashi_on_Genesis.29.11),
+  [29:17](https://www.sefaria.org/Rashi_on_Genesis.29.17),
+  [29:25](https://www.sefaria.org/Rashi_on_Genesis.29.25),
+  [29:35](https://www.sefaria.org/Rashi_on_Genesis.29.35),
+  [31:19](https://www.sefaria.org/Rashi_on_Genesis.31.19),
+  [31:32](https://www.sefaria.org/Rashi_on_Genesis.31.32) e
+  [32:1-2](https://www.sefaria.org/Rashi_on_Genesis.32.2) (32:2-3 na numeração hebraica).
+- Ramban sobre [Gênesis 28:12](https://www.sefaria.org/Ramban_on_Genesis.28.12) (os impérios)
+  e [Gênesis 26:5](https://www.sefaria.org/Ramban_on_Genesis.26.5) (os patriarcas e a Torá
+  fora da terra).
+
+**Calendário e costumes de leitura**
+- [Calendário de leituras da Sefaria](https://www.sefaria.org/calendars) — a
+  porção e a haftará de 21 de novembro de 2026.
+- [Hebcal, Parashat Vayetzei](https://www.hebcal.com/sedrot/vayetzei-29141117) — as
+  haftarot asquenazita e sefardita.
+
+**Estudos**
+- Moshe Greenberg, ["Another Look at Rachel's Theft of the
+  Teraphim"](https://gospelstudies.org.uk/biblicalstudies/pdf/jbl/1962_greenberg.pdf),
+  *Journal of Biblical Literature* 81 (1962).
+- [NET Bible, nota a Gênesis 28:12](https://biblia.com/bible/gs-netbible/Ge28.12)
+  — a palavra *sulam*.
+
+
 ---
 
 > Este estudo foi preparado com apoio de inteligência artificial. É material

@@ -2,7 +2,7 @@
 title: "Toldot: gêmeos, primogenitura, bênção e amor"
 description: "Estudo da porção Toldot: Jacó e Esaú, os poços de Isaque, a bênção, Malaquias 1 e Romanos 9, com olhar judaico e histórico."
 pubDate: 2026-11-12T07:00:00-03:00
-updatedDate: 2026-11-13T07:00:00-03:00
+updatedDate: 2026-11-14T07:00:00-03:00
 parasha: "Toldot"
 significado: "Gerações"
 numero: 6
@@ -729,6 +729,56 @@ ouvir bem vale mais do que concluir depressa.
 - Oskar Skarsaune, *In the Shadow of the Temple* (2002).
 - James D. G. Dunn, *The Partings of the Ways* (1991).
 - E. P. Sanders, *Paulo e o judaísmo palestinense* (1977).
+
+## Referências
+
+Fontes consultadas na conferência deste estudo, em novembro de 2026. As
+citações bíblicas foram comparadas com o texto da ARC, e cada fonte abaixo foi
+lida no trecho indicado (em tradução inglesa).
+
+**Texto bíblico**
+- Bíblia Almeida Revista e Corrigida (ARC), Sociedade Bíblica do Brasil, em
+  [bibliaonline.com.br/arc](https://www.bibliaonline.com.br/arc/gn/25):
+  Gênesis 25–27, Malaquias 1–2 e Romanos 9 e 11.
+
+**Talmude e Mishná**
+- [Yevamot 64a](https://www.sefaria.org/Yevamot.64a) — a oração dos justos e Gênesis 25:21.
+- [Bava Batra 16b](https://www.sefaria.org/Bava_Batra.16b) — as lentilhas e o dia da morte de
+  Abraão.
+- [Mishná Kiddushin 4:14](https://www.sefaria.org/Mishnah_Kiddushin.4.14) — Abraão e a Torá.
+- [Pirkei Avot 1:12](https://www.sefaria.org/Pirkei_Avot.1.12) — os discípulos de Arão.
+
+**Midrash**
+- [Bereshit Rabá 63:6](https://www.sefaria.org/Bereshit_Rabbah.63.6) — a luta dos gêmeos no
+  ventre.
+
+**Comentaristas**
+- Rashi sobre Gênesis [25:19](https://www.sefaria.org/Rashi_on_Genesis.25.19),
+  [25:21](https://www.sefaria.org/Rashi_on_Genesis.25.21),
+  [25:22](https://www.sefaria.org/Rashi_on_Genesis.25.22),
+  [25:30](https://www.sefaria.org/Rashi_on_Genesis.25.30),
+  [25:31](https://www.sefaria.org/Rashi_on_Genesis.25.31),
+  [25:32](https://www.sefaria.org/Rashi_on_Genesis.25.32),
+  [27:1](https://www.sefaria.org/Rashi_on_Genesis.27.1),
+  [27:19](https://www.sefaria.org/Rashi_on_Genesis.27.19) e
+  [27:27](https://www.sefaria.org/Rashi_on_Genesis.27.27).
+- Ramban sobre [Gênesis 26:5](https://www.sefaria.org/Ramban_on_Genesis.26.5) e
+  [Gênesis 26:20](https://www.sefaria.org/Ramban_on_Genesis.26.20) (os poços e os Templos).
+
+**Josefo e escritores cristãos antigos**
+- Josefo, [Antiguidades Judaicas XIII, 9.1](https://www.sefaria.org/The_Antiquities_of_the_Jews.13.9.1)
+  — João Hircano e os idumeus.
+- Tertuliano, [*Contra os Judeus*, cap. 1](https://www.newadvent.org/fathers/0308.htm).
+- [*Didaquê*, cap. 14](https://www.newadvent.org/fathers/0714.htm).
+- Justino Mártir, [*Diálogo com Trifão*, cap. 47](https://www.newadvent.org/fathers/01283.htm).
+
+**Calendário**
+- [Calendário de leituras da Sefaria](https://www.sefaria.org/calendars) — a
+  porção e a haftará de 14 de novembro de 2026.
+
+A referência a Epifânio (*Panarion* 29) não pôde ser conferida nas fontes
+disponíveis.
+
 
 ---
 

@@ -125,6 +125,8 @@ Ajuste a profundidade ao pedido:
 10. **Para aprofundar** — fontes primárias (ex.: Mishná *Pesachim* 10;
     Josefo, *Antiguidades* XVIII) e obras de referência, apenas as que você
     tem certeza de que existem.
+11. **Referências** — obrigatórias em todo estudo publicado: as fontes
+    realmente consultadas, com link; siga a seção "Referências" abaixo.
 
 Use os títulos que fizerem sentido; não force seções vazias.
 
@@ -178,6 +180,40 @@ Como escrever as perguntas:
 - **Sem repetição:** não repita pergunta entre as partes nem use perguntas
   genéricas que serviriam para qualquer texto.
 
+## Referências (padrão de todo estudo)
+
+Todo estudo publicado termina com uma seção `## Referências`, depois de "Para
+aprofundar" e antes do aviso final. Use `src/content/estudos/vayetse.md` como
+modelo.
+
+- **Só entra o que foi realmente lido** durante a preparação: a página aberta
+  e o trecho conferido. Fonte citada de memória não vai para as Referências;
+  ou confira, ou tire a afirmação do estudo, ou diga no texto que não pôde
+  ser conferida.
+- **Confira antes de escrever a seção:**
+  - cada citação bíblica entre aspas, comparada com a ARC em
+    `https://www.bibliaonline.com.br/arc/<livro>/<capítulo>`;
+  - cada fonte judaica (Talmude, Midrash, Rashi, Ramban, Hagadá), lida na
+    Sefaria: `https://www.sefaria.org/api/texts/<Ref>?context=0` devolve o
+    texto em inglês (ex.: `Berakhot.26b`, `Rashi_on_Genesis.28.11`,
+    `Bereshit_Rabbah.68.12`);
+  - a data e a haftará da porção, em
+    `https://www.sefaria.org/api/calendars?diaspora=1&year=AAAA&month=M&day=D`;
+  - Pais da Igreja, em `https://www.newadvent.org/fathers/`.
+  Esses três sites estão liberados na rede do ambiente "atela". Para o que
+  eles não cobrem, use o WebSearch.
+- **Atenção à numeração:** a Sefaria e os planos de leitura seguem a Bíblia
+  hebraica, que em alguns capítulos difere da ARC por um versículo. O estudo
+  usa a ARC e explica a diferença quando houver.
+- **Formato:** uma frase de abertura dizendo o mês da consulta e o que foi
+  conferido; depois grupos em negrito (Texto bíblico, Talmude, Midrash,
+  Comentaristas, Calendário, Estudos), cada item com link para a página lida
+  e, depois de um travessão, o assunto a que serve no estudo.
+- O que não pôde ser conferido é dito numa linha no fim da seção e repetido
+  ao usuário na conversa.
+- "Para aprofundar" continua existindo para indicar leituras; livros citados
+  ali têm título, autor e ano confirmados por busca.
+
 ## Estudos das porções da Torá (seção "Estudos" do site)
 
 Estudo de uma porção semanal (parashá) fica em `src/content/estudos/<slug>.md`
@@ -194,6 +230,7 @@ e aparece em `/estudos/<slug>` (menu "Estudos"). Use `toldot.md` como modelo.
   usuário na conversa.
 - Inclua as perguntas para reflexão e discussão em cada parte e no
   fechamento, no padrão descrito acima.
+- Termine com a seção `## Referências`, no padrão descrito acima.
 - Gere o PDF do estudo com `npm run pdf -- <slug>` sempre que criar ou
   alterar um estudo: o comando grava `public/estudos/<slug>.pdf`, e é esse
   arquivo que faz aparecer o botão "Baixar o estudo em PDF". Abra o PDF e
