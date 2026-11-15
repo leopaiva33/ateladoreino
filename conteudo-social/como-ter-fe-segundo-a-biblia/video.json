@@ -1,0 +1,161 @@
+{
+  "slug": "como-ter-fe-segundo-a-biblia",
+  "arte": "public/images/posts/como-ter-fe-segundo-a-biblia.png",
+  "miniatura": {
+    "titulo": "COMO TER FÉ",
+    "subtitulo": "5 passos práticos"
+  },
+  "secoes": [
+    {
+      "titulo": "Abertura",
+      "cenas": [
+        {
+          "tipo": "arte",
+          "titulo": "Como ter fé segundo a Bíblia",
+          "busca": "sunrise hope field",
+          "subtitulo": "5 passos práticos",
+          "peso": 2
+        },
+        {
+          "tipo": "texto",
+          "texto": "Fé é confiar em Deus e no que ele disse.",
+          "busca": "small plant sprout sunlight"
+        }
+      ]
+    },
+    {
+      "titulo": "O que é fé",
+      "cenas": [
+        {
+          "tipo": "versiculo",
+          "citacao": "Ora, a fé é o firme fundamento das coisas que se esperam e a prova das coisas que se não veem.",
+          "ref": "Hebreus 11:1",
+          "busca": "path into fog light"
+        },
+        {
+          "tipo": "lista",
+          "titulo": "Três ideias",
+          "itens": [
+            "Confiança, não sentimento",
+            "Um presente de Deus (Efésios 2:8)",
+            "Fé que produz ação (Tiago 2:17)"
+          ],
+          "busca": "morning light window"
+        }
+      ]
+    },
+    {
+      "titulo": "A fé não precisa ser grande",
+      "cenas": [
+        {
+          "tipo": "versiculo",
+          "citacao": "Acrescenta-nos a fé.",
+          "ref": "Lucas 17:5",
+          "busca": "mustard seed hand",
+          "comentario": "Uma fé do tamanho de um grão de mostarda já pode muito."
+        },
+        {
+          "tipo": "versiculo",
+          "citacao": "Eu creio, Senhor! Ajuda a minha incredulidade.",
+          "ref": "Marcos 9:24",
+          "busca": "person praying silhouette sky"
+        }
+      ]
+    },
+    {
+      "titulo": "Passos 1 e 2",
+      "cenas": [
+        {
+          "tipo": "versiculo",
+          "citacao": "De sorte que a fé é pelo ouvir, e o ouvir pela palavra de Deus.",
+          "ref": "Romanos 10:17",
+          "busca": "open bible reading light",
+          "comentario": "Passo 1: ouça a Palavra"
+        },
+        {
+          "tipo": "texto",
+          "titulo": "Passo 2: ore com sinceridade",
+          "texto": "Fale com Deus sobre dúvidas, medos e pedidos, sem fingir.",
+          "busca": "praying hands window light"
+        }
+      ]
+    },
+    {
+      "titulo": "Passos 3, 4 e 5",
+      "cenas": [
+        {
+          "tipo": "texto",
+          "titulo": "Passo 3: lembre",
+          "texto": "Anote o cuidado de Deus e releia nos dias difíceis (Salmos 77:11-12).",
+          "busca": "journal writing memories"
+        },
+        {
+          "tipo": "texto",
+          "titulo": "Passo 4: viva em comunidade",
+          "texto": "Grupo, igreja, pessoas de confiança.",
+          "busca": "friends together sunset"
+        },
+        {
+          "tipo": "texto",
+          "titulo": "Passo 5: obedeça",
+          "texto": "Perdoar, servir, dar o próximo passo.",
+          "busca": "footpath stepping stones"
+        }
+      ]
+    },
+    {
+      "titulo": "O que a fé não é",
+      "cenas": [
+        {
+          "tipo": "lista",
+          "titulo": "A fé não é",
+          "itens": [
+            "Fórmula para conseguir tudo",
+            "Ausência de dúvida",
+            "Culpa por dificuldades"
+          ],
+          "busca": "stormy sky light breaking",
+          "numerar": false
+        }
+      ]
+    },
+    {
+      "titulo": "Fé quando tudo dá errado",
+      "cenas": [
+        {
+          "tipo": "versiculo",
+          "citacao": "Todavia, eu me alegrarei no Senhor, exultarei no Deus da minha salvação.",
+          "ref": "Habacuque 3:18",
+          "busca": "dry fig tree field sunset"
+        }
+      ]
+    },
+    {
+      "titulo": "Oração final",
+      "cenas": [
+        {
+          "tipo": "arte",
+          "titulo": "Senhor, eu creio",
+          "busca": "prayer silhouette golden hour"
+        }
+      ]
+    },
+    {
+      "titulo": "Encerramento",
+      "cenas": [
+        {
+          "tipo": "aviso",
+          "texto": "Conteúdo devocional. Não substitui ajuda profissional, médica ou pastoral. CVV: 188, 24 horas.",
+          "busca": "candle flame dark"
+        },
+        {
+          "tipo": "texto",
+          "titulo": "Leia o texto completo",
+          "texto": "ateladoreino.com",
+          "rodape": "Leonardo Paiva, A Tela do Reino",
+          "busca": "sunrise over hills"
+        }
+      ]
+    }
+  ]
+}

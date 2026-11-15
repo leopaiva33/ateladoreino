@@ -1,0 +1,35 @@
+name: Vídeos publicados no YouTube
+
+# Uma vez por dia (e quando disparado à mão), confere os vídeos enviados como privados.
+# Quando um deles fica público no YouTube Studio, coloca o player no artigo do blog.
+on:
+  schedule:
+    - cron: '17 13 * * *' # 10:17 em Brasília
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  status:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Conferir vídeos
+        env:
+          YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+          YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+          YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
+        run: node scripts/youtube-status.mjs
+      - name: Gravar mudanças
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add conteudo-social/*/youtube.json src/content/blog
+          if git diff --cached --quiet; then echo "Nada novo."; exit 0; fi
+          git commit -m "chore: vídeos publicados no YouTube nos artigos"
+          git pull --rebase
+          git push
