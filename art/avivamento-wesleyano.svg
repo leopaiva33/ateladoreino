@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3b3a6e"/>
+      <stop offset=".55" stop-color="#d98c6a"/>
+      <stop offset="1" stop-color="#f9e4b0"/>
+    </linearGradient>
+    <radialGradient id="sun" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#fffaf0"/>
+      <stop offset=".45" stop-color="#fbf1dc"/>
+      <stop offset="1" stop-color="#f9e4b0" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="field" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6a5a48"/>
+      <stop offset="1" stop-color="#2e2230"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#sky)"/>
+  <circle cx="780" cy="370" r="220" fill="url(#sun)"/>
+  <circle cx="780" cy="370" r="58" fill="#fffaf0"/>
+  <path d="M0 390 Q300 350 600 380 T1200 370 V630 H0 Z" fill="#8a5a6a"/>
+  <path d="M0 430 Q300 400 620 425 T1200 415 V630 H0 Z" fill="url(#field)"/>
+  <!-- estrada -->
+  <path d="M700 425 Q640 500 520 560 Q440 600 400 630 H640 Q700 580 730 520 Q760 470 745 425 Z" fill="#c9a37a" opacity=".85"/>
+  <!-- árvore -->
+  <rect x="235" y="300" width="22" height="170" fill="#2a1d24"/>
+  <ellipse cx="246" cy="280" rx="110" ry="80" fill="#3b2a38"/>
+  <ellipse cx="200" cy="300" rx="70" ry="50" fill="#33232f"/>
+  <!-- cavalo -->
+  <g fill="#2a1d24">
+    <ellipse cx="380" cy="440" rx="70" ry="32"/>
+    <path d="M440 430 L475 380 Q485 365 500 372 L505 388 Q495 392 488 400 L462 448 Z"/>
+    <path d="M478 372 L486 356 L492 372 Z"/>
+    <rect x="325" y="460" width="11" height="55" rx="4"/><rect x="350" y="462" width="11" height="55" rx="4"/>
+    <rect x="400" y="462" width="11" height="55" rx="4"/><rect x="425" y="460" width="11" height="55" rx="4"/>
+    <path d="M312 430 Q285 450 292 485 Q300 465 315 450 Z"/>
+  </g>
+  <path d="M360 410 Q380 400 400 410 L398 428 H362 Z" fill="#7a4a32"/>
+  <path d="M495 382 L255 360" stroke="#2a1d24" stroke-width="2"/>
+  <g stroke="#2a1d36" stroke-width="4" stroke-linecap="round" fill="none">
+    <path d="M900 200 q14 -14 28 0 q14 -14 28 0"/>
+    <path d="M980 160 q11 -11 22 0 q11 -11 22 0"/>
+  </g>
+</svg>
