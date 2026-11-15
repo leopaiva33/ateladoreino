@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#141432"/>
+      <stop offset=".6" stop-color="#3b3a6e"/>
+      <stop offset="1" stop-color="#6e4a6a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#fffaf0"/>
+      <stop offset=".35" stop-color="#fbf1dc" stop-opacity=".8"/>
+      <stop offset="1" stop-color="#f9e4b0" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="flame" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#e8955a"/>
+      <stop offset=".55" stop-color="#f9e4b0"/>
+      <stop offset="1" stop-color="#fffaf0"/>
+    </linearGradient>
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2a1d36"/>
+      <stop offset="1" stop-color="#120b18"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#sky)"/>
+  <g fill="#fbf1dc" opacity=".7">
+    <circle cx="150" cy="90" r="2"/><circle cx="310" cy="160" r="1.6"/><circle cx="460" cy="70" r="2.2"/>
+    <circle cx="760" cy="110" r="1.8"/><circle cx="930" cy="60" r="2"/><circle cx="1060" cy="170" r="1.6"/>
+    <circle cx="230" cy="240" r="1.4"/><circle cx="1000" cy="260" r="1.4"/>
+  </g>
+  <path d="M0 430 Q300 380 600 420 T1200 400 V630 H0 Z" fill="#3b2a48"/>
+  <path d="M0 480 Q300 450 600 470 T1200 460 V630 H0 Z" fill="url(#ground)"/>
+  <circle cx="600" cy="400" r="260" fill="url(#glow)"/>
+  <!-- brasas e lenha -->
+  <ellipse cx="600" cy="490" rx="130" ry="22" fill="#1b1226"/>
+  <path d="M500 495 L700 465" stroke="#5b3c2a" stroke-width="22" stroke-linecap="round"/>
+  <path d="M505 468 L695 498" stroke="#6e4a32" stroke-width="22" stroke-linecap="round"/>
+  <g fill="#e8955a"><circle cx="560" cy="482" r="6"/><circle cx="640" cy="478" r="5"/><circle cx="600" cy="490" r="7"/></g>
+  <!-- chama -->
+  <path d="M600 260 C640 320 680 360 660 420 C650 455 625 470 600 470 C575 470 550 455 540 420 C525 370 570 340 600 260 Z" fill="url(#flame)"/>
+  <path d="M600 340 C620 375 635 400 625 430 C618 450 610 458 600 458 C590 458 582 450 575 430 C568 405 585 380 600 340 Z" fill="#fffaf0"/>
+  <!-- faíscas -->
+  <g fill="#f9e4b0"><circle cx="640" cy="230" r="4"/><circle cx="565" cy="200" r="3"/><circle cx="620" cy="170" r="2.5"/><circle cx="585" cy="140" r="2"/></g>
+</svg>
