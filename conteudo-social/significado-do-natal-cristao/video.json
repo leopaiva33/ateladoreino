@@ -1,0 +1,168 @@
+{
+  "slug": "significado-do-natal-cristao",
+  "arte": "public/images/posts/significado-do-natal-cristao.png",
+  "miniatura": {
+    "titulo": "O QUE É O NATAL?",
+    "subtitulo": "muito além da festa"
+  },
+  "secoes": [
+    {
+      "titulo": "Abertura",
+      "cenas": [
+        {
+          "tipo": "arte",
+          "titulo": "O significado do Natal cristão",
+          "busca": "christmas star night village",
+          "subtitulo": "muito além da festa",
+          "peso": 2
+        },
+        {
+          "tipo": "texto",
+          "texto": "O nascimento de Jesus em Belém.",
+          "busca": "christmas candle warm night"
+        }
+      ]
+    },
+    {
+      "titulo": "O que a Bíblia conta",
+      "cenas": [
+        {
+          "tipo": "lista",
+          "titulo": "Onde está na Bíblia",
+          "itens": [
+            "Lucas 1 e 2",
+            "Mateus 1 e 2"
+          ],
+          "busca": "old bible christmas light",
+          "numerar": false
+        },
+        {
+          "tipo": "versiculo",
+          "citacao": "…deitou-o numa manjedoura, porque não havia lugar para eles na estalagem.",
+          "ref": "Lucas 2:7",
+          "busca": "stable hay lantern night"
+        }
+      ]
+    },
+    {
+      "titulo": "Deus se aproxima",
+      "cenas": [
+        {
+          "tipo": "versiculo",
+          "citacao": "E o Verbo se fez carne e habitou entre nós…",
+          "ref": "João 1:14",
+          "busca": "light shining in darkness",
+          "comentario": "A encarnação: Deus entra na história humana."
+        }
+      ]
+    },
+    {
+      "titulo": "Uma promessa que se cumpre",
+      "cenas": [
+        {
+          "tipo": "texto",
+          "titulo": "Promessas antigas",
+          "texto": "Belém (Miqueias 5:2). O sinal de Emanuel (Isaías 7:14).",
+          "busca": "bethlehem hills sunset"
+        },
+        {
+          "tipo": "versiculo",
+          "citacao": "…Deus conosco.",
+          "ref": "Mateus 1:23",
+          "busca": "starry night sky hills"
+        }
+      ]
+    },
+    {
+      "titulo": "Esperança para quem mais precisa",
+      "cenas": [
+        {
+          "tipo": "versiculo",
+          "citacao": "…eis aqui vos trago novas de grande alegria, que será para todo o povo…",
+          "ref": "Lucas 2:10",
+          "busca": "shepherds field night stars"
+        }
+      ]
+    },
+    {
+      "titulo": "E o 25 de dezembro?",
+      "cenas": [
+        {
+          "tipo": "texto",
+          "titulo": "A data",
+          "texto": "A Bíblia não informa o dia. A data aparece registrada por volta do século IV.",
+          "busca": "old calendar candle"
+        },
+        {
+          "tipo": "texto",
+          "titulo": "Natal e Advento",
+          "texto": "Advento: a preparação. Natal: a celebração do nascimento de Jesus.",
+          "busca": "advent candles evening"
+        }
+      ]
+    },
+    {
+      "titulo": "Os símbolos do Natal",
+      "cenas": [
+        {
+          "tipo": "versiculo",
+          "citacao": "Eu sou a luz do mundo…",
+          "ref": "João 8:12",
+          "busca": "christmas lights bokeh warm"
+        },
+        {
+          "tipo": "lista",
+          "titulo": "Os símbolos",
+          "itens": [
+            "Estrela (Mateus 2)",
+            "Presépio",
+            "Luzes e velas",
+            "Presentes (2 Coríntios 9:15)"
+          ],
+          "busca": "christmas decorations star",
+          "numerar": false
+        }
+      ]
+    },
+    {
+      "titulo": "Como viver o Natal",
+      "cenas": [
+        {
+          "tipo": "lista",
+          "titulo": "Cinco ideias",
+          "itens": [
+            "Ler Lucas 2:1-20 em família",
+            "Um momento de gratidão",
+            "Um gesto de generosidade",
+            "Uma vela e uma oração",
+            "Desacelerar"
+          ],
+          "busca": "family christmas dinner table",
+          "peso": 2
+        }
+      ]
+    },
+    {
+      "titulo": "Oração final",
+      "cenas": [
+        {
+          "tipo": "arte",
+          "titulo": "Senhor Jesus, obrigado",
+          "busca": "candle christmas prayer"
+        }
+      ]
+    },
+    {
+      "titulo": "Encerramento",
+      "cenas": [
+        {
+          "tipo": "texto",
+          "titulo": "Leia o texto completo",
+          "texto": "ateladoreino.com",
+          "rodape": "Leonardo Paiva, A Tela do Reino",
+          "busca": "christmas village snow night"
+        }
+      ]
+    }
+  ]
+}

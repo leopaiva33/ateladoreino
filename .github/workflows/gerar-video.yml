@@ -45,7 +45,8 @@ jobs:
           key: fotos-${{ hashFiles('conteudo-social/*/imagens.json') }}
           restore-keys: fotos-
       - name: Cache das narrações (não gasta créditos da ElevenLabs de novo)
-        uses: actions/cache@v4
+        id: cache-narracao
+        uses: actions/cache/restore@v4
         with:
           path: .cache-video/*/*.mp3
           key: narracao-${{ vars.ELEVENLABS_VOICE_ID }}-${{ hashFiles('conteudo-social/*/youtube.md') }}
@@ -73,16 +74,28 @@ jobs:
           ELEVENLABS_VOICE_ID: ${{ vars.ELEVENLABS_VOICE_ID }}
           PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
           SLUGS: ${{ steps.quais.outputs.slugs }}
+        id: gerar
         run: |
-          for s in $SLUGS; do npm run video -- "$s"; done
+          ok=""; falhou=""
+          for s in $SLUGS; do
+            if npm run video -- "$s"; then ok="$ok $s"; else falhou="$falhou $s"; echo "::error::Falha ao gerar $s"; fi
+          done
+          echo "ok=$ok" >> "$GITHUB_OUTPUT"
+          echo "falhou=$falhou" >> "$GITHUB_OUTPUT"
+      - name: Guardar narrações no cache (mesmo se algum vídeo falhou)
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: .cache-video/*/*.mp3
+          key: narracao-${{ vars.ELEVENLABS_VOICE_ID }}-${{ hashFiles('conteudo-social/*/youtube.md') }}-${{ github.run_id }}-${{ github.run_attempt }}
       - name: Enviar ao YouTube (como privado)
         env:
           YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
           YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
           YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
-          SLUGS: ${{ steps.quais.outputs.slugs }}
+          SLUGS: ${{ steps.gerar.outputs.ok }}
         run: |
-          [ -n "$SLUGS" ] || exit 0
+          [ -n "$(echo $SLUGS)" ] || exit 0
           node scripts/publicar-youtube.mjs $SLUGS
           node scripts/legendas-youtube.mjs $SLUGS || echo "::warning::Legendas não enviadas (veja acima)."
           git config user.name "github-actions[bot]"
@@ -92,7 +105,15 @@ jobs:
           git commit -m "chore: vídeos enviados ao YouTube (privados)"
           git pull --rebase
           git push
+      - name: Avisar vídeos que falharam
+        if: steps.gerar.outputs.falhou != ''
+        env:
+          FALHOU: ${{ steps.gerar.outputs.falhou }}
+        run: |
+          echo "::error::Não foram gerados:$FALHOU (veja o passo Gerar vídeos)."
+          exit 1
       - name: Anexar vídeos, narrações, legendas, miniaturas e créditos
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: videos

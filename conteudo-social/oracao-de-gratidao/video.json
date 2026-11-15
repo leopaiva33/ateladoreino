@@ -1,0 +1,151 @@
+{
+  "slug": "oracao-de-gratidao",
+  "arte": "public/images/posts/oracao-de-gratidao.png",
+  "miniatura": {
+    "titulo": "OBRIGADO, SENHOR",
+    "subtitulo": "oração de gratidão"
+  },
+  "secoes": [
+    {
+      "titulo": "Abertura",
+      "cenas": [
+        {
+          "tipo": "arte",
+          "titulo": "Oração de gratidão",
+          "busca": "gratitude sunrise open arms",
+          "subtitulo": "como agradecer a Deus",
+          "peso": 2
+        },
+        {
+          "tipo": "texto",
+          "texto": "Nomear o que recebeu e dizer obrigado.",
+          "busca": "hands holding sunlight"
+        }
+      ]
+    },
+    {
+      "titulo": "Em tudo, e não por tudo",
+      "cenas": [
+        {
+          "tipo": "versiculo",
+          "citacao": "Em tudo dai graças, porque esta é a vontade de Deus em Cristo Jesus para convosco.",
+          "ref": "1 Tessalonicenses 5:18",
+          "busca": "sunlight through clouds field"
+        },
+        {
+          "tipo": "texto",
+          "titulo": "Em tudo, e não por tudo",
+          "texto": "Não é agradecer pelo sofrimento: é reconhecer que Deus continua presente.",
+          "busca": "rain window sunlight"
+        }
+      ]
+    },
+    {
+      "titulo": "Lembrar os benefícios",
+      "cenas": [
+        {
+          "tipo": "versiculo",
+          "citacao": "Bendize, ó minha alma, ao Senhor, e não te esqueças de nenhum de seus benefícios.",
+          "ref": "Salmos 103:2",
+          "busca": "morning coffee window light"
+        }
+      ]
+    },
+    {
+      "titulo": "Dez foram curados",
+      "cenas": [
+        {
+          "tipo": "versiculo",
+          "citacao": "Não foram dez os limpos? E onde estão os nove?",
+          "ref": "Lucas 17:17",
+          "busca": "lonely path walking sunrise",
+          "comentario": "Receber é fácil; agradecer exige atenção."
+        }
+      ]
+    },
+    {
+      "titulo": "Passo a passo",
+      "cenas": [
+        {
+          "tipo": "lista",
+          "titulo": "Oração de gratidão",
+          "itens": [
+            "Pare por um minuto",
+            "Comece por quem Deus é",
+            "Nomeie três coisas",
+            "Agradeça pelo invisível",
+            "Termine com uma ação"
+          ],
+          "busca": "quiet morning prayer window",
+          "peso": 2
+        },
+        {
+          "tipo": "versiculo",
+          "citacao": "…porque a sua benignidade é para sempre.",
+          "ref": "Salmos 136:1",
+          "busca": "golden field sunset"
+        }
+      ]
+    },
+    {
+      "titulo": "Exemplo de oração",
+      "cenas": [
+        {
+          "tipo": "arte",
+          "titulo": "Senhor, obrigado por este dia",
+          "busca": "family meal table gratitude"
+        }
+      ]
+    },
+    {
+      "titulo": "Gratidão no dia a dia",
+      "cenas": [
+        {
+          "tipo": "lista",
+          "titulo": "Ideias",
+          "itens": [
+            "Caderno: três coisas por dia",
+            "Oração antes das refeições",
+            "Mensagem de agradecimento",
+            "Gratidão em família"
+          ],
+          "busca": "gratitude journal pen"
+        }
+      ]
+    },
+    {
+      "titulo": "Quando é difícil agradecer",
+      "cenas": [
+        {
+          "tipo": "texto",
+          "titulo": "Quando é difícil",
+          "texto": "Comece pelo básico: o ar, o dia de hoje, uma pessoa que se importa com você.",
+          "busca": "small flower crack stone"
+        },
+        {
+          "tipo": "texto",
+          "titulo": "Gratidão e louvor",
+          "texto": "Gratidão agradece pelo que Deus fez. Louvor exalta quem Deus é.",
+          "busca": "worship hands raised sunset"
+        }
+      ]
+    },
+    {
+      "titulo": "Encerramento",
+      "cenas": [
+        {
+          "tipo": "aviso",
+          "texto": "Conteúdo devocional. Não substitui ajuda profissional, médica ou pastoral. CVV: 188, 24 horas.",
+          "busca": "candle flame calm"
+        },
+        {
+          "tipo": "texto",
+          "titulo": "Leia o texto completo",
+          "texto": "ateladoreino.com",
+          "rodape": "Leonardo Paiva, A Tela do Reino",
+          "busca": "sunrise meadow"
+        }
+      ]
+    }
+  ]
+}
