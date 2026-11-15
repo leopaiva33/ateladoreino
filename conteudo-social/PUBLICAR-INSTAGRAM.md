@@ -1,23 +1,31 @@
-# Publicar carrosséis no Instagram (automático)
+# Publicar carrosséis e Reels no Instagram (automático)
 
 ## Agendamento (acompanha o blog)
 
-O workflow `instagram-agendado.yml` roda às 19:00 e às 21:00 (Brasília). Ele publica o carrossel de
+O workflow `instagram-agendado.yml` roda às 18:37 e às 20:47 (Brasília). Ele publica o carrossel de
 cada artigo no dia em que o artigo entra no blog (`pubDate`), depois de o artigo aparecer no sitemap.
 Para isso, antes da data do artigo deve existir no repositório:
 
 - `conteudo-social/<slug>/carrossel.json` (skill `carrossel-instagram` + aprovação do revisor);
-- `public/social/<slug>/slide-NN.png` (`npm run carrossel -- <slug>`).
+- `public/social/<slug>/slide-NN.png` (`npm run carrossel -- <slug>`);
+- `public/social/<slug>/reel.mp4` e `reel-capa.jpg` (`npm run reel -- <slug>`), para o Reel.
 
 Depois de publicar, o workflow grava `conteudo-social/<slug>/instagram.json`, o que impede repetir a
 publicação. Artigos que entram no blog sem carrossel aparecem como aviso no log do Actions. Artigos
 anteriores a 07/11/2026 só entram na fila automática se estiverem em
 `conteudo-social/agenda-instagram.json` (slug e data/hora de Brasília); fora disso, use o workflow manual.
 
+### Reels
+
+O workflow `instagram-reels.yml` roda às 12:19 e às 21:13 (Brasília) e publica, no mesmo dia do
+artigo, o Reel com os slides do carrossel em formato vertical (1080x1920), com transições e a música
+de fundo do canal. Usa a mesma legenda do carrossel e grava `conteudo-social/<slug>/reel.json`. Vale
+para artigos (e itens da agenda) a partir de 16/11/2026.
+
 Credenciais: usuário do sistema `publicador-instagram` (portfólio atela_reino), token sem expiração,
 nos segredos `IG_USER_ID` e `IG_ACCESS_TOKEN` do repositório.
 
-Fluxo: `carrossel.json` → `npm run carrossel` (PNGs) → commit/push (deploy) → `npm run instagram` (API da Meta).
+Fluxo: `carrossel.json` → `npm run carrossel` (PNGs) e `npm run reel` (vídeo) → commit/push (deploy) → `npm run instagram` (API da Meta).
 
 ## 1. Configuração única (feita por você, na Meta)
 
@@ -34,8 +42,10 @@ Nunca cole o token no chat, no código ou em arquivos do repositório.
 
 ```bash
 npm run carrossel -- <slug>          # gera public/social/<slug>/slide-NN.png
+npm run reel -- <slug>               # gera public/social/<slug>/reel.mp4 (Reel)
 git add public/social conteudo-social && git commit -m "Carrossel <slug>" && git push
 npm run instagram -- <slug>          # simula (confere imagens e legenda), não publica
+npm run instagram -- <slug> --reel   # simula o Reel
 ```
 
 Publicar de verdade, de duas formas:
@@ -47,5 +57,6 @@ Publicar de verdade, de duas formas:
 
 - 2 a 10 imagens por carrossel, todas com a mesma proporção (usamos 1080x1350, 4:5).
 - Legenda de até 2.200 caracteres e até 30 hashtags.
+- Reels: vídeo vertical 9:16, de 3 segundos a 15 minutos (os nossos têm cerca de 50 s).
 - Cerca de 100 publicações por conta a cada 24 horas.
 - As imagens precisam estar em endereço público (por isso ficam em `public/social/`).

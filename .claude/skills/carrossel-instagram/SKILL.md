@@ -21,6 +21,10 @@ conteúdo é devocional e não substitui ajuda profissional, médica ou pastoral
 
 Confira a contagem de palavras de cada slide (máximo 25) antes de entregar.
 
+Gere as imagens e o Reel (vídeo vertical com os mesmos slides, publicado no mesmo dia):
+`npm run carrossel -- <slug>` e `npm run reel -- <slug>`. A legenda é usada nos dois, então
+não escreva "deslize" nem "carrossel" nela.
+
 Ao terminar, chame o agente `revisor` (Agent tool, `subagent_type: "revisor"`),
 passando o caminho do arquivo e o do artigo de origem. Se vier REPROVADO,
 corrija e chame de novo; só considere pronto após o APROVADO. Não faça commit

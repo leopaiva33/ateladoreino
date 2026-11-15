@@ -15,6 +15,11 @@ on:
         required: false
         default: false
         type: boolean
+      reel:
+        description: 'Marque para o Reel (vídeo vertical) em vez do carrossel'
+        required: false
+        default: false
+        type: boolean
 
 jobs:
   instagram:
@@ -32,20 +37,22 @@ jobs:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
           SLUG: ${{ inputs.slug }}
           PUBLICAR: ${{ inputs.publicar }}
+          REEL: ${{ inputs.reel }}
         run: |
-          if [ "$PUBLICAR" = "true" ]; then
-            node scripts/publicar-instagram.mjs "$SLUG" --publicar
-          else
-            node scripts/publicar-instagram.mjs "$SLUG"
-          fi
+          args=("$SLUG")
+          [ "$REEL" = "true" ] && args+=(--reel)
+          [ "$PUBLICAR" = "true" ] && args+=(--publicar)
+          node scripts/publicar-instagram.mjs "${args[@]}"
       - name: Registrar publicação
         if: inputs.publicar
         env:
           SLUG: ${{ inputs.slug }}
+          REEL: ${{ inputs.reel }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add "conteudo-social/$SLUG/instagram.json"
-          git commit -m "chore: carrossel de $SLUG publicado no Instagram"
+          if [ "$REEL" = "true" ]; then arq=reel.json; tipo=Reel; else arq=instagram.json; tipo=carrossel; fi
+          git add "conteudo-social/$SLUG/$arq"
+          git commit -m "chore: $tipo de $SLUG publicado no Instagram"
           git pull --rebase
           git push

@@ -11,6 +11,7 @@
     "astro": "astro",
     "images": "node scripts/render-images.mjs",
     "carrossel": "node scripts/gerar-carrossel.mjs",
+    "reel": "node scripts/gerar-carrossel.mjs --reel",
     "instagram": "node scripts/publicar-instagram.mjs",
     "video": "node scripts/gerar-video.mjs",
     "pdf": "node scripts/gerar-pdf-estudos.mjs"

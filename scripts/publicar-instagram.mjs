@@ -6,6 +6,8 @@
 // Uso:
 //   npm run instagram -- <slug>              simula: confere tudo, não publica
 //   npm run instagram -- <slug> --publicar   publica de verdade
+//   acrescente --reel para publicar o Reel (public/social/<slug>/reel.mp4, gerado com
+//   npm run reel -- <slug>) em vez do carrossel; o registro fica em reel.json.
 //
 // Variáveis de ambiente (nunca coloque no código nem no Git):
 //   IG_USER_ID       ID da conta Instagram profissional (Business/Creator)
@@ -15,9 +17,10 @@
 import { readFile, writeFile } from 'node:fs/promises';
 import { join } from 'node:path';
 
-const slug = process.argv[2];
+const slug = process.argv.slice(2).find((a) => !a.startsWith('--'));
 const publicar = process.argv.includes('--publicar');
-if (!slug || slug.startsWith('--')) {
+const reel = process.argv.includes('--reel');
+if (!slug) {
   console.error('Uso: npm run instagram -- <slug> [--publicar]');
   process.exit(1);
 }
@@ -27,7 +30,7 @@ const VERSAO = process.env.GRAPH_VERSION || 'v21.0';
 const BASE = `https://graph.facebook.com/${VERSAO}`;
 const { IG_USER_ID, IG_ACCESS_TOKEN } = process.env;
 
-const REGISTRO = join('conteudo-social', slug, 'instagram.json');
+const REGISTRO = join('conteudo-social', slug, reel ? 'reel.json' : 'instagram.json');
 if (publicar && !process.argv.includes('--de-novo')) {
   const anterior = await readFile(REGISTRO, 'utf8').then(JSON.parse, () => null);
   if (anterior) {
@@ -43,18 +46,21 @@ if (spec.legenda.length > 2200) throw new Error(`Legenda com ${spec.legenda.leng
 const hashtags = (spec.legenda.match(/#\S+/g) || []).length;
 if (hashtags > 30) throw new Error('Mais de 30 hashtags (limite do Instagram).');
 
-const urls = spec.slides.map((_, i) => `${SITE_URL}/social/${slug}/slide-${String(i + 1).padStart(2, '0')}.png`);
+const urls = reel
+  ? [`${SITE_URL}/social/${slug}/reel.mp4`, `${SITE_URL}/social/${slug}/reel-capa.jpg`]
+  : spec.slides.map((_, i) => `${SITE_URL}/social/${slug}/slide-${String(i + 1).padStart(2, '0')}.png`);
 
-console.log(`Carrossel: ${slug} (${total} slides, legenda com ${spec.legenda.length} caracteres)`);
+console.log(reel ? `Reel: ${slug} (legenda com ${spec.legenda.length} caracteres)` : `Carrossel: ${slug} (${total} slides, legenda com ${spec.legenda.length} caracteres)`);
 let faltando = 0;
 for (const u of urls) {
   const r = await fetch(u, { method: 'HEAD', redirect: 'follow' }).catch(() => null);
-  const ok = r?.ok && (r.headers.get('content-type') || '').startsWith('image/');
+  const tipoOk = u.endsWith('.mp4') ? 'video/' : 'image/';
+  const ok = r?.ok && (r.headers.get('content-type') || '').startsWith(tipoOk);
   console.log(`${ok ? 'OK    ' : 'FALHOU'} ${u}${ok ? '' : ` (${r ? r.status : 'sem resposta'})`}`);
   if (!ok) faltando++;
 }
 if (faltando) {
-  console.error(`\n${faltando} imagem(ns) fora do ar. Faça commit, push e espere o deploy da Vercel.`);
+  console.error(`\n${faltando} arquivo(s) fora do ar. Faça commit, push e espere o deploy da Vercel.`);
   process.exit(1);
 }
 
@@ -102,14 +108,31 @@ async function status(id) {
   if (j.error) throw new Error(`Erro ao consultar ${id}: ${j.error.message}`);
   return j.status_code;
 }
-async function esperar(id, rotulo) {
-  for (let t = 0; t < 30; t++) {
+async function esperar(id, rotulo, tentativas = 30) {
+  for (let t = 0; t < tentativas; t++) {
     const s = await status(id);
     if (s === 'FINISHED') return;
     if (s === 'ERROR' || s === 'EXPIRED') throw new Error(`${rotulo} terminou com status ${s}.`);
     await new Promise((res) => setTimeout(res, 4000));
   }
   throw new Error(`${rotulo} não ficou pronto a tempo.`);
+}
+
+if (reel) {
+  // Vídeo: a Meta baixa e processa o arquivo, o que pode levar alguns minutos.
+  const { id: criacao } = await api(`${IG_USER_ID}/media`, {
+    media_type: 'REELS',
+    video_url: urls[0],
+    cover_url: urls[1],
+    caption: spec.legenda,
+    share_to_feed: 'true',
+  });
+  await esperar(criacao, 'Reel', 75);
+  const { id: publicado } = await api(`${IG_USER_ID}/media_publish`, { creation_id: criacao });
+  console.log(`\nReel publicado no Instagram. ID da publicação: ${publicado}`);
+  await writeFile(REGISTRO, JSON.stringify({ id: publicado, publicadoEm: new Date().toISOString() }, null, 2) + '\n');
+  console.log(`Registro salvo em ${REGISTRO}`);
+  process.exit(0);
 }
 
 const filhos = [];
