@@ -1,0 +1,167 @@
+{
+  "slug": "devocional-para-jovens",
+  "arte": "public/images/posts/devocional-para-jovens.png",
+  "miniatura": {
+    "titulo": "10 MINUTOS COM DEUS",
+    "subtitulo": "devocional para jovens"
+  },
+  "secoes": [
+    {
+      "titulo": "Abertura",
+      "cenas": [
+        {
+          "tipo": "arte",
+          "titulo": "Devocional para jovens",
+          "busca": "young person reading bible",
+          "subtitulo": "10 minutos por dia com Deus",
+          "peso": 2
+        },
+        {
+          "tipo": "texto",
+          "texto": "Quatro passos, um texto curto, dez minutos.",
+          "busca": "sunrise city rooftop"
+        }
+      ]
+    },
+    {
+      "titulo": "O que é um devocional",
+      "cenas": [
+        {
+          "tipo": "texto",
+          "titulo": "Devocional",
+          "texto": "Ler, pensar e responder em oração. Uma conversa, e não uma tarefa.",
+          "busca": "bible notebook coffee desk"
+        }
+      ]
+    },
+    {
+      "titulo": "Por que na juventude",
+      "cenas": [
+        {
+          "tipo": "versiculo",
+          "citacao": "Como purificará o jovem o seu caminho? Observando-o conforme a tua palavra.",
+          "ref": "Salmos 119:9",
+          "busca": "young man walking path"
+        },
+        {
+          "tipo": "versiculo",
+          "citacao": "Ninguém despreze a tua mocidade; mas sê o exemplo dos fiéis…",
+          "ref": "1 Timóteo 4:12",
+          "busca": "friends group sunset"
+        },
+        {
+          "tipo": "versiculo",
+          "citacao": "Lembra-te do teu Criador nos dias da tua mocidade…",
+          "ref": "Eclesiastes 12:1",
+          "busca": "young woman nature thinking"
+        }
+      ]
+    },
+    {
+      "titulo": "O modelo de 10 minutos",
+      "cenas": [
+        {
+          "tipo": "lista",
+          "titulo": "10 minutos",
+          "itens": [
+            "1 min: respire",
+            "3 min: leia duas vezes",
+            "3 min: três perguntas",
+            "3 min: ação e oração"
+          ],
+          "busca": "phone airplane mode desk",
+          "peso": 2
+        }
+      ]
+    },
+    {
+      "titulo": "Sete textos",
+      "cenas": [
+        {
+          "tipo": "lista",
+          "titulo": "Primeira semana",
+          "itens": [
+            "Salmos 119:9-11",
+            "1 Timóteo 4:12",
+            "Provérbios 3:5-6",
+            "Eclesiastes 12:1",
+            "Tiago 1:5",
+            "Salmos 139:23-24",
+            "Marcos 1:35"
+          ],
+          "busca": "bible pages close up",
+          "peso": 2
+        },
+        {
+          "tipo": "versiculo",
+          "citacao": "Confia no Senhor de todo o teu coração e não te estribes no teu próprio entendimento.",
+          "ref": "Provérbios 3:5",
+          "busca": "mountain trail young hiker"
+        }
+      ]
+    },
+    {
+      "titulo": "Como vencer as distrações",
+      "cenas": [
+        {
+          "tipo": "lista",
+          "titulo": "Contra as distrações",
+          "itens": [
+            "Modo não perturbe",
+            "Horário que você mantém",
+            "Anote",
+            "Faça com um amigo",
+            "Recomece sem culpa"
+          ],
+          "busca": "smartphone notifications night",
+          "numerar": false
+        }
+      ]
+    },
+    {
+      "titulo": "Ideias para variar",
+      "cenas": [
+        {
+          "tipo": "lista",
+          "titulo": "Para variar",
+          "itens": [
+            "Um salmo como oração",
+            "Um versículo por semana",
+            "Diário de oração",
+            "Louvor e o texto que o inspirou"
+          ],
+          "busca": "journal headphones music",
+          "numerar": false
+        }
+      ]
+    },
+    {
+      "titulo": "Oração final",
+      "cenas": [
+        {
+          "tipo": "arte",
+          "titulo": "Senhor, obrigado porque posso falar contigo",
+          "busca": "young person praying window light"
+        }
+      ]
+    },
+    {
+      "titulo": "Encerramento",
+      "cenas": [
+        {
+          "tipo": "texto",
+          "titulo": "Comece amanhã",
+          "texto": "Amanhã: dez minutos, o texto do dia 1 e as três perguntas.",
+          "busca": "sunrise hills morning"
+        },
+        {
+          "tipo": "texto",
+          "titulo": "Leia o texto completo",
+          "texto": "ateladoreino.com",
+          "rodape": "Leonardo Paiva, A Tela do Reino",
+          "busca": "city sunrise skyline"
+        }
+      ]
+    }
+  ]
+}

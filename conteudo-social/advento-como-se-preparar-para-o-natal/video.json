@@ -1,0 +1,175 @@
+{
+  "slug": "advento-como-se-preparar-para-o-natal",
+  "arte": "public/images/posts/advento-como-se-preparar-para-o-natal.png",
+  "miniatura": {
+    "titulo": "ADVENTO",
+    "subtitulo": "4 semanas até o Natal"
+  },
+  "secoes": [
+    {
+      "titulo": "Abertura",
+      "cenas": [
+        {
+          "tipo": "arte",
+          "titulo": "Advento",
+          "busca": "advent wreath candles",
+          "subtitulo": "como se preparar para o Natal",
+          "peso": 2
+        },
+        {
+          "tipo": "texto",
+          "texto": "Quatro semanas para se preparar para a vinda de Jesus.",
+          "busca": "christmas candle light dark"
+        }
+      ]
+    },
+    {
+      "titulo": "O que é o Advento",
+      "cenas": [
+        {
+          "tipo": "texto",
+          "titulo": "O que é o Advento",
+          "texto": "Do latim adventus: vinda, chegada.",
+          "busca": "winter morning window light"
+        },
+        {
+          "tipo": "texto",
+          "titulo": "Dois olhares",
+          "texto": "Para trás: a vinda de Jesus em Belém. Para a frente: a esperança da sua volta.",
+          "busca": "starry night sky horizon"
+        }
+      ]
+    },
+    {
+      "titulo": "Quando começa em 2026",
+      "cenas": [
+        {
+          "tipo": "lista",
+          "titulo": "Advento 2026",
+          "itens": [
+            "29 de novembro",
+            "6 de dezembro",
+            "13 de dezembro",
+            "20 de dezembro"
+          ],
+          "busca": "calendar candle winter",
+          "numerar": false
+        }
+      ]
+    },
+    {
+      "titulo": "Os símbolos do Advento",
+      "cenas": [
+        {
+          "tipo": "texto",
+          "titulo": "A coroa",
+          "texto": "Ramos verdes em círculo e quatro velas, uma acesa a cada domingo.",
+          "busca": "advent wreath first candle"
+        },
+        {
+          "tipo": "versiculo",
+          "citacao": "E a luz resplandece nas trevas…",
+          "ref": "João 1:5",
+          "busca": "candle light darkness"
+        },
+        {
+          "tipo": "lista",
+          "titulo": "Um tema por semana",
+          "itens": [
+            "Esperança",
+            "Paz",
+            "Alegria",
+            "Amor"
+          ],
+          "busca": "candles warm light bokeh",
+          "numerar": false
+        }
+      ]
+    },
+    {
+      "titulo": "Semanas 1 e 2",
+      "cenas": [
+        {
+          "tipo": "versiculo",
+          "citacao": "O povo que andava em trevas viu uma grande luz…",
+          "ref": "Isaías 9:2",
+          "busca": "sunrise light breaking darkness",
+          "comentario": "Semana 1: esperança"
+        },
+        {
+          "tipo": "texto",
+          "titulo": "Semana 2: paz",
+          "texto": "Isaías 11:1-10. Prática: reconcilie-se com alguém ou ore por quem é difícil perdoar.",
+          "busca": "lamb meadow peaceful"
+        }
+      ]
+    },
+    {
+      "titulo": "Semanas 3 e 4",
+      "cenas": [
+        {
+          "tipo": "texto",
+          "titulo": "Semana 3: alegria",
+          "texto": "Lucas 1:39-56. Prática: uma lista de gratidão e alegria compartilhada.",
+          "busca": "family joy christmas lights"
+        },
+        {
+          "tipo": "versiculo",
+          "citacao": "Porque Deus amou o mundo de tal maneira que deu o seu Filho unigênito…",
+          "ref": "João 3:16",
+          "busca": "hands holding heart light",
+          "comentario": "Semana 4: amor"
+        },
+        {
+          "tipo": "texto",
+          "titulo": "Véspera de Natal",
+          "texto": "Lucas 2:1-20, em família, antes da ceia.",
+          "busca": "nativity scene candle"
+        }
+      ]
+    },
+    {
+      "titulo": "O Advento com crianças",
+      "cenas": [
+        {
+          "tipo": "lista",
+          "titulo": "Com as crianças",
+          "itens": [
+            "Vela e um trecho curto da Bíblia",
+            "Uma bondade por dia",
+            "Presépio montado aos poucos"
+          ],
+          "busca": "child christmas lights window"
+        }
+      ]
+    },
+    {
+      "titulo": "Oração final",
+      "cenas": [
+        {
+          "tipo": "arte",
+          "titulo": "Senhor Jesus, ensina-me a esperar",
+          "busca": "candle prayer quiet night"
+        }
+      ]
+    },
+    {
+      "titulo": "Encerramento",
+      "cenas": [
+        {
+          "tipo": "texto",
+          "titulo": "Advento é preparação",
+          "texto": "Comece no domingo, 29 de novembro, ou de onde você estiver.",
+          "busca": "christmas star night sky"
+        },
+        {
+          "tipo": "texto",
+          "titulo": "Leia o texto completo",
+          "texto": "ateladoreino.com",
+          "rodape": "Leonardo Paiva, A Tela do Reino",
+          "busca": "christmas lights evening"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+---
+/**
+ * Google Analytics 4 com aviso de cookies (LGPD).
+ * - Só é incluído quando SITE.googleAnalytics tem um ID (G-XXXXXXXXXX).
+ * - Usa o modo de consentimento do Google: até o visitante aceitar, o GA não grava cookies
+ *   (analytics_storage = denied). A escolha fica salva no navegador e pode ser mudada pelo
+ *   link "Preferências de cookies" no rodapé.
+ * - Não altera os sinais de anúncios (AdSense continua como está).
+ */
+import { SITE } from '../config';
+const id = SITE.googleAnalytics;
+---
+
+{
+  id && (
+    <>
+      <script is:inline define:vars={{ id }}>
+        window.dataLayer = window.dataLayer || [];
+        window.gtag = function () {
+          window.dataLayer.push(arguments);
+        };
+        var escolha = null;
+        try {
+          escolha = localStorage.getItem('consentimento-analytics');
+        } catch (e) {}
+        window.gtag('consent', 'default', {
+          analytics_storage: escolha === 'aceito' ? 'granted' : 'denied',
+          wait_for_update: 500,
+        });
+        window.gtag('js', new Date());
+        window.gtag('config', id);
+      </script>
+      <script is:inline async src={`https://www.googletagmanager.com/gtag/js?id=${id}`} />
+
+      <div id="aviso-cookies" class="aviso-cookies" role="region" aria-label="Aviso de cookies" hidden>
+        <p>
+          Usamos cookies do Google Analytics para entender como o site é lido e melhorar o conteúdo.
+          Veja a <a href="/privacidade">política de privacidade</a>.
+        </p>
+        <div class="aviso-cookies-botoes">
+          <button type="button" data-consentimento="recusado">Recusar</button>
+          <button type="button" data-consentimento="aceito" class="principal">Aceitar</button>
+        </div>
+      </div>
+
+      <script is:inline>
+        (function () {
+          var aviso = document.getElementById('aviso-cookies');
+          if (!aviso) return;
+          var salvo = null;
+          try {
+            salvo = localStorage.getItem('consentimento-analytics');
+          } catch (e) {}
+          if (!salvo) aviso.hidden = false;
+          aviso.addEventListener('click', function (ev) {
+            var botao = ev.target.closest('button[data-consentimento]');
+            if (!botao) return;
+            var valor = botao.getAttribute('data-consentimento');
+            try {
+              localStorage.setItem('consentimento-analytics', valor);
+            } catch (e) {}
+            window.gtag('consent', 'update', { analytics_storage: valor === 'aceito' ? 'granted' : 'denied' });
+            aviso.hidden = true;
+          });
+          document.addEventListener('click', function (ev) {
+            if (ev.target.closest('[data-abrir-cookies]')) {
+              ev.preventDefault();
+              aviso.hidden = false;
+            }
+          });
+        })();
+      </script>
+    </>
+  )
+}

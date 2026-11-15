@@ -66,6 +66,14 @@ h1{font-size:1.8rem}
 .leia-tambem-categoria{display:block;padding:10px 14px 0;font-family:system-ui,sans-serif;font-size:.75rem;letter-spacing:.06em;text-transform:uppercase;color:var(--cor-texto-suave)}
 .leia-tambem-titulo{display:block;padding:2px 14px 14px;font-size:1rem;line-height:1.4;font-weight:700}
 @media(max-width:700px){.leia-tambem ul{grid-template-columns:1fr}}
+.aviso-cookies{position:fixed;left:16px;right:16px;bottom:16px;z-index:50;max-width:720px;margin-inline:auto;display:flex;flex-wrap:wrap;gap:12px 20px;align-items:center;justify-content:space-between;padding:16px 20px;border:1px solid var(--cor-borda);border-radius:12px;background:var(--cor-fundo);color:var(--cor-texto);box-shadow:0 6px 24px rgba(0,0,0,.18);font-family:system-ui,sans-serif;font-size:.95rem;line-height:1.5}
+.aviso-cookies[hidden]{display:none}
+.aviso-cookies p{margin:0;flex:1 1 320px}
+.aviso-cookies-botoes{display:flex;gap:10px}
+.aviso-cookies button{font:inherit;cursor:pointer;padding:8px 18px;border-radius:999px;border:1px solid var(--cor-destaque);background:transparent;color:var(--cor-destaque)}
+.aviso-cookies button.principal{background:var(--cor-destaque);color:var(--cor-fundo)}
+.aviso-cookies button:focus-visible{outline:3px solid var(--cor-destaque);outline-offset:2px}
+@media print{.aviso-cookies{display:none!important}}
 .video-artigo{margin:40px 0}.video-artigo h2{margin-top:0}
 .video-quadro{position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000}
 .video-quadro iframe{position:absolute;inset:0;width:100%;height:100%;border:0}

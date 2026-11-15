@@ -1,0 +1,187 @@
+{
+  "slug": "como-orar",
+  "arte": "public/images/posts/como-orar.png",
+  "miniatura": {
+    "titulo": "COMO ORAR",
+    "subtitulo": "5 passos simples"
+  },
+  "secoes": [
+    {
+      "titulo": "Abertura",
+      "cenas": [
+        {
+          "tipo": "arte",
+          "titulo": "Como orar",
+          "busca": "person praying sunrise field",
+          "subtitulo": "5 passos simples",
+          "peso": 2
+        },
+        {
+          "tipo": "aviso",
+          "texto": "Conteúdo devocional. Não substitui ajuda profissional, médica ou pastoral.",
+          "busca": "candle flame dark"
+        }
+      ]
+    },
+    {
+      "titulo": "O que é orar, e o que não é",
+      "cenas": [
+        {
+          "tipo": "versiculo",
+          "citacao": "Senhor, ensina-nos a orar…",
+          "ref": "Lucas 11:1",
+          "busca": "open bible morning light"
+        },
+        {
+          "tipo": "lista",
+          "titulo": "O que a oração não é",
+          "itens": [
+            "Discurso decorado (Mateus 6:7)",
+            "Performance (Mateus 6:5)",
+            "Contrato"
+          ],
+          "busca": "quiet chapel window light",
+          "numerar": false
+        }
+      ]
+    },
+    {
+      "titulo": "Lugar, tempo e postura",
+      "cenas": [
+        {
+          "tipo": "versiculo",
+          "citacao": "…entra no teu aposento e, fechando a tua porta, ora a teu Pai…",
+          "ref": "Mateus 6:6",
+          "busca": "quiet room window morning"
+        },
+        {
+          "tipo": "texto",
+          "titulo": "Tempo",
+          "texto": "Jesus orava de manhã muito cedo (Marcos 1:35). Sugestão: de 5 a 10 minutos.",
+          "busca": "early morning sunrise mist"
+        },
+        {
+          "tipo": "texto",
+          "titulo": "Postura",
+          "texto": "Em pé, de joelhos ou sentado: a que ajuda você a se concentrar.",
+          "busca": "kneeling prayer silhouette"
+        }
+      ]
+    },
+    {
+      "titulo": "Passos 1 e 2: silêncio e gratidão",
+      "cenas": [
+        {
+          "tipo": "versiculo",
+          "citacao": "Aquietai-vos e sabei que eu sou Deus…",
+          "ref": "Salmos 46:10",
+          "busca": "calm lake morning reflection",
+          "comentario": "Passo 1: silencie"
+        },
+        {
+          "tipo": "versiculo",
+          "citacao": "…as vossas petições sejam em tudo conhecidas diante de Deus, pela oração e súplicas, com ação de graças.",
+          "ref": "Filipenses 4:6",
+          "busca": "gratitude hands sunlight",
+          "comentario": "Passo 2: agradeça"
+        }
+      ]
+    },
+    {
+      "titulo": "Passos 3, 4 e 5",
+      "cenas": [
+        {
+          "tipo": "versiculo",
+          "citacao": "Se confessarmos os nossos pecados, ele é fiel e justo para nos perdoar…",
+          "ref": "1 João 1:9",
+          "busca": "sunrise light rays forest",
+          "comentario": "Passo 3: confesse"
+        },
+        {
+          "tipo": "texto",
+          "titulo": "Passo 4: peça",
+          "texto": "Fale das suas necessidades. Depois ore pela família, pelos amigos e por quem sofre.",
+          "busca": "journal pen prayer list"
+        },
+        {
+          "tipo": "texto",
+          "titulo": "Passo 5: escute",
+          "texto": "Um minuto em silêncio. Depois, agradeça. Amém = assim seja.",
+          "busca": "peaceful sunset meadow"
+        }
+      ]
+    },
+    {
+      "titulo": "O Pai Nosso como modelo",
+      "cenas": [
+        {
+          "tipo": "lista",
+          "titulo": "O Pai Nosso como roteiro",
+          "itens": [
+            "Pai nosso: proximidade",
+            "Santificado seja: louvor",
+            "Seja feita: entrega",
+            "O pão nosso de cada dia: pedidos",
+            "Perdoa: perdão",
+            "Livra-nos: proteção"
+          ],
+          "busca": "wheat field golden light",
+          "numerar": false,
+          "peso": 2
+        }
+      ]
+    },
+    {
+      "titulo": "Dúvidas de quem está começando",
+      "cenas": [
+        {
+          "tipo": "lista",
+          "titulo": "Dúvidas comuns",
+          "itens": [
+            "Não sei o que dizer → diga isso a Deus",
+            "Mente dispersa → anote e volte",
+            "Sem resposta? → pode vir de outras formas",
+            "Olhos fechados? → opcional"
+          ],
+          "busca": "person sitting window thinking",
+          "numerar": false,
+          "peso": 2
+        }
+      ]
+    },
+    {
+      "titulo": "Oração final",
+      "cenas": [
+        {
+          "tipo": "arte",
+          "titulo": "Uma oração para hoje",
+          "busca": "praying hands light"
+        }
+      ]
+    },
+    {
+      "titulo": "Encerramento",
+      "cenas": [
+        {
+          "tipo": "lista",
+          "titulo": "Cinco passos",
+          "itens": [
+            "Silêncio",
+            "Gratidão",
+            "Confissão",
+            "Pedidos",
+            "Escuta"
+          ],
+          "busca": "sunrise over hills"
+        },
+        {
+          "tipo": "texto",
+          "titulo": "Leia o texto completo",
+          "texto": "ateladoreino.com",
+          "rodape": "Leonardo Paiva, A Tela do Reino",
+          "busca": "sunset sky clouds"
+        }
+      ]
+    }
+  ]
+}
