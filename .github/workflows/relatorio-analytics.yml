@@ -1,9 +1,11 @@
-name: Relatório do Google Analytics
+name: Relatório do Google Analytics e Search Console
 
-# Gera um relatório (só números agregados) do Google Analytics 4 no resumo e no log da execução.
-# Toda segunda-feira, com os últimos 7 dias, ou à mão (Actions > Relatório do Google Analytics).
+# Gera um relatório (só números agregados) do Google Analytics 4 e do Search Console no resumo
+# e no log da execução.
+# Toda segunda-feira (Analytics: 7 dias; Search Console: 28 dias), ou à mão.
 # Segredos: YOUTUBE_CLIENT_ID, YOUTUBE_CLIENT_SECRET (mesmo cliente OAuth), GA_REFRESH_TOKEN;
-# variável: GA_PROPERTY_ID.
+# variável: GA_PROPERTY_ID (e GSC_SITE, opcional). O token precisa dos escopos
+# analytics.readonly e webmasters.readonly.
 on:
   schedule:
     - cron: '23 12 * * 1' # segunda, 09:23 em Brasília
@@ -13,6 +15,11 @@ on:
         description: 'Quantos dias para trás'
         required: false
         default: '7'
+        type: string
+      dias_busca:
+        description: 'Dias do Search Console'
+        required: false
+        default: '28'
         type: string
 
 permissions:
@@ -34,3 +41,12 @@ jobs:
           GA_PROPERTY_ID: ${{ vars.GA_PROPERTY_ID }}
           DIAS: ${{ inputs.dias || '7' }}
         run: node scripts/relatorio-analytics.mjs "$DIAS"
+      - name: Relatório do Search Console
+        if: always()
+        env:
+          YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+          YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+          GA_REFRESH_TOKEN: ${{ secrets.GA_REFRESH_TOKEN }}
+          GSC_SITE: ${{ vars.GSC_SITE }}
+          DIAS: ${{ inputs.dias_busca || '28' }}
+        run: node scripts/relatorio-search-console.mjs "$DIAS"
