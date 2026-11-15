@@ -1,0 +1,71 @@
+name: Enviar legendas ao YouTube
+
+# Envia as nossas legendas (legendas.srt) para os vídeos já enviados ao canal.
+# Recria as legendas a partir da narração em cache (sem gastar créditos da ElevenLabs).
+# Roda quando este arquivo ou o script mudam, ou manualmente (vazio = todos os pendentes).
+on:
+  push:
+    paths:
+      - '.github/workflows/legendas-youtube.yml'
+      - 'scripts/legendas-youtube.mjs'
+  workflow_dispatch:
+    inputs:
+      slug:
+        description: 'Slugs separados por espaço (vazio = todos os vídeos sem legenda)'
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  legendas:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - name: Instalar ffmpeg
+        run: sudo apt-get update -q && sudo apt-get install -y -q ffmpeg
+      - run: npm ci
+      - name: Cache das narrações
+        uses: actions/cache/restore@v4
+        with:
+          path: .cache-video/*/*.mp3
+          key: narracao-${{ vars.ELEVENLABS_VOICE_ID }}-${{ hashFiles('conteudo-social/*/youtube.md') }}
+          restore-keys: narracao-${{ vars.ELEVENLABS_VOICE_ID }}-
+      - name: Quais vídeos
+        id: quais
+        env:
+          SLUG: ${{ inputs.slug }}
+        run: |
+          if [ -n "$SLUG" ]; then slugs="$SLUG"; else
+            slugs=$(grep -L '"legendas": true' conteudo-social/*/youtube.json | grep -v confiar-em-deus | cut -d/ -f2 | tr '\n' ' ')
+          fi
+          echo "slugs=$slugs" >> "$GITHUB_OUTPUT"
+          echo "Vídeos: $slugs"
+      - name: Recriar legendas (da narração em cache)
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+          ELEVENLABS_VOICE_ID: ${{ vars.ELEVENLABS_VOICE_ID }}
+          SLUGS: ${{ steps.quais.outputs.slugs }}
+        run: for s in $SLUGS; do npm run video -- "$s" --so-textos; done
+      - name: Enviar legendas
+        env:
+          YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+          YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+          YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
+          SLUGS: ${{ steps.quais.outputs.slugs }}
+        run: |
+          [ -n "$SLUGS" ] || exit 0
+          node scripts/legendas-youtube.mjs $SLUGS
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add conteudo-social/*/youtube.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "chore: legendas enviadas ao YouTube"
+          git pull --rebase
+          git push

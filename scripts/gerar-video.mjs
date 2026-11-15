@@ -11,7 +11,7 @@
 // a ilustração de "fundo" (art/cenas/*.svg ou public/images/posts/*.png). SEM_FOTOS=1 ignora as fotos.
 // Música de fundo opcional: assets/musica/fundo.mp3 (abaixa sozinha durante a narração).
 //
-// Uso: npm run video -- <slug> [--so-cenas]
+// Uso: npm run video -- <slug> [--so-cenas | --so-textos]
 import { readFile, writeFile, mkdir, access } from 'node:fs/promises';
 import { join } from 'node:path';
 import { createHash } from 'node:crypto';
@@ -26,6 +26,8 @@ if (!slug) {
   process.exit(1);
 }
 const soCenas = process.argv.includes('--so-cenas');
+// --so-textos: só a narração (do cache), as legendas e os metadados, sem montar o vídeo.
+const soTextos = process.argv.includes('--so-textos');
 const existe = (p) => access(p).then(() => true, () => false);
 
 const W = 1920;
@@ -333,13 +335,43 @@ for (let i = 0; i < spec.secoes.length; i++) {
     const c = cenas[j];
     const d = (durSecao * (c.peso ?? 1)) / pesoTotal;
     const png = join(saida, 'cenas', `${String(++nCena).padStart(2, '0')}.png`);
-    await writeFile(png, await cena(c, `${i + 1}.${j + 1}`));
+    if (!soTextos) await writeFile(png, await cena(c, `${i + 1}.${j + 1}`));
     clipes.push({ png, dur: d, zoom: c.tipo === 'arte' || Boolean(fotos[`${i + 1}.${j + 1}`]) });
   }
   t += durSecao;
 }
 console.log(`${nCena} cenas, ${t.toFixed(1)} s de vídeo${MODO === 'elevenlabs' ? '' : ` (voz provisória: ${MODO})`}.`);
-if (soCenas) process.exit(0);
+// Legendas SRT.
+const ts = (s) => {
+  const ms = Math.round(s * 1000);
+  const p = (n, l = 2) => String(n).padStart(l, '0');
+  return `${p(Math.floor(ms / 3600000))}:${p(Math.floor(ms / 60000) % 60)}:${p(Math.floor(ms / 1000) % 60)},${p(ms % 1000, 3)}`;
+};
+await writeFile(join(saida, 'legendas.srt'), legendas.map((l, k) => `${k + 1}\n${ts(l.ini)} --> ${ts(l.fim)}\n${l.texto}\n`).join('\n'));
+
+// Metadados para o YouTube: título, descrição com os capítulos nos tempos reais e tags.
+const mmss = (s) => `${Math.floor(s / 60)}:${String(Math.floor(s % 60)).padStart(2, '0')}`;
+const titulo = roteiro.match(/^\*\*Principal[^*]*\*\*\s*(.+)$/m)?.[1]?.trim() ?? slug;
+let descricao = roteiro.split(/^## Descrição do vídeo\s*$/m)[1]?.split(/^## /m)[0]?.trim() ?? '';
+const blocoCapitulos = `Capítulos:\n${capitulos.map((c) => `${mmss(c.inicio)} ${c.titulo}`).join('\n')}`;
+descricao = /Capítulos:\n(?:\d+:\d\d .*\n?)+/.test(descricao)
+  ? descricao.replace(/Capítulos:\n(?:\d+:\d\d .*\n?)+/, `${blocoCapitulos}\n`)
+  : `${descricao}\n\n${blocoCapitulos}`;
+if (Object.keys(fotos).length && !/Fotos:/.test(descricao)) {
+  descricao = descricao.replace(/(Citações bíblicas:[^\n]*)/, `$1\nFotos: Pixabay. Música original.`);
+}
+const artigo = await readFile(join('src', 'content', 'blog', `${slug}.md`), 'utf8').catch(() => '');
+const tagsArtigo = (artigo.match(/^tags:\s*\[(.*)\]/m)?.[1] ?? '').split(',').map((x) => x.trim().replace(/^["']|["']$/g, '')).filter(Boolean);
+const tags = [...new Set([...tagsArtigo, 'devocional', 'Bíblia', 'fé', 'A Tela do Reino'])];
+await writeFile(
+  join(saida, 'metadados.json'),
+  JSON.stringify({ slug, titulo, descricao, tags, duracao: t, capitulos, vozSintetica: MODO === 'elevenlabs' }, null, 2) + '\n',
+);
+
+if (soCenas || soTextos) {
+  console.log(`Legendas e metadados gravados em ${saida}/.`);
+  process.exit(0);
+}
 
 // Cada cena vira um clipe com zoom lento (ilustração) ou leve aproximação (cartões) e fade.
 const partes = [];
@@ -407,33 +439,6 @@ for (const [k, a] of audios.entries()) console.log(`  seção ${k + 1}: ${a.dur.
 const { stdout: fluxos } = await run('ffprobe', ['-v', 'error', '-show_entries', 'stream=codec_type,codec_name,channels,duration', '-of', 'compact=p=0', final]);
 console.log(`Vídeo final: ${fluxos.trim().replace(/\n/g, ' | ')}`);
 console.log(`Áudio do vídeo: ${await volume(final)}`);
-
-// Legendas SRT.
-const ts = (s) => {
-  const ms = Math.round(s * 1000);
-  const p = (n, l = 2) => String(n).padStart(l, '0');
-  return `${p(Math.floor(ms / 3600000))}:${p(Math.floor(ms / 60000) % 60)}:${p(Math.floor(ms / 1000) % 60)},${p(ms % 1000, 3)}`;
-};
-await writeFile(join(saida, 'legendas.srt'), legendas.map((l, k) => `${k + 1}\n${ts(l.ini)} --> ${ts(l.fim)}\n${l.texto}\n`).join('\n'));
-
-// Metadados para o YouTube: título, descrição com os capítulos nos tempos reais e tags.
-const mmss = (s) => `${Math.floor(s / 60)}:${String(Math.floor(s % 60)).padStart(2, '0')}`;
-const titulo = roteiro.match(/^\*\*Principal[^*]*\*\*\s*(.+)$/m)?.[1]?.trim() ?? slug;
-let descricao = roteiro.split(/^## Descrição do vídeo\s*$/m)[1]?.split(/^## /m)[0]?.trim() ?? '';
-const blocoCapitulos = `Capítulos:\n${capitulos.map((c) => `${mmss(c.inicio)} ${c.titulo}`).join('\n')}`;
-descricao = /Capítulos:\n(?:\d+:\d\d .*\n?)+/.test(descricao)
-  ? descricao.replace(/Capítulos:\n(?:\d+:\d\d .*\n?)+/, `${blocoCapitulos}\n`)
-  : `${descricao}\n\n${blocoCapitulos}`;
-if (Object.keys(fotos).length && !/Fotos:/.test(descricao)) {
-  descricao = descricao.replace(/(Citações bíblicas:[^\n]*)/, `$1\nFotos: Pixabay. Música original.`);
-}
-const artigo = await readFile(join('src', 'content', 'blog', `${slug}.md`), 'utf8').catch(() => '');
-const tagsArtigo = (artigo.match(/^tags:\s*\[(.*)\]/m)?.[1] ?? '').split(',').map((x) => x.trim().replace(/^["']|["']$/g, '')).filter(Boolean);
-const tags = [...new Set([...tagsArtigo, 'devocional', 'Bíblia', 'fé', 'A Tela do Reino'])];
-await writeFile(
-  join(saida, 'metadados.json'),
-  JSON.stringify({ slug, titulo, descricao, tags, duracao: t, capitulos, vozSintetica: MODO === 'elevenlabs' }, null, 2) + '\n',
-);
 
 // Miniatura 1280x720: a foto da abertura (ou a ilustração do artigo) e o título em Montserrat.
 const mini = spec.miniatura;
