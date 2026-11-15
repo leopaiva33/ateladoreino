@@ -13,7 +13,7 @@ Ele estudava do lado de fora da sala.
 **Narração (cerca de 35 segundos):**
 William Seymour nasceu em 1870, na Louisiana, filho de pais que haviam sido escravizados. Em 1905, quis estudar numa escola bíblica em Houston. Por causa das leis de segregação, segundo os relatos, acompanhava as aulas do lado de fora da sala. No ano seguinte, foi convidado para pregar em Los Angeles e acabou impedido de continuar. Em vez de desistir, passou a orar com um pequeno grupo numa casa.
 
-**Versículo:** "E não nos cansemos de fazer bem, porque a seu tempo ceifaremos, se não houvermos desfalecido." (Gálatas 6:9)
+**Versículo:** "E não nos cansemos de fazer o bem, porque a seu tempo ceifaremos, se não houvermos desfalecido." (Gálatas 6:9)
 
 **Chamada final:** Siga o perfil para ver a série sobre avivamento. Leia o texto completo em ateladoreino.com.
 

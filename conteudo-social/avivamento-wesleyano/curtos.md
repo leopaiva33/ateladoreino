@@ -31,7 +31,7 @@ Pregar no campo era considerado impróprio. Ele foi mesmo assim.
 **Narração (cerca de 35 segundos):**
 George Whitefield pregava ao ar livre para mineiros de carvão perto de Bristol, gente que raramente entrava numa igreja. No começo de 1739, convidou John Wesley a fazer o mesmo. Wesley hesitou, porque pregar fora do templo era visto como impróprio, mas em abril pregou ao ar livre pela primeira vez. Depois disso, passou décadas viajando a cavalo pela Inglaterra, pela Irlanda e pela Escócia, pregando em campos, praças e entradas de minas. Para ele, a fé se mostra em amor que vai até as pessoas.
 
-**Versículo:** "…a fé que opera por caridade." (Gálatas 5:6)
+**Versículo:** "…a fé que opera por amor." (Gálatas 5:6)
 
 **Chamada final:** Siga o perfil para ver a série sobre avivamento.
 
