@@ -4,6 +4,7 @@ description: "Aprenda como orar de forma simples: 5 passos práticos, o modelo d
 pubDate: 2026-11-09T07:00:00-03:00
 image: "/images/posts/como-orar.png"
 imageAlt: "Ilustração de uma vela acesa sobre uma mesa, iluminando um ambiente escuro em tons de vinho"
+video: "p9i4rlMSxWA"
 category: "Oração"
 tags: ["oração", "como orar", "iniciantes", "Pai Nosso"]
 ---
