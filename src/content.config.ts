@@ -24,7 +24,10 @@ const blog = defineCollection({
   }),
 });
 
-/** Estudos das porções semanais da Torá (parashiot). Aparecem em /estudos. */
+/**
+ * Estudos bíblicos, em /estudos. Dois tipos: estudo de uma porção semanal da Torá (com `parasha`,
+ * `numero` e `livro`) e estudo temático (sem esses campos; aparece em "Temas bíblicos").
+ */
 const estudos = defineCollection({
   loader: glob({ pattern: '**/*.md', base: './src/content/estudos' }),
   schema: z.object({
@@ -32,14 +35,16 @@ const estudos = defineCollection({
     description: z.string(),
     pubDate: z.coerce.date(),
     updatedDate: z.coerce.date().optional(),
-    /** Nome da porção (ex.: "Toldot"). */
-    parasha: z.string(),
+    /** Nome da porção (ex.: "Toldot"). Só em estudo de porção. */
+    parasha: z.string().optional(),
     /** Tradução do nome (ex.: "Gerações"). */
     significado: z.string().optional(),
     /** Posição no ciclo anual, de 1 (Bereshit) a 54. Define a ordem na lista. */
-    numero: z.number().int().min(1).max(54),
-    livro: z.enum(['Gênesis', 'Êxodo', 'Levítico', 'Números', 'Deuteronômio']),
-    /** Leituras estudadas: Torá, Haftará e escritos apostólicos. */
+    numero: z.number().int().min(1).max(54).optional(),
+    livro: z.enum(['Gênesis', 'Êxodo', 'Levítico', 'Números', 'Deuteronômio']).optional(),
+    /** Assunto de um estudo temático, em poucas palavras (ex.: "Anjos e o mal"). */
+    tema: z.string().optional(),
+    /** Leituras estudadas: Torá, Haftará e escritos apostólicos; em estudo temático, os textos-base. */
     leituras: z
       .array(z.object({ rotulo: z.string(), texto: z.string(), tema: z.string().optional() }))
       .default([]),

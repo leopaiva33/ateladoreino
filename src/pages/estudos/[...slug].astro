@@ -5,22 +5,25 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import AutorBox from '../../components/AutorBox.astro';
 import Compartilhar from '../../components/Compartilhar.astro';
 import { SITE } from '../../config';
-import { getPublishedEstudos } from '../../utils/estudos';
+import { getPublishedEstudos, ehEstudoDePorcao } from '../../utils/estudos';
 import { formatDate } from '../../utils/posts';
 import { jsonLdArtigo } from '../../utils/jsonld';
 
 export async function getStaticPaths() {
   const estudos = await getPublishedEstudos();
-  return estudos.map((estudo, i) => ({
-    params: { slug: estudo.id },
-    props: { estudo, anterior: estudos[i - 1], proximo: estudos[i + 1] },
-  }));
+  // "Anterior" e "próximo" ficam dentro do mesmo tipo: porções entre si, temáticos entre si.
+  return estudos.map((estudo) => {
+    const grupo = estudos.filter((e) => ehEstudoDePorcao(e) === ehEstudoDePorcao(estudo));
+    const i = grupo.indexOf(estudo);
+    return { params: { slug: estudo.id }, props: { estudo, anterior: grupo[i - 1], proximo: grupo[i + 1] } };
+  });
 }
 
 const { estudo, anterior, proximo } = Astro.props;
 const { Content } = await render(estudo);
-const { title, description, pubDate, updatedDate, parasha, significado, numero, livro, leituras } =
+const { title, description, pubDate, updatedDate, parasha, significado, numero, livro, tema, leituras } =
   estudo.data;
+const rotulo = (e: typeof estudo) => e.data.parasha ?? e.data.title;
 const caminho = `/estudos/${estudo.id}/`;
 const urlCompleta = new URL(caminho, SITE.url).href;
 /** PDF gerado por `npm run pdf -- <slug>` em public/estudos/<slug>.pdf; sem arquivo, sem botão. */
@@ -45,7 +48,7 @@ const jsonLd = jsonLdArtigo({
   <article class="artigo container">
     <header>
       <p class="meta">
-        <span class="tag">Porção {numero} · {livro}</span>
+        <span class="tag">{numero ? `Porção ${numero} · ${livro}` : `Estudo temático${tema ? ` · ${tema}` : ''}`}</span>
         Publicado em <time datetime={pubDate.toISOString()}>{formatDate(pubDate)}</time>
         {
           updatedDate && (
@@ -72,7 +75,7 @@ const jsonLd = jsonLdArtigo({
       leituras.length > 0 && (
         <section class="leituras" aria-labelledby="leituras-titulo">
           <h2 id="leituras-titulo">
-            Leituras da porção {parasha}
+            {parasha ? `Leituras da porção ${parasha}` : 'Textos-base'}
             {significado && ` (${significado})`}
           </h2>
           <ul>
@@ -107,9 +110,9 @@ const jsonLd = jsonLdArtigo({
     <AutorBox />
 
     <p class="meta navegacao-estudos">
-      {anterior && <a href={`/estudos/${anterior.id}`}>← {anterior.data.parasha}</a>}
+      {anterior && <a href={`/estudos/${anterior.id}`}>← {rotulo(anterior)}</a>}
       {anterior && proximo && ' · '}
-      {proximo && <a href={`/estudos/${proximo.id}`}>{proximo.data.parasha} →</a>}
+      {proximo && <a href={`/estudos/${proximo.id}`}>{rotulo(proximo)} →</a>}
     </p>
     <p class="navegacao-estudos"><a href="/estudos">← Voltar para todos os estudos</a></p>
   </article>
