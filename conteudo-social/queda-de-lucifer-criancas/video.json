@@ -1,0 +1,143 @@
+{
+  "slug": "queda-de-lucifer-criancas",
+  "arte": "art/cenas/criancas-estrela-da-manha.svg",
+  "miniatura": {
+    "titulo": "A ESTRELA QUE QUIS SER A MAIOR",
+    "subtitulo": "história para crianças"
+  },
+  "secoes": [
+    {
+      "titulo": "Abertura",
+      "cenas": [
+        {
+          "tipo": "arte",
+          "titulo": "A estrela que quis ser a maior",
+          "subtitulo": "Uma história da Bíblia para crianças",
+          "fundo": "criancas-estrela-da-manha"
+        }
+      ]
+    },
+    {
+      "titulo": "Deus fez tudo muito bom",
+      "cenas": [
+        {
+          "tipo": "texto",
+          "texto": "Deus fez tudo muito bom",
+          "fundo": "criancas-ceu-de-luz"
+        },
+        {
+          "tipo": "versiculo",
+          "citacao": "E viu Deus tudo quanto tinha feito, e eis que era muito bom.",
+          "ref": "Gênesis 1:31",
+          "fundo": "criancas-ceu-de-luz"
+        }
+      ]
+    },
+    {
+      "titulo": "O coração que quis subir",
+      "cenas": [
+        {
+          "tipo": "texto",
+          "titulo": "O que é orgulho?",
+          "texto": "É querer ser o maior de todos",
+          "lado": "direita",
+          "fundo": "criancas-escada-orgulho"
+        },
+        {
+          "tipo": "versiculo",
+          "citacao": "Eu subirei ao céu… serei semelhante ao Altíssimo.",
+          "ref": "Isaías 14:13-14",
+          "comentario": "Palavras de um rei muito orgulhoso",
+          "lado": "direita",
+          "fundo": "criancas-escada-orgulho"
+        }
+      ]
+    },
+    {
+      "titulo": "Quem sobe com orgulho, cai",
+      "cenas": [
+        {
+          "tipo": "versiculo",
+          "citacao": "A soberba precede a ruína, e a altivez do espírito precede a queda.",
+          "ref": "Provérbios 16:18",
+          "comentario": "Soberba = orgulho",
+          "lado": "esquerda",
+          "fundo": "criancas-estrela-caindo"
+        },
+        {
+          "tipo": "versiculo",
+          "citacao": "Eu via Satanás, como raio, cair do céu.",
+          "ref": "Lucas 10:18",
+          "lado": "esquerda",
+          "fundo": "criancas-estrela-caindo"
+        }
+      ]
+    },
+    {
+      "titulo": "Deus é mais forte",
+      "cenas": [
+        {
+          "tipo": "texto",
+          "texto": "Deus é mais forte!",
+          "fundo": "criancas-sol-nascendo"
+        },
+        {
+          "tipo": "versiculo",
+          "citacao": "…maior é o que está em vós do que o que está no mundo.",
+          "ref": "1 João 4:4",
+          "fundo": "criancas-sol-nascendo"
+        }
+      ]
+    },
+    {
+      "titulo": "O jeito de Jesus",
+      "cenas": [
+        {
+          "tipo": "versiculo",
+          "citacao": "…humilhou-se a si mesmo…",
+          "ref": "Filipenses 2:8",
+          "comentario": "Jesus fez o contrário do orgulho",
+          "lado": "esquerda",
+          "fundo": "criancas-caminho-humilde"
+        },
+        {
+          "tipo": "lista",
+          "titulo": "Ser humilde é…",
+          "itens": [
+            "Dizer obrigado",
+            "Pedir desculpa",
+            "Ajudar sem aparecer",
+            "Deixar o outro ir primeiro"
+          ],
+          "numerar": false,
+          "lado": "esquerda",
+          "fundo": "criancas-caminho-humilde"
+        }
+      ]
+    },
+    {
+      "titulo": "Oração e desafio",
+      "cenas": [
+        {
+          "tipo": "texto",
+          "titulo": "Vamos orar juntos?",
+          "texto": "Deus, me ajuda a ser humilde como Jesus.",
+          "fundo": "criancas-coracao"
+        },
+        {
+          "tipo": "texto",
+          "titulo": "Desafio da semana",
+          "texto": "Faça algo bom por alguém, em segredo",
+          "fundo": "criancas-coracao"
+        },
+        {
+          "tipo": "texto",
+          "titulo": "Até a próxima história!",
+          "texto": "ateladoreino.com",
+          "rodape": "Leonardo Paiva, A Tela do Reino",
+          "fundo": "criancas-coracao"
+        }
+      ]
+    }
+  ]
+}
