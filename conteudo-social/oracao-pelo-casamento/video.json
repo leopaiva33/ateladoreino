@@ -1,0 +1,174 @@
+{
+  "slug": "oracao-pelo-casamento",
+  "arte": "public/images/posts/oracao-pelo-casamento.png",
+  "miniatura": {
+    "titulo": "ORE PELO SEU CASAMENTO",
+    "subtitulo": "7 formas de orar"
+  },
+  "secoes": [
+    {
+      "titulo": "Abertura",
+      "cenas": [
+        {
+          "tipo": "arte",
+          "titulo": "Oração pelo casamento",
+          "busca": "couple holding hands sunset",
+          "subtitulo": "7 formas de orar pelo cônjuge",
+          "peso": 2
+        },
+        {
+          "tipo": "texto",
+          "texto": "Amor, perdão, paciência e sabedoria.",
+          "busca": "wedding rings bible"
+        }
+      ]
+    },
+    {
+      "titulo": "Uma aliança de unidade",
+      "cenas": [
+        {
+          "tipo": "versiculo",
+          "citacao": "…e serão ambos uma carne.",
+          "ref": "Gênesis 2:24",
+          "busca": "couple walking beach"
+        },
+        {
+          "tipo": "versiculo",
+          "citacao": "…o cordão de três dobras não se quebra tão depressa.",
+          "ref": "Eclesiastes 4:12",
+          "busca": "braided rope close up"
+        }
+      ]
+    },
+    {
+      "titulo": "Amor, perdão e serviço",
+      "cenas": [
+        {
+          "tipo": "texto",
+          "titulo": "Como o amor se pratica",
+          "texto": "O amor é sofredor e benigno, não suspeita mal e tudo suporta (1 Coríntios 13).",
+          "busca": "elderly couple hands"
+        },
+        {
+          "tipo": "versiculo",
+          "citacao": "…sujeitando-vos uns aos outros no temor de Deus.",
+          "ref": "Efésios 5:21",
+          "busca": "couple coffee kitchen morning",
+          "comentario": "Serviço e cuidado, e não dominação."
+        }
+      ]
+    },
+    {
+      "titulo": "Ore por você e pelo cônjuge",
+      "cenas": [
+        {
+          "tipo": "texto",
+          "titulo": "1. Ore por você",
+          "texto": "Peça a Deus que examine o seu coração.",
+          "busca": "person praying alone window"
+        },
+        {
+          "tipo": "texto",
+          "titulo": "2. Ore pelo cônjuge",
+          "texto": "Agradeça pelas qualidades e peça cuidado, sabedoria e saúde.",
+          "busca": "couple hug sunset"
+        }
+      ]
+    },
+    {
+      "titulo": "Comunicação e perdão",
+      "cenas": [
+        {
+          "tipo": "versiculo",
+          "citacao": "A resposta branda desvia o furor, mas a palavra dura suscita a ira.",
+          "ref": "Provérbios 15:1",
+          "busca": "couple talking table",
+          "comentario": "3. Ore pela comunicação"
+        },
+        {
+          "tipo": "texto",
+          "titulo": "4. Ore pelo perdão",
+          "texto": "Coragem para pedir perdão e para perdoar.",
+          "busca": "two hands reaching light"
+        }
+      ]
+    },
+    {
+      "titulo": "Fidelidade, rotina e oração a dois",
+      "cenas": [
+        {
+          "tipo": "lista",
+          "titulo": "Mais três",
+          "itens": [
+            "5. Fidelidade e pureza",
+            "6. Finanças, rotina e família",
+            "7. Orem juntos"
+          ],
+          "busca": "couple praying together",
+          "numerar": false
+        }
+      ]
+    },
+    {
+      "titulo": "Quando o casamento está em crise",
+      "cenas": [
+        {
+          "tipo": "texto",
+          "titulo": "Em crise",
+          "texto": "Conversa, aconselhamento e cuidado: pastor, padre ou terapeuta de casal.",
+          "busca": "counseling conversation calm"
+        },
+        {
+          "tipo": "texto",
+          "titulo": "Segurança em primeiro lugar",
+          "texto": "Violência ou ameaça: a prioridade é a sua segurança. Ligue 180 ou 190.",
+          "busca": "phone help night"
+        }
+      ]
+    },
+    {
+      "titulo": "Perguntas comuns",
+      "cenas": [
+        {
+          "tipo": "lista",
+          "titulo": "Dúvidas",
+          "itens": [
+            "A oração salva? Muda quem ora; não garante resultado.",
+            "Orar sozinho? Sim.",
+            "Cônjuge não cristão? Ore com respeito."
+          ],
+          "busca": "wedding rings window light",
+          "numerar": false,
+          "peso": 2
+        }
+      ]
+    },
+    {
+      "titulo": "Oração final",
+      "cenas": [
+        {
+          "tipo": "arte",
+          "titulo": "Uma oração pelo casamento",
+          "busca": "couple silhouette sunset hill"
+        }
+      ]
+    },
+    {
+      "titulo": "Encerramento",
+      "cenas": [
+        {
+          "tipo": "aviso",
+          "texto": "Devocional; não substitui ajuda profissional ou pastoral, como a terapia de casal.",
+          "busca": "candle flame warm"
+        },
+        {
+          "tipo": "texto",
+          "titulo": "Leia o texto completo",
+          "texto": "ateladoreino.com",
+          "rodape": "Leonardo Paiva, A Tela do Reino",
+          "busca": "sunset field couple"
+        }
+      ]
+    }
+  ]
+}

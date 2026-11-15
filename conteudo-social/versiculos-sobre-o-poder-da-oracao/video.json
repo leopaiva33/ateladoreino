@@ -1,0 +1,175 @@
+{
+  "slug": "versiculos-sobre-o-poder-da-oracao",
+  "arte": "public/images/posts/versiculos-sobre-o-poder-da-oracao.png",
+  "miniatura": {
+    "titulo": "12 VERSÍCULOS",
+    "subtitulo": "sobre o poder da oração"
+  },
+  "secoes": [
+    {
+      "titulo": "Abertura",
+      "cenas": [
+        {
+          "tipo": "arte",
+          "titulo": "12 versículos sobre o poder da oração",
+          "busca": "praying hands bible light",
+          "subtitulo": "com contexto",
+          "peso": 2
+        },
+        {
+          "tipo": "texto",
+          "texto": "O poder está em Deus, que ouve.",
+          "busca": "sunrise rays clouds"
+        }
+      ]
+    },
+    {
+      "titulo": "O que poder da oração quer dizer",
+      "cenas": [
+        {
+          "tipo": "versiculo",
+          "citacao": "…se pedirmos alguma coisa, segundo a sua vontade, ele nos ouve.",
+          "ref": "1 João 5:14",
+          "busca": "person praying quiet room",
+          "comentario": "Uma conversa, e não uma técnica."
+        }
+      ]
+    },
+    {
+      "titulo": "Em secreto, sem ansiedade, uns pelos outros",
+      "cenas": [
+        {
+          "tipo": "versiculo",
+          "citacao": "…entra no teu aposento e, fechando a tua porta, ora a teu Pai…",
+          "ref": "Mateus 6:6",
+          "busca": "door light room"
+        },
+        {
+          "tipo": "versiculo",
+          "citacao": "Não estejais inquietos por coisa alguma…",
+          "ref": "Filipenses 4:6",
+          "busca": "calm lake dawn"
+        },
+        {
+          "tipo": "versiculo",
+          "citacao": "…a oração feita por um justo pode muito em seus efeitos.",
+          "ref": "Tiago 5:16",
+          "busca": "friends praying together"
+        }
+      ]
+    },
+    {
+      "titulo": "Pedir, buscar, clamar",
+      "cenas": [
+        {
+          "tipo": "versiculo",
+          "citacao": "Pedi, e dar-se-vos-á; buscai e encontrareis; batei, e abrir-se-vos-á.",
+          "ref": "Mateus 7:7",
+          "busca": "old wooden door knock"
+        },
+        {
+          "tipo": "versiculo",
+          "citacao": "Clama a mim, e responder-te-ei…",
+          "ref": "Jeremias 33:3",
+          "busca": "man shouting mountain top"
+        }
+      ]
+    },
+    {
+      "titulo": "Segundo a vontade de Deus",
+      "cenas": [
+        {
+          "tipo": "versiculo",
+          "citacao": "Se vós estiverdes em mim, e as minhas palavras estiverem em vós, pedireis tudo o que quiserdes, e vos será feito.",
+          "ref": "João 15:7",
+          "busca": "vine grapes vineyard"
+        },
+        {
+          "tipo": "versiculo",
+          "citacao": "…não se faça a minha vontade, mas a tua.",
+          "ref": "Lucas 22:42",
+          "busca": "olive tree night",
+          "comentario": "Marcos 11:24 não é um cheque em branco."
+        }
+      ]
+    },
+    {
+      "titulo": "Quando faltam palavras e forças",
+      "cenas": [
+        {
+          "tipo": "versiculo",
+          "citacao": "…o mesmo Espírito intercede por nós com gemidos inexprimíveis.",
+          "ref": "Romanos 8:26",
+          "busca": "person kneeling dark light"
+        },
+        {
+          "tipo": "versiculo",
+          "citacao": "Orai sem cessar.",
+          "ref": "1 Tessalonicenses 5:17",
+          "busca": "busy street city walking"
+        },
+        {
+          "tipo": "texto",
+          "titulo": "Mesmo quando demora",
+          "texto": "Orar sempre e nunca desfalecer (Lucas 18:1).",
+          "busca": "rain umbrella waiting"
+        }
+      ]
+    },
+    {
+      "titulo": "Deus está perto",
+      "cenas": [
+        {
+          "tipo": "versiculo",
+          "citacao": "Perto está o Senhor de todos os que o invocam, de todos os que o invocam em verdade.",
+          "ref": "Salmos 145:18",
+          "busca": "sunbeam forest clearing"
+        }
+      ]
+    },
+    {
+      "titulo": "Como usar estes versículos",
+      "cenas": [
+        {
+          "tipo": "lista",
+          "titulo": "Na prática",
+          "itens": [
+            "Um por dia, no contexto",
+            "Transforme em oração",
+            "Anote o que vai fazer",
+            "Ore por alguém"
+          ],
+          "busca": "bible journal pen morning"
+        },
+        {
+          "tipo": "texto",
+          "titulo": "Deus sempre responde?",
+          "texto": "Deus ouve. A resposta pode ser sim, não ou espere.",
+          "busca": "sunset horizon waiting"
+        }
+      ]
+    },
+    {
+      "titulo": "Oração final",
+      "cenas": [
+        {
+          "tipo": "arte",
+          "titulo": "Senhor, obrigado porque estás perto",
+          "busca": "praying silhouette sunrise"
+        }
+      ]
+    },
+    {
+      "titulo": "Encerramento",
+      "cenas": [
+        {
+          "tipo": "texto",
+          "titulo": "Leia o texto completo",
+          "texto": "ateladoreino.com",
+          "rodape": "Leonardo Paiva, A Tela do Reino",
+          "busca": "open bible sunset"
+        }
+      ]
+    }
+  ]
+}
