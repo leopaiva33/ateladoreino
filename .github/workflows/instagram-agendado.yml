@@ -1,7 +1,7 @@
 name: Instagram agendado
 
 # Publica no Instagram o carrossel de cada artigo no dia em que ele entra no blog.
-# O blog sai às 08:00 (publicacao-agendada.yml); o carrossel sai às 18:37 (Brasília),
+# O blog sai às 07:43 (publicacao-agendada.yml); o carrossel sai às 18:37 (Brasília),
 # com o artigo já no ar para o link da bio. Uma publicação por execução; a execução
 # das 20:47 é reforço (cobre falha ou um segundo artigo no mesmo dia).
 # Depois de publicar, grava conteudo-social/<slug>/instagram.json no repositório, o que
