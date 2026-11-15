@@ -1,0 +1,36 @@
+name: Relatório do Google Analytics
+
+# Gera um relatório (só números agregados) do Google Analytics 4 no resumo e no log da execução.
+# Toda segunda-feira, com os últimos 7 dias, ou à mão (Actions > Relatório do Google Analytics).
+# Segredos: YOUTUBE_CLIENT_ID, YOUTUBE_CLIENT_SECRET (mesmo cliente OAuth), GA_REFRESH_TOKEN;
+# variável: GA_PROPERTY_ID.
+on:
+  schedule:
+    - cron: '23 12 * * 1' # segunda, 09:23 em Brasília
+  workflow_dispatch:
+    inputs:
+      dias:
+        description: 'Quantos dias para trás'
+        required: false
+        default: '7'
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  relatorio:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Gerar relatório
+        env:
+          YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+          YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+          GA_REFRESH_TOKEN: ${{ secrets.GA_REFRESH_TOKEN }}
+          GA_PROPERTY_ID: ${{ vars.GA_PROPERTY_ID }}
+          DIAS: ${{ inputs.dias || '7' }}
+        run: node scripts/relatorio-analytics.mjs "$DIAS"
