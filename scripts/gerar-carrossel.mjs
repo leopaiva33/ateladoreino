@@ -2,19 +2,29 @@
 // conteudo-social/<slug>/carrossel.json. Saída: public/social/<slug>/slide-01.png ...
 // (a pasta public/ vira endereço público depois do deploy, que a API do Instagram exige).
 // Uso: npm run carrossel -- <slug>
-import { readFile, mkdir } from 'node:fs/promises';
+//
+// Com --reel, gera também o Reel: os mesmos slides em formato vertical (1080x1920, sem
+// contador nem "Deslize"), em sequência, com transições suaves e a música de fundo do canal
+// (assets/musica/fundo.mp3). Saída: public/social/<slug>/reel.mp4 e reel-capa.jpg.
+// Uso: npm run reel -- <slug>
+import { readFile, mkdir, mkdtemp, rm, access } from 'node:fs/promises';
 import { join } from 'node:path';
+import { tmpdir } from 'node:os';
+import { execFileSync } from 'node:child_process';
 import sharp from 'sharp';
 
-const slug = process.argv[2];
+const slug = process.argv.slice(2).find((a) => !a.startsWith('--'));
 if (!slug) {
   console.error('Uso: npm run carrossel -- <slug>   (ex.: salmo-23-significado)');
   process.exit(1);
 }
 
 const spec = JSON.parse(await readFile(join('conteudo-social', slug, 'carrossel.json'), 'utf8'));
+const reel = process.argv.includes('--reel');
 const L = 1080;
-const A = 1350;
+const A = reel ? 1920 : 1350;
+// No Reel, a interface do Instagram cobre o topo e principalmente a base da tela.
+const ZONA = reel ? { marca: 250, topo: 360, base: A - 440, arteTopo: 340, arteAlt: 620 } : { marca: 78, topo: 170, base: A - 150, arteTopo: 130, arteAlt: 540 };
 const MARGEM = 110;
 const LARG_TEXTO = L - 2 * MARGEM;
 const C = {
@@ -84,24 +94,26 @@ function empilhar(blocos, topo, base, folga = 44) {
 async function slide(s, i, total) {
   const camadas = [];
   const marca = await texto('A TELA DO REINO', { fonte: 'Arial 26', cor: C.ouro, estilo: 'b' });
-  camadas.push({ input: marca.input, top: 78, left: Math.round((L - marca.w) / 2) });
-  const contador = await texto(`${i + 1} / ${total}`, { fonte: 'Arial 26', cor: C.ouro });
-  camadas.push({ input: contador.input, top: A - 98, left: Math.round((L - contador.w) / 2) });
+  camadas.push({ input: marca.input, top: ZONA.marca, left: Math.round((L - marca.w) / 2) });
+  if (!reel) {
+    const contador = await texto(`${i + 1} / ${total}`, { fonte: 'Arial 26', cor: C.ouro });
+    camadas.push({ input: contador.input, top: A - 98, left: Math.round((L - contador.w) / 2) });
+  }
 
   let blocos = [];
-  let topo = 170;
-  const base = A - 150;
+  let topo = ZONA.topo;
+  const base = ZONA.base;
   let folga = 44;
 
   if (s.tipo === 'capa') {
-    const arte = await sharp(await readFile(spec.arte)).resize(L - 72, 540, { fit: 'cover' }).png().toBuffer();
-    camadas.push({ input: arte, top: 130, left: 36 });
+    const arte = await sharp(await readFile(spec.arte)).resize(L - 72, ZONA.arteAlt, { fit: 'cover' }).png().toBuffer();
+    camadas.push({ input: arte, top: ZONA.arteTopo, left: 36 });
     blocos = [
       await texto('DEVOCIONAL', { fonte: 'Arial 30', cor: C.ouro, estilo: 'b' }),
       await texto(s.titulo, { fonte: 'Georgia 74', cor: C.vinho, estilo: 'b' }),
-      await texto('Deslize →', { fonte: 'Arial 34', cor: C.ouro }),
     ];
-    topo = 690;
+    if (!reel) blocos.push(await texto('Deslize →', { fonte: 'Arial 34', cor: C.ouro }));
+    topo = ZONA.arteTopo + ZONA.arteAlt + 20;
   } else if (s.tipo === 'texto' || s.tipo === 'final') {
     if (s.titulo) {
       blocos.push(await texto(s.titulo, { fonte: 'Georgia 66', cor: C.vinho, estilo: 'b' }));
@@ -136,9 +148,52 @@ async function slide(s, i, total) {
 
 const saida = join('public', 'social', slug);
 await mkdir(saida, { recursive: true });
-for (let i = 0; i < spec.slides.length; i++) {
-  const buf = await slide(spec.slides[i], i, spec.slides.length);
-  const arquivo = join(saida, `slide-${String(i + 1).padStart(2, '0')}.png`);
-  await sharp(buf).toFile(arquivo);
-  console.log('gerado', arquivo);
+
+if (!reel) {
+  for (let i = 0; i < spec.slides.length; i++) {
+    const buf = await slide(spec.slides[i], i, spec.slides.length);
+    const arquivo = join(saida, `slide-${String(i + 1).padStart(2, '0')}.png`);
+    await sharp(buf).toFile(arquivo);
+    console.log('gerado', arquivo);
+  }
+} else {
+  // Tempo de cada slide: o suficiente para ler com calma (capa e final, mais curtos).
+  const palavras = (s) => [s.titulo, s.texto, s.citacao, s.ref, s.comentario, ...(s.itens ?? [])].filter(Boolean).join(' ').split(/\s+/).length;
+  const duracao = (s) => (s.tipo === 'capa' ? 3 : s.tipo === 'final' ? 3.5 : Math.min(6.5, Math.max(3.5, 1.5 + palavras(s) * 0.22)));
+  const FADE = 0.6;
+  const tmp = await mkdtemp(join(tmpdir(), 'reel-'));
+  const entradas = [];
+  const durs = [];
+  for (let i = 0; i < spec.slides.length; i++) {
+    const quadro = join(tmp, `q${i}.png`);
+    await sharp(await slide(spec.slides[i], i, spec.slides.length)).toFile(quadro);
+    if (i === 0) await sharp(quadro).jpeg({ quality: 88 }).toFile(join(saida, 'reel-capa.jpg'));
+    const d = duracao(spec.slides[i]) + (i < spec.slides.length - 1 ? FADE : 0);
+    durs.push(d);
+    entradas.push('-loop', '1', '-framerate', '30', '-t', d.toFixed(2), '-i', quadro);
+  }
+  // Transições em cadeia: cada slide entra com fade sobre o anterior.
+  let filtro = '';
+  let atual = '[0:v]';
+  let deslocamento = 0;
+  for (let i = 1; i < durs.length; i++) {
+    deslocamento += durs[i - 1] - FADE;
+    const saidaV = i === durs.length - 1 ? '[v]' : `[x${i}]`;
+    filtro += `${atual}[${i}:v]xfade=transition=fade:duration=${FADE}:offset=${deslocamento.toFixed(2)}${saidaV};`;
+    atual = saidaV;
+  }
+  const total = deslocamento + durs[durs.length - 1];
+  const musica = 'assets/musica/fundo.mp3';
+  const temMusica = await access(musica).then(() => true, () => false);
+  const args = ['-y', '-loglevel', 'error', ...entradas];
+  if (temMusica) {
+    args.push('-stream_loop', '-1', '-i', musica);
+    filtro += `[${durs.length}:a]atrim=0:${total.toFixed(2)},asetpts=N/SR/TB,volume=0.8,afade=t=in:d=1,afade=t=out:st=${(total - 2.5).toFixed(2)}:d=2.5[a]`;
+  } else filtro = filtro.replace(/;$/, '');
+  args.push('-filter_complex', filtro, '-map', '[v]');
+  if (temMusica) args.push('-map', '[a]', '-c:a', 'aac', '-b:a', '128k');
+  args.push('-c:v', 'libx264', '-preset', 'medium', '-crf', '24', '-pix_fmt', 'yuv420p', '-r', '30', '-movflags', '+faststart', '-t', total.toFixed(2), join(saida, 'reel.mp4'));
+  execFileSync('ffmpeg', args, { stdio: 'inherit' });
+  await rm(tmp, { recursive: true, force: true });
+  console.log(`gerado ${join(saida, 'reel.mp4')} (${total.toFixed(1)} s${temMusica ? ', com música' : ''})`);
 }

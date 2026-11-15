@@ -1,0 +1,52 @@
+name: Instagram Reels agendado
+
+# Publica no Instagram, como Reel, o vídeo vertical do carrossel de cada artigo
+# (public/social/<slug>/reel.mp4, gerado com npm run reel -- <slug>) no dia em que o artigo
+# entra no blog. O Reel sai às 12:19 (Brasília), depois da publicação do blog (07:43, com
+# reforço às 11:53); o carrossel sai às 18:37. A execução das 21:13 é reforço.
+# Depois de publicar, grava conteudo-social/<slug>/reel.json, o que impede repetir o Reel.
+on:
+  schedule:
+    - cron: '19 15 * * *' # 12:19 em Brasília
+    - cron: '13 0 * * *' # 21:13 em Brasília (reforço)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: instagram-agendado
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Qual Reel publicar?
+        id: fila
+        run: node scripts/instagram-agendado.mjs --reel
+
+      - name: Publicar no Instagram
+        if: steps.fila.outputs.slug != ''
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          SLUG: ${{ steps.fila.outputs.slug }}
+        run: node scripts/publicar-instagram.mjs "$SLUG" --reel --publicar
+
+      - name: Registrar publicação
+        if: steps.fila.outputs.slug != ''
+        env:
+          SLUG: ${{ steps.fila.outputs.slug }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "conteudo-social/$SLUG/reel.json"
+          git commit -m "chore: Reel de $SLUG publicado no Instagram"
+          git pull --rebase
+          git push

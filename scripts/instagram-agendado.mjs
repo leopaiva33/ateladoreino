@@ -8,6 +8,10 @@
 //   - ainda não existe conteudo-social/<slug>/instagram.json (registro de publicação).
 // Também entram os slugs de conteudo-social/agenda-instagram.json cuja data já chegou.
 // Publica um por execução, do mais antigo para o mais novo.
+//
+// Com --reel, faz a mesma escolha para os Reels (vídeo vertical do carrossel):
+// exige public/social/<slug>/reel.mp4 (npm run reel -- <slug>), usa o registro
+// conteudo-social/<slug>/reel.json e só considera datas a partir de INICIO_REEL.
 // Artigos vencidos sem carrossel geram um aviso no log do GitHub Actions.
 import { readdir, readFile, appendFile, access } from 'node:fs/promises';
 import { join } from 'node:path';
@@ -16,7 +20,11 @@ const DIR = 'src/content/blog';
 const SITEMAP = process.env.SITEMAP_URL ?? 'https://www.ateladoreino.com/sitemap-0.xml';
 // Artigos anteriores a esta data só são publicados automaticamente se estiverem em
 // conteudo-social/agenda-instagram.json (ou pelo workflow manual).
-const INICIO = Date.parse(process.env.INICIO_ISO ?? '2026-11-07T00:00:00-03:00');
+const reel = process.argv.includes('--reel');
+const INICIO = reel
+  ? Date.parse(process.env.INICIO_REEL_ISO ?? '2026-11-16T00:00:00-03:00')
+  : Date.parse(process.env.INICIO_ISO ?? '2026-11-07T00:00:00-03:00');
+const REGISTRO = reel ? 'reel.json' : 'instagram.json';
 const agora = process.env.AGORA_ISO ? Date.parse(process.env.AGORA_ISO) : Date.now();
 const existe = (p) => access(p).then(() => true, () => false);
 
@@ -40,7 +48,7 @@ if (await existe(AGENDA)) {
       console.log(`::warning::Data inválida em ${AGENDA} para "${slug}": ${quando}`);
       continue;
     }
-    if (data > agora || vencidos.some((v) => v.slug === slug)) continue;
+    if (data > agora || (reel && data < INICIO) || vencidos.some((v) => v.slug === slug)) continue;
     vencidos.push({ slug, data });
   }
 }
@@ -58,13 +66,14 @@ try {
 let escolhido = '';
 for (const { slug } of vencidos) {
   const pasta = join('conteudo-social', slug);
-  if (await existe(join(pasta, 'instagram.json'))) continue;
+  if (await existe(join(pasta, REGISTRO))) continue;
   if (!(await existe(join(pasta, 'carrossel.json')))) {
     console.log(`::warning::"${slug}" já está no blog, mas não tem carrossel (conteudo-social/${slug}/carrossel.json).`);
     continue;
   }
-  if (!(await existe(join('public', 'social', slug, 'slide-01.png')))) {
-    console.log(`::warning::"${slug}" tem carrossel.json, mas os slides não foram gerados (npm run carrossel -- ${slug}).`);
+  if (!(await existe(join('public', 'social', slug, reel ? 'reel.mp4' : 'slide-01.png')))) {
+    const cmd = reel ? 'npm run reel' : 'npm run carrossel';
+    console.log(`::warning::"${slug}" tem carrossel.json, mas ${reel ? 'o Reel não foi gerado' : 'os slides não foram gerados'} (${cmd} -- ${slug}).`);
     continue;
   }
   if (!sitemap.includes(`/blog/${slug}/`)) {
@@ -74,5 +83,6 @@ for (const { slug } of vencidos) {
   if (!escolhido) escolhido = slug;
 }
 
-console.log(escolhido ? `Publicar no Instagram: ${escolhido}` : 'Nada a publicar no Instagram agora.');
+const tipo = reel ? 'Reel' : 'carrossel';
+console.log(escolhido ? `Publicar ${tipo} no Instagram: ${escolhido}` : `Nenhum ${tipo} a publicar no Instagram agora.`);
 if (process.env.GITHUB_OUTPUT) await appendFile(process.env.GITHUB_OUTPUT, `slug=${escolhido}\n`);
