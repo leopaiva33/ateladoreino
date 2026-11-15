@@ -1,0 +1,44 @@
+{
+  "redirects": [
+    {
+      "source": "/como-manter-a-fe-em-tempos-dificeis",
+      "destination": "/blog/confiar-em-deus-nos-tempos-dificeis/",
+      "permanent": true
+    },
+    {
+      "source": "/como-manter-a-fe-em-tempos-dificeis/",
+      "destination": "/blog/confiar-em-deus-nos-tempos-dificeis/",
+      "permanent": true
+    },
+    {
+      "source": "/depender-de-deus",
+      "destination": "/blog/confiar-em-deus-nos-tempos-dificeis/",
+      "permanent": true
+    },
+    {
+      "source": "/depender-de-deus/",
+      "destination": "/blog/confiar-em-deus-nos-tempos-dificeis/",
+      "permanent": true
+    },
+    {
+      "source": "/o-que-e-intimidade-com-deus",
+      "destination": "/blog/o-poder-da-oracao-no-dia-a-dia/",
+      "permanent": true
+    },
+    {
+      "source": "/o-que-e-intimidade-com-deus/",
+      "destination": "/blog/o-poder-da-oracao-no-dia-a-dia/",
+      "permanent": true
+    },
+    {
+      "source": "/a-fe-e-o-copo-meio-cheio-e-meio-vazio",
+      "destination": "/blog/como-ter-fe-segundo-a-biblia/",
+      "permanent": true
+    },
+    {
+      "source": "/a-fe-e-o-copo-meio-cheio-e-meio-vazio/",
+      "destination": "/blog/como-ter-fe-segundo-a-biblia/",
+      "permanent": true
+    }
+  ]
+}
