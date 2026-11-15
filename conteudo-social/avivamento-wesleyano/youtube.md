@@ -32,7 +32,7 @@ John Wesley nasceu em 1703, em Epworth, na Inglaterra, filho do pastor anglicano
 ### 3. O Clube Santo de Oxford (1:20 a 2:00)
 
 **Narração:**
-Na Universidade de Oxford, por volta de 1729, Charles Wesley, irmão de John, reuniu alguns colegas para estudar a Bíblia, orar, tomar a ceia com frequência e visitar presos e doentes. John logo passou a liderar o grupo. Os outros estudantes zombavam e os chamavam de "Clube Santo" e de "metodistas", pelo jeito metódico de organizar a vida. O apelido pegou e virou o nome de um movimento. Mas, naquela época, toda essa disciplina ainda não dava a John a paz que ele procurava. Ele se esforçava muito para agradar a Deus e continuava sem paz.
+Na Universidade de Oxford, por volta de 1729, Charles Wesley, irmão de John, reuniu alguns colegas para estudar a Bíblia, orar, tomar a ceia com frequência e visitar presos e doentes. John logo passou a liderar o grupo. Os outros estudantes zombavam e os chamavam de "Clube Santo" e de "metodistas", pelo jeito metódico de organizar a vida. O apelido pegou e virou o nome de um movimento. Mas, naquela época, toda essa disciplina ainda não dava a John a paz que ele procurava. Ele se esforçava muito para agradar a Deus.
 
 **Na tela:** texto "Oxford, por volta de 1729". Agenda estilizada com horários de oração, estudo e visitas. Palavra "METODISTAS" em destaque.
 
@@ -60,7 +60,7 @@ George Whitefield, que também tinha feito parte do Clube Santo, pregava ao ar l
 ### 7. As marcas do avivamento wesleyano (4:30 a 5:30)
 
 **Narração:**
-O que fez esse avivamento durar não foi só a pregação. Wesley organizou os novos convertidos em classes, grupos de cerca de doze pessoas com um líder, que se reuniam toda semana para orar, cantar e perguntar uns aos outros como estava a vida com Deus. Era um discipulado próximo, no espírito de Tiago 5:16: orai uns pelos outros. Charles Wesley escreveu milhares de hinos, que ensinavam a fé de um jeito fácil de lembrar. E o movimento cuidava de pobres, presos e doentes, abria escolas. E, no fim da vida, Wesley escreveu contra a escravidão. Para ele, a vida cristã era crescer em santidade, entendida como amor a Deus e ao próximo.
+O que fez esse avivamento durar não foi só a pregação. Wesley organizou os novos convertidos em classes, grupos de cerca de doze pessoas com um líder, que se reuniam toda semana para orar, cantar e perguntar uns aos outros como estava a vida com Deus. Era um discipulado próximo, no espírito de Tiago 5:16: orai uns pelos outros. Charles Wesley escreveu milhares de hinos, que ensinavam a fé de um jeito fácil de lembrar. O movimento cuidava de pobres, presos e doentes e abria escolas. No fim da vida, Wesley escreveu contra a escravidão. Para ele, a vida cristã era crescer em santidade, entendida como amor a Deus e ao próximo.
 
 **Na tela:** três cartões: "Classes de ~12 pessoas", "Hinos de Charles Wesley", "Serviço aos pobres". Tiago 5:16 e Gálatas 5:6 com as referências.
 

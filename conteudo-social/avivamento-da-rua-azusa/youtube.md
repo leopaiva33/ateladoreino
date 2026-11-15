@@ -25,7 +25,7 @@ Em 1906, num prédio simples de madeira em Los Angeles, começaram reuniões que
 ### 2. Quem foi William J. Seymour (0:40 a 1:40)
 
 **Narração:**
-William Joseph Seymour nasceu em 1870, na Louisiana, nos Estados Unidos, filho de pais que haviam sido escravizados. Cresceu num país marcado pela segregação racial. Adulto, ligou-se a igrejas do movimento de santidade, herdeiro em parte do ensino de John Wesley sobre a santificação. Em 1905, em Houston, quis estudar na escola bíblica do pregador Charles Parham. Por causa das leis de segregação, segundo os relatos, Seymour acompanhava as aulas do lado de fora da sala. Mesmo assim, perseverou. Imagine acompanhar as aulas do lado de fora da sala, sem poder sentar com os outros alunos.
+William Joseph Seymour nasceu em 1870, na Louisiana, nos Estados Unidos, filho de pais que haviam sido escravizados. Cresceu num país marcado pela segregação racial. Adulto, ligou-se a igrejas do movimento de santidade, herdeiro em parte do ensino de John Wesley sobre a santificação. Em 1905, em Houston, quis estudar na escola bíblica do pregador Charles Parham. Por causa das leis de segregação, segundo os relatos, Seymour acompanhava as aulas do lado de fora da sala. Mesmo assim, perseverou. Imagine estudar a Bíblia assim, sem poder sentar com os outros alunos.
 
 **Na tela:** linha do tempo: "1870: nascimento na Louisiana", "1905: Houston". Imagem de uma porta entreaberta com luz saindo.
 
