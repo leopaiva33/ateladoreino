@@ -29,7 +29,7 @@ export const SITE = {
    * ID de medição do Google Analytics 4 (G-XXXXXXXXXX). Vazio = GA desligado.
    * Com ID, o site mostra um aviso de cookies e só ativa os cookies do GA após o "Aceitar".
    */
-  googleAnalytics: '' as string,
+  googleAnalytics: 'G-83V6M71HN7' as string,
 
   adsense: {
     /** ID do editor (ca-pub-...). Também deve estar em public/ads.txt. */
