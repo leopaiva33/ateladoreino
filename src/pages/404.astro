@@ -1,0 +1,27 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PostList from '../components/PostList.astro';
+import { getPublishedPosts } from '../utils/posts';
+
+const recentes = (await getPublishedPosts()).slice(0, 5);
+---
+
+<BaseLayout title="Página não encontrada" description="O endereço que você procurou não existe mais. Veja as reflexões recentes da A Tela do Reino.">
+  <section class="hero">
+    <h1>Esta página não foi encontrada</h1>
+    <p>O endereço pode ter mudado ou o conteúdo foi reorganizado. Mas a Palavra continua aqui.</p>
+  </section>
+
+  <aside class="versiculo-do-dia" aria-label="Versículo">
+    <p class="texto">“…buscar-me-eis e me achareis quando me buscardes de todo o vosso coração.”</p>
+    <p class="meta">Jeremias 29:13</p>
+  </aside>
+
+  <p>
+    Você pode voltar ao <a href="/">início</a>, ver <a href="/blog">todas as reflexões</a> ou os
+    <a href="/estudos">estudos</a>.
+  </p>
+
+  <h2>Reflexões recentes</h2>
+  <PostList posts={recentes} />
+</BaseLayout>
