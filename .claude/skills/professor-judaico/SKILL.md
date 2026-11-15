@@ -237,6 +237,19 @@ e aparece em `/estudos/<slug>` (menu "Estudos"). Use `toldot.md` como modelo.
   confira as primeiras páginas antes de entregar.
 - Valide com `npm run build` e confira que `/estudos/<slug>/` foi gerada.
 
+### Estudos temáticos
+
+Estudo de um tema bíblico (não de uma porção) fica na mesma pasta e aparece em
+`/estudos`, no grupo "Temas bíblicos". Use `queda-de-lucifer.md` como modelo.
+
+- No cabeçalho, **não** use `parasha`, `numero` nem `livro`; use `tema` (o
+  assunto em poucas palavras) e `leituras` com os textos-base.
+- Divida o tema em partes, cada uma com "Em uma frase", o texto, a tradição,
+  o debate, "Para a vida" e as perguntas, e feche com uma tabela que separe o
+  que é texto bíblico claro, tradição e interpretação.
+- Valem as mesmas regras: perguntas em cada parte e no fechamento,
+  Referências, PDF e build.
+
 ## Ao terminar
 
 - Se o estudo for virar conteúdo publicado, lembre que deve passar pelo agente
