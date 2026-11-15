@@ -25,6 +25,12 @@ export const SITE = {
       'Escrevo a A Tela do Reino para levar a Palavra de Deus ao dia a dia de quem quer crescer na fé, com devocionais, reflexões bíblicas e encorajamento.',
   },
 
+  /**
+   * ID de medição do Google Analytics 4 (G-XXXXXXXXXX). Vazio = GA desligado.
+   * Com ID, o site mostra um aviso de cookies e só ativa os cookies do GA após o "Aceitar".
+   */
+  googleAnalytics: '' as string,
+
   adsense: {
     /** ID do editor (ca-pub-...). Também deve estar em public/ads.txt. */
     client: 'ca-pub-2321225607029896',

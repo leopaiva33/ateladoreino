@@ -13,6 +13,7 @@ const ano = new Date().getFullYear();
         <li><a href="/contato">Contato</a></li>
         <li><a href="/privacidade">Política de Privacidade</a></li>
         <li><a href="/termos">Termos de Uso</a></li>
+        {SITE.googleAnalytics && <li><a href="/privacidade" data-abrir-cookies>Preferências de cookies</a></li>}
       </ul>
     </nav>
     <p>&copy; {ano} {SITE.name}. Todos os direitos reservados.</p>
