@@ -1,15 +1,15 @@
 name: Instagram agendado
 
 # Publica no Instagram o carrossel de cada artigo no dia em que ele entra no blog.
-# O blog sai às 08:00 (publicacao-agendada.yml); o carrossel sai às 19:00 (Brasília),
+# O blog sai às 08:00 (publicacao-agendada.yml); o carrossel sai às 18:37 (Brasília),
 # com o artigo já no ar para o link da bio. Uma publicação por execução; a execução
-# das 21:00 é reforço (cobre falha ou um segundo artigo no mesmo dia).
+# das 20:47 é reforço (cobre falha ou um segundo artigo no mesmo dia).
 # Depois de publicar, grava conteudo-social/<slug>/instagram.json no repositório, o que
 # impede publicar o mesmo carrossel duas vezes.
 on:
   schedule:
-    - cron: '0 22 * * *' # 19:00 em Brasília
-    - cron: '0 0 * * *'  # 21:00 em Brasília (reforço)
+    - cron: '37 21 * * *' # 18:37 em Brasília (minuto quebrado: o GitHub atrasa menos)
+    - cron: '47 23 * * *' # 20:47 em Brasília (reforço)
   workflow_dispatch:
 
 permissions:
