@@ -1,6 +1,6 @@
 ---
 title: "Avivamento da Rua Azusa: a história de 1906"
-description: "A história do avivamento da Rua Azusa, em Los Angeles, em 1906: William Seymour, as reuniões de oração e a origem do movimento pentecostal."
+description: "A história do avivamento da Rua Azusa, em Los Angeles, em 1906: William Seymour, as reuniões de oração e seu papel no movimento pentecostal."
 pubDate: 2026-12-02T07:00:00-03:00
 image: "/images/posts/avivamento-da-rua-azusa.png"
 imageAlt: "Ilustração de um simples galpão de madeira numa rua de terra ao entardecer, com luz dourada saindo pelas janelas"
@@ -12,17 +12,17 @@ tags: ["avivamento", "rua azusa", "história da igreja", "pentecostalismo"]
 
 Hoje, uma parte grande dos cristãos evangélicos do mundo, inclusive no Brasil, pertence a igrejas pentecostais ou foi influenciada por elas. Por isso a história da Rua Azusa desperta curiosidade, admiração e também debates. Diferentes tradições cristãs avaliam de formas distintas algumas práticas que marcaram aquelas reuniões.
 
-Este artigo conta a história com foco nos fatos e nas pessoas: quem foi William Seymour, o que aconteceu em 1906, por que o avivamento chamou a atenção e que lições ele deixa para cristãos de qualquer tradição. É o quarto artigo da série sobre avivamento.
+A seguir, você conhece a história com foco nos fatos e nas pessoas: quem foi William Seymour, o que aconteceu em 1906, por que o avivamento chamou a atenção e que lições ele deixa para cristãos de qualquer tradição. É o quarto artigo da série sobre avivamento.
 
 ## Quem foi William J. Seymour
 
-William Joseph Seymour nasceu em 1870, na Louisiana, nos Estados Unidos, filho de pais que haviam sido escravizados. Cresceu num país marcado pela segregação racial. Adulto, ligou-se a igrejas do movimento de santidade, herdeiro em parte do ensino de John Wesley sobre a santificação, que você conhece no artigo sobre o [avivamento wesleyano](/blog/avivamento-wesleyano).
+William Joseph Seymour nasceu em 1870, na Louisiana, nos Estados Unidos, filho de pais que haviam sido escravizados. Cresceu num país marcado pela segregação racial. Adulto, ligou-se a igrejas do movimento de santidade, herdeiro em parte do ensino de John Wesley sobre a santificação. A história de Wesley está no artigo sobre o [avivamento wesleyano](/blog/avivamento-wesleyano).
 
 Em 1905, em Houston, Seymour quis estudar na escola bíblica do pregador Charles Parham, que ensinava sobre o batismo no Espírito Santo. Por causa das leis de segregação, segundo os relatos, Seymour acompanhava as aulas do lado de fora da sala. Mesmo assim, perseverou.
 
 ### O convite para Los Angeles
 
-No começo de 1906, Seymour foi convidado para pregar numa pequena igreja de Los Angeles. Sua mensagem não foi bem recebida pela liderança local, e ele acabou impedido de continuar ali. Em vez de desistir, passou a se reunir para orar na casa de uma família que o acolheu, na rua Bonnie Brae.
+No começo de 1906, Seymour foi convidado para pregar numa pequena igreja de Los Angeles. Sua mensagem não foi bem recebida pela liderança local, e ele acabou impedido de continuar ali. Em vez de desistir, passou a se reunir para orar com um grupo que o acolheu, numa casa da rua Bonnie Brae.
 
 ## As reuniões de oração na rua Bonnie Brae
 
@@ -38,7 +38,7 @@ A partir de meados de abril de 1906, as reuniões passaram a acontecer quase tod
 
 ### Uma reunião que quebrava barreiras
 
-Uma das marcas mais lembradas da Rua Azusa foi a mistura de pessoas: negros, brancos, latinos e imigrantes, homens e mulheres, ricos e pobres, num tempo em que a segregação era lei em boa parte dos Estados Unidos. Frank Bartleman, um dos participantes que escreveram sobre o avivamento, registrou que ali a linha da cor havia sido lavada pelo sangue de Cristo.
+Uma das marcas mais lembradas da Rua Azusa foi a mistura de pessoas: negros, brancos, latinos e imigrantes, homens e mulheres, ricos e pobres, num tempo em que a segregação era lei em boa parte dos Estados Unidos. Frank Bartleman, um dos participantes que escreveram sobre o avivamento, registrou que ali a linha da cor havia sido lavada no sangue.
 
 Isso lembra a palavra de Paulo de que, em Cristo, não há judeu nem grego, servo nem livre, homem nem mulher, porque todos são um (Gálatas 3:28).
 
@@ -52,7 +52,7 @@ Ainda assim, o movimento que passou pela Rua Azusa se espalhou por muitos paíse
 
 A ênfase da Rua Azusa no batismo no Espírito Santo e no falar em línguas é entendida de maneiras diferentes entre os cristãos. Igrejas pentecostais veem nela uma renovação dos dons descritos em Atos e em 1 Coríntios 12–14. Outras tradições interpretam esses textos de outro modo. Este artigo não toma partido nessa questão; o objetivo é conhecer a história e aprender com o que ela tem de comum à fé cristã.
 
-## Lições para cristãos de qualquer tradição
+## Lições do avivamento da Rua Azusa para cristãos de qualquer tradição
 
 Independentemente de como você entende os dons espirituais, alguns traços da Rua Azusa merecem atenção:
 
@@ -81,7 +81,7 @@ As reuniões começaram em abril de 1906, e o período mais intenso durou até c
 
 A Rua Azusa mostra um pregador rejeitado, um grupo pequeno orando numa casa e um prédio simples que reuniu pessoas que a sociedade separava. Seja qual for a sua tradição, essa história convida a buscar a Deus com sinceridade e a viver a unidade em Cristo.
 
-Para concluir a série, releia [o que é avivamento espiritual segundo a Bíblia](/blog/o-que-e-avivamento-espiritual) e veja como o ensino de santidade começou no [avivamento wesleyano](/blog/avivamento-wesleyano).
+Para concluir a série, releia [o que é avivamento espiritual segundo a Bíblia](/blog/o-que-e-avivamento-espiritual) e relembre a história de John Wesley no [avivamento wesleyano](/blog/avivamento-wesleyano), cujo ensino influenciou o movimento de santidade do qual Seymour fazia parte.
 
 ## Referências
 

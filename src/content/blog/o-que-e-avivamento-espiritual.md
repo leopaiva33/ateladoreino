@@ -14,7 +14,7 @@ A palavra aparece com frequência em igrejas, cultos e campanhas, e por isso gan
 
 A seguir você encontra o significado bíblico de avivamento, exemplos das Escrituras, os sinais que costumam aparecer nos relatos da história da igreja e passos práticos para buscar uma fé renovada, começando pela sua própria vida.
 
-## O significado bíblico de avivamento
+## O significado bíblico de avivamento espiritual
 
 "Avivar" é dar vida de novo, reacender. A oração mais conhecida com essa palavra está em Habacuque: "aviva, ó Senhor, a tua obra no meio dos anos" (Habacuque 3:2). O profeta vivia um tempo de crise e não pediu um espetáculo. Pediu que Deus agisse de novo, como já tinha agido no passado, e que se lembrasse da misericórdia.
 
@@ -33,13 +33,13 @@ O Antigo Testamento registra vários momentos em que o povo voltou para Deus dep
 
 No reinado de Josias, durante uma reforma do templo, foi encontrado o livro da Lei. Ao ouvir a leitura, o rei rasgou as vestes, reconheceu o pecado do povo e conduziu uma renovação da aliança, removendo a idolatria (2 Reis 22–23). **A Palavra redescoberta veio primeiro; a mudança veio depois.**
 
-### Neemias e a leitura pública da Palavra
+### Esdras, Neemias e a leitura pública da Palavra
 
 Depois do retorno do exílio, Esdras leu a Lei diante do povo reunido, e os levitas explicavam o sentido para que todos entendessem (Neemias 8:8). O povo chorou, depois celebrou, e em seguida confessou seus pecados e renovou o compromisso com Deus (Neemias 8–9).
 
 ### Pentecostes e a igreja em Jerusalém
 
-Em Atos 2, depois da descida do Espírito Santo, Pedro pregou e muitos se arrependeram. O texto descreve a vida que veio em seguida: perseveravam na doutrina dos apóstolos, na comunhão, no partir do pão e nas orações (Atos 2:42). Pouco depois, Pedro chamou o povo: "Arrependei-vos, pois, e convertei-vos, para que sejam apagados os vossos pecados, e venham, assim, os tempos do refrigério pela presença do Senhor" (Atos 3:19).
+Em Atos 2, depois da descida do Espírito Santo, Pedro pregou e muitos se arrependeram. Ali, a renovação dos discípulos transbordou em conversões: Pedro chamou ao arrependimento quem ainda não tinha crido em Jesus. O texto descreve a vida que veio em seguida: perseveravam na doutrina dos apóstolos, na comunhão, no partir do pão e nas orações (Atos 2:42). Pouco depois, Pedro fez o mesmo chamado ao povo reunido no templo (Atos 3:13-15): "Arrependei-vos, pois, e convertei-vos, para que sejam apagados os vossos pecados, e venham, assim, os tempos do refrigério pela presença do Senhor" (Atos 3:19).
 
 ## E 2 Crônicas 7:14?
 
@@ -49,7 +49,7 @@ O contexto importa. A promessa foi dada a Salomão na dedicação do templo, dir
 
 ## Sinais comuns nos relatos de avivamento
 
-Quem estuda os movimentos de renovação na história da igreja, como o dos morávios no século XVIII e o despertar ligado a John Wesley na Inglaterra, encontra alguns traços que se repetem. Eles combinam com o que a Bíblia já mostrava:
+Os relatos de movimentos de renovação na história da igreja, como o dos morávios no século XVIII e o despertar ligado a John Wesley na Inglaterra, costumam mostrar traços parecidos. Eles combinam com o que a Bíblia já mostrava:
 
 1. **Consciência do pecado e arrependimento.** As pessoas passam a levar a santidade de Deus a sério.
 2. **Fome da Palavra.** A Bíblia volta a ser lida, pregada e explicada.
@@ -98,8 +98,12 @@ Para dar os primeiros passos, veja [o poder da oração no dia a dia](/blog/o-po
 - Salmos 85:6
 - Isaías 57:15
 - 2 Reis 22–23
-- Neemias 8:8 · 8–9
-- Atos 2:42 · 3:19
+- Neemias 8:8
+- Neemias 8–9
+- Atos 2:42
+- Atos 3:13-15
+- Atos 3:19
 - 2 Crônicas 7:14
 - Gálatas 5:22-23
-- Salmos 51:10 · 51:12
+- Salmos 51:10
+- Salmos 51:12

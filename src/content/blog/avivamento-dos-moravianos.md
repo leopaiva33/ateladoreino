@@ -26,7 +26,7 @@ Herrnhut cresceu rápido e recebeu pessoas de várias origens e tradições cris
 
 Zinzendorf passou a visitar as casas, orar com os moradores e estudar a Bíblia com eles. Em maio de 1727, a comunidade aceitou um acordo de convivência fraterna, com regras para viver juntos em amor. **O avivamento dos morávios começou com reconciliação, antes de qualquer reunião extraordinária.**
 
-## O que aconteceu em 13 de agosto de 1727
+## O avivamento dos morávios: 13 de agosto de 1727
 
 No dia 13 de agosto de 1727, a comunidade se reuniu para a ceia na igreja de Berthelsdorf, a vila vizinha. Os relatos da época descrevem um forte senso da presença de Deus, lágrimas, confissão e um amor renovado entre pessoas que antes estavam em conflito.
 
@@ -34,7 +34,7 @@ Para os morávios, aquele dia ficou conhecido como o seu "Pentecostes". O que ch
 
 ## A reunião de oração de 100 anos
 
-Poucas semanas depois, no fim de agosto de 1727, um grupo de homens e mulheres da comunidade se organizou para orar em turnos de uma hora, de modo que houvesse oração a qualquer hora do dia e da noite. A inspiração costuma ser associada a um versículo sobre o altar do tabernáculo: "O fogo arderá continuamente sobre o altar; não se apagará" (Levítico 6:13).
+Cerca de duas semanas depois, no fim de agosto de 1727, um grupo de homens e mulheres da comunidade se organizou para orar em turnos de uma hora, de modo que houvesse oração a qualquer hora do dia e da noite. A inspiração costuma ser associada a um versículo sobre o altar do tabernáculo: "O fogo arderá continuamente sobre o altar; não se apagará" (Levítico 6:13).
 
 A corrente de oração atravessou gerações e se manteve, segundo os registros dos próprios morávios, por cerca de 100 anos. Não era um culto contínuo com todos presentes, e sim um revezamento: cada pessoa assumia a sua hora, fielmente, e passava o "turno" adiante.
 
@@ -46,7 +46,7 @@ Na mesma época surgiu outra prática que existe até hoje: um versículo escolh
 
 Os morávios entenderam que a oração deveria levar à missão. Em 1732, Leonhard Dober e David Nitschmann partiram de Herrnhut para a ilha de St. Thomas, no Caribe, para anunciar o evangelho a pessoas escravizadas. Nos anos seguintes, outros missionários foram para a Groenlândia, a América do Norte, a América do Sul e a África.
 
-Para uma comunidade pequena, de origem pobre e perseguida, foi um envio impressionante. Muitos historiadores da igreja veem os morávios como pioneiros das missões protestantes modernas.
+Para uma comunidade pequena, de origem pobre e perseguida, foi um envio impressionante. Os morávios são lembrados como pioneiros das missões protestantes modernas.
 
 ### O encontro com John Wesley
 

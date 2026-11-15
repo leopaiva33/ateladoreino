@@ -36,9 +36,9 @@ O ponto central não é a emoção daquela noite, mas o que ele entendeu: **a pa
 
 ## A pregação ao ar livre
 
-O amigo George Whitefield, também do Clube Santo, já pregava ao ar livre para multidões, especialmente para os mineiros de carvão perto de Bristol, que raramente entravam numa igreja. Em abril de 1739, convidou Wesley a fazer o mesmo.
+O amigo George Whitefield, também do Clube Santo, já pregava ao ar livre para multidões, especialmente para os mineiros de carvão perto de Bristol, que raramente entravam numa igreja. No começo de 1739, convidou Wesley a ir a Bristol, e em abril daquele ano Wesley pregou ao ar livre pela primeira vez.
 
-Wesley hesitou, porque pregar fora de um templo era visto como algo impróprio. Mas aceitou, e a partir dali passou décadas viajando a cavalo pela Inglaterra, pela Irlanda e pela Escócia, pregando em campos, praças e portas de minas. Em seu diário, registrou a frase que resume a decisão: considerava o mundo inteiro como a sua paróquia.
+Wesley hesitou no início, porque pregar fora de um templo era visto como algo impróprio. Mas aceitou, e a partir dali passou décadas viajando a cavalo pela Inglaterra, pela Irlanda e pela Escócia, pregando em campos, praças e entradas de minas. Em seu diário, registrou a frase que resume a decisão: considerava o mundo inteiro como a sua paróquia.
 
 Whitefield e Wesley tinham diferenças teológicas e, em alguns momentos, discordaram publicamente. Mesmo assim, mantiveram o respeito mútuo e a mesma paixão por anunciar o evangelho.
 
@@ -48,7 +48,7 @@ O que fez esse avivamento durar não foi só a pregação, mas a forma como as p
 
 ### Sociedades, classes e discipulado
 
-Wesley organizou os novos convertidos em sociedades e, dentro delas, em **classes**: grupos de cerca de doze pessoas, com um líder, que se reuniam toda semana para orar, ler a Bíblia e perguntar uns aos outros como estava a vida com Deus. Era um discipulado próximo, prático e mútuo, como o de quem confessa e ora uns pelos outros (Tiago 5:16).
+Wesley organizou os novos convertidos em sociedades e, dentro delas, em **classes**: grupos de cerca de doze pessoas, com um líder, que se reuniam toda semana para orar, cantar e perguntar uns aos outros como estava a vida com Deus. Era um discipulado próximo, prático e mútuo, no espírito do conselho de confessar as culpas e orar uns pelos outros (Tiago 5:16).
 
 ### Os hinos de Charles Wesley
 
@@ -56,7 +56,7 @@ Charles Wesley escreveu milhares de hinos. Eles ensinavam doutrina de um jeito q
 
 ### Fé que se torna serviço
 
-O movimento cuidava de pobres, presos e doentes, abria escolas e incentivava a leitura. No fim da vida, Wesley escreveu contra a escravidão e incentivou quem lutava pelo fim do tráfico de escravizados na Inglaterra. Para ele, a fé verdadeira age pelo amor (Gálatas 5:6).
+O movimento cuidava de pobres, presos e doentes, abria escolas e incentivava a leitura. No fim da vida, Wesley escreveu contra a escravidão e incentivou quem lutava pelo fim do tráfico de escravizados na Inglaterra. Para Wesley, a vida cristã era um crescimento contínuo em santidade, entendida como amor a Deus e ao próximo, e a fé opera pelo amor (Gálatas 5:6).
 
 Wesley morreu em 1791, ainda como pastor da Igreja Anglicana. O metodismo se organizou como igreja própria, primeiro nos Estados Unidos e depois na Inglaterra, e chegou também ao Brasil.
 
@@ -67,7 +67,7 @@ Você não precisa pregar em praças para aprender com o avivamento wesleyano. A
 1. **Tenha método.** Defina um horário e um plano de leitura bíblica. Disciplina não substitui a graça, mas cria espaço para ela.
 2. **Descanse na graça.** Se você vive a fé como esforço para ser aceito, releia Efésios 2:8-9 e Romanos 5:1 e ore a partir deles.
 3. **Entre em um pequeno grupo.** Procure duas ou três pessoas para se encontrar toda semana e perguntar com sinceridade: "Como está a sua vida com Deus?"
-4. **Cante o que você crê.** Escolha um hino ou cântico com boa letra bíblica e use na sua oração.
+4. **Cante o que você crê.** Escolha um hino ou cântico com boa letra bíblica e use-o na sua oração.
 5. **Sirva alguém.** Uma visita, uma refeição, uma ajuda concreta. O avivamento wesleyano foi também uma escola de amor ao próximo.
 
 ## Oração
@@ -89,7 +89,7 @@ Não. Ele permaneceu pastor anglicano até a morte e via o movimento como uma re
 
 O avivamento wesleyano une duas coisas que às vezes parecem separadas: o coração aquecido pela graça e a vida organizada para crescer na fé. Pregação, pequenos grupos, hinos e serviço formaram um movimento que atravessou séculos.
 
-Para entender o contexto da série, leia [o que é avivamento espiritual segundo a Bíblia](/blog/o-que-e-avivamento-espiritual) e conheça a comunidade que influenciou Wesley no [avivamento dos morávios](/blog/avivamento-dos-moravianos).
+Escolha uma das práticas acima, como reunir duas ou três pessoas para perguntar "como está a sua vida com Deus?", e comece nesta semana. Para entender o contexto da série, leia [o que é avivamento espiritual segundo a Bíblia](/blog/o-que-e-avivamento-espiritual) e conheça a comunidade que influenciou Wesley no [avivamento dos morávios](/blog/avivamento-dos-moravianos).
 
 ## Referências
 
