@@ -11,7 +11,7 @@ Os 3 vídeos tratam de pontos diferentes do artigo.
 Avivamento não é barulho.
 
 **Narração (cerca de 35 segundos):**
-Quando se fala em avivamento, muita gente pensa em reuniões lotadas e emoção forte. Mas, na Bíblia, avivar é dar vida de novo. É Deus renovando quem já é dele. O profeta Habacuque, num tempo de crise, orou assim: "aviva, ó Senhor, a tua obra". Ele não pediu espetáculo. Pediu que Deus agisse de novo. O sinal de avivamento é uma vida transformada: arrependimento, fome da Palavra, oração e amor.
+Quando se fala em avivamento, muita gente pensa em reuniões lotadas e emoção forte. Mas, na Bíblia, avivar é dar vida de novo. É Deus renovando quem já é dele. O profeta Habacuque, num tempo de crise, orou assim: "aviva, ó Senhor, a tua obra". Ele não pediu espetáculo. Pediu que Deus agisse de novo. O sinal seguro de avivamento é uma vida transformada: arrependimento, fome da Palavra, oração e amor.
 
 **Versículo:** "…aviva, ó Senhor, a tua obra no meio dos anos…" (Habacuque 3:2)
 

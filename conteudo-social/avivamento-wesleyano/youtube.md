@@ -11,7 +11,7 @@ Duração prevista: cerca de 7 minutos (narração de cerca de 820 palavras, a ~
 **Alternativas:**
 1. John Wesley e o coração "estranhamente aquecido"
 2. Como nasceu o metodismo: a história de John Wesley
-3. O avivamento que saiu da igreja e foi para os campos
+3. O avivamento que saiu dos templos e foi para os campos
 
 ## Roteiro
 
@@ -32,7 +32,7 @@ John Wesley nasceu em 1703, em Epworth, na Inglaterra, filho do pastor anglicano
 ### 3. O Clube Santo de Oxford (1:20 a 2:00)
 
 **Narração:**
-Na Universidade de Oxford, por volta de 1729, Charles Wesley, irmão de John, reuniu alguns colegas para estudar a Bíblia, orar, tomar a ceia com frequência e visitar presos e doentes. John logo passou a liderar o grupo. Os outros estudantes zombavam e os chamavam de "Clube Santo" e de "metodistas", pelo jeito metódico de organizar a vida. O apelido pegou e virou o nome de um movimento. Mas, naquela época, toda essa disciplina ainda não dava a John a paz que ele procurava. Ele se esforçava muito para agradar a Deus e continuava inseguro.
+Na Universidade de Oxford, por volta de 1729, Charles Wesley, irmão de John, reuniu alguns colegas para estudar a Bíblia, orar, tomar a ceia com frequência e visitar presos e doentes. John logo passou a liderar o grupo. Os outros estudantes zombavam e os chamavam de "Clube Santo" e de "metodistas", pelo jeito metódico de organizar a vida. O apelido pegou e virou o nome de um movimento. Mas, naquela época, toda essa disciplina ainda não dava a John a paz que ele procurava. Ele se esforçava muito para agradar a Deus e continuava sem paz.
 
 **Na tela:** texto "Oxford, por volta de 1729". Agenda estilizada com horários de oração, estudo e visitas. Palavra "METODISTAS" em destaque.
 
@@ -53,14 +53,14 @@ Na noite de 24 de maio de 1738, Wesley foi a uma reunião na rua Aldersgate, em 
 ### 6. A pregação ao ar livre (3:40 a 4:30)
 
 **Narração:**
-George Whitefield, amigo de Wesley desde o Clube Santo, pregava ao ar livre para os mineiros de carvão perto de Bristol, gente que raramente entrava numa igreja. No começo de 1739, convidou Wesley a ir a Bristol, e em abril daquele ano Wesley pregou ao ar livre pela primeira vez. Ele hesitou, porque pregar fora de um templo era visto como impróprio. Mas aceitou, e passou décadas viajando a cavalo pela Inglaterra, pela Irlanda e pela Escócia. Whitefield e Wesley tiveram diferenças teológicas, mas mantiveram o respeito mútuo e a mesma paixão pelo evangelho.
+George Whitefield, que também tinha feito parte do Clube Santo, pregava ao ar livre para os mineiros de carvão perto de Bristol, gente que raramente entrava numa igreja. No começo de 1739, convidou Wesley a ir a Bristol, e em abril daquele ano Wesley pregou ao ar livre pela primeira vez. Ele hesitou, porque pregar fora de um templo era visto como impróprio. Mas aceitou, e passou décadas viajando a cavalo pela Inglaterra, pela Irlanda e pela Escócia. Whitefield e Wesley tiveram diferenças teológicas, mas mantiveram o respeito mútuo e a mesma paixão pelo evangelho.
 
 **Na tela:** campo aberto com pessoas reunidas, sem rostos. Texto: "1739: Bristol". Mapa das ilhas britânicas com uma estrada desenhada.
 
 ### 7. As marcas do avivamento wesleyano (4:30 a 5:30)
 
 **Narração:**
-O que fez esse avivamento durar não foi só a pregação. Wesley organizou os novos convertidos em classes, grupos de cerca de doze pessoas com um líder, que se reuniam toda semana para orar, cantar e perguntar uns aos outros como estava a vida com Deus. Era um discipulado próximo, no espírito de Tiago 5:16: orai uns pelos outros. Charles Wesley escreveu milhares de hinos, que ensinavam a fé de um jeito fácil de lembrar. E o movimento cuidava de pobres, presos e doentes, abria escolas e, no fim da vida de Wesley, se posicionou contra a escravidão. Para ele, a vida cristã era crescer em santidade, entendida como amor a Deus e ao próximo.
+O que fez esse avivamento durar não foi só a pregação. Wesley organizou os novos convertidos em classes, grupos de cerca de doze pessoas com um líder, que se reuniam toda semana para orar, cantar e perguntar uns aos outros como estava a vida com Deus. Era um discipulado próximo, no espírito de Tiago 5:16: orai uns pelos outros. Charles Wesley escreveu milhares de hinos, que ensinavam a fé de um jeito fácil de lembrar. E o movimento cuidava de pobres, presos e doentes, abria escolas. E, no fim da vida, Wesley escreveu contra a escravidão. Para ele, a vida cristã era crescer em santidade, entendida como amor a Deus e ao próximo.
 
 **Na tela:** três cartões: "Classes de ~12 pessoas", "Hinos de Charles Wesley", "Serviço aos pobres". Tiago 5:16 e Gálatas 5:6 com as referências.
 

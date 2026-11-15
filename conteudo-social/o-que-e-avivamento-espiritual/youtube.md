@@ -10,7 +10,7 @@ Duração prevista: cerca de 7 minutos (narração de cerca de 820 palavras, a ~
 
 **Alternativas:**
 1. Avivamento não é espetáculo: o que a Bíblia ensina
-2. 2 Crônicas 7:14 e o verdadeiro sentido de avivamento
+2. 2 Crônicas 7:14: o que o versículo diz (e o que não diz)
 3. Como buscar avivamento na sua vida (5 passos bíblicos)
 
 ## Roteiro
@@ -22,7 +22,7 @@ A palavra avivamento aparece em cultos, campanhas e cânticos. Uns pensam em reu
 
 **Na tela:** ilustração do artigo (uma pequena chama acesa sobre brasas, iluminando a noite). Texto grande: "O QUE É AVIVAMENTO?". Logo no canto.
 
-### 2. O significado bíblico (0:35 a 1:40)
+### 2. O significado bíblico (0:35 a 1:45)
 
 **Narração:**
 Avivar é dar vida de novo, reacender. A oração mais conhecida com essa palavra está em Habacuque 3:2: "aviva, ó Senhor, a tua obra no meio dos anos". O profeta vivia um tempo de crise. Ele não pediu um espetáculo. Pediu que Deus agisse de novo, como já tinha agido no passado, e que se lembrasse da misericórdia. O Salmo 85, versículo 6, faz um pedido parecido: "Não tornarás a vivificar-nos, para que o teu povo se alegre em ti?" Repare em duas coisas. Quem pede é o povo de Deus: avivamento é renovação de quem já conhece o Senhor e esfriou. E o objetivo é a alegria em Deus, não a experiência em si.
@@ -31,7 +31,7 @@ Isaías acrescenta um detalhe bonito: Deus habita com o contrito e abatido de es
 
 **Na tela:** Habacuque 3:2 em letras grandes com a referência. Depois, Salmos 85:6. Destaques: "povo de Deus" e "alegria em Deus".
 
-### 3. Três exemplos na Bíblia (1:40 a 3:00)
+### 3. Três exemplos na Bíblia (1:45 a 3:00)
 
 **Narração:**
 A Bíblia registra vários momentos em que o povo voltou para Deus. Primeiro, o rei Josias. Durante uma reforma do templo, foi encontrado o livro da Lei. Ao ouvir a leitura, Josias rasgou as vestes, reconheceu o pecado do povo e renovou a aliança, como está em 2 Reis 22 e 23. A Palavra redescoberta veio primeiro; a mudança veio depois.
@@ -88,7 +88,7 @@ Leia o texto completo em ateladoreino.com: https://ateladoreino.com/blog/o-que-e
 Capítulos:
 0:00 Abertura
 0:35 O significado bíblico
-1:40 Três exemplos na Bíblia
+1:45 Três exemplos na Bíblia
 3:00 E 2 Crônicas 7:14?
 4:00 Sinais comuns de avivamento
 4:50 Como buscar avivamento na vida pessoal

@@ -15,7 +15,7 @@ William Seymour nasceu em 1870, na Louisiana, filho de pais que haviam sido escr
 
 **Versículo:** "E não nos cansemos de fazer bem, porque a seu tempo ceifaremos, se não houvermos desfalecido." (Gálatas 6:9)
 
-**Chamada final:** Siga o perfil para ver a série sobre avivamento. Leia a história completa em ateladoreino.com.
+**Chamada final:** Siga o perfil para ver a série sobre avivamento. Leia o texto completo em ateladoreino.com.
 
 **Legenda:**
 Rejeitado, mas perseverante. A história de William Seymour começa com portas fechadas.
@@ -29,7 +29,7 @@ Rejeitado, mas perseverante. A história de William Seymour começa com portas f
 Um galpão de madeira que marcou a história da igreja.
 
 **Narração (cerca de 35 segundos):**
-Em abril de 1906, as reuniões de oração da rua Bonnie Brae ficaram pequenas para tanta gente. O grupo foi para a Rua Azusa, número 312, um prédio simples que já tinha sido igreja, depósito e estábulo. Os bancos eram tábuas improvisadas. As reuniões aconteciam quase todos os dias e duraram, com mais intensidade, até cerca de 1909. É considerada um dos marcos da origem do movimento pentecostal.
+Em abril de 1906, as reuniões de oração da rua Bonnie Brae ficaram pequenas para tanta gente. O grupo foi para a Rua Azusa, número 312, um prédio simples que já tinha sido igreja, depósito e estábulo. Os bancos eram tábuas improvisadas. As reuniões aconteciam quase todos os dias e duraram, com mais intensidade, até cerca de 1909. A Rua Azusa é considerada um dos marcos da origem do movimento pentecostal. Para cristãos de qualquer tradição, vale o conselho de Paulo: avaliar tudo pelo fruto e pela Palavra.
 
 **Versículo:** "Examinai tudo. Retende o bem." (1 Tessalonicenses 5:21)
 

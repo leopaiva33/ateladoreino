@@ -9,7 +9,7 @@ Duração prevista: cerca de 7 minutos (narração de cerca de 820 palavras, a ~
 **Principal (até 60 caracteres):** Avivamento da Rua Azusa: a história de 1906
 
 **Alternativas:**
-1. William Seymour e a Rua Azusa: a história real
+1. William Seymour e a Rua Azusa: o que aconteceu em 1906
 2. Rua Azusa, 312: o galpão que marcou a história da igreja
 3. O avivamento que reuniu quem a sociedade separava
 
@@ -25,7 +25,7 @@ Em 1906, num prédio simples de madeira em Los Angeles, começaram reuniões que
 ### 2. Quem foi William J. Seymour (0:40 a 1:40)
 
 **Narração:**
-William Joseph Seymour nasceu em 1870, na Louisiana, nos Estados Unidos, filho de pais que haviam sido escravizados. Cresceu num país marcado pela segregação racial. Adulto, ligou-se a igrejas do movimento de santidade, herdeiro em parte do ensino de John Wesley sobre a santificação. Em 1905, em Houston, quis estudar na escola bíblica do pregador Charles Parham. Por causa das leis de segregação, segundo os relatos, Seymour acompanhava as aulas do lado de fora da sala. Mesmo assim, perseverou. Imagine estudar a Bíblia ouvindo pela porta, sem poder sentar com os outros alunos. Seymour não deixou que a injustiça o afastasse de Deus.
+William Joseph Seymour nasceu em 1870, na Louisiana, nos Estados Unidos, filho de pais que haviam sido escravizados. Cresceu num país marcado pela segregação racial. Adulto, ligou-se a igrejas do movimento de santidade, herdeiro em parte do ensino de John Wesley sobre a santificação. Em 1905, em Houston, quis estudar na escola bíblica do pregador Charles Parham. Por causa das leis de segregação, segundo os relatos, Seymour acompanhava as aulas do lado de fora da sala. Mesmo assim, perseverou. Imagine acompanhar as aulas do lado de fora da sala, sem poder sentar com os outros alunos.
 
 **Na tela:** linha do tempo: "1870: nascimento na Louisiana", "1905: Houston". Imagem de uma porta entreaberta com luz saindo.
 
@@ -48,7 +48,7 @@ As reuniões eram simples: oração, leitura da Bíblia e espera em Deus, em esp
 **Narração:**
 O novo endereço foi um prédio de madeira na Rua Azusa, número 312, no centro de Los Angeles. O lugar tinha sido igreja e, depois, depósito e estábulo. Os bancos eram tábuas improvisadas, e Seymour muitas vezes ficava atrás de um púlpito feito de caixotes. A partir de meados de abril de 1906, as reuniões aconteciam quase todos os dias, por muitas horas. A missão recebeu o nome de Missão da Fé Apostólica e, a partir de setembro daquele ano, publicou um jornal enviado a leitores de vários países.
 
-**Na tela:** o galpão da ilustração. Texto: "Rua Azusa, 312". Ícones de bancos de tábua e caixotes. Texto: "Set. 1906: jornal The Apostolic Faith".
+**Na tela:** o galpão da ilustração. Texto: "Rua Azusa, 312". Ícones de bancos de tábua e caixotes. Texto: "Set. 1906: jornal Fé Apostólica".
 
 ### 6. Uma reunião que quebrava barreiras (3:50 a 4:35)
 

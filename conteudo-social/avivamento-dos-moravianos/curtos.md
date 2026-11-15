@@ -8,7 +8,7 @@ Os 3 vídeos tratam de pontos diferentes do artigo.
 ## Vídeo 1: começou com reconciliação
 
 **Gancho (letras grandes, 3 primeiros segundos):**
-Esse avivamento começou com uma briga.
+Esse avivamento começou no meio de brigas.
 
 **Narração (cerca de 35 segundos):**
 Em 1722, refugiados da Morávia fundaram uma vila chamada Herrnhut, na Alemanha. Ela cresceu rápido e dividida, com disputas e desconfiança. O conde Zinzendorf passou a visitar as casas e orar com as famílias. Em maio de 1727, a comunidade aceitou um acordo para viver junta em amor. Em 13 de agosto daquele ano, na ceia, os relatos falam de confissão, lágrimas e reconciliação. O avivamento começou com perdão.
@@ -29,11 +29,11 @@ Antes de qualquer reunião extraordinária, os morávios aprenderam a se perdoar
 Uma reunião de oração que durou cerca de 100 anos.
 
 **Narração (cerca de 35 segundos):**
-Duas semanas depois da ceia de 13 de agosto de 1727, homens e mulheres de Herrnhut combinaram orar em turnos de uma hora, para que houvesse oração dia e noite. Não era um culto sem fim. Cada um assumia a sua hora e passava o turno adiante. Segundo os registros da comunidade, o revezamento atravessou gerações e durou cerca de um século. A força estava na constância.
+Duas semanas depois da ceia de 13 de agosto de 1727, homens e mulheres de Herrnhut combinaram orar em turnos de uma hora, para que houvesse oração dia e noite, inspirados, segundo a tradição, no fogo contínuo do altar. Não era um culto sem fim. Cada um assumia a sua hora e passava o turno adiante. Segundo os registros da comunidade, o revezamento atravessou gerações e durou cerca de um século. A força estava na constância.
 
 **Versículo:** "O fogo arderá continuamente sobre o altar; não se apagará." (Levítico 6:13)
 
-**Chamada final:** Salve este vídeo e escolha a sua hora de oração. Leia a história completa em ateladoreino.com.
+**Chamada final:** Salve este vídeo e escolha a sua hora de oração. Leia o texto completo em ateladoreino.com.
 
 **Legenda:**
 Se você assumisse uma hora de oração por dia, qual horário escolheria?

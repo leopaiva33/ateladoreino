@@ -10,7 +10,7 @@ Duração prevista: cerca de 7 minutos (narração de cerca de 820 palavras, a ~
 
 **Alternativas:**
 1. Herrnhut 1727: o avivamento que começou com perdão
-2. A reunião de oração de 100 anos: a história real
+2. A reunião de oração de 100 anos: como funcionava
 3. Os morávios: oração, reconciliação e missões
 
 ## Roteiro
@@ -25,7 +25,7 @@ Você já ouviu falar da "reunião de oração de 100 anos"? Ela aconteceu numa 
 ### 2. Quem eram os morávios (0:35 a 1:35)
 
 **Narração:**
-Os morávios, também chamados de moravianos, eram herdeiros da Unidade dos Irmãos, um movimento cristão do século XV, surgido na Boêmia e na Morávia, na atual República Tcheca, entre seguidores de Jan Hus. Durante séculos, viveram perseguições, e muitos praticavam a fé às escondidas. No começo do século XVIII, algumas famílias decidiram deixar a Morávia em busca de liberdade para viver a fé. Em 1722, algumas famílias, guiadas por um carpinteiro chamado Christian David, chegaram às terras do conde Zinzendorf, na Saxônia. Ali fundaram uma vila chamada Herrnhut, nome que costuma ser traduzido como "guarda do Senhor".
+Os morávios, também chamados de moravianos, eram herdeiros da Unidade dos Irmãos, um movimento cristão do século XV, surgido na Boêmia e na Morávia, na atual República Tcheca, entre seguidores de Jan Hus. Durante séculos, viveram perseguições, e muitos praticavam a fé às escondidas. No começo do século XVIII, algumas famílias decidiram deixar a Morávia em busca de liberdade para viver a fé. Em 1722, guiadas por um carpinteiro chamado Christian David, elas chegaram às terras do conde Zinzendorf, na Saxônia. Ali fundaram uma vila chamada Herrnhut, nome que costuma ser traduzido como "guarda do Senhor".
 
 **Na tela:** mapa simples da Europa Central com a Morávia e a Saxônia. Linha do tempo: "Século XV: Unidade dos Irmãos" e "1722: fundação de Herrnhut".
 
@@ -48,7 +48,7 @@ No dia 13 de agosto de 1727, a comunidade se reuniu para a ceia na igreja de Ber
 **Narração:**
 Cerca de duas semanas depois, um grupo de homens e mulheres se organizou para orar em turnos de uma hora, de modo que houvesse oração a qualquer hora do dia e da noite. A inspiração costuma ser associada a Levítico 6:13: "O fogo arderá continuamente sobre o altar; não se apagará". Não era um culto contínuo com todos presentes. Era um revezamento: cada pessoa assumia a sua hora e passava o turno adiante. Segundo os registros dos próprios morávios, essa corrente se manteve por cerca de 100 anos. Na mesma época surgiu outra prática que existe até hoje: as Senhas Diárias, um versículo para cada dia, publicado todos os anos em dezenas de idiomas.
 
-**Na tela:** relógio com as 24 horas preenchidas, uma a uma. Levítico 6:13 em letras grandes com a referência. Texto: "Senhas Diárias (Losungen), desde 1728".
+**Na tela:** relógio com as 24 horas preenchidas, uma a uma. Levítico 6:13 em letras grandes com a referência. Texto: "Senhas Diárias (Losungen): um versículo por dia".
 
 ### 6. Da oração para o mundo (4:15 a 5:05)
 
@@ -62,7 +62,7 @@ Os morávios entenderam que a oração deveria levar à missão. Em 1732, Leonha
 **Narração:**
 Você não precisa morar numa vila do século XVIII para aprender com os morávios. Um: comece pela reconciliação. Se há alguém com quem você está em conflito, ore por essa pessoa e dê um passo de paz, como ensina Mateus 5:23 e 24. Dois: assuma a sua hora. Escolha um horário fixo e seja fiel a ele por uma semana. Três: monte um revezamento com amigos ou com o grupo da igreja. Quatro: tenha um versículo do dia. Cinco: ore pelos que ainda não conhecem Cristo, inclusive missionários e pessoas próximas.
 
-Repare que nenhuma dessas práticas exige grandes recursos. A força da corrente morávia estava na constância de pessoas comuns, cada uma cuidando da sua hora. E a Igreja Morávia ainda existe hoje, em vários países, e as Senhas Diárias continuam sendo publicadas. Uma ideia simples que manteve um povo inteiro em torno da Palavra por quase três séculos.
+Repare que nenhuma dessas práticas exige grandes recursos. A força da corrente morávia estava na constância de pessoas comuns, cada uma cuidando da sua hora. E a Igreja Morávia ainda existe hoje, em vários países, e as Senhas Diárias continuam sendo publicadas. Uma ideia simples que manteve um povo inteiro em torno da Palavra.
 
 **Na tela:** os 5 passos numerados, com ícones simples (mãos dadas, relógio, calendário, Bíblia aberta, globo).
 
