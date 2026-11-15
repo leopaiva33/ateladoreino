@@ -4,8 +4,8 @@ name: Vídeos publicados no YouTube
 # Quando um deles fica público no YouTube Studio, coloca o player no artigo do blog.
 on:
   schedule:
-    - cron: '17 13 * * *' # 10:17 em Brasília
-    - cron: '17 0 * * *' # 21:17 em Brasília (logo depois das estreias das 19h)
+    - cron: '41 12 * * *' # 09:41 em Brasília
+    - cron: '29 23 * * *' # 20:29 em Brasília (logo depois das estreias das 19h)
   workflow_dispatch:
 
 permissions:
