@@ -1,0 +1,48 @@
+name: Teste de voz (Piper)
+
+# Teste temporário: gera um vídeo curto com a voz pt_BR "faber" (medium) do Piper,
+# gratuita e de código aberto, para comparar com o ElevenLabs. Roda só quando
+# testes/voz-piper/texto.txt muda num branch claude/** e devolve o vídeo ao mesmo branch.
+on:
+  push:
+    branches: ['claude/**']
+    paths: ['testes/voz-piper/texto.txt', '.github/workflows/teste-voz-piper.yml']
+
+permissions:
+  contents: write
+
+jobs:
+  gerar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Instalar Piper e ffmpeg
+        run: |
+          pip install -q piper-tts
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - name: Baixar a voz faber (pt_BR, medium)
+        run: |
+          base=https://huggingface.co/rhasspy/piper-voices/resolve/main/pt/pt_BR/faber/medium
+          curl -sSfL -o faber.onnx "$base/pt_BR-faber-medium.onnx"
+          curl -sSfL -o faber.onnx.json "$base/pt_BR-faber-medium.onnx.json"
+      - name: Gerar narração e vídeo
+        run: |
+          python -m piper -m faber.onnx -f narr.wav < testes/voz-piper/texto.txt
+          d=$(ffprobe -v error -show_entries format=duration -of csv=p=0 narr.wav)
+          t=$(python -c "print(round($d + 1.5, 2))")
+          ffmpeg -v error -y -loop 1 -framerate 30 -i public/social/o-que-e-avivamento-espiritual/reel-capa.jpg \
+            -i narr.wav -stream_loop -1 -i assets/musica/fundo.mp3 \
+            -filter_complex "[1:a]apad=pad_dur=5,loudnorm=I=-16:TP=-1.5,atrim=0:$t[n];[2:a]volume=0.12,atrim=0:$t,afade=t=out:st=$(python -c "print($t-2)"):d=2[m];[n][m]amix=inputs=2:duration=longest:normalize=0[a]" \
+            -map 0:v -map "[a]" -c:v libx264 -preset veryfast -crf 26 -pix_fmt yuv420p -c:a aac -b:a 128k -t $t -movflags +faststart \
+            testes/voz-piper/teste-voz-faber.mp4
+      - name: Devolver o vídeo ao branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add testes/voz-piper/teste-voz-faber.mp4
+          git commit -m "teste: vídeo com a voz faber do Piper"
+          git pull --rebase
+          git push
