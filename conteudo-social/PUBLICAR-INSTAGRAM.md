@@ -28,6 +28,13 @@ O workflow `youtube-shorts.yml` roda às 12:47 e às 21:31 (Brasília) e envia o
 YouTube como Short, no dia do artigo, com o título do artigo + `#Shorts` e a legenda do carrossel
 com o link direto do artigo (`scripts/publicar-shorts.mjs`). Grava `conteudo-social/<slug>/short.json`.
 
+### Página do Facebook (Atela)
+
+Os mesmos workflows publicam também na Página do Facebook vinculada ao Instagram, logo depois do
+Instagram: o Reel em `instagram-reels.yml` e o carrossel (post com as fotos) em `instagram-agendado.yml`.
+No Facebook, a legenda leva o link direto do artigo. Registros: `facebook.json` e `facebook-reel.json`.
+Vale para artigos a partir de 17/11/2026. Teste manual: Actions > **Facebook (manual)**.
+
 Credenciais: usuário do sistema `publicador-instagram` (portfólio atela_reino), token sem expiração,
 nos segredos `IG_USER_ID` e `IG_ACCESS_TOKEN` do repositório.
 
