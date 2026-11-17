@@ -1,0 +1,55 @@
+name: Facebook (manual)
+
+# Disparo manual: diagnóstico do acesso à Página do Facebook, ou publicação de um carrossel/Reel.
+on:
+  workflow_dispatch:
+    inputs:
+      modo:
+        description: 'diagnostico, carrossel ou reel'
+        required: true
+        default: diagnostico
+        type: choice
+        options: [diagnostico, carrossel, reel]
+      slug:
+        description: 'Slug do artigo (para carrossel ou reel)'
+        required: false
+        type: string
+      publicar:
+        description: 'Marque para publicar de verdade; desmarcado, só simula'
+        required: false
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+
+jobs:
+  facebook:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Executar
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          MODO: ${{ inputs.modo }}
+          SLUG: ${{ inputs.slug }}
+          PUBLICAR: ${{ inputs.publicar }}
+        run: |
+          if [ "$MODO" = "diagnostico" ]; then node scripts/publicar-facebook.mjs --diagnostico; exit 0; fi
+          a=("$SLUG"); [ "$MODO" = "reel" ] && a+=(--reel); [ "$PUBLICAR" = "true" ] && a+=(--publicar)
+          node scripts/publicar-facebook.mjs "${a[@]}"
+      - name: Registrar publicação
+        if: inputs.modo != 'diagnostico' && inputs.publicar
+        env:
+          SLUG: ${{ inputs.slug }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add conteudo-social/$SLUG/facebook*.json
+          git commit -m "chore: $SLUG publicado no Facebook (${{ inputs.modo }})"
+          git pull --rebase
+          git push
