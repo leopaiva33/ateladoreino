@@ -50,3 +50,28 @@ jobs:
           git commit -m "chore: Reel de $SLUG publicado no Instagram"
           git pull --rebase
           git push
+
+      # Facebook: a mesma publicação na Página (falha aqui não afeta o Instagram).
+      - name: Qual Reel publicar no Facebook?
+        id: fila_fb
+        if: always()
+        continue-on-error: true
+        run: |
+          git pull -q --rebase || true
+          node scripts/instagram-agendado.mjs --facebook --reel
+
+      - name: Publicar no Facebook
+        if: always() && steps.fila_fb.outputs.slug != ''
+        continue-on-error: true
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          SLUG: ${{ steps.fila_fb.outputs.slug }}
+        run: |
+          node scripts/publicar-facebook.mjs "$SLUG" --reel --publicar
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "conteudo-social/$SLUG/facebook-reel.json"
+          git commit -m "chore: Reel de $SLUG publicado no Facebook"
+          git pull --rebase
+          git push
