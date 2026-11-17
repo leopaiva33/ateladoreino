@@ -12,6 +12,7 @@
 // Com --reel, faz a mesma escolha para os Reels (vídeo vertical do carrossel):
 // exige public/social/<slug>/reel.mp4 (npm run reel -- <slug>), usa o registro
 // conteudo-social/<slug>/reel.json e só considera datas a partir de INICIO_REEL.
+// Com --short, igual ao --reel, mas para o YouTube Shorts (registro short.json).
 // Artigos vencidos sem carrossel geram um aviso no log do GitHub Actions.
 import { readdir, readFile, appendFile, access } from 'node:fs/promises';
 import { join } from 'node:path';
@@ -20,11 +21,12 @@ const DIR = 'src/content/blog';
 const SITEMAP = process.env.SITEMAP_URL ?? 'https://www.ateladoreino.com/sitemap-0.xml';
 // Artigos anteriores a esta data só são publicados automaticamente se estiverem em
 // conteudo-social/agenda-instagram.json (ou pelo workflow manual).
-const reel = process.argv.includes('--reel');
+const short = process.argv.includes('--short');
+const reel = short || process.argv.includes('--reel');
 const INICIO = reel
   ? Date.parse(process.env.INICIO_REEL_ISO ?? '2026-11-16T00:00:00-03:00')
   : Date.parse(process.env.INICIO_ISO ?? '2026-11-07T00:00:00-03:00');
-const REGISTRO = reel ? 'reel.json' : 'instagram.json';
+const REGISTRO = short ? 'short.json' : reel ? 'reel.json' : 'instagram.json';
 const agora = process.env.AGORA_ISO ? Date.parse(process.env.AGORA_ISO) : Date.now();
 const existe = (p) => access(p).then(() => true, () => false);
 
@@ -83,6 +85,7 @@ for (const { slug } of vencidos) {
   if (!escolhido) escolhido = slug;
 }
 
-const tipo = reel ? 'Reel' : 'carrossel';
-console.log(escolhido ? `Publicar ${tipo} no Instagram: ${escolhido}` : `Nenhum ${tipo} a publicar no Instagram agora.`);
+const tipo = short ? 'Short' : reel ? 'Reel' : 'carrossel';
+const rede = short ? 'YouTube' : 'Instagram';
+console.log(escolhido ? `Publicar ${tipo} no ${rede}: ${escolhido}` : `Nenhum ${tipo} a publicar no ${rede} agora.`);
 if (process.env.GITHUB_OUTPUT) await appendFile(process.env.GITHUB_OUTPUT, `slug=${escolhido}\n`);

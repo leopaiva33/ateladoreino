@@ -22,6 +22,12 @@ artigo, o Reel com os slides do carrossel em formato vertical (1080x1920), com t
 de fundo do canal. Usa a mesma legenda do carrossel e grava `conteudo-social/<slug>/reel.json`. Vale
 para artigos (e itens da agenda) a partir de 16/11/2026.
 
+### YouTube Shorts
+
+O workflow `youtube-shorts.yml` roda às 12:47 e às 21:31 (Brasília) e envia o mesmo `reel.mp4` ao
+YouTube como Short, no dia do artigo, com o título do artigo + `#Shorts` e a legenda do carrossel
+com o link direto do artigo (`scripts/publicar-shorts.mjs`). Grava `conteudo-social/<slug>/short.json`.
+
 Credenciais: usuário do sistema `publicador-instagram` (portfólio atela_reino), token sem expiração,
 nos segredos `IG_USER_ID` e `IG_ACCESS_TOKEN` do repositório.
 
