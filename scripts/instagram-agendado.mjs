@@ -15,6 +15,7 @@
 // Com --short, igual ao --reel, mas para o YouTube Shorts (registro short.json).
 // Com --facebook (e opcionalmente --reel), a mesma fila para a Página do Facebook
 // (registros facebook.json e facebook-reel.json), a partir de INICIO_FB.
+// Com --threads, a fila do Threads (registro threads.json), a partir de INICIO_FB.
 // Artigos vencidos sem carrossel geram um aviso no log do GitHub Actions.
 import { readdir, readFile, appendFile, access } from 'node:fs/promises';
 import { join } from 'node:path';
@@ -25,13 +26,14 @@ const SITEMAP = process.env.SITEMAP_URL ?? 'https://www.ateladoreino.com/sitemap
 // conteudo-social/agenda-instagram.json (ou pelo workflow manual).
 const short = process.argv.includes('--short');
 const reel = short || process.argv.includes('--reel');
-const facebook = process.argv.includes('--facebook');
+const threads = process.argv.includes('--threads');
+const facebook = threads || process.argv.includes('--facebook');
 const INICIO = facebook
   ? Date.parse(process.env.INICIO_FB_ISO ?? '2026-11-17T00:00:00-03:00')
   : reel
   ? Date.parse(process.env.INICIO_REEL_ISO ?? '2026-11-16T00:00:00-03:00')
   : Date.parse(process.env.INICIO_ISO ?? '2026-11-07T00:00:00-03:00');
-const REGISTRO = facebook ? (reel ? 'facebook-reel.json' : 'facebook.json') : short ? 'short.json' : reel ? 'reel.json' : 'instagram.json';
+const REGISTRO = threads ? 'threads.json' : facebook ? (reel ? 'facebook-reel.json' : 'facebook.json') : short ? 'short.json' : reel ? 'reel.json' : 'instagram.json';
 const agora = process.env.AGORA_ISO ? Date.parse(process.env.AGORA_ISO) : Date.now();
 const existe = (p) => access(p).then(() => true, () => false);
 
@@ -90,7 +92,7 @@ for (const { slug } of vencidos) {
   if (!escolhido) escolhido = slug;
 }
 
-const tipo = short ? 'Short' : reel ? 'Reel' : 'carrossel';
-const rede = facebook ? 'Facebook' : short ? 'YouTube' : 'Instagram';
+const tipo = threads ? 'post' : short ? 'Short' : reel ? 'Reel' : 'carrossel';
+const rede = threads ? 'Threads' : facebook ? 'Facebook' : short ? 'YouTube' : 'Instagram';
 console.log(escolhido ? `Publicar ${tipo} no ${rede}: ${escolhido}` : `Nenhum ${tipo} a publicar no ${rede} agora.`);
 if (process.env.GITHUB_OUTPUT) await appendFile(process.env.GITHUB_OUTPUT, `slug=${escolhido}\n`);

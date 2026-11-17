@@ -35,6 +35,15 @@ Instagram: o Reel em `instagram-reels.yml` e o carrossel (post com as fotos) em 
 No Facebook, a legenda leva o link direto do artigo. Registros: `facebook.json` e `facebook-reel.json`.
 Vale para artigos a partir de 17/11/2026. Teste manual: Actions > **Facebook (manual)**.
 
+### Threads
+
+O workflow `threads.yml` publica no Threads, às 09:13 (reforço 15:23), um post de texto por artigo:
+título, o primeiro versículo do carrossel com a referência, o comentário, a pergunta da legenda e o
+link do artigo (`scripts/publicar-threads.mjs`, registro `threads.json`, a partir de 17/11/2026).
+O Threads tem token próprio (segredo `THREADS_ACCESS_TOKEN`, 60 dias). Nos dias 1 e 15 o workflow
+renova o token e grava o novo no segredo, usando `GH_SECRETS_TOKEN` (token do GitHub de granularidade
+fina, só deste repositório, com permissão "Secrets: read and write").
+
 Credenciais: usuário do sistema `publicador-instagram` (portfólio atela_reino), token sem expiração,
 nos segredos `IG_USER_ID` e `IG_ACCESS_TOKEN` do repositório.
 
