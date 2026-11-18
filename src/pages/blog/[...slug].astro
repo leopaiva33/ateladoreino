@@ -7,6 +7,7 @@ import LeiaTambem from '../../components/LeiaTambem.astro';
 import { SITE } from '../../config';
 import Compartilhar from '../../components/Compartilhar.astro';
 import VideoYoutube from '../../components/VideoYoutube.astro';
+import NewsletterForm from '../../components/NewsletterForm.astro';
 import { getPublishedPosts, getRelatedPosts, formatDate } from '../../utils/posts';
 import { jsonLdArtigo } from '../../utils/jsonld';
 
@@ -95,6 +96,8 @@ const jsonLd = jsonLdArtigo({
     <Compartilhar url={urlCompleta} titulo={title} />
 
     <AutorBox />
+
+    <NewsletterForm />
 
     <LeiaTambem posts={relacionados} />
 

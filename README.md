@@ -85,3 +85,15 @@ Para um post novo: crie `art/<slug>.svg`, rode `npm run images` e preencha `imag
 ## Deploy
 
 A Vercel faz o build a cada push na branch principal (`npm run build`, saída `dist/`).
+
+## Newsletter (Brevo)
+
+- **Inscrição:** formulário no fim de cada artigo, na página inicial e em `/newsletter`. Ele envia
+  para a função da Vercel `api/newsletter.js`, que pede ao Brevo a confirmação por e-mail (dupla
+  confirmação). Depois do clique, a pessoa cai em `/newsletter/confirmada/`. Variáveis na Vercel:
+  `BREVO_API_KEY`, `BREVO_LIST_ID`, `BREVO_DOI_TEMPLATE_ID`.
+- **Envio:** o workflow `newsletter.yml` roda todo domingo às 19:37 (reforço 21:23) e envia a edição
+  com os artigos dos últimos 7 dias (`scripts/newsletter.mjs`). Registro em
+  `conteudo-social/newsletter/<data>.json`. No GitHub: segredo `BREVO_API_KEY` e variáveis
+  `BREVO_LIST_ID`, `BREVO_SENDER_EMAIL` e `BREVO_TEST_EMAIL`.
+- **Prévia local:** `node scripts/newsletter.mjs --previa newsletter-previa.html`.
