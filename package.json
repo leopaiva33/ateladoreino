@@ -12,6 +12,7 @@
     "images": "node scripts/render-images.mjs",
     "carrossel": "node scripts/gerar-carrossel.mjs",
     "reel": "node scripts/gerar-carrossel.mjs --reel",
+    "pin": "node scripts/gerar-carrossel.mjs --pin",
     "instagram": "node scripts/publicar-instagram.mjs",
     "video": "node scripts/gerar-video.mjs",
     "pdf": "node scripts/gerar-pdf-estudos.mjs"
