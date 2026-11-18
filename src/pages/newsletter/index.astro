@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import NewsletterForm from '../../components/NewsletterForm.astro';
+import { SITE } from '../../config';
 ---
 
 <BaseLayout
@@ -18,6 +19,7 @@ import NewsletterForm from '../../components/NewsletterForm.astro';
       <li>Grátis, e você cancela quando quiser, pelo link no fim de cada e-mail.</li>
       <li>Citações bíblicas na Almeida Revista e Corrigida (ARC), com referência.</li>
     </ul>
+    {!SITE.newsletter && <p><strong>As inscrições abrem em breve.</strong></p>}
     <NewsletterForm titulo="Inscreva-se" texto="Digite o seu e-mail. Você vai receber um link para confirmar a inscrição." />
   </div>
 </BaseLayout>

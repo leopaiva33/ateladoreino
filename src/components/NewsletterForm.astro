@@ -11,9 +11,11 @@ const {
   titulo = 'Receba a reflexão da semana',
   texto = 'Todo domingo à noite: os artigos da semana, um versículo e uma oração para começar a semana com Deus. Grátis, e você cancela quando quiser.',
 } = Astro.props;
+import { SITE } from '../config';
 const id = `nl-${Math.random().toString(36).slice(2, 8)}`;
 ---
 
+{SITE.newsletter && (
 <section class="newsletter" aria-labelledby={`${id}-titulo`}>
   <h2 id={`${id}-titulo`}>{titulo}</h2>
   <p>{texto}</p>
@@ -34,6 +36,7 @@ const id = `nl-${Math.random().toString(36).slice(2, 8)}`;
     <p class="newsletter-status" role="status" aria-live="polite"></p>
   </form>
 </section>
+)}
 
 <script>
   document.querySelectorAll<HTMLFormElement>('form[data-newsletter]').forEach((form) => {

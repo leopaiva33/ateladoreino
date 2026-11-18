@@ -30,6 +30,8 @@ export const SITE = {
    * Com ID, o site mostra um aviso de cookies e só ativa os cookies do GA após o "Aceitar".
    */
   googleAnalytics: 'G-83V6M71HN7' as string,
+  // Liga o formulário da newsletter (Brevo) quando a conta estiver configurada.
+  newsletter: false as boolean,
 
   adsense: {
     /** ID do editor (ca-pub-...). Também deve estar em public/ads.txt. */
