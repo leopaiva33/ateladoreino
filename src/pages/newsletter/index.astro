@@ -1,0 +1,23 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import NewsletterForm from '../../components/NewsletterForm.astro';
+---
+
+<BaseLayout
+  title="Newsletter"
+  description="Receba todo domingo à noite os artigos da semana da A Tela do Reino, um versículo e uma oração. Grátis."
+>
+  <div class="pagina">
+    <h1>Newsletter da A Tela do Reino</h1>
+    <p>
+      Uma vez por semana, no domingo à noite, você recebe no seu e-mail as reflexões publicadas na
+      semana, um versículo para meditar e uma oração curta para começar a semana com Deus.
+    </p>
+    <ul>
+      <li>Sem spam: só a edição semanal.</li>
+      <li>Grátis, e você cancela quando quiser, pelo link no fim de cada e-mail.</li>
+      <li>Citações bíblicas na Almeida Revista e Corrigida (ARC), com referência.</li>
+    </ul>
+    <NewsletterForm titulo="Inscreva-se" texto="Digite o seu e-mail. Você vai receber um link para confirmar a inscrição." />
+  </div>
+</BaseLayout>

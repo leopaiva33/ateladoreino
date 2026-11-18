@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import PostList from '../components/PostList.astro';
+import NewsletterForm from '../components/NewsletterForm.astro';
 import { getPublishedPosts } from '../utils/posts';
 import { jsonLdSite } from '../utils/jsonld';
 
@@ -21,5 +22,7 @@ const recentes = (await getPublishedPosts()).slice(0, 5);
 
   <h2>Reflexões recentes</h2>
   <PostList posts={recentes} />
+
+  <NewsletterForm />
   <p><a href="/blog">Ver todas as reflexões →</a></p>
 </BaseLayout>
