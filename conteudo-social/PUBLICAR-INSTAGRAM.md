@@ -44,6 +44,15 @@ O Threads tem token próprio (segredo `THREADS_ACCESS_TOKEN`, 60 dias). Nos dias
 renova o token e grava o novo no segredo, usando `GH_SECRETS_TOKEN` (token do GitHub de granularidade
 fina, só deste repositório, com permissão "Secrets: read and write").
 
+### Pinterest
+
+`npm run pin -- <slug>` gera `public/social/<slug>/pin-1.jpg` (ilustração e título) e `pin-2.jpg`
+(versículo), em 1000x1500. O workflow `pinterest.yml` publica um pin por execução, às 10:29 e 16:41:
+primeiro os pins 1 dos artigos já no ar (inclusive os antigos), depois os pins 2, três dias depois de
+cada artigo. Link com UTM (`utm_source=pinterest`) para medir no Analytics. Registros
+`pinterest-1.json` e `pinterest-2.json`. Segredos: `PINTEREST_APP_ID`, `PINTEREST_APP_SECRET`,
+`PINTEREST_REFRESH_TOKEN`; variáveis opcionais `PINTEREST_BOARD` e `PINTEREST_SANDBOX`.
+
 Credenciais: usuário do sistema `publicador-instagram` (portfólio atela_reino), token sem expiração,
 nos segredos `IG_USER_ID` e `IG_ACCESS_TOKEN` do repositório.
 

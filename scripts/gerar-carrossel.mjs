@@ -7,6 +7,10 @@
 // contador nem "Deslize"), em sequência, com transições suaves e a música de fundo do canal
 // (assets/musica/fundo.mp3). Saída: public/social/<slug>/reel.mp4 e reel-capa.jpg.
 // Uso: npm run reel -- <slug>
+//
+// Com --pin, gera os pins do Pinterest (1000x1500, formato 2:3): pin-1.jpg com a ilustração e o
+// título, e pin-2.jpg com o primeiro versículo (ou o primeiro slide de texto), com o endereço do site.
+// Uso: npm run pin -- <slug>
 import { readFile, mkdir, mkdtemp, rm, access } from 'node:fs/promises';
 import { join } from 'node:path';
 import { tmpdir } from 'node:os';
@@ -21,10 +25,11 @@ if (!slug) {
 
 const spec = JSON.parse(await readFile(join('conteudo-social', slug, 'carrossel.json'), 'utf8'));
 const reel = process.argv.includes('--reel');
-const L = 1080;
-const A = reel ? 1920 : 1350;
+const pin = process.argv.includes('--pin');
+const L = pin ? 1000 : 1080;
+const A = pin ? 1500 : reel ? 1920 : 1350;
 // No Reel, a interface do Instagram cobre o topo e principalmente a base da tela.
-const ZONA = reel ? { marca: 250, topo: 360, base: A - 440, arteTopo: 340, arteAlt: 620 } : { marca: 78, topo: 170, base: A - 150, arteTopo: 130, arteAlt: 540 };
+const ZONA = pin ? { marca: 76, topo: 170, base: A - 170, arteTopo: 130, arteAlt: 660 } : reel ? { marca: 250, topo: 360, base: A - 440, arteTopo: 340, arteAlt: 620 } : { marca: 78, topo: 170, base: A - 150, arteTopo: 130, arteAlt: 540 };
 const MARGEM = 110;
 const LARG_TEXTO = L - 2 * MARGEM;
 const C = {
@@ -95,7 +100,10 @@ async function slide(s, i, total) {
   const camadas = [];
   const marca = await texto('A TELA DO REINO', { fonte: 'Arial 26', cor: C.ouro, estilo: 'b' });
   camadas.push({ input: marca.input, top: ZONA.marca, left: Math.round((L - marca.w) / 2) });
-  if (!reel) {
+  if (pin) {
+    const site = await texto('ateladoreino.com', { fonte: 'Arial 32', cor: C.vinho, estilo: 'b' });
+    camadas.push({ input: site.input, top: A - 110, left: Math.round((L - site.w) / 2) });
+  } else if (!reel) {
     const contador = await texto(`${i + 1} / ${total}`, { fonte: 'Arial 26', cor: C.ouro });
     camadas.push({ input: contador.input, top: A - 98, left: Math.round((L - contador.w) / 2) });
   }
@@ -112,7 +120,8 @@ async function slide(s, i, total) {
       await texto('DEVOCIONAL', { fonte: 'Arial 30', cor: C.ouro, estilo: 'b' }),
       await texto(s.titulo, { fonte: 'Georgia 74', cor: C.vinho, estilo: 'b' }),
     ];
-    if (!reel) blocos.push(await texto('Deslize →', { fonte: 'Arial 34', cor: C.ouro }));
+    if (pin) blocos.push(await texto('Leia no blog →', { fonte: 'Arial 34', cor: C.ouro }));
+    else if (!reel) blocos.push(await texto('Deslize →', { fonte: 'Arial 34', cor: C.ouro }));
     topo = ZONA.arteTopo + ZONA.arteAlt + 20;
   } else if (s.tipo === 'texto' || s.tipo === 'final') {
     if (s.titulo) {
@@ -149,7 +158,16 @@ async function slide(s, i, total) {
 const saida = join('public', 'social', slug);
 await mkdir(saida, { recursive: true });
 
-if (!reel) {
+if (pin) {
+  const capa = spec.slides.find((s) => s.tipo === 'capa');
+  const segundo = spec.slides.find((s) => s.tipo === 'versiculo') ?? spec.slides.find((s) => s.tipo === 'texto');
+  for (const [n, s] of [[1, capa], [2, segundo]]) {
+    if (!s) continue;
+    const arquivo = join(saida, `pin-${n}.jpg`);
+    await sharp(await slide(s, 0, 1)).jpeg({ quality: 90, mozjpeg: true }).toFile(arquivo);
+    console.log('gerado', arquivo);
+  }
+} else if (!reel) {
   for (let i = 0; i < spec.slides.length; i++) {
     const buf = await slide(spec.slides[i], i, spec.slides.length);
     const arquivo = join(saida, `slide-${String(i + 1).padStart(2, '0')}.png`);
