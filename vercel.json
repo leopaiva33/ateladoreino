@@ -39,6 +39,16 @@
       "source": "/a-fe-e-o-copo-meio-cheio-e-meio-vazio/",
       "destination": "/blog/como-ter-fe-segundo-a-biblia/",
       "permanent": true
+    },
+    {
+      "source": "/o-que-e-avivamento-espiritual",
+      "destination": "/blog/o-que-e-avivamento-espiritual/",
+      "permanent": true
+    },
+    {
+      "source": "/o-que-e-avivamento-espiritual/",
+      "destination": "/blog/o-que-e-avivamento-espiritual/",
+      "permanent": true
     }
   ]
 }
