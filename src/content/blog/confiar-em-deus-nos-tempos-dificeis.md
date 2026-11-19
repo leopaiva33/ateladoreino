@@ -58,11 +58,11 @@ Em dias assim, experimente um roteiro de cinco minutos:
 4. Entregue esse peso a ele, com as suas palavras.
 5. Escolha uma pessoa a quem pedir ajuda ou oração ainda hoje.
 
-Se quiser transformar isso em hábito, veja [Como ter um devocional diário que realmente funciona](/blog/como-ter-um-devocional-diario).
+Se quiser transformar isso em hábito, veja [Como ter um devocional diário que realmente funciona](/blog/como-ter-um-devocional-diario/).
 
 ## Quando o sofrimento é muito grande
 
-Este texto é devocional e **não substitui ajuda profissional, médica ou pastoral**. Se a tristeza, a angústia ou o medo estiverem atrapalhando o seu dia a dia, procure um médico, um psicólogo ou um líder de confiança. No Brasil, o CVV atende gratuitamente, 24 horas, pelo 188. Para uma reflexão sobre esse tema, leia [Encontrar paz em meio à ansiedade](/blog/encontrar-paz-em-meio-a-ansiedade).
+Este texto é devocional e **não substitui ajuda profissional, médica ou pastoral**. Se a tristeza, a angústia ou o medo estiverem atrapalhando o seu dia a dia, procure um médico, um psicólogo ou um líder de confiança. No Brasil, o CVV atende gratuitamente, 24 horas, pelo 188. Para uma reflexão sobre esse tema, leia [Encontrar paz em meio à ansiedade](/blog/encontrar-paz-em-meio-a-ansiedade/).
 
 ## Uma oração para hoje
 
@@ -83,7 +83,7 @@ Na maioria das vezes, ouvir e estar presente ajuda mais do que explicar. Evite r
 
 Os tempos difíceis podem passar, e a presença de Deus acompanha cada etapa. Escolha hoje um passo pequeno: escrever o que está pesando, ler um salmo ou pedir oração a alguém de confiança. A confiança se constrói assim, um dia de cada vez.
 
-Para continuar, leia [O poder da oração no dia a dia](/blog/o-poder-da-oracao-no-dia-a-dia) e [Como ter um devocional diário que realmente funciona](/blog/como-ter-um-devocional-diario).
+Para continuar, leia [O poder da oração no dia a dia](/blog/o-poder-da-oracao-no-dia-a-dia/) e [Como ter um devocional diário que realmente funciona](/blog/como-ter-um-devocional-diario/).
 
 ## Referências
 

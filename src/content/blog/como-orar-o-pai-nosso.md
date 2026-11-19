@@ -59,7 +59,7 @@ Ore com as próprias palavras, seguindo a ordem:
 5. **Perdoa-nos**: confesse e perdoe.
 6. **Livra-nos**: peça proteção.
 
-Em cinco a dez minutos você cobre os seis pontos, sem pressa. Para aprender o básico da oração, veja [O poder da oração no dia a dia](/blog/o-poder-da-oracao-no-dia-a-dia).
+Em cinco a dez minutos você cobre os seis pontos, sem pressa. Para aprender o básico da oração, veja [O poder da oração no dia a dia](/blog/o-poder-da-oracao-no-dia-a-dia/).
 
 ## Uma oração inspirada no Pai Nosso
 

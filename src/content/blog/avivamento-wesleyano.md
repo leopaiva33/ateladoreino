@@ -26,7 +26,7 @@ Na Universidade de Oxford, por volta de 1729, Charles Wesley reuniu alguns coleg
 
 Em 1735, os irmãos Wesley foram como missionários para a colônia da Geórgia, na América do Norte. Durante a travessia, em 1736, uma tempestade aterrorizou os passageiros, mas um grupo de morávios continuou cantando com serenidade. John percebeu que eles tinham uma confiança em Deus que ele mesmo não tinha.
 
-A missão na Geórgia não deu certo, e Wesley voltou à Inglaterra em 1738, frustrado. Em Londres, conversou várias vezes com o morávio Peter Böhler sobre a fé que confia em Cristo e recebe dele o perdão. A história dessa comunidade está no artigo sobre o [avivamento dos morávios](/blog/avivamento-dos-moravianos).
+A missão na Geórgia não deu certo, e Wesley voltou à Inglaterra em 1738, frustrado. Em Londres, conversou várias vezes com o morávio Peter Böhler sobre a fé que confia em Cristo e recebe dele o perdão. A história dessa comunidade está no artigo sobre o [avivamento dos morávios](/blog/avivamento-dos-moravianos/).
 
 ## O coração aquecido em Aldersgate
 
@@ -89,7 +89,7 @@ Não. Ele permaneceu pastor anglicano até a morte e via o movimento como uma re
 
 O avivamento wesleyano une duas coisas que às vezes parecem separadas: o coração aquecido pela graça e a vida organizada para crescer na fé. Pregação, pequenos grupos, hinos e serviço formaram um movimento que atravessou séculos.
 
-Escolha uma das práticas acima, como reunir duas ou três pessoas para perguntar "como está a sua vida com Deus?", e comece nesta semana. Para entender o contexto da série, leia [o que é avivamento espiritual segundo a Bíblia](/blog/o-que-e-avivamento-espiritual) e conheça a comunidade que influenciou Wesley no [avivamento dos morávios](/blog/avivamento-dos-moravianos).
+Escolha uma das práticas acima, como reunir duas ou três pessoas para perguntar "como está a sua vida com Deus?", e comece nesta semana. Para entender o contexto da série, leia [o que é avivamento espiritual segundo a Bíblia](/blog/o-que-e-avivamento-espiritual/) e conheça a comunidade que influenciou Wesley no [avivamento dos morávios](/blog/avivamento-dos-moravianos/).
 
 ## Referências
 

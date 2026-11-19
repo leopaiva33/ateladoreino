@@ -30,11 +30,11 @@ Um pai desesperado diz a Jesus uma frase honesta: "Eu creio, Senhor! Ajuda a min
 
 ### 1. Ouça a Palavra
 
-Romanos 10:17 diz: "a fé é pelo ouvir, e o ouvir pela palavra de Deus". Reserve um tempo diário para ler ou ouvir a Bíblia. Se você está começando, veja [Como ler a Bíblia todos os dias](/blog/como-ler-a-biblia-todos-os-dias).
+Romanos 10:17 diz: "a fé é pelo ouvir, e o ouvir pela palavra de Deus". Reserve um tempo diário para ler ou ouvir a Bíblia. Se você está começando, veja [Como ler a Bíblia todos os dias](/blog/como-ler-a-biblia-todos-os-dias/).
 
 ### 2. Ore com sinceridade
 
-Fale com Deus sobre dúvidas, medos e pedidos, sem fingir. A fé cresce na conversa. Para aprender a orar, leia [O poder da oração no dia a dia](/blog/o-poder-da-oracao-no-dia-a-dia).
+Fale com Deus sobre dúvidas, medos e pedidos, sem fingir. A fé cresce na conversa. Para aprender a orar, leia [O poder da oração no dia a dia](/blog/o-poder-da-oracao-no-dia-a-dia/).
 
 ### 3. Lembre o que Deus já fez
 
@@ -56,7 +56,7 @@ Confiar é também agir: perdoar, servir, ser honesto, dar o próximo passo que 
 
 ## Fé quando tudo dá errado
 
-O profeta Habacuque diz que, ainda que a figueira não floresça, nem haja fruto na vide, ele se alegrará no Senhor (Habacuque 3:17-18). A fé madura se apoia em quem Deus é, e não apenas em como as coisas estão indo. Se você passa por um momento assim, leia também [Confiar em Deus nos tempos difíceis](/blog/confiar-em-deus-nos-tempos-dificeis).
+O profeta Habacuque diz que, ainda que a figueira não floresça, nem haja fruto na vide, ele se alegrará no Senhor (Habacuque 3:17-18). A fé madura se apoia em quem Deus é, e não apenas em como as coisas estão indo. Se você passa por um momento assim, leia também [Confiar em Deus nos tempos difíceis](/blog/confiar-em-deus-nos-tempos-dificeis/).
 
 Se a tristeza ou a ansiedade forem intensas e duradouras, procure ajuda profissional. No Brasil, o CVV atende gratuitamente, 24 horas por dia, pelo telefone 188.
 

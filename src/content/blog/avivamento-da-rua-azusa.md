@@ -16,7 +16,7 @@ A seguir, você conhece a história com foco nos fatos e nas pessoas: quem foi W
 
 ## Quem foi William J. Seymour
 
-William Joseph Seymour nasceu em 1870, na Louisiana, nos Estados Unidos, filho de pais que haviam sido escravizados. Cresceu num país marcado pela segregação racial. Adulto, ligou-se a igrejas do movimento de santidade, herdeiro em parte do ensino de John Wesley sobre a santificação. A história de Wesley está no artigo sobre o [avivamento wesleyano](/blog/avivamento-wesleyano).
+William Joseph Seymour nasceu em 1870, na Louisiana, nos Estados Unidos, filho de pais que haviam sido escravizados. Cresceu num país marcado pela segregação racial. Adulto, ligou-se a igrejas do movimento de santidade, herdeiro em parte do ensino de John Wesley sobre a santificação. A história de Wesley está no artigo sobre o [avivamento wesleyano](/blog/avivamento-wesleyano/).
 
 Em 1905, em Houston, Seymour quis estudar na escola bíblica do pregador Charles Parham, que ensinava sobre o batismo no Espírito Santo. Por causa das leis de segregação, segundo os relatos, Seymour acompanhava as aulas do lado de fora da sala. Mesmo assim, perseverou.
 
@@ -81,7 +81,7 @@ As reuniões começaram em abril de 1906, e o período mais intenso durou até c
 
 A Rua Azusa mostra um pregador rejeitado, um grupo pequeno orando numa casa e um prédio simples que reuniu pessoas que a sociedade separava. Seja qual for a sua tradição, essa história convida a buscar a Deus com sinceridade e a viver a unidade em Cristo.
 
-Para concluir a série, releia [o que é avivamento espiritual segundo a Bíblia](/blog/o-que-e-avivamento-espiritual) e relembre a história de John Wesley no [avivamento wesleyano](/blog/avivamento-wesleyano), cujo ensino influenciou o movimento de santidade do qual Seymour fazia parte.
+Para concluir a série, releia [o que é avivamento espiritual segundo a Bíblia](/blog/o-que-e-avivamento-espiritual/) e relembre a história de John Wesley no [avivamento wesleyano](/blog/avivamento-wesleyano/), cujo ensino influenciou o movimento de santidade do qual Seymour fazia parte.
 
 ## Referências
 

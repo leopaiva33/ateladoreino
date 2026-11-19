@@ -117,7 +117,7 @@ A oração pode ser fonte de conforto, mas **não substitui acompanhamento profi
 
 ## Conclusão: o primeiro passo é começar
 
-Orar é um hábito que se aprende praticando. Hoje, reserve cinco minutos, escolha um lugar tranquilo e siga os cinco passos: **silêncio, gratidão, confissão, pedidos e escuta**. Não se preocupe em acertar; Deus conhece o coração (1 Samuel 16:7). Se quiser continuar, leia também [Como ler a Bíblia todos os dias](/blog/como-ler-a-biblia-todos-os-dias) e [O poder da oração no dia a dia](/blog/o-poder-da-oracao-no-dia-a-dia).
+Orar é um hábito que se aprende praticando. Hoje, reserve cinco minutos, escolha um lugar tranquilo e siga os cinco passos: **silêncio, gratidão, confissão, pedidos e escuta**. Não se preocupe em acertar; Deus conhece o coração (1 Samuel 16:7). Se quiser continuar, leia também [Como ler a Bíblia todos os dias](/blog/como-ler-a-biblia-todos-os-dias/) e [O poder da oração no dia a dia](/blog/o-poder-da-oracao-no-dia-a-dia/).
 
 ## Referências
 

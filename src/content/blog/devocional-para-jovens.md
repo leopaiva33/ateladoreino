@@ -14,7 +14,7 @@ tags: ["devocional", "jovens", "hábito", "Bíblia"]
 
 Devocional é um momento diário de **encontro com Deus**, em que você lê um trecho da Bíblia, pensa no que ele diz e responde em oração. É diferente de estudar para uma prova: o objetivo é conhecer a Deus e deixar que a Palavra mexa com a vida.
 
-Se você quer o passo a passo geral do hábito, veja também [Como ter um devocional diário que realmente funciona](/blog/como-ter-um-devocional-diario). Aqui o foco é a realidade de quem é jovem: rotina corrida, estudo, trabalho, celular e pressão de todos os lados.
+Se você quer o passo a passo geral do hábito, veja também [Como ter um devocional diário que realmente funciona](/blog/como-ter-um-devocional-diario/). Aqui o foco é a realidade de quem é jovem: rotina corrida, estudo, trabalho, celular e pressão de todos os lados.
 
 ## Por que o devocional faz sentido na juventude
 

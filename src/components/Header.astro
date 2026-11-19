@@ -2,14 +2,14 @@
 const path = Astro.url.pathname.replace(/\/$/, '') || '/';
 const links = [
   { href: '/', label: 'Início' },
-  { href: '/blog', label: 'Reflexões' },
+  { href: '/blog/', label: 'Reflexões' },
   { href: '/plano-de-leitura-tora/', label: 'Torá' },
-  { href: '/estudos', label: 'Estudos' },
-  { href: '/sobre', label: 'Sobre' },
-  { href: '/contato', label: 'Contato' },
+  { href: '/estudos/', label: 'Estudos' },
+  { href: '/sobre/', label: 'Sobre' },
+  { href: '/contato/', label: 'Contato' },
 ];
 const isCurrent = (href: string) =>
-  href === '/' ? path === '/' : path === href || path.startsWith(`${href}/`);
+  href === '/' ? path === '/' : path === href || path.startsWith(href.endsWith('/') ? href : `${href}/`);
 ---
 
 <header class="site-header">

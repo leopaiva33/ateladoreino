@@ -25,7 +25,7 @@ Por isso o devocional **não é**:
 - um substituto da igreja e da vida em comunidade;
 - uma tarefa para "cumprir" e riscar da lista.
 
-Se você quiser entender melhor como ler a Bíblia, o artigo [Como ler a Bíblia todos os dias](/blog/como-ler-a-biblia-todos-os-dias) aprofunda esse ponto.
+Se você quiser entender melhor como ler a Bíblia, o artigo [Como ler a Bíblia todos os dias](/blog/como-ler-a-biblia-todos-os-dias/) aprofunda esse ponto.
 
 ## Comece pequeno
 
@@ -79,7 +79,7 @@ Para quem está começando, uma sequência simples ajuda a não se perder:
 - **Semana 2:** um salmo por dia (por exemplo, do Salmo 1 ao Salmo 7).
 - **Semana 3:** um capítulo de Provérbios por dia (são 31 capítulos, bons para ler um por dia).
 
-Depois, volte aos evangelhos ou escolha outro livro curto. Se preferir um plano mais completo, veja o de 4 semanas em [Como ler a Bíblia todos os dias](/blog/como-ler-a-biblia-todos-os-dias).
+Depois, volte aos evangelhos ou escolha outro livro curto. Se preferir um plano mais completo, veja o de 4 semanas em [Como ler a Bíblia todos os dias](/blog/como-ler-a-biblia-todos-os-dias/).
 
 ## Registre o que aprendeu
 
@@ -118,7 +118,7 @@ Sim. O melhor horário é aquele que você consegue manter. Fazer à noite ajuda
 
 Escolha um horário, separe dez minutos e comece pelo Evangelho de Marcos ou por um salmo. Não espere o momento perfeito: o devocional se constrói com pequenos passos repetidos. Se tiver dificuldade, comece com a versão mínima e cresça aos poucos.
 
-Para continuar, leia [Como ler a Bíblia todos os dias: guia para iniciantes](/blog/como-ler-a-biblia-todos-os-dias) e [O poder da oração no dia a dia](/blog/o-poder-da-oracao-no-dia-a-dia).
+Para continuar, leia [Como ler a Bíblia todos os dias: guia para iniciantes](/blog/como-ler-a-biblia-todos-os-dias/) e [O poder da oração no dia a dia](/blog/o-poder-da-oracao-no-dia-a-dia/).
 
 ## Referências
 

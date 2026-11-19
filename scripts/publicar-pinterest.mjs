@@ -89,7 +89,7 @@ const fm = artigo.match(/^---\r?\n([\s\S]*?)\r?\n---/)?.[1] ?? '';
 const campo = (k) => fm.match(new RegExp(`^${k}:\\s*"?(.*?)"?\\s*$`, 'm'))?.[1] ?? '';
 const spec = JSON.parse(await readFile(join('conteudo-social', slug, 'carrossel.json'), 'utf8'));
 const v = spec.slides.find((s) => s.tipo === 'versiculo');
-const link = `${SITE}/blog/${slug}?utm_source=pinterest&utm_medium=social&utm_campaign=pin-${n}`;
+const link = `${SITE}/blog/${slug}/?utm_source=pinterest&utm_medium=social&utm_campaign=pin-${n}`;
 const titulo = corta(campo('title'), 100);
 const descricao = corta(
   n === 1

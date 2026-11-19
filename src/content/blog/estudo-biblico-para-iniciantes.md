@@ -12,7 +12,7 @@ tags: ["estudo bíblico", "método", "iniciantes", "Bíblia"]
 
 ## O que é um estudo bíblico (e a diferença para a leitura)
 
-Ler a Bíblia é percorrer o texto. **Estudar** é parar numa passagem e investigá-la: o que diz, a quem, por quê e o que muda em mim. As duas coisas se completam. Se você ainda está criando o hábito de leitura, veja [Como ler a Bíblia todos os dias](/blog/como-ler-a-biblia-todos-os-dias) e depois volte aqui.
+Ler a Bíblia é percorrer o texto. **Estudar** é parar numa passagem e investigá-la: o que diz, a quem, por quê e o que muda em mim. As duas coisas se completam. Se você ainda está criando o hábito de leitura, veja [Como ler a Bíblia todos os dias](/blog/como-ler-a-biblia-todos-os-dias/) e depois volte aqui.
 
 ## O que você precisa
 
@@ -80,7 +80,7 @@ Escolha um livro curto e leia um parágrafo por vez, com o método acima:
 3. **Tiago** (5 capítulos): fé na prática.
 4. Um **salmo** por semana.
 
-Os bereanos são elogiados em Atos 17:11 porque examinavam cada dia as Escrituras para ver se estas coisas eram assim. Estudar a Bíblia é um hábito antigo e bom. Para encaixar o estudo na rotina, veja [Como ter um devocional diário](/blog/como-ter-um-devocional-diario).
+Os bereanos são elogiados em Atos 17:11 porque examinavam cada dia as Escrituras para ver se estas coisas eram assim. Estudar a Bíblia é um hábito antigo e bom. Para encaixar o estudo na rotina, veja [Como ter um devocional diário](/blog/como-ter-um-devocional-diario/).
 
 ## Perguntas frequentes
 

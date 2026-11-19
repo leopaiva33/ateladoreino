@@ -37,7 +37,7 @@ Um passo que ajuda é fazer da oração uma atitude contínua, e não apenas um 
 - **Gratidão no fim do dia:** liste três coisas pelas quais você é grato.
 - **Intercessão:** tenha uma lista de pessoas para orar, mesmo que seja pequena, e acrescente nomes aos poucos.
 
-Se quiser ligar a oração à leitura bíblica, veja [Como ter um devocional diário que realmente funciona](/blog/como-ter-um-devocional-diario).
+Se quiser ligar a oração à leitura bíblica, veja [Como ter um devocional diário que realmente funciona](/blog/como-ter-um-devocional-diario/).
 
 ## Exemplos de orações curtas
 
@@ -56,7 +56,7 @@ Jesus contou uma parábola para ensinar que devemos orar sempre e não desanimar
 
 Tiago afirma que a oração de um justo pode muito (Tiago 5:16). Ser justo, aqui, não significa ser perfeito, mas viver em um relacionamento verdadeiro com Deus, reconhecendo a própria necessidade da graça. O texto fala da oração pelos enfermos e do exemplo de Elias; ele encoraja a orar com confiança, mas não garante que Deus responderá exatamente como pedimos.
 
-Se o que pesa é a dificuldade da espera, leia também [Confiar em Deus nos tempos difíceis](/blog/confiar-em-deus-nos-tempos-dificeis).
+Se o que pesa é a dificuldade da espera, leia também [Confiar em Deus nos tempos difíceis](/blog/confiar-em-deus-nos-tempos-dificeis/).
 
 ## Erros comuns na oração
 
@@ -88,7 +88,7 @@ Comece com poucos minutos e mantenha a regularidade. Orações curtas ao longo d
 
 A oração não é um privilégio de quem sabe falar bem, e sim um convite aberto a todos. Escolha hoje um momento fixo, use poucas palavras e fale com Deus do jeito que você está. Com o tempo, a oração deixa de ser uma tarefa e vira uma companhia.
 
-Para continuar, leia [Como ter um devocional diário que realmente funciona](/blog/como-ter-um-devocional-diario) e [Confiar em Deus nos tempos difíceis](/blog/confiar-em-deus-nos-tempos-dificeis).
+Para continuar, leia [Como ter um devocional diário que realmente funciona](/blog/como-ter-um-devocional-diario/) e [Confiar em Deus nos tempos difíceis](/blog/confiar-em-deus-nos-tempos-dificeis/).
 
 ## Referências
 

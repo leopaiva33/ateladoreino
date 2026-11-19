@@ -1,6 +1,6 @@
 ---
-title: "Advento: o que é e como se preparar para o Natal em 4 semanas"
-description: "Entenda o que é o Advento, quando ele começa em 2026 e como se preparar para o Natal com um plano de 4 semanas: leituras, velas e orações."
+title: "Advento 2026: datas, significado e plano de 4 semanas"
+description: "O Advento 2026 começa em 29 de novembro. Veja as datas dos 4 domingos, o significado das velas e um plano simples de leituras e orações."
 pubDate: 2026-11-12T07:00:00-03:00
 image: "/images/posts/advento-como-se-preparar-para-o-natal.png"
 imageAlt: "Ilustração de uma coroa de Advento com quatro velas, sendo a primeira acesa"

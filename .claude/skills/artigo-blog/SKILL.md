@@ -98,7 +98,7 @@ tags: ["tag 1", "tag 2", "tag 3"]
 
 ## Links internos
 - Exatamente **2 links** na conclusão (pode haver mais no corpo), no formato
-  `[texto descritivo](/blog/<slug>)`.
+  `[texto descritivo](/blog/<slug>/)` (sempre com a barra no final).
 - Só para posts que **já estarão no ar na data do novo artigo**: compare o
   `pubDate` do post de destino com o do artigo. Nunca aponte para um rascunho
   nem para um post agendado para depois.

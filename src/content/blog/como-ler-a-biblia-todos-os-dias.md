@@ -1,6 +1,6 @@
 ---
-title: "Como ler a Bíblia todos os dias: guia para iniciantes"
-description: "Aprenda como ler a Bíblia todos os dias: por onde começar, quanto tempo reservar, um método simples em 4 passos e um plano de 4 semanas."
+title: "Como ler a Bíblia todos os dias: plano simples de 4 semanas"
+description: "Por onde começar, quanto tempo reservar e um plano de 4 semanas para criar o hábito de ler a Bíblia todos os dias, mesmo com a rotina corrida."
 pubDate: 2026-11-04
 image: "/images/posts/como-ler-a-biblia-todos-os-dias.png"
 imageAlt: "Ilustração de um caminho que sobe entre colinas em direção ao nascer do sol, com quatro marcos dourados ao longo do trajeto"
@@ -55,7 +55,7 @@ Ler e entender são coisas diferentes. Este método leva poucos minutos:
 3. **Pergunte ao texto.** Quem está falando? Para quem? Em que situação? O que este texto revela sobre Deus? E sobre as pessoas?
 4. **Responda com uma ação.** Anote uma frase do que você aprendeu e uma atitude pequena para hoje. Termine com uma oração curta.
 
-Se você quiser um modelo ainda mais enxuto, veja o método LEO (Leia, Explique, Oriente) em [Como ter um devocional diário que realmente funciona](/blog/como-ter-um-devocional-diario).
+Se você quiser um modelo ainda mais enxuto, veja o método LEO (Leia, Explique, Oriente) em [Como ter um devocional diário que realmente funciona](/blog/como-ter-um-devocional-diario/).
 
 Um cuidado importante: **leia o versículo dentro do contexto**. Leia sempre os versículos de antes e de depois. Muitos textos famosos foram escritos para uma situação específica e mudam de sentido quando são arrancados do contexto.
 
@@ -110,7 +110,7 @@ Não. Concentre-se no que está claro e anote as dúvidas. Com o tempo, o contex
 Volte de onde parou, sem tentar "compensar". O objetivo é retomar, não acertar todos os dias.
 
 **Vale ler em grupo ou com um devocional?**
-Sim. Ler com outras pessoas ajuda a manter o hábito e a ver pontos que você não tinha notado. Veja também [O poder da oração no dia a dia](/blog/o-poder-da-oracao-no-dia-a-dia) para aprender a orar junto com a leitura.
+Sim. Ler com outras pessoas ajuda a manter o hábito e a ver pontos que você não tinha notado. Veja também [O poder da oração no dia a dia](/blog/o-poder-da-oracao-no-dia-a-dia/) para aprender a orar junto com a leitura.
 
 ## Uma oração para começar
 
@@ -122,7 +122,7 @@ Se você quiser uma ajuda para o primeiro dia, esta é uma oração simples. Pod
 
 Ler a Bíblia todos os dias não precisa ser complicado. Escolha uma tradução que você entenda, um horário fixo e o Evangelho de Marcos. Leia duas vezes, faça as quatro perguntas e anote uma ação. Se perder um dia, volte no seguinte. Em quatro semanas você terá lido o Evangelho inteiro, vários Salmos e uma carta do Novo Testamento, e terá um hábito para continuar.
 
-Para caminhar junto com a leitura, aprenda também a orar: veja [O poder da oração no dia a dia](/blog/o-poder-da-oracao-no-dia-a-dia).
+Para caminhar junto com a leitura, aprenda também a orar: veja [O poder da oração no dia a dia](/blog/o-poder-da-oracao-no-dia-a-dia/).
 
 ## Referências
 

@@ -54,9 +54,9 @@ No final, Deus fala: promete livrar, proteger, responder quando for chamado, est
 
 ## Quando o medo é muito grande
 
-O Salmo 91 pode acompanhar quem vive momentos de medo, mas **não substitui acompanhamento profissional**. Se a ansiedade ou o medo atrapalham sua rotina, procure um médico ou psicólogo. No Brasil, o CVV atende gratuitamente, 24 horas, pelo 188. Para uma reflexão sobre ansiedade, leia [Encontrar paz em meio à ansiedade](/blog/encontrar-paz-em-meio-a-ansiedade).
+O Salmo 91 pode acompanhar quem vive momentos de medo, mas **não substitui acompanhamento profissional**. Se a ansiedade ou o medo atrapalham sua rotina, procure um médico ou psicólogo. No Brasil, o CVV atende gratuitamente, 24 horas, pelo 188. Para uma reflexão sobre ansiedade, leia [Encontrar paz em meio à ansiedade](/blog/encontrar-paz-em-meio-a-ansiedade/).
 
-Para uma lista de salmos para a noite, veja [Salmos para ler antes de dormir](/blog/salmos-para-ler-antes-de-dormir).
+Para uma lista de salmos para a noite, veja [Salmos para ler antes de dormir](/blog/salmos-para-ler-antes-de-dormir/).
 
 ## Perguntas frequentes
 
