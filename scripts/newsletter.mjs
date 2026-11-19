@@ -148,13 +148,23 @@ const remetente = remetenteBruto.includes('@')
 if (!BREVO_API_KEY || !BREVO_LIST_ID || !(remetente.email || remetente.id)) throw new Error('Faltam BREVO_API_KEY, BREVO_LIST_ID e/ou BREVO_SENDER_EMAIL.');
 async function brevo(caminho, corpo) {
   const r = await fetch(`https://api.brevo.com/v3/${caminho}`, {
-    method: 'POST',
+    method: corpo ? 'POST' : 'GET',
     headers: { 'api-key': BREVO_API_KEY, 'content-type': 'application/json', accept: 'application/json' },
-    body: JSON.stringify(corpo),
+    body: corpo ? JSON.stringify(corpo) : undefined,
   });
   const t = await r.text();
   if (!r.ok) throw new Error(`Brevo ${caminho} (${r.status}): ${t.slice(0, 300)}`);
   return t ? JSON.parse(t) : {};
+}
+
+if (modo === 'enviar') {
+  const lista = await brevo(`contacts/lists/${BREVO_LIST_ID}`);
+  const inscritos = lista.uniqueSubscribers ?? lista.totalSubscribers ?? 0;
+  console.log(`Lista "${lista.name}": ${inscritos} inscrito(s).`);
+  if (!inscritos) {
+    console.log('::notice::A lista ainda não tem inscritos; a edição desta semana não foi enviada.');
+    process.exit(0);
+  }
 }
 
 const { id } = await brevo('emailCampaigns', {
@@ -164,7 +174,7 @@ const { id } = await brevo('emailCampaigns', {
   sender: remetente,
   ...(remetente.email ? { replyTo: remetente.email } : {}),
   htmlContent: html,
-  recipients: { listIds: [BREVO_LIST_ID] },
+  ...(modo === 'enviar' ? { recipients: { listIds: [BREVO_LIST_ID] } } : {}),
   inlineImageActivation: false,
 });
 if (modo === 'teste') {
