@@ -2,12 +2,17 @@
   "_sobre": "Endereços do site antigo (ainda no Google) -> slug do artigo novo em /blog/. scripts/redirecionamentos.mjs só cria o 301 quando o artigo de destino já está publicado.",
   "/como-manter-a-fe-em-tempos-dificeis": "confiar-em-deus-nos-tempos-dificeis",
   "/depender-de-deus": "confiar-em-deus-nos-tempos-dificeis",
-  "/o-que-e-intimidade-com-deus": "o-poder-da-oracao-no-dia-a-dia",
+  "/o-que-e-intimidade-com-deus": [
+    "o-que-e-intimidade-com-deus",
+    "o-poder-da-oracao-no-dia-a-dia"
+  ],
   "/a-fe-e-o-copo-meio-cheio-e-meio-vazio": "como-ter-fe-segundo-a-biblia",
   "/estudo-biblico-sobre-gratidao": "oracao-de-gratidao",
   "/as-parabolas-de-jesus": "parabolas-de-jesus-explicadas",
   "/o-que-e-avivamento-espiritual": "o-que-e-avivamento-espiritual",
   "/avivamento-dos-moravianos": "avivamento-dos-moravianos",
   "/avivamento-rua-azusa": "avivamento-da-rua-azusa",
-  "/avivamento-wesleyano": "avivamento-wesleyano"
+  "/avivamento-wesleyano": "avivamento-wesleyano",
+  "/principios-cristaos-na-educacao-infantil": "principios-cristaos-na-educacao-infantil",
+  "/cronologia-da-vida-de-jesus": "cronologia-da-vida-de-jesus"
 }
