@@ -90,7 +90,7 @@ Pode e deve começar por você. Salmos 51:12 é um pedido pessoal: "Torna a dar-
 
 Avivamento não é algo para esperar de braços cruzados nem para fabricar com técnicas. É Deus renovando um povo que se humilha, ora, volta à Palavra e muda de caminho. E isso pode começar hoje, no seu quarto, com uma oração honesta.
 
-Para dar os primeiros passos, veja [o poder da oração no dia a dia](/blog/o-poder-da-oracao-no-dia-a-dia) e o guia [como ler a Bíblia todos os dias](/blog/como-ler-a-biblia-todos-os-dias). Nas próximas semanas, a série sobre avivamento continua com a história dos morávios, de John Wesley e da Rua Azusa.
+Para dar os primeiros passos, veja [o poder da oração no dia a dia](/blog/o-poder-da-oracao-no-dia-a-dia/) e o guia [como ler a Bíblia todos os dias](/blog/como-ler-a-biblia-todos-os-dias/). Nas próximas semanas, a série sobre avivamento continua com a história dos morávios, de John Wesley e da Rua Azusa.
 
 ## Referências
 

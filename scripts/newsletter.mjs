@@ -53,7 +53,7 @@ const oracao = posts.find((p) => p.oracao)?.oracao;
 const assunto =
   posts.length === 1 ? principal.titulo : `${principal.titulo} (e mais ${posts.length - 1} ${posts.length === 2 ? 'reflexão' : 'reflexões'})`;
 const preheader = versiculo ? `“${versiculo.citacao.replace(/^…|…$/g, '')}” (${versiculo.ref})` : principal.descricao;
-const link = (slug) => `${SITE}/blog/${slug}?utm_source=newsletter&utm_medium=email&utm_campaign=semana-${diaISO}`;
+const link = (slug) => `${SITE}/blog/${slug}/?utm_source=newsletter&utm_medium=email&utm_campaign=semana-${diaISO}`;
 
 const C = { fundo: '#fbf8f1', card: '#ffffff', texto: '#2a2a2e', suave: '#5d5d66', vinho: '#7a1f2b', ouro: '#b9822f', claro: '#f3e6d3', borda: '#e6dccb' };
 const fonte = "Georgia, 'Times New Roman', serif";

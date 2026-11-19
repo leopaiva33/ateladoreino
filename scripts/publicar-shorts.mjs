@@ -40,7 +40,7 @@ const spec = JSON.parse(await readFile(join('conteudo-social', slug, 'carrossel.
 
 // O YouTube não aceita < e > no título nem na descrição.
 const limpa = (t) => t.replace(/[<>]/g, '');
-const link = `${SITE}/blog/${slug}`;
+const link = `${SITE}/blog/${slug}/`;
 let titulo = `${tituloArtigo} #Shorts`;
 if (titulo.length > 100) titulo = `${tituloArtigo.slice(0, 100 - 9).trim()} #Shorts`;
 let descricao = spec.legenda.replace(/\s*\(link na bio\)\.?/gi, `:\n${link}`);

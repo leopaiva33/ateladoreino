@@ -36,7 +36,7 @@ const tematicos = estudos.filter((e) => !ehEstudoDePorcao(e));
                 {estudo.data.significado && ` (${estudo.data.significado})`}
               </span>
               <h2>
-                <a href={`/estudos/${estudo.id}`}>{estudo.data.title}</a>
+                <a href={`/estudos/${estudo.id}/`}>{estudo.data.title}</a>
               </h2>
               <p>{estudo.data.description}</p>
               {estudo.data.leituras.length > 0 && (
@@ -63,7 +63,7 @@ const tematicos = estudos.filter((e) => !ehEstudoDePorcao(e));
                 {estudo.data.tema}
               </span>
               <h2>
-                <a href={`/estudos/${estudo.id}`}>{estudo.data.title}</a>
+                <a href={`/estudos/${estudo.id}/`}>{estudo.data.title}</a>
               </h2>
               <p>{estudo.data.description}</p>
               {estudo.data.leituras.length > 0 && (

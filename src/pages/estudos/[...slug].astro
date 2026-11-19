@@ -110,10 +110,10 @@ const jsonLd = jsonLdArtigo({
     <AutorBox />
 
     <p class="meta navegacao-estudos">
-      {anterior && <a href={`/estudos/${anterior.id}`}>← {rotulo(anterior)}</a>}
+      {anterior && <a href={`/estudos/${anterior.id}/`}>← {rotulo(anterior)}</a>}
       {anterior && proximo && ' · '}
-      {proximo && <a href={`/estudos/${proximo.id}`}>{rotulo(proximo)} →</a>}
+      {proximo && <a href={`/estudos/${proximo.id}/`}>{rotulo(proximo)} →</a>}
     </p>
-    <p class="navegacao-estudos"><a href="/estudos">← Voltar para todos os estudos</a></p>
+    <p class="navegacao-estudos"><a href="/estudos/">← Voltar para todos os estudos</a></p>
   </article>
 </BaseLayout>

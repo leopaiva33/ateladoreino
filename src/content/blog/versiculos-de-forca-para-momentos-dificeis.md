@@ -66,7 +66,7 @@ Algumas atitudes ajudam a não transformar a Bíblia em frase de efeito:
 3. Escreva uma frase de oração a partir dele.
 4. **Dia 7:** releia as seis frases e escolha a que mais fala ao seu momento. Memorize-a.
 
-Se estiver passando por um período em que as coisas parecem sair do controle, veja também [Confiar em Deus nos tempos difíceis](/blog/confiar-em-deus-nos-tempos-dificeis).
+Se estiver passando por um período em que as coisas parecem sair do controle, veja também [Confiar em Deus nos tempos difíceis](/blog/confiar-em-deus-nos-tempos-dificeis/).
 
 ## Uma oração para pedir força
 
@@ -91,7 +91,7 @@ Ajuda muita gente, porque o texto fica disponível quando você precisa dele, se
 
 Você não precisa de muitos versículos para atravessar um dia difícil; às vezes basta um, lido com atenção. Escolha hoje o texto que mais responde ao que você está vivendo e leve-o consigo.
 
-Para continuar, leia [Encontrar paz em meio à ansiedade](/blog/encontrar-paz-em-meio-a-ansiedade) e [O poder da oração no dia a dia](/blog/o-poder-da-oracao-no-dia-a-dia).
+Para continuar, leia [Encontrar paz em meio à ansiedade](/blog/encontrar-paz-em-meio-a-ansiedade/) e [O poder da oração no dia a dia](/blog/o-poder-da-oracao-no-dia-a-dia/).
 
 ## Referências
 

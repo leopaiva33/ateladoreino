@@ -78,7 +78,7 @@ Jesus compara o Reino dos céus a um grão de mostarda, uma semente muito pequen
 
 **Exemplo com o bom samaritano:** o contexto é a pergunta "quem é o meu próximo?" (Lucas 10:29); a história resumida é a de um ferido socorrido por um estrangeiro; o ponto principal é que o amor se mostra em ação; e a pergunta final é: de quem eu me aproximo hoje? Em cinco passos, a parábola deixa de ser uma história distante e vira um convite concreto.
 
-Para um método completo de estudo, veja [Estudo bíblico para iniciantes: um método em 4 passos](/blog/estudo-biblico-para-iniciantes).
+Para um método completo de estudo, veja [Estudo bíblico para iniciantes: um método em 4 passos](/blog/estudo-biblico-para-iniciantes/).
 
 ## Cuidados ao interpretar parábolas
 
@@ -106,7 +106,7 @@ Para começar, o bom samaritano e o filho pródigo são histórias completas, f�
 
 Você não precisa ler todas de uma vez. Escolha uma parábola por semana, leia o capítulo em que ela aparece e responda à pergunta que ela faz. É assim que histórias antigas passam a falar com a vida de hoje.
 
-Para continuar, leia [Como ler a Bíblia todos os dias: guia para iniciantes](/blog/como-ler-a-biblia-todos-os-dias) e [Como ter um devocional diário que realmente funciona](/blog/como-ter-um-devocional-diario).
+Para continuar, leia [Como ler a Bíblia todos os dias: guia para iniciantes](/blog/como-ler-a-biblia-todos-os-dias/) e [Como ter um devocional diário que realmente funciona](/blog/como-ter-um-devocional-diario/).
 
 ## Referências
 

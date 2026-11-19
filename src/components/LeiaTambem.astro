@@ -18,7 +18,7 @@ const thumbOf = (image?: string) =>
       <ul>
         {posts.map((post) => {
           const thumb = thumbOf(post.data.image);
-          const href = `/blog/${post.id}`;
+          const href = `/blog/${post.id}/`;
           return (
             <li>
               <a class="leia-tambem-card" href={href}>

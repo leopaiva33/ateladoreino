@@ -12,7 +12,7 @@ tags: ["avivamento", "morávios", "história da igreja", "oração", "missões"]
 
 Muita gente conhece a frase "a reunião de oração de 100 anos", mas não sabe quem eram os morávios, por que estavam ali e o que de fato aconteceu. Os detalhes ajudam a ver que o avivamento não começou com multidões, e sim com um grupo pequeno aprendendo a viver em paz.
 
-Aqui você encontra o contexto histórico, os acontecimentos de 1727, o que veio depois e algumas lições práticas para a oração hoje. Se quiser antes entender o conceito, leia [o que é avivamento espiritual segundo a Bíblia](/blog/o-que-e-avivamento-espiritual).
+Aqui você encontra o contexto histórico, os acontecimentos de 1727, o que veio depois e algumas lições práticas para a oração hoje. Se quiser antes entender o conceito, leia [o que é avivamento espiritual segundo a Bíblia](/blog/o-que-e-avivamento-espiritual/).
 
 ## Quem eram os morávios
 
@@ -81,7 +81,7 @@ Que a constância vale mais do que a intensidade de um dia. E que a oração ver
 
 A história de Herrnhut mostra que um avivamento pode começar num lugar pequeno, com pessoas comuns que decidem se perdoar e orar juntas. A chama ficou acesa porque cada um cuidou da sua hora.
 
-Que tal assumir a sua? Reveja o conceito em [o que é avivamento espiritual](/blog/o-que-e-avivamento-espiritual) e, para montar sua rotina, use o guia [como orar: passo a passo para iniciantes](/blog/como-orar).
+Que tal assumir a sua? Reveja o conceito em [o que é avivamento espiritual](/blog/o-que-e-avivamento-espiritual/) e, para montar sua rotina, use o guia [como orar: passo a passo para iniciantes](/blog/como-orar/).
 
 ## Referências
 

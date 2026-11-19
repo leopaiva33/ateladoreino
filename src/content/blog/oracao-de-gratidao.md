@@ -42,7 +42,7 @@ Você pode adaptar com os seus motivos: uma conquista, uma pessoa, um livramento
 - **Gratidão antes das refeições:** uma oração curta de agradecimento por quem preparou e pelo alimento.
 - **Cartas e mensagens:** escreva a alguém para agradecer algo que fez por você.
 - **Gratidão em família:** no jantar, cada pessoa conta uma coisa boa do dia.
-- **Retrospectiva do ano:** em dezembro, faça uma lista dos acontecimentos pelos quais você é grato e leia em voz alta na virada do ano. Para um momento de preparação para o Natal, veja [Advento: o que é e como se preparar](/blog/advento-como-se-preparar-para-o-natal).
+- **Retrospectiva do ano:** em dezembro, faça uma lista dos acontecimentos pelos quais você é grato e leia em voz alta na virada do ano. Para um momento de preparação para o Natal, veja [Advento: o que é e como se preparar](/blog/advento-como-se-preparar-para-o-natal/).
 
 ## Quando é difícil agradecer
 

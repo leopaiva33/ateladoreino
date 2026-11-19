@@ -79,7 +79,7 @@ if (await existe(REGISTRO)) {
   process.exit(publicar ? 1 : 0);
 }
 const spec = JSON.parse(await readFile(join('conteudo-social', slug, 'carrossel.json'), 'utf8'));
-const link = `${SITE}/blog/${slug}`;
+const link = `${SITE}/blog/${slug}/`;
 let legenda = spec.legenda.replace(/\s*\(link na bio\)\.?/gi, `:\n${link}`);
 if (!legenda.includes(link)) legenda += `\n\nLeia o texto completo: ${link}`;
 

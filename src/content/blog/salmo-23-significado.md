@@ -92,7 +92,7 @@ Se quiser ir mais devagar, medite um versículo por dia:
 
 O Salmo 23 é um texto devocional. Ele pode acompanhar quem enfrenta medo, luto ou ansiedade, mas **não substitui ajuda profissional, médica ou pastoral**. Se o peso estiver grande demais, converse com um médico, um psicólogo ou um líder de confiança. No Brasil, o CVV atende gratuitamente, 24 horas, pelo 188.
 
-O apóstolo Pedro escreve a quem está ansioso: "Lançando sobre ele toda a vossa ansiedade, porque ele tem cuidado de vós" (1 Pedro 5:7). Para uma reflexão sobre esse tema, leia [Encontrar paz em meio à ansiedade](/blog/encontrar-paz-em-meio-a-ansiedade).
+O apóstolo Pedro escreve a quem está ansioso: "Lançando sobre ele toda a vossa ansiedade, porque ele tem cuidado de vós" (1 Pedro 5:7). Para uma reflexão sobre esse tema, leia [Encontrar paz em meio à ansiedade](/blog/encontrar-paz-em-meio-a-ansiedade/).
 
 ## Perguntas frequentes
 
@@ -109,7 +109,7 @@ Sim, como meditação e oração. Leia devagar e evite tratá-lo como uma fórmu
 
 Escolha hoje um versículo do Salmo 23, leia-o em voz alta e transforme-o em uma oração de uma frase. Se conhecer alguém que está atravessando um vale, envie esse versículo a essa pessoa.
 
-Para continuar, leia [Confiar em Deus nos tempos difíceis](/blog/confiar-em-deus-nos-tempos-dificeis) e [O poder da oração no dia a dia](/blog/o-poder-da-oracao-no-dia-a-dia).
+Para continuar, leia [Confiar em Deus nos tempos difíceis](/blog/confiar-em-deus-nos-tempos-dificeis/) e [O poder da oração no dia a dia](/blog/o-poder-da-oracao-no-dia-a-dia/).
 
 ## Referências
 

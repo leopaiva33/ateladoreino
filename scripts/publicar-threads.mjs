@@ -84,7 +84,7 @@ if (await existe(REGISTRO)) {
   process.exit(publicar ? 1 : 0);
 }
 const spec = JSON.parse(await readFile(join('conteudo-social', slug, 'carrossel.json'), 'utf8'));
-const texto = textoDoPost(spec, `${SITE}/blog/${slug}`);
+const texto = textoDoPost(spec, `${SITE}/blog/${slug}/`);
 console.log(`Threads: ${slug} (${texto.length} caracteres)\n\n${texto}\n`);
 if (!publicar) {
   console.log('Simulação: nada foi publicado. Use --publicar.');

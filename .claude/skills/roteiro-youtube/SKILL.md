@@ -22,7 +22,7 @@ Entregue em `conteudo-social/<slug-do-artigo>/youtube.md`:
 
 Dicas de medida: narração falada rende cerca de 130 a 150 palavras por minuto,
 então o roteiro tem entre 800 e 1.100 palavras. O link do artigo é
-`https://ateladoreino.com/blog/<slug>`.
+`https://ateladoreino.com/blog/<slug>/`.
 
 Ao terminar, chame o agente `revisor` (Agent tool, `subagent_type: "revisor"`),
 passando o caminho do roteiro e o do artigo de origem. Se vier REPROVADO,
