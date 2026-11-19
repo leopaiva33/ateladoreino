@@ -43,7 +43,6 @@ export default async function handler(req, res) {
       includeListIds: [numero(BREVO_LIST_ID)],
       templateId: numero(BREVO_DOI_TEMPLATE_ID),
       redirectionUrl: `${SITE}/newsletter/confirmada/`,
-      attributes: { ORIGEM: 'site', CONSENTIMENTO: new Date().toISOString() },
     }),
   });
   if (r.ok || r.status === 204) return res.status(200).json({ ok: true });
