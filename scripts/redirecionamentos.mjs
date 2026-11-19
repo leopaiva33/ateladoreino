@@ -11,18 +11,24 @@ const existe = (p) => access(p).then(() => true, () => false);
 const agora = process.env.AGORA_ISO ? Date.parse(process.env.AGORA_ISO) : Date.now();
 const mapa = JSON.parse(await readFile('src/data/redirecionamentos.json', 'utf8'));
 
-const redirects = [];
-for (const [origem, slug] of Object.entries(mapa)) {
-  if (origem.startsWith('_')) continue;
+// O destino pode ser um slug ou uma lista de slugs em ordem de preferência: vale o primeiro já
+// publicado (útil quando um artigo próprio vai substituir um destino provisório).
+async function publicado(slug) {
   const arq = join('src', 'content', 'blog', `${slug}.md`);
-  if (!(await existe(arq))) {
-    console.log(`${origem}: destino "${slug}" ainda não existe; fica para depois.`);
-    continue;
-  }
+  if (!(await existe(arq))) return false;
   const fm = (await readFile(arq, 'utf8')).match(/^---\r?\n([\s\S]*?)\r?\n---/)?.[1] ?? '';
   const data = Date.parse(fm.match(/^pubDate:\s*(.+?)\s*$/m)?.[1]?.replace(/^["']|["']$/g, '') ?? '');
-  if (/^draft:\s*true\s*$/m.test(fm) || Number.isNaN(data) || data > agora) {
-    console.log(`${origem}: "${slug}" ainda não foi publicado; fica para depois.`);
+  return !(/^draft:\s*true\s*$/m.test(fm) || Number.isNaN(data) || data > agora);
+}
+
+const redirects = [];
+for (const [origem, valor] of Object.entries(mapa)) {
+  if (origem.startsWith('_')) continue;
+  const opcoes = Array.isArray(valor) ? valor : [valor];
+  let slug = null;
+  for (const s of opcoes) if (await publicado(s)) { slug = s; break; }
+  if (!slug) {
+    console.log(`${origem}: "${opcoes.join('" / "')}" ainda não foi publicado; fica para depois.`);
     continue;
   }
   const destino = `/blog/${slug}/`;

@@ -1,0 +1,17 @@
+{
+  "slug": "cronologia-da-vida-de-jesus",
+  "arte": "public/images/posts/cronologia-da-vida-de-jesus.png",
+  "legenda": "Qual fase da vida de Jesus você mais gosta de ler? Conte nos comentários.\n\nSalve para consultar quando ler os Evangelhos e compartilhe com seu grupo de estudo.\n\nLeia a cronologia completa, com as referências de cada fase, em ateladoreino.com (link na bio).\n\n#VidaDeJesus #Evangelhos #EstudoBíblico #Bíblia #Jesus #ATelaDoReino",
+  "slides": [
+    { "tipo": "capa", "titulo": "Cronologia da vida de Jesus: do nascimento à ascensão" },
+    { "tipo": "texto", "titulo": "Datas aproximadas", "texto": "Nascimento por volta de 6 a 4 a.C.; ministério de 2 a 3 anos e meio; morte em 30 ou 33 d.C." },
+    { "tipo": "texto", "titulo": "1. Nascimento", "texto": "Anúncio a Maria, nascimento em Belém, pastores, apresentação no templo e fuga para o Egito (Lucas 1–2; Mateus 2)." },
+    { "tipo": "versiculo", "citacao": "E crescia Jesus em sabedoria, e em estatura, e em graça…", "ref": "Lucas 2:52", "comentario": "2. Infância e juventude em Nazaré." },
+    { "tipo": "texto", "titulo": "3. Preparação", "texto": "Batismo no Jordão, tentação no deserto, primeiros discípulos e o milagre em Caná (Mateus 3–4; João 1–2)." },
+    { "tipo": "texto", "titulo": "4. Galileia", "texto": "Os doze, o Sermão do Monte, parábolas, curas e a confissão de Pedro (Mateus 5–17)." },
+    { "tipo": "texto", "titulo": "5. Rumo a Jerusalém", "texto": "Bom samaritano, filho pródigo e a ressurreição de Lázaro (Lucas 9–19; João 11)." },
+    { "tipo": "texto", "titulo": "6. Última semana", "texto": "Entrada triunfal, última ceia, Getsêmani, julgamentos e crucificação (Mateus 21–27)." },
+    { "tipo": "texto", "titulo": "7. Ressurreição", "texto": "O túmulo vazio, aparições por quarenta dias e a ascensão (Lucas 24; Atos 1)." },
+    { "tipo": "final", "titulo": "Salve este post", "texto": "Leia o texto completo em ateladoreino.com (link na bio).", "rodape": "Leonardo Paiva, A Tela do Reino" }
+  ]
+}
