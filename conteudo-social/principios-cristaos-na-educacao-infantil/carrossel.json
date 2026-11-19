@@ -1,17 +1,64 @@
 {
   "slug": "principios-cristaos-na-educacao-infantil",
   "arte": "public/images/posts/principios-cristaos-na-educacao-infantil.png",
-  "legenda": "Qual destes princípios é o maior desafio na sua casa? Conte nos comentários.\n\nCompartilhe com pais, avós e professores de escola bíblica.\n\nLeia o texto completo, com ideias práticas por idade, em ateladoreino.com (link na bio).\n\n#EducaçãoCristã #Filhos #Família #FéEmFamília #Bíblia #ATelaDoReino",
+  "legenda": "Qual destes princípios é o maior desafio na sua casa? Conte nos comentários.\n\nCompartilhe com pais, avós e professores de escola bíblica.\n\nLeia o texto completo, com ideias práticas por idade, em ateladoreino.com (link na bio).\n\nEste conteúdo é devocional e não substitui ajuda profissional ou pastoral. Suspeita de violência contra criança: Disque 100 (gratuito, 24 h) ou Conselho Tutelar.\n\n#EducaçãoCristã #Filhos #Família #FéEmFamília #Bíblia #ATelaDoReino",
   "slides": [
-    { "tipo": "capa", "titulo": "Princípios cristãos na educação dos filhos" },
-    { "tipo": "versiculo", "citacao": "Eis que os filhos são herança do Senhor…", "ref": "Salmos 127:3", "comentario": "Filhos não são propriedade: são pessoas confiadas por Deus." },
-    { "tipo": "texto", "titulo": "1. O exemplo vem primeiro", "texto": "A fé de Timóteo foi formada pelo exemplo da avó e da mãe (2 Timóteo 1:5)." },
-    { "tipo": "texto", "titulo": "2. A Palavra no dia a dia", "texto": "Em casa, no caminho, ao deitar e ao levantar (Deuteronômio 6:6-7)." },
-    { "tipo": "versiculo", "citacao": "…não provoqueis a ira a vossos filhos…", "ref": "Efésios 6:4", "comentario": "3. Disciplina com amor forma, não humilha." },
-    { "tipo": "lista", "titulo": "E mais", "itens": ["4. Graça e perdão em casa", "5. Oração pelos e com os filhos", "6. Crescimento integral", "7. Paciência e confiança em Deus"] },
-    { "tipo": "texto", "titulo": "Provérbios 22:6", "texto": "É princípio de sabedoria, não garantia. Os pais fazem a sua parte e confiam os filhos a Deus." },
-    { "tipo": "texto", "titulo": "Um cuidado", "texto": "Gritos, humilhações e agressões não são disciplina cristã. Suspeita de violência contra criança: Disque 100." },
-    { "tipo": "texto", "titulo": "Oração", "texto": "Senhor, dá-nos paciência, sabedoria e amor para educar nossos filhos no teu caminho. Amém." },
-    { "tipo": "final", "titulo": "Salve este post", "texto": "Leia o texto completo em ateladoreino.com (link na bio).", "rodape": "Leonardo Paiva, A Tela do Reino" }
+    {
+      "tipo": "capa",
+      "titulo": "Princípios cristãos na educação dos filhos"
+    },
+    {
+      "tipo": "versiculo",
+      "citacao": "Eis que os filhos são herança do Senhor…",
+      "ref": "Salmos 127:3",
+      "comentario": "Filhos não são propriedade: são pessoas confiadas por Deus."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "1. O exemplo vem primeiro",
+      "texto": "A fé de Timóteo foi formada pelo exemplo da avó e da mãe (2 Timóteo 1:5)."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "2. A Palavra no dia a dia",
+      "texto": "Em casa, no caminho, ao deitar e ao levantar (Deuteronômio 6:6-7)."
+    },
+    {
+      "tipo": "versiculo",
+      "citacao": "…não provoqueis a ira a vossos filhos…",
+      "ref": "Efésios 6:4",
+      "comentario": "3. Disciplina com amor forma, não humilha."
+    },
+    {
+      "tipo": "lista",
+      "titulo": "Mais quatro princípios",
+      "itens": [
+        "Graça e perdão em casa",
+        "Oração pelos e com os filhos",
+        "Crescimento integral",
+        "Paciência e confiança em Deus"
+      ]
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Provérbios 22:6",
+      "texto": "“Instrui o menino no caminho…” é princípio de sabedoria, não garantia. Os pais fazem a sua parte e confiam em Deus."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Um cuidado",
+      "texto": "Gritos, humilhações e agressões não são disciplina cristã. Suspeita de violência contra criança: Disque 100."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Oração",
+      "texto": "Senhor, dá-nos paciência, sabedoria e amor para educar nossos filhos no teu caminho. Amém."
+    },
+    {
+      "tipo": "final",
+      "titulo": "Salve este post",
+      "texto": "Leia o texto completo em ateladoreino.com (link na bio).",
+      "rodape": "Leonardo Paiva, A Tela do Reino"
+    }
   ]
 }

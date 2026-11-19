@@ -29,7 +29,7 @@ Intimidade com Deus é uma amizade que cresce com tempo e sinceridade. Você sen
 Até Jesus separava tempo a sós com o Pai.
 
 **Narração (cerca de 30 segundos):**
-Jesus tinha a agenda cheia: multidões, curas, viagens. Mesmo assim, Marcos conta que, de madrugada, ainda escuro, ele saiu para um lugar deserto e ali orava. Se ele precisava desse tempo, nós também precisamos. Comece com dez minutos por dia, celular longe, a Bíblia aberta e uma oração sincera.
+Jesus tinha a agenda cheia: multidões, curas, viagens. Mesmo assim, Marcos conta que, de madrugada, ainda escuro, ele saiu para um lugar deserto e ali orava. Se ele precisava desse tempo, nós também precisamos. Comece com dez minutos por dia, celular longe, a Bíblia aberta e uma oração sincera. Os Evangelhos são um bom começo.
 
 **Versículo:** "…entra no teu aposento e, fechando a tua porta, ora a teu Pai…" (Mateus 6:6)
 
@@ -44,12 +44,12 @@ Dez minutos por dia, a sós com Deus. Que horário funciona melhor para você?
 ## Vídeo 3: Deus está distante?
 
 **Gancho (letras grandes, 3 primeiros segundos):**
-Se você se afastou de Deus, assista até o fim.
+Você se afastou de Deus? Há caminho de volta.
 
 **Narração (cerca de 30 segundos):**
 A culpa costuma nos afastar de Deus. Mas a Bíblia mostra o contrário. Na parábola do filho pródigo, quando o filho volta para casa, o pai o vê de longe, se compadece e corre ao encontro dele. O caminho de volta não começa com perfeição. Começa com uma oração sincera: Senhor, eu quero voltar.
 
-**Versículo:** "Chegai-vos a Deus, e ele se chegará a vós." (Tiago 4:8)
+**Versículo:** "…quando ainda estava longe, viu-o seu pai, e se moveu de íntima compaixão, e, correndo, lançou-se-lhe ao pescoço…" (Lucas 15:20)
 
 **Chamada final:** Salve e ore hoje. Leia o texto completo em ateladoreino.com.
 

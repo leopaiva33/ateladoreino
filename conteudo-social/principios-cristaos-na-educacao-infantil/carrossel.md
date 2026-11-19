@@ -25,12 +25,12 @@ Em casa, no caminho, ao deitar e ao levantar (Deuteronômio 6:6-7).
 3. Disciplina com amor forma, não humilha.
 
 **Slide 6:**
-E mais
-1. 4. Graça e perdão em casa 2. 5. Oração pelos e com os filhos 3. 6. Crescimento integral 4. 7. Paciência e confiança em Deus
+Mais quatro princípios
+1. Graça e perdão em casa 2. Oração pelos e com os filhos 3. Crescimento integral 4. Paciência e confiança em Deus
 
 **Slide 7:**
 Provérbios 22:6
-É princípio de sabedoria, não garantia. Os pais fazem a sua parte e confiam os filhos a Deus.
+“Instrui o menino no caminho…” é princípio de sabedoria, não garantia. Os pais fazem a sua parte e confiam em Deus.
 
 **Slide 8:**
 Um cuidado
@@ -52,5 +52,7 @@ Qual destes princípios é o maior desafio na sua casa? Conte nos comentários.
 Compartilhe com pais, avós e professores de escola bíblica.
 
 Leia o texto completo, com ideias práticas por idade, em ateladoreino.com (link na bio).
+
+Este conteúdo é devocional e não substitui ajuda profissional ou pastoral. Suspeita de violência contra criança: Disque 100 (gratuito, 24 h) ou Conselho Tutelar.
 
 #EducaçãoCristã #Filhos #Família #FéEmFamília #Bíblia #ATelaDoReino

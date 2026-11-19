@@ -27,7 +27,7 @@ Dá para ir à igreja, saber vários versículos e, mesmo assim, sentir Deus dis
 **Narração:**
 Intimidade com Deus é um relacionamento próximo e contínuo com ele: conhecer quem Deus é pela sua Palavra, falar com ele com sinceridade e viver cada dia na consciência da sua presença. Não é um sentimento reservado a pessoas especiais, nem um nível que se alcança de uma vez. É uma amizade que cresce com tempo, honestidade e constância. Tiago escreve: "Chegai-vos a Deus, e ele se chegará a vós", em Tiago 4:8. E o Salmo 25 diz: "O segredo do Senhor é para os que o temem". Jesus chama os discípulos de amigos, em João 15:15. Essa proximidade é um presente, possível por causa de Jesus, que abriu o caminho até o Pai. A carta aos Hebreus diz que temos ousadia para entrar no santuário por meio de Jesus. Isso muda tudo: você não precisa conquistar o direito de se aproximar. E intimidade envolve conhecer, não só sentir. Ela cresce quando você conhece o caráter de Deus na Bíblia: a fidelidade, a paciência, a justiça e a misericórdia dele. Quanto mais você o conhece, mais confia, e quanto mais confia, mais se aproxima.
 
-**Na tela:** Tiago 4:8 em letras grandes com a referência. Depois, Salmos 25:14 e João 15:15. Texto: "Um presente, não uma conquista".
+**Na tela:** Tiago 4:8 em letras grandes com a referência. Depois, Salmos 25:14, João 15:15 e Hebreus 10:19-22. Texto: "Um presente, não uma conquista".
 
 ### 3. Exemplos na Bíblia (2:05 a 3:30)
 

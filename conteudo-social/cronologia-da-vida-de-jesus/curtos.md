@@ -8,7 +8,7 @@ Os 3 vídeos tratam de pontos diferentes do artigo.
 ## Vídeo 1: a vida de Jesus em 7 fases
 
 **Gancho (letras grandes, 3 primeiros segundos):**
-A vida de Jesus em 7 fases, em 30 segundos.
+A vida de Jesus em 7 fases, em menos de 1 minuto.
 
 **Narração (cerca de 35 segundos):**
 Um: nascimento em Belém. Dois: infância e juventude em Nazaré. Três: batismo no Jordão, tentação no deserto e os primeiros discípulos. Quatro: ministério na Galileia, com o Sermão do Monte e as parábolas. Cinco: a viagem para Jerusalém. Seis: a última semana, da entrada triunfal à cruz. Sete: a ressurreição e a ascensão.
@@ -44,12 +44,12 @@ As datas da vida de Jesus são aproximadas, e tudo bem dizer isso. O que mais vo
 ## Vídeo 3: a semana que mudou a história
 
 **Gancho (letras grandes, 3 primeiros segundos):**
-A semana que mudou a história, dia após dia.
+A última semana de Jesus, em ordem.
 
 **Narração (cerca de 35 segundos):**
-Jesus entra em Jerusalém montado num jumentinho e é recebido com ramos. Purifica o templo e ensina durante a semana. Celebra a Páscoa com os discípulos na última ceia. Ora no Getsêmani, é preso e julgado diante do sumo sacerdote, de Pilatos e de Herodes Antipas. É crucificado e sepultado. E, no primeiro dia da semana, o túmulo está vazio.
+Jesus entra em Jerusalém montado num jumentinho. Purifica o templo e ensina durante a semana. Celebra a Páscoa com os discípulos na última ceia. Ora no Getsêmani, é preso e julgado diante do sumo sacerdote, de Pilatos e de Herodes Antipas. É crucificado e sepultado. E, no primeiro dia da semana, o túmulo está vazio.
 
-**Versículo:** "Tu és o Cristo, o Filho do Deus vivo." (Mateus 16:16)
+**Versículo:** "…manifestou o firme propósito de ir a Jerusalém." (Lucas 9:51)
 
 **Chamada final:** Envie para quem quer entender a Páscoa. Leia o texto completo em ateladoreino.com.
 

@@ -2,7 +2,7 @@
 
 Artigo de origem: `src/content/blog/cronologia-da-vida-de-jesus.md`
 Link: https://ateladoreino.com/blog/cronologia-da-vida-de-jesus/
-Duração prevista: cerca de 6 minutos (narração de cerca de 830 palavras, a ~140 palavras por minuto, mais pausas para as imagens).
+Duração prevista: cerca de 6 minutos (narração de cerca de 810 palavras, a ~140 palavras por minuto, mais pausas para as imagens).
 
 ## Título
 
@@ -27,7 +27,7 @@ Quem lê os quatro Evangelhos muitas vezes perde a ordem dos acontecimentos, por
 **Narração:**
 Antes, uma palavra honesta: as datas da vida de Jesus são aproximadas, e estudiosos cristãos chegam a conclusões um pouco diferentes. Jesus nasceu antes da morte do rei Herodes, o Grande, que costuma ser situada por volta de 4 antes de Cristo. Por isso muitos estimam o nascimento entre 6 e 4 antes de Cristo. Lucas diz que Jesus começava a ser de quase trinta anos no início do ministério. O Evangelho de João menciona pelo menos três Páscoas, o que sugere um ministério de dois a três anos e meio. A morte e a ressurreição aconteceram em Jerusalém, na Páscoa, com Pilatos governando a Judeia; as datas mais propostas são 30 ou 33 depois de Cristo. Também vale saber que a ordem de alguns episódios varia entre os Evangelhos. Cada autor escreveu com um propósito e para um público, e às vezes agrupou acontecimentos por tema. Por exemplo, João narra uma purificação do templo no início do ministério, e os outros Evangelhos narram uma na última semana. A cronologia que vamos seguir é a mais comum nas chamadas harmonias dos Evangelhos.
 
-**Na tela:** linha do tempo horizontal: "6–4 a.C.: nascimento", "c. 27–29 d.C.: início do ministério", "30 ou 33 d.C.: morte e ressurreição". Referências Lucas 3:1, Lucas 3:23, João 2:13; 6:4; 11:55.
+**Na tela:** linha do tempo horizontal: "6–4 a.C.: nascimento", "Início do ministério: 15º ano de Tibério (Lucas 3:1)", "30 ou 33 d.C.: morte e ressurreição". Referências Lucas 3:1, Lucas 3:23, João 2:13; 6:4; 11:55.
 
 ### 3. Nascimento e infância (1:55 a 3:00)
 
@@ -43,27 +43,27 @@ Fase dois, a infância em Nazaré. Os Evangelhos contam um único episódio dess
 **Narração:**
 Fase três, a preparação. João Batista prega no deserto. Jesus é batizado no Jordão e é tentado no deserto durante quarenta dias. Os primeiros discípulos o seguem, e em Caná ele faz o primeiro sinal, transformando água em vinho. Na primeira Páscoa do ministério, em Jerusalém, conversa com Nicodemos e, na volta pela Samaria, com a mulher samaritana.
 
-Fase quatro, a Galileia, a fase mais longa. Jesus prega que o Reino de Deus está próximo e faz de Cafarnaum a sua base. Chama pescadores, escolhe os doze depois de uma noite de oração, ensina o Sermão do Monte e as parábolas, cura e multiplica os pães. Pedro confessa: "Tu és o Cristo, o Filho do Deus vivo". E três discípulos veem a transfiguração. Nessa fase também acontecem a cura de muitos doentes, a libertação de oprimidos e encontros marcantes, como o de Jesus com pessoas que a sociedade desprezava. Muitas das passagens mais conhecidas dos Evangelhos estão aqui.
+Fase quatro, a Galileia, a fase mais longa. Jesus prega que o Reino de Deus está próximo e faz de Cafarnaum a sua base. Chama pescadores, escolhe os doze depois de uma noite de oração, ensina o Sermão do Monte e as parábolas, cura e multiplica os pães. Pedro confessa: "Tu és o Cristo, o Filho do Deus vivo". E três discípulos veem a transfiguração. Nessa fase também acontecem curas, libertações e a multiplicação dos pães para cerca de cinco mil homens, contada em Marcos 6. Muitas das passagens mais conhecidas dos Evangelhos estão aqui.
 
 **Na tela:** mapa com o rio Jordão, Caná, Samaria e Cafarnaum. Mateus 16:16 com a referência. Texto: "Mateus 5–7: Sermão do Monte".
 
-### 5. Rumo a Jerusalém e a última semana (4:10 a 5:05)
+### 5. Rumo a Jerusalém e a última semana (4:10 a 5:00)
 
 **Narração:**
 Fase cinco: Lucas diz que Jesus manifestou o firme propósito de ir a Jerusalém. No caminho aparecem as parábolas do bom samaritano e do filho pródigo, e, em Betânia, a ressurreição de Lázaro.
 
-Fase seis, a última semana. Jesus entra em Jerusalém montado num jumentinho. Purifica o templo e ensina durante a semana. Celebra a Páscoa com os discípulos na última ceia. Ora no Getsêmani, é preso e julgado diante do sumo sacerdote, de Pilatos e de Herodes Antipas, filho de Herodes, o Grande. É crucificado, morre e é sepultado. Os quatro Evangelhos dedicam muito espaço a essa semana. Isso mostra a importância que os primeiros cristãos davam à morte e à ressurreição de Jesus, o centro da fé cristã.
+Fase seis, a última semana. Jesus entra em Jerusalém montado num jumentinho. Purifica o templo e ensina durante a semana. Celebra a Páscoa com os discípulos na última ceia. Ora no Getsêmani, é preso e julgado diante do sumo sacerdote, de Pilatos e de Herodes Antipas, filho de Herodes, o Grande. É crucificado, morre e é sepultado. Os julgamentos estão em Mateus 26 e em Lucas 23, e a crucificação, a morte e o sepultamento, em Lucas 23.
 
 **Na tela:** sequência de ícones: jumentinho, templo, pão e cálice, oliveira, cruz. Referências Lucas 9:51, João 11, Mateus 21–27.
 
-### 6. Ressurreição e ascensão (5:05 a 5:40)
+### 6. Ressurreição e ascensão (5:00 a 5:35)
 
 **Narração:**
-Fase sete. No primeiro dia da semana, as mulheres encontram o túmulo vazio, e dois anjos anunciam que Jesus ressuscitou. Durante quarenta dias, ele aparece aos discípulos e fala do Reino de Deus. Por fim, é elevado ao céu diante deles. Os anjos então dizem aos discípulos que esse mesmo Jesus voltará. A história que começou numa manjedoura termina com uma promessa, e a igreja começa a anunciar essa boa notícia ao mundo.
+Fase sete. No primeiro dia da semana, as mulheres encontram o túmulo vazio, e dois anjos anunciam que Jesus ressuscitou. Durante quarenta dias, ele aparece aos discípulos e fala do Reino de Deus. Por fim, é elevado ao céu diante deles. Durante esses quarenta dias, Jesus fala com os discípulos sobre o Reino de Deus. A história que começou numa manjedoura chega ao túmulo vazio e à ascensão.
 
 **Na tela:** túmulo aberto com luz dourada. Referências Lucas 24 e Atos 1:3, 9-11.
 
-### 7. Oração e encerramento (5:40 a 6:20)
+### 7. Oração e encerramento (5:35 a 6:15)
 
 **Narração:**
 Uma sugestão para estudar em casa: escolha um Evangelho, comece por Marcos, que é o mais curto, leia um capítulo por dia e anote em qual fase você está.
@@ -86,8 +86,8 @@ Capítulos:
 1:55 Nascimento e infância
 3:00 Preparação e ministério na Galileia
 4:10 Rumo a Jerusalém e a última semana
-5:05 Ressurreição e ascensão
-5:40 Oração e encerramento
+5:00 Ressurreição e ascensão
+5:35 Oração e encerramento
 
 Citações bíblicas: Almeida Revista e Corrigida (ARC).
 
