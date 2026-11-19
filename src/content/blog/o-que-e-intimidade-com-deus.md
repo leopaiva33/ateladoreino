@@ -3,7 +3,7 @@ title: "O que é intimidade com Deus e como cultivá-la"
 description: "O que a Bíblia chama de intimidade com Deus, exemplos de quem andou perto dele e 6 práticas simples para cultivar essa amizade no dia a dia."
 pubDate: 2026-11-29T07:00:00-03:00
 image: "/images/posts/o-que-e-intimidade-com-deus.png"
-imageAlt: "Ilustração de um banco de madeira sob uma árvore à beira de um lago ao amanhecer, com luz dourada no horizonte"
+imageAlt: "Ilustração de um banco de madeira com uma Bíblia aberta, ao lado de uma árvore à beira de um lago ao amanhecer"
 category: "Vida cristã"
 tags: ["intimidade com deus", "oração", "vida devocional", "vida cristã"]
 ---
@@ -34,7 +34,7 @@ O livro de Êxodo diz que o Senhor falava com Moisés "face a face, como qualque
 
 ### Davi e a sede de Deus
 
-Os salmos atribuídos a Davi mostram alguém que levava a Deus tudo o que sentia: alegria, medo, culpa e saudade. O Salmo 42, dos filhos de Corá, expressa o mesmo desejo: "Como o cervo brama pelas correntes das águas, assim suspira a minha alma por ti, ó Deus!" (Salmos 42:1).
+Os salmos atribuídos a Davi mostram alguém que levava a Deus tudo o que sentia: alegria, medo, culpa e saudade. No deserto de Judá, ele escreveu: "Ó Deus, tu és o meu Deus; de madrugada te buscarei; a minha alma tem sede de ti" (Salmos 63:1).
 
 ### Maria, aos pés de Jesus
 
@@ -55,10 +55,10 @@ Jesus, mesmo com a agenda cheia, buscava o Pai a sós. Marcos conta que, de madr
 
 Não há fórmula, mas há hábitos que abrem espaço para essa amizade crescer. Escolha um ou dois para começar nesta semana.
 
-1. **Separe um tempo a sós.** Siga o conselho de Jesus: entre no seu "quarto", feche a porta e ore ao Pai em secreto (Mateus 6:6). Dez minutos com o celular longe já fazem diferença.
+1. **Separe um tempo a sós.** Jesus ensinou: "entra no teu aposento e, fechando a tua porta, ora a teu Pai" (Mateus 6:6). Dez minutos com o celular longe já fazem diferença.
 2. **Leia a Bíblia para conhecer Deus.** Ao ler um trecho, pergunte: "O que este texto mostra sobre quem Deus é?" Os Evangelhos são um bom começo, porque mostram Jesus de perto.
 3. **Ore com honestidade.** Os Salmos ensinam que dá para levar a Deus a gratidão e também a tristeza e as perguntas. Fale com ele como alguém que ouve de verdade.
-4. **Pratique o silêncio.** "Aquietai-vos e sabei que eu sou Deus" (Salmos 46:10). Fique alguns minutos em silêncio depois de ler e orar, sem pressa de sair.
+4. **Pratique o silêncio.** No Salmo 46, Deus manda as nações pararem a guerra e reconhecerem quem ele é: "Aquietai-vos e sabei que eu sou Deus" (Salmos 46:10). Por extensão, o verso nos lembra de parar e confiar. Fique alguns minutos em silêncio depois de ler e orar, sem pressa de sair.
 5. **Obedeça no que já sabe.** Intimidade cresce quando a fé vira prática: perdoar alguém, ajudar quem precisa, abandonar um hábito que afasta de Deus (João 14:23).
 6. **Caminhe com outros.** A vida com Deus não é isolada. Orar com a família, participar de uma igreja e conversar com amigos de fé ajuda a perseverar.
 
@@ -91,7 +91,7 @@ Para dar o próximo passo, veja [o poder da oração no dia a dia](/blog/o-poder
 - Hebreus 10:19-22
 - João 14:23
 - Êxodo 33:11
-- Salmos 42:1
+- Salmos 63:1
 - Lucas 10:38-42
 - Marcos 1:35
 - 1 João 1:9

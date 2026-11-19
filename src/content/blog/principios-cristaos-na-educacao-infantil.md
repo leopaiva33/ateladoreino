@@ -26,7 +26,7 @@ As crianças aprendem mais com o que veem do que com o que ouvem. Paulo lembra a
 
 ### 2. A Palavra no dia a dia
 
-Deus orientou Israel a ensinar os mandamentos aos filhos "assentado em tua casa, e andando pelo caminho, e deitando-te, e levantando-te" (Deuteronômio 6:7). A fé não fica só para o culto: aparece na conversa do carro, na hora de dormir, nas refeições. Timóteo conhecia as Escrituras desde a infância (2 Timóteo 3:15).
+Deus orientou Israel a ensinar os mandamentos aos filhos "assentado em tua casa, e andando pelo caminho, e deitando-te, e levantando-te" (Deuteronômio 6:6-7). A fé não fica só para o culto: aparece na conversa no carro, na hora de dormir, nas refeições. Timóteo conhecia as Escrituras desde a infância (2 Timóteo 3:15).
 
 ### 3. Disciplina com amor, sem provocar ira
 
@@ -50,9 +50,9 @@ Provérbios diz: "Instrui o menino no caminho em que deve andar, e, até quando 
 
 ## Um cuidado sobre disciplina
 
-Disciplinar é ensinar limites com firmeza e amor. Gritos, humilhações e agressões não são disciplina cristã, ferem a criança e contradizem o próprio texto de Efésios 6:4. No Brasil, a lei proíbe castigos físicos e tratamentos cruéis ou degradantes contra crianças e adolescentes.
+Disciplinar é ensinar limites com firmeza e amor. Gritos, humilhações e agressões não são disciplina cristã, ferem a criança e contradizem o próprio texto de Efésios 6:4. No Brasil, a Lei 13.010/2014, conhecida como Lei Menino Bernardo, alterou o Estatuto da Criança e do Adolescente (ECA) para garantir que crianças e adolescentes sejam educados sem castigos físicos nem tratamentos cruéis ou degradantes.
 
-Se você suspeita que uma criança sofre violência, ligue para o **Disque 100**, gratuito, que recebe denúncias de violações de direitos humanos. Se a família passa por conflitos difíceis, procure ajuda pastoral e profissional, como psicólogos e conselheiros familiares.
+Se você suspeita que uma criança sofre violência, ligue para o **Disque 100**, gratuito e disponível 24 horas, que recebe denúncias de violações de direitos humanos, ou procure o Conselho Tutelar da sua cidade. Em caso de perigo imediato, ligue 190. Se a família passa por conflitos difíceis, procure ajuda pastoral e profissional, como psicólogos e conselheiros familiares.
 
 ## Ideias práticas por idade
 
@@ -80,7 +80,7 @@ Evite transformar a fé em castigo ou obrigação vazia. Converse, ouça as dúv
 
 Educar os filhos com princípios cristãos é uma tarefa de todos os dias, feita de exemplo, conversa, correção com amor e muita oração. Não exige perfeição dos pais, mas sinceridade e constância.
 
-Comece com um passo simples nesta semana: uma oração em família ou uma história bíblica antes de dormir. Para os filhos mais velhos, veja o [devocional para jovens em 10 minutos](/blog/devocional-para-jovens/), e para os pais, o guia de [estudo bíblico para iniciantes](/blog/estudo-biblico-para-iniciantes/).
+Comece com um passo simples nesta semana: uma oração em família ou uma história bíblica antes de dormir. Quando os filhos chegarem à adolescência, veja o [devocional para jovens em 10 minutos](/blog/devocional-para-jovens/), e para os pais, o guia de [estudo bíblico para iniciantes](/blog/estudo-biblico-para-iniciantes/).
 
 ## Referências
 
