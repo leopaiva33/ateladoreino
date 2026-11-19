@@ -4,6 +4,8 @@
 // Variáveis de ambiente na Vercel: BREVO_API_KEY, BREVO_LIST_ID e BREVO_DOI_TEMPLATE_ID
 // (modelo de e-mail de confirmação criado no Brevo).
 const SITE = 'https://ateladoreino.com';
+// Aceita o número com ou sem "#" (como o Brevo mostra).
+const numero = (v) => Number(String(v ?? '').replace(/[^0-9]/g, ''));
 
 export default async function handler(req, res) {
   if (req.method !== 'POST') {
@@ -38,10 +40,9 @@ export default async function handler(req, res) {
     headers: { 'api-key': BREVO_API_KEY, 'content-type': 'application/json', accept: 'application/json' },
     body: JSON.stringify({
       email,
-      includeListIds: [Number(BREVO_LIST_ID)],
-      templateId: Number(BREVO_DOI_TEMPLATE_ID),
+      includeListIds: [numero(BREVO_LIST_ID)],
+      templateId: numero(BREVO_DOI_TEMPLATE_ID),
       redirectionUrl: `${SITE}/newsletter/confirmada/`,
-      attributes: { ORIGEM: 'site', CONSENTIMENTO: new Date().toISOString() },
     }),
   });
   if (r.ok || r.status === 204) return res.status(200).json({ ok: true });
