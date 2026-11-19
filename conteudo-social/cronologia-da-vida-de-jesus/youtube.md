@@ -43,7 +43,7 @@ Fase dois, a infância em Nazaré. Os Evangelhos contam um único episódio dess
 **Narração:**
 Fase três, a preparação. João Batista prega no deserto. Jesus é batizado no Jordão e é tentado no deserto durante quarenta dias. Os primeiros discípulos o seguem, e em Caná ele faz o primeiro sinal, transformando água em vinho. Na primeira Páscoa do ministério, em Jerusalém, conversa com Nicodemos e, na volta pela Samaria, com a mulher samaritana.
 
-Fase quatro, a Galileia, a fase mais longa. Jesus prega que o Reino de Deus está próximo e faz de Cafarnaum a sua base. Chama pescadores, escolhe os doze depois de uma noite de oração, ensina o Sermão do Monte e as parábolas, e cura muitos doentes. Pedro confessa: "Tu és o Cristo, o Filho do Deus vivo". E três discípulos veem a transfiguração. Nessa fase também acontecem curas, libertações e a multiplicação dos pães para cerca de cinco mil homens, contada em Marcos 6. Muitas das passagens mais conhecidas dos Evangelhos estão aqui.
+Fase quatro, a Galileia, a fase mais longa. Jesus prega que o Reino de Deus está próximo e faz de Cafarnaum a sua base. Chama pescadores, escolhe os doze depois de uma noite de oração, ensina o Sermão do Monte e as parábolas, e cura muitos doentes. Pedro confessa: "Tu és o Cristo, o Filho do Deus vivo". E três discípulos veem a transfiguração. Nessa fase também acontecem libertações e a multiplicação dos pães para cerca de cinco mil homens, contada em Marcos 6. Muitas das passagens mais conhecidas dos Evangelhos estão aqui.
 
 **Na tela:** mapa com o rio Jordão, Caná, Samaria e Cafarnaum. Mateus 16:16 com a referência. Texto: "Mateus 5–7: Sermão do Monte".
 
@@ -72,7 +72,7 @@ Vamos orar. Senhor Jesus, obrigado por teres vivido entre nós, ensinado, curado
 
 Leia o texto completo, com as referências de cada fase, em ateladoreino.com, e inscreva-se no canal A Tela do Reino. Um abraço, Leonardo Paiva, A Tela do Reino.
 
-**Na tela:** lista "Escolha um Evangelho / Um capítulo por dia / Anote a fase". Depois, o texto da oração em legendas. Endereço "ateladoreino.com" e botão de inscrição.
+**Na tela:** lista "Escolha um Evangelho / Um capítulo por dia / Anote a fase / Marque os lugares no mapa / Pergunte ao texto". Depois, o texto da oração em legendas. Endereço "ateladoreino.com" e botão de inscrição.
 
 ## Descrição do vídeo
 

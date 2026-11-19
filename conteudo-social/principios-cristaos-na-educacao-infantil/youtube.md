@@ -2,7 +2,7 @@
 
 Artigo de origem: `src/content/blog/principios-cristaos-na-educacao-infantil.md`
 Link: https://ateladoreino.com/blog/principios-cristaos-na-educacao-infantil/
-Duração prevista: cerca de 6 minutos (narração de cerca de 810 palavras, a ~140 palavras por minuto, mais pausas para as imagens).
+Duração prevista: cerca de 6 minutos (narração de cerca de 820 palavras, a ~140 palavras por minuto, mais pausas para as imagens).
 
 ## Título
 
@@ -47,7 +47,7 @@ Quarto: graça e perdão em casa. Pais também erram, e pedir perdão a um filho
 
 Quinto: oração pelos filhos e com os filhos. Ore por eles pelo nome e ore junto, com palavras simples, para que aprendam que Deus ouve. Uma ideia simples: à noite, perguntem juntos pelo que agradecer naquele dia e por quem orar. Em poucos minutos, a criança aprende que pode falar com Deus sobre a própria vida, com as próprias palavras.
 
-Sexto: crescimento integral. Sobre a infância de Jesus, Lucas escreve que ele crescia em sabedoria, em estatura e em graça para com Deus e os homens. Educar na fé inclui o corpo, a mente, as emoções e os relacionamentos. Isso inclui brincar, estudar, ter amigos e aprender a lidar com as emoções.
+Sexto: crescimento integral. Sobre a infância de Jesus, Lucas escreve que ele crescia em sabedoria, em estatura e em graça para com Deus e os homens. Educar na fé inclui o corpo, a mente, as emoções e os relacionamentos. Isso significa brincar, estudar, ter amigos e aprender a lidar com o que sente.
 
 Sétimo: paciência e confiança em Deus. Provérbios diz: "Instrui o menino no caminho em que deve andar". Mas Provérbios reúne princípios de sabedoria, não promessas automáticas. Os pais fazem a sua parte e confiam os filhos a Deus. Isso tira um peso dos ombros dos pais. Vocês não controlam o coração dos filhos. E se um filho não quiser participar das atividades de fé, evite transformar a fé em castigo ou obrigação vazia: converse, ouça as dúvidas, mantenha o exemplo e a oração.
 
