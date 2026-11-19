@@ -2,7 +2,7 @@
 
 Artigo de origem: `src/content/blog/cronologia-da-vida-de-jesus.md`
 Link: https://ateladoreino.com/blog/cronologia-da-vida-de-jesus/
-Duração prevista: cerca de 6 minutos (narração de cerca de 810 palavras, a ~140 palavras por minuto, mais pausas para as imagens).
+Duração prevista: cerca de 6 minutos (narração de cerca de 830 palavras, a ~140 palavras por minuto, mais pausas para as imagens).
 
 ## Título
 
@@ -43,7 +43,7 @@ Fase dois, a infância em Nazaré. Os Evangelhos contam um único episódio dess
 **Narração:**
 Fase três, a preparação. João Batista prega no deserto. Jesus é batizado no Jordão e é tentado no deserto durante quarenta dias. Os primeiros discípulos o seguem, e em Caná ele faz o primeiro sinal, transformando água em vinho. Na primeira Páscoa do ministério, em Jerusalém, conversa com Nicodemos e, na volta pela Samaria, com a mulher samaritana.
 
-Fase quatro, a Galileia, a fase mais longa. Jesus prega que o Reino de Deus está próximo e faz de Cafarnaum a sua base. Chama pescadores, escolhe os doze depois de uma noite de oração, ensina o Sermão do Monte e as parábolas, cura e multiplica os pães. Pedro confessa: "Tu és o Cristo, o Filho do Deus vivo". E três discípulos veem a transfiguração. Nessa fase também acontecem curas, libertações e a multiplicação dos pães para cerca de cinco mil homens, contada em Marcos 6. Muitas das passagens mais conhecidas dos Evangelhos estão aqui.
+Fase quatro, a Galileia, a fase mais longa. Jesus prega que o Reino de Deus está próximo e faz de Cafarnaum a sua base. Chama pescadores, escolhe os doze depois de uma noite de oração, ensina o Sermão do Monte e as parábolas, e cura muitos doentes. Pedro confessa: "Tu és o Cristo, o Filho do Deus vivo". E três discípulos veem a transfiguração. Nessa fase também acontecem curas, libertações e a multiplicação dos pães para cerca de cinco mil homens, contada em Marcos 6. Muitas das passagens mais conhecidas dos Evangelhos estão aqui.
 
 **Na tela:** mapa com o rio Jordão, Caná, Samaria e Cafarnaum. Mateus 16:16 com a referência. Texto: "Mateus 5–7: Sermão do Monte".
 
@@ -56,17 +56,17 @@ Fase seis, a última semana. Jesus entra em Jerusalém montado num jumentinho. P
 
 **Na tela:** sequência de ícones: jumentinho, templo, pão e cálice, oliveira, cruz. Referências Lucas 9:51, João 11, Mateus 21–27.
 
-### 6. Ressurreição e ascensão (5:00 a 5:35)
+### 6. Ressurreição e ascensão (5:00 a 5:25)
 
 **Narração:**
-Fase sete. No primeiro dia da semana, as mulheres encontram o túmulo vazio, e dois anjos anunciam que Jesus ressuscitou. Durante quarenta dias, ele aparece aos discípulos e fala do Reino de Deus. Por fim, é elevado ao céu diante deles. Durante esses quarenta dias, Jesus fala com os discípulos sobre o Reino de Deus. A história que começou numa manjedoura chega ao túmulo vazio e à ascensão.
+Fase sete. No primeiro dia da semana, as mulheres encontram o túmulo vazio, e dois anjos anunciam que Jesus ressuscitou. Durante quarenta dias, ele aparece aos discípulos e fala do Reino de Deus. Por fim, é elevado ao céu diante deles. A história que começou numa manjedoura chega ao túmulo vazio e à ascensão.
 
 **Na tela:** túmulo aberto com luz dourada. Referências Lucas 24 e Atos 1:3, 9-11.
 
-### 7. Oração e encerramento (5:35 a 6:15)
+### 7. Oração e encerramento (5:25 a 6:20)
 
 **Narração:**
-Uma sugestão para estudar em casa: escolha um Evangelho, comece por Marcos, que é o mais curto, leia um capítulo por dia e anote em qual fase você está.
+Uma sugestão para estudar em casa: escolha um Evangelho, comece por Marcos, que é o mais curto, leia um capítulo por dia e anote em qual fase você está. Marque os lugares num mapa simples: Belém, Nazaré, Cafarnaum, o Jordão, Betânia e Jerusalém. E pergunte ao texto: o que Jesus fez, o que ensinou e o que isso mostra sobre quem ele é.
 
 Vamos orar. Senhor Jesus, obrigado por teres vivido entre nós, ensinado, curado, morrido e ressuscitado. Ao ler a tua história, quero te conhecer melhor e te seguir de perto. Amém.
 
@@ -87,7 +87,7 @@ Capítulos:
 3:00 Preparação e ministério na Galileia
 4:10 Rumo a Jerusalém e a última semana
 5:00 Ressurreição e ascensão
-5:35 Oração e encerramento
+5:25 Oração e encerramento
 
 Citações bíblicas: Almeida Revista e Corrigida (ARC).
 

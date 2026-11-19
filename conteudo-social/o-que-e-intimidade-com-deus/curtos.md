@@ -31,6 +31,8 @@ Até Jesus separava tempo a sós com o Pai.
 **Narração (cerca de 30 segundos):**
 Jesus tinha a agenda cheia: multidões, curas, viagens. Mesmo assim, Marcos conta que, de madrugada, ainda escuro, ele saiu para um lugar deserto e ali orava. Se ele precisava desse tempo, nós também precisamos. Comece com dez minutos por dia, celular longe, a Bíblia aberta e uma oração sincera. Os Evangelhos são um bom começo.
 
+**Na tela:** Marcos 1:35 durante a narração sobre Jesus orando de madrugada.
+
 **Versículo:** "…entra no teu aposento e, fechando a tua porta, ora a teu Pai…" (Mateus 6:6)
 
 **Chamada final:** Envie para alguém que vive na correria. Leia o texto completo em ateladoreino.com.

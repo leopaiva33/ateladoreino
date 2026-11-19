@@ -2,7 +2,7 @@
 
 Artigo de origem: `src/content/blog/principios-cristaos-na-educacao-infantil.md`
 Link: https://ateladoreino.com/blog/principios-cristaos-na-educacao-infantil/
-Duração prevista: cerca de 6 minutos (narração de cerca de 820 palavras, a ~140 palavras por minuto, mais pausas para as imagens).
+Duração prevista: cerca de 6 minutos (narração de cerca de 810 palavras, a ~140 palavras por minuto, mais pausas para as imagens).
 
 ## Título
 
@@ -29,18 +29,18 @@ Tudo começa por uma visão: "Eis que os filhos são herança do Senhor", diz o 
 
 **Na tela:** Salmos 127:3 em letras grandes com a referência. Depois, Marcos 10:14.
 
-### 3. Os princípios de 1 a 3 (1:20 a 2:30)
+### 3. Os princípios de 1 a 3 (1:20 a 2:25)
 
 **Narração:**
 Primeiro princípio: o exemplo vem antes das palavras. Paulo lembra a Timóteo a fé que havia primeiro na avó Loide e na mãe Eunice. A fé dele foi formada em casa.
 
 Segundo: a Palavra no dia a dia. Deus orientou Israel a ensinar os mandamentos aos filhos em casa, no caminho, ao deitar e ao levantar, em Deuteronômio 6. A fé aparece na conversa no carro, na hora de dormir e nas refeições, e não só no culto.
 
-Terceiro: disciplina com amor, sem provocar ira. A Bíblia fala em corrigir, mas alerta os pais: "não provoqueis a ira a vossos filhos, mas criai-os na doutrina e admoestação do Senhor", em Efésios 6:4. E Colossenses 3:21 completa: para que não percam o ânimo. Correção cristã forma, não humilha. O objetivo da correção cristã é formar, e não humilhar. A criança aprende limites com firmeza e amor, e o amor dos pais continua presente mesmo quando há correção.
+Terceiro: disciplina com amor, sem provocar ira. A Bíblia fala em corrigir, mas alerta os pais: "não provoqueis a ira a vossos filhos, mas criai-os na doutrina e admoestação do Senhor", em Efésios 6:4. E Colossenses 3:21 completa: para que não percam o ânimo. Correção cristã forma, não humilha. A criança aprende limites com firmeza e amor, e o amor dos pais continua presente mesmo quando há correção.
 
 **Na tela:** os três princípios numerados. 2 Timóteo 1:5, Deuteronômio 6:6-7 e Efésios 6:4 com as referências.
 
-### 4. Os princípios de 4 a 7 (2:30 a 4:10)
+### 4. Os princípios de 4 a 7 (2:25 a 4:05)
 
 **Narração:**
 Quarto: graça e perdão em casa. Pais também erram, e pedir perdão a um filho ensina mais sobre o evangelho do que muitos sermões.
@@ -53,21 +53,21 @@ Sétimo: paciência e confiança em Deus. Provérbios diz: "Instrui o menino no 
 
 **Na tela:** os princípios 4 a 7 numerados. Lucas 2:52 e Provérbios 22:6 com as referências. Texto: "Princípio, não garantia".
 
-### 5. Um cuidado sobre disciplina (4:10 a 4:55)
+### 5. Um cuidado sobre disciplina (4:05 a 4:50)
 
 **Narração:**
 Disciplinar é ensinar limites com firmeza e amor. Gritos, humilhações e agressões não são disciplina cristã e contradizem o próprio texto de Efésios. No Brasil, a Lei 13.010 de 2014, conhecida como Lei Menino Bernardo, garante que crianças e adolescentes sejam educados sem castigos físicos nem tratamentos cruéis ou degradantes. Se você suspeita que uma criança sofre violência, ligue para o Disque 100, gratuito e disponível 24 horas, ou procure o Conselho Tutelar. Em perigo imediato, ligue 190. Se a família passa por conflitos difíceis, procure ajuda pastoral e profissional. Este conteúdo é devocional e não substitui esse acompanhamento.
 
 **Na tela:** aviso escrito: "Disque 100 (gratuito, 24 h) • Conselho Tutelar • Perigo imediato: 190".
 
-### 6. Ideias práticas por idade (4:55 a 5:40)
+### 6. Ideias práticas por idade (4:50 a 5:35)
 
 **Narração:**
 Até cinco anos: histórias bíblicas curtas antes de dormir, músicas e uma oração simples de gratidão. De seis a nove anos: um devocional curto em família uma vez por semana e pequenos gestos de serviço. De dez a doze: ler um Evangelho junto, conversar sobre dúvidas sem medo e dar espaço para a criança orar com as próprias palavras. E para quem ensina na escola dominical ou numa escola cristã: ligue a história bíblica ao dia a dia da turma e incentive a participação das famílias, porque a fé se fortalece quando casa e igreja caminham juntas.
 
 **Na tela:** três colunas por idade, com ícones simples (livro, mesa de família, Bíblia aberta).
 
-### 7. Oração e encerramento (5:40 a 6:20)
+### 7. Oração e encerramento (5:35 a 6:15)
 
 **Narração:**
 Vamos orar pelos nossos filhos. Senhor, obrigado pelos filhos que confiaste a nós. Dá-nos paciência, sabedoria e amor para educá-los no teu caminho. Que eles vejam em nós um exemplo verdadeiro de fé e encontrem em ti um Pai que nunca os abandona. Amém.
@@ -88,10 +88,10 @@ Capítulos:
 0:00 Abertura
 0:40 Filhos como herança
 1:20 Os princípios de 1 a 3
-2:30 Os princípios de 4 a 7
-4:10 Um cuidado sobre disciplina
-4:55 Ideias práticas por idade
-5:40 Oração e encerramento
+2:25 Os princípios de 4 a 7
+4:05 Um cuidado sobre disciplina
+4:50 Ideias práticas por idade
+5:35 Oração e encerramento
 
 Citações bíblicas: Almeida Revista e Corrigida (ARC).
 
