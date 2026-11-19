@@ -137,8 +137,15 @@ if (modo === 'enviar' && (await existe(REGISTRO))) {
   console.log(`A edição de ${diaISO} já foi enviada (${REGISTRO}).`);
   process.exit(0);
 }
-const { BREVO_API_KEY, BREVO_LIST_ID, BREVO_SENDER_EMAIL, BREVO_TEST_EMAIL } = process.env;
-if (!BREVO_API_KEY || !BREVO_LIST_ID || !BREVO_SENDER_EMAIL) throw new Error('Faltam BREVO_API_KEY, BREVO_LIST_ID e/ou BREVO_SENDER_EMAIL.');
+const { BREVO_API_KEY, BREVO_TEST_EMAIL } = process.env;
+// Aceita o número com ou sem "#" (como o Brevo mostra) e o remetente pelo e-mail ou pelo número.
+const numero = (v) => Number(String(v ?? '').replace(/[^0-9]/g, ''));
+const BREVO_LIST_ID = numero(process.env.BREVO_LIST_ID);
+const remetenteBruto = String(process.env.BREVO_SENDER_EMAIL ?? '').trim();
+const remetente = remetenteBruto.includes('@')
+  ? { name: 'A Tela do Reino', email: remetenteBruto }
+  : { name: 'A Tela do Reino', id: numero(remetenteBruto) };
+if (!BREVO_API_KEY || !BREVO_LIST_ID || !(remetente.email || remetente.id)) throw new Error('Faltam BREVO_API_KEY, BREVO_LIST_ID e/ou BREVO_SENDER_EMAIL.');
 async function brevo(caminho, corpo) {
   const r = await fetch(`https://api.brevo.com/v3/${caminho}`, {
     method: 'POST',
@@ -154,10 +161,10 @@ const { id } = await brevo('emailCampaigns', {
   name: `Newsletter ${diaISO}${modo === 'teste' ? ' (teste)' : ''}`,
   subject: assunto,
   previewText: preheader.slice(0, 140),
-  sender: { name: 'A Tela do Reino', email: BREVO_SENDER_EMAIL },
-  replyTo: BREVO_SENDER_EMAIL,
+  sender: remetente,
+  ...(remetente.email ? { replyTo: remetente.email } : {}),
   htmlContent: html,
-  recipients: { listIds: [Number(BREVO_LIST_ID)] },
+  recipients: { listIds: [BREVO_LIST_ID] },
   inlineImageActivation: false,
 });
 if (modo === 'teste') {
