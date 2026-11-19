@@ -31,7 +31,7 @@ export const SITE = {
    */
   googleAnalytics: 'G-83V6M71HN7' as string,
   // Liga o formulário da newsletter (Brevo) quando a conta estiver configurada.
-  newsletter: false as boolean,
+  newsletter: true as boolean,
 
   adsense: {
     /** ID do editor (ca-pub-...). Também deve estar em public/ads.txt. */
