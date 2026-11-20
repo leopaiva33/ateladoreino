@@ -5,38 +5,61 @@
   "slides": [
     {
       "tipo": "capa",
-      "titulo": "Avivamento dos morávios: a oração que durou 100 anos"
+      "titulo": "A oração que durou *100 anos*",
+      "chapeu": "História da igreja",
+      "apoio": "Como uma vila dividida mudou a história das missões.",
+      "isca": "Deslize",
+      "busca": "village countryside sunrise",
+      "foto": "https://cdn.pixabay.com/photo/2023/03/18/06/57/church-7860012_1280.jpg"
     },
     {
       "tipo": "texto",
       "titulo": "Herrnhut, 1722",
-      "texto": "Refugiados da Morávia, guiados por Christian David, fundaram uma vila nas terras do conde Zinzendorf, na Alemanha."
+      "texto": "Refugiados da Morávia, guiados por Christian David, fundaram uma vila nas terras do conde Zinzendorf, na Alemanha.",
+      "isca": "Mas começou mal",
+      "busca": "old village houses",
+      "foto": "https://cdn.pixabay.com/photo/2018/09/12/11/04/houses-3671861_1280.jpg"
     },
     {
       "tipo": "texto",
       "titulo": "Começou com conflito",
-      "texto": "A vila cresceu dividida. Em maio de 1727, a comunidade aceitou um acordo para viver junta em amor."
+      "texto": "A vila cresceu dividida. Em maio de 1727, a comunidade aceitou um acordo para viver junta em amor.",
+      "isca": "O dia da reconciliação",
+      "busca": "two hands holding",
+      "foto": "https://cdn.pixabay.com/photo/2026/03/31/10/37/10-37-51-592_1280.jpg"
     },
     {
       "tipo": "texto",
       "titulo": "13 de agosto de 1727",
-      "texto": "Na ceia em Berthelsdorf, os relatos falam de confissão, lágrimas e reconciliação. Os morávios chamaram o dia de seu “Pentecostes”."
+      "texto": "Na ceia em Berthelsdorf, os relatos falam de confissão, lágrimas e reconciliação. Os morávios chamaram o dia de seu “Pentecostes”.",
+      "isca": "O versículo por trás",
+      "busca": "bread wine table",
+      "foto": "https://cdn.pixabay.com/photo/2019/06/17/13/06/candle-4279864_1280.jpg"
     },
     {
       "tipo": "versiculo",
       "citacao": "O fogo arderá continuamente sobre o altar; não se apagará.",
       "ref": "Levítico 6:13",
-      "comentario": "Segundo a tradição, inspirou os turnos de oração, dia e noite."
+      "isca": "Como durou 100 anos",
+      "destaque": "Segundo a tradição, inspirou os turnos de oração, *dia e noite*.",
+      "busca": "fire flames dark",
+      "foto": "https://cdn.pixabay.com/photo/2017/08/02/22/30/fire-2573724_1280.jpg"
     },
     {
       "tipo": "texto",
       "titulo": "Cerca de 100 anos",
-      "texto": "Não era um culto sem fim: cada um assumia a sua hora e passava o turno adiante, por gerações."
+      "texto": "Não era um culto sem fim: cada um assumia a sua hora e passava o turno adiante, por gerações.",
+      "isca": "Da oração para o mundo",
+      "busca": "hourglass",
+      "foto": "https://cdn.pixabay.com/photo/2023/01/07/21/32/hourglass-7704150_1280.jpg"
     },
     {
       "tipo": "texto",
       "titulo": "Da oração para o mundo",
-      "texto": "Em 1732, Leonhard Dober e David Nitschmann partiram para St. Thomas, no Caribe. Outros foram a vários continentes."
+      "texto": "Em 1732, Leonhard Dober e David Nitschmann partiram para St. Thomas, no Caribe. Outros foram a vários continentes.",
+      "isca": "5 passos para hoje",
+      "busca": "sailing ship sea",
+      "foto": "https://cdn.pixabay.com/photo/2023/07/22/10/50/ship-8143169_1280.jpg"
     },
     {
       "tipo": "lista",
@@ -47,18 +70,24 @@
         "Monte um revezamento.",
         "Tenha um versículo do dia.",
         "Ore pelos perdidos."
-      ]
+      ],
+      "isca": "Uma oração pronta"
     },
     {
-      "tipo": "texto",
-      "titulo": "Oração",
-      "texto": "Senhor, une o teu povo. Tira de mim o orgulho e dá-me constância para orar todos os dias. Amém."
+      "tipo": "oracao",
+      "titulo": "Ore agora, com estas palavras",
+      "texto": "Senhor, une o teu povo. Tira de mim o orgulho e dá-me constância para orar todos os dias. Amém.",
+      "isca": "Último passo",
+      "busca": "candle prayer dark",
+      "foto": "https://cdn.pixabay.com/photo/2025/10/05/07/11/candles-9874140_1280.jpg"
     },
     {
       "tipo": "final",
-      "titulo": "Salve este post",
-      "texto": "Leia a história completa em ateladoreino.com (link na bio).",
-      "rodape": "Leonardo Paiva, A Tela do Reino"
+      "titulo": "Salve e assuma a sua *hora* de oração.",
+      "texto": "Envie para quem ora com você.",
+      "rodape": "Texto completo: ateladoreino.com · link na bio",
+      "busca": "sunrise ocean",
+      "foto": "https://cdn.pixabay.com/photo/2017/08/07/14/35/woman-2604474_1280.jpg"
     }
   ]
 }

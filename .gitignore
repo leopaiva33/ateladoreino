@@ -39,3 +39,6 @@ video-out/
 .cache-video/
 video-previa/
 newsletter-previa.html
+
+# fotos baixadas para os carrosséis (refeitas quando preciso)
+.cache-carrossel/

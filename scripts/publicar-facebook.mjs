@@ -14,6 +14,7 @@
 //   node scripts/publicar-facebook.mjs --diagnostico          confere token, permissões e Página
 //   node scripts/publicar-facebook.mjs <slug> [--reel]        simula
 //   node scripts/publicar-facebook.mjs <slug> [--reel] --publicar
+import { existsSync } from 'node:fs';
 import { readFile, writeFile, access } from 'node:fs/promises';
 import { join } from 'node:path';
 
@@ -79,13 +80,15 @@ if (await existe(REGISTRO)) {
   process.exit(publicar ? 1 : 0);
 }
 const spec = JSON.parse(await readFile(join('conteudo-social', slug, 'carrossel.json'), 'utf8'));
+// Modelo novo: slides em JPEG (slide-NN.jpg); carrosséis antigos: PNG.
+const extSlides = existsSync(join('public', 'social', slug, 'slide-01.jpg')) ? 'jpg' : 'png';
 const link = `${SITE}/blog/${slug}/`;
 let legenda = spec.legenda.replace(/\s*\(link na bio\)\.?/gi, `:\n${link}`);
 if (!legenda.includes(link)) legenda += `\n\nLeia o texto completo: ${link}`;
 
 const urls = reel
   ? [`${SITE}/social/${slug}/reel.mp4`]
-  : spec.slides.map((_, i) => `${SITE}/social/${slug}/slide-${String(i + 1).padStart(2, '0')}.png`);
+  : spec.slides.map((_, i) => `${SITE}/social/${slug}/slide-${String(i + 1).padStart(2, '0')}.${extSlides}`);
 console.log(`${reel ? 'Reel' : 'Carrossel'} no Facebook: ${slug}\n\n${legenda}\n`);
 
 const { p } = await pagina();

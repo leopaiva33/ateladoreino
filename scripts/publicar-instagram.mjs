@@ -14,6 +14,7 @@
 //   IG_ACCESS_TOKEN  token de acesso de longa duração com a permissão instagram_content_publish
 //   GRAPH_VERSION    opcional, padrão v21.0
 //   SITE_URL         opcional, padrão https://ateladoreino.com
+import { existsSync } from 'node:fs';
 import { readFile, writeFile } from 'node:fs/promises';
 import { join } from 'node:path';
 
@@ -40,6 +41,8 @@ if (publicar && !process.argv.includes('--de-novo')) {
 }
 
 const spec = JSON.parse(await readFile(join('conteudo-social', slug, 'carrossel.json'), 'utf8'));
+// Modelo novo: slides em JPEG (slide-NN.jpg); carrosséis antigos: PNG.
+const extSlides = existsSync(join('public', 'social', slug, 'slide-01.jpg')) ? 'jpg' : 'png';
 const total = spec.slides.length;
 if (total < 2 || total > 10) throw new Error(`O carrossel precisa de 2 a 10 slides (tem ${total}).`);
 if (spec.legenda.length > 2200) throw new Error(`Legenda com ${spec.legenda.length} caracteres (máximo 2.200).`);
@@ -48,7 +51,7 @@ if (hashtags > 30) throw new Error('Mais de 30 hashtags (limite do Instagram).')
 
 const urls = reel
   ? [`${SITE_URL}/social/${slug}/reel.mp4`, `${SITE_URL}/social/${slug}/reel-capa.jpg`]
-  : spec.slides.map((_, i) => `${SITE_URL}/social/${slug}/slide-${String(i + 1).padStart(2, '0')}.png`);
+  : spec.slides.map((_, i) => `${SITE_URL}/social/${slug}/slide-${String(i + 1).padStart(2, '0')}.${extSlides}`);
 
 console.log(reel ? `Reel: ${slug} (legenda com ${spec.legenda.length} caracteres)` : `Carrossel: ${slug} (${total} slides, legenda com ${spec.legenda.length} caracteres)`);
 let faltando = 0;

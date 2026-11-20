@@ -42,6 +42,14 @@ pastas ignoradas pelo git.
    site). Em artigo, a conclusão traz convite à ação e 2 links internos; nos
    formatos sociais, a chamada final usa "Leia o texto completo em
    ateladoreino.com" ou o link do perfil, conforme a skill.
+   **Carrossel (modelo com fotos):** o gancho da capa e as iscas seguem a skill
+   `carrossel-instagram` (sem culpa ou medo, sem promessa de resultado, sem dado
+   inventado); cada `isca` promete só o que o slide seguinte entrega; as
+   `citacao` do `carrossel.json` são idênticas à ARC, sem asteriscos; nenhuma
+   foto tem símbolo de denominação ou religião específica, texto legível em
+   outra língua ou repete outra foto. Se os slides já foram gerados (ou estão
+   em `video-previa/<slug>/`), abra-os e confira se o texto está legível sobre a
+   foto e se nada foi cortado.
 5. **SEO (artigos e estudos):**
    - `title` com **até 60 caracteres**, com a palavra-chave principal no
      começo. O site só acrescenta " | A Tela do Reino" quando o título inteiro

@@ -1,0 +1,17 @@
+{
+  "slug": "oracao-de-gratidao",
+  "arte": "public/images/posts/oracao-de-gratidao.png",
+  "legenda": "Cite uma coisa pela qual você agradece a Deus hoje. Conte nos comentários.\n\nCompartilhe com alguém por quem você é grato.\n\nLeia o texto completo, com o passo a passo e ideias para praticar a gratidão todo dia, em ateladoreino.com (link na bio).\n\n#Gratidão #Oração #Devocional #Fé #Bíblia #ATelaDoReino",
+  "slides": [
+    { "tipo": "capa", "foto": "pexels:1323550", "chapeu": "1 minuto com Deus", "titulo": "A oração mais *simples* que existe", "apoio": "Cabe em um minuto. E muda a primeira frase do seu dia.", "isca": "Deslize" },
+    { "tipo": "texto", "foto": "pexels:1166209", "titulo": "Ela não precisa ser longa.", "texto": "Nem bonita. Basta *nomear* o que você recebeu e dizer “obrigado”.", "isca": "A Bíblia mostra o porquê" },
+    { "tipo": "versiculo", "foto": "pexels:1112048", "citacao": "Em tudo dai graças, porque esta é a vontade de Deus em Cristo Jesus para convosco.", "ref": "1 Tessalonicenses 5:18", "destaque": "Em tudo, *não por tudo.*", "isca": "Por onde começar" },
+    { "tipo": "versiculo", "foto": "pexels:5199810", "citacao": "Bendize, ó minha alma, ao Senhor, e não te esqueças de nenhum de seus benefícios.", "ref": "Salmos 103:2", "destaque": "A gratidão começa por *lembrar.*", "isca": "Uma história de 10 pessoas" },
+    { "tipo": "versiculo", "foto": "pexels:372326", "citacao": "Não foram dez os limpos? E onde estão os nove?", "ref": "Lucas 17:17", "destaque": "Dez foram curados. *Só um voltou* para agradecer.", "isca": "Seja o que volta. Veja como" },
+    { "tipo": "lista", "titulo": "Em 4 passos", "itens": ["Pare um minuto.", "Agradeça por quem Deus é.", "Nomeie três coisas concretas.", "Termine com um gesto de gratidão."], "isca": "Uma oração pronta" },
+    { "tipo": "oracao", "foto": "pexels:1775043", "titulo": "Ore agora, com estas palavras", "texto": "Senhor, obrigado por este dia, pela minha família e pelo alimento. Ajuda-me a ser generoso como tu és comigo. Amém.", "isca": "Como virar hábito" },
+    { "tipo": "lista", "titulo": "Para não esquecer", "itens": ["Anote três coisas por dia.", "Agradeça antes das refeições.", "Mande uma mensagem de gratidão.", "No jantar, cada um conta algo bom."], "isca": "E nos dias difíceis?" },
+    { "tipo": "texto", "foto": "pexels:1529881", "titulo": "E quando está difícil agradecer?", "texto": "Comece pelo básico. A Bíblia também tem salmos de lamento: *gratidão e honestidade* podem andar juntas.", "isca": "Último passo" },
+    { "tipo": "final", "foto": "pexels:1144176", "titulo": "Salve e ore de novo *amanhã.*", "texto": "Envie para alguém por quem você é grato hoje.", "rodape": "Texto completo: ateladoreino.com · link na bio" }
+  ]
+}
