@@ -20,7 +20,7 @@ const id = `nl-${Math.random().toString(36).slice(2, 8)}`;
   <h2 id={`${id}-titulo`}>{titulo}</h2>
   <p>{texto}</p>
   <form class="newsletter-form" data-newsletter novalidate>
-    <label class="sr-only" for={`${id}-email`}>Seu e-mail</label>
+    <label class="newsletter-rotulo" for={`${id}-email`}>Seu e-mail</label>
     <div class="newsletter-linha">
       <input id={`${id}-email`} type="email" name="email" placeholder="seu@email.com" autocomplete="email" required />
       <button type="submit">Quero receber</button>
@@ -33,7 +33,7 @@ const id = `nl-${Math.random().toString(36).slice(2, 8)}`;
         <a href="/privacidade/">política de privacidade</a>.
       </span>
     </label>
-    <p class="newsletter-status" role="status" aria-live="polite"></p>
+    <p class="newsletter-status" id={`${id}-status`} role="status" aria-live="polite"></p>
   </form>
 </section>
 )}
@@ -42,16 +42,32 @@ const id = `nl-${Math.random().toString(36).slice(2, 8)}`;
   document.querySelectorAll<HTMLFormElement>('form[data-newsletter]').forEach((form) => {
     const status = form.querySelector<HTMLElement>('.newsletter-status')!;
     const botao = form.querySelector<HTMLButtonElement>('button')!;
+    const campoEmail = form.querySelector<HTMLInputElement>('input[type="email"]')!;
+    const campoConsentimento = form.querySelector<HTMLInputElement>('input[name="consentimento"]')!;
+    // Marca o campo com erro, liga a mensagem a ele e leva o foco até lá.
+    const erro = (campo: HTMLInputElement, mensagem: string) => {
+      status.textContent = mensagem;
+      campo.setAttribute('aria-invalid', 'true');
+      campo.setAttribute('aria-describedby', status.id);
+      campo.focus();
+    };
+    const limpar = () => {
+      for (const campo of [campoEmail, campoConsentimento]) {
+        campo.removeAttribute('aria-invalid');
+        campo.removeAttribute('aria-describedby');
+      }
+    };
     form.addEventListener('submit', async (ev) => {
       ev.preventDefault();
       const dados = new FormData(form);
       const email = String(dados.get('email') ?? '').trim();
+      limpar();
       if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)) {
-        status.textContent = 'Confira o e-mail digitado.';
+        erro(campoEmail, 'Confira o e-mail digitado (exemplo: nome@gmail.com).');
         return;
       }
       if (!dados.get('consentimento')) {
-        status.textContent = 'Marque a caixa de consentimento para continuar.';
+        erro(campoConsentimento, 'Marque a caixa de consentimento para continuar.');
         return;
       }
       botao.disabled = true;

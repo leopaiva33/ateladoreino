@@ -24,7 +24,7 @@ const { id, titulo, imagem } = Astro.props;
     </button>
   </div>
   <p class="meta">
-    Ou veja <a href={`https://www.youtube.com/watch?v=${id}`} rel="noopener" target="_blank">direto no YouTube</a>.
+    Ou veja <a href={`https://www.youtube.com/watch?v=${id}`} rel="noopener" target="_blank">direto no YouTube<span class="sr-only"> (abre em nova aba)</span></a>.
     O player só é carregado quando você clica.
   </p>
 </section>
@@ -40,6 +40,7 @@ const { id, titulo, imagem } = Astro.props;
       iframe.referrerPolicy = 'strict-origin-when-cross-origin';
       iframe.allowFullscreen = true;
       quadro.replaceChildren(iframe);
+      iframe.focus();
     });
   }
 </script>

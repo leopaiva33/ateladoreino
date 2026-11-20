@@ -89,13 +89,14 @@ const ogImage = new URL(image ?? SITE.ogImage, SITE.url).href;
       crossorigin="anonymous"></script>
   </head>
   <body>
+    <a class="pular" href="#conteudo">Pular para o conteúdo</a>
+    <GoogleAnalytics />
     <Header />
-    <main class={mainClass}>
+    <main id="conteudo" tabindex="-1" class={mainClass}>
       <slot />
     </main>
     <Footer />
     <Analytics />
     <SpeedInsights />
-    <GoogleAnalytics />
   </body>
 </html>
