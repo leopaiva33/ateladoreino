@@ -16,7 +16,7 @@ Devocional é um encontro diário com Deus: ler um trecho da Bíblia, pensar nel
 
 **Slide 3 (versiculo), isca: "Mais um →":**
 "Ninguém despreze a tua mocidade; mas sê o exemplo dos fiéis…" (1 Timóteo 4:12)
-Ser jovem *não impede* ser exemplo.
+Ser jovem *não impede* de ser exemplo.
 
 **Slide 4 (versiculo), isca: "O roteiro →":**
 "Lembra-te do teu Criador nos dias da tua mocidade…" (Eclesiastes 12:1)

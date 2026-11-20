@@ -40,7 +40,7 @@ Para hoje
 1. Tenha método. 2. Descanse na graça. 3. Entre num pequeno grupo. 4. Cante o que você crê. 5. Sirva alguém.
 
 **Slide 9 (oracao), isca: "Último passo →":**
-Ore agora, com estas palavras
+Ore agora
 Senhor, aquece o meu coração com a certeza do teu perdão. Dá-me disciplina, irmãos para caminhar e mãos para servir. Amém.
 
 **Slide 10 (final):**

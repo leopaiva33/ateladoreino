@@ -30,7 +30,7 @@ Deus busca quem se afastou e se alegra com a sua volta (Lucas 15:1-7).
 O filho pródigo
 A graça do Pai alcança quem volta e quem ficou em casa ressentido (Lucas 15:11-32). Em qual irmão me reconheço?
 
-**Slide 7 (texto), isca: "A 6ª: o grão de mostarda →":**
+**Slide 7 (texto), isca: "A 6ª: a mostarda →":**
 Os talentos
 Deus espera fidelidade, não perfeição (Mateus 25:14-30). O que eu estou “enterrando”?
 

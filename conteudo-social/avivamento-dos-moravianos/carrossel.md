@@ -15,7 +15,7 @@ Como uma vila dividida mudou a história das missões.
 Herrnhut, 1722
 Refugiados da Morávia, guiados por Christian David, fundaram uma vila nas terras do conde Zinzendorf, na Alemanha.
 
-**Slide 3 (texto), isca: "O dia que mudou tudo →":**
+**Slide 3 (texto), isca: "O dia da reconciliação →":**
 Começou com conflito
 A vila cresceu dividida. Em maio de 1727, a comunidade aceitou um acordo para viver junta em amor.
 

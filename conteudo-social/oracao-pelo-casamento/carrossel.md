@@ -18,7 +18,7 @@ Orar pelo casamento é entregar a Deus a relação, pedindo amor, perdão e sabe
 "…o cordão de três dobras não se quebra tão depressa." (Eclesiastes 4:12)
 Muitos cristãos veem aí um casamento *com Deus no centro*.
 
-**Slide 4 (versiculo), isca: "Por quem orar →":**
+**Slide 4 (versiculo), isca: "Pelo que orar →":**
 "…sujeitando-vos uns aos outros no temor de Deus." (Efésios 5:21)
 Serviço e cuidado *dos dois lados*, não dominação.
 
@@ -43,8 +43,8 @@ Em crise?
 A oração não substitui conversa e aconselhamento. Em caso de violência, priorize a sua segurança: Ligue 180 ou 190.
 
 **Slide 10 (final):**
-Salve e orem *juntos* esta semana.
-Envie para o seu cônjuge.
+Salve e ore com seu *cônjuge* esta semana.
+Envie para ele ou para ela.
 Texto completo: ateladoreino.com · link na bio
 
 ## Legenda

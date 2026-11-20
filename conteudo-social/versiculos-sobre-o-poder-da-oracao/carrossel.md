@@ -9,7 +9,7 @@ Gerado a partir de `carrossel.json` (fonte de verdade).
 **Slide 1 (capa), isca: "Deslize →":**
 Selo: Oração
 O poder da oração *não está nas palavras*
-7 versículos para entender, com contexto.
+Versículos para entender, com contexto.
 
 **Slide 2 (texto), isca: "O 1º versículo →":**
 O poder da oração está em Deus, que ouve. Não está em palavras certas nem em fórmulas.
@@ -44,7 +44,7 @@ Não sabe o que dizer? *Deus entende.*
 
 **Slide 10 (final):**
 Salve e ore *um versículo* por dia.
-Escolha um versículo por dia e transforme-o em oração.
+Envie para quem ora com você.
 Texto completo: ateladoreino.com · link na bio
 
 ## Legenda

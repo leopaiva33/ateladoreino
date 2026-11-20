@@ -5,7 +5,7 @@
   "slides": [
     {
       "tipo": "capa",
-      "titulo": "O avivamento que nasceu num *prédio simples*",
+      "titulo": "O avivamento que *cresceu* num prédio simples",
       "chapeu": "História da igreja",
       "apoio": "Rua Azusa, Los Angeles, 1906.",
       "isca": "Deslize",
@@ -32,7 +32,7 @@
       "tipo": "texto",
       "titulo": "Rejeitado, mas orando",
       "texto": "Em 1906, foi impedido de pregar numa igreja de Los Angeles. Passou a orar numa casa da rua Bonnie Brae.",
-      "isca": "O endereço que entrou na história",
+      "isca": "Rua Azusa, 312",
       "busca": "praying hands dark",
       "foto": "https://cdn.pixabay.com/photo/2021/02/24/04/52/praying-6045627_1280.jpg"
     },
@@ -40,7 +40,7 @@
       "tipo": "texto",
       "titulo": "Rua Azusa, 312",
       "texto": "Em abril de 1906, as reuniões foram para um prédio simples de madeira e duraram cerca de três anos.",
-      "isca": "O que mais chamou atenção",
+      "isca": "O que chamou a atenção",
       "busca": "old wooden house",
       "foto": "https://cdn.pixabay.com/photo/2016/11/29/13/08/blue-1869728_1280.jpg"
     },

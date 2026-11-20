@@ -8,7 +8,7 @@ Gerado a partir de `carrossel.json` (fonte de verdade).
 
 **Slide 1 (capa), isca: "Deslize →":**
 Selo: História da igreja
-O avivamento que nasceu num *prédio simples*
+O avivamento que *cresceu* num prédio simples
 Rua Azusa, Los Angeles, 1906.
 
 **Slide 2 (texto), isca: "Ele assistia de fora →":**
@@ -19,11 +19,11 @@ Nascido em 1870 na Louisiana, filho de pais que haviam sido escravizados. Cresce
 Do lado de fora
 Em Houston, em 1905, segundo os relatos, acompanhava as aulas bíblicas do lado de fora da sala. Mesmo assim, perseverou.
 
-**Slide 4 (texto), isca: "O endereço que entrou na história →":**
+**Slide 4 (texto), isca: "Rua Azusa, 312 →":**
 Rejeitado, mas orando
 Em 1906, foi impedido de pregar numa igreja de Los Angeles. Passou a orar numa casa da rua Bonnie Brae.
 
-**Slide 5 (texto), isca: "O que mais chamou atenção →":**
+**Slide 5 (texto), isca: "O que chamou a atenção →":**
 Rua Azusa, 312
 Em abril de 1906, as reuniões foram para um prédio simples de madeira e duraram cerca de três anos.
 
