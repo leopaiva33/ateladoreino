@@ -5,41 +5,59 @@
   "slides": [
     {
       "tipo": "capa",
-      "titulo": "Parábolas de Jesus explicadas: 6 histórias e significados"
+      "titulo": "6 histórias que *ainda falam* com você",
+      "chapeu": "Parábolas de Jesus",
+      "apoio": "O significado de cada uma e uma pergunta para pensar.",
+      "isca": "Deslize",
+      "busca": "wheat field sunset"
     },
     {
       "tipo": "texto",
-      "texto": "Histórias simples do dia a dia que revelam verdades sobre o Reino de Deus e pedem uma resposta."
+      "texto": "Histórias simples do dia a dia que revelam verdades sobre o Reino de Deus e pedem uma resposta.",
+      "isca": "A 1ª: o semeador",
+      "busca": "old road"
     },
     {
       "tipo": "texto",
       "titulo": "O semeador",
-      "texto": "A mesma Palavra dá frutos diferentes conforme o coração (Mateus 13:1-23). Que terra tem sido o meu coração?"
+      "texto": "A mesma Palavra dá frutos diferentes conforme o coração (Mateus 13:1-23). Que terra tem sido o meu coração?",
+      "isca": "A 2ª: o samaritano",
+      "busca": "seeds soil hand"
     },
     {
       "tipo": "texto",
       "titulo": "O bom samaritano",
-      "texto": "O amor ao próximo se mede pela ação (Lucas 10:25-37). De quem eu me aproximo, e de quem desvio?"
+      "texto": "O amor ao próximo se mede pela ação (Lucas 10:25-37). De quem eu me aproximo, e de quem desvio?",
+      "isca": "A 3ª: a ovelha",
+      "busca": "desert road"
     },
     {
       "tipo": "texto",
       "titulo": "A ovelha perdida",
-      "texto": "Deus busca quem se afastou e se alegra com a sua volta (Lucas 15:1-7)."
+      "texto": "Deus busca quem se afastou e se alegra com a sua volta (Lucas 15:1-7).",
+      "isca": "A 4ª: o filho pródigo",
+      "busca": "sheep field"
     },
     {
       "tipo": "texto",
       "titulo": "O filho pródigo",
-      "texto": "A graça do Pai alcança quem volta e quem ficou em casa ressentido (Lucas 15:11-32). Em qual irmão me reconheço?"
+      "texto": "A graça do Pai alcança quem volta e quem ficou em casa ressentido (Lucas 15:11-32). Em qual irmão me reconheço?",
+      "isca": "A 5ª: os talentos",
+      "busca": "road home sunset"
     },
     {
       "tipo": "texto",
       "titulo": "Os talentos",
-      "texto": "Deus espera fidelidade, não perfeição (Mateus 25:14-30). O que eu estou “enterrando”?"
+      "texto": "Deus espera fidelidade, não perfeição (Mateus 25:14-30). O que eu estou “enterrando”?",
+      "isca": "A 6ª: o grão de mostarda",
+      "busca": "old coins"
     },
     {
       "tipo": "texto",
       "titulo": "O grão de mostarda",
-      "texto": "O Reino cresce a partir de começos pequenos (Mateus 13:31-32). Não despreze um passo pequeno."
+      "texto": "O Reino cresce a partir de começos pequenos (Mateus 13:31-32). Não despreze um passo pequeno.",
+      "isca": "Como ler uma parábola",
+      "busca": "small sprout"
     },
     {
       "tipo": "lista",
@@ -50,13 +68,15 @@
         "Ponto principal.",
         "Jesus explica?",
         "O que isso pede de mim?"
-      ]
+      ],
+      "isca": "Último passo"
     },
     {
       "tipo": "final",
-      "titulo": "Salve este post",
-      "texto": "Uma parábola por semana. Leia o texto completo em ateladoreino.com (link na bio).",
-      "rodape": "Leonardo Paiva, A Tela do Reino"
+      "titulo": "Salve e leia *uma por semana*.",
+      "texto": "Envie para o seu grupo de estudo.",
+      "rodape": "Texto completo: ateladoreino.com · link na bio",
+      "busca": "sunrise"
     }
   ]
 }

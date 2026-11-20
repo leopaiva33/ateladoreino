@@ -5,29 +5,41 @@
   "slides": [
     {
       "tipo": "capa",
-      "titulo": "Princípios cristãos na educação dos filhos"
+      "titulo": "Educar os filhos com *princípios cristãos*",
+      "chapeu": "Família",
+      "apoio": "7 princípios e um cuidado importante.",
+      "isca": "Deslize",
+      "busca": "family walking sunset"
     },
     {
       "tipo": "versiculo",
       "citacao": "Eis que os filhos são herança do Senhor…",
       "ref": "Salmos 127:3",
-      "comentario": "Filhos não são propriedade: são pessoas confiadas por Deus."
+      "isca": "Princípio 1",
+      "destaque": "Filhos não são propriedade: são pessoas *confiadas por Deus*.",
+      "busca": "child hand parent hand"
     },
     {
       "tipo": "texto",
       "titulo": "1. O exemplo vem primeiro",
-      "texto": "A fé de Timóteo foi formada pelo exemplo da avó e da mãe (2 Timóteo 1:5)."
+      "texto": "A fé de Timóteo foi formada pelo exemplo da avó e da mãe (2 Timóteo 1:5).",
+      "isca": "Princípio 2",
+      "busca": "grandmother child"
     },
     {
       "tipo": "texto",
       "titulo": "2. A Palavra no dia a dia",
-      "texto": "Em casa, no caminho, ao deitar e ao levantar (Deuteronômio 6:6-7)."
+      "texto": "Em casa, no caminho, ao deitar e ao levantar (Deuteronômio 6:6-7).",
+      "isca": "Princípio 3",
+      "busca": "family reading book"
     },
     {
       "tipo": "versiculo",
       "citacao": "…não provoqueis a ira a vossos filhos…",
       "ref": "Efésios 6:4",
-      "comentario": "3. Disciplina com amor forma, não humilha."
+      "isca": "Mais quatro",
+      "destaque": "3. Disciplina com amor *forma, não humilha*.",
+      "busca": "parent child"
     },
     {
       "tipo": "lista",
@@ -37,28 +49,36 @@
         "Oração pelos e com os filhos",
         "Crescimento integral",
         "Paciência e confiança em Deus"
-      ]
+      ],
+      "isca": "Sobre Provérbios 22:6"
     },
     {
       "tipo": "texto",
       "titulo": "Provérbios 22:6",
-      "texto": "“Instrui o menino no caminho…” é princípio de sabedoria, não garantia. Os pais fazem a sua parte e confiam em Deus."
+      "texto": "“Instrui o menino no caminho…” é princípio de sabedoria, não garantia. Os pais fazem a sua parte e confiam em Deus.",
+      "isca": "Um cuidado",
+      "busca": "child field sunrise"
     },
     {
       "tipo": "texto",
       "titulo": "Um cuidado",
-      "texto": "Gritos, humilhações e agressões não são disciplina cristã. Suspeita de violência contra criança: Disque 100."
+      "texto": "Gritos, humilhações e agressões não são disciplina cristã. Suspeita de violência contra criança: Disque 100.",
+      "isca": "Uma oração pronta",
+      "busca": "house window light"
     },
     {
-      "tipo": "texto",
-      "titulo": "Oração",
-      "texto": "Senhor, dá-nos paciência, sabedoria e amor para educar nossos filhos no teu caminho. Amém."
+      "tipo": "oracao",
+      "titulo": "Ore agora, com estas palavras",
+      "texto": "Senhor, dá-nos paciência, sabedoria e amor para educar nossos filhos no teu caminho. Amém.",
+      "isca": "Último passo",
+      "busca": "candle prayer dark"
     },
     {
       "tipo": "final",
-      "titulo": "Salve este post",
-      "texto": "Leia o texto completo em ateladoreino.com (link na bio).",
-      "rodape": "Leonardo Paiva, A Tela do Reino"
+      "titulo": "Salve e ore pelos seus *filhos* hoje.",
+      "texto": "Envie para outros pais.",
+      "rodape": "Texto completo: ateladoreino.com · link na bio",
+      "busca": "family sunset"
     }
   ]
 }

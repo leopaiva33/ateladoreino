@@ -5,47 +5,65 @@
   "slides": [
     {
       "tipo": "capa",
-      "titulo": "Versículos de força para momentos difíceis, com contexto"
+      "titulo": "6 versículos de *força*, com contexto",
+      "chapeu": "Para dias difíceis",
+      "apoio": "Para ler devagar, em oração.",
+      "isca": "Deslize",
+      "busca": "storm lighthouse"
     },
     {
       "tipo": "texto",
-      "texto": "Eles não apagam a dor, mas lembram quem Deus é no meio dela. Leia com o contexto, devagar e em oração."
+      "texto": "Eles não apagam a dor, mas lembram quem Deus é no meio dela. Leia com o contexto, devagar e em oração.",
+      "isca": "O 1º versículo",
+      "busca": "rain window"
     },
     {
       "tipo": "versiculo",
       "citacao": "Deus é o nosso refúgio e fortaleza, socorro bem presente na angústia.",
       "ref": "Salmos 46:1",
-      "comentario": "O salmo fala de guerras; a confiança não depende de calma."
+      "isca": "O 2º",
+      "destaque": "O salmo fala de guerras; a confiança *não depende de calma*.",
+      "busca": "fortress castle"
     },
     {
       "tipo": "versiculo",
       "citacao": "Não temas, porque eu sou contigo…",
       "ref": "Isaías 41:10",
-      "comentario": "Dito a um povo no exílio. A razão para não temer é a presença de Deus."
+      "isca": "O 3º",
+      "destaque": "Dito a um povo no exílio. A razão para não temer é *a presença de Deus*.",
+      "busca": "river valley"
     },
     {
       "tipo": "versiculo",
       "citacao": "Mas os que esperam no Senhor renovarão as suas forças…",
       "ref": "Isaías 40:31",
-      "comentario": "Esperar é confiança ativa. Descansar também é um ato de fé."
+      "isca": "O 4º",
+      "destaque": "Esperar é confiança ativa. Descansar também é *um ato de fé*.",
+      "busca": "eagle flying"
     },
     {
       "tipo": "versiculo",
       "citacao": "A minha graça te basta…",
       "ref": "2 Coríntios 12:9",
-      "comentario": "O problema de Paulo continuou. Deus o sustentou mesmo assim."
+      "isca": "O 5º",
+      "destaque": "O problema de Paulo continuou. Deus o sustentou *mesmo assim*.",
+      "busca": "rose thorns"
     },
     {
       "tipo": "versiculo",
       "citacao": "Posso todas as coisas naquele que me fortalece.",
       "ref": "Filipenses 4:13",
-      "comentario": "Não é slogan de sucesso: é força para viver na fartura e na falta (4:11-12)."
+      "isca": "O 6º",
+      "destaque": "Não é slogan de sucesso: é força para viver *na fartura e na falta* (4:11-12).",
+      "busca": "mountain climber"
     },
     {
       "tipo": "versiculo",
       "citacao": "O Senhor é a minha luz e a minha salvação; a quem temerei?",
       "ref": "Salmos 27:1",
-      "comentario": "Davi também pede ajuda (27:9): confiança e súplica juntas."
+      "isca": "Um plano de 7 dias",
+      "destaque": "Davi também pede ajuda (27:9): *confiança e súplica* juntas.",
+      "busca": "light rays forest"
     },
     {
       "tipo": "lista",
@@ -55,13 +73,15 @@
         "Anote o que diz sobre Deus.",
         "Escreva uma oração.",
         "Dia 7: memorize um."
-      ]
+      ],
+      "isca": "Último passo"
     },
     {
       "tipo": "final",
-      "titulo": "Salve este post",
-      "texto": "Leia o texto completo em ateladoreino.com (link na bio).",
-      "rodape": "Leonardo Paiva, A Tela do Reino"
+      "titulo": "Salve para quando *precisar*.",
+      "texto": "Envie para alguém que está passando por um vale.",
+      "rodape": "Texto completo: ateladoreino.com · link na bio",
+      "busca": "sunrise after storm"
     }
   ]
 }
