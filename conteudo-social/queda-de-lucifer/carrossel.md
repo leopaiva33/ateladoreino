@@ -23,7 +23,7 @@ Tradução: ARC. As fotos ficam a escolher: cada slide tem um termo de `busca` n
    Isca: O outro rei
 
 5. **Versículo**: "Perfeito eras nos teus caminhos, desde o dia em que foste criado, até que se achou iniquidade em ti." (Ezequiel 28:15)
-   Destaque: A raiz é *o orgulho.*
+   Destaque: A raiz, diz o versículo 17, é *o orgulho.*
    Isca: Agora, o Novo Testamento
 
 6. **Versículo**: "E houve batalha no céu: Miguel e os seus anjos batalhavam contra o dragão…" (Apocalipse 12:7)
@@ -31,9 +31,9 @@ Tradução: ARC. As fotos ficam a escolher: cada slide tem um termo de `busca` n
    Isca: E os anjos que caíram?
 
 7. **Lista: Os anjos caídos**
-   1. Foram lançados com o dragão (Apocalipse 12:9).
-   2. Estão guardados para o juízo (Judas 6).
-   3. Creem que há um só Deus e estremecem (Tiago 2:19).
+   1. Lançados com o dragão (Apocalipse 12:9).
+   2. Guardados para o juízo (Judas 6).
+   3. Creem em Deus e estremecem (Tiago 2:19).
    4. Ainda há luta espiritual (Efésios 6:12).
    Isca: A boa notícia
 

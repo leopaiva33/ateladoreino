@@ -3,15 +3,84 @@
   "arte": "public/images/posts/queda-de-lucifer.png",
   "legenda": "Qual destes pontos você não sabia? Conte nos comentários.\n\nCompartilhe com alguém que quer entender o que a Bíblia diz, e o que não diz, sobre a queda de Lúcifer.\n\nLeia o estudo completo, texto por texto, em ateladoreino.com (link na bio). E assista à série A Queda nos Reels do perfil.\n\n#Bíblia #EstudoBíblico #ArcanjoMiguel #Apocalipse #Fé #ATelaDoReino",
   "slides": [
-    { "tipo": "capa", "busca": "golden sun rays through clouds", "chapeu": "Série A Queda", "titulo": "O que a Bíblia diz sobre a *queda*", "apoio": "E o que a tradição acrescentou à história de Lúcifer.", "isca": "Deslize" },
-    { "tipo": "texto", "busca": "old book pages soft light", "titulo": "Uma surpresa", "texto": "O nome *Lúcifer* não aparece na ARC. Isaías 14:12 diz “estrela da manhã”. O nome veio da tradução latina.", "isca": "De quem Isaías fala?" },
-    { "tipo": "texto", "busca": "ancient ruins sunset", "titulo": "Dois reis", "texto": "Isaías 14 fala do rei da Babilônia; Ezequiel 28, do rei de Tiro. Muitos veem neles também a queda de *Satanás.*", "isca": "O que o rei disse" },
-    { "tipo": "versiculo", "busca": "clouds above mountain peak", "citacao": "Subirei acima das mais altas nuvens e serei semelhante ao Altíssimo.", "ref": "Isaías 14:14", "destaque": "O orgulho de querer *o lugar de Deus.*", "isca": "O outro rei" },
-    { "tipo": "versiculo", "busca": "open bible soft light", "citacao": "Perfeito eras nos teus caminhos, desde o dia em que foste criado, até que se achou iniquidade em ti.", "ref": "Ezequiel 28:15", "destaque": "A raiz é *o orgulho.*", "isca": "Agora, o Novo Testamento" },
-    { "tipo": "versiculo", "busca": "dramatic sky light beam clouds", "citacao": "E houve batalha no céu: Miguel e os seus anjos batalhavam contra o dragão…", "ref": "Apocalipse 12:7", "destaque": "*Miguel* quer dizer “Quem é como Deus?”", "isca": "E os anjos que caíram?" },
-    { "tipo": "lista", "titulo": "Os anjos caídos", "itens": ["Foram lançados com o dragão (Apocalipse 12:9).", "Estão guardados para o juízo (Judas 6).", "Creem que há um só Deus e estremecem (Tiago 2:19).", "Ainda há luta espiritual (Efésios 6:12)."], "isca": "A boa notícia" },
-    { "tipo": "versiculo", "busca": "sunrise light breaking through clouds", "citacao": "E, despojando os principados e potestades, os expôs publicamente e deles triunfou em si mesmo.", "ref": "Colossenses 2:15", "destaque": "Na cruz, Jesus *já venceu.*", "isca": "Uma oração pronta" },
-    { "tipo": "oracao", "busca": "sunlight through window morning", "titulo": "Ore agora, com estas palavras", "texto": "Senhor, guarda o meu coração do orgulho e me ajuda a resistir ao mal. Obrigado pela vitória de Jesus. Amém.", "isca": "Último passo" },
-    { "tipo": "final", "busca": "sunrise over mountains golden", "titulo": "Salve e *compartilhe.*", "texto": "Envie para alguém que quer entender o tema. O estudo completo traz cada texto, da tradição judaica à cristã.", "rodape": "Estudo completo: ateladoreino.com · link na bio" }
+    {
+      "tipo": "capa",
+      "busca": "golden sun rays through clouds",
+      "chapeu": "Série A Queda",
+      "titulo": "O que a Bíblia diz sobre a *queda*",
+      "apoio": "E o que a tradição acrescentou à história de Lúcifer.",
+      "isca": "Deslize"
+    },
+    {
+      "tipo": "texto",
+      "busca": "old book pages soft light",
+      "titulo": "Uma surpresa",
+      "texto": "O nome *Lúcifer* não aparece na ARC. Isaías 14:12 diz “estrela da manhã”. O nome veio da tradução latina.",
+      "isca": "De quem Isaías fala?"
+    },
+    {
+      "tipo": "texto",
+      "busca": "ancient ruins sunset",
+      "titulo": "Dois reis",
+      "texto": "Isaías 14 fala do rei da Babilônia; Ezequiel 28, do rei de Tiro. Muitos veem neles também a queda de *Satanás.*",
+      "isca": "O que o rei disse"
+    },
+    {
+      "tipo": "versiculo",
+      "busca": "clouds above mountain peak",
+      "citacao": "Subirei acima das mais altas nuvens e serei semelhante ao Altíssimo.",
+      "ref": "Isaías 14:14",
+      "destaque": "O orgulho de querer *o lugar de Deus.*",
+      "isca": "O outro rei"
+    },
+    {
+      "tipo": "versiculo",
+      "busca": "open bible soft light",
+      "citacao": "Perfeito eras nos teus caminhos, desde o dia em que foste criado, até que se achou iniquidade em ti.",
+      "ref": "Ezequiel 28:15",
+      "destaque": "A raiz, diz o versículo 17, é *o orgulho.*",
+      "isca": "Agora, o Novo Testamento"
+    },
+    {
+      "tipo": "versiculo",
+      "busca": "dramatic sky light beam clouds",
+      "citacao": "E houve batalha no céu: Miguel e os seus anjos batalhavam contra o dragão…",
+      "ref": "Apocalipse 12:7",
+      "destaque": "*Miguel* quer dizer “Quem é como Deus?”",
+      "isca": "E os anjos que caíram?"
+    },
+    {
+      "tipo": "lista",
+      "titulo": "Os anjos caídos",
+      "itens": [
+        "Lançados com o dragão (Apocalipse 12:9).",
+        "Guardados para o juízo (Judas 6).",
+        "Creem em Deus e estremecem (Tiago 2:19).",
+        "Ainda há luta espiritual (Efésios 6:12)."
+      ],
+      "isca": "A boa notícia"
+    },
+    {
+      "tipo": "versiculo",
+      "busca": "sunrise light breaking through clouds",
+      "citacao": "E, despojando os principados e potestades, os expôs publicamente e deles triunfou em si mesmo.",
+      "ref": "Colossenses 2:15",
+      "destaque": "Na cruz, Jesus *já venceu.*",
+      "isca": "Uma oração pronta"
+    },
+    {
+      "tipo": "oracao",
+      "busca": "sunlight through window morning",
+      "titulo": "Ore agora, com estas palavras",
+      "texto": "Senhor, guarda o meu coração do orgulho e me ajuda a resistir ao mal. Obrigado pela vitória de Jesus. Amém.",
+      "isca": "Último passo"
+    },
+    {
+      "tipo": "final",
+      "busca": "sunrise over mountains golden",
+      "titulo": "Salve e *compartilhe.*",
+      "texto": "Envie para alguém que quer entender o tema. O estudo completo traz cada texto, da tradição judaica à cristã.",
+      "rodape": "Estudo completo: ateladoreino.com · link na bio"
+    }
   ]
 }
