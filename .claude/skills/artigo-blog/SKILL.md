@@ -84,7 +84,8 @@ tags: ["tag 1", "tag 2", "tag 3"]
 ---
 ```
 
-- `title`: **até 60 caracteres**. `description`: **até 155 caracteres**.
+- `title`: **até 60 caracteres**, sem o nome do site (ele é acrescentado
+  sozinho quando cabe). `description`: **de 120 a 155 caracteres**.
   Confira a contagem com `wc -m` ou `node -e` antes de entregar.
 - `pubDate`: ISO com fuso `-03:00`. Para agendar, use a próxima segunda-feira
   livre às 07:00 depois do último post agendado (veja `README.md`, seção
@@ -105,16 +106,12 @@ tags: ["tag 1", "tag 2", "tag 3"]
 - Confirme que o arquivo de destino existe em `src/content/blog/`.
 
 ## Imagem
-Gere a ilustração e a miniatura **no mesmo estilo** dos artigos existentes:
-1. Olhe 2 ou 3 arquivos de `art/*.svg` antes de desenhar.
-2. Crie `art/<slug>.svg` com `viewBox="0 0 1200 630"`: ilustração vetorial
-   plana, com gradientes suaves, paleta de céu (noite ou amanhecer), formas
-   simples e um ponto de luz dourada (`#f9e4b0`, `#fbf1dc`). **Sem texto na
-   imagem e sem rostos.** A cena deve ilustrar o tema do artigo.
-3. Rode `npm run images`: gera `public/images/posts/<slug>.png` (1200x630) e a
-   miniatura `public/images/posts/thumbs/<slug>.webp` (440x231).
-4. Confira os dois arquivos, olhe a imagem renderizada e preencha `image` e
-   `imageAlt` (texto alternativo descritivo, não "imagem do artigo").
+Siga a skill `ilustracao` (`.claude/skills/ilustracao/SKILL.md`): ela tem o estilo,
+a paleta, a zona segura para os recortes do carrossel, do Reel, do Pinterest e do
+vídeo, o passo a passo de geração (`npm run images`) e o checklist. Em resumo:
+`art/<slug>.svg` em 1200x630, vetorial plano, sem texto e sem rostos, com um ponto
+de luz dourada; depois preencha `image: "/images/posts/<slug>.png"` e um `imageAlt`
+que descreve a cena.
 
 ## Validação técnica
 Rode `SHOW_SCHEDULED=1 npm run build` e confirme que o build passa, que a
