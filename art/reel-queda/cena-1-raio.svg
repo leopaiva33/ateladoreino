@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1920" width="1080" height="1920">
+  <!-- camada do raio (pisca por cima da cena 1) -->
+  <defs>
+    <filter id="brilho" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+  <rect width="1080" height="1920" fill="#fff6dc" opacity=".16"/>
+  <g fill="none" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M700 0 L 640 260 L 700 300 L 600 620 L 660 650 L 560 980 L 610 1000 L 540 1180" stroke="#fde9a8" stroke-width="40" opacity=".55" filter="url(#brilho)"/>
+    <path d="M700 0 L 640 260 L 700 300 L 600 620 L 660 650 L 560 980 L 610 1000 L 540 1180" stroke="#fffaf0" stroke-width="9"/>
+    <path d="M640 260 L 560 380 L 590 400 L 520 520" stroke="#fffaf0" stroke-width="5" opacity=".85"/>
+    <path d="M600 620 L 700 760 L 680 780 L 740 880" stroke="#fffaf0" stroke-width="4" opacity=".7"/>
+  </g>
+</svg>

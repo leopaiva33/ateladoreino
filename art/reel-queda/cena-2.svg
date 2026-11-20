@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1920" width="1080" height="1920">
+  <!-- Rolos antigos à luz da lamparina: a tradição juntando as peças -->
+  <defs>
+    <radialGradient id="luz" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#ffd58a" stop-opacity=".6"/><stop offset=".45" stop-color="#e89a4a" stop-opacity=".18"/><stop offset="1" stop-color="#e89a4a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="parede" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#140c16"/><stop offset=".6" stop-color="#2b1b26"/><stop offset="1" stop-color="#1a0f16"/>
+    </linearGradient>
+    <linearGradient id="perg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#b98f5c"/><stop offset=".5" stop-color="#ecd3a2"/><stop offset="1" stop-color="#b98f5c"/>
+    </linearGradient>
+    <linearGradient id="base" x1="0" y1="0" x2="0" y2="1">
+      <stop offset=".45" stop-color="#0b0710" stop-opacity="0"/><stop offset=".72" stop-color="#0b0710" stop-opacity=".75"/><stop offset="1" stop-color="#0b0710" stop-opacity=".95"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1920" fill="url(#parede)"/>
+  <g stroke="#3a2632" stroke-width="3" opacity=".5">
+    <path d="M0 300 H1080 M0 460 H1080 M0 620 H1080 M0 780 H1080"/>
+    <path d="M180 140 V300 M560 140 V300 M900 140 V300 M360 300 V460 M760 300 V460 M200 460 V620 M600 460 V620 M960 460 V620 M400 620 V780 M820 620 V780"/>
+  </g>
+  <circle cx="540" cy="760" r="520" fill="url(#luz)"/>
+  <rect y="1700" width="1080" height="220" fill="#2e1d14"/>
+  <g transform="translate(0 -130)">
+  <!-- mesa -->
+  <path d="M0 1010 L1080 1010 L1080 1920 L0 1920 Z" fill="#2e1d14"/>
+  <path d="M0 1010 L1080 1010 L1080 1030 L0 1030 Z" fill="#4a2f1d"/>
+  <!-- pergaminho aberto (sem texto legível) -->
+  <path d="M170 1080 Q 540 1040 910 1080 L 930 1210 Q 540 1170 150 1210 Z" fill="url(#perg)"/>
+  <g stroke="#8a6a42" stroke-width="5" stroke-linecap="round" opacity=".35">
+    <path d="M230 1110 H480 M600 1105 H860 M220 1135 H500 M590 1130 H870 M215 1160 H470 M610 1155 H880"/>
+  </g>
+  <rect x="110" y="1060" width="70" height="170" rx="30" fill="#8a6440"/>
+  <rect x="900" y="1060" width="70" height="170" rx="30" fill="#8a6440"/>
+  <!-- rolo fechado -->
+  <rect x="720" y="930" width="250" height="60" rx="30" fill="#c9a06b"/>
+  <!-- lamparina de barro -->
+  <path d="M430 1000 Q 540 930 650 1000 Q 540 1030 430 1000 Z" fill="#6b3f26"/>
+  <path d="M630 985 L 700 965 L 690 990 Z" fill="#6b3f26"/>
+  <path d="M700 962 Q 690 920 705 880 Q 725 925 712 962 Z" fill="#ffd27a"/>
+  <path d="M703 958 Q 699 932 706 912 Q 716 935 710 958 Z" fill="#fff4cf"/>
+  </g>
+  <rect width="1080" height="1920" fill="url(#base)"/>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1920" width="1080" height="1920">
+  <!-- Colossenses 2:15: a cruz no monte ao nascer do sol -->
+  <defs>
+    <linearGradient id="ceu" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2a2a5a"/><stop offset=".3" stop-color="#7a4a6a"/><stop offset=".5" stop-color="#e7966a"/><stop offset=".62" stop-color="#ffd690"/>
+    </linearGradient>
+    <radialGradient id="sol" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#fff4cf"/><stop offset=".3" stop-color="#ffe2a0" stop-opacity=".8"/><stop offset="1" stop-color="#ffd690" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="base" x1="0" y1="0" x2="0" y2="1">
+      <stop offset=".45" stop-color="#0b0710" stop-opacity="0"/><stop offset=".72" stop-color="#0b0710" stop-opacity=".75"/><stop offset="1" stop-color="#0b0710" stop-opacity=".95"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1920" fill="url(#ceu)"/>
+  <g fill="#fff1c8" opacity=".14">
+    <path d="M540 1120 L 0 300 L 0 520 Z"/><path d="M540 1120 L 260 0 L 420 0 Z"/><path d="M540 1120 L 700 0 L 860 0 Z"/>
+    <path d="M540 1120 L 1080 300 L 1080 520 Z"/>
+  </g>
+  <circle cx="540" cy="1120" r="420" fill="url(#sol)"/>
+  <path d="M0 1180 Q 300 1040 540 1060 Q 800 1080 1080 1200 L1080 1920 L0 1920 Z" fill="#2a1626"/>
+  <path d="M0 1320 Q 380 1240 760 1290 T 1080 1280 L1080 1920 L0 1920 Z" fill="#1a0e18"/>
+  <!-- cruz -->
+  <g fill="#120a12">
+    <rect x="522" y="700" width="36" height="380"/>
+    <rect x="440" y="790" width="200" height="32"/>
+  </g>
+  <rect width="1080" height="1920" fill="url(#base)"/>
+</svg>

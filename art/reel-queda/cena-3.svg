@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1920" width="1080" height="1920">
+  <!-- Isaías 14:14: o rei da Babilônia no trono; a sombra na parede sugere asas, de leve -->
+  <defs>
+    <radialGradient id="tocha" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#ffc56a" stop-opacity=".55"/><stop offset="1" stop-color="#ffc56a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="parede" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#151a3a"/><stop offset=".55" stop-color="#25285a"/><stop offset="1" stop-color="#181434"/>
+    </linearGradient>
+    <linearGradient id="base" x1="0" y1="0" x2="0" y2="1">
+      <stop offset=".45" stop-color="#0b0710" stop-opacity="0"/><stop offset=".72" stop-color="#0b0710" stop-opacity=".75"/><stop offset="1" stop-color="#0b0710" stop-opacity=".95"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1920" fill="url(#parede)"/>
+  <!-- tijolos esmaltados -->
+  <g stroke="#2f3470" stroke-width="3" opacity=".6">
+    <path d="M0 220 H1080 M0 340 H1080 M0 460 H1080 M0 580 H1080 M0 700 H1080 M0 820 H1080 M0 940 H1080"/>
+  </g>
+  <g fill="#c9a24e" opacity=".55">
+    <path d="M90 380 l20 -30 l20 30 z M210 380 l20 -30 l20 30 z M830 380 l20 -30 l20 30 z M950 380 l20 -30 l20 30 z"/>
+  </g>
+  <!-- tochas -->
+  <circle cx="150" cy="560" r="230" fill="url(#tocha)"/><circle cx="930" cy="560" r="230" fill="url(#tocha)"/>
+  <rect x="140" y="580" width="20" height="120" fill="#3a2a1a"/><rect x="920" y="580" width="20" height="120" fill="#3a2a1a"/>
+  <path d="M150 590 Q 125 540 150 495 Q 175 540 150 590 Z" fill="#ffcf73"/><path d="M930 590 Q 905 540 930 495 Q 955 540 930 590 Z" fill="#ffcf73"/>
+  <!-- sombra na parede, com uma sugestão sutil de asas -->
+  <g fill="#0a0820" opacity=".22">
+    <path d="M540 360 Q 330 300 170 420 Q 300 430 330 520 Q 390 480 470 520 Z"/>
+    <path d="M540 360 Q 750 300 910 420 Q 780 430 750 520 Q 690 480 610 520 Z"/>
+    <ellipse cx="540" cy="520" rx="120" ry="200"/>
+  </g>
+  <!-- degraus e trono -->
+  <path d="M220 1120 H860 L900 1180 H180 Z" fill="#3b2a3a"/>
+  <path d="M180 1180 H900 L940 1250 H140 Z" fill="#2c1f2c"/>
+  <path d="M380 760 H700 V1120 H380 Z" fill="#8a6a2e"/>
+  <path d="M400 780 H680 V1100 H400 Z" fill="#a8843c"/>
+  <!-- rei: silhueta sentada, punho erguido -->
+  <g fill="#0f0a14">
+    <path d="M500 690 l12 -38 l14 26 l14 -34 l14 34 l14 -26 l12 38 z"/>
+    <circle cx="540" cy="725" r="38"/>
+    <path d="M505 760 Q 540 790 575 760 L 600 800 Q 590 820 560 815 L 520 815 Q 490 820 480 800 Z"/>
+    <path d="M470 800 Q 540 770 610 800 L 630 960 Q 620 990 590 990 L 600 1110 L 480 1110 L 490 990 Q 460 990 450 960 Z"/>
+    <path d="M600 810 Q 640 760 660 680 L 690 690 Q 675 780 625 840 Z"/>
+    <circle cx="676" cy="668" r="24"/>
+    <path d="M478 820 Q 440 880 460 950 L 490 945 Q 478 890 505 840 Z"/>
+  </g>
+  <rect width="1080" height="1920" fill="url(#base)"/>
+</svg>

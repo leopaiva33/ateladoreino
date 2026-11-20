@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1920" width="1080" height="1920">
+  <!-- Apocalipse 12:7: Miguel e os seus anjos contra o dragão (visão simbólica) -->
+  <defs>
+    <linearGradient id="ceu" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0f1430"/><stop offset=".5" stop-color="#232248"/><stop offset="1" stop-color="#140c1c"/>
+    </linearGradient>
+    <linearGradient id="feixe" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff2c8" stop-opacity=".75"/><stop offset=".55" stop-color="#ffd98a" stop-opacity=".15"/><stop offset="1" stop-color="#ffd98a" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="brilho" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="10"/></filter>
+    <linearGradient id="base" x1="0" y1="0" x2="0" y2="1">
+      <stop offset=".45" stop-color="#0b0710" stop-opacity="0"/><stop offset=".72" stop-color="#0b0710" stop-opacity=".75"/><stop offset="1" stop-color="#0b0710" stop-opacity=".95"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1920" fill="url(#ceu)"/>
+  <path d="M380 0 H700 L 900 1300 H180 Z" fill="url(#feixe)"/>
+  <!-- os anjos de Miguel: pontos de luz ao fundo -->
+  <g fill="#fff3d0">
+    <circle cx="230" cy="330" r="9" opacity=".8"/><circle cx="850" cy="300" r="10" opacity=".8"/><circle cx="160" cy="560" r="7" opacity=".6"/>
+    <circle cx="940" cy="540" r="8" opacity=".6"/><circle cx="330" cy="200" r="6" opacity=".6"/><circle cx="760" cy="170" r="6" opacity=".6"/>
+  </g>
+  <g fill="#fff3d0" opacity=".18">
+    <circle cx="230" cy="330" r="34"/><circle cx="850" cy="300" r="36"/><circle cx="160" cy="560" r="26"/><circle cx="940" cy="540" r="28"/>
+  </g>
+  <!-- Miguel: silhueta clara, asas abertas, espada de luz erguida -->
+  <g transform="translate(0 150)">
+    <path d="M532 372 C 440 300 330 190 200 150 C 230 240 260 300 300 340 Q 255 370 300 392 Q 300 425 350 418 Q 365 452 410 440 Q 435 470 470 450 Q 500 470 525 440 Z" fill="#fbf1dc"/>
+    <path d="M548 372 C 640 300 750 190 880 150 C 850 240 820 300 780 340 Q 825 370 780 392 Q 780 425 730 418 Q 715 452 670 440 Q 645 470 610 450 Q 580 470 555 440 Z" fill="#fbf1dc"/>
+    <circle cx="540" cy="330" r="30" fill="#fbf1dc"/>
+    <path d="M505 365 Q 540 350 575 365 L 610 620 L 470 620 Z" fill="#eee0bd"/>
+    <path d="M565 380 L 640 250 L 655 262 L 585 395 Z" fill="#eee0bd"/>
+    <path d="M648 252 L 688 130" stroke="#fff8e2" stroke-width="26" opacity=".6" filter="url(#brilho)"/>
+    <path d="M648 252 L 688 130" stroke="#fffdf4" stroke-width="10" stroke-linecap="round"/>
+  </g>
+  <!-- dragão vermelho caindo entre as nuvens -->
+  <g>
+    <path d="M880 860 C 760 900 820 1000 680 1000 C 540 1000 560 900 420 930 C 330 950 320 1030 300 1090" fill="none" stroke="#7a1f2b" stroke-width="64" stroke-linecap="round"/>
+    <path d="M880 860 Q 940 830 980 860" fill="none" stroke="#7a1f2b" stroke-width="24" stroke-linecap="round"/>
+    <path d="M560 940 Q 520 800 380 770 Q 430 830 420 870 Q 470 860 500 900 Z" fill="#8f2a35"/>
+    <path d="M660 960 Q 760 820 900 800 Q 840 860 850 900 Q 790 900 760 940 Z" fill="#8f2a35"/>
+    <path d="M330 1060 Q 250 1060 200 1120 L 150 1175 Q 220 1170 250 1150 L 215 1200 Q 290 1190 340 1130 Q 370 1090 330 1060 Z" fill="#7a1f2b"/>
+    <path d="M300 1070 L 250 1000 L 318 1062 Z M338 1078 L 350 1005 L 355 1080 Z" fill="#8f2a35"/>
+    <circle cx="262" cy="1112" r="8" fill="#f3c76b"/>
+  </g>
+  <g fill="#2a1e3a" opacity=".92">
+    <ellipse cx="200" cy="1180" rx="320" ry="80"/><ellipse cx="760" cy="1160" rx="380" ry="90"/><ellipse cx="520" cy="1260" rx="520" ry="90"/>
+  </g>
+  <rect width="1080" height="1920" fill="url(#base)"/>
+</svg>

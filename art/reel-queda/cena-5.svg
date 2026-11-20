@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1920" width="1080" height="1920">
+  <!-- Ezequiel 28:15: o rei de Tiro no terraço do palácio, diante do mar -->
+  <defs>
+    <linearGradient id="ceu" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1c1840"/><stop offset=".3" stop-color="#4a2c5c"/><stop offset=".48" stop-color="#b2566a"/><stop offset=".56" stop-color="#ee9e64"/>
+    </linearGradient>
+    <linearGradient id="mar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a3456"/><stop offset="1" stop-color="#1c1430"/>
+    </linearGradient>
+    <linearGradient id="base" x1="0" y1="0" x2="0" y2="1">
+      <stop offset=".45" stop-color="#0b0710" stop-opacity="0"/><stop offset=".72" stop-color="#0b0710" stop-opacity=".75"/><stop offset="1" stop-color="#0b0710" stop-opacity=".95"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1920" fill="url(#ceu)"/>
+  <circle cx="300" cy="1010" r="90" fill="#ffd08a" opacity=".9"/>
+  <rect y="1040" width="1080" height="880" fill="url(#mar)"/>
+  <g stroke="#ffcf8f" stroke-width="5" stroke-linecap="round" opacity=".5">
+    <path d="M230 1080 H370 M250 1120 H350 M270 1160 H330 M120 1100 H180 M440 1130 H520"/>
+  </g>
+  <!-- navios ao longe -->
+  <g fill="#1a1028">
+    <path d="M560 1040 h120 l-20 22 h-80 z"/><path d="M618 1040 V960 L 670 1030 Z"/>
+    <path d="M760 1050 h90 l-15 18 h-60 z"/><path d="M800 1050 V990 L 838 1042 Z"/>
+  </g>
+  <!-- colunas do palácio -->
+  <g fill="#160d1e">
+    <rect x="0" y="560" width="90" height="900"/><rect x="150" y="600" width="70" height="860"/>
+    <rect x="-20" y="520" width="280" height="60"/>
+    <rect x="0" y="1180" width="1080" height="740"/>
+  </g>
+  <path d="M0 1180 H1080 V1200 H0 Z" fill="#2c1c30"/>
+  <!-- rei de Tiro, de costas para o mar, com pedras preciosas no manto -->
+  <g fill="#0f0912">
+    <path d="M700 900 l10 -32 l12 22 l12 -28 l12 28 l12 -22 l10 32 z"/>
+    <circle cx="734" cy="930" r="34"/>
+    <path d="M690 962 Q 734 945 778 962 L 830 1180 L 640 1180 Z"/>
+  </g>
+  <g fill="#f3c76b">
+    <circle cx="712" cy="1010" r="5"/><circle cx="752" cy="1030" r="6"/><circle cx="728" cy="1070" r="5"/>
+    <circle cx="770" cy="1100" r="5"/><circle cx="700" cy="1120" r="6"/><circle cx="745" cy="1140" r="5"/>
+  </g>
+  <g fill="#8fd0c9"><circle cx="735" cy="995" r="5"/><circle cx="715" cy="1060" r="4"/><circle cx="760" cy="1065" r="4"/></g>
+  <g fill="#d96a7a"><circle cx="725" cy="1100" r="4"/><circle cx="785" cy="1140" r="4"/></g>
+  <rect width="1080" height="1920" fill="url(#base)"/>
+</svg>
