@@ -26,6 +26,59 @@ export function extrairFaq(body: string | undefined): { pergunta: string; respos
 
 const absoluta = (caminho: string) => new URL(caminho, SITE.url).href;
 
+/** Editora (o próprio site), com logo: o Google usa o logo no painel e nos resultados. */
+const editora = () => ({
+  '@type': 'Organization',
+  name: SITE.name,
+  url: SITE.url,
+  logo: { '@type': 'ImageObject', url: absoluta(SITE.logo), width: 512, height: 512 },
+});
+
+/**
+ * Trilha de navegação (BreadcrumbList): o Google mostra "A Tela do Reino › Reflexões › …" no
+ * resultado, no lugar do endereço. O primeiro item (Início) é acrescentado aqui.
+ */
+export function jsonLdTrilha(itens: { nome: string; caminho: string }[]) {
+  const todos = [{ nome: 'Início', caminho: '/' }, ...itens];
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: todos.map((item, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      name: item.nome,
+      item: absoluta(item.caminho),
+    })),
+  };
+}
+
+/** Página de lista (Reflexões, Estudos): CollectionPage com os itens em ordem. */
+export function jsonLdColecao(opts: {
+  nome: string;
+  descricao: string;
+  caminho: string;
+  itens: { nome: string; caminho: string }[];
+}) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: opts.nome,
+    description: opts.descricao,
+    url: absoluta(opts.caminho),
+    inLanguage: SITE.lang,
+    isPartOf: { '@type': 'WebSite', name: SITE.name, url: SITE.url },
+    mainEntity: {
+      '@type': 'ItemList',
+      itemListElement: opts.itens.map((item, i) => ({
+        '@type': 'ListItem',
+        position: i + 1,
+        url: absoluta(item.caminho),
+        name: item.nome,
+      })),
+    },
+  };
+}
+
 export function jsonLdArtigo(opts: {
   titulo: string;
   descricao: string;
@@ -46,8 +99,8 @@ export function jsonLdArtigo(opts: {
     dateModified: (opts.atualizado ?? opts.publicado).toISOString(),
     inLanguage: SITE.lang,
     mainEntityOfPage: { '@type': 'WebPage', '@id': url },
-    author: { '@type': 'Person', name: SITE.author.name, url: absoluta('/sobre') },
-    publisher: { '@type': 'Organization', name: SITE.name, url: SITE.url },
+    author: { '@type': 'Person', name: SITE.author.name, url: absoluta('/sobre/') },
+    publisher: editora(),
   };
   const blocos: Record<string, unknown>[] = [artigo];
 
@@ -74,6 +127,6 @@ export function jsonLdSite() {
     url: SITE.url,
     description: SITE.description,
     inLanguage: SITE.lang,
-    publisher: { '@type': 'Organization', name: SITE.name, url: SITE.url },
+    publisher: editora(),
   };
 }

@@ -35,6 +35,26 @@ for (const file of files) {
   console.log('miniatura', out);
 }
 
+// Imagem principal dos artigos em WebP (1200x630), bem mais leve que o PNG: é o maior elemento
+// da tela (LCP). O PNG continua sendo usado no Open Graph e como alternativa no <picture>.
+for (const file of files) {
+  const name = basename(file, '.svg');
+  const svg = await readFile(join(ART_DIR, file));
+  const out = join(OUT_DIR, `${name}.webp`);
+  await sharp(svg, { density: 144 })
+    .resize(1200, 630, { fit: 'cover' })
+    .webp({ quality: 82 })
+    .toFile(out);
+  console.log('webp', out);
+}
+
+// Logo quadrado (512x512) para os dados estruturados da editora (o Google não usa o favicon SVG).
+await sharp(await readFile(join('public', 'favicon.svg')), { density: 1152 })
+  .resize(512, 512)
+  .png({ compressionLevel: 9 })
+  .toFile(join('public', 'logo.png'));
+console.log('gerado public/logo.png');
+
 // Imagem padrão de compartilhamento (redes sociais não aceitam SVG).
 const og = await readFile(join('public', 'og-default.svg'));
 await sharp(og, { density: 144 })
