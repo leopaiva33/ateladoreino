@@ -1,0 +1,695 @@
+{
+  "1": {
+    "busca": "wheat field sunset",
+    "candidatas": [
+      {
+        "id": "pixabay-9363974",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/grasshopper-insect-wheat-field-9363974/",
+        "fotografo": "jonathansautter",
+        "tags": "grasshopper, insect, wheat, field, sunset, dusk, nature, close up, tettigonia viridissima, grain, ear",
+        "src": "https://cdn.pixabay.com/photo/2025/01/27/19/49/grasshopper-9363974_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2025/01/27/19/49/grasshopper-9363974_640.jpg"
+      },
+      {
+        "id": "pixabay-6372410",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/cereals-grain-field-plant-sunset-6372410/",
+        "fotografo": "fietzfotos",
+        "tags": "cereals, grain, field, plant, sunset, rye, agriculture, nature, growth, rural, cultivation, food, sunrise, clouds, sunlight, agriculture, agriculture, agriculture, agriculture, agriculture",
+        "src": "https://cdn.pixabay.com/photo/2021/06/28/18/36/cereals-6372410_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2021/06/28/18/36/cereals-6372410_640.jpg"
+      },
+      {
+        "id": "pixabay-2417391",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/wheat-field-crop-cereal-plant-2417391/",
+        "fotografo": "Auciferz",
+        "tags": "wheat, field, crop, cereal plant, blue sky, agriculture, barley, nature, farm, rural scene, autumn, summer, sunlight, food, sky, bread, grass, sunset, sun, rye - grain, growth, cloudscape, gold colored, straw, sunrise - dawn, seed, plant, season, healthy eating, yellow, day, non-urban scene, plant stem, white color, dawn, land, outdoors, ripe, blue, dry, no people, photography, vertical, brown sunrise, brown grass, brown plant, brown healthy, brown farm, brown bread, brown growth, brown photography, brown field, brown eating, brown plants, brown wheat",
+        "src": "https://cdn.pixabay.com/photo/2017/06/18/22/01/wheat-2417391_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2017/06/18/22/01/wheat-2417391_640.jpg"
+      },
+      {
+        "id": "pixabay-7605290",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/rainbow-landscape-nature-fall-7605290/",
+        "fotografo": "fietzfotos",
+        "tags": "rainbow, landscape, nature, fall, bavaria, germany, tree, dusk, meadow, field, heaven, clouds, rainbow, rainbow, rainbow, rainbow, rainbow",
+        "src": "https://cdn.pixabay.com/photo/2022/11/20/21/21/rainbow-7605290_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2022/11/20/21/21/rainbow-7605290_640.jpg"
+      },
+      {
+        "id": "pixabay-2581737",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/sunset-girl-young-freedom-summer-2581737/",
+        "fotografo": "KristineLejniece",
+        "tags": "sunset, girl, young, freedom, summer, sun, dream, silhouette, female, holiday, vacation, person, brown sun, brown sunset, nature, brown summer, brown dream",
+        "src": "https://cdn.pixabay.com/photo/2017/08/04/22/57/sunset-2581737_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2017/08/04/22/57/sunset-2581737_640.jpg"
+      },
+      {
+        "id": "pixabay-6553986",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/cornfield-field-sunset-agriculture-6553986/",
+        "fotografo": "fietzfotos",
+        "tags": "cornfield, field, sunset, nature, agriculture, grain, rural, harvest, wheat field, dusk",
+        "src": "https://cdn.pixabay.com/photo/2021/08/17/19/32/cornfield-6553986_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2021/08/17/19/32/cornfield-6553986_640.jpg"
+      },
+      {
+        "id": "pixabay-4983645",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/landscape-polish-landscape-field-4983645/",
+        "fotografo": "15725821",
+        "tags": "landscape, polish landscape, field, grain, wheat, young grain, red sun, sun, sunset, nature, green grain, ear, ear of grain, sunset over the field, sun over grain, countryside, rural landscape",
+        "src": "https://cdn.pixabay.com/photo/2020/03/30/09/39/landscape-4983645_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2020/03/30/09/39/landscape-4983645_640.jpg"
+      },
+      {
+        "id": "pixabay-9169442",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/barley-field-ear-crop-sunset-9169442/",
+        "fotografo": "zubairahamedrudro",
+        "tags": "barley, field, ear, crop, sunset, nature",
+        "src": "https://cdn.pixabay.com/photo/2024/11/02/15/10/barley-9169442_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2024/11/02/15/10/barley-9169442_640.jpg"
+      }
+    ]
+  },
+  "2": {
+    "busca": "old road",
+    "candidatas": [
+      {
+        "id": "pixabay-5950957",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/street-buildings-town-road-5950957/",
+        "fotografo": "eduardovieiraphoto",
+        "tags": "street, buildings, town, road, pavement, cobble paving, people, old town, historic, historical, urban, city, york, yorkshire, england, britain, great britain, united kingdom, uk, street, yorkshire, yorkshire, yorkshire, england, england, england, united kingdom, united kingdom, united kingdom, united kingdom, united kingdom",
+        "src": "https://cdn.pixabay.com/photo/2021/01/26/09/47/street-5950957_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2021/01/26/09/47/street-5950957_640.jpg"
+      },
+      {
+        "id": "pixabay-5950966",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/york-minster-road-town-street-5950966/",
+        "fotografo": "eduardovieiraphoto",
+        "tags": "york minster, road, town, street, towers, cathedral, church, gothic, medieval, historic, historical, ancient, minster, heritage, buildings, old town, urban, city, york, yorkshire, england, britain, great britain, united kingdom, uk, gothic architecture, historical architecture, york, england, england, england, england, united kingdom, united kingdom, united kingdom, united kingdom, united kingdom",
+        "src": "https://cdn.pixabay.com/photo/2021/01/26/09/48/york-minster-5950966_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2021/01/26/09/48/york-minster-5950966_640.jpg"
+      },
+      {
+        "id": "pixabay-5214047",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/architecture-street-city-building-5214047/",
+        "fotografo": "JancickaL",
+        "tags": "architecture, street, city, building, historical, center, historical center, prague, lesser town, street, prague, prague, prague, prague, prague",
+        "src": "https://cdn.pixabay.com/photo/2020/05/24/12/31/architecture-5214047_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2020/05/24/12/31/architecture-5214047_640.jpg"
+      },
+      {
+        "id": "pixabay-2441337",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/scotland-edinburgh-city-england-2441337/",
+        "fotografo": "Tama66",
+        "tags": "scotland, edinburgh, city, england, road, scene, houses, tower, clock, architecture, building, facade, view, life, metropolis, historical, urban, traffic, bus, cityscape, edinburgh, edinburgh, edinburgh, edinburgh, edinburgh",
+        "src": "https://cdn.pixabay.com/photo/2017/06/25/17/25/scotland-2441337_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2017/06/25/17/25/scotland-2441337_640.jpg"
+      },
+      {
+        "id": "pixabay-2478267",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/pompeii-ruin-antique-italy-2478267/",
+        "fotografo": "SCAPIN",
+        "tags": "pompeii, ruin, antique, italy, ancient ruins, roman, pompei, archaeology, roman road, architecture, pompeii, pompeii, roman road, roman road, roman road, roman road, roman road",
+        "src": "https://cdn.pixabay.com/photo/2017/07/06/15/02/pompeii-2478267_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2017/07/06/15/02/pompeii-2478267_640.jpg"
+      },
+      {
+        "id": "pixabay-1496580",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/street-rain-rays-of-the-sun-view-1496580/",
+        "fotografo": "Jo_Lanta",
+        "tags": "street, rain, rays of the sun, view, nature, way, sunset, moisture, city, wroclaw, poland, architecture, the old town, monument, lower silesia, monuments, city center, the market, buildings, evening, friendly city, townhouses",
+        "src": "https://cdn.pixabay.com/photo/2016/07/04/12/52/street-1496580_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2016/07/04/12/52/street-1496580_640.jpg"
+      },
+      {
+        "id": "pixabay-6066130",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/street-city-bucharest-road-lights-6066130/",
+        "fotografo": "ncsmnd",
+        "tags": "street, city, bucharest, road, lights, buildings, architecture, old buildings, old town, historic, historical, landmark, capital, urban, romania, bucharest, bucharest, bucharest, bucharest, bucharest",
+        "src": "https://cdn.pixabay.com/photo/2021/03/03/19/58/street-6066130_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2021/03/03/19/58/street-6066130_640.jpg"
+      },
+      {
+        "id": "pixabay-4277294",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/cuba-havana-city-street-4277294/",
+        "fotografo": "soyeonlee86",
+        "tags": "cuba, havana, city, street, nature, architecture, building, cityphotography, summer, travel, photo, in the evening",
+        "src": "https://cdn.pixabay.com/photo/2019/06/16/09/02/cuba-4277294_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2019/06/16/09/02/cuba-4277294_640.jpg"
+      }
+    ]
+  },
+  "3": {
+    "busca": "seeds soil hand",
+    "candidatas": [
+      {
+        "id": "pixabay-2573292",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/dirty-hand-palm-soil-sand-2573292/",
+        "fotografo": "StockSnap",
+        "tags": "dirty, hand, palm, nature, soil, sand, planting, outdoor, garden, brown garden, brown gardening, brown sand",
+        "src": "https://cdn.pixabay.com/photo/2017/08/02/20/38/dirty-2573292_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2017/08/02/20/38/dirty-2573292_640.jpg"
+      },
+      {
+        "id": "pixabay-1840039",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/hand-macro-plant-sapling-1840039/",
+        "fotografo": "Pexels",
+        "tags": "hand, macro, plant, nature, sapling",
+        "src": "https://cdn.pixabay.com/photo/2016/11/19/15/54/hand-1840039_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2016/11/19/15/54/hand-1840039_640.jpg"
+      },
+      {
+        "id": "pixabay-4876960",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/raspberry-picking-berries-handful-4876960/",
+        "fotografo": "lenanicholson",
+        "tags": "raspberry, picking, berries, handful, harvest, fruit, summer, ripe, nature, sweet, tart, flavor, tang, red, bounty",
+        "src": "https://cdn.pixabay.com/photo/2020/02/24/17/46/raspberry-4876960_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2020/02/24/17/46/raspberry-4876960_640.jpg"
+      },
+      {
+        "id": "pixabay-499970",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/cocoa-beans-hands-sack-cocoa-cacao-499970/",
+        "fotografo": "526663",
+        "tags": "cocoa beans, hands, sack, cocoa, cacao, cacao beans, chocolate, jute, cocoa beans, cocoa, cocoa, cocoa, cocoa, cacao, cacao, cacao, chocolate, chocolate, chocolate, chocolate, chocolate",
+        "src": "https://cdn.pixabay.com/photo/2014/10/23/16/50/cocoa-beans-499970_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2014/10/23/16/50/cocoa-beans-499970_640.jpg"
+      },
+      {
+        "id": "pixabay-7511823",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/lotus-seed-pod-plant-seeds-7511823/",
+        "fotografo": "trungkhang",
+        "tags": "lotus, seed pod, plant, seeds, aquatic plant, nature, flora, lotus, lotus, lotus, lotus, lotus, plant, seeds, nature, nature, nature",
+        "src": "https://cdn.pixabay.com/photo/2022/10/10/13/19/lotus-7511823_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2022/10/10/13/19/lotus-7511823_640.jpg"
+      },
+      {
+        "id": "pixabay-6627748",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/maple-seed-autumn-botany-foliage-6627748/",
+        "fotografo": "BlenderTimer",
+        "tags": "maple, seed, autumn, botany, foliage, fall, season, nature, plant, leaf",
+        "src": "https://cdn.pixabay.com/photo/2021/09/15/21/14/maple-6627748_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2021/09/15/21/14/maple-6627748_640.jpg"
+      },
+      {
+        "id": "pixabay-4892086",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/young-plants-tomatoes-cultivate-4892086/",
+        "fotografo": "AndreasGoellner",
+        "tags": "young plants, tomatoes, cultivate, prefer, germinate, seedlings, sowing, grow, seeds, nature, plant, sprout, growth, seedling, spring, add, greenhouse, water, watering can",
+        "src": "https://cdn.pixabay.com/photo/2020/03/01/09/04/young-plants-4892086_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2020/03/01/09/04/young-plants-4892086_640.jpg"
+      },
+      {
+        "id": "pixabay-7864979",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/environment-ecology-7864979/",
+        "fotografo": "heartempowerments",
+        "tags": "environment, ecology, environmental protection, nature, agricultural turnaround, floor, earth, humus, plant, biomass, compost",
+        "src": "https://cdn.pixabay.com/photo/2023/03/20/14/50/environment-7864979_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2023/03/20/14/50/environment-7864979_640.jpg"
+      }
+    ]
+  },
+  "4": {
+    "busca": "desert road",
+    "candidatas": [
+      {
+        "id": "pixabay-9442958",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/desert-dunes-road-nature-namibia-9442958/",
+        "fotografo": "Haim_Charbit",
+        "tags": "desert, dunes, road, nature, namibia, landscape, sand, mountains, cactus, travel, horizon, drought, earth",
+        "src": "https://cdn.pixabay.com/photo/2025/03/02/22/49/desert-9442958_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2025/03/02/22/49/desert-9442958_640.jpg"
+      },
+      {
+        "id": "pixabay-4946728",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/pink-way-rock-red-rock-4946728/",
+        "fotografo": "army007st",
+        "tags": "pink, way, rock, red rock, pink, pink, pink, pink, pink, way, way, way, red rock",
+        "src": "https://cdn.pixabay.com/photo/2020/03/19/08/33/pink-4946728_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2020/03/19/08/33/pink-4946728_640.jpg"
+      },
+      {
+        "id": "pixabay-8575524",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/donkey-desert-siwa-egypt-oasis-8575524/",
+        "fotografo": "Yolanda_Jost",
+        "tags": "donkey, desert, siwa, egypt, oasis, sunset, evening atmosphere, work, road, to travel, adventure, culture, tradition, nature",
+        "src": "https://cdn.pixabay.com/photo/2024/02/15/14/31/donkey-8575524_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2024/02/15/14/31/donkey-8575524_640.jpg"
+      },
+      {
+        "id": "pixabay-10570895",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/abandoned-car-vintage-car-sunset-10570895/",
+        "fotografo": "Francois1294",
+        "tags": "abandoned car, vintage car, sunset, desert road, road, landscape, mountains, desert, rugged terrain, lonely, travel, nature, forgotten car, peaceful sunset, sun-drenched",
+        "src": "https://cdn.pixabay.com/photo/2026/11/13/19/45/francois1294-abandoned-car-10570895_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2026/11/13/19/45/francois1294-abandoned-car-10570895_640.jpg"
+      },
+      {
+        "id": "pixabay-4877552",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/sky-road-blue-landscape-nature-4877552/",
+        "fotografo": "AJS1",
+        "tags": "sky, road, blue, landscape, nature, clouds, desert, travel, field, sun, the gap, blue sky, roadtrip, panorama",
+        "src": "https://cdn.pixabay.com/photo/2020/02/24/22/20/sky-4877552_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2020/02/24/22/20/sky-4877552_640.jpg"
+      },
+      {
+        "id": "pixabay-2575403",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/utah-dirt-road-mountains-sky-2575403/",
+        "fotografo": "12019",
+        "tags": "utah, dirt road, mountains, sky, clouds, nature, outdoors, desert, brush, valley, country, rural, landscape, iphone wallpaper, dirt road, dirt road, dirt road, dirt road, dirt road, iphone wallpaper",
+        "src": "https://cdn.pixabay.com/photo/2017/08/03/10/22/utah-2575403_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2017/08/03/10/22/utah-2575403_640.jpg"
+      },
+      {
+        "id": "pixabay-7570648",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/outback-usa-desert-sand-road-stop-7570648/",
+        "fotografo": "Yannick_527",
+        "tags": "outback, usa, desert, sand, road, stop, stop sign, traffic sign, mountains, nature, landscape, heaven",
+        "src": "https://cdn.pixabay.com/photo/2022/11/04/20/03/outback-7570648_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2022/11/04/20/03/outback-7570648_640.jpg"
+      },
+      {
+        "id": "pixabay-4822140",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/road-desert-horizon-landscape-sky-4822140/",
+        "fotografo": "ybernardi",
+        "tags": "road, desert, horizon, landscape, sky, volcano, nature, travel, mountain, scenery, scenic",
+        "src": "https://cdn.pixabay.com/photo/2020/02/05/19/32/road-4822140_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2020/02/05/19/32/road-4822140_640.jpg"
+      }
+    ]
+  },
+  "5": {
+    "busca": "sheep field",
+    "candidatas": [
+      {
+        "id": "pixabay-9899712",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/nature-forest-landscape-tree-9899712/",
+        "fotografo": "IvankaKalynii",
+        "tags": "nature, forest, landscape, tree, mountain, mountains, ukraine, village, autumn, leaves, wood, october, carpathian, travel, winter, snow, cold, frost, frozen, white, fog, mist, sheep, sheeps, wildlife",
+        "src": "https://cdn.pixabay.com/photo/2025/10/17/09/29/nature-9899712_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2025/10/17/09/29/nature-9899712_640.jpg"
+      },
+      {
+        "id": "pixabay-7264042",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/scotland-sheep-pasture-nature-7264042/",
+        "fotografo": "Alan_Frijns",
+        "tags": "scotland, sheep, pasture, nature, grass, countryside, landscape, scotland, sheep, sheep, sheep, sheep, sheep",
+        "src": "https://cdn.pixabay.com/photo/2022/06/15/14/05/scotland-7264042_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2022/06/15/14/05/scotland-7264042_640.jpg"
+      },
+      {
+        "id": "pixabay-4659214",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/animal-lamb-mammal-species-fauna-4659214/",
+        "fotografo": "Melest",
+        "tags": "animal, lamb, mammal, species, fauna, wool, pasture, nature, lamb, lamb, lamb, lamb, lamb",
+        "src": "https://cdn.pixabay.com/photo/2019/11/28/14/00/animal-4659214_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2019/11/28/14/00/animal-4659214_640.jpg"
+      },
+      {
+        "id": "pixabay-7624863",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/sheep-wool-animal-nature-grass-7624863/",
+        "fotografo": "photim",
+        "tags": "sheep, wool, animal, nature, grass, meadow, sheep, sheep, sheep, sheep, sheep",
+        "src": "https://cdn.pixabay.com/photo/2022/11/29/16/51/sheep-7624863_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2022/11/29/16/51/sheep-7624863_640.jpg"
+      },
+      {
+        "id": "pixabay-1353266",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/lamb-sheep-pasture-young-sheep-1353266/",
+        "fotografo": "No-longer-here",
+        "tags": "lamb, sheep, pasture, young sheep, animal, mammal, ewe, livestock, wool, farm, grassland, meadow, field, rural, nature, lamb, sheep, sheep, sheep, sheep, sheep",
+        "src": "https://cdn.pixabay.com/photo/2016/04/25/21/41/lamb-1353266_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2016/04/25/21/41/lamb-1353266_640.jpg"
+      },
+      {
+        "id": "pixabay-6618334",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/sheep-animal-graze-pasture-grass-6618334/",
+        "fotografo": "hasogr",
+        "tags": "sheep, animal, graze, pasture, grass, meadow, wool, mammal, agriculture, landscape, wildlife, nature, sheep, sheep, sheep, sheep, sheep",
+        "src": "https://cdn.pixabay.com/photo/2021/09/12/12/58/sheep-6618334_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2021/09/12/12/58/sheep-6618334_640.jpg"
+      },
+      {
+        "id": "pixabay-621167",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/sheep-mammal-livestock-pastures-621167/",
+        "fotografo": "Erbs55",
+        "tags": "sheep, mammal, nature, livestock, pastures, grass, ruminant, farm, farm animal, animal, animal world, agriculture, ireland",
+        "src": "https://cdn.pixabay.com/photo/2015/02/02/17/37/sheep-621167_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2015/02/02/17/37/sheep-621167_640.jpg"
+      },
+      {
+        "id": "pixabay-10102045",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/sheep-flock-black-sheep-white-sheep-10102045/",
+        "fotografo": "VirgoStudio",
+        "tags": "sheep, flock, black sheep, white sheep, animal, livestock, unique, different, individual, contrast, diversity, farm, wool, standout, metaphor, rarity, nonconformity, nature, rural, outdoor, portrait, identity, inclusion, odd one out, agriculture",
+        "src": "https://cdn.pixabay.com/photo/2026/02/03/06/38/sheep-10102045_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2026/02/03/06/38/sheep-10102045_640.jpg"
+      }
+    ]
+  },
+  "6": {
+    "busca": "road home sunset",
+    "candidatas": [
+      {
+        "id": "pixabay-7992161",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/road-mountain-landscape-7992161/",
+        "fotografo": "sanoojck",
+        "tags": "road, mountain, landscape, infrastructure, hill, sky, sunset, nature, curvy, curve, highway, trip, car wallpapers, car",
+        "src": "https://cdn.pixabay.com/photo/2023/05/14/07/36/road-7992161_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2023/05/14/07/36/road-7992161_640.jpg"
+      },
+      {
+        "id": "pixabay-6115719",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/house-meadow-grass-flowers-home-6115719/",
+        "fotografo": "loczek_photography_",
+        "tags": "house, meadow, grass, flowers, home, building, beautiful flowers, spring, flower wallpaper, field, nature, sky, flower background, clouds",
+        "src": "https://cdn.pixabay.com/photo/2021/03/22/21/04/house-6115719_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2021/03/22/21/04/house-6115719_640.jpg"
+      },
+      {
+        "id": "pixabay-8615302",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/church-church-tower-dusk-bell-tower-8615302/",
+        "fotografo": "fietzfotos",
+        "tags": "church, church tower, dusk, bell tower, faith, village, clouds, road, pavement, grim, dark, nature, trees, mystical",
+        "src": "https://cdn.pixabay.com/photo/2024/03/05/20/48/church-8615302_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2024/03/05/20/48/church-8615302_640.jpg"
+      },
+      {
+        "id": "pixabay-7367539",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/alps-road-sunset-clouds-italy-7367539/",
+        "fotografo": "fdr-images",
+        "tags": "alps, road, sunset, clouds, italy, nature, outdoors, mountains",
+        "src": "https://cdn.pixabay.com/photo/2022/08/05/20/24/alps-7367539_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2022/08/05/20/24/alps-7367539_640.jpg"
+      },
+      {
+        "id": "pixabay-8057248",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/smartphone-screen-room-wall-sunset-8057248/",
+        "fotografo": "Mahavir-Shah",
+        "tags": "smartphone, screen, nature, room, wall, sunset, aesthetic, home",
+        "src": "https://cdn.pixabay.com/photo/2023/06/12/00/11/smartphone-8057248_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2023/06/12/00/11/smartphone-8057248_640.jpg"
+      },
+      {
+        "id": "pixabay-6947335",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/vietnam-woman-vintage-clothes-home-6947335/",
+        "fotografo": "Chuotanhls",
+        "tags": "vietnam, woman, vintage clothes, home, portrait, vietnam, woman, home, home, portrait, portrait, portrait, portrait, portrait",
+        "src": "https://cdn.pixabay.com/photo/2022/01/18/15/40/vietnam-6947335_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2022/01/18/15/40/vietnam-6947335_640.jpg"
+      },
+      {
+        "id": "pixabay-6999284",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/street-road-haze-sundown-sunset-6999284/",
+        "fotografo": "enesersahin",
+        "tags": "street, road, haze, sundown, nature, sunset",
+        "src": "https://cdn.pixabay.com/photo/2022/02/07/12/17/street-6999284_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2022/02/07/12/17/street-6999284_640.jpg"
+      },
+      {
+        "id": "pixabay-3755884",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/cobblestones-ground-texture-3755884/",
+        "fotografo": "pixel2013",
+        "tags": "cobblestones, ground, texture, structure, stones, pattern, pavement, flooring, sidewalk, surface, ground, ground, ground, ground, ground, texture, pattern, pattern, pattern",
+        "src": "https://cdn.pixabay.com/photo/2018/10/18/09/29/cobblestones-3755884_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2018/10/18/09/29/cobblestones-3755884_640.jpg"
+      }
+    ]
+  },
+  "7": {
+    "busca": "old coins",
+    "candidatas": [
+      {
+        "id": "pixabay-4938308",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/middle-ages-girl-money-ancient-4938308/",
+        "fotografo": "eroyka",
+        "tags": "middle ages, girl, money, ancient, payment, barter, pay, offering, shopping, past, bella, hand, exchange, barter, barter, barter, barter, barter",
+        "src": "https://cdn.pixabay.com/photo/2020/03/16/20/54/middle-ages-4938308_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2020/03/16/20/54/middle-ages-4938308_640.jpg"
+      },
+      {
+        "id": "pixabay-2418127",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/payphone-telephone-public-phone-2418127/",
+        "fotografo": "tstrong20",
+        "tags": "payphone, telephone, public, phone, communication, communicate, technology, pay, call, dial, old, contact, coin, number, button, telecommunication, speak, talk, slot, box, indoor, electronic, digits, voice, receiver, shiny, metal, black, color, tone, obsolete, pots, brown phone, brown community, brown communication, brown talk, brown talking, brown numbers, brown telephone, brown box, payphone, payphone, payphone, payphone, payphone",
+        "src": "https://cdn.pixabay.com/photo/2017/06/19/04/21/payphone-2418127_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2017/06/19/04/21/payphone-2418127_640.jpg"
+      },
+      {
+        "id": "pixabay-5724875",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/key-map-compass-coins-vintage-5724875/",
+        "fotografo": "Ghinzo",
+        "tags": "key, map, compass, coins, vintage, retro, closeup, compass, compass, compass, compass, compass",
+        "src": "https://cdn.pixabay.com/photo/2020/11/08/20/12/key-5724875_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2020/11/08/20/12/key-5724875_640.jpg"
+      },
+      {
+        "id": "pixabay-4431341",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/money-disorder-daniel-economics-4431341/",
+        "fotografo": "Engin_Akyurt",
+        "tags": "money, disorder, daniel, economics, savings, spool, piggy bank, beautiful wallpaper, old, metal, macro, background, fortune, bank, cash, financial, stock market, capital, symbol, wealthy, rich, treasure, coins, earnings, trade, iphone wallpaper",
+        "src": "https://cdn.pixabay.com/photo/2019/08/26/10/27/money-4431341_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2019/08/26/10/27/money-4431341_640.jpg"
+      },
+      {
+        "id": "pixabay-550598",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/phone-phone-booth-handsfree-550598/",
+        "fotografo": "blickpixel",
+        "tags": "phone, phone booth, handsfree, coin-free speaker, make a phone call, old, dispensary, telephone, communication, telephone booth, payphone, pay, red, telephone receiver, apparatus, telephone set, unfashionable, second hand, technology",
+        "src": "https://cdn.pixabay.com/photo/2014/11/29/17/54/phone-550598_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2014/11/29/17/54/phone-550598_640.jpg"
+      },
+      {
+        "id": "pixabay-4068671",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/money-wealth-disorder-bank-4068671/",
+        "fotografo": "Engin_Akyurt",
+        "tags": "money, wealth, disorder, bank, stock market, economics, trade, old, symbol, savings, capital, coins, shiny, treasure, wealthy, earnings, fortune, rich, finance, gold, work, cash, financial, welfare, interest, money, money, money, money, money, coins, wealthy, wealthy, wealthy, wealthy",
+        "src": "https://cdn.pixabay.com/photo/2019/03/20/14/45/money-4068671_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2019/03/20/14/45/money-4068671_640.jpg"
+      },
+      {
+        "id": "pixabay-3495613",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/phone-phone-booth-retro-3495613/",
+        "fotografo": "mrganso",
+        "tags": "phone, phone booth, retro, communication, call up, connection, telephone booth, old, phone booth, phone booth, phone booth, phone booth, phone booth",
+        "src": "https://cdn.pixabay.com/photo/2018/06/24/22/16/phone-3495613_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2018/06/24/22/16/phone-3495613_640.jpg"
+      },
+      {
+        "id": "pixabay-427508",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/telephone-pink-phone-communication-427508/",
+        "fotografo": "Studio_Iris",
+        "tags": "telephone, pink, phone, communication, technology, retro, call, vintage, communicate, object, old, color, number, gray phone, gray community, gray communication, gray numbers, gray telephone",
+        "src": "https://cdn.pixabay.com/photo/2014/08/25/22/52/telephone-427508_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2014/08/25/22/52/telephone-427508_640.jpg"
+      }
+    ]
+  },
+  "8": {
+    "busca": "small sprout",
+    "candidatas": [
+      {
+        "id": "pixabay-2780803",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/map-san-severa-vase-2780803/",
+        "fotografo": "WebLab24_Siti_Web",
+        "tags": "map, san severa, vase",
+        "src": "https://cdn.pixabay.com/photo/2017/09/24/03/47/floorplan-2780803_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2017/09/24/03/47/floorplan-2780803_640.jpg"
+      },
+      {
+        "id": "pixabay-8144517",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/leaf-tree-green-nature-8144517/",
+        "fotografo": "FayazAhmedSunny",
+        "tags": "leaf, tree, green, nature, nature, nature, nature, nature, nature",
+        "src": "https://cdn.pixabay.com/photo/2023/07/23/06/57/leaf-8144517_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2023/07/23/06/57/leaf-8144517_640.jpg"
+      },
+      {
+        "id": "pixabay-7238665",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/ramen-soup-food-asian-pasta-7238665/",
+        "fotografo": "joannawielgosz",
+        "tags": "ramen, soup, food, asian, pasta, chopsticks, japan, lunch, cook, kitchen, cooking, egg, meat, soup, food, food, food, japan, lunch, lunch, lunch, lunch, cook, kitchen, cooking, cooking, cooking, cooking, cooking, meat",
+        "src": "https://cdn.pixabay.com/photo/2022/06/02/18/22/ramen-7238665_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2022/06/02/18/22/ramen-7238665_640.jpg"
+      },
+      {
+        "id": "pixabay-10531368",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/love-hand-children-family-newborn-10531368/",
+        "fotografo": "Jupilu",
+        "tags": "love, hand, children, family, newborn, baby, gentle, care, relationship, touch, support, parent, cute, motherhood, emotions, connection, sensitive, warmth, protection, ancestor, bond",
+        "src": "https://cdn.pixabay.com/photo/2026/10/19/06/23/06-23-49-339_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2026/10/19/06/23/06-23-49-339_640.jpg"
+      },
+      {
+        "id": "pixabay-9971558",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/nature-wildlife-mammal-fauna-fur-9971558/",
+        "fotografo": "Drosera74",
+        "tags": "nature, wildlife, mammal, fauna, fur, animals, mouse, rodent, cute, mice, harvest mice, seedhead, plant, wheat",
+        "src": "https://cdn.pixabay.com/photo/2025/11/22/20/15/nature-9971558_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2025/11/22/20/15/nature-9971558_640.jpg"
+      },
+      {
+        "id": "pixabay-10022157",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/eurasian-wren-bird-bird-photography-10022157/",
+        "fotografo": "Gruendercoach",
+        "tags": "eurasian wren, bird, bird photography, ornithology, spring, songbird, hd background, garden, bird watching, animal, wildlife, feathered animal, forest, nature, chirp, tweet, chirrup, forest-aged tree",
+        "src": "https://cdn.pixabay.com/photo/2025/12/18/10/07/eurasian-wren-10022157_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2025/12/18/10/07/eurasian-wren-10022157_640.jpg"
+      },
+      {
+        "id": "pixabay-8781844",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/dog-puppy-pooch-domestic-animal-8781844/",
+        "fotografo": "Melissa197",
+        "tags": "dog, puppy, pooch, domestic animal, animal, pet, cute, nature",
+        "src": "https://cdn.pixabay.com/photo/2024/05/22/21/51/dog-8781844_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2024/05/22/21/51/dog-8781844_640.jpg"
+      },
+      {
+        "id": "pixabay-9830647",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/small-copper-butterfly-insect-9830647/",
+        "fotografo": "Illuvis",
+        "tags": "small copper, butterfly, insect, nature, pollinator, entomology, pollinate, lepidoptera",
+        "src": "https://cdn.pixabay.com/photo/2025/09/12/15/10/small-copper-9830647_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2025/09/12/15/10/small-copper-9830647_640.jpg"
+      }
+    ]
+  },
+  "10": {
+    "busca": "sunrise",
+    "candidatas": [
+      {
+        "id": "pixabay-7367539",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/alps-road-sunset-clouds-italy-7367539/",
+        "fotografo": "fdr-images",
+        "tags": "alps, road, sunset, clouds, italy, nature, outdoors, mountains",
+        "src": "https://cdn.pixabay.com/photo/2022/08/05/20/24/alps-7367539_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2022/08/05/20/24/alps-7367539_640.jpg"
+      },
+      {
+        "id": "pixabay-4695484",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/sunrise-sea-water-sky-landscape-4695484/",
+        "fotografo": "napo1804",
+        "tags": "sunrise, sea, water, sky, nature, landscape, morning, calm, tranquil, blue sunrise, blue calm, blue morning",
+        "src": "https://cdn.pixabay.com/photo/2019/12/14/18/28/sunrise-4695484_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2019/12/14/18/28/sunrise-4695484_640.jpg"
+      },
+      {
+        "id": "pixabay-4356202",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/road-street-alley-sunset-firenze-4356202/",
+        "fotografo": "pauloduarte",
+        "tags": "road, street, alley, sunset, firenze, nature, florence, cityscape",
+        "src": "https://cdn.pixabay.com/photo/2019/07/22/22/17/road-4356202_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2019/07/22/22/17/road-4356202_640.jpg"
+      },
+      {
+        "id": "pixabay-8763986",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/sky-mountains-peak-snow-background-8763986/",
+        "fotografo": "we-o_rd35mumfmqeo-ugpm",
+        "tags": "sky, beautiful wallpaper, nature, mountains, peak, sky background, snow, background",
+        "src": "https://cdn.pixabay.com/photo/2024/05/15/16/15/sky-8763986_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2024/05/15/16/15/sky-8763986_640.jpg"
+      },
+      {
+        "id": "pixabay-5183917",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/sunrise-purple-sky-clouds-water-5183917/",
+        "fotografo": "Sarahhax2210",
+        "tags": "sunrise, purple, nature, sky, clouds, water, sea",
+        "src": "https://cdn.pixabay.com/photo/2020/05/17/23/59/sunrise-5183917_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2020/05/17/23/59/sunrise-5183917_640.jpg"
+      },
+      {
+        "id": "pixabay-4509879",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/sunset-yogyakarta-sunrise-potrait-4509879/",
+        "fotografo": "negamuntaha",
+        "tags": "sunset, yogyakarta, sunrise, potrait, nature, jogjakarta, pray, people, traveling, indonesia, aesthetic wallpaper, phone wallpaper, iphone wallpaper",
+        "src": "https://cdn.pixabay.com/photo/2019/09/28/05/10/sunset-4509879_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2019/09/28/05/10/sunset-4509879_640.jpg"
+      },
+      {
+        "id": "pixabay-6303992",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/sunset-field-fence-demarcation-6303992/",
+        "fotografo": "denfran",
+        "tags": "sunset, field, fence, demarcation, grass, grassland, single tree, sundown, dusk, twilight, setting sun, sky, nature, fog, landscape, clouds, meadow, horizon, sunlight, light, sun, sunset, field, fence, fence, fence, sky, nature, light, sun, sun, sun, sun, sun",
+        "src": "https://cdn.pixabay.com/photo/2021/06/02/09/27/sunset-6303992_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2021/06/02/09/27/sunset-6303992_640.jpg"
+      },
+      {
+        "id": "pixabay-8335584",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/nature-plant-flower-yellow-summer-8335584/",
+        "fotografo": "Ngocthuyenhoa",
+        "tags": "nature, plant, flower, yellow, beautiful flowers, summer, flower background, sky, sunset, bloom, flower wallpaper, blossom, park, garden, meadow",
+        "src": "https://cdn.pixabay.com/photo/2023/10/23/08/19/nature-8335584_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2023/10/23/08/19/nature-8335584_640.jpg"
+      }
+    ]
+  }
+}
