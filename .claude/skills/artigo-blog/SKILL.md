@@ -84,7 +84,8 @@ tags: ["tag 1", "tag 2", "tag 3"]
 ---
 ```
 
-- `title`: **até 60 caracteres**. `description`: **até 155 caracteres**.
+- `title`: **até 60 caracteres**, sem o nome do site (ele é acrescentado
+  sozinho quando cabe). `description`: **de 120 a 155 caracteres**.
   Confira a contagem com `wc -m` ou `node -e` antes de entregar.
 - `pubDate`: ISO com fuso `-03:00`. Para agendar, use a próxima segunda-feira
   livre às 07:00 depois do último post agendado (veja `README.md`, seção
@@ -111,9 +112,10 @@ Gere a ilustração e a miniatura **no mesmo estilo** dos artigos existentes:
    plana, com gradientes suaves, paleta de céu (noite ou amanhecer), formas
    simples e um ponto de luz dourada (`#f9e4b0`, `#fbf1dc`). **Sem texto na
    imagem e sem rostos.** A cena deve ilustrar o tema do artigo.
-3. Rode `npm run images`: gera `public/images/posts/<slug>.png` (1200x630) e a
-   miniatura `public/images/posts/thumbs/<slug>.webp` (440x231).
-4. Confira os dois arquivos, olhe a imagem renderizada e preencha `image` e
+3. Rode `npm run images`: gera `public/images/posts/<slug>.png` (1200x630, usado
+   nas redes sociais), `public/images/posts/<slug>.webp` (1200x630, o que o
+   leitor baixa) e a miniatura `public/images/posts/thumbs/<slug>.webp` (440x231).
+4. Confira os três arquivos, olhe a imagem renderizada e preencha `image` e
    `imageAlt` (texto alternativo descritivo, não "imagem do artigo").
 
 ## Validação técnica
