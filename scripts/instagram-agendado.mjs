@@ -87,7 +87,11 @@ for (const { slug } of vencidos) {
     console.log(`::warning::"${slug}" já está no blog, mas não tem carrossel (conteudo-social/${slug}/carrossel.json).`);
     continue;
   }
-  if (!(await existe(join('public', 'social', slug, pinterest ? `pin-${pin2 ? 2 : 1}.jpg` : reel ? 'reel.mp4' : 'slide-01.png')))) {
+  const arquivoEsperado = pinterest ? `pin-${pin2 ? 2 : 1}.jpg` : reel ? 'reel.mp4' : 'slide-01.png';
+  const temArquivo =
+    (await existe(join('public', 'social', slug, arquivoEsperado))) ||
+    (arquivoEsperado === 'slide-01.png' && (await existe(join('public', 'social', slug, 'slide-01.jpg'))));
+  if (!temArquivo) {
     const cmd = pinterest ? 'npm run pin' : reel ? 'npm run reel' : 'npm run carrossel';
     console.log(`::warning::"${slug}" tem carrossel.json, mas ${reel ? 'o Reel não foi gerado' : 'os slides não foram gerados'} (${cmd} -- ${slug}).`);
     continue;
