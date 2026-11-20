@@ -3,15 +3,11 @@ name: Narrar o Reel da série A Queda
 # Narra o Reel 1 da série A Queda com uma voz da ElevenLabs (segredo ELEVENLABS_API_KEY) e
 # grava public/social/queda-de-lucifer/reel-1-a-queda.mp4 e as narrações em
 # art/reel-queda/narracao/ (reaproveitadas depois, sem gastar créditos de novo).
-# Roda sozinho quando o script do Reel ou este workflow mudam, ou manualmente
-# (Actions > Narrar o Reel da série A Queda), onde dá para trocar a voz.
+# Rode em Actions > Narrar o Reel da série A Queda > Run workflow (dá para trocar a voz).
 # Voz padrão: Brian (masculina, grave, de narração), uma das vozes prontas da ElevenLabs.
 # Outras masculinas: Adam (pNInz6obpgDQGcFmaJgB) e Daniel (onwK4e9ZLuTAKqWW03F9).
+# Só roda manualmente, para não gastar créditos da ElevenLabs sem querer.
 on:
-  push:
-    paths:
-      - 'art/reel-queda/montar.mjs'
-      - '.github/workflows/narrar-reel-queda.yml'
   workflow_dispatch:
     inputs:
       voz:
@@ -51,11 +47,12 @@ jobs:
         run: |
           if [ -z "$ELEVENLABS_API_KEY" ]; then echo "::error::Segredo ELEVENLABS_API_KEY não configurado."; exit 1; fi
           node art/reel-queda/montar.mjs public/social/queda-de-lucifer/reel-1-a-queda.mp4
-      - name: Gravar o vídeo e as narrações no branch
+      - name: Gravar o vídeo e as narrações no branch (mesmo se faltar crédito no meio)
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add public/social/queda-de-lucifer/reel-1-a-queda.mp4 art/reel-queda/narracao
+          git add public/social/queda-de-lucifer/reel-1-a-queda.mp4 art/reel-queda/narracao 2>/dev/null || git add art/reel-queda/narracao 2>/dev/null || true
           if git diff --cached --quiet; then echo "Nada novo."; exit 0; fi
           git commit -m "chore: Reel 1 da série A Queda com narração"
           git pull --rebase
