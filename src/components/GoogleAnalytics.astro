@@ -51,7 +51,20 @@ const id = SITE.googleAnalytics;
           try {
             salvo = localStorage.getItem('consentimento-analytics');
           } catch (e) {}
-          if (!salvo) aviso.hidden = false;
+          // Enquanto o aviso está aberto, a rolagem (inclusive a do foco pelo teclado) deixa um
+          // espaço embaixo do tamanho dele, para que ele não cubra o elemento focado.
+          var raiz = document.documentElement;
+          var reservar = function () {
+            var h = aviso.hidden ? 0 : aviso.offsetHeight + 32;
+            raiz.style.scrollPaddingBottom = h ? h + 'px' : '';
+            document.body.style.paddingBottom = h ? h + 'px' : '';
+          };
+          var mostrar = function () {
+            aviso.hidden = false;
+            reservar();
+          };
+          if (!salvo) mostrar();
+          window.addEventListener('resize', reservar);
           aviso.addEventListener('click', function (ev) {
             var botao = ev.target.closest('button[data-consentimento]');
             if (!botao) return;
@@ -61,11 +74,14 @@ const id = SITE.googleAnalytics;
             } catch (e) {}
             window.gtag('consent', 'update', { analytics_storage: valor === 'aceito' ? 'granted' : 'denied' });
             aviso.hidden = true;
+            reservar();
           });
           document.addEventListener('click', function (ev) {
             if (ev.target.closest('[data-abrir-cookies]')) {
               ev.preventDefault();
-              aviso.hidden = false;
+              mostrar();
+              var primeiro = aviso.querySelector('button');
+              if (primeiro) primeiro.focus();
             }
           });
         })();

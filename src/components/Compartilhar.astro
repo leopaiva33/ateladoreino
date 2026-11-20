@@ -13,9 +13,9 @@ const facebook = `https://www.facebook.com/sharer/sharer.php?u=${encodeURICompon
   <p class="compartilhar-rotulo">Gostou? Compartilhe com quem precisa ler.</p>
   <div class="compartilhar-botoes">
     <a class="btn-compartilhar btn-whatsapp" href={whatsapp} target="_blank" rel="noopener noreferrer">
-      Compartilhar no WhatsApp
+      Compartilhar no WhatsApp<span class="sr-only"> (abre em nova aba)</span>
     </a>
-    <a class="btn-compartilhar" href={facebook} target="_blank" rel="noopener noreferrer">Facebook</a>
+    <a class="btn-compartilhar" href={facebook} target="_blank" rel="noopener noreferrer">Facebook<span class="sr-only"> (abre em nova aba)</span></a>
     <button class="btn-compartilhar" type="button" data-copiar={url}>Copiar link</button>
   </div>
   <p class="compartilhar-aviso" role="status" aria-live="polite" hidden>Link copiado!</p>
