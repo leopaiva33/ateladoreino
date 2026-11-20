@@ -2,7 +2,7 @@
 // Monta o Reel 1 da série A Queda (1080x1920): cenas ilustradas com movimento lento,
 // textos na tela, raio piscando na cena 1, transições e a trilha do canal.
 import { execFileSync } from 'node:child_process';
-import { mkdirSync, readFileSync } from 'node:fs';
+import { mkdirSync, readFileSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
 import { createRequire } from 'node:module';
 
@@ -73,15 +73,28 @@ ${c.rodape ? `<div class="rodape">${esc(c.rodape)}</div>` : ''}
 </div></body></html>`;
 
 // 1) Fundos em 2160x3840 (o dobro), para o movimento de câmera ficar suave.
+// Se existir art/reel-queda/foto-<cena>.png (imagem realista gerada no Canva), ela é usada no
+// lugar da ilustração, com um degradê escuro embaixo para o texto ficar legível.
+const DEGRADE = Buffer.from(`<svg xmlns="http://www.w3.org/2000/svg" width="2160" height="3840">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+    <stop offset=".4" stop-color="#0b0710" stop-opacity="0"/><stop offset=".62" stop-color="#0b0710" stop-opacity=".7"/>
+    <stop offset="1" stop-color="#0b0710" stop-opacity=".95"/></linearGradient></defs>
+  <rect width="2160" height="3840" fill="url(#g)"/></svg>`);
+const temFoto = (nome) => existsSync(join(REPO, 'art/reel-queda', `foto-${nome}.png`));
 const fundo = async (nome) => {
   const out = join(TMP, nome + '.png');
-  await sharp(readFileSync(join(REPO, 'art/reel-queda', nome + '.svg')), { density: 144 })
-    .resize(2160, 3840).png().toFile(out);
+  if (temFoto(nome)) {
+    await sharp(join(REPO, 'art/reel-queda', `foto-${nome}.png`)).resize(2160, 3840, { fit: 'cover' })
+      .composite([{ input: DEGRADE }]).png().toFile(out);
+  } else {
+    await sharp(readFileSync(join(REPO, 'art/reel-queda', nome + '.svg')), { density: 144 })
+      .resize(2160, 3840).png().toFile(out);
+  }
   return out;
 };
 const fundos = [];
 for (const c of CENAS) fundos.push(await fundo(c.arte));
-const raio = await fundo('cena-1-raio');
+const raio = temFoto('cena-1') ? null : await fundo('cena-1-raio');
 
 // 2) Textos em PNG transparente.
 const nav = await chromium.launch();
@@ -111,7 +124,7 @@ CENAS.forEach((c, i) => {
   const t = add(textos[i]);
   f += `[${b}:v]${zp(c.zoom)},setsar=1[b${i}];`;
   let base = `[b${i}]`;
-  if (i === 0) {
+  if (i === 0 && raio) {
     const r = add(raio);
     f += `[${r}:v]${zp(c.zoom)},format=rgba[r0];`;
     f += `${base}[r0]overlay=enable='between(t,1.2,1.35)+between(t,1.5,1.62)+between(t,4.6,4.72)'[bb0];`;
