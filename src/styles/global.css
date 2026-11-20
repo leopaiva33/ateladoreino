@@ -175,3 +175,22 @@ a{color:inherit;text-decoration:none}
 main:focus{outline:none}
 .newsletter-rotulo{display:block;margin:0 0 6px;font-family:var(--fonte-interface);font-size:.9rem;font-weight:600}
 .newsletter-linha input[aria-invalid=true],.newsletter-consentimento input[aria-invalid=true]{outline:2px solid var(--cor-destaque);outline-offset:2px}
+
+/* Imagens principais em <picture> (WebP com PNG de reserva) */
+.imagem-destaque picture,.destaque-imagem picture{display:block}
+
+/* "Para ir mais fundo" (fim dos artigos): liga o blog aos estudos e ao plano da Torá */
+.mais-fundo{margin:32px 0 8px}
+.mais-fundo h2{font-size:1.4rem;margin:0 0 10px}
+.mais-fundo ul{list-style:none;padding:0;margin:0}
+.mais-fundo li{padding:10px 0;border-top:1px solid var(--cor-borda);line-height:1.5}
+.mais-fundo li:last-child{border-bottom:1px solid var(--cor-borda)}
+.mais-fundo a{font-weight:700}
+.mais-fundo span{color:var(--cor-texto-suave);font-size:.95rem}
+
+/* Destaque de época na home (Advento e Natal) */
+.epoca{margin:24px 0 8px;padding:16px 20px;border-left:3px solid var(--cor-destaque)}
+.epoca p{margin:0 0 6px}
+.epoca-rotulo{font-family:var(--fonte-interface);font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;color:var(--cor-texto-suave)}
+.epoca ul{margin:0;padding-left:1.2em}
+@media print{.mais-fundo,.epoca{display:none!important}}

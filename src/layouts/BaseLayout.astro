@@ -23,6 +23,8 @@ interface Props {
   mainClass?: string;
   /** Dados estruturados (schema.org) desta página: um objeto ou uma lista. */
   jsonLd?: Record<string, unknown> | Record<string, unknown>[];
+  /** Página que não deve aparecer no Google (agradecimento, 404): noindex e sem canonical. */
+  noindex?: boolean;
 }
 
 const {
@@ -34,10 +36,17 @@ const {
   image,
   mainClass = 'container',
   jsonLd,
+  noindex = false,
 } = Astro.props;
 const blocosJsonLd = jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [];
 
-const fullTitle = title ? `${title} | ${SITE.name}` : SITE.name;
+/**
+ * O Google mostra cerca de 60 caracteres do título. Com o sufixo " | A Tela do Reino" (18), títulos
+ * longos perdem o fim; nesses casos o sufixo sai e o título do artigo aparece inteiro.
+ */
+const LIMITE_TITULO = 60;
+const comSufixo = title ? `${title} | ${SITE.name}` : '';
+const fullTitle = !title ? SITE.homeTitle : comSufixo.length <= LIMITE_TITULO ? comSufixo : title;
 const pathname = Astro.url.pathname.endsWith('/') ? Astro.url.pathname : `${Astro.url.pathname}/`;
 const canonical = new URL(pathname, SITE.url).href;
 const ogImage = new URL(image ?? SITE.ogImage, SITE.url).href;
@@ -50,7 +59,7 @@ const ogImage = new URL(image ?? SITE.ogImage, SITE.url).href;
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{fullTitle}</title>
     <meta name="description" content={description} />
-    <link rel="canonical" href={canonical} />
+    {noindex ? <meta name="robots" content="noindex, follow" /> : <link rel="canonical" href={canonical} />}
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="alternate" type="application/rss+xml" title={SITE.name} href="/rss.xml" />
 

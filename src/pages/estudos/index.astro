@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getPublishedEstudos, ehEstudoDePorcao, LIVROS_DA_TORA } from '../../utils/estudos';
+import { jsonLdColecao, jsonLdTrilha } from '../../utils/jsonld';
 
 const estudos = await getPublishedEstudos();
 const porLivro = LIVROS_DA_TORA.map((livro) => ({
@@ -8,11 +9,23 @@ const porLivro = LIVROS_DA_TORA.map((livro) => ({
   estudos: estudos.filter((e) => e.data.livro === livro),
 })).filter((grupo) => grupo.estudos.length > 0);
 const tematicos = estudos.filter((e) => !ehEstudoDePorcao(e));
+const descricao =
+  'Estudos bíblicos das porções semanais da Torá (parashá da semana) e de temas da Bíblia, com contexto judaico e histórico.';
+const jsonLd = [
+  jsonLdColecao({
+    nome: 'Estudos bíblicos',
+    descricao,
+    caminho: '/estudos/',
+    itens: estudos.map((e) => ({ nome: e.data.title, caminho: `/estudos/${e.id}/` })),
+  }),
+  jsonLdTrilha([{ nome: 'Estudos', caminho: '/estudos/' }]),
+];
 ---
 
 <BaseLayout
   title="Estudos bíblicos"
-  description="Estudos bíblicos das porções semanais da Torá e de temas da Bíblia, com contexto judaico e histórico."
+  description={descricao}
+  jsonLd={jsonLd}
 >
   <h1>Estudos</h1>
   <p class="meta">

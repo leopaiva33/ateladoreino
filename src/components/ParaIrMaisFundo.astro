@@ -1,0 +1,31 @@
+---
+/**
+ * Fim dos artigos do blog: leva ao estudo de porção mais recente e ao plano de leitura da Torá.
+ * Liga o blog aos estudos (o conteúdo mais profundo do site), para leitores e para o Google.
+ */
+import { getEstudoMaisRecente } from '../utils/estudos';
+
+const estudo = await getEstudoMaisRecente();
+---
+
+<section class="mais-fundo" aria-labelledby="mais-fundo-titulo">
+  <h2 id="mais-fundo-titulo">Para ir mais fundo</h2>
+  <ul>
+    {
+      estudo && (
+        <li>
+          <a href={`/estudos/${estudo.id}/`}>{`Estudo da semana: ${estudo.data.parasha ?? estudo.data.title}`}</a>
+          <span> · {estudo.data.description}</span>
+        </li>
+      )
+    }
+    <li>
+      <a href="/plano-de-leitura-tora/">Plano de leitura da Torá 2026–2027</a>
+      <span> · a parashá de cada semana, com os Profetas e o Novo Testamento</span>
+    </li>
+    <li>
+      <a href="/estudos/">Todos os estudos bíblicos</a>
+      <span> · com o contexto judaico e histórico de cada texto</span>
+    </li>
+  </ul>
+</section>

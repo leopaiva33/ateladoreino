@@ -82,6 +82,8 @@ Escolha um livro curto e leia um parágrafo por vez, com o método acima:
 
 Os bereanos são elogiados em Atos 17:11 porque examinavam cada dia as Escrituras para ver se estas coisas eram assim. Estudar a Bíblia é um hábito antigo e bom. Para encaixar o estudo na rotina, veja [Como ter um devocional diário](/blog/como-ter-um-devocional-diario/).
 
+Quando quiser ir mais fundo, os [estudos bíblicos](/estudos/) da A Tela do Reino aplicam este mesmo cuidado a textos maiores, com o contexto judaico e histórico de cada passagem.
+
 ## Perguntas frequentes
 
 **Preciso saber hebraico ou grego para estudar a Bíblia?**

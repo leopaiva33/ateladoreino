@@ -6,7 +6,7 @@ import { getPublishedPosts } from '../utils/posts';
 const recentes = (await getPublishedPosts()).slice(0, 5);
 ---
 
-<BaseLayout title="Página não encontrada" description="O endereço que você procurou não existe mais. Veja as reflexões recentes da A Tela do Reino.">
+<BaseLayout noindex title="Página não encontrada" description="O endereço que você procurou não existe mais. Veja as reflexões recentes da A Tela do Reino.">
   <section class="hero">
     <h1>Esta página não foi encontrada</h1>
     <p>O endereço pode ter mudado ou o conteúdo foi reorganizado. Mas a Palavra continua aqui.</p>

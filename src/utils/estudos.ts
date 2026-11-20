@@ -25,3 +25,9 @@ export async function getPublishedEstudos(): Promise<CollectionEntry<'estudos'>[
 
 /** Estudo de porção da Torá tem `numero`; sem ele, é estudo temático. */
 export const ehEstudoDePorcao = (e: CollectionEntry<'estudos'>) => e.data.numero !== undefined;
+
+/** Estudo de porção publicado mais recentemente: o "estudo da semana" sugerido nos artigos. */
+export async function getEstudoMaisRecente(): Promise<CollectionEntry<'estudos'> | undefined> {
+  const porcoes = (await getPublishedEstudos()).filter(ehEstudoDePorcao);
+  return porcoes.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())[0];
+}

@@ -48,3 +48,24 @@ export function formatDate(date: Date): string {
     timeZone: 'UTC',
   });
 }
+
+/**
+ * Artigos do blog ligados a um texto (por exemplo, o corpo de um estudo): cada tag do artigo
+ * que aparece no texto soma pontos, contando quantas vezes aparece. Empates: o mais recente.
+ * Serve para ligar os estudos ao blog sem precisar marcar nada à mão.
+ */
+export async function getPostsLigadosAoTexto(
+  texto: string | undefined,
+  limit = 3,
+): Promise<CollectionEntry<'blog'>[]> {
+  const corpo = (texto ?? '').toLowerCase();
+  const escapar = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const vezes = (tag: string) =>
+    (corpo.match(new RegExp(`(^|[^\\p{L}])${escapar(tag.toLowerCase())}(?=[^\\p{L}]|$)`, 'gu')) ?? []).length;
+  return (await getPublishedPosts())
+    .map((p) => ({ p, pontos: p.data.tags.reduce((t, tag) => t + Math.min(vezes(tag), 5), 0) }))
+    .filter(({ pontos }) => pontos > 0)
+    .sort((a, b) => b.pontos - a.pontos || b.p.data.pubDate.valueOf() - a.p.data.pubDate.valueOf())
+    .slice(0, limit)
+    .map(({ p }) => p);
+}

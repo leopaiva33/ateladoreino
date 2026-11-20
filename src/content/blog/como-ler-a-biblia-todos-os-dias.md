@@ -76,7 +76,7 @@ Como usar o plano:
 - Aplique o método de 4 passos em pelo menos uma leitura por dia.
 - Ao fim das 4 semanas, escolha o próximo livro (por exemplo, o Evangelho de João ou Provérbios) e repita.
 
-Se você quiser ler a Bíblia inteira em um ano, saiba que ela tem 1.189 capítulos, o que dá em média 3 a 4 capítulos por dia. Muitos planos de um ano alternam trechos do Antigo e do Novo Testamento para variar a leitura. Vale começar pelo plano de 4 semanas e, se o hábito pegar, passar para um plano anual.
+Se você quiser ler a Bíblia inteira em um ano, saiba que ela tem 1.189 capítulos, o que dá em média 3 a 4 capítulos por dia. Muitos planos de um ano alternam trechos do Antigo e do Novo Testamento para variar a leitura. Vale começar pelo plano de 4 semanas e, se o hábito pegar, passar para um plano anual. Outra opção é o [plano de leitura da Torá](/plano-de-leitura-tora/), que segue as porções semanais lidas nas sinagogas, com os Profetas e o Novo Testamento.
 
 ## Erros comuns (e como evitá-los)
 

@@ -34,7 +34,7 @@ O Advento começa no **quarto domingo antes do Natal**. Em 2026, o Natal cai num
 
 ## Plano de 4 semanas para se preparar
 
-Reserve de 10 a 15 minutos por dia, com uma leitura e uma oração curta. No domingo, acenda a vela da semana.
+Reserve de 10 a 15 minutos por dia, com uma leitura e uma oração curta (se ainda não tem esse hábito, veja [Como ter um devocional diário](/blog/como-ter-um-devocional-diario/)). No domingo, acenda a vela da semana.
 
 ### Semana 1: Esperança (29/11 a 5/12)
 
@@ -49,7 +49,7 @@ Reserve de 10 a 15 minutos por dia, com uma leitura e uma oração curta. No dom
 ### Semana 3: Alegria (13/12 a 19/12)
 
 **Leitura-guia:** Lucas 1:39-56. Maria visita Isabel e responde com um cântico de louvor.
-**Prática:** faça uma lista de coisas pelas quais você é grato e compartilhe a alegria com alguém que precisa.
+**Prática:** faça uma lista de coisas pelas quais você é grato e compartilhe a alegria com alguém que precisa. Para transformar a lista em oração, veja [Oração de gratidão](/blog/oracao-de-gratidao/).
 
 ### Semana 4: Amor (20/12 a 24/12)
 
@@ -58,7 +58,7 @@ Reserve de 10 a 15 minutos por dia, com uma leitura e uma oração curta. No dom
 
 ### Véspera e Natal
 
-Leia Lucas 2:1-20 em família antes da ceia. É a história de Belém, contada de forma simples.
+Leia Lucas 2:1-20 em família antes da ceia. É a história de Belém, contada de forma simples. Para conversar sobre o que celebramos, veja [O significado do Natal cristão](/blog/significado-do-natal-cristao/).
 
 ## Uma oração para cada domingo
 
