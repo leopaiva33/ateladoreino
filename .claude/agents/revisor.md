@@ -95,8 +95,10 @@ pastas ignoradas pelo git.
    - Nada de `<iframe>`, `<script>`, imagens externas ou GIFs no Markdown. Vídeo
      do YouTube só pelo campo `video` do cabeçalho (ele carrega no clique).
 8. **Visual e leitura no celular:**
-   - Ilustração no estilo das outras (`art/*.svg`): vetorial plana, paleta
-     quente de céu, ponto de luz dourada, **sem texto e sem rostos**.
+   - Ilustração segue a skill `ilustracao` (estilo, paleta, sem `<text>`,
+     `<image>` e `<filter>`, **sem texto e sem rostos**) e tem o ponto de luz e o
+     objeto principal na zona segura (x entre 180 e 1020), para não sumirem nos
+     recortes do Reel, do Pinterest e do vídeo. Confira abrindo o PNG gerado.
    - Parágrafos de 2 a 4 linhas, um subtítulo a cada 200 a 300 palavras e
      listas onde ajudam a escanear.
    - Citações bíblicas longas e a oração em bloco de citação (`>`), como nos
