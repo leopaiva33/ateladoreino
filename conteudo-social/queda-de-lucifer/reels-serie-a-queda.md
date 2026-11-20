@@ -89,7 +89,7 @@ Legenda: **Daniel 10:13**
 
 **Cena 4: o protetor**
 Prompt: `Vertical shot: Michael standing guard on a hill above ancient Jerusalem at night, wings half open, sword planted in the ground, calm and watchful.`
-Narrador: *Daniel o chama de "o grande príncipe", que se levanta pelos filhos do seu povo.*
+Narrador: *Daniel o chama de "o grande príncipe, que se levanta pelos filhos do teu povo".*
 Legenda: **Daniel 12:1**
 
 **Cena 5: o corpo de Moisés**
