@@ -1,12 +1,17 @@
 // Uso: node art/reel-queda/montar.mjs <saida.mp4>
-// Monta o Reel 1 da série A Queda (1080x1920): cenas ilustradas com movimento lento,
-// textos na tela, raio piscando na cena 1, transições e a trilha do canal.
+// Monta o Reel 1 da série A Queda (1080x1920): cenas com movimento lento, textos na tela,
+// raio piscando na cena 1 (versão ilustrada), transições e a trilha do canal.
+// Narração (opcional): com ELEVENLABS_API_KEY e VOZ_ID definidos, cada cena é narrada pela
+// ElevenLabs (modelo eleven_multilingual_v2) e dura o tempo da fala. As narrações ficam em
+// art/reel-queda/narracao/ e são reaproveitadas, sem gastar créditos de novo.
+// No GitHub: Actions > "Narrar o Reel da série A Queda" (.github/workflows/narrar-reel-queda.yml).
 import { execFileSync } from 'node:child_process';
-import { mkdirSync, readFileSync, existsSync } from 'node:fs';
+import { mkdirSync, readFileSync, writeFileSync, existsSync } from 'node:fs';
+import { createHash } from 'node:crypto';
 import { join } from 'node:path';
 import { createRequire } from 'node:module';
 
-const REPO = '/home/user/ateladoreino';
+const REPO = new URL('../..', import.meta.url).pathname;
 const require = createRequire(join(REPO, 'package.json'));
 const sharp = require('sharp');
 let chromium; try { ({ chromium } = require('playwright')); } catch { ({ chromium } = createRequire(join(execFileSync('npm', ['root', '-g']).toString().trim(), 'x.js'))('playwright')); }
@@ -15,31 +20,38 @@ const TMP = join(require('node:os').tmpdir(), 'reel-queda/');
 const SAIDA = process.argv[2];
 mkdirSync(TMP, { recursive: true });
 
-const DUR = 8, FADE = 0.8, FPS = 30;
+const DUR_MIN = 8, FADE = 0.8, FPS = 30, ATRASO = 0.6;
 const CENAS = [
   { arte: 'cena-1', zoom: 'in',
     texto: 'Quando os discípulos voltaram da missão, Jesus disse:',
-    citacao: '“Eu via Satanás, como raio, cair do céu.”', ref: 'Lucas 10:18' },
+    citacao: '“Eu via Satanás, como raio, cair do céu.”', ref: 'Lucas 10:18',
+    fala: 'Quando os discípulos voltaram da missão, Jesus disse: "Eu via Satanás, como raio, cair do céu."' },
   { arte: 'cena-2', zoom: 'out',
     texto: 'A Bíblia não conta essa história de uma vez.',
-    texto2: 'Ao longo dos séculos, a tradição juntou as peças.' },
+    texto2: 'Ao longo dos séculos, a tradição juntou as peças.',
+    fala: 'A Bíblia não conta essa história de uma vez. Ao longo dos séculos, a tradição juntou as peças.' },
   { arte: 'cena-3', zoom: 'in',
     citacao: '“Subirei acima das mais altas nuvens e serei semelhante ao Altíssimo.”',
-    ref: 'Isaías 14:14 · dito ao rei da Babilônia' },
+    ref: 'Isaías 14:14 · dito ao rei da Babilônia',
+    fala: 'Subirei acima das mais altas nuvens e serei semelhante ao Altíssimo.' },
   { arte: 'cena-4', zoom: 'out',
     texto: 'Muitos cristãos ouvem aí também a voz de Satanás.',
     texto2: 'O nome “Lúcifer” veio da tradução latina deste capítulo.',
-    selo: 'A raiz das duas leituras: o orgulho' },
+    selo: 'A raiz das duas leituras: o orgulho',
+    fala: 'Muitos cristãos ouvem aí também a voz de Satanás. O nome Lúcifer veio da tradução latina deste capítulo.' },
   { arte: 'cena-5', zoom: 'in',
     citacao: '“Perfeito eras nos teus caminhos, desde o dia em que foste criado, até que se achou iniquidade em ti.”',
-    ref: 'Ezequiel 28:15 · dito ao rei de Tiro' },
+    ref: 'Ezequiel 28:15 · dito ao rei de Tiro',
+    fala: 'Perfeito eras nos teus caminhos, desde o dia em que foste criado, até que se achou iniquidade em ti.' },
   { arte: 'cena-6', zoom: 'in',
     citacao: '“E houve batalha no céu: Miguel e os seus anjos batalhavam contra o dragão…”',
-    ref: 'Apocalipse 12:7' },
+    ref: 'Apocalipse 12:7',
+    fala: 'E houve batalha no céu: Miguel e os seus anjos batalhavam contra o dragão.' },
   { arte: 'cena-7', zoom: 'out',
     texto: 'A Bíblia não diz quando ele caiu. Mas diz quem o venceu:',
     citacao: 'na cruz, Cristo triunfou.', ref: 'Colossenses 2:15',
-    rodape: 'Estudo completo: ateladoreino.com' },
+    rodape: 'Estudo completo: ateladoreino.com',
+    fala: 'A Bíblia não diz quando ele caiu. Mas diz quem o venceu: na cruz, Cristo triunfou.' },
 ];
 
 const fonte = (f) => 'data:font/ttf;base64,' + readFileSync(join(REPO, 'assets/fonts', f)).toString('base64');
@@ -109,24 +121,55 @@ for (const [i, c] of CENAS.entries()) {
 }
 await nav.close();
 
-// 3) Vídeo.
-const N = DUR * FPS;
-const zp = (dir) => {
+// 3) Narração (ElevenLabs), se houver chave e voz.
+const KEY = process.env.ELEVENLABS_API_KEY;
+const VOZ = process.env.VOZ_ID;
+const MODELO = 'eleven_multilingual_v2';
+const PASTA_NARR = join(REPO, 'art/reel-queda/narracao');
+const duracao = (arq) => Number(execFileSync('ffprobe', ['-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', arq]).toString().trim());
+const narr = [];
+if (KEY && VOZ) {
+  mkdirSync(PASTA_NARR, { recursive: true });
+  for (const [i, c] of CENAS.entries()) {
+    const id = createHash('sha1').update(`${VOZ}|${MODELO}|${c.fala}`).digest('hex').slice(0, 12);
+    const arq = join(PASTA_NARR, `cena-${i + 1}-${id}.mp3`);
+    if (!existsSync(arq)) {
+      const r = await fetch(`https://api.elevenlabs.io/v1/text-to-speech/${VOZ}?output_format=mp3_44100_128`, {
+        method: 'POST',
+        headers: { 'xi-api-key': KEY, 'content-type': 'application/json', accept: 'audio/mpeg' },
+        body: JSON.stringify({ text: c.fala, model_id: MODELO, language_code: 'pt',
+          voice_settings: { stability: 0.55, similarity_boost: 0.8, style: 0.2, use_speaker_boost: true } }),
+      });
+      if (!r.ok) throw new Error(`ElevenLabs respondeu ${r.status}: ${(await r.text()).slice(0, 300)}`);
+      writeFileSync(arq, Buffer.from(await r.arrayBuffer()));
+      console.log(`narração da cena ${i + 1} gerada`);
+    }
+    narr.push(arq);
+  }
+} else {
+  console.log('Sem ELEVENLABS_API_KEY e VOZ_ID: vídeo sem narração.');
+}
+const DURS = CENAS.map((c, i) => narr[i] ? Math.max(DUR_MIN, Math.ceil((ATRASO + duracao(narr[i]) + 1.2) * 10) / 10) : DUR_MIN);
+
+// 4) Vídeo.
+const zp = (dir, dur) => {
+  const N = Math.round(dur * FPS);
   const z = dir === 'in' ? `1+0.10*on/${N}` : `1.10-0.10*on/${N}`;
   return `zoompan=z='${z}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1080x1920:fps=${FPS}`;
 };
 const ent = [];
-const add = (arq) => { ent.push('-loop', '1', '-framerate', String(FPS), '-t', String(DUR), '-i', arq); return ent.length / 8 - 1; };
+let nEnt = 0;
+const add = (arq, dur) => { ent.push('-loop', '1', '-framerate', String(FPS), '-t', String(dur), '-i', arq); return nEnt++; };
 let f = '';
 const cenasOut = [];
 CENAS.forEach((c, i) => {
-  const b = add(fundos[i]);
-  const t = add(textos[i]);
-  f += `[${b}:v]${zp(c.zoom)},setsar=1[b${i}];`;
+  const b = add(fundos[i], DURS[i]);
+  const t = add(textos[i], DURS[i]);
+  f += `[${b}:v]${zp(c.zoom, DURS[i])},setsar=1[b${i}];`;
   let base = `[b${i}]`;
   if (i === 0 && raio) {
-    const r = add(raio);
-    f += `[${r}:v]${zp(c.zoom)},format=rgba[r0];`;
+    const r = add(raio, DURS[i]);
+    f += `[${r}:v]${zp(c.zoom, DURS[i])},format=rgba[r0];`;
     f += `${base}[r0]overlay=enable='between(t,1.2,1.35)+between(t,1.5,1.62)+between(t,4.6,4.72)'[bb0];`;
     base = '[bb0]';
   }
@@ -135,17 +178,32 @@ CENAS.forEach((c, i) => {
   cenasOut.push(`[c${i}]`);
 });
 let atual = cenasOut[0], off = 0;
+const inicio = [0];
 for (let i = 1; i < cenasOut.length; i++) {
-  off += DUR - FADE;
+  off += DURS[i - 1] - FADE;
+  inicio.push(off);
   const out = i === cenasOut.length - 1 ? '[v]' : `[x${i}]`;
   f += `${atual}${cenasOut[i]}xfade=transition=fade:duration=${FADE}:offset=${off.toFixed(2)}${out};`;
   atual = out;
 }
-const total = off + DUR;
+const total = off + DURS[DURS.length - 1];
 const musica = join(REPO, 'assets/musica/fundo.mp3');
-const iMus = ent.length / 8;
+const iMus = nEnt++;
 ent.push('-stream_loop', '-1', '-i', musica);
-f += `[${iMus}:a]atrim=0:${total},asetpts=N/SR/TB,volume=0.9,afade=t=in:d=1.5,afade=t=out:st=${total - 3}:d=3[a]`;
+const volMusica = narr.length ? 0.28 : 0.9;
+f += `[${iMus}:a]atrim=0:${total},asetpts=N/SR/TB,volume=${volMusica},afade=t=in:d=1.5,afade=t=out:st=${total - 3}:d=3[mus];`;
+if (narr.length) {
+  const rot = narr.map((arq, i) => {
+    const k = nEnt++;
+    ent.push('-i', arq);
+    const ms = Math.round((inicio[i] + ATRASO) * 1000);
+    f += `[${k}:a]aresample=44100,aformat=channel_layouts=stereo,adelay=${ms}|${ms}[n${i}];`;
+    return `[n${i}]`;
+  });
+  f += `${rot.join('')}amix=inputs=${rot.length}:normalize=0[nar];[mus][nar]amix=inputs=2:normalize=0,alimiter=limit=0.95[a]`;
+} else {
+  f += '[mus]anull[a]';
+}
 execFileSync('ffmpeg', ['-y', '-loglevel', 'error', ...ent, '-filter_complex', f, '-map', '[v]', '-map', '[a]',
   '-c:v', 'libx264', '-preset', 'medium', '-crf', '21', '-pix_fmt', 'yuv420p', '-r', String(FPS),
   '-c:a', 'aac', '-b:a', '128k', '-movflags', '+faststart', '-t', String(total), SAIDA], { stdio: 'inherit' });
