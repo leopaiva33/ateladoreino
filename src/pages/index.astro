@@ -2,26 +2,57 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import PostList from '../components/PostList.astro';
 import NewsletterForm from '../components/NewsletterForm.astro';
-import { getPublishedPosts } from '../utils/posts';
+import { getPublishedPosts, formatDate } from '../utils/posts';
 import { jsonLdSite } from '../utils/jsonld';
 
-const recentes = (await getPublishedPosts()).slice(0, 5);
+const [destaque, ...outros] = (await getPublishedPosts()).slice(0, 6);
+const hrefDestaque = destaque ? `/blog/${destaque.id}/` : '';
 ---
 
 <BaseLayout jsonLd={jsonLdSite()}>
   <section class="hero">
-    <h1>Bem-vindo à A Tela do Reino</h1>
+    <h1>A Tela do Reino</h1>
     <p>Palavra, reflexão e encorajamento para caminhar com Deus todos os dias.</p>
   </section>
 
-  <aside class="versiculo-do-dia" aria-label="Versículo do dia">
-    <p class="meta">Versículo do dia</p>
+  {
+    destaque && (
+      <article class="destaque">
+        {destaque.data.image && (
+          <a class="destaque-imagem" href={hrefDestaque} tabindex="-1" aria-hidden="true">
+            <img
+              src={destaque.data.image}
+              alt=""
+              width="1200"
+              height="630"
+              loading="eager"
+              fetchpriority="high"
+              decoding="async"
+            />
+          </a>
+        )}
+        <div class="destaque-texto">
+          <span class="meta">
+            <span class="tag">{destaque.data.category}</span> {formatDate(destaque.data.pubDate)}
+          </span>
+          <h2>
+            <a href={hrefDestaque}>{destaque.data.title}</a>
+          </h2>
+          <p>{destaque.data.description}</p>
+          <a class="destaque-ler" href={hrefDestaque}>Ler a reflexão →</a>
+        </div>
+      </article>
+    )
+  }
+
+  <aside class="versiculo-do-dia" aria-label="Versículo em destaque">
+    <p class="meta">Versículo em destaque</p>
     <p class="texto">“O Senhor é o meu pastor; nada me faltará.”</p>
     <p class="meta">Salmos 23:1</p>
   </aside>
 
-  <h2>Reflexões recentes</h2>
-  <PostList posts={recentes} />
+  <h2>Mais reflexões</h2>
+  <PostList posts={outros} />
 
   <NewsletterForm />
   <p><a href="/blog/">Ver todas as reflexões →</a></p>
