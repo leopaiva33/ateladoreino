@@ -2,9 +2,10 @@
 /**
  * Google Analytics 4 com aviso de cookies (LGPD).
  * - Só é incluído quando SITE.googleAnalytics tem um ID (G-XXXXXXXXXX).
- * - Usa o modo de consentimento do Google: até o visitante aceitar, o GA não grava cookies
- *   (analytics_storage = denied). A escolha fica salva no navegador e pode ser mudada pelo
- *   link "Preferências de cookies" no rodapé.
+ * - O script do GA (gtag.js, ~100–150 KB) só é baixado depois do "Aceitar": quem recusa ou ignora
+ *   o aviso não carrega nada do Google Analytics (página mais leve e nenhum dado enviado).
+ *   O modo de consentimento continua declarado (analytics_storage) por segurança. A escolha fica
+ *   salva no navegador e pode ser mudada pelo link "Preferências de cookies" no rodapé.
  * - Não altera os sinais de anúncios (AdSense continua como está).
  */
 import { SITE } from '../config';
@@ -27,10 +28,21 @@ const id = SITE.googleAnalytics;
           analytics_storage: escolha === 'aceito' ? 'granted' : 'denied',
           wait_for_update: 500,
         });
-        window.gtag('js', new Date());
-        window.gtag('config', id);
+        // Baixa o gtag.js e começa a medir. Chamado na hora se a pessoa já aceitou antes, ou no
+        // clique em "Aceitar". Os eventos disparados antes disso (ex.: inscrição na newsletter)
+        // ficam na fila do dataLayer e só saem se o script for carregado.
+        window.carregarAnalytics = function () {
+          if (window.analyticsCarregado) return;
+          window.analyticsCarregado = true;
+          window.gtag('js', new Date());
+          window.gtag('config', id);
+          var s = document.createElement('script');
+          s.async = true;
+          s.src = 'https://www.googletagmanager.com/gtag/js?id=' + id;
+          document.head.appendChild(s);
+        };
+        if (escolha === 'aceito') window.carregarAnalytics();
       </script>
-      <script is:inline async src={`https://www.googletagmanager.com/gtag/js?id=${id}`} />
 
       <div id="aviso-cookies" class="aviso-cookies" role="region" aria-label="Aviso de cookies" hidden>
         <p>
@@ -73,6 +85,7 @@ const id = SITE.googleAnalytics;
               localStorage.setItem('consentimento-analytics', valor);
             } catch (e) {}
             window.gtag('consent', 'update', { analytics_storage: valor === 'aceito' ? 'granted' : 'denied' });
+            if (valor === 'aceito') window.carregarAnalytics();
             aviso.hidden = true;
             reservar();
           });
