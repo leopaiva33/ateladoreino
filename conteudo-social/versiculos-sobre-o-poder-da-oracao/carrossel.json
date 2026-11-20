@@ -9,13 +9,15 @@
       "chapeu": "Oração",
       "apoio": "7 versículos para entender, com contexto.",
       "isca": "Deslize",
-      "busca": "praying hands light"
+      "busca": "praying hands light",
+      "foto": "https://cdn.pixabay.com/photo/2026/07/05/08/47/08-47-27-973_1280.jpg"
     },
     {
       "tipo": "texto",
       "texto": "O poder da oração está em Deus, que ouve. Não está em palavras certas nem em fórmulas.",
       "isca": "O 1º versículo",
-      "busca": "quiet room door"
+      "busca": "quiet room door",
+      "foto": "https://cdn.pixabay.com/photo/2018/01/29/19/53/doors-3117027_1280.jpg"
     },
     {
       "tipo": "versiculo",
@@ -23,7 +25,8 @@
       "ref": "Mateus 6:6",
       "isca": "O 2º",
       "destaque": "Antes de tudo, *um encontro pessoal*.",
-      "busca": "door light"
+      "busca": "door light",
+      "foto": "https://cdn.pixabay.com/photo/2025/01/09/04/06/woman-9320647_1280.jpg"
     },
     {
       "tipo": "versiculo",
@@ -31,7 +34,8 @@
       "ref": "Tiago 5:16",
       "isca": "O 3º",
       "destaque": "Orar *uns pelos outros* faz parte da vida de fé.",
-      "busca": "hands together"
+      "busca": "hands together",
+      "foto": "https://cdn.pixabay.com/photo/2026/03/31/10/37/10-37-51-592_1280.jpg"
     },
     {
       "tipo": "versiculo",
@@ -39,7 +43,8 @@
       "ref": "Mateus 7:7",
       "isca": "O 4º",
       "destaque": "Podemos pedir com ousadia: *Deus é bom*.",
-      "busca": "door knocking"
+      "busca": "door knocking",
+      "foto": "https://cdn.pixabay.com/photo/2013/04/30/15/28/door-108198_1280.jpg"
     },
     {
       "tipo": "versiculo",
@@ -47,14 +52,16 @@
       "ref": "Jeremias 33:3",
       "isca": "Um cuidado",
       "destaque": "Dito a Jeremias quando estava preso, *em tempo de crise*.",
-      "busca": "prison window light"
+      "busca": "prison window light",
+      "foto": "https://cdn.pixabay.com/photo/2020/04/09/11/27/window-5020995_1280.jpg"
     },
     {
       "tipo": "texto",
       "titulo": "Não é cheque em branco",
       "texto": "Pedimos segundo a vontade de Deus (1 João 5:14): “não se faça a minha vontade, mas a tua” (Lucas 22:42).",
       "isca": "Quando faltam palavras",
-      "busca": "olive garden"
+      "busca": "olive garden",
+      "foto": "https://cdn.pixabay.com/photo/2016/01/02/02/09/olive-tree-1117673_1280.jpg"
     },
     {
       "tipo": "versiculo",
@@ -62,7 +69,8 @@
       "ref": "Romanos 8:26",
       "isca": "O último versículo",
       "destaque": "Não sabe o que dizer? *Deus entende.*",
-      "busca": "person praying night"
+      "busca": "person praying night",
+      "foto": "https://cdn.pixabay.com/photo/2019/12/02/12/40/milky-way-4667644_1280.jpg"
     },
     {
       "tipo": "versiculo",
@@ -70,14 +78,16 @@
       "ref": "Salmos 145:18",
       "isca": "Último passo",
       "destaque": "*Sinceridade* importa mais que eloquência.",
-      "busca": "sunrise hands raised"
+      "busca": "sunrise hands raised",
+      "foto": "https://cdn.pixabay.com/photo/2023/02/14/11/03/person-7789256_1280.jpg"
     },
     {
       "tipo": "final",
       "titulo": "Salve e ore *um versículo* por dia.",
       "texto": "Escolha um versículo por dia e transforme-o em oração.",
       "rodape": "Texto completo: ateladoreino.com · link na bio",
-      "busca": "sunrise"
+      "busca": "sunrise",
+      "foto": "https://cdn.pixabay.com/photo/2024/05/15/16/15/sky-8763986_1280.jpg"
     }
   ]
 }

@@ -9,13 +9,15 @@
       "chapeu": "Guia prático",
       "apoio": "Um método simples e um plano de 4 semanas.",
       "isca": "Deslize",
-      "busca": "open bible coffee morning"
+      "busca": "open bible coffee morning",
+      "foto": "https://cdn.pixabay.com/photo/2022/03/28/18/41/spring-7098130_1280.jpg"
     },
     {
       "tipo": "texto",
       "texto": "Três coisas ajudam a começar: um horário fixo, um ponto de partida simples e um método para entender o que você lê.",
       "isca": "Um hábito antigo",
-      "busca": "morning coffee window"
+      "busca": "morning coffee window",
+      "foto": "https://cdn.pixabay.com/photo/2026/05/16/16/46/16-46-18-599_1280.jpg"
     },
     {
       "tipo": "versiculo",
@@ -23,14 +25,16 @@
       "ref": "Atos 17:11",
       "isca": "Quanto tempo por dia?",
       "destaque": "Examinar as Escrituras *todos os dias* é um hábito antigo.",
-      "busca": "bible reading"
+      "busca": "bible reading",
+      "foto": "https://cdn.pixabay.com/photo/2023/01/12/03/44/bible-7713234_1280.jpg"
     },
     {
       "tipo": "texto",
       "titulo": "Comece pequeno",
       "texto": "De 10 a 15 minutos, um capítulo curto por dia. É uma sugestão, não uma regra bíblica.",
       "isca": "Por onde começar",
-      "busca": "clock morning"
+      "busca": "clock morning",
+      "foto": "https://cdn.pixabay.com/photo/2023/11/08/18/05/clock-8375477_1280.jpg"
     },
     {
       "tipo": "lista",
@@ -59,14 +63,16 @@
       "titulo": "Leia no contexto",
       "texto": "Leia os versículos de antes e de depois. A Bíblia não é um oráculo para abrir ao acaso.",
       "isca": "O plano de 4 semanas",
-      "busca": "bible pages"
+      "busca": "bible pages",
+      "foto": "https://cdn.pixabay.com/photo/2017/04/11/17/14/bible-2222267_1280.jpg"
     },
     {
       "tipo": "texto",
       "titulo": "Plano de 4 semanas",
       "texto": "Semanas 1 e 2: Marcos 1 a 14. Semana 3: Marcos 15 e 16 e Salmos. Semana 4: Filipenses e Salmos.",
       "isca": "Para guardar",
-      "busca": "calendar notebook"
+      "busca": "calendar notebook",
+      "foto": "https://cdn.pixabay.com/photo/2017/07/31/18/17/calendar-2559708_1280.jpg"
     },
     {
       "tipo": "versiculo",
@@ -74,14 +80,16 @@
       "ref": "Salmos 119:105",
       "isca": "Último passo",
       "destaque": "A Palavra ilumina *um passo de cada vez*.",
-      "busca": "lantern light path night"
+      "busca": "lantern light path night",
+      "foto": "https://cdn.pixabay.com/photo/2020/08/13/16/41/a-fairy-tale-5485812_1280.jpg"
     },
     {
       "tipo": "final",
       "titulo": "Salve e comece *hoje*.",
       "texto": "Envie para quem quer ler a Bíblia com você.",
       "rodape": "Texto completo: ateladoreino.com · link na bio",
-      "busca": "sunrise mountains"
+      "busca": "sunrise mountains",
+      "foto": "https://cdn.pixabay.com/photo/2019/07/19/03/30/landscape-4347888_1280.jpg"
     }
   ]
 }

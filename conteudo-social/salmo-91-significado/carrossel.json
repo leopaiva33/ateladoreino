@@ -9,7 +9,8 @@
       "chapeu": "Salmos",
       "apoio": "Significado, contexto e como orá-lo.",
       "isca": "Deslize",
-      "busca": "mountain shelter sunrise"
+      "busca": "mountain shelter sunrise",
+      "foto": "https://cdn.pixabay.com/photo/2023/03/21/04/09/mountain-7866362_1280.jpg"
     },
     {
       "tipo": "versiculo",
@@ -17,7 +18,8 @@
       "ref": "Salmos 91:1",
       "isca": "Debaixo das asas",
       "destaque": "Antes da promessa, *a escolha de confiar*.",
-      "busca": "tree shadow sunlight"
+      "busca": "tree shadow sunlight",
+      "foto": "https://cdn.pixabay.com/photo/2012/09/15/02/22/forest-56930_1280.jpg"
     },
     {
       "tipo": "versiculo",
@@ -25,14 +27,16 @@
       "ref": "Salmos 91:4",
       "isca": "Um cuidado",
       "destaque": "Deus é *presença protetora* em meio ao perigo.",
-      "busca": "bird wings"
+      "busca": "bird wings",
+      "foto": "https://cdn.pixabay.com/photo/2025/02/25/16/36/bird-9431014_1280.jpg"
     },
     {
       "tipo": "texto",
       "titulo": "Cuidado com os versículos 11-12",
       "texto": "O diabo os citou para tentar Jesus. Ele respondeu: “Não tentarás o Senhor, teu Deus” (Mateus 4:7).",
       "isca": "A promessa central",
-      "busca": "desert"
+      "busca": "desert",
+      "foto": "https://cdn.pixabay.com/photo/2026/04/09/10/19/rudi_nel-namibia-10217381_1280.jpg"
     },
     {
       "tipo": "versiculo",
@@ -40,21 +44,24 @@
       "ref": "Salmos 91:15",
       "isca": "Não é amuleto",
       "destaque": "No final, o próprio Deus fala. A promessa central é *a sua presença*.",
-      "busca": "stormy sky light"
+      "busca": "stormy sky light",
+      "foto": "https://cdn.pixabay.com/photo/2025/05/22/15/58/clouds-9616094_1280.jpg"
     },
     {
       "tipo": "texto",
       "titulo": "Não é amuleto",
       "texto": "Pessoas de fé também sofrem. O salmo convida a confiar, não a repetir palavras como proteção automática.",
       "isca": "Fé e prudência",
-      "busca": "stones"
+      "busca": "stones",
+      "foto": "https://cdn.pixabay.com/photo/2019/10/01/20/13/stone-tower-4519290_1280.jpg"
     },
     {
       "tipo": "texto",
       "titulo": "Fé e prudência juntas",
       "texto": "O Salmo 91 não substitui cuidado médico nem segurança. E quem sofre não “teve pouca fé”.",
       "isca": "Como orá-lo",
-      "busca": "lighthouse"
+      "busca": "lighthouse",
+      "foto": "https://cdn.pixabay.com/photo/2020/02/13/21/21/lighthouse-4846855_1280.jpg"
     },
     {
       "tipo": "lista",
@@ -73,14 +80,16 @@
       "titulo": "Ore agora, com estas palavras",
       "texto": "Senhor, tu és o meu refúgio. Entrego-te os meus medos. Lembra-me de que estás comigo na angústia. Amém.",
       "isca": "Último passo",
-      "busca": "candle prayer dark"
+      "busca": "candle prayer dark",
+      "foto": "https://cdn.pixabay.com/photo/2017/07/27/10/31/woman-2544810_1280.jpg"
     },
     {
       "tipo": "final",
       "titulo": "Salve e ore o Salmo 91 *com calma*.",
       "texto": "Envie para quem está com medo.",
       "rodape": "Texto completo: ateladoreino.com · link na bio",
-      "busca": "sunrise"
+      "busca": "sunrise",
+      "foto": "https://cdn.pixabay.com/photo/2019/07/22/22/17/road-4356202_1280.jpg"
     }
   ]
 }

@@ -9,13 +9,15 @@
       "chapeu": "Para jovens",
       "apoio": "Um roteiro simples, sem complicação.",
       "isca": "Deslize",
-      "busca": "young man reading bible"
+      "busca": "young man reading bible",
+      "foto": "https://cdn.pixabay.com/photo/2016/04/24/20/56/man-1350599_1280.jpg"
     },
     {
       "tipo": "texto",
       "texto": "Devocional é um encontro diário com Deus: ler um trecho da Bíblia, pensar nele e responder em oração.",
       "isca": "O que a Bíblia diz",
-      "busca": "bible coffee"
+      "busca": "bible coffee",
+      "foto": "https://cdn.pixabay.com/photo/2015/08/19/16/19/bible-896219_1280.jpg"
     },
     {
       "tipo": "versiculo",
@@ -23,7 +25,8 @@
       "ref": "1 Timóteo 4:12",
       "isca": "Mais um",
       "destaque": "Ser jovem *não impede* ser exemplo.",
-      "busca": "young woman sunrise"
+      "busca": "young woman sunrise",
+      "foto": "https://cdn.pixabay.com/photo/2019/06/25/06/02/woman-4297471_1280.jpg"
     },
     {
       "tipo": "versiculo",
@@ -31,7 +34,8 @@
       "ref": "Eclesiastes 12:1",
       "isca": "O roteiro",
       "destaque": "Lembrar de Deus cedo dá base para *as grandes decisões* da vida.",
-      "busca": "hiker mountain sunrise"
+      "busca": "hiker mountain sunrise",
+      "foto": "https://cdn.pixabay.com/photo/2019/07/16/09/52/fantasy-4341459_1280.jpg"
     },
     {
       "tipo": "lista",
@@ -49,7 +53,8 @@
       "titulo": "Ao refletir, pergunte",
       "texto": "O que o texto diz? O que ele mostra sobre Deus? O que ele diz sobre mim?",
       "isca": "A primeira semana",
-      "busca": "notebook journal pen"
+      "busca": "notebook journal pen",
+      "foto": "https://cdn.pixabay.com/photo/2019/09/20/10/40/write-4491416_1280.jpg"
     },
     {
       "tipo": "lista",
@@ -71,7 +76,8 @@
       "ref": "Provérbios 3:5",
       "isca": "E as distrações?",
       "destaque": "Dia 3: *confiar em Deus* ao decidir.",
-      "busca": "crossroads path"
+      "busca": "crossroads path",
+      "foto": "https://cdn.pixabay.com/photo/2017/04/12/23/27/away-2226159_1280.jpg"
     },
     {
       "tipo": "lista",
@@ -89,7 +95,8 @@
       "titulo": "Salve e comece *amanhã cedo*.",
       "texto": "Envie para um amigo e façam juntos.",
       "rodape": "Texto completo: ateladoreino.com · link na bio",
-      "busca": "friends sunset"
+      "busca": "friends sunset",
+      "foto": "https://cdn.pixabay.com/photo/2013/04/10/20/37/zandvoort-102637_1280.jpg"
     }
   ]
 }

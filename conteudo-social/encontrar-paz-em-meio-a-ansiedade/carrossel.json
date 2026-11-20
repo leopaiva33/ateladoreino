@@ -9,14 +9,16 @@
       "chapeu": "Para dias pesados",
       "apoio": "O que a Bíblia diz e práticas para hoje.",
       "isca": "Deslize",
-      "busca": "calm lake morning"
+      "busca": "calm lake morning",
+      "foto": "https://cdn.pixabay.com/photo/2020/04/07/01/30/lake-5011715_1280.jpg"
     },
     {
       "tipo": "texto",
       "titulo": "Antes de começar",
       "texto": "Conteúdo devocional. Não substitui ajuda profissional, médica ou pastoral. Em sofrimento intenso, ligue 188 (CVV), 24 horas.",
       "isca": "O que Paulo ensina",
-      "busca": "calm water reflection"
+      "busca": "calm water reflection",
+      "foto": "https://cdn.pixabay.com/photo/2024/04/29/12/18/nature-8727795_1280.jpg"
     },
     {
       "tipo": "versiculo",
@@ -24,7 +26,8 @@
       "ref": "Filipenses 4:6",
       "isca": "Uma paz que guarda",
       "destaque": "Paulo convida a levar cada preocupação a Deus, em oração e *com gratidão*.",
-      "busca": "praying hands"
+      "busca": "praying hands",
+      "foto": "https://cdn.pixabay.com/photo/2020/04/13/10/58/hands-5037846_1280.jpg"
     },
     {
       "tipo": "versiculo",
@@ -32,7 +35,8 @@
       "ref": "Filipenses 4:7",
       "isca": "Só por hoje",
       "destaque": "Ela guarda por dentro, *mesmo sem tudo resolvido*.",
-      "busca": "peaceful mountains sunrise"
+      "busca": "peaceful mountains sunrise",
+      "foto": "https://cdn.pixabay.com/photo/2020/07/12/22/02/sunrise-5398814_1280.jpg"
     },
     {
       "tipo": "versiculo",
@@ -40,7 +44,8 @@
       "ref": "Mateus 6:34",
       "isca": "Práticas que ajudam",
       "destaque": "Jesus traz o olhar para *o que é possível hoje*.",
-      "busca": "calm sea sunset"
+      "busca": "calm sea sunset",
+      "foto": "https://cdn.pixabay.com/photo/2022/05/21/06/52/standup-paddleboarding-7210815_1280.jpg"
     },
     {
       "tipo": "lista",
@@ -71,21 +76,24 @@
       "ref": "1 Pedro 5:7",
       "isca": "Quando procurar ajuda",
       "destaque": "Você *não precisa carregar tudo sozinho*.",
-      "busca": "hands holding"
+      "busca": "hands holding",
+      "foto": "https://cdn.pixabay.com/photo/2025/07/17/13/57/care-9719575_1280.jpg"
     },
     {
       "tipo": "texto",
       "titulo": "Quando procurar ajuda",
       "texto": "Preocupação por semanas, sono alterado ou crises de pânico? Procure um médico ou psicólogo. Não é falta de fé.",
       "isca": "Último passo",
-      "busca": "park bench"
+      "busca": "park bench",
+      "foto": "https://cdn.pixabay.com/photo/2020/05/26/17/16/bank-5223920_1280.jpg"
     },
     {
       "tipo": "final",
       "titulo": "Salve para os dias *difíceis*.",
       "texto": "Envie para alguém que está carregando muito.",
       "rodape": "Texto completo: ateladoreino.com · link na bio",
-      "busca": "sunrise"
+      "busca": "sunrise",
+      "foto": "https://cdn.pixabay.com/photo/2021/06/02/09/27/sunset-6303992_1280.jpg"
     }
   ]
 }

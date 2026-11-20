@@ -9,13 +9,15 @@
       "chapeu": "Casamento",
       "apoio": "O que pedir, por onde começar e uma oração pronta.",
       "isca": "Deslize",
-      "busca": "couple holding hands sunset"
+      "busca": "couple holding hands sunset",
+      "foto": "https://cdn.pixabay.com/photo/2017/03/08/10/38/a-couple-of-sunset-2126416_1280.jpg"
     },
     {
       "tipo": "texto",
       "texto": "Orar pelo casamento é entregar a Deus a relação, pedindo amor, perdão e sabedoria, e agir de acordo com o que se pede.",
       "isca": "O cordão de três dobras",
-      "busca": "wedding rings"
+      "busca": "wedding rings",
+      "foto": "https://cdn.pixabay.com/photo/2021/09/13/07/32/wedding-6620523_1280.jpg"
     },
     {
       "tipo": "versiculo",
@@ -23,7 +25,8 @@
       "ref": "Eclesiastes 4:12",
       "isca": "Os dois lados",
       "destaque": "Muitos cristãos veem aí um casamento *com Deus no centro*.",
-      "busca": "rope braided"
+      "busca": "rope braided",
+      "foto": "https://cdn.pixabay.com/photo/2018/04/01/20/28/rope-3282040_1280.jpg"
     },
     {
       "tipo": "versiculo",
@@ -31,7 +34,8 @@
       "ref": "Efésios 5:21",
       "isca": "Por quem orar",
       "destaque": "Serviço e cuidado *dos dois lados*, não dominação.",
-      "busca": "couple walking"
+      "busca": "couple walking",
+      "foto": "https://cdn.pixabay.com/photo/2022/01/29/06/07/couple-6976409_1280.jpg"
     },
     {
       "tipo": "lista",
@@ -60,28 +64,32 @@
       "ref": "Provérbios 15:1",
       "isca": "Uma oração pronta",
       "destaque": "Peça a Deus para *ouvir mais* e reagir menos.",
-      "busca": "couple coffee talking"
+      "busca": "couple coffee talking",
+      "foto": "https://cdn.pixabay.com/photo/2014/12/11/02/57/coffee-563800_1280.jpg"
     },
     {
       "tipo": "oracao",
       "titulo": "Ore agora, com estas palavras",
       "texto": "Senhor, ensina-me a amar com paciência. Cuida do meu cônjuge. Ajuda-nos a conversar com respeito e a perdoar. Amém.",
       "isca": "E em crise?",
-      "busca": "candle prayer dark"
+      "busca": "candle prayer dark",
+      "foto": "https://cdn.pixabay.com/photo/2026/03/12/05/50/05-50-15-605_1280.jpg"
     },
     {
       "tipo": "texto",
       "titulo": "Em crise?",
       "texto": "A oração não substitui conversa e aconselhamento. Em caso de violência, priorize a sua segurança: Ligue 180 ou 190.",
       "isca": "Último passo",
-      "busca": "hands holding"
+      "busca": "hands holding",
+      "foto": "https://cdn.pixabay.com/photo/2021/01/26/14/30/rose-5951728_1280.jpg"
     },
     {
       "tipo": "final",
       "titulo": "Salve e orem *juntos* esta semana.",
       "texto": "Envie para o seu cônjuge.",
       "rodape": "Texto completo: ateladoreino.com · link na bio",
-      "busca": "couple sunset"
+      "busca": "couple sunset",
+      "foto": "https://cdn.pixabay.com/photo/2021/10/13/07/43/couple-6705694_1280.jpg"
     }
   ]
 }

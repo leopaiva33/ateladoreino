@@ -9,13 +9,15 @@
       "chapeu": "Perdão",
       "apoio": "O que é perdoar e o que perdoar não é.",
       "isca": "Deslize",
-      "busca": "open hands light"
+      "busca": "open hands light",
+      "foto": "https://cdn.pixabay.com/photo/2026/07/05/08/47/08-47-27-973_1280.jpg"
     },
     {
       "tipo": "texto",
       "texto": "Perdoar é soltar a dívida que alguém tem com você, assim como Deus perdoou a nossa.",
       "isca": "A base do perdão",
-      "busca": "broken chain"
+      "busca": "broken chain",
+      "foto": "https://cdn.pixabay.com/photo/2023/01/30/20/02/bird-7756521_1280.jpg"
     },
     {
       "tipo": "versiculo",
@@ -23,7 +25,8 @@
       "ref": "Efésios 4:32",
       "isca": "Quantas vezes?",
       "destaque": "O perdão que oferecemos *nasce do perdão* que recebemos.",
-      "busca": "cross sunset"
+      "busca": "cross sunset",
+      "foto": "https://cdn.pixabay.com/photo/2020/01/19/13/40/moon-4777866_1280.jpg"
     },
     {
       "tipo": "versiculo",
@@ -31,7 +34,8 @@
       "ref": "Mateus 18:22",
       "isca": "O exemplo de Jesus",
       "destaque": "O perdão *não é uma conta* com limite.",
-      "busca": "path forest light"
+      "busca": "path forest light",
+      "foto": "https://cdn.pixabay.com/photo/2020/04/06/20/48/hope-5011254_1280.jpg"
     },
     {
       "tipo": "versiculo",
@@ -39,7 +43,8 @@
       "ref": "Lucas 23:34",
       "isca": "O que perdoar não é",
       "destaque": "Jesus perdoou *no momento da dor*.",
-      "busca": "cross silhouette sunset"
+      "busca": "cross silhouette sunset",
+      "foto": "https://cdn.pixabay.com/photo/2017/04/06/17/43/faith-2208916_1280.jpg"
     },
     {
       "tipo": "lista",
@@ -58,7 +63,8 @@
       "titulo": "Violência ou abuso?",
       "texto": "Primeiro, a sua segurança. Perdoar não é voltar a conviver com quem machuca. Mulheres: Ligue 180. Emergência: 190.",
       "isca": "Os passos",
-      "busca": "lighthouse"
+      "busca": "lighthouse",
+      "foto": "https://cdn.pixabay.com/photo/2015/06/24/16/54/lighthouse-820431_1280.jpg"
     },
     {
       "tipo": "lista",
@@ -78,14 +84,16 @@
       "titulo": "Perdoar a si mesmo",
       "texto": "Pedro negou Jesus e foi restaurado depois (João 21:15-17). Quem recebe o perdão de Deus pode seguir adiante.",
       "isca": "Último passo",
-      "busca": "sunrise path"
+      "busca": "sunrise path",
+      "foto": "https://cdn.pixabay.com/photo/2020/06/29/21/12/lighthouse-5354475_1280.jpg"
     },
     {
       "tipo": "final",
       "titulo": "Salve e dê *um passo* hoje.",
       "texto": "Envie para quem precisa ler isso.",
       "rodape": "Texto completo: ateladoreino.com · link na bio",
-      "busca": "sunrise"
+      "busca": "sunrise",
+      "foto": "https://cdn.pixabay.com/photo/2022/08/05/20/24/alps-7367539_1280.jpg"
     }
   ]
 }

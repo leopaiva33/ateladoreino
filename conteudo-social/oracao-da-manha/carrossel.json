@@ -9,13 +9,15 @@
       "chapeu": "5 minutos com Deus",
       "apoio": "Um roteiro de oração para a manhã.",
       "isca": "Deslize",
-      "busca": "sunrise window morning"
+      "busca": "sunrise window morning",
+      "foto": "https://cdn.pixabay.com/photo/2014/05/01/17/15/window-335607_1280.jpg"
     },
     {
       "tipo": "texto",
       "texto": "Antes do celular, das notícias e das pendências: cinco minutos sinceros para entregar o dia a Deus.",
       "isca": "Um costume antigo",
-      "busca": "morning coffee"
+      "busca": "morning coffee",
+      "foto": "https://cdn.pixabay.com/photo/2022/03/28/18/41/spring-7098130_1280.jpg"
     },
     {
       "tipo": "versiculo",
@@ -23,7 +25,8 @@
       "ref": "Salmos 5:3",
       "isca": "Todo dia é novo",
       "destaque": "Orar cedo é *um costume antigo*.",
-      "busca": "sunrise mountains"
+      "busca": "sunrise mountains",
+      "foto": "https://cdn.pixabay.com/photo/2021/07/19/22/07/mountains-6479150_1280.jpg"
     },
     {
       "tipo": "versiculo",
@@ -31,14 +34,16 @@
       "ref": "Lamentações 3:23",
       "isca": "Jesus também fazia",
       "destaque": "As misericórdias de Deus *se renovam* a cada dia.",
-      "busca": "sunrise field"
+      "busca": "sunrise field",
+      "foto": "https://cdn.pixabay.com/photo/2016/09/25/18/09/grass-1694293_1280.jpg"
     },
     {
       "tipo": "texto",
       "titulo": "Jesus também orava cedo",
       "texto": "De madrugada, ele foi a um lugar deserto para orar (Marcos 1:35).",
       "isca": "O roteiro",
-      "busca": "desert sunrise"
+      "busca": "desert sunrise",
+      "foto": "https://cdn.pixabay.com/photo/2020/03/24/20/41/namibia-4965456_1280.jpg"
     },
     {
       "tipo": "lista",
@@ -56,7 +61,8 @@
       "titulo": "Ore agora, com estas palavras",
       "texto": "Senhor, obrigado por este novo dia. Guia os meus passos e dá-me sabedoria nas minhas escolhas. Amém.",
       "isca": "Manhã corrida?",
-      "busca": "morning light bedroom"
+      "busca": "morning light bedroom",
+      "foto": "https://cdn.pixabay.com/photo/2019/11/02/20/50/camera-4597415_1280.jpg"
     },
     {
       "tipo": "lista",
@@ -84,7 +90,8 @@
       "titulo": "Salve e ore *amanhã cedo*.",
       "texto": "Envie para quem começa o dia com você.",
       "rodape": "Texto completo: ateladoreino.com · link na bio",
-      "busca": "sunrise sea"
+      "busca": "sunrise sea",
+      "foto": "https://cdn.pixabay.com/photo/2019/07/01/16/58/tanzania-4310438_1280.jpg"
     }
   ]
 }

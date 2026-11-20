@@ -9,35 +9,40 @@
       "chapeu": "História da igreja",
       "apoio": "Rua Azusa, Los Angeles, 1906.",
       "isca": "Deslize",
-      "busca": "old wooden church"
+      "busca": "old wooden church",
+      "foto": "https://cdn.pixabay.com/photo/2020/07/16/17/10/church-5411606_1280.jpg"
     },
     {
       "tipo": "texto",
       "titulo": "William J. Seymour",
       "texto": "Nascido em 1870 na Louisiana, filho de pais que haviam sido escravizados. Cresceu num país marcado pela segregação.",
       "isca": "Ele assistia de fora",
-      "busca": "cotton field sunset"
+      "busca": "cotton field sunset",
+      "foto": "https://cdn.pixabay.com/photo/2026/08/12/09/55/09-55-47-721_1280.jpg"
     },
     {
       "tipo": "texto",
       "titulo": "Do lado de fora",
       "texto": "Em Houston, em 1905, segundo os relatos, acompanhava as aulas bíblicas do lado de fora da sala. Mesmo assim, perseverou.",
       "isca": "Depois, a rejeição",
-      "busca": "empty classroom window light"
+      "busca": "empty classroom window light",
+      "foto": "https://cdn.pixabay.com/photo/2022/02/06/08/58/classroom-6996598_1280.jpg"
     },
     {
       "tipo": "texto",
       "titulo": "Rejeitado, mas orando",
       "texto": "Em 1906, foi impedido de pregar numa igreja de Los Angeles. Passou a orar numa casa da rua Bonnie Brae.",
       "isca": "O endereço que entrou na história",
-      "busca": "praying hands dark"
+      "busca": "praying hands dark",
+      "foto": "https://cdn.pixabay.com/photo/2021/02/24/04/52/praying-6045627_1280.jpg"
     },
     {
       "tipo": "texto",
       "titulo": "Rua Azusa, 312",
       "texto": "Em abril de 1906, as reuniões foram para um prédio simples de madeira e duraram cerca de três anos.",
       "isca": "O que mais chamou atenção",
-      "busca": "old wooden house"
+      "busca": "old wooden house",
+      "foto": "https://cdn.pixabay.com/photo/2016/11/29/13/08/blue-1869728_1280.jpg"
     },
     {
       "tipo": "versiculo",
@@ -45,14 +50,16 @@
       "ref": "Gálatas 3:28",
       "isca": "E os dons espirituais?",
       "destaque": "Negros, brancos, latinos e imigrantes *juntos*, numa época de segregação.",
-      "busca": "hands together unity"
+      "busca": "hands together unity",
+      "foto": "https://cdn.pixabay.com/photo/2017/08/05/03/38/friendship-2582218_1280.jpg"
     },
     {
       "tipo": "texto",
       "titulo": "Diferentes leituras",
       "texto": "Ali, muitos relataram o falar em línguas. Tradições cristãs entendem esses dons de formas diferentes; o foco aqui é a história.",
       "isca": "5 lições para hoje",
-      "busca": "open bible light"
+      "busca": "open bible light",
+      "foto": "https://cdn.pixabay.com/photo/2017/04/11/17/14/bible-2222267_1280.jpg"
     },
     {
       "tipo": "lista",
@@ -71,14 +78,16 @@
       "titulo": "Ore agora, com estas palavras",
       "texto": "Senhor, dá-me fome da tua presença e coragem para amar quem é diferente. Guarda a tua igreja na unidade. Amém.",
       "isca": "Último passo",
-      "busca": "candle prayer dark"
+      "busca": "candle prayer dark",
+      "foto": "https://cdn.pixabay.com/photo/2017/08/29/09/22/tealight-2692556_1280.jpg"
     },
     {
       "tipo": "final",
       "titulo": "Salve para *reler* com calma.",
       "texto": "Envie para quem gosta de história da igreja.",
       "rodape": "Texto completo: ateladoreino.com · link na bio",
-      "busca": "sunrise sky clouds"
+      "busca": "sunrise sky clouds",
+      "foto": "https://cdn.pixabay.com/photo/2019/07/06/15/29/mountain-4320647_1280.jpg"
     }
   ]
 }

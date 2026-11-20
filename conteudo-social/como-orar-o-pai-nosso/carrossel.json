@@ -9,7 +9,8 @@
       "chapeu": "A oração de Jesus",
       "apoio": "O que cada frase significa e como orar com as suas palavras.",
       "isca": "Deslize",
-      "busca": "praying hands light"
+      "busca": "praying hands light",
+      "foto": "https://cdn.pixabay.com/photo/2025/02/17/19/50/prayer-9413771_1280.jpg"
     },
     {
       "tipo": "versiculo",
@@ -17,49 +18,56 @@
       "ref": "Lucas 11:1",
       "isca": "Começa com uma palavra",
       "destaque": "O Pai Nosso foi a resposta de Jesus: *um modelo de oração*.",
-      "busca": "hands praying window"
+      "busca": "hands praying window",
+      "foto": "https://cdn.pixabay.com/photo/2012/02/22/20/09/girl-15599_1280.jpg"
     },
     {
       "tipo": "texto",
       "titulo": "Pai nosso, que estás nos céus (Mateus 6:9)",
       "texto": "Proximidade e confiança. O “nosso” lembra que oramos junto de outros filhos.",
       "isca": "Depois, o louvor",
-      "busca": "starry sky"
+      "busca": "starry sky",
+      "foto": "https://cdn.pixabay.com/photo/2023/09/17/10/17/milky-way-8258264_1280.jpg"
     },
     {
       "tipo": "texto",
       "titulo": "Santificado seja o teu nome (Mateus 6:9)",
       "texto": "Pedimos que o nome de Deus seja honrado. Reserve um momento de louvor.",
       "isca": "A entrega",
-      "busca": "sunlight rays clouds"
+      "busca": "sunlight rays clouds",
+      "foto": "https://cdn.pixabay.com/photo/2020/07/18/18/40/sunset-5417999_1280.jpg"
     },
     {
       "tipo": "texto",
       "titulo": "Venha o teu Reino (Mateus 6:10)",
       "texto": "“Seja feita a tua vontade”: entregue a Deus planos, decisões e expectativas.",
       "isca": "O pão de cada dia",
-      "busca": "mountain landscape sunrise"
+      "busca": "mountain landscape sunrise",
+      "foto": "https://cdn.pixabay.com/photo/2019/09/28/05/10/sunset-4509879_1280.jpg"
     },
     {
       "tipo": "texto",
       "titulo": "O pão nosso de cada dia (Mateus 6:11)",
       "texto": "Peça o necessário para hoje e confie um dia de cada vez.",
       "isca": "O perdão",
-      "busca": "bread loaf"
+      "busca": "bread loaf",
+      "foto": "https://cdn.pixabay.com/photo/2026/06/24/12/23/12-23-12-662_1280.jpg"
     },
     {
       "tipo": "texto",
       "titulo": "Perdoa-nos as nossas dívidas (Mateus 6:12)",
       "texto": "Pedimos perdão e nos comprometemos a perdoar (Mateus 6:14-15).",
       "isca": "A proteção",
-      "busca": "hands holding"
+      "busca": "hands holding",
+      "foto": "https://cdn.pixabay.com/photo/2025/11/11/16/43/16-43-22-580_1280.jpg"
     },
     {
       "tipo": "texto",
       "titulo": "Livra-nos do mal (Mateus 6:13)",
       "texto": "Pedimos proteção e força nos pontos em que somos mais frágeis.",
       "isca": "Agora, com suas palavras",
-      "busca": "lighthouse storm"
+      "busca": "lighthouse storm",
+      "foto": "https://cdn.pixabay.com/photo/2013/07/27/05/13/lighthouse-168132_1280.jpg"
     },
     {
       "tipo": "lista",
@@ -79,7 +87,8 @@
       "titulo": "Salve e ore o Pai Nosso *devagar* hoje.",
       "texto": "Envie para alguém que quer aprender a orar.",
       "rodape": "Texto completo: ateladoreino.com · link na bio",
-      "busca": "sunrise sky"
+      "busca": "sunrise sky",
+      "foto": "https://cdn.pixabay.com/photo/2023/10/23/08/19/nature-8335584_1280.jpg"
     }
   ]
 }

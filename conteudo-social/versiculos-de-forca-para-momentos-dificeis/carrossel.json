@@ -9,13 +9,15 @@
       "chapeu": "Para dias difíceis",
       "apoio": "Para ler devagar, em oração.",
       "isca": "Deslize",
-      "busca": "storm lighthouse"
+      "busca": "storm lighthouse",
+      "foto": "https://cdn.pixabay.com/photo/2013/07/27/05/13/lighthouse-168132_1280.jpg"
     },
     {
       "tipo": "texto",
       "texto": "Eles não apagam a dor, mas lembram quem Deus é no meio dela. Leia com o contexto, devagar e em oração.",
       "isca": "O 1º versículo",
-      "busca": "rain window"
+      "busca": "rain window",
+      "foto": "https://cdn.pixabay.com/photo/2016/11/21/13/48/car-lights-1845497_1280.jpg"
     },
     {
       "tipo": "versiculo",
@@ -23,7 +25,8 @@
       "ref": "Salmos 46:1",
       "isca": "O 2º",
       "destaque": "O salmo fala de guerras; a confiança *não depende de calma*.",
-      "busca": "fortress castle"
+      "busca": "fortress castle",
+      "foto": "https://cdn.pixabay.com/photo/2019/07/23/11/51/castle-4357443_1280.jpg"
     },
     {
       "tipo": "versiculo",
@@ -31,7 +34,8 @@
       "ref": "Isaías 41:10",
       "isca": "O 3º",
       "destaque": "Dito a um povo no exílio. A razão para não temer é *a presença de Deus*.",
-      "busca": "river valley"
+      "busca": "river valley",
+      "foto": "https://cdn.pixabay.com/photo/2018/03/29/07/35/water-3271579_1280.jpg"
     },
     {
       "tipo": "versiculo",
@@ -39,7 +43,8 @@
       "ref": "Isaías 40:31",
       "isca": "O 4º",
       "destaque": "Esperar é confiança ativa. Descansar também é *um ato de fé*.",
-      "busca": "eagle flying"
+      "busca": "eagle flying",
+      "foto": "https://cdn.pixabay.com/photo/2023/01/11/18/32/white-tailed-eagle-7712480_1280.jpg"
     },
     {
       "tipo": "versiculo",
@@ -47,7 +52,8 @@
       "ref": "2 Coríntios 12:9",
       "isca": "O 5º",
       "destaque": "O problema de Paulo continuou. Deus o sustentou *mesmo assim*.",
-      "busca": "rose thorns"
+      "busca": "rose thorns",
+      "foto": "https://cdn.pixabay.com/photo/2025/01/16/14/22/flower-9337786_1280.jpg"
     },
     {
       "tipo": "versiculo",
@@ -55,7 +61,8 @@
       "ref": "Filipenses 4:13",
       "isca": "O 6º",
       "destaque": "Não é slogan de sucesso: é força para viver *na fartura e na falta* (4:11-12).",
-      "busca": "mountain climber"
+      "busca": "mountain climber",
+      "foto": "https://cdn.pixabay.com/photo/2026/02/01/13/11/sunset-10099311_1280.jpg"
     },
     {
       "tipo": "versiculo",
@@ -63,7 +70,8 @@
       "ref": "Salmos 27:1",
       "isca": "Um plano de 7 dias",
       "destaque": "Davi também pede ajuda (27:9): *confiança e súplica* juntas.",
-      "busca": "light rays forest"
+      "busca": "light rays forest",
+      "foto": "https://cdn.pixabay.com/photo/2020/04/07/18/26/sunbeam-5014436_1280.jpg"
     },
     {
       "tipo": "lista",
@@ -81,7 +89,8 @@
       "titulo": "Salve para quando *precisar*.",
       "texto": "Envie para alguém que está passando por um vale.",
       "rodape": "Texto completo: ateladoreino.com · link na bio",
-      "busca": "sunrise after storm"
+      "busca": "sunrise after storm",
+      "foto": "https://cdn.pixabay.com/photo/2016/08/10/08/16/sunrise-1582670_1280.jpg"
     }
   ]
 }
