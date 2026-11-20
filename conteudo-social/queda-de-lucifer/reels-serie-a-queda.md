@@ -11,6 +11,9 @@ Tradução das citações: ARC. As falas entre aspas com referência são do tex
 - O nome "Lúcifer" e o "anjo mais belo" aparecem como tradição.
 - Apocalipse 12:4 (a terça parte das estrelas) aparece como visão simbólica.
 - Saiu o final "Isso ainda não acabou". A série termina na vitória de Cristo, como o Novo Testamento faz.
+- Lucas 10:18 aparece no contexto: a volta dos setenta da missão.
+- Sem clima de terror: nada de rostos no escuro nem sombras sobre a cidade, e os demônios não gritam (Lucas 8:31 é lido pelo narrador).
+- Formato: vídeo de IA com cerca de 55 s por Reel, escolhido de propósito. O carrossel em Reel (`npm run reel`) é outra peça, em `public/social/queda-de-lucifer/reel.mp4`.
 
 ## Em todos os prompts
 
@@ -18,7 +21,7 @@ Tradução das citações: ARC. As falas entre aspas com referência são do tex
 `vertical 9:16 composition, subject centered, photorealistic, cinematic epic film, volumetric golden light, ultra detailed, 4K, no text, no subtitles`
 
 **Personagens (use sempre o mesmo texto):**
-- `Fallen angel: tall angel, pale skin, long silver-white hair, vast white wings with gold-tipped feathers, gold breastplate set with precious stones, light-gray eyes`
+- `Fallen angel: tall angel, pale skin, long silver-white hair, vast white wings with gold-tipped feathers, plain gold breastplate, light-gray eyes`
 - `Michael: tall powerful archangel, olive skin, short dark hair, stern calm face, silver armor with blue gemstones, vast white wings with silver-tipped feathers, long sword of white fire`
 - `King of Babylon: middle-aged ancient Mesopotamian king, curled black beard, tall jeweled crown, deep blue and gold robes`
 - `King of Tyre: ancient Phoenician king, trimmed gray beard, purple robes covered in gemstones and gold`
@@ -28,9 +31,9 @@ Tradução das citações: ARC. As falas entre aspas com referência são do tex
 ## Reel 1: A queda de Lúcifer (cerca de 55 s)
 
 **Cena 1: gancho**
-Prompt: `Vertical shot looking up: the fallen angel plunges from a bright sky toward the camera like a lightning bolt, his wings trailing fire and ash, gold armor cracking.`
-Narrador (voz grave e calma): *Jesus disse: "Eu via Satanás, como raio, cair do céu."*
-Legenda: **Lucas 10:18**
+Prompt: `Vertical shot at dusk over the green hills of Galilee: a single bright lightning bolt splits the sky, a small group of men in simple robes on the hillside looks up.`
+Narrador (voz grave e calma): *Quando os discípulos voltaram da missão, Jesus disse: "Eu via Satanás, como raio, cair do céu."*
+Legenda: **Lucas 10:18, na volta dos setenta**
 
 **Cena 2: a pergunta**
 Prompt: `Vertical close-up: ancient scrolls unrolling on a wooden table under oil-lamp light, the parchment slowly dissolving into a sky full of clouds. Slow push-in.`
@@ -38,7 +41,7 @@ Narrador: *A Bíblia não conta essa história de uma vez. Ao longo dos séculos
 Legenda: **O que diz o texto? O que diz a tradição?**
 
 **Cena 3: o rei da Babilônia**
-Prompt: `Vertical shot: the King of Babylon on a golden throne raises his fist to the sky; behind him, his torch-lit shadow on the stone wall slowly grows into a winged figure.`
+Prompt: `Vertical shot: the King of Babylon on a golden throne raises his fist to the sky; behind him, his torch-lit shadow on the stone wall subtly flickers, for a moment hinting at wings.`
 Rei (orgulhoso, voz firme): *"Subirei acima das mais altas nuvens e serei semelhante ao Altíssimo."*
 Legenda: **Isaías 14:14, dito ao rei da Babilônia**
 
@@ -62,7 +65,8 @@ Prompt: `Vertical shot: a wooden cross on a hill at sunrise, golden light bursti
 Narrador: *A Bíblia não diz quando ele caiu. Mas diz quem o venceu: na cruz, Cristo triunfou.*
 Legenda: **Colossenses 2:15**
 
-**Texto do post:** *"O nome Lúcifer não aparece na Bíblia em português. Você sabia? Conta nos comentários. 👇 Estudo completo, texto por texto, em ateladoreino.com (link na bio)."*
+**Texto do post:** *"O nome Lúcifer não aparece na ARC: Isaías 14:12 diz 'estrela da manhã'. Você sabia? Conta nos comentários. 👇 Estudo completo, texto por texto, em ateladoreino.com (link na bio)."*
+#Bíblia #EstudoBíblico #Isaías #Apocalipse #ATelaDoReino
 
 ---
 
@@ -79,8 +83,8 @@ Narrador: *Mi-ka-El. Em hebraico, "Quem é como Deus?"*
 Legenda: **Miguel = "Quem é como Deus?"**
 
 **Cena 3: a luta por Daniel**
-Prompt: `Vertical shot above an ancient Persian city at night: Michael clashes swords with a huge dark spiritual prince in black armor, sparks raining down on the rooftops.`
-Narrador: *Miguel, um dos primeiros príncipes, veio ajudar contra o príncipe do reino da Pérsia.*
+Prompt: `Vertical shot above an ancient Persian city at night: Michael's white light pushes back a vast dark shadow over the rooftops, the darkness slowly giving way.`
+Narrador: *Miguel, "um dos primeiros príncipes", veio ajudar o mensageiro contra o príncipe da Pérsia.*
 Legenda: **Daniel 10:13**
 
 **Cena 4: o protetor**
@@ -103,14 +107,15 @@ Prompt: `Vertical shot: Michael kneels and lowers his sword before a towering co
 Narrador: *Um grande príncipe do céu… e até o nome dele aponta para Deus.*
 Legenda: **Próximo vídeo: os anjos caídos**
 
-**Texto do post:** *"Miguel é citado pelo nome só cinco vezes na Bíblia: Daniel 10:13 e 10:21, Daniel 12:1, Judas 9 e Apocalipse 12:7. Qual delas você conhecia? 👇"*
+**Texto do post:** *"Miguel é citado pelo nome só cinco vezes na Bíblia: Daniel 10:13 e 10:21, Daniel 12:1, Judas 9 e Apocalipse 12:7. Qual delas você conhecia? 👇 Estudo completo em ateladoreino.com (link na bio)."*
+#ArcanjoMiguel #Bíblia #Daniel #EstudoBíblico #ATelaDoReino
 
 ---
 
 ## Reel 3: O que aconteceu com os anjos caídos? (cerca de 55 s)
 
 **Cena 1: gancho**
-Prompt: `Vertical shot in deep darkness: fallen angels with torn dark wings bound in heavy chains, faint light on their faces, one slowly lifts his head toward the camera.`
+Prompt: `Vertical shot: a calm starry night sky over quiet hills, an open Bible on a stone in the foreground lit by a warm lamp. Slow push-in.`
 Narrador: *O que a Bíblia diz sobre os anjos que pecaram?*
 Legenda: **Os anjos caídos, segundo a Bíblia**
 
@@ -120,12 +125,12 @@ Narrador: *A cauda do dragão "levou após si a terça parte das estrelas do cé
 Legenda: **Apocalipse 12:4, uma visão simbólica**
 
 **Cena 3: guardados para o juízo**
-Prompt: `Vertical shot descending into a deep dark abyss: fallen angels bound with chains to dark rock walls, thick darkness swallowing the light. Slow downward camera move.`
-Narrador: *Os anjos que pecaram não guardaram o seu principado. Estão reservados para o juízo.*
+Prompt: `Vertical shot: heavy iron chains resting on dark stone, lit by a thin beam of light from above, no figures visible. Locked-off camera.`
+Narrador: *Os anjos que pecaram deixaram o seu lugar. Estão reservados para o juízo.*
 Legenda: **Judas 6 · 2 Pedro 2:4**
 
 **Cena 4: a luta hoje**
-Prompt: `Vertical shot of a modern city at night: dark winged shadows drifting between buildings; at the bottom of the frame, one lit window where a person kneels praying, a soft light rising from it.`
+Prompt: `Vertical shot of a quiet modern city at night: one lit window where a person kneels praying, a soft warm light glowing from it. Slow push-in.`
 Narrador: *O mal ainda age. Mas a nossa luta não é contra carne e sangue.*
 Legenda: **Efésios 6:12**
 
@@ -135,9 +140,9 @@ Narrador: *Os demônios creem que há um só Deus… e estremecem.*
 Legenda: **Tiago 2:19**
 
 **Cena 6: diante de Jesus**
-Prompt: `Vertical shot on a rocky shore of the Sea of Galilee at dusk: Jesus in a simple robe, seen from behind, stands calm; dark shadows twist away from him in fear, a herd of pigs on the hill behind.`
-Demônios (vozes ásperas, várias ao mesmo tempo): *Não nos mandes para o abismo!*
-Legenda: **O pedido dos demônios (Lucas 8:31)**
+Prompt: `Vertical shot on a rocky shore of the Sea of Galilee at dusk: Jesus in a simple robe, seen from behind, stands calm; faint shadows quietly pull back from him, a herd of pigs on the hill behind.`
+Narrador (calmo): *"E rogavam-lhe que os não mandasse para o abismo."*
+Legenda: **Lucas 8:31**
 
 **Cena 7: o final**
 Prompt: `Vertical shot: a wooden cross on a hill at sunrise, golden light bursting from behind it, chains breaking and falling in slow motion, shadows dissolving into ash. Slow push-in.`
@@ -145,6 +150,7 @@ Narrador: *"E, despojando os principados e potestades, os expôs publicamente e 
 Legenda: **Colossenses 2:15 · Ele já venceu.**
 
 **Texto do post:** *"Os anjos caídos existem, mas já foram derrotados na cruz. Salve para lembrar e mande para quem precisa ouvir isso. 🙏 Estudo completo em ateladoreino.com (link na bio)."*
+#AnjosCaídos #Bíblia #Fé #EstudoBíblico #ATelaDoReino
 
 ---
 

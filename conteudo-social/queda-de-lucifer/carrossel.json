@@ -9,7 +9,8 @@
       "chapeu": "Série A Queda",
       "titulo": "O que a Bíblia diz sobre a *queda*",
       "apoio": "E o que a tradição acrescentou à história de Lúcifer.",
-      "isca": "Deslize"
+      "isca": "Deslize",
+      "foto": "https://cdn.pixabay.com/photo/2014/10/09/17/16/sunset-482160_1280.jpg"
     },
     {
       "tipo": "texto",
@@ -23,7 +24,8 @@
       "busca": "ancient ruins sunset",
       "titulo": "Dois reis",
       "texto": "Isaías 14 fala do rei da Babilônia; Ezequiel 28, do rei de Tiro. Muitos veem neles também a queda de *Satanás.*",
-      "isca": "O que o rei disse"
+      "isca": "O que o rei disse",
+      "foto": "https://cdn.pixabay.com/photo/2020/01/21/05/08/ancient-4782059_1280.jpg"
     },
     {
       "tipo": "versiculo",
@@ -31,7 +33,8 @@
       "citacao": "Subirei acima das mais altas nuvens e serei semelhante ao Altíssimo.",
       "ref": "Isaías 14:14",
       "destaque": "O orgulho de querer *o lugar de Deus.*",
-      "isca": "O outro rei"
+      "isca": "O outro rei",
+      "foto": "https://cdn.pixabay.com/photo/2020/10/11/09/27/summit-5645295_1280.jpg"
     },
     {
       "tipo": "versiculo",
@@ -47,7 +50,8 @@
       "citacao": "E houve batalha no céu: Miguel e os seus anjos batalhavam contra o dragão…",
       "ref": "Apocalipse 12:7",
       "destaque": "*Miguel* quer dizer “Quem é como Deus?”",
-      "isca": "E os anjos que caíram?"
+      "isca": "E os anjos que caíram?",
+      "foto": "https://cdn.pixabay.com/photo/2021/06/06/05/42/sun-6314336_1280.jpg"
     },
     {
       "tipo": "lista",
@@ -66,21 +70,24 @@
       "citacao": "E, despojando os principados e potestades, os expôs publicamente e deles triunfou em si mesmo.",
       "ref": "Colossenses 2:15",
       "destaque": "Na cruz, Jesus *já venceu.*",
-      "isca": "Uma oração pronta"
+      "isca": "Uma oração pronta",
+      "foto": "https://cdn.pixabay.com/photo/2019/12/14/18/28/sunrise-4695484_1280.jpg"
     },
     {
       "tipo": "oracao",
       "busca": "sunlight through window morning",
       "titulo": "Ore agora, com estas palavras",
       "texto": "Senhor, guarda o meu coração do orgulho e me ajuda a resistir ao mal. Obrigado pela vitória de Jesus. Amém.",
-      "isca": "Último passo"
+      "isca": "Último passo",
+      "foto": "https://cdn.pixabay.com/photo/2012/09/15/02/22/forest-56930_1280.jpg"
     },
     {
       "tipo": "final",
       "busca": "sunrise over mountains golden",
       "titulo": "Salve e *compartilhe.*",
       "texto": "Envie para alguém que quer entender o tema. O estudo completo traz cada texto, da tradição judaica à cristã.",
-      "rodape": "Estudo completo: ateladoreino.com · link na bio"
+      "rodape": "Estudo completo: ateladoreino.com · link na bio",
+      "foto": "https://cdn.pixabay.com/photo/2019/07/19/03/30/landscape-4347888_1280.jpg"
     }
   ]
 }
