@@ -4,6 +4,7 @@ description: "O que a Bíblia ensina sobre a fé e como fortalecê-la na prátic
 pubDate: 2026-11-14T07:00:00-03:00
 image: "/images/posts/como-ter-fe-segundo-a-biblia.png"
 imageAlt: "Ilustração de um pequeno broto crescendo na terra sob a luz do sol nascente"
+video: "NdJQAWUsy5Y"
 category: "Esperança"
 tags: ["fé", "confiança em Deus", "Bíblia", "vida cristã"]
 ---
