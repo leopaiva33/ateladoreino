@@ -17,6 +17,21 @@ const ano = new Date().getFullYear();
         {SITE.googleAnalytics && <li><a href="/privacidade/" data-abrir-cookies>Preferências de cookies</a></li>}
       </ul>
     </nav>
+    <nav aria-label="Redes sociais" class="redes">
+      <span>Acompanhe:</span>
+      <ul>
+        {
+          SITE.redes.map((r) => (
+            <li>
+              <a href={r.url} rel="noopener me" target="_blank">
+                {r.nome}
+                <span class="sr-only"> (abre em nova aba)</span>
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </nav>
     <p>&copy; {ano} {SITE.name}. Todos os direitos reservados.</p>
     <p>
       Este site utiliza o Google AdSense para exibir anúncios. Saiba mais na

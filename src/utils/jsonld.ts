@@ -32,6 +32,7 @@ const editora = () => ({
   name: SITE.name,
   url: SITE.url,
   logo: { '@type': 'ImageObject', url: absoluta(SITE.logo), width: 512, height: 512 },
+  sameAs: SITE.redes.map((r) => r.url),
 });
 
 /**

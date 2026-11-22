@@ -14,6 +14,13 @@ export const SITE = {
   /** PNG: as redes sociais não exibem SVG. Gerada por `npm run images`. */
   ogImage: '/og-default.png',
 
+  /** Perfis oficiais: aparecem no rodapé e nos dados estruturados (sameAs). */
+  redes: [
+    { nome: 'YouTube', url: 'https://www.youtube.com/@atela_do_reino' },
+    { nome: 'Instagram', url: 'https://www.instagram.com/ateladoreino/' },
+    { nome: 'Facebook', url: 'https://www.facebook.com/114649038318311' },
+  ],
+
   /**
    * Quem escreve e é responsável pelo site (E-E-A-T e LGPD).
    * Preencha com dados REAIS: quando `name` estiver preenchido, a página "Sobre" mostra a seção
