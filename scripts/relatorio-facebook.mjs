@@ -5,7 +5,7 @@
 // Credenciais: IG_USER_ID e IG_ACCESS_TOKEN (as mesmas da publicação). A Página é a que tem
 // o Instagram IG_USER_ID vinculado. Métricas de alcance exigem read_insights.
 // Uso: node scripts/relatorio-facebook.mjs
-import { appendFile, readdir, readFile } from 'node:fs/promises';
+import { appendFile, readdir, readFile, writeFile } from 'node:fs/promises';
 
 const { IG_USER_ID, IG_ACCESS_TOKEN, GITHUB_STEP_SUMMARY } = process.env;
 if (!IG_USER_ID || !IG_ACCESS_TOKEN) {
@@ -132,6 +132,19 @@ else {
   L.push('', '### Reels da Página', '', '| Data (UTC) | Duração | Views | Início da descrição |', '| --- | ---: | ---: | --- |');
   for (const v of videos.data ?? [])
     L.push(`| ${v.created_time.slice(0, 16).replace('T', ' ')} | ${n(Math.round(v.length ?? 0))} s | ${n(v.views)} | ${(v.description ?? '').split('\n')[0].slice(0, 60).replace(/\|/g, '/')} |`);
+}
+if (process.env.RESUMO_JSON) {
+  const semana = Date.now() - 7 * 864e5;
+  const reelsSemana = (videos.data ?? []).filter((v) => Date.parse(v.created_time) >= semana);
+  await writeFile(
+    process.env.RESUMO_JSON,
+    JSON.stringify({
+      seguidores: pagina.followers_count ?? null,
+      curtidas: pagina.fan_count ?? null,
+      reelsSemana: reelsSemana.length,
+      viewsReelsSemana: reelsSemana.reduce((t, v) => t + Number(v.views ?? 0), 0),
+    }),
+  );
 }
 const md = L.join('\n') + '\n';
 console.log(md);

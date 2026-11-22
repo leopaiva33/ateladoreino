@@ -7,7 +7,7 @@
 // GA_PROPERTY_ID (número da propriedade, em Administrador > Detalhes da propriedade).
 //
 // Uso: node scripts/relatorio-analytics.mjs [dias]   (padrão: 7)
-import { appendFile } from 'node:fs/promises';
+import { appendFile, writeFile } from 'node:fs/promises';
 
 const { YOUTUBE_CLIENT_ID, YOUTUBE_CLIENT_SECRET, GA_REFRESH_TOKEN, GA_PROPERTY_ID } = process.env;
 if (!YOUTUBE_CLIENT_ID || !YOUTUBE_CLIENT_SECRET || !GA_REFRESH_TOKEN || !GA_PROPERTY_ID) {
@@ -82,6 +82,31 @@ else {
   );
 }
 saida.push('', '_Conta apenas visitantes que aceitaram os cookies do Google Analytics._');
+
+// Números-chave para o relatório semanal (scripts/relatorio-semanal.mjs).
+if (process.env.RESUMO_JSON) {
+  const origens = tot ? await relatorio({ dimensoes: ['sessionSource'], metricas: ['sessions'], ordem: 'sessions', limite: 100 }) : [];
+  const grupo = (re) => origens.filter(([o]) => re.test(o)).reduce((s, [, v]) => s + Number(v), 0);
+  const [topo] = tot ? await relatorio({ dimensoes: ['pagePath'], metricas: ['screenPageViews'], ordem: 'screenPageViews', limite: 1 }) : [];
+  await writeFile(
+    process.env.RESUMO_JSON,
+    JSON.stringify({
+      dias,
+      usuarios: Number(tot?.[0] ?? 0),
+      novos: Number(tot?.[1] ?? 0),
+      sessoes: Number(tot?.[2] ?? 0),
+      visualizacoes: Number(tot?.[3] ?? 0),
+      origem: {
+        google: grupo(/google/i),
+        instagram: grupo(/instagram|^ig$/i),
+        youtube: grupo(/youtube/i),
+        facebook: grupo(/facebook|^fb$|^m\.facebook|^l\.facebook/i),
+        direto: grupo(/\(direct\)/i),
+      },
+      paginaTopo: topo ? { pagina: topo[0], visualizacoes: Number(topo[1]) } : null,
+    }),
+  );
+}
 
 const texto = saida.join('\n');
 console.log(texto);

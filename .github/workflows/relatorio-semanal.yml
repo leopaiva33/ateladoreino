@@ -1,0 +1,50 @@
+name: Relatório semanal
+
+# Toda segunda-feira: um relatório só com o site (Google Analytics), a busca no Google
+# (Search Console), o YouTube, o Instagram e o Facebook, com um resumo no topo comparando com
+# a semana anterior. Aparece no resumo da execução e fica em relatorios/semanal/AAAA-MM-DD.md.
+# O GitHub costuma atrasar os agendamentos em algumas horas; o relatório sai na segunda de qualquer jeito.
+on:
+  schedule:
+    - cron: '17 9 * * 1' # segunda, 06:17 em Brasília
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/relatorio-semanal.mjs'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: relatorio-semanal
+  cancel-in-progress: false
+
+jobs:
+  relatorio:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Gerar relatório
+        env:
+          YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+          YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+          YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
+          GA_REFRESH_TOKEN: ${{ secrets.GA_REFRESH_TOKEN }}
+          GA_PROPERTY_ID: ${{ vars.GA_PROPERTY_ID }}
+          GSC_SITE: ${{ vars.GSC_SITE }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+        run: node scripts/relatorio-semanal.mjs
+      - name: Guardar no repositório
+        if: github.ref == 'refs/heads/main'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add relatorios/semanal
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "chore: relatório semanal"
+          git pull --rebase
+          git push

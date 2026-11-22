@@ -5,7 +5,7 @@
 //
 // Credenciais: YOUTUBE_CLIENT_ID, YOUTUBE_CLIENT_SECRET e YOUTUBE_REFRESH_TOKEN (os mesmos do envio).
 // Uso: node scripts/relatorio-youtube.mjs
-import { appendFile } from 'node:fs/promises';
+import { appendFile, writeFile } from 'node:fs/promises';
 
 const { YOUTUBE_CLIENT_ID, YOUTUBE_CLIENT_SECRET, YOUTUBE_REFRESH_TOKEN, GITHUB_STEP_SUMMARY } = process.env;
 if (!YOUTUBE_CLIENT_ID || !YOUTUBE_CLIENT_SECRET || !YOUTUBE_REFRESH_TOKEN) {
@@ -103,6 +103,21 @@ for (const v of videos) {
   linhas.push(
     `- **${v.snippet.title}** (${v.id}) · categoria ${v.snippet.categoryId} · legendas: ${v.contentDetails.caption} · tags: ${(v.snippet.tags ?? []).join(', ') || '(nenhuma)'}`,
     `  - Descrição (início): ${v.snippet.description.replace(/\n+/g, ' / ').slice(0, 300)}`,
+  );
+}
+if (process.env.RESUMO_JSON) {
+  const semana = Date.now() - 7 * 864e5;
+  const recentes = videos.filter((v) => Date.parse(v.snippet.publishedAt) >= semana && v.status.privacyStatus === 'public');
+  const melhor = [...videos].filter((v) => v.status.privacyStatus === 'public' && Date.parse(v.snippet.publishedAt) >= Date.now() - 30 * 864e5).sort((a, b) => Number(b.statistics.viewCount ?? 0) - Number(a.statistics.viewCount ?? 0))[0];
+  await writeFile(
+    process.env.RESUMO_JSON,
+    JSON.stringify({
+      inscritos: Number(s.subscriberCount ?? 0),
+      visualizacoes: Number(s.viewCount ?? 0),
+      videos: Number(s.videoCount ?? 0),
+      publicadosSemana: recentes.length,
+      melhorRecente: melhor ? { titulo: melhor.snippet.title, views: Number(melhor.statistics.viewCount ?? 0) } : null,
+    }),
   );
 }
 const md = linhas.join('\n') + '\n';

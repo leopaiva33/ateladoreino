@@ -9,7 +9,7 @@
 // "ateladoreino" na conta.
 //
 // Uso: node scripts/relatorio-search-console.mjs [dias]   (padrão: 28)
-import { appendFile } from 'node:fs/promises';
+import { appendFile, writeFile } from 'node:fs/promises';
 
 const { YOUTUBE_CLIENT_ID, YOUTUBE_CLIENT_SECRET, GA_REFRESH_TOKEN, GSC_SITE } = process.env;
 if (!YOUTUBE_CLIENT_ID || !YOUTUBE_CLIENT_SECRET || !GA_REFRESH_TOKEN) {
@@ -80,6 +80,21 @@ else {
     '',
     '## Dispositivo',
     tabela(['Dispositivo', 'Cliques', 'Impressões'], (await consulta(['device'], 5)).map((r) => [r.keys[0], n(r.clicks), n(r.impressions)])),
+  );
+}
+
+if (process.env.RESUMO_JSON) {
+  const [busca] = tot ? (await consulta(['query'], 25)).sort((a, b) => b.clicks - a.clicks || b.impressions - a.impressions) : [];
+  await writeFile(
+    process.env.RESUMO_JSON,
+    JSON.stringify({
+      dias,
+      cliques: tot?.clicks ?? 0,
+      impressoes: tot?.impressions ?? 0,
+      ctr: tot?.ctr ?? 0,
+      posicao: tot?.position ?? null,
+      buscaTopo: busca ? { busca: busca.keys[0], cliques: busca.clicks, impressoes: busca.impressions } : null,
+    }),
   );
 }
 
