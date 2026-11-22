@@ -1,0 +1,26 @@
+name: Relatório do Instagram
+
+# Números do perfil e de cada post (alcance, salvamentos, compartilhamentos, seguidores ganhos),
+# só leitura. O resultado aparece no resumo da execução.
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/relatorio-instagram.mjs'
+
+permissions:
+  contents: read
+
+jobs:
+  relatorio:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Gerar relatório
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+        run: node scripts/relatorio-instagram.mjs
