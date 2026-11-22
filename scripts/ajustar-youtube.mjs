@@ -24,6 +24,8 @@ const r = await fetch('https://oauth2.googleapis.com/token', {
 const tk = await r.json();
 if (!tk.access_token) throw new Error(`Não consegui renovar o acesso ao YouTube: ${tk.error ?? ''}`);
 
+const pausa = (ms) => new Promise((r) => setTimeout(r, ms));
+
 async function api(metodo, caminho, corpo) {
   const res = await fetch(`https://www.googleapis.com/youtube/v3/${caminho}`, {
     method: metodo,
@@ -73,7 +75,8 @@ do {
 
 for (const p of cfg.playlists ?? []) {
   let lista = existentes.find((e) => e.snippet.title === p.titulo);
-  if (!lista) {
+  const nova = !lista;
+  if (nova) {
     lista = await api('POST', 'playlists?part=snippet,status', {
       snippet: { title: p.titulo, description: p.descricao, defaultLanguage: 'pt-BR' },
       status: { privacyStatus: 'public' },
@@ -83,15 +86,17 @@ for (const p of cfg.playlists ?? []) {
     await api('PUT', 'playlists?part=snippet', { id: lista.id, snippet: { title: p.titulo, description: p.descricao, defaultLanguage: 'pt-BR' } });
     console.log(`Playlist ${p.titulo}: descrição atualizada.`);
   }
+  // Uma playlist recém-criada ainda não aparece na leitura (404): começa vazia.
   const ja = new Set();
   let pg = '';
-  do {
+  if (!nova) do {
     const j = await api('GET', `playlistItems?part=contentDetails&maxResults=50&playlistId=${lista.id}${pg ? `&pageToken=${pg}` : ''}`);
     for (const i of j.items) ja.add(i.contentDetails.videoId);
     pg = j.nextPageToken ?? '';
   } while (pg);
   for (const id of p.videos) {
     if (ja.has(id)) continue;
+    await pausa(1500);
     await api('POST', 'playlistItems?part=snippet', { snippet: { playlistId: lista.id, resourceId: { kind: 'youtube#video', videoId: id } } });
     console.log(`  + ${id} em "${p.titulo}"`);
   }
