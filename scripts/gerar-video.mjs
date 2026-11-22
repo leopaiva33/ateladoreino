@@ -7,6 +7,7 @@
 //   - ElevenLabs (voz clonada): defina ELEVENLABS_API_KEY e ELEVENLABS_VOICE_ID.
 //   - Sem essas variáveis, usa a voz sintética do espeak-ng, se instalada (provisória, só para testar),
 //     ou silêncio com a duração estimada da fala. Para forçar uma delas: VOZ_PROVISORIA=espeak|silencio.
+// Aviso em temas sensíveis: campo "aviso" de uma cena (faixa discreta no rodapé), em vez de uma cena só para ele.
 // Fundo de cada cena: a foto escolhida em imagens.json (Pixabay ou Pexels; ver buscar-imagens.mjs) ou, sem foto,
 // a ilustração de "fundo" (art/cenas/*.svg ou public/images/posts/*.png). SEM_FOTOS=1 ignora as fotos.
 // Música de fundo opcional: assets/musica/fundo.mp3 (abaixa sozinha durante a narração).
@@ -287,6 +288,15 @@ async function cena(c, chave) {
     const alt = blocos.reduce((s, b) => s + b.h, 0) + folgas.reduce((s, f) => s + f, 0);
     if (alt <= H - 260 || k < 0.5) break;
   }
+  // Aviso discreto no rodapé de qualquer cena ("aviso": "..."), no lugar de uma cena só para ele.
+  if (c.aviso) {
+    const b = await mont(c.aviso, { peso: 'Medium', tam: 24, cor: corRef, largura: 1800 });
+    const top = H - b.h - 46;
+    const left = Math.round(W / 2 - b.w / 2);
+    camadas.push({ input: Buffer.from(`<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${b.h + 40}"><rect width="100%" height="100%" fill="${claro ? '#fff6e6' : '#120a06'}" fill-opacity=".55"/></svg>`), top: top - 20, left: 0 });
+    camadas.push({ input: b.input, top, left });
+  }
+
   const alt = blocos.reduce((s, b) => s + b.h, 0) + folgas.reduce((s, f) => s + f, 0);
   let y = Math.round((H - alt) / 2);
   for (let n = 0; n < blocos.length; n++) {
