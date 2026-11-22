@@ -6,7 +6,7 @@
 //
 // Credenciais: IG_USER_ID e IG_ACCESS_TOKEN (as mesmas da publicação).
 // Uso: node scripts/relatorio-instagram.mjs
-import { appendFile } from 'node:fs/promises';
+import { appendFile, writeFile } from 'node:fs/promises';
 
 const { IG_USER_ID, IG_ACCESS_TOKEN, GITHUB_STEP_SUMMARY } = process.env;
 if (!IG_USER_ID || !IG_ACCESS_TOKEN) {
@@ -130,6 +130,27 @@ for (const p of posts) {
 }
 L.push('', '### Legendas completas dos 5 posts mais recentes', '');
 for (const p of posts.slice(0, 5)) L.push(`- ${p.permalink}`, `  ${(p.caption ?? '').replace(/\n+/g, ' / ').slice(0, 900)}`);
+if (process.env.RESUMO_JSON) {
+  const semana = Date.now() - 7 * 864e5;
+  const daSemana = posts.filter((p) => Date.parse(p.timestamp) >= semana);
+  const soma = (k) => daSemana.reduce((t, p) => t + Number(p.ins?.[k] ?? 0), 0);
+  const melhor = [...daSemana].sort((a, b) => Number(b.ins?.reach ?? 0) - Number(a.ins?.reach ?? 0))[0];
+  const valorConta = (nome) => (conta.erro ? null : conta.data.find((m) => m.name === nome)?.total_value?.value ?? null);
+  await writeFile(
+    process.env.RESUMO_JSON,
+    JSON.stringify({
+      seguidores: perfil.followers_count,
+      seguindo: perfil.follows_count,
+      alcance28: valorConta('reach'),
+      toquesLink28: valorConta('profile_links_taps'),
+      postsSemana: daSemana.length,
+      alcanceSemana: soma('reach'),
+      salvamentosSemana: soma('saved'),
+      compartilhamentosSemana: soma('shares'),
+      melhorPost: melhor ? { legenda: (melhor.caption ?? '').split('\n')[0].slice(0, 60), tipo: tipo(melhor), alcance: Number(melhor.ins?.reach ?? 0), link: melhor.permalink } : null,
+    }),
+  );
+}
 const md = L.join('\n') + '\n';
 console.log(md);
 if (GITHUB_STEP_SUMMARY) await appendFile(GITHUB_STEP_SUMMARY, md);
