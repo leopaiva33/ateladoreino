@@ -80,6 +80,16 @@
       "source": "/o-que-e-avivamento-espiritual/",
       "destination": "/blog/o-que-e-avivamento-espiritual/",
       "permanent": true
+    },
+    {
+      "source": "/avivamento-dos-moravianos",
+      "destination": "/blog/avivamento-dos-moravianos/",
+      "permanent": true
+    },
+    {
+      "source": "/avivamento-dos-moravianos/",
+      "destination": "/blog/avivamento-dos-moravianos/",
+      "permanent": true
     }
   ]
 }
