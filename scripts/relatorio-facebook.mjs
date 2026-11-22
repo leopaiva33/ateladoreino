@@ -5,7 +5,7 @@
 // Credenciais: IG_USER_ID e IG_ACCESS_TOKEN (as mesmas da publicação). A Página é a que tem
 // o Instagram IG_USER_ID vinculado. Métricas de alcance exigem read_insights.
 // Uso: node scripts/relatorio-facebook.mjs
-import { appendFile } from 'node:fs/promises';
+import { appendFile, readdir, readFile } from 'node:fs/promises';
 
 const { IG_USER_ID, IG_ACCESS_TOKEN, GITHUB_STEP_SUMMARY } = process.env;
 if (!IG_USER_ID || !IG_ACCESS_TOKEN) {
@@ -60,21 +60,39 @@ for (const m of metricasPagina) {
   }
 }
 
-const posts = [];
-let depois = '';
-do {
-  const j = await get(`${conta.id}/posts`, {
-    fields: 'id,created_time,message,permalink_url,status_type,shares,reactions.summary(total_count),comments.summary(total_count),attachments{media_type,type}',
-    limit: '50',
-    ...(depois ? { after: depois } : {}),
-  }, tk);
-  posts.push(...j.data);
-  depois = j.paging?.next ? j.paging.cursors?.after ?? '' : '';
-} while (depois && posts.length < 150);
+// Lista de posts: pelo feed da Página (exige pages_read_user_content) ou, sem essa permissão,
+// pelos registros de publicação do repositório (facebook.json e facebook-reel.json).
+const CAMPOS = 'id,created_time,message,permalink_url,status_type,shares,reactions.summary(total_count),comments.summary(total_count),attachments{media_type,type}';
+let posts = [];
+let origem = 'feed da Página';
+const feed = await talvez(async () => {
+  let depois = '';
+  do {
+    const j = await get(`${conta.id}/posts`, { fields: CAMPOS, limit: '50', ...(depois ? { after: depois } : {}) }, tk);
+    posts.push(...j.data);
+    depois = j.paging?.next ? j.paging.cursors?.after ?? '' : '';
+  } while (depois && posts.length < 150);
+});
+if (feed?.erro) {
+  origem = `registros do repositório (o feed pede pages_read_user_content: ${feed.erro.slice(0, 60)}…)`;
+  posts = [];
+  for (const slug of await readdir('conteudo-social')) {
+    for (const [arq, tipo] of [['facebook.json', 'carrossel'], ['facebook-reel.json', 'reel']]) {
+      const reg = await readFile(`conteudo-social/${slug}/${arq}`, 'utf8').then(JSON.parse, () => null);
+      if (!reg?.id) continue;
+      const dados = await talvez(() =>
+        get(reg.id, { fields: tipo === 'reel' ? 'id,created_time,description,permalink_url,length,views' : CAMPOS }, tk),
+      );
+      posts.push({ id: reg.id, created_time: reg.publicadoEm, slug, tipo, ...(dados.erro ? { erroLeitura: dados.erro } : dados) });
+    }
+  }
+  posts.sort((a, b) => (a.created_time < b.created_time ? 1 : -1));
+}
 
 let erroPost = '';
 for (const p of posts.slice(0, 40)) {
-  const r = await talvez(() => get(`${p.id}/insights`, { metric: 'post_impressions_unique,post_clicks,post_reactions_by_type_total' }, tk));
+  const metricas = p.tipo === 'reel' ? 'blue_reels_play_count,post_impressions_unique,post_video_avg_time_watched' : 'post_impressions_unique,post_clicks,post_reactions_by_type_total';
+  const r = await talvez(() => get(`${p.id}/${p.tipo === 'reel' ? 'video_insights' : 'insights'}`, p.tipo === 'reel' ? {} : { metric: metricas }, tk));
   if (r.erro) {
     erroPost ||= r.erro;
     continue;
@@ -93,18 +111,20 @@ const L = [
   `- Categoria: ${n(pagina.category)} · site: ${n(pagina.website)}`,
   `- Sobre: ${(pagina.about || pagina.description || '(vazio)').replace(/\n+/g, ' / ')}`,
   `- Permissões do token: ${concedidas.join(', ') || '(não listadas)'}`,
+  `- Posts lidos de: ${origem}`,
   `- Métricas por post: ${erroPost ? `indisponíveis (${erroPost.slice(0, 120)})` : 'ok'}`,
   '',
   '### Página, últimos 28 dias',
   ...resumoPagina,
   '',
-  '| Data (UTC) | Hora | Tipo | Alcance | Cliques | Reações | Coment. | Compart. | Início do texto |',
+  '| Data (UTC) | Hora | Tipo | Alcance | Cliques/Plays | Reações | Coment. | Compart. | Texto ou slug |',
   '| --- | --- | --- | ---: | ---: | ---: | ---: | ---: | --- |',
 ];
 for (const p of posts) {
-  const tipo = p.attachments?.data?.[0]?.media_type ?? p.status_type ?? '';
+  const tipo = p.tipo ?? p.attachments?.data?.[0]?.media_type ?? p.status_type ?? '';
+  const cliques = p.ins?.post_clicks ?? p.ins?.blue_reels_play_count ?? p.views;
   L.push(
-    `| ${p.created_time.slice(0, 10)} | ${p.created_time.slice(11, 16)} | ${tipo} | ${n(p.ins?.post_impressions_unique)} | ${n(p.ins?.post_clicks)} | ${n(p.reactions?.summary?.total_count)} | ${n(p.comments?.summary?.total_count)} | ${n(p.shares?.count ?? 0)} | ${(p.message ?? '').split('\n')[0].slice(0, 60).replace(/\|/g, '/')} |`,
+    `| ${p.created_time.slice(0, 10)} | ${p.created_time.slice(11, 16)} | ${tipo} | ${n(p.ins?.post_impressions_unique)} | ${n(cliques)} | ${n(p.reactions?.summary?.total_count)} | ${n(p.comments?.summary?.total_count)} | ${n(p.shares?.count ?? 0)} | ${p.erroLeitura ? `(sem leitura: ${p.erroLeitura.slice(0, 50)})` : (p.slug ?? (p.message ?? '').split('\n')[0].slice(0, 60)).replace(/\|/g, '/')} |`,
   );
 }
 if (videos.erro) L.push('', `- Reels da Página: indisponível (${videos.erro.slice(0, 120)})`);
