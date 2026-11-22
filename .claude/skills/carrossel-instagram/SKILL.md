@@ -59,6 +59,10 @@ Modelo completo e aprovado: `.claude/skills/carrossel-instagram/exemplo-carrosse
 - `foto` é opcional. Sem foto: capa e final usam a ilustração do artigo (`arte`)
   e os outros slides, fundo vinho. `lista` sempre usa fundo vinho.
 - A letra se ajusta sozinha quando o texto é longo, mas texto curto chama mais.
+- Música do Reel (opcional, no nível de cima do JSON): `"clima": "calma"` ou
+  `"esperanca"` quando o tema não deixar claro, ou `"musica": "<arquivo>.mp3"` para
+  fixar uma faixa. Sem isso, o gerador escolhe e alterna sozinho (veja
+  `assets/musica/LEIA-ME.md`).
 
 ## Fotos
 - Use fotos do **Pexels** (`"foto": "pexels:<id>"`): uso comercial liberado, sem
@@ -86,6 +90,9 @@ Modelo completo e aprovado: `.claude/skills/carrossel-instagram/exemplo-carrosse
 A legenda é usada no carrossel e no Reel, então não escreva "deslize" nem
 "carrossel" nela. Legenda: pergunta para engajamento, convite para compartilhar,
 "Leia o texto completo em ateladoreino.com (link na bio)" e até 6 hashtags.
+Na publicação (`scripts/legenda-instagram.mjs`), o gancho da capa vira a primeira
+linha, a pergunta vai para o fim e o Reel recebe uma versão mais curta; não repita
+o título da capa na legenda.
 
 Em temas sensíveis, inclua um slide ou uma frase na legenda dizendo que o
 conteúdo é devocional e não substitui ajuda profissional, médica ou pastoral.

@@ -7,7 +7,7 @@
 //
 // Com --reel, gera o Reel: os mesmos slides em 1080x1920, dentro da área que a interface do
 // Instagram não cobre, sem numeração nem iscas, em sequência, com transições suaves e a música de
-// fundo do canal (assets/musica/fundo.mp3). Saída: public/social/<slug>/reel.mp4 e reel-capa.jpg.
+// fundo (alterna entre as faixas de assets/musica/; veja scripts/musica-reel.mjs). Saída: public/social/<slug>/reel.mp4 e reel-capa.jpg.
 // Uso: npm run reel -- <slug>
 //
 // Com --pin, gera os pins do Pinterest (1000x1500, formato 2:3): pin-1.jpg com a capa e pin-2.jpg
@@ -33,6 +33,7 @@ import { createRequire } from 'node:module';
 import { createHash } from 'node:crypto';
 import { pathToFileURL } from 'node:url';
 import sharp from 'sharp';
+import { escolherMusica } from './musica-reel.mjs';
 
 const args = process.argv.slice(2);
 const iJson = args.indexOf('--json');
@@ -281,8 +282,11 @@ try {
       atual = saidaV;
     }
     const total = deslocamento + durs[durs.length - 1];
-    const musica = 'assets/musica/fundo.mp3';
-    const temMusica = await existe(musica);
+    // Música: alterna entre as faixas de assets/musica/ (scripts/musica-reel.mjs).
+    const escolhida = await escolherMusica(spec, slug, { registrar: !previa });
+    const musica = escolhida?.arquivo;
+    const temMusica = !!musica;
+    if (escolhida) console.log(`música: ${musica} (${escolhida.motivo})`);
     const argsFf = ['-y', '-loglevel', 'error', ...entradas];
     if (temMusica) {
       argsFf.push('-stream_loop', '-1', '-i', musica);
