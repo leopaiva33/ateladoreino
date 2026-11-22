@@ -2,13 +2,14 @@ name: Instagram Reels agendado
 
 # Publica no Instagram, como Reel, o vídeo vertical do carrossel de cada artigo
 # (public/social/<slug>/reel.mp4, gerado com npm run reel -- <slug>) no dia em que o artigo
-# entra no blog. O Reel sai às 12:19 (Brasília), depois da publicação do blog (07:43, com
-# reforço às 11:53); o carrossel sai às 18:37. A execução das 21:13 é reforço.
+# entra no blog. O Reel sai entre 11:00 e 15:00 (Brasília), depois da publicação do blog
+# (07:43); o carrossel sai entre 17:30 e 21:30. O GitHub atrasa os agendamentos em até
+# algumas horas, então o workflow roda a cada 2 horas e o script só publica dentro da
+# janela (variável JANELA).
 # Depois de publicar, grava conteudo-social/<slug>/reel.json, o que impede repetir o Reel.
 on:
   schedule:
-    - cron: '19 15 * * *' # 12:19 em Brasília
-    - cron: '13 0 * * *' # 21:13 em Brasília (reforço)
+    - cron: '19 8-18/2 * * *' # 05:19 a 15:19 em Brasília, a cada 2 h (publica só entre 11:00 e 15:00)
   workflow_dispatch:
 
 permissions:
@@ -29,6 +30,8 @@ jobs:
 
       - name: Qual Reel publicar?
         id: fila
+        env:
+          JANELA: '11:00-15:00'
         run: node scripts/instagram-agendado.mjs --reel
 
       - name: Publicar no Instagram
@@ -58,7 +61,7 @@ jobs:
         continue-on-error: true
         run: |
           git pull -q --rebase || true
-          node scripts/instagram-agendado.mjs --facebook --reel
+          JANELA='11:00-15:00' node scripts/instagram-agendado.mjs --facebook --reel
 
       - name: Publicar no Facebook
         if: always() && steps.fila_fb.outputs.slug != ''
