@@ -8,9 +8,6 @@ on:
   schedule:
     - cron: '17 9 * * 1' # segunda, 06:17 em Brasília
   workflow_dispatch:
-  push:
-    paths:
-      - 'scripts/relatorio-semanal.mjs'
 
 permissions:
   contents: write
@@ -38,8 +35,10 @@ jobs:
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
         run: node scripts/relatorio-semanal.mjs
+      # Só a execução de segunda fica no histórico (é com ela que a semana seguinte se compara);
+      # as execuções à mão aparecem só no resumo da execução.
       - name: Guardar no repositório
-        if: github.ref == 'refs/heads/main'
+        if: github.event_name == 'schedule' && github.ref == 'refs/heads/main'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

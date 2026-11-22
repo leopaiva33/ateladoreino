@@ -74,6 +74,7 @@ const linhasResumo = [
   ['Site: visitas vindas do Instagram (7 dias)', 'site.origem.instagram'],
   ['Site: visitas vindas do YouTube (7 dias)', 'site.origem.youtube'],
   ['Site: visitas vindas do Facebook (7 dias)', 'site.origem.facebook'],
+  ['Site: visitas vindas da newsletter (7 dias)', 'site.origem.newsletter'],
   ['Google: impressões (28 dias)', 'google.impressoes'],
   ['Google: cliques (28 dias)', 'google.cliques'],
   ['Google: posição média', 'google.posicao', true, 1],

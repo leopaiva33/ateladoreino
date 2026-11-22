@@ -101,6 +101,7 @@ if (process.env.RESUMO_JSON) {
         instagram: grupo(/instagram|^ig$/i),
         youtube: grupo(/youtube/i),
         facebook: grupo(/facebook|^fb$|^m\.facebook|^l\.facebook/i),
+        newsletter: grupo(/newsletter|brevo|sendibt|e-?mail/i),
         direto: grupo(/\(direct\)/i),
       },
       paginaTopo: topo ? { pagina: topo[0], visualizacoes: Number(topo[1]) } : null,
