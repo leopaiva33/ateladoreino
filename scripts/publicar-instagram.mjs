@@ -8,6 +8,10 @@
 //   npm run instagram -- <slug> --publicar   publica de verdade
 //   acrescente --reel para publicar o Reel (public/social/<slug>/reel.mp4, gerado com
 //   npm run reel -- <slug>) em vez do carrossel; o registro fica em reel.json.
+//   acrescente --story para publicar a capa nos Stories (reel-capa.jpg, 1080x1920, ou o
+//   slide 1); o registro fica em story.json.
+// A legenda vem de scripts/legenda-instagram.mjs: gancho da capa na primeira linha e,
+// no Reel, uma versão mais curta.
 //
 // Variáveis de ambiente (nunca coloque no código nem no Git):
 //   IG_USER_ID       ID da conta Instagram profissional (Business/Creator)
@@ -17,10 +21,12 @@
 import { existsSync } from 'node:fs';
 import { readFile, writeFile } from 'node:fs/promises';
 import { join } from 'node:path';
+import { legendaInstagram } from './legenda-instagram.mjs';
 
 const slug = process.argv.slice(2).find((a) => !a.startsWith('--'));
 const publicar = process.argv.includes('--publicar');
 const reel = process.argv.includes('--reel');
+const story = !reel && process.argv.includes('--story');
 if (!slug) {
   console.error('Uso: npm run instagram -- <slug> [--publicar]');
   process.exit(1);
@@ -31,7 +37,7 @@ const VERSAO = process.env.GRAPH_VERSION || 'v21.0';
 const BASE = `https://graph.facebook.com/${VERSAO}`;
 const { IG_USER_ID, IG_ACCESS_TOKEN } = process.env;
 
-const REGISTRO = join('conteudo-social', slug, reel ? 'reel.json' : 'instagram.json');
+const REGISTRO = join('conteudo-social', slug, reel ? 'reel.json' : story ? 'story.json' : 'instagram.json');
 if (publicar && !process.argv.includes('--de-novo')) {
   const anterior = await readFile(REGISTRO, 'utf8').then(JSON.parse, () => null);
   if (anterior) {
@@ -45,15 +51,20 @@ const spec = JSON.parse(await readFile(join('conteudo-social', slug, 'carrossel.
 const extSlides = existsSync(join('public', 'social', slug, 'slide-01.jpg')) ? 'jpg' : 'png';
 const total = spec.slides.length;
 if (total < 2 || total > 10) throw new Error(`O carrossel precisa de 2 a 10 slides (tem ${total}).`);
-if (spec.legenda.length > 2200) throw new Error(`Legenda com ${spec.legenda.length} caracteres (máximo 2.200).`);
-const hashtags = (spec.legenda.match(/#\S+/g) || []).length;
+const legenda = legendaInstagram(spec, { reel });
+if (legenda.length > 2200) throw new Error(`Legenda com ${legenda.length} caracteres (máximo 2.200).`);
+const hashtags = (legenda.match(/#\S+/g) || []).length;
 if (hashtags > 30) throw new Error('Mais de 30 hashtags (limite do Instagram).');
 
-const urls = reel
+const capaStory = existsSync(join('public', 'social', slug, 'reel-capa.jpg')) ? 'reel-capa.jpg' : `slide-01.${extSlides}`;
+const urls = story
+  ? [`${SITE_URL}/social/${slug}/${capaStory}`]
+  : reel
   ? [`${SITE_URL}/social/${slug}/reel.mp4`, `${SITE_URL}/social/${slug}/reel-capa.jpg`]
   : spec.slides.map((_, i) => `${SITE_URL}/social/${slug}/slide-${String(i + 1).padStart(2, '0')}.${extSlides}`);
 
-console.log(reel ? `Reel: ${slug} (legenda com ${spec.legenda.length} caracteres)` : `Carrossel: ${slug} (${total} slides, legenda com ${spec.legenda.length} caracteres)`);
+console.log(story ? `Story: ${slug} (${capaStory})` : reel ? `Reel: ${slug} (legenda com ${legenda.length} caracteres)` : `Carrossel: ${slug} (${total} slides, legenda com ${legenda.length} caracteres)`);
+if (!story) console.log(`\n--- legenda ---\n${legenda}\n---------------\n`);
 let faltando = 0;
 for (const u of urls) {
   const r = await fetch(u, { method: 'HEAD', redirect: 'follow' }).catch(() => null);
@@ -121,13 +132,24 @@ async function esperar(id, rotulo, tentativas = 30) {
   throw new Error(`${rotulo} não ficou pronto a tempo.`);
 }
 
+if (story) {
+  // Stories: só a imagem (a API não põe texto nem figurinha de link).
+  const { id: criacao } = await api(`${IG_USER_ID}/media`, { media_type: 'STORIES', image_url: urls[0] });
+  await esperar(criacao, 'Story');
+  const { id: publicado } = await api(`${IG_USER_ID}/media_publish`, { creation_id: criacao });
+  console.log(`\nStory publicado no Instagram. ID: ${publicado}`);
+  await writeFile(REGISTRO, JSON.stringify({ id: publicado, publicadoEm: new Date().toISOString() }, null, 2) + '\n');
+  console.log(`Registro salvo em ${REGISTRO}`);
+  process.exit(0);
+}
+
 if (reel) {
   // Vídeo: a Meta baixa e processa o arquivo, o que pode levar alguns minutos.
   const { id: criacao } = await api(`${IG_USER_ID}/media`, {
     media_type: 'REELS',
     video_url: urls[0],
     cover_url: urls[1],
-    caption: spec.legenda,
+    caption: legenda,
     share_to_feed: 'true',
   });
   await esperar(criacao, 'Reel', 75);
@@ -148,7 +170,7 @@ for (let i = 0; i < urls.length; i++) {
 const { id: carrossel } = await api(`${IG_USER_ID}/media`, {
   media_type: 'CAROUSEL',
   children: filhos.join(','),
-  caption: spec.legenda,
+  caption: legenda,
 });
 await esperar(carrossel, 'Carrossel');
 const { id: publicado } = await api(`${IG_USER_ID}/media_publish`, { creation_id: carrossel });

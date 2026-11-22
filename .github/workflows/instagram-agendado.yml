@@ -1,15 +1,15 @@
 name: Instagram agendado
 
 # Publica no Instagram o carrossel de cada artigo no dia em que ele entra no blog.
-# O blog sai às 07:43 (publicacao-agendada.yml); o carrossel sai às 18:37 (Brasília),
-# com o artigo já no ar para o link da bio. Uma publicação por execução; a execução
-# das 20:47 é reforço (cobre falha ou um segundo artigo no mesmo dia).
+# O blog sai às 07:43 (publicacao-agendada.yml); o carrossel sai entre 17:30 e 21:30 (Brasília),
+# com o artigo já no ar para o link da bio. O GitHub atrasa os agendamentos em até algumas
+# horas, então o workflow roda a cada 2 horas e o script só publica dentro dessa janela
+# (variável JANELA). Uma publicação por execução. Depois do carrossel, a capa vai para os Stories.
 # Depois de publicar, grava conteudo-social/<slug>/instagram.json no repositório, o que
 # impede publicar o mesmo carrossel duas vezes.
 on:
   schedule:
-    - cron: '37 21 * * *' # 18:37 em Brasília (minuto quebrado: o GitHub atrasa menos)
-    - cron: '47 23 * * *' # 20:47 em Brasília (reforço)
+    - cron: '37 12-23/2 * * *' # 09:37 a 19:37 em Brasília, a cada 2 h (publica só entre 17:30 e 21:30)
   workflow_dispatch:
 
 permissions:
@@ -30,6 +30,8 @@ jobs:
 
       - name: Qual carrossel publicar?
         id: fila
+        env:
+          JANELA: '17:30-21:30'
         run: node scripts/instagram-agendado.mjs
 
       - name: Publicar no Instagram
@@ -52,6 +54,21 @@ jobs:
           git pull --rebase
           git push
 
+      # Stories: a capa do carrossel (falha aqui não afeta o carrossel).
+      - name: Capa nos Stories
+        if: steps.fila.outputs.slug != ''
+        continue-on-error: true
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          SLUG: ${{ steps.fila.outputs.slug }}
+        run: |
+          node scripts/publicar-instagram.mjs "$SLUG" --story --publicar
+          git add "conteudo-social/$SLUG/story.json"
+          git commit -m "chore: capa de $SLUG nos Stories do Instagram"
+          git pull --rebase
+          git push
+
       # Facebook: a mesma publicação na Página (falha aqui não afeta o Instagram).
       - name: Qual carrossel publicar no Facebook?
         id: fila_fb
@@ -59,7 +76,7 @@ jobs:
         continue-on-error: true
         run: |
           git pull -q --rebase || true
-          node scripts/instagram-agendado.mjs --facebook
+          JANELA='17:30-21:30' node scripts/instagram-agendado.mjs --facebook
 
       - name: Publicar no Facebook
         if: always() && steps.fila_fb.outputs.slug != ''

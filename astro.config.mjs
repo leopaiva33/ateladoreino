@@ -25,7 +25,7 @@ function datasDoConteudo() {
 }
 const DATAS = datasDoConteudo();
 /** Páginas que não devem ir para o Google (também têm noindex). */
-const FORA_DO_SITEMAP = ['/newsletter/confirmada/'];
+const FORA_DO_SITEMAP = ['/newsletter/confirmada/', '/links/'];
 
 // https://astro.build/config
 export default defineConfig({

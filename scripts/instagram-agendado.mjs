@@ -103,6 +103,20 @@ for (const { slug } of vencidos) {
   if (!escolhido) escolhido = slug;
 }
 
+// Janela de horário (Brasília) para as execuções agendadas: o GitHub costuma atrasar os
+// agendamentos em horas, então os workflows rodam várias vezes ao dia e só publicam dentro
+// da janela (JANELA="17:30-21:30"). Execuções manuais ignoram a janela. Fora dela, o post
+// continua na fila e sai na próxima execução dentro da janela.
+if (escolhido && process.env.JANELA && process.env.GITHUB_EVENT_NAME === 'schedule') {
+  const [ini, fim] = process.env.JANELA.split('-').map((h) => h.split(':').reduce((a, b) => a * 60 + Number(b), 0));
+  const p = Object.fromEntries(new Intl.DateTimeFormat('en-GB', { timeZone: 'America/Sao_Paulo', hour: '2-digit', minute: '2-digit', hourCycle: 'h23' }).formatToParts(new Date(agora)).map((x) => [x.type, x.value]));
+  const minutos = Number(p.hour) * 60 + Number(p.minute);
+  if (minutos < ini || minutos > fim) {
+    console.log(`Agora são ${p.hour}:${p.minute} em Brasília, fora da janela ${process.env.JANELA}: "${escolhido}" fica para a próxima execução.`);
+    escolhido = '';
+  }
+}
+
 const tipo = pinterest ? `pin ${pin2 ? 2 : 1}` : threads ? 'post' : short ? 'Short' : reel ? 'Reel' : 'carrossel';
 const rede = pinterest ? 'Pinterest' : threads ? 'Threads' : facebook ? 'Facebook' : short ? 'YouTube' : 'Instagram';
 console.log(escolhido ? `Publicar ${tipo} no ${rede}: ${escolhido}` : `Nenhum ${tipo} a publicar no ${rede} agora.`);
