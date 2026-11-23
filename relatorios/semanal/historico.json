@@ -1,0 +1,70 @@
+[
+  {
+    "data": "2026-11-23",
+    "dados": {
+      "site": {
+        "dias": 7,
+        "usuarios": 5,
+        "novos": 3,
+        "sessoes": 18,
+        "visualizacoes": 52,
+        "origem": {
+          "google": 0,
+          "instagram": 0,
+          "youtube": 0,
+          "facebook": 0,
+          "newsletter": 8,
+          "direto": 10
+        },
+        "paginaTopo": {
+          "pagina": "/",
+          "visualizacoes": 28
+        }
+      },
+      "google": {
+        "dias": 28,
+        "cliques": 16,
+        "impressoes": 1297,
+        "ctr": 0.01233616037008481,
+        "posicao": 22.77563608326908,
+        "buscaTopo": {
+          "busca": "como manter a fé em tempos difíceis",
+          "cliques": 1,
+          "impressoes": 4
+        }
+      },
+      "youtube": {
+        "inscritos": 13,
+        "visualizacoes": 1854,
+        "videos": 16,
+        "publicadosSemana": 10,
+        "melhorRecente": {
+          "titulo": "Como orar: 5 passos simples para começar",
+          "views": 68
+        }
+      },
+      "instagram": {
+        "seguidores": 359,
+        "seguindo": 1746,
+        "alcance28": 74,
+        "toquesLink28": 0,
+        "postsSemana": 12,
+        "alcanceSemana": 42,
+        "salvamentosSemana": 0,
+        "compartilhamentosSemana": 0,
+        "melhorPost": {
+          "legenda": "Por qual livro você vai começar? Conte nos comentários.",
+          "tipo": "Reel",
+          "alcance": 8,
+          "link": "https://www.instagram.com/reel/Df-tQbTCT33/"
+        }
+      },
+      "facebook": {
+        "seguidores": 2,
+        "curtidas": 2,
+        "reelsSemana": 6,
+        "viewsReelsSemana": 4
+      }
+    }
+  }
+]
