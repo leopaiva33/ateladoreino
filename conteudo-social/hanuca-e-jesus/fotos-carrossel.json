@@ -231,6 +231,83 @@
     ]
   },
   "4": {
+    "busca": "ancient stone wall winter",
+    "candidatas": [
+      {
+        "id": "pixabay-2097077",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/china-beijing-great-wall-city-wall-2097077/",
+        "fotografo": "gmshtwjl",
+        "tags": "china, beijing, great wall, city wall, the scenery, wall, building, mountain, mountain range, nature, winter, blue sky",
+        "src": "https://cdn.pixabay.com/photo/2017/02/25/07/47/china-2097077_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2017/02/25/07/47/china-2097077_640.jpg"
+      },
+      {
+        "id": "pixabay-4000024",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/great-wall-china-wall-landmark-4000024/",
+        "fotografo": "Squirrel_photos",
+        "tags": "great wall, china, wall, landmark, building, architecture, nature, ancient, famous, mountains, historically, border, mountain",
+        "src": "https://cdn.pixabay.com/photo/2019/02/16/10/13/great-wall-4000024_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2019/02/16/10/13/great-wall-4000024_640.jpg"
+      },
+      {
+        "id": "pixabay-4000027",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/great-wall-china-wall-landmark-4000027/",
+        "fotografo": "Squirrel_photos",
+        "tags": "great wall, china, wall, nature, landmark, building, architecture, ancient, famous, mountains, historically, border, mountain",
+        "src": "https://cdn.pixabay.com/photo/2019/02/16/10/15/great-wall-4000027_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2019/02/16/10/15/great-wall-4000027_640.jpg"
+      },
+      {
+        "id": "pixabay-647608",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/landscape-ruin-mosaic-floor-arches-647608/",
+        "fotografo": "kabaldesch0",
+        "tags": "landscape, ruin, mosaic, floor, arches, sunrise, sunset, peach, nature, blue, owl",
+        "src": "https://cdn.pixabay.com/photo/2015/02/24/17/04/landscape-647608_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2015/02/24/17/04/landscape-647608_640.jpg"
+      },
+      {
+        "id": "pixabay-4000029",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/great-wall-china-wall-landmark-4000029/",
+        "fotografo": "Squirrel_photos",
+        "tags": "great wall, china, wall, landmark, building, architecture, ancient, famous, mountains, historically, border, mountain, nature, blue wall, blue border",
+        "src": "https://cdn.pixabay.com/photo/2019/02/16/10/17/great-wall-4000029_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2019/02/16/10/17/great-wall-4000029_640.jpg"
+      },
+      {
+        "id": "pixabay-2097076",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/china-beijing-great-wall-city-wall-2097076/",
+        "fotografo": "gmshtwjl",
+        "tags": "china, beijing, great wall, city wall, the scenery, nature, wall, building, mountain, mountain range, winter, blue sky",
+        "src": "https://cdn.pixabay.com/photo/2017/02/25/07/47/china-2097076_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2017/02/25/07/47/china-2097076_640.jpg"
+      },
+      {
+        "id": "pixabay-3317316",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/historical-landmark-mystic-3317316/",
+        "fotografo": "Simy27",
+        "tags": "historical landmark, mystic, architecture",
+        "src": "https://cdn.pixabay.com/photo/2018/04/13/19/17/historical-landmark-3317316_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2018/04/13/19/17/historical-landmark-3317316_640.jpg"
+      },
+      {
+        "id": "pixabay-119572",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/landscape-castle-tower-architecture-119572/",
+        "fotografo": "makunin",
+        "tags": "landscape, castle, tower, architecture, foix, france, nature, keep, tree, stone",
+        "src": "https://cdn.pixabay.com/photo/2013/06/07/11/00/landscape-119572_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2013/06/07/11/00/landscape-119572_640.jpg"
+      }
+    ]
+  },
+  "5": {
     "busca": "stone colonnade arches",
     "candidatas": [
       {
@@ -307,7 +384,7 @@
       }
     ]
   },
-  "5": {
+  "6": {
     "busca": "open bible candle light",
     "candidatas": [
       {
@@ -462,6 +539,83 @@
     ]
   },
   "9": {
+    "busca": "candle window night",
+    "candidatas": [
+      {
+        "id": "pixabay-8154062",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/ai-generated-arm-chair-light-candle-8154062/",
+        "fotografo": "Chef_Paulo_Gomes",
+        "tags": "ai generated, arm chair, light, nature, candle, rainbow, window, house, home, furniture, interior",
+        "src": "https://cdn.pixabay.com/photo/2023/07/27/21/10/ai-generated-8154062_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2023/07/27/21/10/ai-generated-8154062_640.jpg"
+      },
+      {
+        "id": "pixabay-852843",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/bar-industrial-design-slats-852843/",
+        "fotografo": "domsen",
+        "tags": "bar, industrial design, slats, flashlight, high tables, barstool, leather, sloping pillars, bar, bar, bar, bar, bar, barstool, barstool",
+        "src": "https://cdn.pixabay.com/photo/2015/07/20/14/00/bar-852843_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2015/07/20/14/00/bar-852843_640.jpg"
+      },
+      {
+        "id": "pixabay-1324420",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/lantern-lighting-light-lamp-night-1324420/",
+        "fotografo": "Regenwolke0",
+        "tags": "lantern, lighting, light, lamp, night, lantern, lantern, lantern, lantern, lantern",
+        "src": "https://cdn.pixabay.com/photo/2016/04/12/13/53/lantern-1324420_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2016/04/12/13/53/lantern-1324420_640.jpg"
+      },
+      {
+        "id": "pixabay-10505991",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/cozy-living-room-rustic-interior-10505991/",
+        "fotografo": "ahmetyuksek",
+        "tags": "cozy living room, rustic interior, wooden walls, soft natural light, candles on table, sofa, pillows, small windows, homey atmosphere, warm tones, beautiful wallpaper, evening mood, corner composition, iphone wallpaper, phone wallpaper, background, background images, image of evening, home comfort, small spaces, atmosphere of calm, comfort",
+        "src": "https://cdn.pixabay.com/photo/2026/10/04/03/06/03-06-06-788_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2026/10/04/03/06/03-06-06-788_640.jpg"
+      },
+      {
+        "id": "pixabay-6942931",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/candle-book-read-study-fiction-6942931/",
+        "fotografo": "Arturo_Anez",
+        "tags": "candle, book, read, study, fiction, story, pages, candle, candle, candle, candle, book, study, study, study, study, study, story",
+        "src": "https://cdn.pixabay.com/photo/2022/01/16/19/01/candle-6942931_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2022/01/16/19/01/candle-6942931_640.jpg"
+      },
+      {
+        "id": "pixabay-7581472",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/candle-pine-christmas-tree-holidays-7581472/",
+        "fotografo": "Edyttka1388",
+        "tags": "candle, pine, christmas tree, holidays, decoration, the background, pictures, image, burn, fire, heat, light, symbol, cozy, wax, night, black, hot, religion, meditation, ornament, candle, christmas tree, christmas tree, cozy, meditation, meditation, meditation, meditation, meditation",
+        "src": "https://cdn.pixabay.com/photo/2022/11/09/21/12/candle-7581472_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2022/11/09/21/12/candle-7581472_640.jpg"
+      },
+      {
+        "id": "pixabay-4252410",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/airplane-airplane-window-milky-way-4252410/",
+        "fotografo": "12659751",
+        "tags": "airplane, airplane window, nature, milky way, sky, night sky, starry sky, Aargau, Switzerland, Beinwil (Freiamt)",
+        "src": "https://cdn.pixabay.com/photo/2019/06/04/21/53/airplane-4252410_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2019/06/04/21/53/airplane-4252410_640.jpg"
+      },
+      {
+        "id": "pixabay-10321791",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/candles-fire-lighting-atmosphere-10321791/",
+        "fotografo": "Couleur",
+        "tags": "candles, fire, lighting, atmosphere, cozy, candle holder, warmth, darkness, interior, glass, meditation, quiet, peace, relaxation, prayer, calm, evening, spirituality, silence, harmony",
+        "src": "https://cdn.pixabay.com/photo/2026/06/09/07/41/07-41-28-589_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2026/06/09/07/41/07-41-28-589_640.jpg"
+      }
+    ]
+  },
+  "10": {
     "busca": "warm lamp light night",
     "candidatas": [
       {
