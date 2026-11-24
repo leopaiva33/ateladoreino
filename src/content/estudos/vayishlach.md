@@ -126,8 +126,9 @@ coisas: ora, prepara presentes e se protege.
 
 - Quatrocentos homens era uma tropa considerável para um chefe de clã. O
   número se repete na Bíblia para grupos armados (1 Samuel 22:2; 30:10).
-- O Jaboque é um afluente do Jordão, a leste do rio, que desce por um vale
-  profundo entre montanhas. Atravessá-lo de noite, com crianças e rebanhos, era
+- O Jaboque é o atual rio Zarqa, na Jordânia, o segundo maior afluente do
+  Jordão. Ele corre a leste do Jordão, por um vale profundo, de margens
+  íngremes. Atravessá-lo de noite, com crianças e rebanhos, era
   arriscado.
 - Mandar presentes adiante para obter o favor de um poderoso era prática comum
   da diplomacia antiga, como se vê também com Abigail diante de Davi
@@ -235,8 +236,11 @@ nome novo — e, ao encontrar Esaú, recebe um abraço em vez de uma espada.
 - **O nervo ciático.** A proibição de 32:32 vale até hoje na alimentação
   judaica. A Mishná (*Chullin* 7:1) diz que ela se aplica dentro e fora da terra
   de Israel, com ou sem Templo, aos animais domésticos e selvagens, mas não às
-  aves. Por isso a carne *kasher* passa por um preparo que retira esse nervo. Cada
-  refeição lembra a noite em que Jacó saiu mancando.
+  aves. Por isso a carne *kasher* passa por um preparo chamado *nikur*, que
+  retira o nervo e certas gorduras proibidas da parte traseira do animal. O
+  trabalho é tão minucioso que, em muitas comunidades fora de Israel, a parte
+  traseira nem é vendida como *kasher*. Cada refeição lembra a noite em que
+  Jacó saiu mancando.
 - **O beijo com pontos.** No rolo da Torá, a palavra *vayishakehu* ("e
   beijou-o", 33:4) tem pontos sobre as letras. O Midrash (*Bereshit Rabá* 78:9)
   e Rashi registram o debate: para uns, Esaú não beijou de todo o coração;
@@ -245,12 +249,16 @@ nome novo — e, ao encontrar Esaú, recebe um abraço em vez de uma espada.
 
 ### No contexto histórico
 
-- Siquém (hoje Nablus) era uma cidade cananeia importante, entre os montes
-  Ebal e Gerizim. O campo que Jacó compra (33:19) será o lugar do sepultamento
+- Siquém era uma das principais cidades cananeias, no vale entre os montes
+  Ebal e Gerizim. O sítio arqueológico identificado com ela é Tell Balata, a
+  cerca de dois quilômetros da atual Nablus (que é outra cidade, fundada pelos
+  romanos depois do ano 70). O campo que Jacó compra (33:19) será o lugar do sepultamento
   de José (Josué 24:32), e João 4:5 o lembra como "a herdade que Jacó tinha dado
   a seu filho José".
-- Inclinar-se sete vezes diante de um superior é gesto de vassalagem conhecido
-  em cartas do antigo Oriente Próximo.
+- Inclinar-se sete vezes é uma fórmula de vassalagem conhecida: nas cartas de
+  Amarna (séc. XIV a.C.), reis cananeus escrevem ao faraó que se prostram aos
+  seus pés "sete vezes e sete vezes". Jacó trata Esaú como um vassalo trata o
+  seu senhor.
 
 ### Onde há debate
 
@@ -399,8 +407,10 @@ nascimento, morte e as gerações de Esaú.
 
 ### No contexto histórico
 
-- O túmulo tradicional de Raquel fica na entrada de Belém e é até hoje lugar
-  de oração, sobretudo para mulheres que pedem filhos. Os Evangelhos lembram
+- O local tradicional do túmulo de Raquel fica na entrada de Belém e é
+  venerado há muitos séculos. É até hoje lugar de oração, sobretudo
+  para mulheres que pedem filhos, porque Raquel também foi estéril por muitos
+  anos. Alguns estudiosos discutem se a localização é a original. Os Evangelhos lembram
   Raquel quando falam das crianças mortas em Belém (Mateus 2:18).
 - A lista dos reis de Edom "antes que reinasse rei algum sobre os filhos de
   Israel" (36:31) mostra que Edom se organizou como reino antes de Israel. Os
@@ -492,14 +502,18 @@ orgulho e pela crueldade contra o irmão, e termina: "o reino será do Senhor".
 ### No contexto histórico
 
 - A data de Obadias é debatida. A tradição do Talmude o identifica com o
-  Obadias do tempo do rei Acabe (1 Reis 18), no século IX a.C. A maioria dos
-  estudiosos modernos liga o livro à destruição de Jerusalém pelos babilônios,
-  em 586 a.C., quando Edom se aproveitou da queda de Judá. O Salmo 137:7
+  Obadias do tempo do rei Acabe (1 Reis 18), no século IX a.C., e alguns
+  estudiosos ligam o livro à revolta de Edom no reinado de Jorão de Judá
+  (2 Reis 8:20). A maioria dos estudiosos modernos, porém, data o livro pouco
+  depois da destruição de Jerusalém pelos babilônios, em 587/586 a.C., quando
+  Edom se aproveitou da queda de Judá. O Salmo 137:7
   lembra: "Lembra-te, Senhor, dos filhos de Edom no dia de Jerusalém, porque
   diziam: Arrasai-a, arrasai-a". Lamentações 4:21-22 tem o mesmo tom.
-- Edom ocupava as montanhas a sudeste do mar Morto, com cidades em penhascos.
-  Nos séculos seguintes, o território passou aos nabateus (que construíram
-  Petra), e os edomitas migraram para o sul de Judá, a Idumeia. No século II
+- Edom ocupava as montanhas a sudeste do mar Morto. Grupos edomitas já se
+  instalavam no Neguev, ao sul de Judá, desde os séculos VIII e VII a.C., e
+  depois da queda de Jerusalém a região passou a se chamar Idumeia. O antigo
+  território de Edom acabou nas mãos dos nabateus, que fizeram de Petra a sua
+  capital; como e quando isso aconteceu ainda é discutido. No século II
   a.C., João Hircano os submeteu e os obrigou à circuncisão (Josefo,
   *Antiguidades* XIII, 9.1). Herodes, o Grande, era de família idumeia: a
   história de Jacó e Esaú chega até o nascimento de Jesus.
@@ -800,10 +814,33 @@ patrística abaixo foi lida no trecho indicado (em tradução inglesa).
 - [Calendário de leituras da Sefaria](https://www.sefaria.org/calendars) — a
   porção e a haftará de 28 de novembro de 2026.
 
-Os dados de contexto histórico (Jaboque, Siquém, a prostração sete vezes,
-Petra e os nabateus, o túmulo de Raquel e a data de Obadias) e o modo de
-retirar o nervo ciático da carne *kasher* são informações correntes de obras de
-referência e não foram conferidos um a um nesta preparação.
+**Contexto histórico e obras de referência**
+- [Encyclopedia of the Bible, "Jabbok"](https://biblegateway.com/resources/encyclopedia-of-the-bible/Jabbok)
+  e [Jewish Virtual Library, "Jabbok"](https://www.jewishvirtuallibrary.org/jabbok)
+  — o rio Zarqa e o seu vale.
+- [Encyclopaedia Britannica, "Shechem"](https://www.britannica.com/place/Shechem-ancient-Canaanite-city)
+  e [Encyclopedia of the Bible, "Shechem"](https://biblegateway.com/resources/encyclopedia-of-the-bible/Shechem)
+  — Tell Balata, os montes Ebal e Gerizim e a distinção em relação a Nablus.
+- Morris (2006), [estudo sobre as fórmulas de submissão nas cartas de Amarna](https://faculty.uml.edu/ethan_spanier/teaching/documents/grovelpdf.pdf)
+  (PDF), e Claude Mariottini, ["Bowing Seven Times"](https://claudemariottini.com/2009/04/13/bowing-seven-times/)
+  — a fórmula "sete vezes e sete vezes" nas cartas de Amarna.
+- [Chabad.org, "Rachel's Tomb"](https://www.chabad.org/library/article_cdo/aid/602502/jewish/Rachels-Tomb.htm)
+  e uma [legenda da Biblical Archaeology Review](https://library.biblicalarchaeology.org/images/bsbr060202700ljpg/)
+  — a oração das mulheres no túmulo de Raquel.
+- [Encyclopedia of the Bible, "Book of Obadiah"](https://new.biblegateway.com/resources/encyclopedia-of-the-bible/Book-Obadiah)
+  e [Asbury Bible Commentary, Obadias](https://classic.biblegateway.com/resources/asbury-bible-commentary/i-authorship-date-historical-setting)
+  — a data do livro.
+- [Cambridge University Press, *Edom in Judah*](https://www.cambridge.org/core/elements/abs/edom-in-judah/8E3E2C6521325F00362103858C512F53)
+  e [Livius, "Nabataeans"](https://livius.org/people/nabataeans) — os
+  edomitas no Neguev, a Idumeia e os nabateus em Petra.
+- [Chabad.org, "What Is Gid Hanasheh"](https://www.chabad.org/library/article_cdo/aid/6479181/jewish/What-Is-Gid-Hanasheh.htm)
+  e [OU Torah, "Nikkur Achoraim"](https://outorah.org/p/5687) — a retirada do
+  nervo ciático e das gorduras proibidas.
+
+Os dados sobre Petra, os nabateus e os edomitas foram conferidos em resumos de
+busca de obras acadêmicas, e o paralelo das cartas de Amarna com Gênesis 33:3
+aparece sobretudo em textos de divulgação; os dois pontos estão apresentados
+como discussão, não como certeza.
 
 ---
 
