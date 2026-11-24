@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="ceu" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f1cfae"/>
+      <stop offset=".6" stop-color="#fbe6cb"/>
+      <stop offset="1" stop-color="#fff4de"/>
+    </linearGradient>
+    <radialGradient id="halo" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#f6c97a" stop-opacity=".85"/>
+      <stop offset="1" stop-color="#f6c97a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="mesa" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#97323f"/>
+      <stop offset="1" stop-color="#5c1a26"/>
+    </linearGradient>
+  </defs>
+  <!-- céu de amanhecer e sol -->
+  <rect width="1200" height="630" fill="url(#ceu)"/>
+  <circle cx="600" cy="300" r="280" fill="url(#halo)"/>
+  <circle cx="600" cy="300" r="78" fill="#e9b45f"/>
+  <!-- aves -->
+  <g fill="none" stroke="#7a1f2b" stroke-width="3" stroke-linecap="round" opacity=".45">
+    <path d="M220 130 q14 -13 28 0 q14 -13 28 0"/>
+    <path d="M950 110 q13 -12 26 0 q13 -12 26 0"/>
+  </g>
+  <!-- colinas -->
+  <path d="M0 360 Q220 300 450 340 T850 330 T1200 350 V630 H0 Z" fill="#d9a58f"/>
+  <path d="M0 410 Q260 350 540 395 T1200 400 V630 H0 Z" fill="#a85a62"/>
+  <!-- mesa -->
+  <rect x="0" y="440" width="1200" height="190" fill="url(#mesa)"/>
+  <rect x="0" y="440" width="1200" height="10" fill="#7a1f2b"/>
+  <!-- calendário de mesa (sem números) -->
+  <g transform="translate(250 330)">
+    <path d="M10 112 L40 0 H150 L180 112 Z" fill="#d9c3a0"/>
+    <rect x="0" y="10" width="190" height="104" rx="6" fill="#fff7e8"/>
+    <rect x="0" y="10" width="190" height="26" rx="6" fill="#7a1f2b"/>
+    <g fill="#e6d4b8">
+      <rect x="14" y="46" width="20" height="14" rx="3"/><rect x="40" y="46" width="20" height="14" rx="3"/><rect x="66" y="46" width="20" height="14" rx="3"/><rect x="92" y="46" width="20" height="14" rx="3"/><rect x="118" y="46" width="20" height="14" rx="3"/><rect x="144" y="46" width="20" height="14" rx="3"/>
+      <rect x="14" y="66" width="20" height="14" rx="3"/><rect x="40" y="66" width="20" height="14" rx="3"/><rect x="66" y="66" width="20" height="14" rx="3"/><rect x="92" y="66" width="20" height="14" rx="3"/><rect x="118" y="66" width="20" height="14" rx="3"/><rect x="144" y="66" width="20" height="14" rx="3"/>
+      <rect x="14" y="86" width="20" height="14" rx="3"/><rect x="40" y="86" width="20" height="14" rx="3"/><rect x="66" y="86" width="20" height="14" rx="3"/><rect x="92" y="86" width="20" height="14" rx="3"/>
+    </g>
+    <rect x="14" y="46" width="20" height="14" rx="3" fill="#e9b45f"/>
+  </g>
+  <!-- Bíblia aberta -->
+  <g transform="translate(600 470)">
+    <path d="M-230 -30 Q-120 -62 0 -36 Q120 -62 230 -30 L230 40 Q120 12 0 40 Q-120 12 -230 40 Z" fill="#3b0f18"/>
+    <path d="M-214 -40 Q-110 -70 -4 -44 L-4 30 Q-110 2 -214 28 Z" fill="#fff7e8"/>
+    <path d="M214 -40 Q110 -70 4 -44 L4 30 Q110 2 214 28 Z" fill="#f3e6d3"/>
+    <g fill="none" stroke="#d9c3a0" stroke-width="4" stroke-linecap="round">
+      <path d="M-186 -30 Q-110 -50 -32 -32"/><path d="M-186 -12 Q-110 -32 -32 -14"/><path d="M-186 6 Q-110 -14 -32 4"/>
+      <path d="M32 -32 Q110 -50 186 -30"/><path d="M32 -14 Q110 -32 186 -12"/><path d="M32 4 Q110 -14 186 6"/>
+    </g>
+    <path d="M-4 -44 L4 -44 L4 30 L-4 30 Z" fill="#d9c3a0"/>
+    <path d="M60 30 L60 74 L72 64 L84 74 L84 30 Z" fill="#e9b45f"/>
+  </g>
+  <!-- xícara -->
+  <g transform="translate(880 400)">
+    <path d="M0 0 H80 L72 70 Q40 82 8 70 Z" fill="#fff7e8"/>
+    <path d="M80 14 Q108 18 102 40 Q96 58 74 56" fill="none" stroke="#fff7e8" stroke-width="10"/>
+    <ellipse cx="40" cy="2" rx="40" ry="8" fill="#5c1a26"/>
+    <g fill="none" stroke="#fff7e8" stroke-width="4" stroke-linecap="round" opacity=".7">
+      <path d="M28 -14 q-8 -14 2 -28"/><path d="M50 -14 q-8 -14 2 -28"/>
+    </g>
+  </g>
+</svg>

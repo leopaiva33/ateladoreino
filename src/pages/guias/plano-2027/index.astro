@@ -1,0 +1,52 @@
+---
+// Página de inscrição do "Plano de leitura da Bíblia 2027" (isca da newsletter). Depois de
+// confirmar o e-mail, a pessoa vai para /guias/plano-2027/obrigado/, que tem o PDF
+// (public/guias/plano-2027.pdf: node scripts/gerar-plano-leitura.mjs 2027 e
+// node scripts/gerar-pdf-guia.mjs plano-2027).
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import NewsletterForm from '../../../components/NewsletterForm.astro';
+---
+
+<BaseLayout
+  title="Plano de leitura da Bíblia 2027 em PDF grátis"
+  description="A Bíblia toda em 365 dias, cerca de 3 capítulos por dia, com o Antigo e o Novo Testamento lado a lado e uma nota de contexto judaico por mês."
+>
+  <section class="guia">
+    <p class="guia-rotulo">Guia gratuito em PDF</p>
+    <h1>Plano de leitura da Bíblia 2027</h1>
+    <p>
+      Leia a Bíblia toda em 2027, de 1º de janeiro a 31 de dezembro, com cerca de <strong>3 capítulos por dia</strong>
+      (uns 15 minutos): uma parte do Antigo Testamento e uma do Novo Testamento ou dos Salmos.
+    </p>
+    <h2>O que tem no plano</h2>
+    <ul>
+      <li>Os 1.189 capítulos da Bíblia divididos em 365 dias, com um quadradinho para marcar cada dia</li>
+      <li>Antigo Testamento em ordem, de Gênesis a Malaquias, e Novo Testamento de Mateus ao Apocalipse</li>
+      <li>Os Salmos espalhados ao longo do ano</li>
+      <li>Uma nota de contexto judaico em cada mês: festas, costumes e ligações entre os dois Testamentos</li>
+      <li>Um mês por página, para imprimir ou usar no celular (15 páginas)</li>
+    </ul>
+    <p>Atrasou? O guia explica como retomar sem culpa. Funciona com a tradução que você tem em casa.</p>
+  </section>
+
+  <NewsletterForm
+    isca="plano-2027"
+    titulo="Receba o plano no seu e-mail"
+    texto="Deixe o seu e-mail e confirme a inscrição: o plano abre na hora. Você também passa a receber a reflexão da semana, todo domingo, e pode cancelar quando quiser."
+    botao="Quero o plano grátis"
+  />
+
+  <p>Quer começar já? Veja <a href="/blog/como-ler-a-biblia-todos-os-dias/">como ler a Bíblia todos os dias</a>.</p>
+</BaseLayout>
+
+<style>
+  .guia { margin-bottom: 1.5rem; }
+  .guia-rotulo {
+    font-family: var(--fonte-interface);
+    font-size: 0.8rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--cor-texto-suave);
+    margin-bottom: 0.25rem;
+  }
+</style>

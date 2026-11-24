@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { SITE } from '../config';
 import PostList from '../components/PostList.astro';
 import NewsletterForm from '../components/NewsletterForm.astro';
 import { getPublishedPosts, formatDate } from '../utils/posts';
@@ -30,7 +31,7 @@ const destaqueWebp = versaoWebp(destaque?.data.image);
 <BaseLayout jsonLd={jsonLdSite()}>
   <section class="hero">
     <h1>A Tela do Reino</h1>
-    <p>Palavra, reflexão e encorajamento para caminhar com Deus todos os dias.</p>
+    <p>{SITE.slogan}.</p>
   </section>
 
   {
