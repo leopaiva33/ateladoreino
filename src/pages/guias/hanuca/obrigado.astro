@@ -1,0 +1,36 @@
+---
+// Página de chegada depois da confirmação do e-mail (redirectionUrl do Brevo para a isca "hanuca").
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="Seu guia de Hanucá está pronto"
+  description="Inscrição confirmada. Baixe o guia Hanucá e Jesus: 8 noites com a luz do mundo."
+  noindex
+>
+  <section class="hero">
+    <h1>Inscrição confirmada!</h1>
+    <p>Obrigado. O seu guia está aqui:</p>
+    <p>
+      <a class="botao-guia" href="/guias/hanuca.pdf" download>Baixar o guia em PDF</a>
+    </p>
+    <p>A primeira noite é na sexta, 4 de dezembro. Salve o arquivo no celular para ler em cada noite.</p>
+  </section>
+  <p>
+    A partir do próximo domingo, a reflexão da semana chega no seu e-mail. Enquanto isso, leia o artigo
+    <a href="/blog/hanuca-e-jesus/">Hanucá e Jesus: a festa da Dedicação em João 10</a>.
+  </p>
+</BaseLayout>
+
+<style>
+  .botao-guia {
+    display: inline-block;
+    padding: 0.8rem 1.4rem;
+    border-radius: var(--raio-pilula);
+    background: var(--cor-destaque);
+    color: var(--cor-fundo);
+    font-family: var(--fonte-interface);
+    font-weight: 600;
+    text-decoration: none;
+  }
+</style>

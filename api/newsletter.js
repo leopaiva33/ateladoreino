@@ -4,6 +4,11 @@
 // Variáveis de ambiente na Vercel: BREVO_API_KEY, BREVO_LIST_ID e BREVO_DOI_TEMPLATE_ID
 // (modelo de e-mail de confirmação criado no Brevo).
 const SITE = 'https://ateladoreino.com';
+// Iscas (guias em PDF): depois de confirmar o e-mail, a pessoa vai para a página de obrigado do
+// guia, que tem o link do PDF. Só endereços desta lista são aceitos.
+const ISCAS = {
+  hanuca: '/guias/hanuca/obrigado/',
+};
 // Aceita o número com ou sem "#" (como o Brevo mostra).
 const numero = (v) => Number(String(v ?? '').replace(/[^0-9]/g, ''));
 
@@ -42,12 +47,16 @@ export default async function handler(req, res) {
       email,
       includeListIds: [numero(BREVO_LIST_ID)],
       templateId: numero(BREVO_DOI_TEMPLATE_ID),
-      redirectionUrl: `${SITE}/newsletter/confirmada/`,
+      redirectionUrl: `${SITE}${Object.hasOwn(ISCAS, String(corpo.isca)) ? ISCAS[corpo.isca] : '/newsletter/confirmada/'}`,
     }),
   });
   if (r.ok || r.status === 204) return res.status(200).json({ ok: true });
   const detalhe = await r.text();
   console.error(`Brevo respondeu ${r.status}: ${detalhe.slice(0, 300)}`);
-  if (/duplicate|already/i.test(detalhe)) return res.status(200).json({ ok: true });
+  // Já inscrito: o Brevo não manda nova confirmação; se veio de um guia, entrega o link direto.
+  if (/duplicate|already/i.test(detalhe)) {
+    const obrigado = Object.hasOwn(ISCAS, String(corpo.isca)) ? ISCAS[corpo.isca] : null;
+    return res.status(200).json({ ok: true, ...(obrigado ? { jaInscrito: true, link: obrigado } : {}) });
+  }
   return res.status(502).json({ ok: false, erro: 'Não foi possível concluir a inscrição agora. Tente de novo mais tarde.' });
 }
