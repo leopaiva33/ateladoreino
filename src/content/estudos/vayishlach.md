@@ -821,8 +821,9 @@ patrística abaixo foi lida no trecho indicado (em tradução inglesa).
 - [Encyclopaedia Britannica, "Shechem"](https://www.britannica.com/place/Shechem-ancient-Canaanite-city)
   e [Encyclopedia of the Bible, "Shechem"](https://biblegateway.com/resources/encyclopedia-of-the-bible/Shechem)
   — Tell Balata, os montes Ebal e Gerizim e a distinção em relação a Nablus.
-- Morris (2006), [estudo sobre as fórmulas de submissão nas cartas de Amarna](https://faculty.uml.edu/ethan_spanier/teaching/documents/grovelpdf.pdf)
-  (PDF), e Claude Mariottini, ["Bowing Seven Times"](https://claudemariottini.com/2009/04/13/bowing-seven-times/)
+- Wikipédia, ["Prostration formula"](https://en.wikipedia.org/wiki/Prostration_formula)
+  e ["Amarna letter EA 147"](https://en.wikipedia.org/wiki/EA_147), e Claude
+  Mariottini, ["Bowing Seven Times"](https://claudemariottini.com/2009/04/13/bowing-seven-times/)
   — a fórmula "sete vezes e sete vezes" nas cartas de Amarna.
 - [Chabad.org, "Rachel's Tomb"](https://www.chabad.org/library/article_cdo/aid/602502/jewish/Rachels-Tomb.htm)
   e uma [legenda da Biblical Archaeology Review](https://library.biblicalarchaeology.org/images/bsbr060202700ljpg/)
