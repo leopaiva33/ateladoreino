@@ -4,6 +4,8 @@ export const SITE = {
   url: 'https://ateladoreino.com',
   /** Título da home (a página sem título próprio): nome + o que o site oferece. */
   homeTitle: 'A Tela do Reino: devocionais, estudos bíblicos e oração',
+  /** Frase da marca: a mesma no site, no YouTube, no Instagram e no Facebook. */
+  slogan: 'A Bíblia no contexto judaico de Jesus, explicada de forma simples',
   description:
     'Devocionais, reflexões bíblicas, orações e estudos da Torá com contexto judaico para fortalecer sua fé no dia a dia. Conteúdo cristão gratuito toda semana.',
   /** Logo quadrado (PNG) para os dados estruturados da editora. Gerado por `npm run images`. */
