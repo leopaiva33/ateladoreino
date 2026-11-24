@@ -7,7 +7,7 @@ Artigo: src/content/blog/plano-de-leitura-da-biblia-2027.md
 
 - **chapeu:** Plano grátis 2027
 - **titulo:** A Bíblia toda *em 1 ano*
-- **apoio:** Cerca de 3 capítulos por dia. Uns 15 minutos.
+- **apoio:** 3 capítulos por dia, uns 15 minutos.
 - **isca:** Deslize
 
 ## Slide 2 (texto)
@@ -20,7 +20,7 @@ Artigo: src/content/blog/plano-de-leitura-da-biblia-2027.md
 
 - **titulo:** Duas leituras por dia
 - Antigo Testamento: cerca de 2 capítulos.
-- Novo Testamento ou um Salmo: 1 capítulo.
+- Novo Testamento e Salmos: cerca de 1 capítulo.
 - Uns 15 minutos no total.
 - Um quadradinho para marcar.
 - **isca:** Como Jesus lia
@@ -29,13 +29,13 @@ Artigo: src/content/blog/plano-de-leitura-da-biblia-2027.md
 
 - **citacao:** E, chegando a Nazaré, onde fora criado, entrou num dia de sábado, segundo o seu costume, na sinagoga e levantou-se para ler.
 - **ref:** Lucas 4:16
-- **destaque:** Ler a Escritura era *costume* de Jesus.
+- **destaque:** No sábado, Jesus ia à sinagoga *ouvir a Escritura*.
 - **isca:** Uma nota por mês
 
 ## Slide 5 (texto)
 
 - **titulo:** Uma nota de *contexto judaico* por mês.
-- **texto:** O Shemá que Jesus cita, a festa por trás do Pentecostes, a nova aliança de Jeremias.
+- **texto:** O Shemá ("Ouve, Israel") que Jesus cita, a festa por trás do Pentecostes, a nova aliança de Jeremias.
 - **isca:** E se eu atrasar?
 
 ## Slide 6 (lista)
@@ -74,4 +74,4 @@ Envie para quem quer ler a Bíblia toda no ano que vem.
 
 Receba grátis por e-mail o plano em PDF, com o dia a dia e um quadradinho para marcar, e leia o texto completo em ateladoreino.com (link na bio).
 
-#PlanoDeLeitura #LeituraBíblica #Bíblia #Devocional #Fé #ATelaDoReino
+#PlanoDeLeitura #LeituraBiblica #Bíblia #Devocional #Fé #ATelaDoReino
