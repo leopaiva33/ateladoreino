@@ -1,0 +1,31 @@
+---
+// Página de chegada depois da confirmação do e-mail (isca "plano-2027").
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="Seu plano de leitura 2027 está pronto"
+  description="Inscrição confirmada. Baixe o Plano de leitura da Bíblia 2027."
+  noindex
+>
+  <section class="hero">
+    <h1>Inscrição confirmada!</h1>
+    <p>Obrigado. O seu plano está aqui:</p>
+    <p><a class="botao-guia" href="/guias/plano-2027.pdf" download>Baixar o plano em PDF</a></p>
+    <p>O primeiro dia é 1º de janeiro: Gênesis 1-2 e Mateus 1. Salve o arquivo no celular ou imprima.</p>
+  </section>
+  <p>A partir do próximo domingo, a reflexão da semana chega no seu e-mail.</p>
+</BaseLayout>
+
+<style>
+  .botao-guia {
+    display: inline-block;
+    padding: 0.8rem 1.4rem;
+    border-radius: var(--raio-pilula);
+    background: var(--cor-destaque);
+    color: var(--cor-fundo);
+    font-family: var(--fonte-interface);
+    font-weight: 600;
+    text-decoration: none;
+  }
+</style>

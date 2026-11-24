@@ -8,6 +8,7 @@ const SITE = 'https://ateladoreino.com';
 // guia, que tem o link do PDF. Só endereços desta lista são aceitos.
 const ISCAS = {
   hanuca: '/guias/hanuca/obrigado/',
+  'plano-2027': '/guias/plano-2027/obrigado/',
 };
 // Aceita o número com ou sem "#" (como o Brevo mostra).
 const numero = (v) => Number(String(v ?? '').replace(/[^0-9]/g, ''));
