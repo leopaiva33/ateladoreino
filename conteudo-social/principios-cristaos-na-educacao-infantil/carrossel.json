@@ -1,0 +1,93 @@
+{
+  "slug": "principios-cristaos-na-educacao-infantil",
+  "arte": "public/images/posts/principios-cristaos-na-educacao-infantil.png",
+  "legenda": "Qual destes princípios é o maior desafio na sua casa? Conte nos comentários.\n\nCompartilhe com pais, avós e professores de escola bíblica.\n\nLeia o texto completo, com ideias práticas por idade, em ateladoreino.com (link na bio).\n\nEste conteúdo é devocional e não substitui ajuda profissional ou pastoral. Suspeita de violência contra criança: Disque 100 (gratuito, 24 h) ou Conselho Tutelar.\n\n#EducaçãoCristã #Filhos #Família #FéEmFamília #Bíblia #ATelaDoReino",
+  "slides": [
+    {
+      "tipo": "capa",
+      "titulo": "Educar os filhos com *princípios cristãos*",
+      "chapeu": "Família",
+      "apoio": "7 princípios e um cuidado importante.",
+      "isca": "Deslize",
+      "busca": "family walking sunset",
+      "foto": "https://cdn.pixabay.com/photo/2021/03/21/13/32/kids-6112107_1280.jpg"
+    },
+    {
+      "tipo": "versiculo",
+      "citacao": "Eis que os filhos são herança do Senhor…",
+      "ref": "Salmos 127:3",
+      "isca": "Princípio 1",
+      "destaque": "Filhos não são propriedade: são pessoas *confiadas por Deus*.",
+      "busca": "child hand parent hand",
+      "foto": "https://cdn.pixabay.com/photo/2026/10/19/06/23/06-23-49-339_1280.jpg"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "1. O exemplo vem primeiro",
+      "texto": "A fé de Timóteo foi formada pelo exemplo da avó e da mãe (2 Timóteo 1:5).",
+      "isca": "Princípio 2",
+      "busca": "grandmother child",
+      "foto": "https://cdn.pixabay.com/photo/2022/01/07/06/54/family-6921211_1280.jpg"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "2. A Palavra no dia a dia",
+      "texto": "Em casa, no caminho, ao deitar e ao levantar (Deuteronômio 6:6-7).",
+      "isca": "Princípio 3",
+      "busca": "family reading book",
+      "foto": "https://cdn.pixabay.com/photo/2017/08/07/14/19/sunlight-2604320_1280.jpg"
+    },
+    {
+      "tipo": "versiculo",
+      "citacao": "…não provoqueis a ira a vossos filhos…",
+      "ref": "Efésios 6:4",
+      "isca": "Mais quatro",
+      "destaque": "3. Disciplina com amor *forma, não humilha*.",
+      "busca": "parent child",
+      "foto": "https://cdn.pixabay.com/photo/2016/01/21/14/54/father-and-son-1153919_1280.jpg"
+    },
+    {
+      "tipo": "lista",
+      "titulo": "Mais quatro princípios",
+      "itens": [
+        "Graça e perdão em casa",
+        "Oração pelos e com os filhos",
+        "Crescimento integral",
+        "Paciência e confiança em Deus"
+      ],
+      "isca": "Sobre Provérbios 22:6"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Provérbios 22:6",
+      "texto": "“Instrui o menino no caminho…” é princípio de sabedoria, não garantia. Os pais fazem a sua parte e confiam em Deus.",
+      "isca": "Um cuidado",
+      "busca": "child field sunrise",
+      "foto": "https://cdn.pixabay.com/photo/2015/04/24/20/54/girl-738287_1280.jpg"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Um cuidado",
+      "texto": "Gritos, humilhações e agressões não são disciplina cristã. Suspeita de violência contra criança: Disque 100.",
+      "isca": "Uma oração pronta",
+      "busca": "house window light",
+      "foto": "https://cdn.pixabay.com/photo/2024/10/06/10/18/window-9099713_1280.jpg"
+    },
+    {
+      "tipo": "oracao",
+      "titulo": "Ore agora, com estas palavras",
+      "texto": "Senhor, dá-nos paciência, sabedoria e amor para educar nossos filhos no teu caminho. Amém.",
+      "isca": "Último passo",
+      "busca": "candle prayer dark",
+      "foto": "https://cdn.pixabay.com/photo/2019/06/17/13/06/candle-4279864_1280.jpg"
+    },
+    {
+      "tipo": "final",
+      "titulo": "Salve e ore pelos seus *filhos* hoje.",
+      "texto": "Envie para outros pais.",
+      "rodape": "Texto completo: ateladoreino.com · link na bio",
+      "busca": "family sunset",
+      "foto": "https://cdn.pixabay.com/photo/2019/09/06/04/25/beach-4455433_1280.jpg"
+    }
+  ]
+}

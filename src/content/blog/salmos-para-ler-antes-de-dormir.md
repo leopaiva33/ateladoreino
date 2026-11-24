@@ -4,6 +4,7 @@ description: "Seis salmos para ler antes de dormir, com o contexto de cada um e 
 pubDate: 2026-11-10T07:00:00-03:00
 image: "/images/posts/salmos-para-ler-antes-de-dormir.png"
 imageAlt: "Ilustração de uma noite estrelada com lua crescente sobre um lago calmo e colinas"
+video: "qcAcp7_A4gU"
 category: "Esperança"
 tags: ["salmos", "oração da noite", "descanso", "confiança"]
 ---
@@ -53,7 +54,7 @@ O Salmo 127:2 lembra que é inútil levantar de madrugada, repousar tarde e come
 
 ## Quando o sono não vem
 
-Os salmos podem acompanhar noites difíceis, mas **não substituem o cuidado com a saúde**. Se a dificuldade para dormir se repete por semanas, atrapalha o seu dia ou vem junto com muita ansiedade ou tristeza, procure um médico ou um psicólogo. Fé e cuidado profissional podem caminhar juntos. Para refletir sobre a ansiedade à luz da Bíblia, leia [Encontrar paz em meio à ansiedade](/blog/encontrar-paz-em-meio-a-ansiedade).
+Os salmos podem acompanhar noites difíceis, mas **não substituem o cuidado com a saúde**. Se a dificuldade para dormir se repete por semanas, atrapalha o seu dia ou vem junto com muita ansiedade ou tristeza, procure um médico ou um psicólogo. Fé e cuidado profissional podem caminhar juntos. Para refletir sobre a ansiedade à luz da Bíblia, leia [Encontrar paz em meio à ansiedade](/blog/encontrar-paz-em-meio-a-ansiedade/).
 
 ## Perguntas frequentes
 

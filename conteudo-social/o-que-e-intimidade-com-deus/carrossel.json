@@ -1,0 +1,95 @@
+{
+  "slug": "o-que-e-intimidade-com-deus",
+  "arte": "public/images/posts/o-que-e-intimidade-com-deus.png",
+  "legenda": "Qual destas práticas você quer começar esta semana? Conte nos comentários.\n\nCompartilhe com alguém que também quer se aproximar de Deus.\n\nLeia o texto completo, com exemplos bíblicos e 6 práticas simples, em ateladoreino.com (link na bio).\n\n#IntimidadeComDeus #Oração #VidaDevocional #Bíblia #VidaCristã #ATelaDoReino",
+  "slides": [
+    {
+      "tipo": "capa",
+      "titulo": "Intimidade com Deus: *mais que saber* sobre ele",
+      "chapeu": "Vida com Deus",
+      "apoio": "Três exemplos da Bíblia e 6 práticas.",
+      "isca": "Deslize",
+      "busca": "person praying sunrise silhouette",
+      "foto": "https://cdn.pixabay.com/photo/2020/08/17/13/18/sunset-5495364_1280.jpg"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Mais que saber sobre Deus",
+      "texto": "Intimidade é conhecer quem Deus é, falar com ele com sinceridade e viver na consciência da sua presença.",
+      "isca": "Um convite",
+      "busca": "quiet room window light",
+      "foto": "https://cdn.pixabay.com/photo/2024/01/12/15/09/window-8504126_1280.jpg"
+    },
+    {
+      "tipo": "versiculo",
+      "citacao": "Chegai-vos a Deus, e ele se chegará a vós.",
+      "ref": "Tiago 4:8",
+      "isca": "Como um amigo",
+      "destaque": "O convite vem *com uma promessa*.",
+      "busca": "path forest light",
+      "foto": "https://cdn.pixabay.com/photo/2022/10/16/10/49/fall-7524771_1280.jpg"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Moisés",
+      "texto": "Deus falava com ele face a face, como quem fala com um amigo (Êxodo 33:11).",
+      "isca": "O exemplo de Davi",
+      "busca": "mountain clouds",
+      "foto": "https://cdn.pixabay.com/photo/2026/09/24/00/53/yaomuyu-nepal-10489603_1280.jpg"
+    },
+    {
+      "tipo": "versiculo",
+      "citacao": "…a minha alma tem sede de ti…",
+      "ref": "Salmos 63:1",
+      "isca": "Aos pés de Jesus",
+      "destaque": "Davi levava a Deus *tudo o que sentia*.",
+      "busca": "desert sunrise",
+      "foto": "https://cdn.pixabay.com/photo/2020/03/24/20/41/namibia-4965456_1280.jpg"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Maria, aos pés de Jesus",
+      "texto": "Enquanto Marta servia, Maria ouvia. Jesus disse que ela escolheu a boa parte (Lucas 10:38-42).",
+      "isca": "6 práticas",
+      "busca": "quiet garden",
+      "foto": "https://cdn.pixabay.com/photo/2014/08/12/10/46/glasses-416492_1280.jpg"
+    },
+    {
+      "tipo": "lista",
+      "titulo": "6 práticas",
+      "itens": [
+        "Tempo a sós",
+        "Bíblia para conhecer Deus",
+        "Oração honesta",
+        "Silêncio",
+        "Obediência",
+        "Caminhar com outros"
+      ],
+      "isca": "E se você se afastou?"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Se afastou?",
+      "texto": "O pai do filho pródigo correu ao encontro dele (Lucas 15:20). O caminho de volta começa com uma oração sincera.",
+      "isca": "Uma oração pronta",
+      "busca": "road home sunset",
+      "foto": "https://cdn.pixabay.com/photo/2021/03/22/21/04/house-6115719_1280.jpg"
+    },
+    {
+      "tipo": "oracao",
+      "titulo": "Ore agora, com estas palavras",
+      "texto": "Senhor, quero te conhecer de verdade. Ensina-me a parar, ouvir a tua Palavra e falar contigo com sinceridade. Amém.",
+      "isca": "Último passo",
+      "busca": "candle prayer dark",
+      "foto": "https://cdn.pixabay.com/photo/2026/10/17/15/17/15-17-29-29_1280.jpg"
+    },
+    {
+      "tipo": "final",
+      "titulo": "Salve e separe *10 minutos* hoje.",
+      "texto": "Envie para quem quer se aproximar de Deus.",
+      "rodape": "Texto completo: ateladoreino.com · link na bio",
+      "busca": "sunrise",
+      "foto": "https://cdn.pixabay.com/photo/2022/08/05/20/24/alps-7367539_1280.jpg"
+    }
+  ]
+}

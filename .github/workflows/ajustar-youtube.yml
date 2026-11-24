@@ -1,0 +1,32 @@
+name: Ajustar canal do YouTube
+
+# Aplica conteudo-social/youtube-canal.json no canal: descrição e palavras-chave, correções de
+# título e playlists. Roda quando o arquivo muda, ou à mão (Actions > Ajustar canal do YouTube).
+on:
+  push:
+    paths:
+      - 'conteudo-social/youtube-canal.json'
+      - 'scripts/ajustar-youtube.mjs'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ajustar-youtube
+  cancel-in-progress: false
+
+jobs:
+  ajustar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Aplicar ajustes
+        env:
+          YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+          YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+          YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
+        run: node scripts/ajustar-youtube.mjs

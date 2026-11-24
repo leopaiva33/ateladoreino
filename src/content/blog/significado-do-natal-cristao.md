@@ -51,13 +51,13 @@ A Bíblia **não informa a data** do nascimento de Jesus. A tradição de celebr
 2. **Reserve um momento de gratidão**: cada pessoa diz uma coisa pela qual é grata.
 3. **Pratique um gesto de generosidade**: doar alimentos, visitar alguém que está só, ajudar uma instituição.
 4. **Acenda uma vela** e faça uma oração simples de agradecimento.
-5. **Desacelere**: o Advento (as quatro semanas antes do Natal) é um bom tempo de preparação; veja [Advento: o que é e como se preparar](/blog/advento-como-se-preparar-para-o-natal).
+5. **Desacelere**: o Advento (as quatro semanas antes do Natal) é um bom tempo de preparação; veja [Advento: o que é e como se preparar](/blog/advento-como-se-preparar-para-o-natal/).
 
 ## Uma oração de Natal
 
 > *Senhor Jesus, obrigado por teres vindo viver entre nós. Que a alegria do teu nascimento chegue à minha casa e ao meu coração, e que eu saiba compartilhá-la com quem mais precisa. Amém.*
 
-Se quiser aprender a orar com as suas próprias palavras, veja [Como orar: guia passo a passo para iniciantes](/blog/como-orar).
+Se quiser aprender a orar com as suas próprias palavras, veja [Como orar: guia passo a passo para iniciantes](/blog/como-orar/).
 
 ## Perguntas frequentes
 

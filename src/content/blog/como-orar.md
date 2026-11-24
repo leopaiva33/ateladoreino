@@ -35,7 +35,7 @@ O que a oração **não** é:
 
 ### Passo 1: Silencie e se prepare
 
-Desligue notificações, respire fundo e deixe a pressa de lado. Diga em voz baixa ou em pensamento algo simples como: "Deus, estou aqui". A Bíblia convida: "Aquietai-vos e sabei que eu sou Deus" (Salmos 46:10).
+Desligue notificações, respire fundo e deixe a pressa de lado. Diga em voz baixa ou em pensamento algo simples como: "Deus, estou aqui". No Salmo 46, Deus manda as nações pararem a guerra e reconhecerem quem ele é: "Aquietai-vos e sabei que eu sou Deus" (Salmos 46:10). Por extensão, o verso nos lembra de parar e confiar antes de falar.
 
 ### Passo 2: Comece com gratidão e reconhecimento
 
@@ -117,7 +117,7 @@ A oração pode ser fonte de conforto, mas **não substitui acompanhamento profi
 
 ## Conclusão: o primeiro passo é começar
 
-Orar é um hábito que se aprende praticando. Hoje, reserve cinco minutos, escolha um lugar tranquilo e siga os cinco passos: **silêncio, gratidão, confissão, pedidos e escuta**. Não se preocupe em acertar; Deus conhece o coração (1 Samuel 16:7). Se quiser continuar, leia também [Como ler a Bíblia todos os dias](/blog/como-ler-a-biblia-todos-os-dias) e [O poder da oração no dia a dia](/blog/o-poder-da-oracao-no-dia-a-dia).
+Orar é um hábito que se aprende praticando. Hoje, reserve cinco minutos, escolha um lugar tranquilo e siga os cinco passos: **silêncio, gratidão, confissão, pedidos e escuta**. Não se preocupe em acertar; Deus conhece o coração (1 Samuel 16:7). Se quiser continuar, leia também [Como ler a Bíblia todos os dias](/blog/como-ler-a-biblia-todos-os-dias/) e [O poder da oração no dia a dia](/blog/o-poder-da-oracao-no-dia-a-dia/).
 
 ## Referências
 

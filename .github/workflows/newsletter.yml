@@ -1,0 +1,65 @@
+name: Newsletter semanal
+
+# Todo domingo às 19:37 (Brasília) monta a edição com os artigos dos últimos 7 dias e envia pelo
+# Brevo para a lista de inscritos (reforço às 21:23). Sem os segredos do Brevo, não faz nada.
+# Segredo: BREVO_API_KEY. Variáveis: BREVO_LIST_ID, BREVO_SENDER_EMAIL, BREVO_TEST_EMAIL (teste).
+# Manual: previa (HTML como artefato), teste (envia só para BREVO_TEST_EMAIL) ou enviar.
+on:
+  schedule:
+    - cron: '37 22 * * 0' # domingo, 19:37 em Brasília
+    - cron: '23 0 * * 1' # domingo, 21:23 em Brasília (reforço)
+  workflow_dispatch:
+    inputs:
+      modo:
+        description: 'previa, teste ou enviar'
+        required: true
+        default: previa
+        type: choice
+        options: [previa, teste, enviar]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: newsletter
+  cancel-in-progress: false
+
+jobs:
+  newsletter:
+    runs-on: ubuntu-latest
+    env:
+      BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+      BREVO_LIST_ID: ${{ vars.BREVO_LIST_ID }}
+      BREVO_SENDER_EMAIL: ${{ vars.BREVO_SENDER_EMAIL }}
+      BREVO_TEST_EMAIL: ${{ vars.BREVO_TEST_EMAIL }}
+      MODO: ${{ inputs.modo || 'enviar' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Prévia
+        if: env.MODO == 'previa'
+        run: node scripts/newsletter.mjs --previa newsletter-previa.html
+
+      - uses: actions/upload-artifact@v4
+        if: env.MODO == 'previa'
+        with:
+          name: newsletter-previa
+          path: newsletter-previa.html
+          if-no-files-found: ignore
+
+      - name: Teste ou envio
+        if: env.MODO != 'previa'
+        run: |
+          if [ -z "$BREVO_API_KEY" ]; then echo "Newsletter ainda não configurada (BREVO_API_KEY)."; exit 0; fi
+          node scripts/newsletter.mjs --$MODO
+          if [ "$MODO" = "enviar" ] && [ -n "$(git status --porcelain conteudo-social/newsletter)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add conteudo-social/newsletter
+            git commit -m "chore: newsletter da semana enviada"
+            git pull --rebase
+            git push
+          fi

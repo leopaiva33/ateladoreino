@@ -80,7 +80,7 @@ Seja honesto com Deus sobre isso. Peça a ele disposição para perdoar e dê pa
 
 O perdão libera quem perdoa e abre espaço para a paz. Você não precisa ter tudo resolvido hoje: comece nomeando a dor, levando-a a Deus e decidindo dar o próximo passo.
 
-Para continuar, leia [Como orar o Pai Nosso: o significado de cada pedido](/blog/como-orar-o-pai-nosso) e [Encontrar paz em meio à ansiedade](/blog/encontrar-paz-em-meio-a-ansiedade).
+Para continuar, leia [Como orar o Pai Nosso: o significado de cada pedido](/blog/como-orar-o-pai-nosso/) e [Encontrar paz em meio à ansiedade](/blog/encontrar-paz-em-meio-a-ansiedade/).
 
 ## Referências
 

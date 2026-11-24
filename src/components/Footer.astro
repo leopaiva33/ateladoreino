@@ -7,19 +7,35 @@ const ano = new Date().getFullYear();
   <div class="container-amplo">
     <nav aria-label="Rodapé">
       <ul>
-        <li><a href="/blog">Reflexões</a></li>
-        <li><a href="/estudos">Estudos</a></li>
-        <li><a href="/sobre">Sobre</a></li>
-        <li><a href="/contato">Contato</a></li>
-        <li><a href="/privacidade">Política de Privacidade</a></li>
-        <li><a href="/termos">Termos de Uso</a></li>
-        {SITE.googleAnalytics && <li><a href="/privacidade" data-abrir-cookies>Preferências de cookies</a></li>}
+        <li><a href="/blog/">Reflexões</a></li>
+        <li><a href="/estudos/">Estudos</a></li>
+        {SITE.newsletter && <li><a href="/newsletter/">Newsletter</a></li>}
+        <li><a href="/sobre/">Sobre</a></li>
+        <li><a href="/contato/">Contato</a></li>
+        <li><a href="/privacidade/">Política de Privacidade</a></li>
+        <li><a href="/termos/">Termos de Uso</a></li>
+        {SITE.googleAnalytics && <li><a href="/privacidade/" data-abrir-cookies>Preferências de cookies</a></li>}
+      </ul>
+    </nav>
+    <nav aria-label="Redes sociais" class="redes">
+      <span>Acompanhe:</span>
+      <ul>
+        {
+          SITE.redes.map((r) => (
+            <li>
+              <a href={r.url} rel="noopener me" target="_blank">
+                {r.nome}
+                <span class="sr-only"> (abre em nova aba)</span>
+              </a>
+            </li>
+          ))
+        }
       </ul>
     </nav>
     <p>&copy; {ano} {SITE.name}. Todos os direitos reservados.</p>
     <p>
       Este site utiliza o Google AdSense para exibir anúncios. Saiba mais na
-      <a href="/privacidade">política de privacidade</a>.
+      <a href="/privacidade/">política de privacidade</a>.
     </p>
   </div>
 </footer>

@@ -4,10 +4,11 @@ import { render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import AutorBox from '../../components/AutorBox.astro';
 import Compartilhar from '../../components/Compartilhar.astro';
+import LeiaTambem from '../../components/LeiaTambem.astro';
 import { SITE } from '../../config';
 import { getPublishedEstudos, ehEstudoDePorcao } from '../../utils/estudos';
-import { formatDate } from '../../utils/posts';
-import { jsonLdArtigo } from '../../utils/jsonld';
+import { formatDate, getPostsLigadosAoTexto } from '../../utils/posts';
+import { jsonLdArtigo, jsonLdTrilha } from '../../utils/jsonld';
 
 export async function getStaticPaths() {
   const estudos = await getPublishedEstudos();
@@ -24,6 +25,8 @@ const { Content } = await render(estudo);
 const { title, description, pubDate, updatedDate, parasha, significado, numero, livro, tema, leituras } =
   estudo.data;
 const rotulo = (e: typeof estudo) => e.data.parasha ?? e.data.title;
+/** Artigos do blog sobre os temas deste estudo (pelas tags que aparecem no texto). */
+const ligados = await getPostsLigadosAoTexto(estudo.body, 3);
 const caminho = `/estudos/${estudo.id}/`;
 const urlCompleta = new URL(caminho, SITE.url).href;
 /** PDF gerado por `npm run pdf -- <slug>` em public/estudos/<slug>.pdf; sem arquivo, sem botão. */
@@ -34,7 +37,7 @@ const jsonLd = jsonLdArtigo({
   caminho,
   publicado: pubDate,
   atualizado: updatedDate,
-});
+}).concat(jsonLdTrilha([{ nome: 'Estudos', caminho: '/estudos/' }, { nome: title, caminho }]));
 ---
 
 <BaseLayout
@@ -109,11 +112,13 @@ const jsonLd = jsonLdArtigo({
 
     <AutorBox />
 
+    <LeiaTambem posts={ligados} titulo="Reflexões sobre estes temas" />
+
     <p class="meta navegacao-estudos">
-      {anterior && <a href={`/estudos/${anterior.id}`}>← {rotulo(anterior)}</a>}
+      {anterior && <a href={`/estudos/${anterior.id}/`}>← {rotulo(anterior)}</a>}
       {anterior && proximo && ' · '}
-      {proximo && <a href={`/estudos/${proximo.id}`}>{rotulo(proximo)} →</a>}
+      {proximo && <a href={`/estudos/${proximo.id}/`}>{rotulo(proximo)} →</a>}
     </p>
-    <p class="navegacao-estudos"><a href="/estudos">← Voltar para todos os estudos</a></p>
+    <p class="navegacao-estudos"><a href="/estudos/">← Voltar para todos os estudos</a></p>
   </article>
 </BaseLayout>

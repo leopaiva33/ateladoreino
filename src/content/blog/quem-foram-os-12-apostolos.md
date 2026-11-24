@@ -103,7 +103,7 @@ O número lembra as doze tribos de Israel, o que sugere que Jesus estava formand
 
 A história dos doze mostra que Deus não escolhe quem parece pronto, e sim quem está disposto a seguir. Se você quiser conhecê-los melhor, leia um dos evangelhos com atenção aos nomes e às cenas em que cada apóstolo aparece.
 
-Para continuar, leia [Como ler a Bíblia todos os dias: guia para iniciantes](/blog/como-ler-a-biblia-todos-os-dias) e [Estudo bíblico para iniciantes: um método em 4 passos](/blog/estudo-biblico-para-iniciantes).
+Para continuar, leia [Como ler a Bíblia todos os dias: guia para iniciantes](/blog/como-ler-a-biblia-todos-os-dias/) e [Estudo bíblico para iniciantes: um método em 4 passos](/blog/estudo-biblico-para-iniciantes/).
 
 ## Referências
 

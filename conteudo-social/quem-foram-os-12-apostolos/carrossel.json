@@ -5,42 +5,68 @@
   "slides": [
     {
       "tipo": "capa",
-      "titulo": "Quem foram os 12 apóstolos de Jesus"
+      "titulo": "Quem foram os *12 apóstolos*",
+      "chapeu": "Bíblia",
+      "apoio": "Nomes, histórias e o que aprender com eles.",
+      "isca": "Deslize",
+      "busca": "sea of galilee",
+      "foto": "https://cdn.pixabay.com/photo/2019/12/19/01/47/sun-4705200_1280.jpg"
     },
     {
       "tipo": "texto",
-      "texto": "Apóstolo quer dizer “enviado”. Jesus escolheu doze para estarem com ele e serem enviados a pregar (Marcos 3:14)."
+      "texto": "Apóstolo quer dizer “enviado”. Jesus escolheu doze para estarem com ele e serem enviados a pregar (Marcos 3:14).",
+      "isca": "Os nomes (1 a 6)",
+      "busca": "old road path",
+      "foto": "https://cdn.pixabay.com/photo/2017/08/07/04/25/wall-2599824_1280.jpg"
     },
     {
       "tipo": "texto",
       "titulo": "Os doze (1 a 6)",
-      "texto": "Simão Pedro, André, Tiago (filho de Zebedeu), João, Filipe e Bartolomeu."
+      "texto": "Simão Pedro, André, Tiago (filho de Zebedeu), João, Filipe e Bartolomeu.",
+      "isca": "Os nomes (7 a 12)",
+      "busca": "fishing boat sea",
+      "foto": "https://cdn.pixabay.com/photo/2023/12/15/03/11/basket-to-the-sea-8449952_1280.jpg"
     },
     {
       "tipo": "texto",
       "titulo": "Os doze (7 a 12)",
-      "texto": "Tomé, Mateus, Tiago (filho de Alfeu), Tadeu, Simão (o Zelote) e Judas Iscariotes."
+      "texto": "Tomé, Mateus, Tiago (filho de Alfeu), Tadeu, Simão (o Zelote) e Judas Iscariotes.",
+      "isca": "Pedro",
+      "busca": "fishing net",
+      "foto": "https://cdn.pixabay.com/photo/2017/09/25/09/31/boat-2784452_1280.jpg"
     },
     {
       "tipo": "texto",
       "titulo": "Pedro",
-      "texto": "Pescador, negou Jesus três vezes e foi restaurado depois da ressurreição (João 21:15-17)."
+      "texto": "Pescador, negou Jesus três vezes e foi restaurado depois da ressurreição (João 21:15-17).",
+      "isca": "Tomé",
+      "busca": "fisherman boat sunrise",
+      "foto": "https://cdn.pixabay.com/photo/2020/05/13/05/53/sunset-5165887_1280.jpg"
     },
     {
       "tipo": "versiculo",
       "citacao": "Senhor meu, e Deus meu!",
       "ref": "João 20:28",
-      "comentario": "Tomé duvidou até ver Jesus ressuscitado. Então declarou a sua fé."
+      "isca": "Mateus",
+      "destaque": "Tomé duvidou até ver Jesus ressuscitado. *Então declarou a sua fé.*",
+      "busca": "sunrise hands raised",
+      "foto": "https://cdn.pixabay.com/photo/2023/02/14/11/03/person-7789256_1280.jpg"
     },
     {
       "tipo": "texto",
       "titulo": "Mateus",
-      "texto": "Cobrador de impostos, também chamado Levi. Deixou tudo para seguir Jesus (Lucas 5:28)."
+      "texto": "Cobrador de impostos, também chamado Levi. Deixou tudo para seguir Jesus (Lucas 5:28).",
+      "isca": "E o lugar de Judas?",
+      "busca": "old coins table",
+      "foto": "https://cdn.pixabay.com/photo/2019/08/26/10/27/money-4431341_1280.jpg"
     },
     {
       "tipo": "texto",
       "titulo": "E o lugar de Judas?",
-      "texto": "Depois da ascensão, os apóstolos escolheram Matias, testemunha da ressurreição (Atos 1:21-26)."
+      "texto": "Depois da ascensão, os apóstolos escolheram Matias, testemunha da ressurreição (Atos 1:21-26).",
+      "isca": "O que aprender",
+      "busca": "olive trees",
+      "foto": "https://cdn.pixabay.com/photo/2021/07/04/09/16/olives-6385808_1280.jpg"
     },
     {
       "tipo": "lista",
@@ -50,13 +76,16 @@
         "A fé convive com falhas.",
         "Primeiro, estar com Jesus.",
         "A comunidade importa."
-      ]
+      ],
+      "isca": "Último passo"
     },
     {
       "tipo": "final",
-      "titulo": "Salve este post",
-      "texto": "Leia o texto completo em ateladoreino.com (link na bio).",
-      "rodape": "Leonardo Paiva, A Tela do Reino"
+      "titulo": "Salve e leia os *Evangelhos* com outros olhos.",
+      "texto": "Envie para o seu grupo de estudo.",
+      "rodape": "Texto completo: ateladoreino.com · link na bio",
+      "busca": "sunrise",
+      "foto": "https://cdn.pixabay.com/photo/2022/08/05/20/24/alps-7367539_1280.jpg"
     }
   ]
 }

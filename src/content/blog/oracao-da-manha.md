@@ -33,7 +33,7 @@ Um jeito prático é seguir quatro movimentos curtos, que cabem em cinco minutos
 3. **Peça pelo essencial.** Jesus ensinou a pedir "o pão nosso de cada dia" (Mateus 6:11), isto é, aquilo de que precisamos hoje.
 4. **Ouça.** Fique um minuto em silêncio. Se um pensamento ou pessoa vier à mente, ore por ela.
 
-Se quiser transformar isso em hábito mais completo, veja [Como ter um devocional diário que realmente funciona](/blog/como-ter-um-devocional-diario).
+Se quiser transformar isso em hábito mais completo, veja [Como ter um devocional diário que realmente funciona](/blog/como-ter-um-devocional-diario/).
 
 ## Um exemplo de cinco minutos, do começo ao fim
 
@@ -94,7 +94,7 @@ Isso acontece com todo mundo. Faça uma oração simples e sincera, como "Senhor
 
 Você não precisa mudar a rotina inteira. Escolha um horário, separe cinco minutos e use o roteiro de quatro movimentos: agradecer, entregar, pedir e ouvir. Com o tempo, a oração da manhã se torna um ponto de apoio para o dia.
 
-Para continuar, leia [O poder da oração no dia a dia](/blog/o-poder-da-oracao-no-dia-a-dia) e [Como orar: guia passo a passo para iniciantes](/blog/como-orar).
+Para continuar, leia [O poder da oração no dia a dia](/blog/o-poder-da-oracao-no-dia-a-dia/) e [Como orar: guia passo a passo para iniciantes](/blog/como-orar/).
 
 ## Referências
 

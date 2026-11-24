@@ -1,0 +1,618 @@
+{
+  "1": {
+    "busca": "couple holding hands sunset",
+    "candidatas": [
+      {
+        "id": "pixabay-10201747",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/wedding-couple-wedding-ring-10201747/",
+        "fotografo": "Moroznaya_Photo",
+        "tags": "wedding, couple, wedding ring, holding hands, romantic, city, light, love, man, woman, sunset, portrait, friendship, togetherness, intimate, nature, view, modern, outdoors, strong relationship",
+        "src": "https://cdn.pixabay.com/photo/2026/03/31/10/37/10-37-51-592_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2026/03/31/10/37/10-37-51-592_640.jpg"
+      },
+      {
+        "id": "pixabay-1275656",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/face-hand-sunset-heaven-sun-1275656/",
+        "fotografo": "1866946",
+        "tags": "face, hand, sunset, heaven, sun, safety, together, wheat, cornfield, nature, field",
+        "src": "https://cdn.pixabay.com/photo/2016/03/23/20/54/girl-1275656_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2016/03/23/20/54/girl-1275656_640.jpg"
+      },
+      {
+        "id": "pixabay-7541072",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/couple-sunset-sea-horizon-love-7541072/",
+        "fotografo": "dimitrisvetsikas1969",
+        "tags": "couple, sunset, sea, horizon, love, romance, nature, romantic, together, silhouette, lovers, ocean, marriage",
+        "src": "https://cdn.pixabay.com/photo/2022/10/23/11/42/couple-7541072_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2022/10/23/11/42/couple-7541072_640.jpg"
+      },
+      {
+        "id": "pixabay-1934714",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/beach-wedding-happy-couple-sunset-1934714/",
+        "fotografo": "Michelle-Maria",
+        "tags": "beach wedding, happy couple, sunset, ocean, beach, smiling, nature, people, person, wedding, love, bride, groom, woman, romantic, man, marriage, dress, together, romance, tropical, sand, married",
+        "src": "https://cdn.pixabay.com/photo/2016/12/27/19/34/beach-wedding-1934714_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2016/12/27/19/34/beach-wedding-1934714_640.jpg"
+      },
+      {
+        "id": "pixabay-6612779",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/couple-picnic-lake-love-romance-6612779/",
+        "fotografo": "jakovzadro1",
+        "tags": "couple, picnic, lake, love, romance, artsy, aesthetic, sparkle, nature, couple, couple, picnic, picnic, picnic, picnic, picnic",
+        "src": "https://cdn.pixabay.com/photo/2021/09/10/11/00/couple-6612779_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2021/09/10/11/00/couple-6612779_640.jpg"
+      },
+      {
+        "id": "pixabay-10388048",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/wedding-dress-beach-wedding-couple-10388048/",
+        "fotografo": "OlcayErtem",
+        "tags": "wedding dress, beach, wedding, couple, love, bridal bouquet, romantic, natural light, evening, man, woman, nature, in love, sea, holding hands, looking over shoulder, photography, emotion, reflection in water, wedding in nature, dress",
+        "src": "https://cdn.pixabay.com/photo/2026/07/21/11/23/11-23-37-904_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2026/07/21/11/23/11-23-37-904_640.jpg"
+      },
+      {
+        "id": "pixabay-2126416",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/a-couple-of-sunset-pair-sunset-2126416/",
+        "fotografo": "Apilisko",
+        "tags": "a couple of sunset, pair, sunset, in love with, shadow, backlight, nature, lovers, backlit, silhouettes",
+        "src": "https://cdn.pixabay.com/photo/2017/03/08/10/38/a-couple-of-sunset-2126416_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2017/03/08/10/38/a-couple-of-sunset-2126416_640.jpg"
+      },
+      {
+        "id": "pixabay-7063856",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/couple-holding-hands-field-nature-7063856/",
+        "fotografo": "Jupilu",
+        "tags": "couple, holding hands, field, nature, sunset, outdoors, affection, twilight, sundown",
+        "src": "https://cdn.pixabay.com/photo/2022/03/12/09/39/couple-7063856_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2022/03/12/09/39/couple-7063856_640.jpg"
+      }
+    ]
+  },
+  "2": {
+    "busca": "wedding rings",
+    "candidatas": [
+      {
+        "id": "pixabay-10201747",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/wedding-couple-wedding-ring-10201747/",
+        "fotografo": "Moroznaya_Photo",
+        "tags": "wedding, couple, wedding ring, holding hands, romantic, city, light, love, man, woman, sunset, portrait, friendship, togetherness, intimate, nature, view, modern, outdoors, strong relationship",
+        "src": "https://cdn.pixabay.com/photo/2026/03/31/10/37/10-37-51-592_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2026/03/31/10/37/10-37-51-592_640.jpg"
+      },
+      {
+        "id": "pixabay-6787691",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/wedding-couple-newlyweds-marriage-6787691/",
+        "fotografo": "ohalek00",
+        "tags": "wedding, couple, newlyweds, marriage, bride, groom, wedding, wedding, wedding, wedding, wedding, bride",
+        "src": "https://cdn.pixabay.com/photo/2021/11/12/01/40/wedding-6787691_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2021/11/12/01/40/wedding-6787691_640.jpg"
+      },
+      {
+        "id": "pixabay-9712800",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/wedding-marriage-couple-bride-9712800/",
+        "fotografo": "Daniil_Kondrashin",
+        "tags": "wedding, marriage, couple, bride, jewelry, love, alcohol, rain, champagne, event, ukraine, islamic, woman, ring, portrait, muslim, nature, newlyweds, culture, model, girl, lady, smile, fashion, dress",
+        "src": "https://cdn.pixabay.com/photo/2025/07/13/21/25/wedding-9712800_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2025/07/13/21/25/wedding-9712800_640.jpg"
+      },
+      {
+        "id": "pixabay-2705252",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/couple-kiss-wedding-silhouette-2705252/",
+        "fotografo": "MarinaVoitik",
+        "tags": "couple, nature, kiss, wedding, silhouette, romance, just married, happiness, relationship, sweethearts, young, love, fidelity, youth, tenderness, hugs, ring, sunset, portrait",
+        "src": "https://cdn.pixabay.com/photo/2017/09/01/19/27/couple-2705252_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2017/09/01/19/27/couple-2705252_640.jpg"
+      },
+      {
+        "id": "pixabay-636021",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/wedding-cufflinks-groom-bow-tie-636021/",
+        "fotografo": "NGDPhotoworks",
+        "tags": "wedding, cufflinks, groom, bow tie, tuxedo, suit, elegance, fashion, male, man, elegant, monochrome, black and white, wedding, wedding, wedding, groom, tuxedo, suit, suit, suit, suit, suit",
+        "src": "https://cdn.pixabay.com/photo/2015/02/14/02/20/wedding-636021_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2015/02/14/02/20/wedding-636021_640.jpg"
+      },
+      {
+        "id": "pixabay-5204225",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/model-female-girl-fashion-5204225/",
+        "fotografo": "pankajarnob",
+        "tags": "model, female, girl, fashion, attractive, women, glamour, people, hair, person, young, hill, nature, woman, portrait, face, makeup, brown makeup, brown hair, women, women, women, women, women, makeup",
+        "src": "https://cdn.pixabay.com/photo/2020/05/22/07/46/model-5204225_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2020/05/22/07/46/model-5204225_640.jpg"
+      },
+      {
+        "id": "pixabay-6620523",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/wedding-marriage-love-rings-hands-6620523/",
+        "fotografo": "pixel2013",
+        "tags": "wedding, marriage, love, rings, hands, together, happy, symbol",
+        "src": "https://cdn.pixabay.com/photo/2021/09/13/07/32/wedding-6620523_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2021/09/13/07/32/wedding-6620523_640.jpg"
+      },
+      {
+        "id": "pixabay-1236640",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/wedding-ring-wedding-rings-gold-1236640/",
+        "fotografo": "betsisman",
+        "tags": "wedding ring, wedding rings, gold, ring, box, marriage, whites, decoration, fingers, bride, groom, wedding ring, wedding ring, wedding ring, wedding ring, wedding ring, wedding rings, wedding rings, wedding rings, wedding rings, ring",
+        "src": "https://cdn.pixabay.com/photo/2016/03/04/20/11/vera-1236640_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2016/03/04/20/11/vera-1236640_640.jpg"
+      }
+    ]
+  },
+  "3": {
+    "busca": "rope braided",
+    "candidatas": [
+      {
+        "id": "pixabay-1934110",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/flower-lis-knot-darling-rope-1934110/",
+        "fotografo": "marcogarciacba",
+        "tags": "flower, lis, knot, darling, rope, flower wallpaper, nature, beautiful flowers, flower background, soguín",
+        "src": "https://cdn.pixabay.com/photo/2016/12/27/15/14/flower-1934110_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2016/12/27/15/14/flower-1934110_640.jpg"
+      },
+      {
+        "id": "pixabay-3616270",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/rope-tissue-red-yarn-maritime-3616270/",
+        "fotografo": "Engin_Akyurt",
+        "tags": "rope, tissue, red, yarn, maritime, solid, connect, node, dock, background, weaving, abstract, model, design, colour, pattern, color, beautiful wallpaper, boat, ship, detail, iphone wallpaper",
+        "src": "https://cdn.pixabay.com/photo/2018/08/19/10/42/rope-3616270_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2018/08/19/10/42/rope-3616270_640.jpg"
+      },
+      {
+        "id": "pixabay-1600421",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/gillian-gas-model-management-1600421/",
+        "fotografo": "SherieBeazley",
+        "tags": "gillian, gas model management, inverness, scotland, designer, kat andrews, gillian, inverness, inverness, inverness, inverness, inverness, scotland, scotland, scotland, designer, designer, designer",
+        "src": "https://cdn.pixabay.com/photo/2016/08/17/13/22/gillian-1600421_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2016/08/17/13/22/gillian-1600421_640.jpg"
+      },
+      {
+        "id": "pixabay-7697241",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/rope-wooden-floor-wood-inner-space-7697241/",
+        "fotografo": "MiSebastian",
+        "tags": "rope, wooden floor, wood, inner space, apartment, setup",
+        "src": "https://cdn.pixabay.com/photo/2023/01/04/17/07/rope-7697241_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2023/01/04/17/07/rope-7697241_640.jpg"
+      },
+      {
+        "id": "pixabay-4294616",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/knot-rope-loop-knotted-cord-4294616/",
+        "fotografo": "ha11ok",
+        "tags": "knot, rope, loop, knotted, cord, strong, symbol, simple, tied, line, thread, cable, fiber",
+        "src": "https://cdn.pixabay.com/photo/2019/06/23/20/01/knot-4294616_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2019/06/23/20/01/knot-4294616_640.jpg"
+      },
+      {
+        "id": "pixabay-1703248",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/cattle-show-regional-customs-1703248/",
+        "fotografo": "Pixel-mixer",
+        "tags": "cattle show, regional customs, appenzellerland, appenzell, stone, calf, award, floral decorations, flower wreath, costume, young farmer, girl, tradition, agriculture, switzerland",
+        "src": "https://cdn.pixabay.com/photo/2016/09/29/16/21/cattle-show-1703248_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2016/09/29/16/21/cattle-show-1703248_640.jpg"
+      },
+      {
+        "id": "pixabay-3282040",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/rope-knot-marine-closeup-industry-3282040/",
+        "fotografo": "adonyig",
+        "tags": "rope, knot, marine, closeup, industry, strong, safety, spire, ship, anchor",
+        "src": "https://cdn.pixabay.com/photo/2018/04/01/20/28/rope-3282040_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2018/04/01/20/28/rope-3282040_640.jpg"
+      },
+      {
+        "id": "pixabay-3648587",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/rope-node-connect-connection-ship-3648587/",
+        "fotografo": "Engin_Akyurt",
+        "tags": "rope, node, connect, connection, ship, sailing, boat, design, pattern, maritime, fixing, background, tissue, macro, connected, safe, detail, beautiful, beautiful wallpaper, security, mountaineering, solid, red, perspective, iphone wallpaper",
+        "src": "https://cdn.pixabay.com/photo/2018/09/02/11/28/rope-3648587_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2018/09/02/11/28/rope-3648587_640.jpg"
+      }
+    ]
+  },
+  "4": {
+    "busca": "couple walking",
+    "candidatas": [
+      {
+        "id": "pixabay-6976409",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/couple-holding-hands-together-date-6976409/",
+        "fotografo": "nhuhang9261",
+        "tags": "couple, holding hands, together, date, hands, man, woman, boyfriend, girlfriend, love, closeup, couple, couple, couple, couple, couple, holding hands, holding hands, holding hands, date, date, boyfriend, girlfriend, girlfriend, love, love, love, love",
+        "src": "https://cdn.pixabay.com/photo/2022/01/29/06/07/couple-6976409_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2022/01/29/06/07/couple-6976409_640.jpg"
+      },
+      {
+        "id": "pixabay-3960623",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/couple-dog-walk-beach-bali-wave-3960623/",
+        "fotografo": "wndj",
+        "tags": "couple, dog, walk, beach, bali, wave, shores, animal, nature, sea, ocean, pet, sunset",
+        "src": "https://cdn.pixabay.com/photo/2019/01/28/15/02/couple-3960623_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2019/01/28/15/02/couple-3960623_640.jpg"
+      },
+      {
+        "id": "pixabay-5000549",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/couple-relationship-love-romantic-5000549/",
+        "fotografo": "thuanvo",
+        "tags": "couple, relationship, love, romantic, wedding, together, sunset, happiness, nature, person, friends, stroll, mountains, forest",
+        "src": "https://cdn.pixabay.com/photo/2020/04/04/01/53/couple-5000549_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2020/04/04/01/53/couple-5000549_640.jpg"
+      },
+      {
+        "id": "pixabay-4376415",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/couple-love-beach-sea-ocean-sand-4376415/",
+        "fotografo": "thepianotuner",
+        "tags": "couple, love, beach, sea, ocean, sand, waves, summer, bali, indonesia, vacation, sky, nature, sunset, travel, water, tropical, people, holiday, outdoor, couple, couple, love, love, love, love, love, beach, beach, bali, bali, indonesia, travel",
+        "src": "https://cdn.pixabay.com/photo/2019/08/01/01/23/couple-4376415_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2019/08/01/01/23/couple-4376415_640.jpg"
+      },
+      {
+        "id": "pixabay-7855777",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/couple-love-hand-in-hand-together-7855777/",
+        "fotografo": "ptthanh0710",
+        "tags": "couple, love, hand in hand, together, couple, couple, couple, couple, couple, love",
+        "src": "https://cdn.pixabay.com/photo/2023/03/16/02/10/couple-7855777_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2023/03/16/02/10/couple-7855777_640.jpg"
+      },
+      {
+        "id": "pixabay-4792760",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/winter-pair-couple-old-pair-of-age-4792760/",
+        "fotografo": "8moments",
+        "tags": "winter, pair, couple, old pair of, age, path, forest, cold, wintry, landscape, nature, trees, together, love, winter, winter, winter, winter, winter, couple, forest, forest, love, love, love, Upper Austria, Altmünster, Austria",
+        "src": "https://cdn.pixabay.com/photo/2020/01/25/15/39/winter-4792760_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2020/01/25/15/39/winter-4792760_640.jpg"
+      },
+      {
+        "id": "pixabay-5176740",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/couple-love-romantic-man-happy-5176740/",
+        "fotografo": "Chuotanhls",
+        "tags": "couple, love, romantic, man, happy, lovers, happiness, together, nature, sunset, hands, girl, happyvalentine's",
+        "src": "https://cdn.pixabay.com/photo/2020/05/16/09/44/couple-5176740_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2020/05/16/09/44/couple-5176740_640.jpg"
+      },
+      {
+        "id": "pixabay-2300099",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/couple-love-feelings-seaside-2300099/",
+        "fotografo": "StarFlames",
+        "tags": "couple, love, feelings, seaside, sweethearts, lovers, relationship, romance, man, woman, closeness, tenderness, couple, couple, couple, couple, couple, love, lovers",
+        "src": "https://cdn.pixabay.com/photo/2017/05/10/07/38/couple-2300099_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2017/05/10/07/38/couple-2300099_640.jpg"
+      }
+    ]
+  },
+  "7": {
+    "busca": "couple coffee talking",
+    "candidatas": [
+      {
+        "id": "pixabay-10260387",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/iced-coffee-cold-drink-coffee-bean-10260387/",
+        "fotografo": "husien_pro",
+        "tags": "iced coffee, cold drink, coffee bean, ice, glass, beverage, table, cafe vibe, coffee with milk, foam, brown color, burlap, light brown tones, contrast, black background, artistic photography, still life, winter drink",
+        "src": "https://cdn.pixabay.com/photo/2026/05/04/09/59/09-59-21-608_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2026/05/04/09/59/09-59-21-608_640.jpg"
+      },
+      {
+        "id": "pixabay-563800",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/coffee-milk-coffee-beans-563800/",
+        "fotografo": "shixugang",
+        "tags": "coffee, milk, coffee beans, cup of coffee, coffee cup, cup, pouring, cream, caffeine, cafe, pour, latte, drink, beverage, coffee, coffee, coffee, coffee, coffee",
+        "src": "https://cdn.pixabay.com/photo/2014/12/11/02/57/coffee-563800_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2014/12/11/02/57/coffee-563800_640.jpg"
+      },
+      {
+        "id": "pixabay-8342636",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/coffee-cup-cappuccino-drink-8342636/",
+        "fotografo": "Arturo_Anez",
+        "tags": "coffee, cup, cappuccino, drink, ceramic mug, caffeine, breakfast, coffee cup, espresso, tableware, still life",
+        "src": "https://cdn.pixabay.com/photo/2023/10/26/13/19/coffee-8342636_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2023/10/26/13/19/coffee-8342636_640.jpg"
+      },
+      {
+        "id": "pixabay-5252373",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/coffee-drip-coffee-drink-caffeine-5252373/",
+        "fotografo": "DiDeeChen",
+        "tags": "coffee, drip coffee, drink, caffeine, beverage, coffee, coffee, coffee, coffee, coffee, drip coffee, drip coffee",
+        "src": "https://cdn.pixabay.com/photo/2020/06/02/19/37/coffee-5252373_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2020/06/02/19/37/coffee-5252373_640.jpg"
+      },
+      {
+        "id": "pixabay-5252372",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/coffee-black-coffee-drip-coffee-5252372/",
+        "fotografo": "DiDeeChen",
+        "tags": "coffee, black coffee, drip coffee, coffee, coffee, coffee, coffee, coffee, drip coffee, drip coffee, drip coffee, drip coffee",
+        "src": "https://cdn.pixabay.com/photo/2020/06/02/19/37/coffee-5252372_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2020/06/02/19/37/coffee-5252372_640.jpg"
+      },
+      {
+        "id": "pixabay-7830087",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/coffee-morning-coffee-grinder-7830087/",
+        "fotografo": "RuslanSikunov",
+        "tags": "coffee, morning, coffee grinder, grains",
+        "src": "https://cdn.pixabay.com/photo/2023/03/04/20/07/coffee-7830087_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2023/03/04/20/07/coffee-7830087_640.jpg"
+      },
+      {
+        "id": "pixabay-4862622",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/coffee-milk-cappuccino-drink-caf%C3%A9-4862622/",
+        "fotografo": "Be_Stasya",
+        "tags": "coffee, milk, cappuccino, drink, café, mug, hot, caffeine, coffee cup, espresso, scent, breakfast",
+        "src": "https://cdn.pixabay.com/photo/2020/02/19/16/27/coffee-4862622_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2020/02/19/16/27/coffee-4862622_640.jpg"
+      },
+      {
+        "id": "pixabay-9550534",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/coffee-machine-coffee-espresso-9550534/",
+        "fotografo": "Tho-Ge",
+        "tags": "coffee machine, coffee, espresso, enjoyment, cup, coffee cup, monochrome, black-and-white",
+        "src": "https://cdn.pixabay.com/photo/2025/04/22/15/39/coffee-machine-9550534_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2025/04/22/15/39/coffee-machine-9550534_640.jpg"
+      }
+    ]
+  },
+  "8": {
+    "busca": "candle prayer dark",
+    "candidatas": [
+      {
+        "id": "pixabay-2692556",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/tea-light-light-worships-2692556/",
+        "fotografo": "pixel2013",
+        "tags": "tea light, light, worships, candlelight, flame, meditation, prayer, candle, contemplative, memorial candle, ecclesiastical, shining, memorial lights, sacrificial candle, sacrificial light, reflection, warmth, burn, grief, seem, consolation, meditation, meditation, meditation, prayer, candle, candle, candle, candle, candle, grief",
+        "src": "https://cdn.pixabay.com/photo/2017/08/29/09/22/tealight-2692556_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2017/08/29/09/22/tealight-2692556_640.jpg"
+      },
+      {
+        "id": "pixabay-9874140",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/candles-candlelight-tea-lights-9874140/",
+        "fotografo": "Couleur",
+        "tags": "candles, candlelight, tea lights, church, prayer, faith, religion, light, burn, all saints, advent",
+        "src": "https://cdn.pixabay.com/photo/2025/10/05/07/11/candles-9874140_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2025/10/05/07/11/candles-9874140_640.jpg"
+      },
+      {
+        "id": "pixabay-10321791",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/candles-fire-lighting-atmosphere-10321791/",
+        "fotografo": "Couleur",
+        "tags": "candles, fire, lighting, atmosphere, cozy, candle holder, warmth, darkness, interior, glass, meditation, quiet, peace, relaxation, prayer, calm, evening, spirituality, silence, harmony",
+        "src": "https://cdn.pixabay.com/photo/2026/06/09/07/41/07-41-28-589_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2026/06/09/07/41/07-41-28-589_640.jpg"
+      },
+      {
+        "id": "pixabay-10528343",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/lights-candles-darkness-10528343/",
+        "fotografo": "Couleur",
+        "tags": "lights, candles, darkness, warm light tone, atmosphere, meditation, calmness, esoteric, festive, spiritual, contemplate, hope, reflect, peaceful, accent, celebration, intimate, tranquility, mental",
+        "src": "https://cdn.pixabay.com/photo/2026/10/17/15/17/15-17-29-29_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2026/10/17/15/17/15-17-29-29_640.jpg"
+      },
+      {
+        "id": "pixabay-10168810",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/candles-flame-light-dark-church-10168810/",
+        "fotografo": "Couleur",
+        "tags": "candles, flame, light, dark, church, prayer, sacred, spiritual, romantic, meditation, firelight, romance, peaceful, tealight, silence, reflection, atmosphere, warmth, intimacy",
+        "src": "https://cdn.pixabay.com/photo/2026/03/12/05/50/05-50-15-605_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2026/03/12/05/50/05-50-15-605_640.jpg"
+      },
+      {
+        "id": "pixabay-2544810",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/woman-sculpture-figure-graveyard-2544810/",
+        "fotografo": "cocoparisienne",
+        "tags": "woman, sculpture, figure, graveyard, dig, tomb, grief, hope, light, candlelight, candle, statue, female, prayer, farewell, transience, spiritual, the atmosphere, memorial, sad, memory, pray, sadness, commemorate, symbol, mystical, mood, consolation, faith",
+        "src": "https://cdn.pixabay.com/photo/2017/07/27/10/31/woman-2544810_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2017/07/27/10/31/woman-2544810_640.jpg"
+      },
+      {
+        "id": "pixabay-5690190",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/candles-flames-candlelight-5690190/",
+        "fotografo": "pixel2013",
+        "tags": "candles, flames, candlelight, tea lights, faith, religion, christianity, commemorate, meditation, prayer, contemplative, memorial candles, church, mood, shining, atmosphere, lights, memorial lights, sacrificial candle, sacrificial lights, reflection, bright, mourning, consolation, candles, candles, candles, candles, candles, candlelight, meditation, meditation, meditation, prayer, prayer, prayer",
+        "src": "https://cdn.pixabay.com/photo/2020/10/27/09/52/candles-5690190_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2020/10/27/09/52/candles-5690190_640.jpg"
+      },
+      {
+        "id": "pixabay-4279864",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/candle-bible-glasses-black-bible-4279864/",
+        "fotografo": "MichelleCoppiens",
+        "tags": "candle, bible, glasses, black bible, black glass, black candle, black candles, black glasses, bible, bible, bible, bible, bible",
+        "src": "https://cdn.pixabay.com/photo/2019/06/17/13/06/candle-4279864_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2019/06/17/13/06/candle-4279864_640.jpg"
+      }
+    ]
+  },
+  "9": {
+    "busca": "hands holding",
+    "candidatas": [
+      {
+        "id": "pixabay-10201747",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/wedding-couple-wedding-ring-10201747/",
+        "fotografo": "Moroznaya_Photo",
+        "tags": "wedding, couple, wedding ring, holding hands, romantic, city, light, love, man, woman, sunset, portrait, friendship, togetherness, intimate, nature, view, modern, outdoors, strong relationship",
+        "src": "https://cdn.pixabay.com/photo/2026/03/31/10/37/10-37-51-592_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2026/03/31/10/37/10-37-51-592_640.jpg"
+      },
+      {
+        "id": "pixabay-9719575",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/care-cute-child-love-family-mum-9719575/",
+        "fotografo": "iddea_photo",
+        "tags": "care, cute, child, love, family, mum, mother, baby, parent, mom, girl",
+        "src": "https://cdn.pixabay.com/photo/2025/07/17/13/57/care-9719575_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2025/07/17/13/57/care-9719575_640.jpg"
+      },
+      {
+        "id": "pixabay-6976409",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/couple-holding-hands-together-date-6976409/",
+        "fotografo": "nhuhang9261",
+        "tags": "couple, holding hands, together, date, hands, man, woman, boyfriend, girlfriend, love, closeup, couple, couple, couple, couple, couple, holding hands, holding hands, holding hands, date, date, boyfriend, girlfriend, girlfriend, love, love, love, love",
+        "src": "https://cdn.pixabay.com/photo/2022/01/29/06/07/couple-6976409_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2022/01/29/06/07/couple-6976409_640.jpg"
+      },
+      {
+        "id": "pixabay-5951728",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/rose-flower-valentines-day-hand-5951728/",
+        "fotografo": "Engin_Akyurt",
+        "tags": "rose, flower, valentine's day, hand, plant, flower wallpaper, love, gift, romantic, red rose, red flower, nature, rose flower, flower background, valentine, beautiful flowers, woman, lady, girl, closeup",
+        "src": "https://cdn.pixabay.com/photo/2021/01/26/14/30/rose-5951728_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2021/01/26/14/30/rose-5951728_640.jpg"
+      },
+      {
+        "id": "pixabay-9950817",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/newborn-baby-baby-hand-hand-holding-9950817/",
+        "fotografo": "bongbabyhousevn",
+        "tags": "newborn, baby, baby hand, hand holding, motherhood, love, softness, bonding, tenderness, family, baby skin, cuteness, closeness, touch, baby clothing, care, sensuality, wrinkles, colors, mother and child",
+        "src": "https://cdn.pixabay.com/photo/2025/11/11/16/43/16-43-22-580_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2025/11/11/16/43/16-43-22-580_640.jpg"
+      },
+      {
+        "id": "pixabay-7302669",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/mother-baby-hands-together-love-7302669/",
+        "fotografo": "iriswillow",
+        "tags": "mother, baby, happy mothers day, hands, together, love, support, family, cute, child, mom, mum",
+        "src": "https://cdn.pixabay.com/photo/2022/07/05/09/19/mother-7302669_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2022/07/05/09/19/mother-7302669_640.jpg"
+      },
+      {
+        "id": "pixabay-9073724",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/shell-beach-snail-whelk-sea-9073724/",
+        "fotografo": "fotoblend",
+        "tags": "shell, beach, snail, whelk, sea, shellfish, close up, hand, finger, gesture, sleeve, nature, mollusc",
+        "src": "https://cdn.pixabay.com/photo/2024/09/25/13/30/shell-9073724_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2024/09/25/13/30/shell-9073724_640.jpg"
+      },
+      {
+        "id": "pixabay-6750227",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/engaged-couple-love-holding-hands-6750227/",
+        "fotografo": "JillWellington",
+        "tags": "engaged, couple, love, holding hands, happy, romantic, together, man, woman, engagement, relationship, closeup, couple, couple, couple, couple, couple, love, love, holding hands, holding hands, engagement, engagement, engagement",
+        "src": "https://cdn.pixabay.com/photo/2021/10/28/18/02/engaged-6750227_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2021/10/28/18/02/engaged-6750227_640.jpg"
+      }
+    ]
+  },
+  "10": {
+    "busca": "couple sunset",
+    "candidatas": [
+      {
+        "id": "pixabay-5357132",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/couple-silhouette-beach-freedom-5357132/",
+        "fotografo": "Jackdrafahl",
+        "tags": "couple, silhouette, beach, freedom, sunset, ocean, sea, nature, water, seashore, people, dusk, summer, couple, couple, couple, couple, couple",
+        "src": "https://cdn.pixabay.com/photo/2020/06/30/17/49/couple-5357132_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2020/06/30/17/49/couple-5357132_640.jpg"
+      },
+      {
+        "id": "pixabay-6705694",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/couple-sundown-field-sunset-6705694/",
+        "fotografo": "Jupilu",
+        "tags": "couple, sundown, field, sunset, romantic date, nature, watching the sunset, black wallpaper, black",
+        "src": "https://cdn.pixabay.com/photo/2021/10/13/07/43/couple-6705694_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2021/10/13/07/43/couple-6705694_640.jpg"
+      },
+      {
+        "id": "pixabay-6237959",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/sunset-gazebo-couple-silhouette-6237959/",
+        "fotografo": "faisalalam194",
+        "tags": "sunset, gazebo, couple, silhouette, lake, river, sun, sunlight, mystical, love, together, nature, romantic, romance, dusk, evening, dark",
+        "src": "https://cdn.pixabay.com/photo/2021/05/08/09/09/sunset-6237959_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2021/05/08/09/09/sunset-6237959_640.jpg"
+      },
+      {
+        "id": "pixabay-6237951",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/sunset-gazebo-couple-silhouette-6237951/",
+        "fotografo": "faisalalam194",
+        "tags": "sunset, gazebo, couple, silhouette, love, together, relationship, romantic, nature, romance, mystical, dusk, evening, dark",
+        "src": "https://cdn.pixabay.com/photo/2021/05/08/09/08/sunset-6237951_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2021/05/08/09/08/sunset-6237951_640.jpg"
+      },
+      {
+        "id": "pixabay-10201747",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/wedding-couple-wedding-ring-10201747/",
+        "fotografo": "Moroznaya_Photo",
+        "tags": "wedding, couple, wedding ring, holding hands, romantic, city, light, love, man, woman, sunset, portrait, friendship, togetherness, intimate, nature, view, modern, outdoors, strong relationship",
+        "src": "https://cdn.pixabay.com/photo/2026/03/31/10/37/10-37-51-592_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2026/03/31/10/37/10-37-51-592_640.jpg"
+      },
+      {
+        "id": "pixabay-6600903",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/love-wedding-couple-romance-bride-6600903/",
+        "fotografo": "OlcayErtem",
+        "tags": "love, wedding, couple, romance, bride, groom, marriage, romantic, lovers, man, woman, together, relationship, wedding, wedding, wedding, wedding, wedding, couple",
+        "src": "https://cdn.pixabay.com/photo/2021/09/06/05/55/love-6600903_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2021/09/06/05/55/love-6600903_640.jpg"
+      },
+      {
+        "id": "pixabay-6787691",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/wedding-couple-newlyweds-marriage-6787691/",
+        "fotografo": "ohalek00",
+        "tags": "wedding, couple, newlyweds, marriage, bride, groom, wedding, wedding, wedding, wedding, wedding, bride",
+        "src": "https://cdn.pixabay.com/photo/2021/11/12/01/40/wedding-6787691_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2021/11/12/01/40/wedding-6787691_640.jpg"
+      },
+      {
+        "id": "pixabay-2705252",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/couple-kiss-wedding-silhouette-2705252/",
+        "fotografo": "MarinaVoitik",
+        "tags": "couple, nature, kiss, wedding, silhouette, romance, just married, happiness, relationship, sweethearts, young, love, fidelity, youth, tenderness, hugs, ring, sunset, portrait",
+        "src": "https://cdn.pixabay.com/photo/2017/09/01/19/27/couple-2705252_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2017/09/01/19/27/couple-2705252_640.jpg"
+      }
+    ]
+  }
+}

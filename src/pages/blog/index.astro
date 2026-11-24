@@ -2,13 +2,25 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import PostList from '../../components/PostList.astro';
 import { getPublishedPosts } from '../../utils/posts';
+import { jsonLdColecao, jsonLdTrilha } from '../../utils/jsonld';
 
 const posts = await getPublishedPosts();
+const descricao = 'Devocionais e reflexões bíblicas sobre fé, oração, esperança e vida cristã.';
+const jsonLd = [
+  jsonLdColecao({
+    nome: 'Reflexões',
+    descricao,
+    caminho: '/blog/',
+    itens: posts.map((p) => ({ nome: p.data.title, caminho: `/blog/${p.id}/` })),
+  }),
+  jsonLdTrilha([{ nome: 'Reflexões', caminho: '/blog/' }]),
+];
 ---
 
 <BaseLayout
   title="Reflexões"
-  description="Devocionais e reflexões bíblicas sobre fé, oração, esperança e vida cristã."
+  description={descricao}
+  jsonLd={jsonLd}
 >
   <h1>Reflexões</h1>
   <p class="meta">Textos para meditar na Palavra e fortalecer sua caminhada com Deus.</p>

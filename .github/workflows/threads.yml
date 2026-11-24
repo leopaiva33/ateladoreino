@@ -1,0 +1,85 @@
+name: Threads agendado
+
+# Publica no Threads um post por artigo (texto do carrossel + link), no dia do artigo, às 09:13
+# (Brasília), com reforço às 15:23. Nos dias 1 e 15, às 08:07, renova o token do Threads
+# (vale 60 dias) e grava o novo no segredo THREADS_ACCESS_TOKEN.
+# Segredos: THREADS_ACCESS_TOKEN e GH_SECRETS_TOKEN (token do GitHub com permissão de escrever
+# segredos deste repositório, só para a renovação). Sem THREADS_ACCESS_TOKEN, não faz nada.
+on:
+  schedule:
+    - cron: '13 12 * * *' # 09:13 em Brasília
+    - cron: '23 18 * * *' # 15:23 em Brasília (reforço)
+    - cron: '7 11 1,15 * *' # 08:07 dos dias 1 e 15: renovação do token
+  workflow_dispatch:
+    inputs:
+      modo:
+        description: 'fila, diagnostico, publicar (slug) ou renovar'
+        required: true
+        default: fila
+        type: choice
+        options: [fila, diagnostico, publicar, renovar]
+      slug:
+        description: 'Slug do artigo (modo publicar)'
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: instagram-agendado
+  cancel-in-progress: false
+
+jobs:
+  threads:
+    runs-on: ubuntu-latest
+    env:
+      THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Configuração
+        id: cfg
+        run: |
+          if [ -z "$THREADS_ACCESS_TOKEN" ]; then echo "Threads ainda não configurado (segredo THREADS_ACCESS_TOKEN)."; echo "ok=" >> "$GITHUB_OUTPUT"; exit 0; fi
+          echo "ok=1" >> "$GITHUB_OUTPUT"
+          modo="${{ inputs.modo }}"
+          if [ -z "$modo" ]; then
+            if [ "${{ github.event.schedule }}" = "7 11 1,15 * *" ]; then modo=renovar; else modo=fila; fi
+          fi
+          echo "modo=$modo" >> "$GITHUB_OUTPUT"
+
+      - name: Diagnóstico
+        if: steps.cfg.outputs.ok && steps.cfg.outputs.modo == 'diagnostico'
+        run: node scripts/publicar-threads.mjs --diagnostico
+
+      - name: Renovar token
+        if: steps.cfg.outputs.ok && steps.cfg.outputs.modo == 'renovar'
+        env:
+          GH_TOKEN: ${{ secrets.GH_SECRETS_TOKEN }}
+        run: node scripts/publicar-threads.mjs --renovar
+
+      - name: Qual post publicar?
+        id: fila
+        if: steps.cfg.outputs.ok && (steps.cfg.outputs.modo == 'fila' || steps.cfg.outputs.modo == 'publicar')
+        env:
+          SLUG_MANUAL: ${{ inputs.slug }}
+        run: |
+          if [ -n "$SLUG_MANUAL" ]; then echo "slug=$SLUG_MANUAL" >> "$GITHUB_OUTPUT"
+          else node scripts/instagram-agendado.mjs --threads; fi
+
+      - name: Publicar no Threads
+        if: steps.fila.outputs.slug != ''
+        env:
+          SLUG: ${{ steps.fila.outputs.slug }}
+        run: |
+          node scripts/publicar-threads.mjs "$SLUG" --publicar
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "conteudo-social/$SLUG/threads.json"
+          git commit -m "chore: post de $SLUG publicado no Threads"
+          git pull --rebase
+          git push

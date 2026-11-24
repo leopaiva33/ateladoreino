@@ -1,4 +1,25 @@
 {
+  "trailingSlash": true,
+  "headers": [
+    {
+      "source": "/images/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=604800, stale-while-revalidate=86400"
+        }
+      ]
+    },
+    {
+      "source": "/(favicon.svg|logo.png|og-default.png)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=604800, stale-while-revalidate=86400"
+        }
+      ]
+    }
+  ],
   "redirects": [
     {
       "source": "/como-manter-a-fe-em-tempos-dificeis",
@@ -38,6 +59,36 @@
     {
       "source": "/a-fe-e-o-copo-meio-cheio-e-meio-vazio/",
       "destination": "/blog/como-ter-fe-segundo-a-biblia/",
+      "permanent": true
+    },
+    {
+      "source": "/estudo-biblico-sobre-gratidao",
+      "destination": "/blog/oracao-de-gratidao/",
+      "permanent": true
+    },
+    {
+      "source": "/estudo-biblico-sobre-gratidao/",
+      "destination": "/blog/oracao-de-gratidao/",
+      "permanent": true
+    },
+    {
+      "source": "/o-que-e-avivamento-espiritual",
+      "destination": "/blog/o-que-e-avivamento-espiritual/",
+      "permanent": true
+    },
+    {
+      "source": "/o-que-e-avivamento-espiritual/",
+      "destination": "/blog/o-que-e-avivamento-espiritual/",
+      "permanent": true
+    },
+    {
+      "source": "/avivamento-dos-moravianos",
+      "destination": "/blog/avivamento-dos-moravianos/",
+      "permanent": true
+    },
+    {
+      "source": "/avivamento-dos-moravianos/",
+      "destination": "/blog/avivamento-dos-moravianos/",
       "permanent": true
     }
   ]

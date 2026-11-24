@@ -1,0 +1,96 @@
+---
+/**
+ * Formulário de inscrição na newsletter semanal (envia para /api/newsletter, que pede ao Brevo a
+ * confirmação por e-mail). O envio usa fetch e mostra a resposta sem sair da página.
+ */
+interface Props {
+  titulo?: string;
+  texto?: string;
+}
+const {
+  titulo = 'Receba a reflexão da semana',
+  texto = 'Todo domingo à noite: os artigos da semana, um versículo e uma oração para começar a semana com Deus. Grátis, e você cancela quando quiser.',
+} = Astro.props;
+import { SITE } from '../config';
+const id = `nl-${Math.random().toString(36).slice(2, 8)}`;
+---
+
+{SITE.newsletter && (
+<section class="newsletter" aria-labelledby={`${id}-titulo`}>
+  <h2 id={`${id}-titulo`}>{titulo}</h2>
+  <p>{texto}</p>
+  <form class="newsletter-form" data-newsletter novalidate>
+    <label class="newsletter-rotulo" for={`${id}-email`}>Seu e-mail</label>
+    <div class="newsletter-linha">
+      <input id={`${id}-email`} type="email" name="email" placeholder="seu@email.com" autocomplete="email" required />
+      <button type="submit">Quero receber</button>
+    </div>
+    <input class="newsletter-armadilha" type="text" name="site" tabindex="-1" autocomplete="off" aria-hidden="true" />
+    <label class="newsletter-consentimento">
+      <input type="checkbox" name="consentimento" required />
+      <span>
+        Aceito receber a newsletter da A Tela do Reino por e-mail. Meus dados são tratados conforme a
+        <a href="/privacidade/">política de privacidade</a>.
+      </span>
+    </label>
+    <p class="newsletter-status" id={`${id}-status`} role="status" aria-live="polite"></p>
+  </form>
+</section>
+)}
+
+<script>
+  document.querySelectorAll<HTMLFormElement>('form[data-newsletter]').forEach((form) => {
+    const status = form.querySelector<HTMLElement>('.newsletter-status')!;
+    const botao = form.querySelector<HTMLButtonElement>('button')!;
+    const campoEmail = form.querySelector<HTMLInputElement>('input[type="email"]')!;
+    const campoConsentimento = form.querySelector<HTMLInputElement>('input[name="consentimento"]')!;
+    // Marca o campo com erro, liga a mensagem a ele e leva o foco até lá.
+    const erro = (campo: HTMLInputElement, mensagem: string) => {
+      status.textContent = mensagem;
+      campo.setAttribute('aria-invalid', 'true');
+      campo.setAttribute('aria-describedby', status.id);
+      campo.focus();
+    };
+    const limpar = () => {
+      for (const campo of [campoEmail, campoConsentimento]) {
+        campo.removeAttribute('aria-invalid');
+        campo.removeAttribute('aria-describedby');
+      }
+    };
+    form.addEventListener('submit', async (ev) => {
+      ev.preventDefault();
+      const dados = new FormData(form);
+      const email = String(dados.get('email') ?? '').trim();
+      limpar();
+      if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)) {
+        erro(campoEmail, 'Confira o e-mail digitado (exemplo: nome@gmail.com).');
+        return;
+      }
+      if (!dados.get('consentimento')) {
+        erro(campoConsentimento, 'Marque a caixa de consentimento para continuar.');
+        return;
+      }
+      botao.disabled = true;
+      status.textContent = 'Enviando…';
+      try {
+        const r = await fetch('/api/newsletter', {
+          method: 'POST',
+          headers: { 'content-type': 'application/json' },
+          body: JSON.stringify({ email, consentimento: true, site: dados.get('site') }),
+        });
+        const j = await r.json().catch(() => ({}));
+        if (r.ok && j.ok) {
+          form.reset();
+          status.textContent = 'Quase lá! Enviamos um e-mail de confirmação. Clique no link dele para começar a receber.';
+          (window as any).gtag?.('event', 'inscricao_newsletter');
+        } else {
+          status.textContent = j.erro ?? 'Não foi possível concluir agora. Tente de novo mais tarde.';
+        }
+      } catch {
+        status.textContent = 'Sem conexão. Tente de novo em instantes.';
+      } finally {
+        botao.disabled = false;
+      }
+    });
+  });
+</script>

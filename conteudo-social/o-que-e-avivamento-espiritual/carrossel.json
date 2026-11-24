@@ -1,0 +1,71 @@
+{
+  "slug": "o-que-e-avivamento-espiritual",
+  "arte": "public/images/posts/o-que-e-avivamento-espiritual.png",
+  "legenda": "O que mais esfriou na sua vida com Deus: a oração, a leitura da Bíblia ou o amor pelas pessoas? Conte nos comentários.\n\nCompartilhe com alguém que também quer uma fé renovada.\n\nLeia o texto completo, com exemplos bíblicos e um caminho de 5 passos, em ateladoreino.com (link na bio).\n\n#Avivamento #AvivamentoEspiritual #Oração #Bíblia #VidaCristã #ATelaDoReino",
+  "slides": [
+    {
+      "tipo": "capa",
+      "titulo": "O que é avivamento espiritual segundo a Bíblia"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Não é espetáculo",
+      "texto": "Avivamento é Deus renovando quem já é seu: arrependimento, fome da Palavra, oração e amor que muda a vida."
+    },
+    {
+      "tipo": "versiculo",
+      "citacao": "…aviva, ó Senhor, a tua obra no meio dos anos…",
+      "ref": "Habacuque 3:2",
+      "comentario": "Num tempo de crise, o profeta pediu que Deus agisse de novo."
+    },
+    {
+      "tipo": "versiculo",
+      "citacao": "Não tornarás a vivificar-nos, para que o teu povo se alegre em ti?",
+      "ref": "Salmos 85:6",
+      "comentario": "O alvo é a alegria em Deus, não a experiência."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "A Palavra vem primeiro",
+      "texto": "Com Josias e Esdras, a Lei foi lida e o povo se arrependeu (2 Reis 22–23; Neemias 8–9)."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "E 2 Crônicas 7:14?",
+      "texto": "Foi dito a Israel, na dedicação do templo. Não é fórmula, mas mostra: Deus responde a quem se humilha."
+    },
+    {
+      "tipo": "lista",
+      "titulo": "Sinais comuns",
+      "itens": [
+        "Arrependimento",
+        "Fome da Palavra",
+        "Oração perseverante",
+        "Amor prático",
+        "Desejo de anunciar o evangelho"
+      ]
+    },
+    {
+      "tipo": "lista",
+      "titulo": "Comece por você",
+      "itens": [
+        "Ore com o Salmo 51.",
+        "Leia a Bíblia diariamente.",
+        "Tenha hora para orar.",
+        "Obedeça em algo concreto.",
+        "Ore com alguém."
+      ]
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Oração",
+      "texto": "Senhor, aviva a tua obra em mim. Tira a frieza do meu coração e dá-me de novo a alegria da tua salvação. Amém."
+    },
+    {
+      "tipo": "final",
+      "titulo": "Salve este post",
+      "texto": "Leia o texto completo em ateladoreino.com (link na bio).",
+      "rodape": "Leonardo Paiva, A Tela do Reino"
+    }
+  ]
+}

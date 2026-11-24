@@ -1,25 +1,95 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import PostList from '../components/PostList.astro';
-import { getPublishedPosts } from '../utils/posts';
+import NewsletterForm from '../components/NewsletterForm.astro';
+import { getPublishedPosts, formatDate } from '../utils/posts';
 import { jsonLdSite } from '../utils/jsonld';
+import { versaoWebp } from '../utils/imagens';
 
-const recentes = (await getPublishedPosts()).slice(0, 5);
+const publicados = await getPublishedPosts();
+const [destaque, ...outros] = publicados.slice(0, 6);
+
+/**
+ * Destaque de época: de 15/11 a 25/12 a home aponta para os textos de Advento e Natal (as buscas
+ * por esses temas sobem nessas semanas). O site é gerado todo dia pela publicação agendada,
+ * então o bloco aparece e some sozinho.
+ */
+const hoje = new Date();
+const mes = hoje.getMonth() + 1;
+const dia = hoje.getDate();
+const tempoDeNatal = (mes === 11 && dia >= 15) || (mes === 12 && dia <= 25);
+const textosDeEpoca = tempoDeNatal
+  ? publicados.filter(
+      (p) => p.id !== destaque?.id && p.data.tags.some((t) => ['advento', 'natal'].includes(t.toLowerCase())),
+    )
+  : [];
+const hrefDestaque = destaque ? `/blog/${destaque.id}/` : '';
+const destaqueWebp = versaoWebp(destaque?.data.image);
 ---
 
 <BaseLayout jsonLd={jsonLdSite()}>
   <section class="hero">
-    <h1>Bem-vindo à A Tela do Reino</h1>
+    <h1>A Tela do Reino</h1>
     <p>Palavra, reflexão e encorajamento para caminhar com Deus todos os dias.</p>
   </section>
 
-  <aside class="versiculo-do-dia" aria-label="Versículo do dia">
-    <p class="meta">Versículo do dia</p>
+  {
+    destaque && (
+      <article class="destaque">
+        {destaque.data.image && (
+          <a class="destaque-imagem" href={hrefDestaque} tabindex="-1" aria-hidden="true">
+            <picture>
+              {destaqueWebp && <source srcset={destaqueWebp} type="image/webp" />}
+              <img
+                src={destaque.data.image}
+                alt=""
+                width="1200"
+                height="630"
+                loading="eager"
+                fetchpriority="high"
+                decoding="async"
+              />
+            </picture>
+          </a>
+        )}
+        <div class="destaque-texto">
+          <span class="meta">
+            <span class="tag">{destaque.data.category}</span> {formatDate(destaque.data.pubDate)}
+          </span>
+          <h2>
+            <a href={hrefDestaque}>{destaque.data.title}</a>
+          </h2>
+          <p>{destaque.data.description}</p>
+          <a class="destaque-ler" href={hrefDestaque}>Ler a reflexão →</a>
+        </div>
+      </article>
+    )
+  }
+
+  {
+    textosDeEpoca.length > 0 && (
+      <section class="epoca" aria-labelledby="epoca-titulo">
+        <p class="epoca-rotulo" id="epoca-titulo">Advento e Natal</p>
+        <ul>
+          {textosDeEpoca.map((p) => (
+            <li>
+              <a href={`/blog/${p.id}/`}>{p.data.title}</a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )
+  }
+
+  <aside class="versiculo-do-dia" aria-label="Versículo em destaque">
+    <p class="meta">Versículo em destaque</p>
     <p class="texto">“O Senhor é o meu pastor; nada me faltará.”</p>
     <p class="meta">Salmos 23:1</p>
   </aside>
 
-  <h2>Reflexões recentes</h2>
-  <PostList posts={recentes} />
-  <p><a href="/blog">Ver todas as reflexões →</a></p>
+  <h2>Mais reflexões</h2>
+  <PostList posts={outros} />
+
+  <NewsletterForm />
+  <p><a href="/blog/">Ver todas as reflexões →</a></p>
 </BaseLayout>

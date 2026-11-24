@@ -1,0 +1,80 @@
+name: Instagram Reels agendado
+
+# Publica no Instagram, como Reel, o vídeo vertical do carrossel de cada artigo
+# (public/social/<slug>/reel.mp4, gerado com npm run reel -- <slug>) no dia em que o artigo
+# entra no blog. O Reel sai entre 11:00 e 15:00 (Brasília), depois da publicação do blog
+# (07:43); o carrossel sai entre 17:30 e 21:30. O GitHub atrasa os agendamentos em até
+# algumas horas, então o workflow roda a cada 2 horas e o script só publica dentro da
+# janela (variável JANELA).
+# Depois de publicar, grava conteudo-social/<slug>/reel.json, o que impede repetir o Reel.
+on:
+  schedule:
+    - cron: '19 8-18/2 * * *' # 05:19 a 15:19 em Brasília, a cada 2 h (publica só entre 11:00 e 15:00)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: instagram-agendado
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Qual Reel publicar?
+        id: fila
+        env:
+          JANELA: '11:00-15:00'
+        run: node scripts/instagram-agendado.mjs --reel
+
+      - name: Publicar no Instagram
+        if: steps.fila.outputs.slug != ''
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          SLUG: ${{ steps.fila.outputs.slug }}
+        run: node scripts/publicar-instagram.mjs "$SLUG" --reel --publicar
+
+      - name: Registrar publicação
+        if: steps.fila.outputs.slug != ''
+        env:
+          SLUG: ${{ steps.fila.outputs.slug }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "conteudo-social/$SLUG/reel.json"
+          git commit -m "chore: Reel de $SLUG publicado no Instagram"
+          git pull --rebase
+          git push
+
+      # Facebook: a mesma publicação na Página (falha aqui não afeta o Instagram).
+      - name: Qual Reel publicar no Facebook?
+        id: fila_fb
+        if: always()
+        continue-on-error: true
+        run: |
+          git pull -q --rebase || true
+          JANELA='11:00-15:00' node scripts/instagram-agendado.mjs --facebook --reel
+
+      - name: Publicar no Facebook
+        if: always() && steps.fila_fb.outputs.slug != ''
+        continue-on-error: true
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          SLUG: ${{ steps.fila_fb.outputs.slug }}
+        run: |
+          node scripts/publicar-facebook.mjs "$SLUG" --reel --publicar
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "conteudo-social/$SLUG/facebook-reel.json"
+          git commit -m "chore: Reel de $SLUG publicado no Facebook"
+          git pull --rebase
+          git push

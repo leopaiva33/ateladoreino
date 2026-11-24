@@ -59,7 +59,7 @@ Campos opcionais: `updatedDate` (só altere quando o texto mudar de verdade) e `
 O site é estático, então a data de publicação funciona assim:
 
 1. O post fica em `src/content/blog/` com `pubDate` no futuro, por exemplo `2026-11-09T07:00:00-03:00`. Enquanto a data não chega, ele **não entra** no build (nem na lista, no sitemap ou no RSS).
-2. O workflow [`publicacao-agendada.yml`](.github/workflows/publicacao-agendada.yml) roda todo dia às 08:00 e às 12:00 (Brasília). Ele consulta `scripts/posts-agendados.mjs`: se existe um post com data vencida que ainda não aparece no sitemap do site no ar, cria um commit vazio e faz push.
+2. O workflow [`publicacao-agendada.yml`](.github/workflows/publicacao-agendada.yml) roda todo dia às 07:43 e às 11:53 (Brasília). Ele consulta `scripts/posts-agendados.mjs`: se existe um post com data vencida que ainda não aparece no sitemap do site no ar, cria um commit vazio e faz push.
 3. O push dispara o deploy da Vercel, que gera o site já com o post.
 
 Para agendar um novo post, basta criar o arquivo com a data futura e fazer push. Para testar sem esperar: `SHOW_SCHEDULED=1 npm run build` gera um build com todos os posts agendados (**não publique esse build**), e `AGORA_ISO=2026-11-09T12:00:00Z node scripts/posts-agendados.mjs` simula outra data. Também dá para rodar o workflow manualmente na aba Actions (opção "forçar" cria um deploy mesmo sem post vencido).
@@ -85,3 +85,15 @@ Para um post novo: crie `art/<slug>.svg`, rode `npm run images` e preencha `imag
 ## Deploy
 
 A Vercel faz o build a cada push na branch principal (`npm run build`, saída `dist/`).
+
+## Newsletter (Brevo)
+
+- **Inscrição:** formulário no fim de cada artigo, na página inicial e em `/newsletter`. Ele envia
+  para a função da Vercel `api/newsletter.js`, que pede ao Brevo a confirmação por e-mail (dupla
+  confirmação). Depois do clique, a pessoa cai em `/newsletter/confirmada/`. Variáveis na Vercel:
+  `BREVO_API_KEY`, `BREVO_LIST_ID`, `BREVO_DOI_TEMPLATE_ID`.
+- **Envio:** o workflow `newsletter.yml` roda todo domingo às 19:37 (reforço 21:23) e envia a edição
+  com os artigos dos últimos 7 dias (`scripts/newsletter.mjs`). Registro em
+  `conteudo-social/newsletter/<data>.json`. No GitHub: segredo `BREVO_API_KEY` e variáveis
+  `BREVO_LIST_ID`, `BREVO_SENDER_EMAIL` e `BREVO_TEST_EMAIL`.
+- **Prévia local:** `node scripts/newsletter.mjs --previa newsletter-previa.html`.

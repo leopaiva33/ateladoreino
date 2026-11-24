@@ -16,7 +16,7 @@ const thumbOf = (image?: string) =>
   {
     posts.map((post, index) => {
       const thumb = thumbOf(post.data.image);
-      const href = `/blog/${post.id}`;
+      const href = `/blog/${post.id}/`;
       return (
         <li class:list={['post-item', { 'sem-miniatura': !thumb }]}>
           {thumb && (

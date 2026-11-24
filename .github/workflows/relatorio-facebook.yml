@@ -1,0 +1,26 @@
+name: Relatório do Facebook
+
+# Números da Página do Facebook e de cada post (alcance, reações, comentários, compartilhamentos),
+# só leitura. O resultado aparece no resumo da execução.
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/relatorio-facebook.mjs'
+
+permissions:
+  contents: read
+
+jobs:
+  relatorio:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Gerar relatório
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+        run: node scripts/relatorio-facebook.mjs

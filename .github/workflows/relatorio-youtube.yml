@@ -1,0 +1,27 @@
+name: Relatório do YouTube
+
+# Números do canal e de cada vídeo (inscritos, visualizações, curtidas, comentários e, se o token
+# permitir, retenção e inscrições ganhas). O resultado aparece no resumo da execução.
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/relatorio-youtube.mjs'
+
+permissions:
+  contents: read
+
+jobs:
+  relatorio:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Gerar relatório
+        env:
+          YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+          YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+          YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
+        run: node scripts/relatorio-youtube.mjs

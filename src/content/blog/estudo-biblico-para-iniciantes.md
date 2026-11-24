@@ -4,6 +4,7 @@ description: "Aprenda a fazer um estudo bíblico do zero: observar, entender o c
 pubDate: 2026-11-16T07:00:00-03:00
 image: "/images/posts/estudo-biblico-para-iniciantes.png"
 imageAlt: "Ilustração de uma mesa com Bíblia aberta, lupa, caderno, lápis e luminária acesa"
+video: "DcKkxZMLnBY"
 category: "Vida cristã"
 tags: ["estudo bíblico", "método", "iniciantes", "Bíblia"]
 ---
@@ -12,7 +13,7 @@ tags: ["estudo bíblico", "método", "iniciantes", "Bíblia"]
 
 ## O que é um estudo bíblico (e a diferença para a leitura)
 
-Ler a Bíblia é percorrer o texto. **Estudar** é parar numa passagem e investigá-la: o que diz, a quem, por quê e o que muda em mim. As duas coisas se completam. Se você ainda está criando o hábito de leitura, veja [Como ler a Bíblia todos os dias](/blog/como-ler-a-biblia-todos-os-dias) e depois volte aqui.
+Ler a Bíblia é percorrer o texto. **Estudar** é parar numa passagem e investigá-la: o que diz, a quem, por quê e o que muda em mim. As duas coisas se completam. Se você ainda está criando o hábito de leitura, veja [Como ler a Bíblia todos os dias](/blog/como-ler-a-biblia-todos-os-dias/) e depois volte aqui.
 
 ## O que você precisa
 
@@ -80,7 +81,9 @@ Escolha um livro curto e leia um parágrafo por vez, com o método acima:
 3. **Tiago** (5 capítulos): fé na prática.
 4. Um **salmo** por semana.
 
-Os bereanos são elogiados em Atos 17:11 porque examinavam cada dia as Escrituras para ver se estas coisas eram assim. Estudar a Bíblia é um hábito antigo e bom. Para encaixar o estudo na rotina, veja [Como ter um devocional diário](/blog/como-ter-um-devocional-diario).
+Os bereanos são elogiados em Atos 17:11 porque examinavam cada dia as Escrituras para ver se estas coisas eram assim. Estudar a Bíblia é um hábito antigo e bom. Para encaixar o estudo na rotina, veja [Como ter um devocional diário](/blog/como-ter-um-devocional-diario/).
+
+Quando quiser ir mais fundo, os [estudos bíblicos](/estudos/) da A Tela do Reino aplicam este mesmo cuidado a textos maiores, com o contexto judaico e histórico de cada passagem.
 
 ## Perguntas frequentes
 

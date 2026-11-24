@@ -7,8 +7,8 @@ name: Publicação agendada
 # redirecionamentos do site antigo cujo artigo de destino acabou de ser publicado.
 on:
   schedule:
-    - cron: '0 11 * * *' # 08:00 em Brasília
-    - cron: '0 15 * * *' # 12:00 em Brasília (reforço, caso o primeiro falhe)
+    - cron: '43 10 * * *' # 07:43 em Brasília (minuto quebrado: o GitHub atrasa menos)
+    - cron: '53 14 * * *' # 11:53 em Brasília (reforço, caso o primeiro falhe)
   workflow_dispatch:
     inputs:
       forcar:

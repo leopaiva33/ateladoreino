@@ -9,7 +9,7 @@ import { SITE } from '../config';
 >
   <div class="pagina">
     <h1>Política de Privacidade</h1>
-    <p class="meta">Última atualização: 10 de novembro de 2026</p>
+    <p class="meta">Última atualização: 18 de novembro de 2026</p>
     <p>
       Esta política explica como o site <strong>{SITE.url}</strong> (“{SITE.name}”) trata informações
       de visitantes, em conformidade com a Lei Geral de Proteção de Dados (LGPD – Lei nº 13.709/2018).
@@ -44,6 +44,15 @@ import { SITE } from '../config';
       Se você nos escrever por e-mail, usaremos as informações enviadas (nome, e-mail e mensagem)
       apenas para responder ao seu contato.
     </p>
+    <p>
+      <strong>Newsletter.</strong> Se você se inscrever na newsletter, guardamos o seu e-mail, a data
+      do consentimento e a origem da inscrição, apenas para enviar a newsletter semanal. A inscrição
+      só vale depois que você confirma pelo link enviado ao seu e-mail. Os envios são feitos pelo
+      Brevo (Sendinblue), que trata esses dados por nossa conta, conforme a
+      <a href="https://www.brevo.com/pt/legal/privacypolicy/" rel="noopener">política de privacidade do Brevo</a>.
+      Você pode cancelar a qualquer momento pelo link “cancelar inscrição” no fim de cada e-mail; o
+      cancelamento retira o seu e-mail da lista de envios. A base legal é o seu consentimento.
+    </p>
 
     <h2>3. Cookies e publicidade</h2>
     <p>
@@ -51,16 +60,16 @@ import { SITE } from '../config';
       parceiros podem usar cookies e identificadores para veicular anúncios com base em visitas
       anteriores a este e a outros sites, e para medir o desempenho e evitar fraudes. Você pode
       desativar a publicidade personalizada em
-      <a href="https://www.google.com/settings/ads" rel="noopener" target="_blank">google.com/settings/ads</a>
+      <a href="https://www.google.com/settings/ads" rel="noopener" target="_blank">google.com/settings/ads<span class="sr-only"> (abre em nova aba)</span></a>
       ou em
-      <a href="https://www.aboutads.info" rel="noopener" target="_blank">aboutads.info</a>.
+      <a href="https://www.aboutads.info" rel="noopener" target="_blank">aboutads.info<span class="sr-only"> (abre em nova aba)</span></a>.
     </p>
     <p>
       Para saber como o Google usa os dados de sites e aplicativos parceiros, consulte
       <a
         href="https://policies.google.com/technologies/partner-sites"
         rel="noopener"
-        target="_blank">a página do Google sobre tecnologias de parceiros</a
+        target="_blank">a página do Google sobre tecnologias de parceiros<span class="sr-only"> (abre em nova aba)</span></a
       >.
     </p>
     <p>
@@ -77,13 +86,13 @@ import { SITE } from '../config';
       SITE.googleAnalytics && (
         <p>
           Também usamos o <strong>Google Analytics</strong>, do Google, para entender quais páginas
-          são lidas, de onde vêm os visitantes e quanto tempo passam no site. Os cookies do Google
-          Analytics só são ativados se você clicar em <strong>Aceitar</strong> no aviso de cookies;
+          são lidas, de onde vêm os visitantes e quanto tempo passam no site. O Google Analytics só é
+          carregado se você clicar em <strong>Aceitar</strong> no aviso de cookies; sem isso, nenhum
+          dado da sua visita é enviado a ele e nenhum cookie dele é gravado;
           você pode mudar a escolha a qualquer momento pelo link "Preferências de cookies" no rodapé.
           Saiba mais em{' '}
           <a href="https://policies.google.com/technologies/partner-sites" rel="noopener" target="_blank">
-            como o Google usa os dados
-          </a>
+            como o Google usa os dados<span class="sr-only"> (abre em nova aba)</span></a>
           .
         </p>
       )

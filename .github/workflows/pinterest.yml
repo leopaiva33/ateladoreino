@@ -1,0 +1,78 @@
+name: Pinterest agendado
+
+# Publica um pin por execução, às 10:29 e às 16:41 (Brasília): primeiro os pins 1 (ilustração e
+# título) dos artigos já no ar, depois os pins 2 (versículo), três dias depois de cada artigo.
+# Inclui os artigos antigos, até alcançar o calendário. Sem os segredos do Pinterest, não faz nada.
+# Segredos: PINTEREST_APP_ID, PINTEREST_APP_SECRET, PINTEREST_REFRESH_TOKEN e, opcional,
+# GH_SECRETS_TOKEN. Variáveis opcionais: PINTEREST_BOARD (nome da pasta), PINTEREST_SANDBOX (=1).
+on:
+  schedule:
+    - cron: '29 13 * * *' # 10:29 em Brasília
+    - cron: '41 19 * * *' # 16:41 em Brasília
+  workflow_dispatch:
+    inputs:
+      modo:
+        description: 'fila ou diagnostico'
+        required: true
+        default: fila
+        type: choice
+        options: [fila, diagnostico]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: instagram-agendado
+  cancel-in-progress: false
+
+jobs:
+  pinterest:
+    runs-on: ubuntu-latest
+    env:
+      PINTEREST_APP_ID: ${{ secrets.PINTEREST_APP_ID }}
+      PINTEREST_APP_SECRET: ${{ secrets.PINTEREST_APP_SECRET }}
+      PINTEREST_REFRESH_TOKEN: ${{ secrets.PINTEREST_REFRESH_TOKEN }}
+      PINTEREST_BOARD: ${{ vars.PINTEREST_BOARD }}
+      PINTEREST_SANDBOX: ${{ vars.PINTEREST_SANDBOX }}
+      GH_TOKEN: ${{ secrets.GH_SECRETS_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Configuração
+        id: cfg
+        run: |
+          if [ -z "$PINTEREST_REFRESH_TOKEN" ]; then echo "Pinterest ainda não configurado."; exit 0; fi
+          echo "ok=1" >> "$GITHUB_OUTPUT"
+
+      - name: Diagnóstico
+        if: steps.cfg.outputs.ok && inputs.modo == 'diagnostico'
+        run: node scripts/publicar-pinterest.mjs --diagnostico
+
+      - name: Qual pin publicar?
+        id: fila
+        if: steps.cfg.outputs.ok && inputs.modo != 'diagnostico'
+        run: |
+          node scripts/instagram-agendado.mjs --pinterest > fila1.txt; cat fila1.txt
+          slug=$(sed -n 's/^Publicar pin 1 no Pinterest: //p' fila1.txt)
+          if [ -n "$slug" ]; then echo "slug=$slug" >> "$GITHUB_OUTPUT"; echo "n=1" >> "$GITHUB_OUTPUT"; exit 0; fi
+          node scripts/instagram-agendado.mjs --pinterest --pin2 > fila2.txt; cat fila2.txt
+          slug=$(sed -n 's/^Publicar pin 2 no Pinterest: //p' fila2.txt)
+          if [ -n "$slug" ]; then echo "slug=$slug" >> "$GITHUB_OUTPUT"; echo "n=2" >> "$GITHUB_OUTPUT"; fi
+
+      - name: Publicar no Pinterest
+        if: steps.fila.outputs.slug != ''
+        env:
+          SLUG: ${{ steps.fila.outputs.slug }}
+          N: ${{ steps.fila.outputs.n }}
+        run: |
+          extra=""; [ "$N" = "2" ] && extra="--pin2"
+          node scripts/publicar-pinterest.mjs "$SLUG" $extra --publicar
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "conteudo-social/$SLUG/pinterest-$N.json"
+          git commit -m "chore: pin $N de $SLUG publicado no Pinterest"
+          git pull --rebase
+          git push

@@ -2,13 +2,24 @@
 export const SITE = {
   name: 'A Tela do Reino',
   url: 'https://ateladoreino.com',
+  /** Título da home (a página sem título próprio): nome + o que o site oferece. */
+  homeTitle: 'A Tela do Reino: devocionais, estudos bíblicos e oração',
   description:
-    'Devocionais, reflexões bíblicas e conteúdo cristão para fortalecer sua fé no dia a dia.',
+    'Devocionais, reflexões bíblicas, orações e estudos da Torá com contexto judaico para fortalecer sua fé no dia a dia. Conteúdo cristão gratuito toda semana.',
+  /** Logo quadrado (PNG) para os dados estruturados da editora. Gerado por `npm run images`. */
+  logo: '/logo.png',
   locale: 'pt_BR',
   lang: 'pt-BR',
   email: 'contato@ateladoreino.com',
   /** PNG: as redes sociais não exibem SVG. Gerada por `npm run images`. */
   ogImage: '/og-default.png',
+
+  /** Perfis oficiais: aparecem no rodapé e nos dados estruturados (sameAs). */
+  redes: [
+    { nome: 'YouTube', url: 'https://www.youtube.com/@atela_do_reino' },
+    { nome: 'Instagram', url: 'https://www.instagram.com/ateladoreino/' },
+    { nome: 'Facebook', url: 'https://www.facebook.com/114649038318311' },
+  ],
 
   /**
    * Quem escreve e é responsável pelo site (E-E-A-T e LGPD).
@@ -30,6 +41,8 @@ export const SITE = {
    * Com ID, o site mostra um aviso de cookies e só ativa os cookies do GA após o "Aceitar".
    */
   googleAnalytics: 'G-83V6M71HN7' as string,
+  // Liga o formulário da newsletter (Brevo) quando a conta estiver configurada.
+  newsletter: true as boolean,
 
   adsense: {
     /** ID do editor (ca-pub-...). Também deve estar em public/ads.txt. */

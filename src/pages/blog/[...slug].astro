@@ -4,11 +4,14 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import AdSlot from '../../components/AdSlot.astro';
 import AutorBox from '../../components/AutorBox.astro';
 import LeiaTambem from '../../components/LeiaTambem.astro';
+import ParaIrMaisFundo from '../../components/ParaIrMaisFundo.astro';
 import { SITE } from '../../config';
 import Compartilhar from '../../components/Compartilhar.astro';
 import VideoYoutube from '../../components/VideoYoutube.astro';
+import NewsletterForm from '../../components/NewsletterForm.astro';
 import { getPublishedPosts, getRelatedPosts, formatDate } from '../../utils/posts';
-import { jsonLdArtigo } from '../../utils/jsonld';
+import { jsonLdArtigo, jsonLdTrilha } from '../../utils/jsonld';
+import { versaoWebp } from '../../utils/imagens';
 
 export async function getStaticPaths() {
   const posts = await getPublishedPosts();
@@ -20,6 +23,7 @@ const { Content } = await render(post);
 const relacionados = await getRelatedPosts(post, 3);
 const { title, description, pubDate, updatedDate, category, tags, image, imageAlt, video } = post.data;
 const caminho = `/blog/${post.id}/`;
+const imagemWebp = versaoWebp(image);
 const urlCompleta = new URL(caminho, SITE.url).href;
 const jsonLd = jsonLdArtigo({
   titulo: title,
@@ -29,7 +33,7 @@ const jsonLd = jsonLdArtigo({
   publicado: pubDate,
   atualizado: updatedDate,
   body: post.body,
-});
+}).concat(jsonLdTrilha([{ nome: 'Reflexões', caminho: '/blog/' }, { nome: title, caminho }]));
 ---
 
 <BaseLayout
@@ -61,15 +65,18 @@ const jsonLd = jsonLdArtigo({
     {
       image && (
         <figure class="imagem-destaque">
-          <img
-            src={image}
-            alt={imageAlt ?? ''}
-            width="1200"
-            height="630"
-            loading="eager"
-            fetchpriority="high"
-            decoding="async"
-          />
+          <picture>
+            {imagemWebp && <source srcset={imagemWebp} type="image/webp" />}
+            <img
+              src={image}
+              alt={imageAlt ?? ''}
+              width="1200"
+              height="630"
+              loading="eager"
+              fetchpriority="high"
+              decoding="async"
+            />
+          </picture>
         </figure>
       )
     }
@@ -96,8 +103,12 @@ const jsonLd = jsonLdArtigo({
 
     <AutorBox />
 
+    <NewsletterForm />
+
     <LeiaTambem posts={relacionados} />
 
-    <p><a href="/blog">← Voltar para todas as reflexões</a></p>
+    <ParaIrMaisFundo />
+
+    <p><a href="/blog/">← Voltar para todas as reflexões</a></p>
   </article>
 </BaseLayout>

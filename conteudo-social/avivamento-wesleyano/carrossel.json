@@ -1,0 +1,97 @@
+{
+  "slug": "avivamento-wesleyano",
+  "arte": "public/images/posts/avivamento-wesleyano.png",
+  "legenda": "Você tem um pequeno grupo para perguntar \"como está a sua vida com Deus\"? Conte nos comentários.\n\nCompartilhe com quem caminha com você na fé.\n\nLeia a história completa do avivamento wesleyano em ateladoreino.com (link na bio).\n\n#Avivamento #JohnWesley #Metodismo #HistóriaDaIgreja #VidaCristã #ATelaDoReino",
+  "slides": [
+    {
+      "tipo": "capa",
+      "titulo": "O coração *estranhamente aquecido* de John Wesley",
+      "chapeu": "História da igreja",
+      "apoio": "Como nasceu o metodismo.",
+      "isca": "Deslize",
+      "busca": "old university building",
+      "foto": "https://cdn.pixabay.com/photo/2023/08/12/22/21/calvin-college-8186529_1280.jpg"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "O Clube Santo",
+      "texto": "Em Oxford, por volta de 1729, os irmãos Wesley oravam, estudavam a Bíblia e visitavam presos. Os colegas os chamavam de “metodistas”.",
+      "isca": "A tempestade de 1736",
+      "busca": "old books library",
+      "foto": "https://cdn.pixabay.com/photo/2016/11/29/04/45/aged-1867381_1280.jpg"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "A tempestade de 1736",
+      "texto": "A caminho da Geórgia, John viu morávios cantando calmos no meio do perigo. Percebeu que não tinha aquela confiança.",
+      "isca": "A noite de Aldersgate",
+      "busca": "stormy sea ship",
+      "foto": "https://cdn.pixabay.com/photo/2018/03/03/10/49/naval-battle-3195409_1280.jpg"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "24 de maio de 1738",
+      "texto": "Em Aldersgate, ouvindo a leitura do prefácio de Lutero a Romanos, Wesley sentiu o coração “estranhamente aquecido”.",
+      "isca": "O versículo central",
+      "busca": "warm light window night",
+      "foto": "https://cdn.pixabay.com/photo/2019/12/28/11/22/street-4724363_1280.jpg"
+    },
+    {
+      "tipo": "versiculo",
+      "citacao": "Porque pela graça sois salvos, por meio da fé…",
+      "ref": "Efésios 2:8",
+      "isca": "Depois, ao ar livre",
+      "destaque": "A paz com Deus *não vem do esforço religioso*.",
+      "busca": "open bible",
+      "foto": "https://cdn.pixabay.com/photo/2017/04/11/17/14/bible-2222267_1280.jpg"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Pregação ao ar livre",
+      "texto": "Em 1739, a convite de George Whitefield, Wesley pregou ao ar livre em Bristol. Depois, viajou a cavalo por décadas.",
+      "isca": "As marcas do movimento",
+      "busca": "horse countryside",
+      "foto": "https://cdn.pixabay.com/photo/2025/04/13/03/17/horse-9531049_1280.jpg"
+    },
+    {
+      "tipo": "lista",
+      "titulo": "As marcas",
+      "itens": [
+        "Classes de cerca de 12 pessoas",
+        "Hinos de Charles Wesley",
+        "Cuidado com pobres e presos",
+        "Escolas",
+        "Luta contra a escravidão"
+      ],
+      "isca": "5 passos para hoje"
+    },
+    {
+      "tipo": "lista",
+      "titulo": "Para hoje",
+      "itens": [
+        "Tenha método.",
+        "Descanse na graça.",
+        "Entre num pequeno grupo.",
+        "Cante o que você crê.",
+        "Sirva alguém."
+      ],
+      "isca": "Uma oração pronta"
+    },
+    {
+      "tipo": "oracao",
+      "titulo": "Ore agora",
+      "texto": "Senhor, aquece o meu coração com a certeza do teu perdão. Dá-me disciplina, irmãos para caminhar e mãos para servir. Amém.",
+      "isca": "Último passo",
+      "busca": "candle prayer dark",
+      "foto": "https://cdn.pixabay.com/photo/2026/06/09/07/41/07-41-28-589_1280.jpg"
+    },
+    {
+      "tipo": "final",
+      "titulo": "Salve e leia a história *completa*.",
+      "texto": "Envie para quem quer uma fé com método e graça.",
+      "rodape": "Texto completo: ateladoreino.com · link na bio",
+      "busca": "sunrise field",
+      "foto": "https://cdn.pixabay.com/photo/2021/06/02/09/27/sunset-6303992_1280.jpg"
+    }
+  ]
+}

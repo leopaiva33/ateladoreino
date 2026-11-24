@@ -88,7 +88,7 @@ Filipenses 4:6-7 é um bom começo, assim como 1 Pedro 5:7 e Mateus 6:25-34. Lei
 
 A paz de Deus não chega por esforço, mas por entrega repetida: a cada preocupação, uma oração; a cada dia, um passo. Comece hoje com o exercício de cinco minutos e, se a ansiedade pesar, procure também ajuda profissional.
 
-Para continuar, leia [Confiar em Deus nos tempos difíceis](/blog/confiar-em-deus-nos-tempos-dificeis) e [O poder da oração no dia a dia](/blog/o-poder-da-oracao-no-dia-a-dia).
+Para continuar, leia [Confiar em Deus nos tempos difíceis](/blog/confiar-em-deus-nos-tempos-dificeis/) e [O poder da oração no dia a dia](/blog/o-poder-da-oracao-no-dia-a-dia/).
 
 ## Referências
 

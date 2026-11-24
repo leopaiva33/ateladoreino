@@ -71,7 +71,7 @@ Jesus conta uma parábola para mostrar que é preciso orar sempre e nunca desfal
 3. **Anote** o que o texto ensina e o que você vai fazer.
 4. **Ore por alguém** usando o texto como base.
 
-Se está começando, veja [Como ler a Bíblia todos os dias](/blog/como-ler-a-biblia-todos-os-dias) e [O poder da oração no dia a dia](/blog/o-poder-da-oracao-no-dia-a-dia).
+Se está começando, veja [Como ler a Bíblia todos os dias](/blog/como-ler-a-biblia-todos-os-dias/) e [O poder da oração no dia a dia](/blog/o-poder-da-oracao-no-dia-a-dia/).
 
 ## Perguntas frequentes
 

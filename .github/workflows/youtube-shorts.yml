@@ -1,0 +1,61 @@
+name: YouTube Shorts agendado
+
+# Publica no YouTube, como Short, o Reel de cada artigo (public/social/<slug>/reel.mp4) no dia
+# em que o artigo entra no blog: às 12:47 (Brasília), logo depois do Reel do Instagram (12:19).
+# A execução das 21:31 é reforço. Grava conteudo-social/<slug>/short.json, o que impede repetir.
+on:
+  schedule:
+    - cron: '47 15 * * *' # 12:47 em Brasília
+    - cron: '31 0 * * *' # 21:31 em Brasília (reforço)
+  workflow_dispatch:
+    inputs:
+      slug:
+        description: 'Opcional: slug de um artigo já publicado (fora da fila)'
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: instagram-agendado
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Qual Short publicar?
+        id: fila
+        env:
+          SLUG_MANUAL: ${{ inputs.slug }}
+        run: |
+          if [ -n "$SLUG_MANUAL" ]; then echo "slug=$SLUG_MANUAL" >> "$GITHUB_OUTPUT"
+          else node scripts/instagram-agendado.mjs --short; fi
+
+      - name: Publicar no YouTube
+        if: steps.fila.outputs.slug != ''
+        env:
+          YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+          YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+          YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
+          SLUG: ${{ steps.fila.outputs.slug }}
+        run: node scripts/publicar-shorts.mjs "$SLUG" --publicar
+
+      - name: Registrar publicação
+        if: steps.fila.outputs.slug != ''
+        env:
+          SLUG: ${{ steps.fila.outputs.slug }}
+        run: |
+          [ -f "conteudo-social/$SLUG/short.json" ] || exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "conteudo-social/$SLUG/short.json"
+          git commit -m "chore: Short de $SLUG publicado no YouTube"
+          git pull --rebase
+          git push
