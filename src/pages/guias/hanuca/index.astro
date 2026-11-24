@@ -1,0 +1,63 @@
+---
+// Página de inscrição do guia "Hanucá e Jesus" (isca da newsletter). Depois de confirmar o
+// e-mail, a pessoa vai para /guias/hanuca/obrigado/, que tem o PDF (public/guias/hanuca.pdf,
+// gerado por `node scripts/gerar-pdf-guia.mjs hanuca` a partir de assets/guias/hanuca.html).
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import NewsletterForm from '../../../components/NewsletterForm.astro';
+---
+
+<BaseLayout
+  title="Guia grátis: Hanucá e Jesus em 8 noites"
+  description="Roteiro em PDF para os dias de Hanucá (4 a 11/12/2026): o que é a festa da Dedicação, Jesus em João 10 e uma leitura bíblica por noite."
+  image="/images/posts/hanuca-e-jesus.png"
+>
+  <section class="guia">
+    <p class="guia-rotulo">Guia gratuito em PDF</p>
+    <h1>Hanucá e Jesus: 8 noites com a luz do mundo</h1>
+    <picture>
+      <source srcset="/images/posts/hanuca-e-jesus.webp" type="image/webp" />
+      <img
+        src="/images/posts/hanuca-e-jesus.png"
+        alt="Ilustração de um pórtico de colunas de pedra sob um céu de inverno à noite, com uma lâmpada a óleo acesa e um halo dourado no centro"
+        width="1200"
+        height="630"
+      />
+    </picture>
+    <p>
+      Em João 10:22-23, Jesus está no Templo durante a festa da Dedicação, que os judeus chamam de
+      Hanucá. Este guia ajuda você a viver esses dias com a Bíblia aberta: de <strong>4 a 11 de dezembro</strong>,
+      uma leitura curta por noite, com contexto, uma pergunta e uma oração.
+    </p>
+    <h2>O que tem no guia</h2>
+    <ul>
+      <li>O que Hanucá lembra, separando o que é história e o que é tradição</li>
+      <li>Por que João conta que Jesus estava no Templo "e era inverno"</li>
+      <li>8 leituras bíblicas, uma para cada noite, do Templo de Salomão ao Apocalipse</li>
+      <li>Uma pergunta para refletir e uma oração curta em cada noite</li>
+      <li>8 páginas, para ler no celular ou imprimir</li>
+    </ul>
+    <p>Citações na Almeida Revista e Corrigida (ARC). Você não precisa celebrar Hanucá para usar o roteiro.</p>
+  </section>
+
+  <NewsletterForm
+    isca="hanuca"
+    titulo="Receba o guia no seu e-mail"
+    texto="Deixe o seu e-mail e confirme a inscrição: o guia abre na hora. Você também passa a receber a reflexão da semana, todo domingo, e pode cancelar quando quiser."
+    botao="Quero o guia grátis"
+  />
+
+  <p>Prefere ler primeiro? Veja o artigo <a href="/blog/hanuca-e-jesus/">Hanucá e Jesus: a festa da Dedicação em João 10</a>.</p>
+</BaseLayout>
+
+<style>
+  .guia { margin-bottom: 1.5rem; }
+  .guia-rotulo {
+    font-family: var(--fonte-interface);
+    font-size: 0.8rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--cor-texto-suave);
+    margin-bottom: 0.25rem;
+  }
+  .guia img { width: 100%; height: auto; border-radius: var(--raio); margin: 0.5rem 0 1rem; }
+</style>

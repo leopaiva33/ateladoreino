@@ -1,0 +1,101 @@
+{
+  "slug": "hanuca-e-jesus",
+  "arte": "public/images/posts/hanuca-e-jesus.png",
+  "clima": "calma",
+  "legenda": "Você já tinha lido que Jesus estava no Templo na festa da Dedicação? Conte nos comentários.\n\nEnvie para quem gosta de estudar a Bíblia.\n\nReceba grátis por e-mail o guia com as 8 leituras, uma para cada noite, e leia o texto completo em ateladoreino.com (link na bio).\n\n#Hanucá #Hanuca #Jesus #EstudoBíblico #Bíblia #ATelaDoReino",
+  "slides": [
+    {
+      "tipo": "capa",
+      "busca": "ancient stone columns night",
+      "chapeu": "Contexto judaico",
+      "titulo": "Jesus no Templo *em Hanucá*",
+      "apoio": "Hanucá começa em 4/12. João 10 conta o que aconteceu ali.",
+      "isca": "Deslize",
+      "foto": "https://cdn.pixabay.com/photo/2013/10/29/19/22/cloister-202552_1280.jpg"
+    },
+    {
+      "tipo": "texto",
+      "busca": "ancient oil lamp flame",
+      "titulo": "Hanucá quer dizer *dedicação*.",
+      "texto": "Em 164 a.C., o Templo profanado foi purificado e consagrado de novo, com oito dias de festa.",
+      "isca": "História ou tradição?",
+      "foto": "https://cdn.pixabay.com/photo/2014/12/20/22/35/kerosene-lamp-574504_1280.jpg"
+    },
+    {
+      "tipo": "lista",
+      "titulo": "História e tradição",
+      "itens": [
+        "1 Macabeus (livro histórico): o Templo consagrado.",
+        "25 de Kislev (mês judaico): 8 dias de festa.",
+        "O milagre do óleo vem do Talmude.",
+        "João 10: Jesus no Templo."
+      ],
+      "isca": "O que João anotou"
+    },
+    {
+      "tipo": "versiculo",
+      "busca": "ancient stone wall winter",
+      "citacao": "E em Jerusalém havia a Festa da Dedicação, e era inverno.",
+      "ref": "João 10:22",
+      "destaque": "João anota a festa e *até a estação.*",
+      "isca": "Onde Jesus estava",
+      "foto": "https://cdn.pixabay.com/photo/2018/04/13/19/17/historical-landmark-3317316_1280.jpg"
+    },
+    {
+      "tipo": "versiculo",
+      "busca": "stone colonnade arches",
+      "citacao": "E Jesus passeava no templo, no alpendre de Salomão.",
+      "ref": "João 10:23",
+      "destaque": "Uma galeria de colunas, *abrigo no inverno.*",
+      "isca": "A resposta de Jesus",
+      "foto": "https://cdn.pixabay.com/photo/2024/09/08/20/30/architecture-9033164_1280.jpg"
+    },
+    {
+      "tipo": "versiculo",
+      "busca": "open bible candle light",
+      "citacao": "Eu e o Pai somos um.",
+      "ref": "João 10:30",
+      "destaque": "Pediram uma resposta clara. *Ele disse isto.*",
+      "isca": "Uma leitura por noite",
+      "foto": "https://cdn.pixabay.com/photo/2017/08/29/09/22/tealight-2692556_1280.jpg"
+    },
+    {
+      "tipo": "lista",
+      "titulo": "As 8 leituras: 4 a 7/12",
+      "itens": [
+        "4/12 · João 10:22-30",
+        "5/12 · 1 Reis 8:22-30",
+        "6/12 · Esdras 6:14-18",
+        "7/12 · Daniel 11:31-32"
+      ],
+      "isca": "E as outras 4"
+    },
+    {
+      "tipo": "lista",
+      "titulo": "As 8 leituras: 8 a 11/12",
+      "itens": [
+        "8/12 · Salmos 30",
+        "9/12 · João 9:1-7",
+        "10/12 · 1 Coríntios 6:19-20",
+        "11/12 · Apocalipse 21:22-27"
+      ],
+      "isca": "Ore agora"
+    },
+    {
+      "tipo": "oracao",
+      "busca": "candle window night",
+      "titulo": "Ore agora, com estas palavras",
+      "texto": "Senhor, como o Templo foi consagrado de novo, purifica o meu coração e consagra a minha vida a ti. Amém.",
+      "isca": "Para as 8 noites",
+      "foto": "https://cdn.pixabay.com/photo/2022/01/16/19/01/candle-6942931_1280.jpg"
+    },
+    {
+      "tipo": "final",
+      "busca": "warm lamp light night",
+      "titulo": "Salve para ler *nas 8 noites.*",
+      "texto": "Envie para quem gosta de estudar a Bíblia.",
+      "rodape": "Guia grátis: ateladoreino.com · link na bio",
+      "foto": "https://cdn.pixabay.com/photo/2013/12/08/10/52/lamp-225043_1280.jpg"
+    }
+  ]
+}
