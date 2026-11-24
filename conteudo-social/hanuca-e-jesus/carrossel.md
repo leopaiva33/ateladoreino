@@ -74,7 +74,7 @@ Artigo: src/content/blog/hanuca-e-jesus.md
 
 - **titulo:** Salve para ler *nas 8 noites.*
 - **texto:** Envie para quem gosta de estudar a Bíblia.
-- **rodape:** Guia grátis das 8 leituras: ateladoreino.com · link na bio
+- **rodape:** Guia grátis: ateladoreino.com · link na bio
 
 ## Legenda
 
