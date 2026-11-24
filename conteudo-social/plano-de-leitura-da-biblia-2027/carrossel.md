@@ -35,7 +35,7 @@ Artigo: src/content/blog/plano-de-leitura-da-biblia-2027.md
 ## Slide 5 (texto)
 
 - **titulo:** Uma nota de *contexto judaico* por mês.
-- **texto:** O Shemá ("Ouve, Israel") que Jesus cita, a festa por trás do Pentecostes, a nova aliança de Jeremias.
+- **texto:** O Shemá (“Ouve, Israel”) que Jesus cita, a festa por trás do Pentecostes, a nova aliança de Jeremias.
 - **isca:** E se eu atrasar?
 
 ## Slide 6 (lista)
