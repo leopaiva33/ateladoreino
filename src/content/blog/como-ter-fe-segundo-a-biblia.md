@@ -57,7 +57,7 @@ Confiar é também agir: perdoar, servir, ser honesto, dar o próximo passo que 
 
 ## Fé quando tudo dá errado
 
-O profeta Habacuque diz que, ainda que a figueira não floresça, nem haja fruto na vide, ele se alegrará no Senhor (Habacuque 3:17-18). A fé madura se apoia em quem Deus é, e não apenas em como as coisas estão indo. Se você passa por um momento assim, leia também [Confiar em Deus nos tempos difíceis](/blog/confiar-em-deus-nos-tempos-dificeis/).
+O profeta Habacuque diz que, ainda que a figueira não floresça, nem haja fruto na vide, ele se alegrará no Senhor (Habacuque 3:17-18). A fé madura se apoia em quem Deus é, e não apenas em como as coisas estão indo. Se você passa por um momento assim, leia também [como manter a fé e confiar em Deus nos tempos difíceis](/blog/confiar-em-deus-nos-tempos-dificeis/).
 
 Se a tristeza ou a ansiedade forem intensas e duradouras, procure ajuda profissional. No Brasil, o CVV atende gratuitamente, 24 horas por dia, pelo telefone 188.
 

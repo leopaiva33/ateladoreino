@@ -2,6 +2,7 @@
 title: "Advento 2026: datas, significado e plano de 4 semanas"
 description: "O Advento 2026 começa em 29 de novembro. Veja as datas dos 4 domingos, o significado das velas e um plano simples de leituras e orações."
 pubDate: 2026-11-12T07:00:00-03:00
+updatedDate: 2026-11-25T07:00:00-03:00
 image: "/images/posts/advento-como-se-preparar-para-o-natal.png"
 imageAlt: "Ilustração de uma coroa de Advento com quatro velas, sendo a primeira acesa"
 video: "SfsF5e8OcsQ"
@@ -31,6 +32,17 @@ O Advento começa no **quarto domingo antes do Natal**. Em 2026, o Natal cai num
 - **Coroa de Advento:** um círculo de ramos verdes, que lembra a vida que não acaba, com **quatro velas**, uma acesa a cada domingo. Muitas igrejas usam três velas roxas e uma rosa, mas as cores variam; o que importa é o sentido.
 - **Velas:** a luz que cresce a cada semana lembra que Cristo é a luz que resplandece nas trevas (João 1:5).
 - **Temas das semanas:** muitas tradições dedicam as semanas à **esperança, à paz, à alegria e ao amor**. Há outras sequências (como os profetas, Belém, os pastores e os anjos); escolha a que fizer sentido para a sua comunidade.
+
+## Como montar uma coroa de Advento em casa
+
+Não precisa de nada caro. Em 15 minutos dá para montar uma coroa simples:
+
+1. **Base:** um prato redondo ou uma forma de bolo com furo no meio.
+2. **Ramos:** folhagens verdes do jardim, ramos de pinheiro ou mesmo papel verde recortado.
+3. **Quatro velas:** de qualquer cor (veja as cores tradicionais nas perguntas frequentes).
+4. **Uma vela branca no centro (opcional):** acesa no Natal, lembrando que Jesus chegou.
+
+Deixe a coroa na mesa onde a família come. Assim, a vela da semana acompanha as refeições e lembra a espera por Jesus no meio da rotina. Cuidado com o fogo perto de crianças e de ramos secos.
 
 ## Plano de 4 semanas para se preparar
 
@@ -69,6 +81,11 @@ Leia Lucas 2:1-20 em família antes da ceia. É a história de Belém, contada d
 - Acenda a vela da semana e leia um trecho curto da Bíblia.
 - Faça um **calendário de Advento** com uma tarefa de bondade por dia (um desenho, uma ligação, uma oração por alguém).
 - Monte um presépio aos poucos, acrescentando uma figura por semana.
+- Deixe uma criança acender a vela, com um adulto do lado, e outra fazer a oração curta do domingo.
+
+## Advento e Hanucá: duas festas de luz em dezembro
+
+Em 2026, a festa judaica de Hanucá acontece de 4 a 12 de dezembro, entre o fim da primeira e a segunda semana do Advento. São festas diferentes, mas as duas usam a luz como sinal. O Evangelho de João conta que Jesus estava no Templo durante essa festa, chamada de festa da Dedicação (João 10:22-23). Se quiser entender a ligação, leia [Hanucá e Jesus: a festa da Dedicação em João 10](/blog/hanuca-e-jesus/).
 
 ## Perguntas frequentes
 
@@ -81,6 +98,9 @@ Não. Elas ajudam, mas um calendário de leituras e orações simples já basta.
 **Qual a diferença entre Advento e Natal?**
 O Advento é a preparação, o tempo de espera. O Natal é a celebração do nascimento de Jesus, a partir de 25 de dezembro.
 
+**Quais são as cores das velas do Advento?**
+O costume mais comum é usar três velas roxas e uma rosa, acesa no 3º domingo. Muitas famílias usam velas brancas ou vermelhas; não há uma regra bíblica sobre as cores.
+
 **Posso começar depois do primeiro domingo?**
 Sim. Comece de onde estiver; o importante é preparar o coração.
 
@@ -88,5 +108,5 @@ Sim. Comece de onde estiver; o importante é preparar o coração.
 
 - Isaías 9:2-7 · 11:1-10
 - Lucas 1:39-56 · 2:1-20
-- João 1:5 · 3:16
+- João 1:5 · 3:16 · 10:22-23
 - 1 João 4:9-10
