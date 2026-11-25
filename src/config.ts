@@ -32,7 +32,7 @@ export const SITE = {
   author: {
     name: 'Leonardo Paiva',
     /** Ex.: "Escritor e líder de pequeno grupo há 10 anos" (apenas se for verdade). */
-    bio: '',
+    bio: 'Criador da A Tela do Reino, onde escreve devocionais e estudos semanais da Torá para explicar a Bíblia no contexto judaico de Jesus, de forma simples.',
     /** Frase de propósito do site, mostrada na caixa de autor no fim dos artigos. */
     proposito:
       'Escrevo a A Tela do Reino para levar a Palavra de Deus ao dia a dia de quem quer crescer na fé, com devocionais, reflexões bíblicas e encorajamento.',
