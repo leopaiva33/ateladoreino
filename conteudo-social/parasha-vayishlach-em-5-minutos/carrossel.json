@@ -1,0 +1,15 @@
+{
+  "slug": "parasha-vayishlach-em-5-minutos",
+  "arte": "public/images/posts/parasha-da-semana.png",
+  "clima": "esperanca",
+  "legenda": "Tem alguém que você precisa procurar para fazer as pazes? Conte nos comentários, sem citar nomes.\n\nEnvie para quem gosta de estudar a Bíblia.\n\nLeia a parashá da semana em 5 minutos, e o estudo completo de Vayishlach, em ateladoreino.com (link na bio).\n\n#ParashaDaSemana #Torá #EstudoBíblico #Bíblia #Fé #ATelaDoReino",
+  "slides": [
+    { "tipo": "capa", "busca": "river stones dawn", "chapeu": "Parashá da semana", "titulo": "Vayishlach: a luta que virou *bênção*", "apoio": "Gênesis 32 a 36, lida neste sábado. Em 5 minutos.", "isca": "Deslize" },
+    { "tipo": "texto", "busca": "lonely road dusk", "titulo": "Jacó volta para casa *com medo*.", "texto": "Esaú, o irmão que ele enganou, vem ao seu encontro com quatrocentos homens.", "isca": "A noite no Jaboque" },
+    { "tipo": "versiculo", "busca": "river night stars", "citacao": "Não te deixarei ir, se me não abençoares.", "ref": "Gênesis 32:26", "destaque": "Jacó luta a noite inteira e *não larga.*", "isca": "Um nome novo" },
+    { "tipo": "texto", "busca": "sunrise mountains light", "titulo": "Israel: *lutou com Deus*.", "texto": "O nome hebraico Yisra'el junta lutar ou perseverar com El, Deus. Jacó sai mancando, mas abençoado.", "isca": "E o irmão?" },
+    { "tipo": "versiculo", "busca": "two people hug back view", "citacao": "Então, Esaú correu-lhe ao encontro e abraçou-o; e lançou-se sobre o seu pescoço e beijou-o; e choraram.", "ref": "Gênesis 33:4", "destaque": "O mesmo gesto do pai do *filho pródigo* (Lucas 15:20).", "isca": "Ore agora" },
+    { "tipo": "oracao", "busca": "candle hands prayer", "titulo": "Ore agora, com estas palavras", "texto": "Senhor, dá-me coragem para procurar quem eu evito e humildade para pedir a tua bênção. Amém.", "isca": "Para este sábado" },
+    { "tipo": "final", "busca": "warm sunrise field", "titulo": "Salve e leia *neste sábado.*", "texto": "Envie para quem gosta de estudar a Bíblia.", "rodape": "Texto completo: ateladoreino.com · link na bio" }
+  ]
+}
