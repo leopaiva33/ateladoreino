@@ -5,10 +5,12 @@ pubDate: 2026-11-27T07:00:00-03:00
 image: "/images/posts/parasha-da-semana.png"
 imageAlt: "Ilustração de um rolo de pergaminho aberto sobre um suporte de madeira, ao amanhecer, com o sol nascendo atrás de colinas"
 category: "Vida cristã"
-tags: ["parashá da semana", "Torá", "contexto judaico", "Antigo Testamento"]
+tags: ["parashá da semana", "Torá", "contexto judaico", "estudo bíblico"]
 ---
 
-**A parashá desta semana é Vayishlach, Gênesis 32:3 a 36:43, lida nas sinagogas no sábado, 28 de novembro de 2026: Jacó volta para casa, luta a noite inteira, recebe o nome Israel e reencontra o irmão que temia.** *Vayishlach* (וַיִּשְׁלַח) quer dizer "e enviou", a primeira palavra da porção: "E enviou Jacó mensageiros diante da sua face a Esaú, seu irmão" (Gênesis 32:3).
+**A parashá desta semana é Vayishlach, Gênesis 32:3 a 36:43, lida nas sinagogas no sábado, 28 de novembro de 2026: Jacó volta para casa, luta a noite inteira, recebe o nome Israel e reencontra o irmão que temia.**
+
+*Vayishlach* (וַיִּשְׁלַח) quer dizer "e enviou", a primeira palavra da porção: "E enviou Jacó mensageiros diante da sua face a Esaú, seu irmão" (Gênesis 32:3).
 
 Esta é a série **A parashá da semana em 5 minutos**: toda sexta-feira, a porção da Torá que os judeus leem no sábado, com uma palavra hebraica e a ligação com Jesus.
 
@@ -27,7 +29,7 @@ Na numeração da Bíblia hebraica, a porção começa em Gênesis 32:4; na ARC,
 
 No fim da luta, Jacó pede uma bênção e não larga o adversário: "Não te deixarei ir, se me não abençoares" (Gênesis 32:26). A resposta é um nome novo: "Não se chamará mais o teu nome Jacó, mas Israel, pois, como príncipe, lutaste com Deus e com os homens e prevaleceste" (Gênesis 32:28).
 
-*Yisra'el* (יִשְׂרָאֵל) junta um verbo ligado a lutar ou perseverar com *El*, Deus. O próprio texto explica o nome pela luta. É o nome que passa a designar todo o povo: os "filhos de Israel".
+*Yisra'el* (יִשְׂרָאֵל) junta um verbo ligado a lutar ou perseverar com *El*, Deus. O próprio texto explica o nome pela luta; a ARC traduz "como príncipe", ligando o nome também a *sar*, "príncipe", e a origem exata da palavra é discutida pelos estudiosos. É o nome que passa a designar todo o povo: os "filhos de Israel".
 
 Jacó chama o lugar de *Peniel* (פְּנִיאֵל), "face de Deus", "porque dizia: Tenho visto a Deus face a face, e a minha alma foi salva" (Gênesis 32:30). Quem era o homem da luta, o texto deixa em aberto; o profeta Oseias o chama de anjo (Oseias 12:4).
 
@@ -39,9 +41,9 @@ Jesus conta a história de um perdão que vai ao encontro antes de qualquer disc
 
 ## Para a vida
 
-Jacó não resolveu o medo fugindo de novo. Ele orou, deu o primeiro passo em direção ao irmão e lutou com Deus em vez de lutar contra ele. Saiu mancando, mas abençoado.
+Jacó não resolveu o medo fugindo de novo. Ele orou, deu o primeiro passo em direção ao irmão e lutou com Deus em vez de lutar contra o irmão. Saiu mancando, mas abençoado.
 
-Se há uma conversa difícil que você vem adiando, esta semana pode ser a da primeira mensagem. Ore antes, como Jacó. O resultado não está nas suas mãos; o passo, sim.
+Se há uma conversa difícil que você vem adiando, esta semana pode ser a da primeira mensagem, quando for seguro e sábio. Ore antes, como Jacó. O resultado não está nas suas mãos; o passo, sim.
 
 > *Senhor, menor sou eu que toda a tua fidelidade. Dá-me coragem para procurar quem eu evito e humildade para pedir a tua bênção. Que eu saia das minhas lutas mais perto de ti. Amém.*
 
