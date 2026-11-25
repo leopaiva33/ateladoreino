@@ -56,4 +56,6 @@ Compartilhe com alguém que também quer se aproximar de Deus.
 
 Leia o texto completo, com exemplos bíblicos e 6 práticas simples, em ateladoreino.com (link na bio).
 
+Grátis: o Plano de leitura da Bíblia 2027 em PDF, em ateladoreino.com/links.
+
 #IntimidadeComDeus #Oração #VidaDevocional #Bíblia #VidaCristã #ATelaDoReino

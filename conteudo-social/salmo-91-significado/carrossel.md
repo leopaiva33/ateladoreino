@@ -58,4 +58,6 @@ Leia o texto completo, com a estrutura do salmo e uma oração baseada nele, em 
 
 Conteúdo devocional. Não substitui ajuda profissional, médica ou pastoral. Se o medo ou a ansiedade forem intensos, procure ajuda; o CVV atende pelo 188, 24 horas.
 
+Grátis: o Plano de leitura da Bíblia 2027 em PDF, em ateladoreino.com/links.
+
 #Salmo91 #Salmos #Proteção #ConfiançaEmDeus #Bíblia #ATelaDoReino

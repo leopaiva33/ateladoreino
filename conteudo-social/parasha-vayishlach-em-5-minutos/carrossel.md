@@ -56,4 +56,6 @@ Envie para quem gosta de estudar a Bíblia.
 
 Leia o texto completo em ateladoreino.com (link na bio). O estudo completo de Vayishlach também está lá.
 
+Grátis: o Plano de leitura da Bíblia 2027 em PDF, em ateladoreino.com/links.
+
 #ParashaDaSemana #Torá #EstudoBíblico #Bíblia #Fé #ATelaDoReino

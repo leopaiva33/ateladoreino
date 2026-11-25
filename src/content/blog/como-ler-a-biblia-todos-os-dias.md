@@ -2,6 +2,7 @@
 title: "Como ler a Bíblia todos os dias: plano simples de 4 semanas"
 description: "Por onde começar, quanto tempo reservar e um plano de 4 semanas para criar o hábito de ler a Bíblia todos os dias, mesmo com a rotina corrida."
 pubDate: 2026-11-04
+updatedDate: 2026-11-25
 image: "/images/posts/como-ler-a-biblia-todos-os-dias.png"
 imageAlt: "Ilustração de um caminho que sobe entre colinas em direção ao nascer do sol, com quatro marcos dourados ao longo do trajeto"
 category: "Vida cristã"
@@ -76,7 +77,7 @@ Como usar o plano:
 - Aplique o método de 4 passos em pelo menos uma leitura por dia.
 - Ao fim das 4 semanas, escolha o próximo livro (por exemplo, o Evangelho de João ou Provérbios) e repita.
 
-Se você quiser ler a Bíblia inteira em um ano, saiba que ela tem 1.189 capítulos, o que dá em média 3 a 4 capítulos por dia. Muitos planos de um ano alternam trechos do Antigo e do Novo Testamento para variar a leitura. Vale começar pelo plano de 4 semanas e, se o hábito pegar, passar para um plano anual. Outra opção é o [plano de leitura da Torá](/plano-de-leitura-tora/), que segue as porções semanais lidas nas sinagogas, com os Profetas e o Novo Testamento.
+Se você quiser ler a Bíblia inteira em um ano, saiba que ela tem 1.189 capítulos, o que dá pouco mais de 3 capítulos por dia. Muitos planos de um ano alternam trechos do Antigo e do Novo Testamento para variar a leitura. Vale começar pelo plano de 4 semanas e, se o hábito pegar, passar para um plano anual, como o [Plano de leitura da Bíblia 2027 em PDF gratuito](/guias/plano-2027/), que divide a Bíblia toda em 365 dias. Outra opção é o [plano de leitura da Torá](/plano-de-leitura-tora/), que segue as porções semanais lidas nas sinagogas, com os Profetas e o Novo Testamento.
 
 ## Erros comuns (e como evitá-los)
 
@@ -98,7 +99,7 @@ Por isso, o foco no começo é **constância, não perfeição**.
 A que você consegue manter. Para muitas pessoas é de manhã, mas quem rende mais à noite pode ler antes de dormir.
 
 **Quantos capítulos devo ler por dia?**
-Para começar, um capítulo ou 10 a 15 minutos. Planos para ler a Bíblia em um ano pedem, em média, 3 a 4 capítulos por dia.
+Para começar, um capítulo ou 10 a 15 minutos. Planos para ler a Bíblia em um ano pedem pouco mais de 3 capítulos por dia (são 1.189 capítulos em 365 dias).
 
 **Posso ler a Bíblia no celular?**
 Sim. O importante é reduzir as distrações: coloque o telefone no modo "não perturbe" durante a leitura.

@@ -55,4 +55,6 @@ Compartilhe com alguém que está lendo os evangelhos.
 
 Leia o texto completo, com o que a Bíblia diz sobre cada um dos doze, em ateladoreino.com (link na bio).
 
+Grátis: o Plano de leitura da Bíblia 2027 em PDF, em ateladoreino.com/links.
+
 #Apóstolos #Jesus #Discípulos #EstudoBíblico #Bíblia #ATelaDoReino

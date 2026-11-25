@@ -45,6 +45,19 @@ export const SITE = {
   googleAnalytics: 'G-83V6M71HN7' as string,
   // Liga o formulário da newsletter (Brevo) quando a conta estiver configurada.
   newsletter: true as boolean,
+  /**
+   * Isca em destaque no fim dos artigos: no lugar da caixa genérica da newsletter, o formulário
+   * entrega um guia (ver ISCAS em api/newsletter.js). Vale até a data `ate` (o site é reconstruído
+   * todo dia, então volta sozinho à caixa genérica depois). Sem isca: `null`.
+   */
+  iscaDestaque: {
+    isca: 'plano-2027',
+    ate: '2027-02-28T23:59:00-03:00',
+    titulo: 'Grátis: Plano de leitura da Bíblia 2027',
+    texto:
+      'A Bíblia toda em 365 dias, cerca de 3 capítulos por dia, com uma nota de contexto judaico por mês. Deixe o seu e-mail, confirme e o PDF abre na hora. Você também recebe a reflexão da semana, todo domingo.',
+    botao: 'Quero o plano grátis',
+  } as { isca: string; ate: string; titulo: string; texto: string; botao: string } | null,
 
   adsense: {
     /** ID do editor (ca-pub-...). Também deve estar em public/ads.txt. */

@@ -103,7 +103,18 @@ const jsonLd = jsonLdArtigo({
 
     <AutorBox />
 
-    <NewsletterForm />
+    {
+      SITE.iscaDestaque && Date.now() < Date.parse(SITE.iscaDestaque.ate) ? (
+        <NewsletterForm
+          isca={SITE.iscaDestaque.isca}
+          titulo={SITE.iscaDestaque.titulo}
+          texto={SITE.iscaDestaque.texto}
+          botao={SITE.iscaDestaque.botao}
+        />
+      ) : (
+        <NewsletterForm />
+      )
+    }
 
     <LeiaTambem posts={relacionados} />
 

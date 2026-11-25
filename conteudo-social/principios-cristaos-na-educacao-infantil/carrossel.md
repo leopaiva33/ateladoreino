@@ -58,4 +58,6 @@ Leia o texto completo, com ideias práticas por idade, em ateladoreino.com (link
 
 Este conteúdo é devocional e não substitui ajuda profissional ou pastoral. Suspeita de violência contra criança: Disque 100 (gratuito, 24 h) ou Conselho Tutelar.
 
+Grátis: o Plano de leitura da Bíblia 2027 em PDF, em ateladoreino.com/links.
+
 #EducaçãoCristã #Filhos #Família #FéEmFamília #Bíblia #ATelaDoReino

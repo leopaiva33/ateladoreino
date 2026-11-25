@@ -56,4 +56,6 @@ Compartilhe com quem gosta de história da igreja.
 
 Leia a história completa do avivamento da Rua Azusa em ateladoreino.com (link na bio).
 
+Grátis: o Plano de leitura da Bíblia 2027 em PDF, em ateladoreino.com/links.
+
 #Avivamento #RuaAzusa #HistóriaDaIgreja #Oração #UnidadeCristã #ATelaDoReino

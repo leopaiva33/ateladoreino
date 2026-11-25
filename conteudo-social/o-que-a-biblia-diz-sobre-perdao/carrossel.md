@@ -57,4 +57,6 @@ Leia o texto completo, com passos práticos e uma oração sobre o perdão, em a
 
 Conteúdo devocional. Não substitui ajuda profissional, jurídica ou pastoral. Em situação de violência, a prioridade é a sua segurança: mulheres podem ligar para o 180; em emergência, 190. O CVV (188) oferece apoio emocional 24 horas.
 
+Grátis: o Plano de leitura da Bíblia 2027 em PDF, em ateladoreino.com/links.
+
 #Perdão #Perdoar #VidaCristã #Bíblia #Fé #ATelaDoReino

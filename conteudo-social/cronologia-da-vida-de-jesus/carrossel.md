@@ -56,4 +56,6 @@ Salve para consultar quando ler os Evangelhos e compartilhe com seu grupo de est
 
 Leia a cronologia completa, com as referências de cada fase, em ateladoreino.com (link na bio).
 
+Grátis: o Plano de leitura da Bíblia 2027 em PDF, em ateladoreino.com/links.
+
 #VidaDeJesus #Evangelhos #EstudoBíblico #Bíblia #Jesus #ATelaDoReino
