@@ -1,0 +1,17 @@
+{
+  "slug": "jesus-era-judeu",
+  "arte": "public/images/posts/jesus-era-judeu.png",
+  "clima": "esperanca",
+  "legenda": "Qual destes detalhes você não conhecia? Conte nos comentários.\n\nEnvie para quem gosta de estudar a Bíblia.\n\nLeia o texto completo em ateladoreino.com (link na bio).\n\nGrátis: o Plano de leitura da Bíblia 2027 em PDF, em ateladoreino.com/links.\n\n#JesusJudeu #ContextoJudaico #EstudoBíblico #Bíblia #Fé #ATelaDoReino",
+  "slides": [
+    { "tipo": "capa", "busca": "ancient stone road hills sunset", "chapeu": "Contexto judaico", "titulo": "Jesus era *judeu*?", "apoio": "Sim. E isso muda a forma de ler os evangelhos.", "isca": "Deslize" },
+    { "tipo": "versiculo", "busca": "old book candle warm", "citacao": "Livro da geração de Jesus Cristo, Filho de Davi, Filho de Abraão.", "ref": "Mateus 1:1", "destaque": "O Novo Testamento começa *pela família de Israel.*", "isca": "O que os evangelhos mostram" },
+    { "tipo": "lista", "titulo": "O Jesus judeu nos evangelhos", "itens": ["Circuncidado ao oitavo dia (Lucas 2:21).", "Na Páscoa em Jerusalém (Lucas 2:41-42).", "Na sinagoga, no sábado (Lucas 4:16).", "Chamado de Rabi, Mestre (João 1:38)."], "isca": "Um detalhe na roupa" },
+    { "tipo": "texto", "busca": "linen fabric fringe threads", "titulo": "A *orla* da veste.", "texto": "A mulher tocou a orla da roupa de Jesus (Mateus 9:20). Muitos estudiosos entendem que eram as franjas que a Torá mandava usar (Números 15:38).", "isca": "Ele lia a Bíblia de quem?" },
+    { "tipo": "versiculo", "busca": "scroll ancient text light", "citacao": "E, começando por Moisés e por todos os profetas, explicava-lhes o que dele se achava em todas as Escrituras.", "ref": "Lucas 24:27", "destaque": "O Antigo Testamento é *a Bíblia de Jesus.*", "isca": "E os fariseus?" },
+    { "tipo": "texto", "busca": "people talking old town square", "titulo": "Debates *entre judeus*.", "texto": "Os fariseus eram um movimento respeitado e diverso. Paulo dizia: eu sou fariseu (Atos 23:6).", "isca": "O que muda para você" },
+    { "tipo": "lista", "titulo": "O que muda na leitura", "itens": ["Ler o Antigo Testamento que Jesus cita.", "Reparar nas festas e nos dias.", "Não ler os evangelhos contra o povo judeu.", "Acompanhar a Torá semana a semana."], "isca": "Ore agora" },
+    { "tipo": "oracao", "busca": "window light morning prayer", "titulo": "Ore agora, com estas palavras", "texto": "Senhor Jesus, abre os meus olhos para ler as Escrituras como tu as lias e para amar o povo de onde vieste. Amém.", "isca": "Para guardar" },
+    { "tipo": "final", "busca": "golden hills sunrise", "titulo": "Salve para ler os evangelhos *com outros olhos.*", "texto": "Envie para quem gosta de estudar a Bíblia.", "rodape": "Texto completo: ateladoreino.com · link na bio" }
+  ]
+}
