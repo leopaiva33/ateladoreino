@@ -1,7 +1,7 @@
 ---
 title: "Avivamento wesleyano: John Wesley e o metodismo"
 description: "Como John Wesley, seu irmão Charles e George Whitefield viveram o avivamento do século XVIII e o que essa história ensina sobre fé e prática."
-pubDate: 2026-11-27T07:00:00-03:00
+pubDate: 2026-12-02T07:00:00-03:00
 image: "/images/posts/avivamento-wesleyano.png"
 imageAlt: "Ilustração de um campo aberto ao amanhecer, com uma estrada de terra e um cavalo selado ao lado de uma árvore"
 category: "Vida cristã"

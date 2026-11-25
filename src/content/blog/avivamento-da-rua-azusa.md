@@ -1,7 +1,7 @@
 ---
 title: "Avivamento da Rua Azusa: a história de 1906"
 description: "A história do avivamento da Rua Azusa, em Los Angeles, em 1906: William Seymour, as reuniões de oração e seu papel no movimento pentecostal."
-pubDate: 2026-12-02T07:00:00-03:00
+pubDate: 2026-12-06T07:00:00-03:00
 image: "/images/posts/avivamento-da-rua-azusa.png"
 imageAlt: "Ilustração de um simples galpão de madeira numa rua de terra ao entardecer, com luz dourada saindo pelas janelas"
 category: "Vida cristã"
