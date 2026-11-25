@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="ceu" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f1cfae"/>
+      <stop offset=".6" stop-color="#fbe6cb"/>
+      <stop offset="1" stop-color="#fff4de"/>
+    </linearGradient>
+    <radialGradient id="halo" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#f6c97a" stop-opacity=".85"/>
+      <stop offset="1" stop-color="#f6c97a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="perg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff7e8"/>
+      <stop offset="1" stop-color="#f3e6d3"/>
+    </linearGradient>
+  </defs>
+  <!-- céu e sol -->
+  <rect width="1200" height="630" fill="url(#ceu)"/>
+  <circle cx="600" cy="250" r="270" fill="url(#halo)"/>
+  <circle cx="600" cy="250" r="70" fill="#e9b45f"/>
+  <!-- aves -->
+  <g fill="none" stroke="#7a1f2b" stroke-width="3" stroke-linecap="round" opacity=".45">
+    <path d="M230 120 q14 -13 28 0 q14 -13 28 0"/>
+    <path d="M940 140 q13 -12 26 0 q13 -12 26 0"/>
+  </g>
+  <!-- colinas -->
+  <path d="M0 360 Q240 300 470 340 T880 330 T1200 345 V630 H0 Z" fill="#d9a58f"/>
+  <path d="M0 430 Q280 370 560 415 T1200 420 V630 H0 Z" fill="#a85a62"/>
+  <path d="M0 520 Q320 470 640 505 T1200 500 V630 H0 Z" fill="#7a1f2b"/>
+  <!-- suporte de madeira -->
+  <g fill="#5c1a26">
+    <path d="M470 470 L730 470 L760 500 L440 500 Z"/>
+    <rect x="585" y="500" width="30" height="90"/>
+    <rect x="530" y="585" width="140" height="18" rx="6"/>
+  </g>
+  <!-- pergaminho aberto -->
+  <path d="M420 330 Q600 300 780 330 L780 470 Q600 445 420 470 Z" fill="url(#perg)"/>
+  <g fill="none" stroke="#d9c3a0" stroke-width="5" stroke-linecap="round">
+    <path d="M455 360 Q520 350 585 356"/><path d="M455 385 Q520 375 585 381"/><path d="M455 410 Q520 400 585 406"/><path d="M455 435 Q520 425 585 431"/>
+    <path d="M615 356 Q680 350 745 360"/><path d="M615 381 Q680 375 745 385"/><path d="M615 406 Q680 400 745 410"/><path d="M615 431 Q680 425 745 435"/>
+  </g>
+  <!-- rolos -->
+  <g>
+    <rect x="392" y="318" width="40" height="164" rx="18" fill="#e6d4b8"/>
+    <rect x="768" y="318" width="40" height="164" rx="18" fill="#e6d4b8"/>
+    <rect x="404" y="296" width="16" height="208" rx="8" fill="#97323f"/>
+    <rect x="780" y="296" width="16" height="208" rx="8" fill="#97323f"/>
+    <circle cx="412" cy="292" r="11" fill="#e9b45f"/><circle cx="412" cy="508" r="11" fill="#e9b45f"/>
+    <circle cx="788" cy="292" r="11" fill="#e9b45f"/><circle cx="788" cy="508" r="11" fill="#e9b45f"/>
+  </g>
+</svg>

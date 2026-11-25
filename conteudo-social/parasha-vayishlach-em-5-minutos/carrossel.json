@@ -1,0 +1,67 @@
+{
+  "slug": "parasha-vayishlach-em-5-minutos",
+  "arte": "public/images/posts/parasha-da-semana.png",
+  "clima": "esperanca",
+  "legenda": "Tem alguém que você precisa procurar para fazer as pazes, quando for seguro? Conte nos comentários, sem citar nomes.\n\nEnvie para quem gosta de estudar a Bíblia.\n\nLeia o texto completo em ateladoreino.com (link na bio). O estudo completo de Vayishlach também está lá.\n\n#ParashaDaSemana #Torá #EstudoBíblico #Bíblia #Fé #ATelaDoReino",
+  "slides": [
+    {
+      "tipo": "capa",
+      "busca": "river stones dawn",
+      "chapeu": "Parashá da semana",
+      "titulo": "Vayishlach: a luta que virou *bênção*",
+      "apoio": "Gênesis 32 a 36, lida neste sábado. Em 5 minutos.",
+      "isca": "Deslize",
+      "foto": "https://cdn.pixabay.com/photo/2022/11/28/14/19/yenisei-7622180_1280.jpg"
+    },
+    {
+      "tipo": "texto",
+      "busca": "lonely road dusk",
+      "titulo": "Jacó volta para casa *com medo*.",
+      "texto": "Esaú, o irmão que ele enganou, vem ao seu encontro com quatrocentos homens.",
+      "isca": "Uma luta de noite inteira",
+      "foto": "https://cdn.pixabay.com/photo/2023/05/14/07/36/road-7992161_1280.jpg"
+    },
+    {
+      "tipo": "versiculo",
+      "busca": "river night stars",
+      "citacao": "Não te deixarei ir, se me não abençoares.",
+      "ref": "Gênesis 32:26",
+      "destaque": "Jacó luta a noite inteira e *não larga.*",
+      "isca": "Um nome novo",
+      "foto": "https://cdn.pixabay.com/photo/2020/09/06/09/40/sky-5548508_1280.jpg"
+    },
+    {
+      "tipo": "texto",
+      "busca": "sunrise mountains light",
+      "titulo": "Israel: *lutou com Deus*.",
+      "texto": "O nome hebraico Yisra'el junta lutar ou perseverar com El, Deus. Jacó sai mancando, mas abençoado.",
+      "isca": "E o irmão?",
+      "foto": "https://cdn.pixabay.com/photo/2018/06/11/15/15/asia-3468652_1280.jpg"
+    },
+    {
+      "tipo": "versiculo",
+      "busca": "two people hug back view",
+      "citacao": "Então, Esaú correu-lhe ao encontro e abraçou-o; e lançou-se sobre o seu pescoço e beijou-o; e choraram.",
+      "ref": "Gênesis 33:4",
+      "destaque": "Jesus repete o gesto na parábola do *filho pródigo* (Lucas 15:20).",
+      "isca": "Ore agora",
+      "foto": "https://cdn.pixabay.com/photo/2014/07/04/13/40/grasses-383896_1280.jpg"
+    },
+    {
+      "tipo": "oracao",
+      "busca": "candle hands prayer",
+      "titulo": "Ore agora, com estas palavras",
+      "texto": "Senhor, dá-me coragem para procurar quem eu evito e humildade para pedir a tua bênção. Amém.",
+      "isca": "Para este sábado",
+      "foto": "https://cdn.pixabay.com/photo/2020/07/03/14/28/hands-5366493_1280.jpg"
+    },
+    {
+      "tipo": "final",
+      "busca": "warm sunrise field",
+      "titulo": "Salve e leia *neste sábado.*",
+      "texto": "Envie para quem gosta de estudar a Bíblia.",
+      "rodape": "Texto completo: ateladoreino.com · link na bio",
+      "foto": "https://cdn.pixabay.com/photo/2022/10/07/13/01/tear-7505010_1280.jpg"
+    }
+  ]
+}
