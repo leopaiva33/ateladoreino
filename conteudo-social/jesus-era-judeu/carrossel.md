@@ -42,7 +42,7 @@ Artigo: src/content/blog/jesus-era-judeu.md
 ## Slide 6 (texto)
 
 - **titulo:** Debates *entre judeus*.
-- **texto:** Os fariseus eram um movimento respeitado e diverso. Paulo dizia: eu sou fariseu (Atos 23:6).
+- **texto:** Os fariseus eram um movimento respeitado e diverso. Paulo, já seguidor de Jesus, dizia: “eu sou fariseu” (Atos 23:6).
 - **isca:** O que muda para você
 
 ## Slide 7 (lista)
