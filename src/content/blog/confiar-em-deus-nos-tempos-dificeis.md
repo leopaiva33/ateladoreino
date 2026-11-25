@@ -1,8 +1,8 @@
 ---
 title: "Como manter a fé e confiar em Deus nos tempos difíceis"
-description: "Como manter a fé e confiar em Deus quando a vida foge do controle: o que a Bíblia mostra, passos práticos, o que fazer quando é difícil orar e uma oração."
+description: "Como manter a fé e confiar em Deus quando a vida foge do controle: o que a Bíblia mostra, passos práticos, como orar quando faltam palavras e uma oração."
 pubDate: 2026-10-28
-updatedDate: 2026-11-25
+updatedDate: 2026-11-25T07:00:00-03:00
 image: "/images/posts/confiar-em-deus-nos-tempos-dificeis.png"
 video: "-mmuJefCvZs"
 imageAlt: "Ilustração de um farol no meio do mar à noite, com feixes de luz atravessando o céu escuro"

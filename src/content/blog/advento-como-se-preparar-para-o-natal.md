@@ -2,7 +2,7 @@
 title: "Advento 2026: datas, significado e plano de 4 semanas"
 description: "O Advento 2026 começa em 29 de novembro. Veja as datas dos 4 domingos, o significado das velas e um plano simples de leituras e orações."
 pubDate: 2026-11-12T07:00:00-03:00
-updatedDate: 2026-11-25
+updatedDate: 2026-11-25T07:00:00-03:00
 image: "/images/posts/advento-como-se-preparar-para-o-natal.png"
 imageAlt: "Ilustração de uma coroa de Advento com quatro velas, sendo a primeira acesa"
 video: "SfsF5e8OcsQ"
@@ -39,7 +39,7 @@ Não precisa de nada caro. Em 15 minutos dá para montar uma coroa simples:
 
 1. **Base:** um prato redondo ou uma forma de bolo com furo no meio.
 2. **Ramos:** folhagens verdes do jardim, ramos de pinheiro ou mesmo papel verde recortado.
-3. **Quatro velas:** de qualquer cor. Se quiser seguir o costume de muitas igrejas, três roxas e uma rosa (a rosa no 3º domingo, o da alegria).
+3. **Quatro velas:** de qualquer cor (veja as cores tradicionais nas perguntas frequentes).
 4. **Uma vela branca no centro (opcional):** acesa no Natal, lembrando que Jesus chegou.
 
 Deixe a coroa na mesa onde a família come. Assim, a vela da semana acompanha as refeições e lembra a espera por Jesus no meio da rotina. Cuidado com o fogo perto de crianças e de ramos secos.
@@ -85,7 +85,7 @@ Leia Lucas 2:1-20 em família antes da ceia. É a história de Belém, contada d
 
 ## Advento e Hanucá: duas festas de luz em dezembro
 
-Em 2026, a festa judaica de Hanucá acontece de 4 a 12 de dezembro, dentro da segunda semana do Advento. São festas diferentes, mas as duas usam a luz como sinal. O Evangelho de João conta que Jesus estava no Templo durante essa festa, chamada de festa da Dedicação (João 10:22-23). Se quiser entender a ligação, leia [Hanucá e Jesus: a festa da Dedicação em João 10](/blog/hanuca-e-jesus/).
+Em 2026, a festa judaica de Hanucá acontece de 4 a 12 de dezembro, entre o fim da primeira e a segunda semana do Advento. São festas diferentes, mas as duas usam a luz como sinal. O Evangelho de João conta que Jesus estava no Templo durante essa festa, chamada de festa da Dedicação (João 10:22-23). Se quiser entender a ligação, leia [Hanucá e Jesus: a festa da Dedicação em João 10](/blog/hanuca-e-jesus/).
 
 ## Perguntas frequentes
 

@@ -2,7 +2,7 @@
 title: "Avivamento dos morávios (1727): a oração de 100 anos"
 description: "O avivamento dos morávios em Herrnhut, 1727: reconciliação, uma corrente de oração de cerca de 100 anos e missionários enviados ao mundo."
 pubDate: 2026-11-22T07:00:00-03:00
-updatedDate: 2026-11-25
+updatedDate: 2026-11-25T07:00:00-03:00
 image: "/images/posts/avivamento-dos-moravianos.png"
 imageAlt: "Ilustração de uma pequena vila no alto de uma colina à noite, com uma janela iluminada e uma lamparina acesa"
 category: "Vida cristã"
