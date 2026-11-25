@@ -8,7 +8,7 @@ category: "Vida cristã"
 tags: ["parashá da semana", "Torá", "contexto judaico", "estudo bíblico"]
 ---
 
-**A parashá desta semana é Vayeshev, Gênesis 37 a 40, lida nas sinagogas no sábado, 5 de dezembro de 2026: José é odiado pelos irmãos, vendido como escravo, injustiçado no Egito e esquecido na prisão; no Egito, na casa de Potifar e na prisão, o texto repete que o Senhor estava com ele (Gênesis 39:2, 21).**
+**A parashá desta semana é Vayeshev, Gênesis 37 a 40, lida nas sinagogas no sábado, 5 de dezembro de 2026: José é odiado pelos irmãos, vendido como escravo, injustiçado no Egito e esquecido na prisão; na casa de Potifar e na prisão, o texto repete que o Senhor estava com ele (Gênesis 39:2, 21).**
 
 *Vayeshev* (וַיֵּשֶׁב) quer dizer "e habitou", a primeira palavra da porção: Jacó habitava na terra de Canaã. Este sábado é o primeiro de Hanucá, por isso a leitura dos profetas é especial: Zacarias, com o castiçal (candelabro) de ouro.
 

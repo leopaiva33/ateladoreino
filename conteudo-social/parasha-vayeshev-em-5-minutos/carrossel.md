@@ -14,7 +14,7 @@ Artigo: src/content/blog/parasha-vayeshev-em-5-minutos.md
 
 - **titulo:** Odiado, vendido, *esquecido*.
 - **texto:** Os irmãos vendem José como escravo. No Egito, ele é acusado sem culpa e vai para a prisão.
-- **isca:** Mas o texto repete
+- **isca:** Mas o texto diz
 
 ## Slide 3 (versiculo)
 
@@ -33,7 +33,7 @@ Artigo: src/content/blog/parasha-vayeshev-em-5-minutos.md
 
 - **citacao:** E os patriarcas, movidos de inveja, venderam a José para o Egito; mas Deus era com ele.
 - **ref:** Atos 7:9
-- **destaque:** Vendido por prata, como Jesus: muitos cristãos leem José como *figura de Cristo.*
+- **destaque:** Vendido por prata, como Jesus foi entregue por trinta moedas: muitos cristãos leem José como *figura de Cristo.*
 - **isca:** Ore agora
 
 ## Slide 6 (oracao)
