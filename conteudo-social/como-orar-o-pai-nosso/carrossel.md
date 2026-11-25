@@ -56,4 +56,6 @@ Compartilhe com alguém que está aprendendo a orar.
 
 Leia o texto completo, com o significado de cada pedido e uma oração inspirada no Pai Nosso, em ateladoreino.com (link na bio).
 
+Grátis: o Plano de leitura da Bíblia 2027 em PDF, em ateladoreino.com/links.
+
 #PaiNosso #Oração #Jesus #Devocional #Bíblia #ATelaDoReino

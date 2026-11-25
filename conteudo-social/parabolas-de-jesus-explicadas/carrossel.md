@@ -55,4 +55,6 @@ Compartilhe com alguém que gosta de estudar a Bíblia.
 
 Leia o texto completo, com o contexto de cada parábola e um método em cinco passos, em ateladoreino.com (link na bio).
 
+Grátis: o Plano de leitura da Bíblia 2027 em PDF, em ateladoreino.com/links.
+
 #Parábolas #Jesus #EstudoBíblico #Evangelhos #Bíblia #ATelaDoReino

@@ -55,4 +55,6 @@ Compartilhe com alguém que quer começar o dia com Deus.
 
 Leia o texto completo, com três orações da manhã para usar ou adaptar, em ateladoreino.com (link na bio).
 
+Grátis: o Plano de leitura da Bíblia 2027 em PDF, em ateladoreino.com/links.
+
 #OraçãoDaManhã #Oração #Devocional #Fé #Bíblia #ATelaDoReino

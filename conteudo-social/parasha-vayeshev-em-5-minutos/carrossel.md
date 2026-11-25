@@ -56,4 +56,6 @@ Envie para quem está esperando o tempo de Deus.
 
 Leia o texto completo em ateladoreino.com (link na bio).
 
+Grátis: o Plano de leitura da Bíblia 2027 em PDF, em ateladoreino.com/links.
+
 #ParashaDaSemana #Torá #EstudoBíblico #Bíblia #Fé #ATelaDoReino

@@ -57,4 +57,6 @@ Leia o texto completo, com o contexto de cada versículo e um exercício de sete
 
 Conteúdo devocional. Não substitui ajuda profissional, médica ou pastoral. Se a tristeza ou o desânimo persistirem, procure ajuda; o CVV atende pelo 188, 24 horas.
 
+Grátis: o Plano de leitura da Bíblia 2027 em PDF, em ateladoreino.com/links.
+
 #VersículosDeForça #Esperança #Fé #Bíblia #Devocional #ATelaDoReino

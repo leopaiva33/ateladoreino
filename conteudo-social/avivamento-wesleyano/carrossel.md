@@ -56,4 +56,6 @@ Compartilhe com quem caminha com você na fé.
 
 Leia a história completa do avivamento wesleyano em ateladoreino.com (link na bio).
 
+Grátis: o Plano de leitura da Bíblia 2027 em PDF, em ateladoreino.com/links.
+
 #Avivamento #JohnWesley #Metodismo #HistóriaDaIgreja #VidaCristã #ATelaDoReino
