@@ -14,7 +14,7 @@ Artigo: src/content/blog/parasha-vayishlach-em-5-minutos.md
 
 - **titulo:** Jacó volta para casa *com medo*.
 - **texto:** Esaú, o irmão que ele enganou, vem ao seu encontro com quatrocentos homens.
-- **isca:** A noite no Jaboque
+- **isca:** Uma luta de noite inteira
 
 ## Slide 3 (versiculo)
 
@@ -33,7 +33,7 @@ Artigo: src/content/blog/parasha-vayishlach-em-5-minutos.md
 
 - **citacao:** Então, Esaú correu-lhe ao encontro e abraçou-o; e lançou-se sobre o seu pescoço e beijou-o; e choraram.
 - **ref:** Gênesis 33:4
-- **destaque:** O mesmo gesto do pai do *filho pródigo* (Lucas 15:20).
+- **destaque:** Jesus repete o gesto na parábola do *filho pródigo* (Lucas 15:20).
 - **isca:** Ore agora
 
 ## Slide 6 (oracao)
@@ -50,10 +50,10 @@ Artigo: src/content/blog/parasha-vayishlach-em-5-minutos.md
 
 ## Legenda
 
-Tem alguém que você precisa procurar para fazer as pazes? Conte nos comentários, sem citar nomes.
+Tem alguém que você precisa procurar para fazer as pazes, quando for seguro? Conte nos comentários, sem citar nomes.
 
 Envie para quem gosta de estudar a Bíblia.
 
-Leia a parashá da semana em 5 minutos, e o estudo completo de Vayishlach, em ateladoreino.com (link na bio).
+Leia o texto completo em ateladoreino.com (link na bio). O estudo completo de Vayishlach também está lá.
 
 #ParashaDaSemana #Torá #EstudoBíblico #Bíblia #Fé #ATelaDoReino

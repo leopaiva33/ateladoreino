@@ -61,7 +61,9 @@ episódio-modelo `src/content/blog/parasha-vayishlach-em-5-minutos.md`.
 4. `texto`: a palavra hebraica e o sentido.
 5. `versiculo` ou `texto`: a ligação com Jesus.
 6. `oracao`.
-7. `final`: "Salve e leia neste Shabat" + rodapé com ateladoreino.com.
+7. `final`: "Salve e leia neste sábado" + rodapé com ateladoreino.com.
+
+Na legenda e na oração, um convite à reconciliação leva a ressalva "quando for seguro". Varie as fotos entre os episódios (a mesma foto não deve sair em dois carrosséis da mesma semana).
 
 Fotos sem símbolo de religião específica (nada de rolo da Torá, menorá, kipá ou cruz na
 foto); o símbolo da série fica na ilustração do artigo. Depois:
