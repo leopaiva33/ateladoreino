@@ -1,7 +1,8 @@
 ---
-title: "Avivamento dos morávios: a oração que durou 100 anos"
+title: "Avivamento dos morávios (1727): a oração de 100 anos"
 description: "O avivamento dos morávios em Herrnhut, 1727: reconciliação, uma corrente de oração de cerca de 100 anos e missionários enviados ao mundo."
 pubDate: 2026-11-22T07:00:00-03:00
+updatedDate: 2026-11-25
 image: "/images/posts/avivamento-dos-moravianos.png"
 imageAlt: "Ilustração de uma pequena vila no alto de uma colina à noite, com uma janela iluminada e uma lamparina acesa"
 category: "Vida cristã"
@@ -67,6 +68,9 @@ Você não precisa morar numa vila do século XVIII para aprender com os morávi
 > *Senhor, como fizeste em Herrnhut, une o teu povo. Tira de mim a dureza e o orgulho que me afastam dos meus irmãos. Dá-me constância para orar, ainda que seja por pouco tempo, mas todos os dias. E que a minha oração me leve a amar e servir quem ainda não te conhece. Em nome de Jesus, amém.*
 
 ## Perguntas frequentes
+
+**O que foi o avivamento dos morávios?**
+Foi a renovação espiritual da comunidade de Herrnhut, na Saxônia, que teve como marco a ceia de 13 de agosto de 1727. Começou com reconciliação entre moradores em conflito e deu origem a uma corrente de oração de cerca de 100 anos e a um grande envio de missionários.
 
 **Os morávios oraram 100 anos sem parar?**
 Não no sentido de uma única reunião. Eles organizaram turnos: cada pessoa orava em um horário combinado, de forma que sempre houvesse alguém orando. O revezamento se manteve por cerca de um século, segundo os registros da comunidade.
