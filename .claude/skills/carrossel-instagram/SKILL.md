@@ -45,12 +45,12 @@ Modelo completo e aprovado: `.claude/skills/carrossel-instagram/exemplo-carrosse
   "arte": "public/images/posts/<slug>.png",
   "legenda": "...",
   "slides": [
-    { "tipo": "capa", "foto": "pexels:<id>", "chapeu": "...", "titulo": "Texto com *destaque*", "apoio": "...", "isca": "Deslize" },
-    { "tipo": "texto", "foto": "pexels:<id>", "titulo": "...", "texto": "...", "isca": "..." },
-    { "tipo": "versiculo", "foto": "pexels:<id>", "citacao": "texto ARC", "ref": "Livro 1:2", "destaque": "...", "isca": "..." },
+    { "tipo": "capa", "foto": "<url da candidata>", "chapeu": "...", "titulo": "Texto com *destaque*", "apoio": "...", "isca": "Deslize" },
+    { "tipo": "texto", "foto": "<url da candidata>", "titulo": "...", "texto": "...", "isca": "..." },
+    { "tipo": "versiculo", "foto": "<url da candidata>", "citacao": "texto ARC", "ref": "Livro 1:2", "destaque": "...", "isca": "..." },
     { "tipo": "lista", "titulo": "...", "itens": ["...", "..."], "isca": "..." },
-    { "tipo": "oracao", "foto": "pexels:<id>", "titulo": "Ore agora, com estas palavras", "texto": "... Amém.", "isca": "..." },
-    { "tipo": "final", "foto": "pexels:<id>", "titulo": "...", "texto": "...", "rodape": "Texto completo: ateladoreino.com · link na bio" }
+    { "tipo": "oracao", "foto": "<url da candidata>", "titulo": "Ore agora, com estas palavras", "texto": "... Amém.", "isca": "..." },
+    { "tipo": "final", "foto": "<url da candidata>", "titulo": "...", "texto": "...", "rodape": "Texto completo: ateladoreino.com · link na bio" }
   ]
 }
 ```
@@ -65,11 +65,14 @@ Modelo completo e aprovado: `.claude/skills/carrossel-instagram/exemplo-carrosse
   `assets/musica/LEIA-ME.md`).
 
 ## Fotos
-- Use fotos do **Pexels** (`"foto": "pexels:<id>"`): uso comercial liberado, sem
-  crédito obrigatório. O gerador baixa e guarda em `.cache-carrossel/` (fora do git).
-- Para escolher: `node scripts/fotos-carrossel.mjs "termo em inglês"` (precisa de
-  `PEXELS_API_KEY`) ou `node scripts/fotos-carrossel.mjs --ids 1,2,3` (ids que
-  você já conhece). Abra a folha de contato gerada em `video-previa/` e escolha.
+- Use fotos do **Pixabay** (padrão atual) ou do Pexels: uso comercial liberado, sem
+  crédito obrigatório. Em `"foto"`, use a URL da candidata (`.../photo/..._1280.jpg`)
+  ou `pexels:<id>`. O gerador baixa e guarda em `.cache-carrossel/` (fora do git).
+- Para escolher: preencha `"busca"` (termos em inglês) em cada slide e envie o
+  `carrossel.json`; o workflow *Buscar fotos dos carrosséis* grava até 8 candidatas em
+  `fotos-carrossel.json`. Para trocar uma foto, mude a `busca` e envie de novo.
+  Não repita foto já usada em outro carrossel e evite texto legível, pessoas em
+  roupa íntima, símbolos de outras religiões e enfeites de Páscoa ou Natal.
 - Combine a foto com o slide: amanhecer e paisagem com luz quente para capa e
   final; Bíblia aberta ou luz suave para versículos; algo do tema na oração
   (pão para gratidão pelo alimento, por exemplo); neblina ou noite para dor e
