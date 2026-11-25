@@ -10,17 +10,17 @@ tags: ["Jesus", "contexto judaico", "evangelhos", "estudo bíblico"]
 
 **Sim, Jesus era judeu: nasceu numa família judia, foi circuncidado ao oitavo dia, aprendeu as Escrituras de Israel, frequentava a sinagoga e subia a Jerusalém para as festas.** O Evangelho de Mateus começa apresentando-o como "Filho de Davi, Filho de Abraão" (Mateus 1:1), e Paulo resume: Deus enviou seu Filho, "nascido de mulher, nascido sob a lei" (Gálatas 4:4).
 
-Para muitos cristãos, isso parece um detalhe histórico. Mas não é. Quando a gente lê os evangelhos sem lembrar que Jesus era judeu, perde metade do que ele está dizendo: as perguntas que recebe, as festas em que fala, os textos que cita.
+Pode parecer só um detalhe histórico. Não é. Quando a gente lê os evangelhos sem lembrar que Jesus era judeu, perde metade do que ele está dizendo: as perguntas que recebe, as festas em que fala, os textos que cita.
 
 A seguir: o que os evangelhos mostram sobre o Jesus judeu, alguns costumes judaicos que aparecem nos textos, o que isso muda na leitura da Bíblia e o que não muda.
 
-## O que os evangelhos mostram sobre o Jesus judeu
+## Jesus era judeu: o que os evangelhos mostram
 
 Os próprios evangelhos fazem questão de registrar a vida judaica de Jesus:
 
-- **Circuncidado ao oitavo dia.** "Quando os oito dias foram cumpridos para circuncidar o menino, foi-lhe dado o nome de Jesus" (Lucas 2:21), como a lei de Moisés mandava.
-- **Apresentado no Templo.** Seus pais o levaram a Jerusalém "segundo a lei de Moisés" (Lucas 2:22).
-- **Peregrino nas festas.** A família ia todo ano à Páscoa em Jerusalém, e aos doze anos Jesus subiu com eles "segundo o costume do dia da festa" (Lucas 2:41-42). Adulto, ele esteve em Jerusalém na festa dos Tabernáculos (João 7), na festa da Dedicação, que hoje se chama Hanucá (João 10:22), e na Páscoa em que foi crucificado.
+- **Circuncidado ao oitavo dia.** "Quando os oito dias foram cumpridos para circuncidar o menino, foi-lhe dado o nome de Jesus" (Lucas 2:21), como a lei de Moisés mandava (Levítico 12:3).
+- **Apresentado no Templo.** Cumpridos os dias da purificação, "segundo a lei de Moisés", seus pais o levaram a Jerusalém para o apresentarem ao Senhor (Lucas 2:22-23).
+- **Peregrino nas festas.** A família ia todo ano à Páscoa em Jerusalém, e aos doze anos Jesus subiu com eles "segundo o costume do dia da festa" (Lucas 2:41-42). Adulto, ele esteve em Jerusalém na festa dos Tabernáculos (João 7), na festa da Dedicação, que hoje se chama [Hanucá](/blog/hanuca-e-jesus/) (João 10:22), e na Páscoa em que foi crucificado.
 - **Na sinagoga, no sábado.** Em Nazaré, ele entrou na sinagoga num sábado, "segundo o seu costume", e levantou-se para ler o profeta Isaías (Lucas 4:16-17).
 - **Chamado de rabi.** Os discípulos o chamavam de "Rabi (que, traduzido, quer dizer Mestre)" (João 1:38).
 
@@ -37,25 +37,33 @@ Alguns detalhes passam despercebidos para quem não conhece o contexto:
 
 ## O que isso muda na leitura da Bíblia
 
-**1. O Antigo Testamento é a Bíblia de Jesus.** Quando Jesus ensinava, ele abria as Escrituras de Israel. Depois da ressurreição, "começando por Moisés e por todos os profetas, explicava-lhes o que dele se achava em todas as Escrituras" (Lucas 24:27). Ler o Antigo Testamento não é ler a "parte velha"; é ler os textos que Jesus lia.
+### 1. O Antigo Testamento é a Bíblia de Jesus
 
-**2. Os conflitos com os fariseus são debates entre judeus.** Os fariseus eram um movimento respeitado pelo povo e diverso por dentro. Paulo, depois de crer em Jesus, ainda dizia: "eu sou fariseu, filho de fariseu" (Atos 23:6). Ler essas discussões como "judeus contra cristãos" distorce o texto. O termo "cristãos" só aparece depois, em Antioquia (Atos 11:26).
+Quando Jesus ensinava, ele abria as Escrituras de Israel. Depois da ressurreição, "começando por Moisés e por todos os profetas, explicava-lhes o que dele se achava em todas as Escrituras" (Lucas 24:27). Ler o Antigo Testamento não é ler a "parte velha"; é ler os textos que Jesus lia.
 
-**3. As festas ganham sentido.** A última ceia acontece na Páscoa, a refeição que lembra a saída do Egito. O Espírito vem em Pentecostes, a festa judaica das Semanas (Atos 2). Conhecer as festas ajuda a entender por que os evangelhos marcam as datas.
+### 2. Os conflitos com os fariseus são debates entre judeus
 
-**4. Fica mais difícil ler a Bíblia contra o povo judeu.** Ao longo da história, frases dos evangelhos foram usadas para justificar desprezo e violência contra os judeus. Lembrar que Jesus, Maria, os apóstolos e a primeira igreja de Jerusalém eram judeus é um antídoto contra essa leitura.
+Os fariseus eram um movimento respeitado pelo povo e diverso por dentro. Paulo, depois de crer em Jesus, ainda dizia: "eu sou fariseu, filho de fariseu" (Atos 23:6). Ler essas discussões como "judeus contra cristãos" distorce o texto. O termo "cristãos" só aparece depois, em Antioquia (Atos 11:26).
+
+### 3. As festas ganham sentido
+
+Nos três primeiros evangelhos, a última ceia acontece na Páscoa (Lucas 22:15), a refeição que lembra a saída do Egito. O Espírito vem em Pentecostes, a festa judaica das Semanas (Atos 2). Conhecer as festas ajuda a entender por que os evangelhos marcam as datas.
+
+### 4. Fica mais difícil ler a Bíblia contra o povo judeu
+
+Ao longo da história, frases dos evangelhos foram usadas para justificar desprezo e violência contra os judeus. Lembrar que Jesus, Maria, os apóstolos e a primeira igreja de Jerusalém eram judeus é um antídoto contra essa leitura.
 
 ## O que não muda
 
 Reconhecer que Jesus era judeu não obriga ninguém a adotar práticas judaicas. As igrejas cristãs têm posições diferentes sobre guardar o sábado, celebrar as festas bíblicas ou usar nomes hebraicos, e cada comunidade decide com base na sua leitura do Novo Testamento.
 
-O que é comum a todas é o centro: Jesus é o Messias prometido nas Escrituras de Israel, e a salvação que ele trouxe é para judeus e não judeus. Entender o contexto não troca a fé; aprofunda a leitura.
+O que é comum a todas é o centro: para a fé cristã, Jesus é o Messias prometido nas Escrituras de Israel (o judaísmo lê esses textos de outra forma), e a salvação que ele trouxe é para judeus e não judeus. Entender o contexto não troca a fé; aprofunda a leitura.
 
 ## Como começar a ler a Bíblia com esse olhar
 
 1. **Quando Jesus citar o Antigo Testamento, vá até o texto.** Muitas Bíblias trazem a referência na margem. Leia o capítulo inteiro de onde a frase veio.
 2. **Repare nas festas e nos dias.** Quando o texto disser "era a Páscoa" ou "era sábado", pergunte o que aquela data significava para quem estava ali.
-3. **Acompanhe a Torá semana a semana.** A série [A parashá da semana em 5 minutos](/blog/parasha-vayishlach-em-5-minutos/) traz, toda sexta, a porção lida nas sinagogas e a ligação com Jesus. Para ir mais fundo, veja os [estudos semanais da Torá](/estudos/).
+3. **Acompanhe a Torá semana a semana.** A série A parashá da semana em 5 minutos (veja o [episódio de Vayeshev](/blog/parasha-vayeshev-em-5-minutos/)) traz, toda sexta, a porção lida nas sinagogas e a ligação com Jesus. Para ir mais fundo, veja os [estudos semanais da Torá](/estudos/).
 
 ## Uma oração
 
@@ -67,7 +75,7 @@ O que é comum a todas é o centro: Jesus é o Messias prometido nas Escrituras 
 Jesus era judeu. O nome "cristãos" surgiu depois, em Antioquia, para os seus seguidores (Atos 11:26). Os primeiros discípulos também eram judeus.
 
 **Que língua Jesus falava?**
-A maioria dos estudiosos entende que Jesus falava aramaico no dia a dia, como mostram palavras guardadas nos evangelhos ("Talitá cumi", Marcos 5:41). Ele lia as Escrituras em hebraico, e é possível que conhecesse um pouco de grego.
+A maioria dos estudiosos entende que Jesus falava aramaico no dia a dia, como mostram palavras guardadas nos evangelhos ("Talitá cumi", Marcos 5:41). Na sinagoga, as Escrituras eram lidas em hebraico, e é provável que ele as lesse assim; é possível também que conhecesse um pouco de grego.
 
 **Por que alguns cristãos estudam a Torá e as festas judaicas?**
 Para entender melhor o contexto em que Jesus viveu e ensinou. Há quem as estude e há quem as celebre; as igrejas têm posições diferentes sobre isso, e o estudo em si ajuda qualquer leitor da Bíblia.
@@ -81,7 +89,8 @@ Para continuar, veja a [cronologia da vida de Jesus, do nascimento à ascensão]
 ## Referências
 
 - Mateus 1:1; 9:20
-- Lucas 2:21-22; 2:41-42; 4:16-17; 24:27
+- Lucas 2:21-23; 2:41-42; 4:16-17; 22:15; 24:27
+- Levítico 12:3
 - João 1:38; 4:22; 7; 10:22
 - Marcos 2:23-28; 5:41; 7:1-13; 12:29-30
 - Gálatas 4:4
