@@ -5,6 +5,9 @@
 //
 // Voz:
 //   - ElevenLabs (voz clonada): defina ELEVENLABS_API_KEY e ELEVENLABS_VOICE_ID.
+//   - Grátis: VOZ=gratis usa a voz neural da Microsoft pelo edge-tts (pip install edge-tts),
+//     pt-BR-AntonioNeural por padrão (troque com VOZ_GRATIS=pt-BR-FranciscaNeural, por exemplo).
+//     Tem prioridade sobre a ElevenLabs, para quando não houver créditos.
 //   - Sem essas variáveis, usa a voz sintética do espeak-ng, se instalada (provisória, só para testar),
 //     ou silêncio com a duração estimada da fala. Para forçar uma delas: VOZ_PROVISORIA=espeak|silencio.
 // Aviso em temas sensíveis: campo "aviso" de uma cena (faixa discreta no rodapé), em vez de uma cena só para ele.
@@ -81,7 +84,10 @@ const KEY = process.env.ELEVENLABS_API_KEY;
 const VOZ = process.env.ELEVENLABS_VOICE_ID;
 const MODELO = process.env.ELEVENLABS_MODEL ?? 'eleven_multilingual_v2';
 const temEspeak = await run('espeak-ng', ['--version']).then(() => true, () => false);
-const MODO = KEY && VOZ ? 'elevenlabs' : (process.env.VOZ_PROVISORIA ?? (temEspeak ? 'espeak' : 'silencio'));
+const VOZ_GRATIS = process.env.VOZ_GRATIS || 'pt-BR-AntonioNeural';
+const MODO = process.env.VOZ === 'gratis'
+  ? 'edge'
+  : KEY && VOZ ? 'elevenlabs' : (process.env.VOZ_PROVISORIA ?? (temEspeak ? 'espeak' : 'silencio'));
 
 async function duracao(arquivo) {
   const { stdout } = await run('ffprobe', ['-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', arquivo]);
@@ -90,8 +96,8 @@ async function duracao(arquivo) {
 
 async function narrar(texto, anterior, posterior) {
   const fala = paraFala(texto);
-  const id = createHash('sha1').update(`${MODO === 'elevenlabs' ? VOZ + MODELO : MODO}|${fala}`).digest('hex').slice(0, 16);
-  const arq = join(cache, `${id}.${MODO === 'elevenlabs' ? 'mp3' : 'wav'}`);
+  const id = createHash('sha1').update(`${MODO === 'elevenlabs' ? VOZ + MODELO : MODO === 'edge' ? 'edge' + VOZ_GRATIS : MODO}|${fala}`).digest('hex').slice(0, 16);
+  const arq = join(cache, `${id}.${MODO === 'elevenlabs' || MODO === 'edge' ? 'mp3' : 'wav'}`);
   if (!(await existe(arq))) {
     if (MODO === 'elevenlabs') {
       const r = await fetch(`https://api.elevenlabs.io/v1/text-to-speech/${VOZ}?output_format=mp3_44100_128`, {
@@ -107,6 +113,18 @@ async function narrar(texto, anterior, posterior) {
       });
       if (!r.ok) throw new Error(`ElevenLabs respondeu ${r.status}: ${(await r.text()).slice(0, 300)}`);
       await writeFile(arq, Buffer.from(await r.arrayBuffer()));
+    } else if (MODO === 'edge') {
+      // O serviço às vezes recusa uma chamada; tenta de novo antes de desistir.
+      for (let tentativa = 1; ; tentativa++) {
+        try {
+          await run('edge-tts', ['--voice', VOZ_GRATIS, '--rate=-4%', '--text', fala, '--write-media', arq]);
+          if ((await duracao(arq)) > 0.5) break;
+          throw new Error('áudio vazio');
+        } catch (e) {
+          if (tentativa >= 4) throw new Error(`edge-tts falhou: ${e.message}`);
+          await new Promise((r) => setTimeout(r, 5000 * tentativa));
+        }
+      }
     } else if (MODO === 'espeak') {
       await run('espeak-ng', ['-v', 'pt-br', '-s', '150', '-g', '4', '-w', arq, fala]);
     } else {
@@ -350,7 +368,7 @@ for (let i = 0; i < spec.secoes.length; i++) {
   }
   t += durSecao;
 }
-console.log(`${nCena} cenas, ${t.toFixed(1)} s de vídeo${MODO === 'elevenlabs' ? '' : ` (voz provisória: ${MODO})`}.`);
+console.log(`${nCena} cenas, ${t.toFixed(1)} s de vídeo${MODO === 'elevenlabs' ? '' : ` (voz ${MODO === 'edge' ? `grátis: ${VOZ_GRATIS}` : `provisória: ${MODO}`})`}.`);
 // Legendas SRT.
 const ts = (s) => {
   const ms = Math.round(s * 1000);
