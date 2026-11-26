@@ -6,7 +6,9 @@ name: Gerar vídeo do YouTube
 # Roda sozinho quando imagens.json (fotos revisadas) ou o gerador mudam, ou manualmente.
 # Um video.json novo só dispara a busca de fotos (buscar-imagens.yml); o vídeo sai depois da revisão.
 # Depois de gerar, envia ao YouTube como privado (segredos YOUTUBE_*), uma vez por vídeo.
-# Voz: por padrão, a voz neural grátis da Microsoft (edge-tts, pt-BR-AntonioNeural).
+# Voz: com o segredo AZURE_SPEECH_KEY e a variável AZURE_SPEECH_REGION, usa o Azure
+# (voz na variável VOZ_AZURE, tom em VOZ_AZURE_TOM). Sem eles, a voz neural grátis da
+# Microsoft (edge-tts, pt-BR-AntonioNeural).
 # Para voltar à voz clonada da ElevenLabs (segredo ELEVENLABS_API_KEY + variável
 # ELEVENLABS_VOICE_ID), crie a variável do repositório VOZ=elevenlabs.
 # Outra voz grátis: variável VOZ_GRATIS (ex.: pt-BR-FranciscaNeural).
@@ -24,9 +26,9 @@ on:
       voz:
         description: 'Voz da narração'
         required: false
-        default: 'gratis'
+        default: 'azure'
         type: choice
-        options: [gratis, elevenlabs]
+        options: [azure, gratis, elevenlabs]
 
 permissions:
   contents: write
@@ -82,7 +84,11 @@ jobs:
         env:
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
           ELEVENLABS_VOICE_ID: ${{ vars.ELEVENLABS_VOICE_ID }}
-          VOZ: ${{ inputs.voz || vars.VOZ || 'gratis' }}
+          VOZ: ${{ inputs.voz || vars.VOZ || (secrets.AZURE_SPEECH_KEY != '' && 'azure') || 'gratis' }}
+          AZURE_SPEECH_KEY: ${{ secrets.AZURE_SPEECH_KEY }}
+          AZURE_SPEECH_REGION: ${{ vars.AZURE_SPEECH_REGION }}
+          VOZ_AZURE: ${{ vars.VOZ_AZURE }}
+          VOZ_AZURE_TOM: ${{ vars.VOZ_AZURE_TOM }}
           VOZ_GRATIS: ${{ vars.VOZ_GRATIS }}
           PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
           SLUGS: ${{ steps.quais.outputs.slugs }}

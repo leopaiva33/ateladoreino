@@ -1,0 +1,40 @@
+name: Amostras de voz (Azure)
+
+# Gera um áudio de teste com cada voz masculina pt-BR do Azure (normal e mais grave)
+# e grava em conteudo-social/amostras-voz/ no mesmo branch, para escolher de ouvido.
+# Requer o segredo AZURE_SPEECH_KEY e a variável AZURE_SPEECH_REGION (ex.: brazilsouth).
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/amostras-voz.mjs'
+
+permissions:
+  contents: write
+
+jobs:
+  amostras:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Gerar amostras
+        env:
+          AZURE_SPEECH_KEY: ${{ secrets.AZURE_SPEECH_KEY }}
+          AZURE_SPEECH_REGION: ${{ vars.AZURE_SPEECH_REGION }}
+        run: |
+          if [ -z "$AZURE_SPEECH_KEY" ] || [ -z "$AZURE_SPEECH_REGION" ]; then
+            echo "::warning::Falta o segredo AZURE_SPEECH_KEY ou a variável AZURE_SPEECH_REGION."; exit 0
+          fi
+          node scripts/amostras-voz.mjs
+      - name: Gravar amostras
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add conteudo-social/amostras-voz || true
+          if git diff --cached --quiet; then echo "Nada novo."; exit 0; fi
+          git commit -m "chore: amostras de voz do Azure"
+          git pull --rebase
+          git push

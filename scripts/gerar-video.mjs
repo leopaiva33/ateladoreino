@@ -8,6 +8,8 @@
 //   - Grátis: VOZ=gratis usa a voz neural da Microsoft pelo edge-tts (pip install edge-tts),
 //     pt-BR-AntonioNeural por padrão (troque com VOZ_GRATIS=pt-BR-FranciscaNeural, por exemplo).
 //     Tem prioridade sobre a ElevenLabs, para quando não houver créditos.
+//   - Azure: VOZ=azure com AZURE_SPEECH_KEY e AZURE_SPEECH_REGION (plano grátis: 500 mil caracteres
+//     por mês). Voz em VOZ_AZURE (padrão pt-BR-HumbertoNeural); tom em VOZ_AZURE_TOM (ex.: -6%).
 //   - Sem essas variáveis, usa a voz sintética do espeak-ng, se instalada (provisória, só para testar),
 //     ou silêncio com a duração estimada da fala. Para forçar uma delas: VOZ_PROVISORIA=espeak|silencio.
 // Aviso em temas sensíveis: campo "aviso" de uma cena (faixa discreta no rodapé), em vez de uma cena só para ele.
@@ -85,7 +87,15 @@ const VOZ = process.env.ELEVENLABS_VOICE_ID;
 const MODELO = process.env.ELEVENLABS_MODEL ?? 'eleven_multilingual_v2';
 const temEspeak = await run('espeak-ng', ['--version']).then(() => true, () => false);
 const VOZ_GRATIS = process.env.VOZ_GRATIS || 'pt-BR-AntonioNeural';
-const MODO = process.env.VOZ === 'gratis'
+const AZ_KEY = process.env.AZURE_SPEECH_KEY;
+const AZ_REGIAO = process.env.AZURE_SPEECH_REGION;
+const VOZ_AZURE = process.env.VOZ_AZURE || 'pt-BR-HumbertoNeural';
+const TOM_AZURE = process.env.VOZ_AZURE_TOM || '0%';
+const querAzure = process.env.VOZ === 'azure';
+if (querAzure && !(AZ_KEY && AZ_REGIAO)) console.log('::warning::VOZ=azure sem AZURE_SPEECH_KEY/AZURE_SPEECH_REGION; usando a voz grátis.');
+const MODO = querAzure && AZ_KEY && AZ_REGIAO
+  ? 'azure'
+  : querAzure || process.env.VOZ === 'gratis'
   ? 'edge'
   : KEY && VOZ ? 'elevenlabs' : (process.env.VOZ_PROVISORIA ?? (temEspeak ? 'espeak' : 'silencio'));
 
@@ -94,10 +104,32 @@ async function duracao(arquivo) {
   return parseFloat(stdout);
 }
 
+// Azure Speech (REST): devolve o MP3 da fala.
+async function falarAzure(fala, voz, tom = '0%', regiao = AZ_REGIAO, chave = AZ_KEY) {
+  const x = (t) => t.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  const ssml = `<speak version="1.0" xml:lang="pt-BR"><voice name="${voz}"><prosody rate="-4%" pitch="${tom}">${x(fala)}</prosody></voice></speak>`;
+  for (let tentativa = 1; ; tentativa++) {
+    const r = await fetch(`https://${regiao}.tts.speech.microsoft.com/cognitiveservices/v1`, {
+      method: 'POST',
+      headers: {
+        'Ocp-Apim-Subscription-Key': chave,
+        'Content-Type': 'application/ssml+xml',
+        'X-Microsoft-OutputFormat': 'audio-48khz-192kbitrate-mono-mp3',
+        'User-Agent': 'ateladoreino',
+      },
+      body: ssml,
+    });
+    if (r.ok) return Buffer.from(await r.arrayBuffer());
+    const erro = `Azure respondeu ${r.status}: ${(await r.text()).slice(0, 200)}`;
+    if (tentativa >= 4 || (r.status !== 429 && r.status < 500)) throw new Error(erro);
+    await new Promise((ok) => setTimeout(ok, 5000 * tentativa));
+  }
+}
+
 async function narrar(texto, anterior, posterior) {
   const fala = paraFala(texto);
-  const id = createHash('sha1').update(`${MODO === 'elevenlabs' ? VOZ + MODELO : MODO === 'edge' ? 'edge' + VOZ_GRATIS : MODO}|${fala}`).digest('hex').slice(0, 16);
-  const arq = join(cache, `${id}.${MODO === 'elevenlabs' || MODO === 'edge' ? 'mp3' : 'wav'}`);
+  const id = createHash('sha1').update(`${MODO === 'elevenlabs' ? VOZ + MODELO : MODO === 'edge' ? 'edge' + VOZ_GRATIS : MODO === 'azure' ? `azure${VOZ_AZURE}${TOM_AZURE}` : MODO}|${fala}`).digest('hex').slice(0, 16);
+  const arq = join(cache, `${id}.${['elevenlabs', 'edge', 'azure'].includes(MODO) ? 'mp3' : 'wav'}`);
   if (!(await existe(arq))) {
     if (MODO === 'elevenlabs') {
       const r = await fetch(`https://api.elevenlabs.io/v1/text-to-speech/${VOZ}?output_format=mp3_44100_128`, {
@@ -113,6 +145,8 @@ async function narrar(texto, anterior, posterior) {
       });
       if (!r.ok) throw new Error(`ElevenLabs respondeu ${r.status}: ${(await r.text()).slice(0, 300)}`);
       await writeFile(arq, Buffer.from(await r.arrayBuffer()));
+    } else if (MODO === 'azure') {
+      await writeFile(arq, await falarAzure(fala, VOZ_AZURE, TOM_AZURE));
     } else if (MODO === 'edge') {
       // O serviço às vezes recusa uma chamada; tenta de novo antes de desistir.
       for (let tentativa = 1; ; tentativa++) {
@@ -368,7 +402,7 @@ for (let i = 0; i < spec.secoes.length; i++) {
   }
   t += durSecao;
 }
-console.log(`${nCena} cenas, ${t.toFixed(1)} s de vídeo${MODO === 'elevenlabs' ? '' : ` (voz ${MODO === 'edge' ? `grátis: ${VOZ_GRATIS}` : `provisória: ${MODO}`})`}.`);
+console.log(`${nCena} cenas, ${t.toFixed(1)} s de vídeo${MODO === 'elevenlabs' ? '' : ` (voz ${MODO === 'edge' ? `grátis: ${VOZ_GRATIS}` : MODO === 'azure' ? `Azure: ${VOZ_AZURE}` : `provisória: ${MODO}`})`}.`);
 // Legendas SRT.
 const ts = (s) => {
   const ms = Math.round(s * 1000);
