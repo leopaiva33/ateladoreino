@@ -19,16 +19,16 @@ Artigo: src/content/blog/festas-biblicas-2027.md
 
 ## Slide 3 (lista)
 
-- **titulo:** Primeiro semestre (começam ao pôr do sol)
+- **titulo:** 1º semestre (ao pôr do sol)
 - **itens:**
-  - Purim: 22 de março.
+  - Purim (Ester 9): 22 de março.
   - Páscoa judaica (Pessach): 21 de abril.
   - Semanas (Shavuot): 10 de junho.
 - **isca:** E no segundo semestre?
 
 ## Slide 4 (lista)
 
-- **titulo:** Segundo semestre (começam ao pôr do sol)
+- **titulo:** 2º semestre (ao pôr do sol)
 - **itens:**
   - Trombetas (Rosh Hashaná): 1º de outubro.
   - Dia da Expiação (Yom Kippur): 10 de outubro.
