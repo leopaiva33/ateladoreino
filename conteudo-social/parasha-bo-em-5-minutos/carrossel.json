@@ -16,7 +16,8 @@
       "busca": "old wooden door doorway",
       "titulo": "O sangue *na porta*.",
       "texto": "Cada família toma um cordeiro, marca a porta e come com pão sem fermento e ervas amargas (Êxodo 12).",
-      "isca": "E Deus diz"
+      "isca": "E Deus diz",
+      "foto": "https://cdn.pixabay.com/photo/2017/10/04/10/31/door-2815723_1280.png"
     },
     {
       "tipo": "versiculo",
@@ -24,7 +25,8 @@
       "citacao": "vendo eu sangue, passarei por cima de vós",
       "ref": "Êxodo 12:13",
       "destaque": "É a noite em que Deus *liberta o seu povo.*",
-      "isca": "Uma palavra hebraica"
+      "isca": "Uma palavra hebraica",
+      "foto": "https://cdn.pixabay.com/photo/2019/11/28/14/00/animal-4659214_1280.jpg"
     },
     {
       "tipo": "texto",
@@ -39,21 +41,24 @@
       "citacao": "Eis o Cordeiro de Deus, que tira o pecado do mundo.",
       "ref": "João 1:29",
       "destaque": "O Novo Testamento lê a cruz *à luz da Páscoa.*",
-      "isca": "Ore agora"
+      "isca": "Ore agora",
+      "foto": "https://cdn.pixabay.com/photo/2023/05/06/20/21/reeds-7975080_1280.png"
     },
     {
       "tipo": "oracao",
       "busca": "family table evening",
       "titulo": "Ore agora, com estas palavras",
       "texto": "Senhor, obrigado pela libertação que deste ao teu povo e pela que me dás em Jesus. Que eu conte o que fizeste. Amém.",
-      "isca": "Para este sábado"
+      "isca": "Para este sábado",
+      "foto": "https://cdn.pixabay.com/photo/2026/09/22/12/05/12-05-09-37_1280.jpg"
     },
     {
       "tipo": "final",
       "busca": "night stars desert",
       "titulo": "Salve e leia *neste sábado.*",
       "texto": "Envie para quem está lendo Êxodo com você.",
-      "rodape": "Texto completo: ateladoreino.com · link na bio"
+      "rodape": "Texto completo: ateladoreino.com · link na bio",
+      "foto": "https://cdn.pixabay.com/photo/2025/08/24/17/00/akbarnemati-astronomy-9794338_1280.jpg"
     }
   ]
 }

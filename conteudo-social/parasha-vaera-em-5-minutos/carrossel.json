@@ -24,14 +24,16 @@
       "busca": "tired hands work",
       "titulo": "Cansados *demais*.",
       "texto": "Eles não ouviram Moisés “por causa da ânsia do espírito e da dura servidão” (Êxodo 6:9). Deus não desistiu.",
-      "isca": "Uma palavra hebraica"
+      "isca": "Uma palavra hebraica",
+      "foto": "https://cdn.pixabay.com/photo/2015/07/28/13/21/sad-864399_1280.jpg"
     },
     {
       "tipo": "texto",
       "busca": "old house door key",
       "titulo": "Gaal: *resgatar*.",
       "texto": "O go’el era o parente que comprava de volta a liberdade de alguém da família. Deus se apresenta assim.",
-      "isca": "E onde está Jesus?"
+      "isca": "E onde está Jesus?",
+      "foto": "https://cdn.pixabay.com/photo/2020/03/04/05/57/key-4900643_1280.jpg"
     },
     {
       "tipo": "versiculo",
@@ -39,21 +41,24 @@
       "citacao": "Porque o Filho do Homem também não veio para ser servido, mas para servir e dar a sua vida em resgate de muitos.",
       "ref": "Marcos 10:45",
       "destaque": "Os cristãos leem em Jesus *aquele que resgata.*",
-      "isca": "Ore agora"
+      "isca": "Ore agora",
+      "foto": "https://cdn.pixabay.com/photo/2021/06/19/07/26/palm-6347855_1280.jpg"
     },
     {
       "tipo": "oracao",
       "busca": "candle night calm",
       "titulo": "Ore agora, com estas palavras",
       "texto": "Senhor, quando o cansaço for maior que a minha fé, lembra-me de que tu és fiel. Resgata-me do que me prende. Amém.",
-      "isca": "Para este sábado"
+      "isca": "Para este sábado",
+      "foto": "https://cdn.pixabay.com/photo/2023/03/14/01/16/ai-generated-7851262_1280.jpg"
     },
     {
       "tipo": "final",
       "busca": "river valley morning",
       "titulo": "Salve e leia *neste sábado.*",
       "texto": "Envie para quem está lendo Êxodo com você.",
-      "rodape": "Texto completo: ateladoreino.com · link na bio"
+      "rodape": "Texto completo: ateladoreino.com · link na bio",
+      "foto": "https://cdn.pixabay.com/photo/2017/05/27/09/20/mountains-2348060_1280.jpg"
     }
   ]
 }

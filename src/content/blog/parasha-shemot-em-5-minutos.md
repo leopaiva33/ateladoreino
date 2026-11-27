@@ -36,7 +36,7 @@ No Evangelho de João, Jesus diz: "antes que Abraão existisse, eu sou" (João 8
 
 Shemot começa com um povo que sofre e parece esquecido. Mas o texto diz que Deus ouviu, lembrou e atentou para eles antes mesmo de Moisés saber disso.
 
-No começo de 2027, talvez você esteja numa situação que ainda não mudou. O primeiro passo de Êxodo não é a saída, é a certeza de que Deus ouve. Escreva numa folha o nome da situação que mais te aflige e leia Êxodo 2:23-25 em voz alta, trocando "o seu gemido" pelo seu.
+No começo de 2027, talvez você esteja numa situação que ainda não mudou. O primeiro passo de Êxodo não é a saída, é a certeza de que Deus ouve. Escreva numa folha o nome da situação que mais te aflige e leia Êxodo 2:23-25 em voz alta, colocando a sua dor no lugar do gemido do povo.
 
 > *Senhor, tu que ouviste o gemido do teu povo no Egito, ouve também a minha oração. Que eu comece este ano sabendo que tu estás comigo. Amém.*
 

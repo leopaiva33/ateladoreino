@@ -3,14 +3,14 @@ title: "O que é a Torá? Significado, os 5 livros e Jesus"
 description: "O que é a Torá, o que a palavra significa, quais são os cinco livros, como ela é lida na sinagoga e como Jesus se relacionava com ela."
 pubDate: 2027-01-04T07:00:00-03:00
 image: "/images/posts/o-que-e-a-tora.png"
-imageAlt: "Caminho que sobe entre colinas até um monte de pedra iluminado pelo sol nascente, com cinco pedras de marco ao longo da estrada"
+imageAlt: "Caminho que sobe entre colinas até um monte de pedra iluminado pelo sol nascente, com cinco marcos de pedras empilhadas ao longo da estrada"
 category: "Vida cristã"
 tags: ["Torá", "contexto judaico", "estudo bíblico", "Jesus"]
 ---
 
 **A Torá são os cinco primeiros livros da Bíblia, Gênesis, Êxodo, Levítico, Números e Deuteronômio, e a palavra hebraica *Torá* (תּוֹרָה) quer dizer "instrução" ou "ensino", não só "lei".** É a parte mais importante das Escrituras para o judaísmo e a base de tudo o que vem depois na Bíblia, inclusive o Novo Testamento.
 
-Muitos cristãos ouvem "Torá" e pensam em algo distante, só para judeus. Mas a Torá é a primeira parte da Bíblia que você já tem em casa. É nela que estão a criação, Abraão, o Êxodo, os Dez Mandamentos e o "amarás o teu próximo como a ti mesmo".
+Muitos cristãos ouvem "Torá" e pensam em algo distante, só para judeus. Mas a Torá é a primeira parte da Bíblia que você já tem em casa. É nela que estão a criação, Abraão, o Êxodo, os Dez Mandamentos e o "amarás o teu próximo como a ti mesmo" (Levítico 19:18).
 
 A seguir: o que a palavra significa, quais são os cinco livros, como a Torá é lida até hoje na sinagoga, como Jesus se relacionava com ela e um jeito simples de começar a ler.
 

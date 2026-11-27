@@ -17,7 +17,8 @@
       "citacao": "Desejei muito comer convosco esta Páscoa, antes que padeça",
       "ref": "Lucas 22:15",
       "destaque": "Jesus escolheu *a mesa da Páscoa.*",
-      "isca": "Os elementos"
+      "isca": "Os elementos",
+      "foto": "https://cdn.pixabay.com/photo/2015/07/18/13/14/wine-850337_1280.jpg"
     },
     {
       "tipo": "lista",
@@ -36,14 +37,16 @@
       "citacao": "Este cálice é o Novo Testamento no meu sangue, que é derramado por vós.",
       "ref": "Lucas 22:20",
       "destaque": "“Novo Testamento” quer dizer *nova aliança.*",
-      "isca": "E o hino?"
+      "isca": "E o hino?",
+      "foto": "https://cdn.pixabay.com/photo/2015/10/24/11/10/wine-bottle-1004258_1280.jpg"
     },
     {
       "tipo": "texto",
       "busca": "olive trees night",
       "titulo": "Saíram *cantando*.",
       "texto": "“Tendo cantado um hino, saíram para o monte das Oliveiras” (Mateus 26:30). Muitos entendem que era o Hallel, Salmos 113 a 118.",
-      "isca": "Na próxima Ceia"
+      "isca": "Na próxima Ceia",
+      "foto": "https://cdn.pixabay.com/photo/2021/07/04/09/16/olives-6385808_1280.jpg"
     },
     {
       "tipo": "lista",
@@ -61,14 +64,16 @@
       "busca": "hands bread table",
       "titulo": "Ore agora, com estas palavras",
       "texto": "Senhor Jesus, nosso Cordeiro de Páscoa, obrigado pelo teu corpo dado e pelo teu sangue derramado. Amém.",
-      "isca": "Para guardar"
+      "isca": "Para guardar",
+      "foto": "https://cdn.pixabay.com/photo/2026/06/20/09/26/09-26-15-218_1280.jpg"
     },
     {
       "tipo": "final",
       "busca": "full moon hills",
       "titulo": "Salve para *a próxima Ceia.*",
       "texto": "Envie para quem vai participar da Ceia com você.",
-      "rodape": "Texto completo: ateladoreino.com · link na bio"
+      "rodape": "Texto completo: ateladoreino.com · link na bio",
+      "foto": "https://cdn.pixabay.com/photo/2014/07/23/00/56/moon-399834_1280.jpg"
     }
   ]
 }

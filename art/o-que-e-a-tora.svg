@@ -28,12 +28,12 @@
   <path d="M0 520 Q300 490 640 510 T1200 500 V630 H0 Z" fill="#3b0f18"/>
   <!-- caminho subindo -->
   <path d="M520 630 C560 560 690 540 640 480 C610 445 640 400 604 336 L616 336 C660 400 680 445 700 480 C740 545 640 580 700 630 Z" fill="#d9c3a0"/>
-  <!-- cinco pedras de marco -->
+  <!-- cinco marcos de pedras empilhadas -->
   <g fill="#e6d4b8">
-    <path d="M466 600 L470 566 Q483 556 496 566 L500 600 Z"/><ellipse cx="483" cy="601" rx="22" ry="5" fill="#3b0f18" opacity=".5"/>
-    <path d="M724 554 L727 526 Q737 518 747 526 L750 554 Z"/><ellipse cx="737" cy="555" rx="18" ry="4" fill="#3b0f18" opacity=".5"/>
-    <path d="M558 498 L560 476 Q568 469 576 476 L578 498 Z"/><ellipse cx="568" cy="499" rx="14" ry="3" fill="#3b0f18" opacity=".5"/>
-    <path d="M679 443 L681 426 Q687 421 693 426 L695 443 Z"/>
-    <path d="M590 390 L591 377 Q596 373 601 377 L602 390 Z"/>
+    <g transform="translate(483 600)"><ellipse cx="0" cy="-6" rx="22" ry="8"/><ellipse cx="2" cy="-18" rx="15" ry="7"/><ellipse cx="0" cy="-28" rx="9" ry="5"/></g>
+    <g transform="translate(737 554)"><ellipse cx="0" cy="-5" rx="18" ry="6"/><ellipse cx="1" cy="-15" rx="12" ry="5"/><ellipse cx="0" cy="-23" rx="7" ry="4"/></g>
+    <g transform="translate(568 498)"><ellipse cx="0" cy="-4" rx="14" ry="5"/><ellipse cx="1" cy="-12" rx="9" ry="4"/><ellipse cx="0" cy="-18" rx="5" ry="3"/></g>
+    <g transform="translate(687 443)"><ellipse cx="0" cy="-3" rx="10" ry="4"/><ellipse cx="0" cy="-9" rx="6" ry="3"/></g>
+    <g transform="translate(596 390)"><ellipse cx="0" cy="-3" rx="8" ry="3"/><ellipse cx="0" cy="-7" rx="5" ry="2"/></g>
   </g>
 </svg>

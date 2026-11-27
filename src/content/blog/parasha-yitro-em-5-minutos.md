@@ -38,7 +38,7 @@ Muitos leitores, judeus e cristãos, dividem as dez palavras assim, embora a div
 
 Yitro junta duas cenas que parecem distantes: um sogro dando conselho prático e Deus falando no Sinai. As duas falam de vida em comunidade.
 
-Nesta semana, escolha uma das dez palavras e pergunte: como ela protege a minha liberdade e a dos outros? E repare que a primeira cena da porção é de alguém aceitando conselho: até Moisés precisou dividir o peso com outros.
+Nesta semana, escolha uma das dez palavras e pergunte: como ela protege a minha liberdade e a dos outros? E repare que a primeira cena da porção é de alguém aceitando conselho: Moisés também precisou dividir o peso com outros.
 
 > *Senhor, que me tiraste da servidão, ensina-me a viver as tuas palavras como caminho de liberdade. Dá-me humildade para pedir ajuda. Amém.*
 

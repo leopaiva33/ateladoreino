@@ -16,7 +16,8 @@
       "busca": "path in hills sunrise",
       "titulo": "Torá = *instrução*.",
       "texto": "A palavra hebraica fala de ensinar o caminho. “Lei” veio da tradução grega antiga.",
-      "isca": "Os 5 livros"
+      "isca": "Os 5 livros",
+      "foto": "https://cdn.pixabay.com/photo/2021/07/19/22/07/mountains-6479150_1280.jpg"
     },
     {
       "tipo": "lista",
@@ -43,7 +44,8 @@
       "citacao": "Não cuideis que vim destruir a lei ou os profetas; não vim ab-rogar, mas cumprir.",
       "ref": "Mateus 5:17",
       "destaque": "Jesus cresceu ouvindo a Torá *e a citava o tempo todo.*",
-      "isca": "Como começar"
+      "isca": "Como começar",
+      "foto": "https://cdn.pixabay.com/photo/2020/01/07/22/41/hiking-trails-4748853_1280.jpg"
     },
     {
       "tipo": "lista",
@@ -61,14 +63,16 @@
       "busca": "lamp light open book",
       "titulo": "Ore agora, com estas palavras",
       "texto": "Senhor, obrigado pela tua instrução. Abre os meus olhos para ver o caminho que a tua Palavra aponta. Amém.",
-      "isca": "Para guardar"
+      "isca": "Para guardar",
+      "foto": "https://cdn.pixabay.com/photo/2022/02/20/17/09/tulips-7024938_1280.jpg"
     },
     {
       "tipo": "final",
       "busca": "valley morning light road",
       "titulo": "Salve para ler a Bíblia *pelo começo.*",
       "texto": "Envie para quem quer começar a ler a Bíblia.",
-      "rodape": "Texto completo: ateladoreino.com · link na bio"
+      "rodape": "Texto completo: ateladoreino.com · link na bio",
+      "foto": "https://cdn.pixabay.com/photo/2021/10/13/10/55/alps-6706182_1280.jpg"
     }
   ]
 }

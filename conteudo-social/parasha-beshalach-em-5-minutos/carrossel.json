@@ -17,7 +17,8 @@
       "citacao": "Não temais; estai quietos e vede o livramento do Senhor, que hoje vos fará",
       "ref": "Êxodo 14:13",
       "destaque": "Mar na frente, exército atrás. *E o mar se abre.*",
-      "isca": "Depois, o cântico"
+      "isca": "Depois, o cântico",
+      "foto": "https://cdn.pixabay.com/photo/2021/10/25/19/47/sunset-6741863_1280.jpg"
     },
     {
       "tipo": "versiculo",
@@ -32,7 +33,8 @@
       "busca": "morning dew grass",
       "titulo": "Man hu: *que é isto?*",
       "texto": "Foi a pergunta do povo ao ver o pão no chão (Êxodo 16:15). Daí veio o nome: maná.",
-      "isca": "E onde está Jesus?"
+      "isca": "E onde está Jesus?",
+      "foto": "https://cdn.pixabay.com/photo/2017/06/22/20/22/green-2432374_1280.jpg"
     },
     {
       "tipo": "versiculo",
@@ -40,21 +42,24 @@
       "citacao": "Eu sou o pão da vida; aquele que vem a mim não terá fome",
       "ref": "João 6:35",
       "destaque": "Jesus liga o pão do deserto *a si mesmo.*",
-      "isca": "Ore agora"
+      "isca": "Ore agora",
+      "foto": "https://cdn.pixabay.com/photo/2023/11/18/16/09/bread-8396721_1280.jpg"
     },
     {
       "tipo": "oracao",
       "busca": "hands holding bread",
       "titulo": "Ore agora, com estas palavras",
       "texto": "Senhor, dá-me hoje o pão de hoje. Quando eu reclamar, lembra-me do mar que já abriste. Amém.",
-      "isca": "Para este sábado"
+      "isca": "Para este sábado",
+      "foto": "https://cdn.pixabay.com/photo/2022/07/05/09/19/mother-7302669_1280.jpg"
     },
     {
       "tipo": "final",
       "busca": "beach sunrise calm",
       "titulo": "Salve e leia *neste sábado.*",
       "texto": "Envie para quem está lendo Êxodo com você.",
-      "rodape": "Texto completo: ateladoreino.com · link na bio"
+      "rodape": "Texto completo: ateladoreino.com · link na bio",
+      "foto": "https://cdn.pixabay.com/photo/2019/07/06/14/33/sea-4320564_1280.jpg"
     }
   ]
 }

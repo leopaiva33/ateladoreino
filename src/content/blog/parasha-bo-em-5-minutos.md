@@ -18,7 +18,7 @@ Esta é a série **A parashá da semana em 5 minutos**: toda sexta-feira, a por�
 
 - **Gafanhotos e trevas.** A oitava e a nona pragas cobrem o Egito, mas o faraó continua sem deixar o povo sair.
 - **O primeiro mês.** Deus diz a Moisés que aquele mês será o primeiro do ano para Israel (Êxodo 12:2). O calendário do povo começa com a libertação.
-- **O cordeiro.** Deus dá a Moisés as instruções da primeira Páscoa: um cordeiro por casa, sinal nos umbrais, uma refeição com pão sem fermento, comida de pé e com pressa (Êxodo 12:3-11).
+- **O cordeiro.** Deus dá a Moisés as instruções da primeira Páscoa: um cordeiro por casa, sinal nos umbrais, uma refeição com pão sem fermento, comida às pressas, com a roupa de viagem (Êxodo 12:3-11).
 - **A última praga.** Morrem os primogênitos do Egito, e o faraó finalmente manda o povo embora.
 - **Para lembrar sempre.** A Páscoa vira festa perpétua, celebrada "nas vossas gerações" (Êxodo 12:14), e a porção termina com as leis sobre os primogênitos e o pão sem fermento (Êxodo 13).
 
@@ -26,7 +26,7 @@ Esta é a série **A parashá da semana em 5 minutos**: toda sexta-feira, a por�
 
 Deus diz: "vendo eu sangue, passarei por cima de vós" (Êxodo 12:13). "Passar por cima" é o verbo *pasach* (פָּסַח), e dele vem o nome hebraico da festa, *Pessach* (פֶּסַח), que chegou ao português como Páscoa.
 
-A porção também manda contar a história: "E, naquele mesmo dia, farás saber a teu filho, dizendo: Isto é pelo que o Senhor me tem feito, quando eu saí do Egito" (Êxodo 13:8). "Farás saber", em hebraico *vehigadta*, é a raiz de *Hagadá*, o livro lido até hoje na ceia judaica de Páscoa.
+A porção também manda contar a história: "E, naquele mesmo dia, farás saber a teu filho, dizendo: Isto é pelo que o Senhor me tem feito, quando eu saí do Egito" (Êxodo 13:8). "Farás saber", em hebraico *vehigadta*, vem do verbo *lehagid*, "contar", e do mesmo verbo vem *Hagadá*, o livro lido até hoje na ceia judaica de Páscoa.
 
 ## Onde Jesus aparece nesta história
 
@@ -36,7 +36,7 @@ Paulo resume: "Cristo, nossa páscoa, foi sacrificado por nós" (1 Coríntios 5:
 
 ## Para a vida
 
-A primeira Páscoa foi celebrada antes da saída: o povo comeu com a roupa de viagem, os sapatos nos pés e o cajado na mão, ainda no Egito (Êxodo 12:11). Era um ato de confiança. Eles agradeceram pela libertação antes de vê-la.
+A primeira Páscoa foi celebrada antes da saída: o povo comeu com a roupa de viagem, os sapatos nos pés e o cajado na mão, ainda no Egito (Êxodo 12:11). Era um ato de confiança. Eles celebraram a libertação antes de vê-la.
 
 Nesta semana, faça o que Êxodo 13:8 manda: conte a alguém, um filho, um neto, um amigo, uma história em que Deus agiu na sua vida. Não precisa ser um milagre grande. Lembrar em voz alta fortalece a fé de quem conta e de quem ouve, e é assim que a fé passa de uma geração para a outra.
 

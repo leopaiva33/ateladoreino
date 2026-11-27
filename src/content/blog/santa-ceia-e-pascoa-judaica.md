@@ -28,7 +28,7 @@ Lucas conta que Jesus tomou um cálice antes do pão (Lucas 22:17) e outro "depo
 
 No fim, "tendo cantado um hino, saíram para o monte das Oliveiras" (Mateus 26:30). Muitos estudiosos entendem que era o *Hallel*, os Salmos 113 a 118, cantados na Páscoa. Se for isso, naquela noite Jesus cantou com os discípulos o Salmo 118: "A pedra que os edificadores rejeitaram tornou-se cabeça de esquina" (Salmos 118:22), um versículo que ele mesmo tinha aplicado a si dias antes (Mateus 21:42).
 
-O Evangelho de João conta a cronologia de outro jeito. Na manhã seguinte à ceia, os líderes não entram no pretório de Pilatos para não se contaminarem e poderem comer a Páscoa (João 18:28), e Jesus é crucificado no dia da "preparação da Páscoa" (João 19:14), quando os cordeiros eram sacrificados. Pelo relato de João, a ceia de Jesus aconteceu antes da refeição pascal. Os estudiosos discutem como harmonizar as datas. Nos dois casos, a ligação entre Jesus e a Páscoa é o centro.
+O Evangelho de João conta a cronologia de outro jeito. Na manhã seguinte à ceia, os líderes não entram no pretório de Pilatos para não se contaminarem e poderem comer a Páscoa (João 18:28), e Jesus é crucificado no dia da "preparação da Páscoa" (João 19:14), quando, segundo a tradição, os cordeiros eram sacrificados. Pelo relato de João, a ceia de Jesus aconteceu antes da refeição pascal. Os estudiosos discutem como harmonizar as datas. Nos dois casos, a ligação entre Jesus e a Páscoa é o centro.
 
 ## O que Jesus mudou na Santa Ceia
 
