@@ -1,0 +1,59 @@
+{
+  "slug": "parasha-yitro-em-5-minutos",
+  "arte": "public/images/posts/parasha-da-semana.png",
+  "clima": "calma",
+  "legenda": "Qual das dez palavras mais fala com você hoje? Conte nos comentários.\n\nEnvie para quem está tentando dar conta de tudo sozinho.\n\nLeia o texto completo em ateladoreino.com (link na bio).\n\nGrátis: o Plano de leitura da Bíblia 2027 em PDF, em ateladoreino.com/links.\n\n#ParashaDaSemana #DezMandamentos #Êxodo #EstudoBíblico #Bíblia #ATelaDoReino",
+  "slides": [
+    {
+      "tipo": "capa",
+      "chapeu": "Parashá da semana",
+      "titulo": "Yitro: *os Dez Mandamentos*",
+      "apoio": "Êxodo 18 a 20, lida neste sábado. Em 5 minutos.",
+      "isca": "Deslize"
+    },
+    {
+      "tipo": "texto",
+      "busca": "elder man walking path",
+      "titulo": "O conselho *de Jetro*.",
+      "texto": "Moisés atendia o povo da manhã até a tarde. O sogro disse: “tu só não o podes fazer” (Êxodo 18:18).",
+      "isca": "Depois, o Sinai"
+    },
+    {
+      "tipo": "versiculo",
+      "busca": "mountain clouds dramatic",
+      "citacao": "Então, falou Deus todas estas palavras, dizendo: Eu sou o Senhor, teu Deus, que te tirei da terra do Egito, da casa da servidão.",
+      "ref": "Êxodo 20:1-2",
+      "destaque": "A lei vem *depois da libertação.*",
+      "isca": "Uma palavra hebraica"
+    },
+    {
+      "tipo": "texto",
+      "busca": "two stones on table",
+      "titulo": "Devarim: *palavras*.",
+      "texto": "A Bíblia hebraica chama os mandamentos de “as dez palavras” (Deuteronômio 10:4). Daí o nome Decálogo.",
+      "isca": "E onde está Jesus?"
+    },
+    {
+      "tipo": "versiculo",
+      "busca": "light through clouds",
+      "citacao": "Desses dois mandamentos dependem toda a lei e os profetas.",
+      "ref": "Mateus 22:40",
+      "destaque": "Jesus resume tudo em *amar a Deus e ao próximo.*",
+      "isca": "Ore agora"
+    },
+    {
+      "tipo": "oracao",
+      "busca": "open book morning",
+      "titulo": "Ore agora, com estas palavras",
+      "texto": "Senhor, que me tiraste da servidão, ensina-me a viver as tuas palavras como caminho de liberdade. Amém.",
+      "isca": "Para este sábado"
+    },
+    {
+      "tipo": "final",
+      "busca": "mountain sunrise path",
+      "titulo": "Salve e leia *neste sábado.*",
+      "texto": "Envie para quem está lendo Êxodo com você.",
+      "rodape": "Texto completo: ateladoreino.com · link na bio"
+    }
+  ]
+}

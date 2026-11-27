@@ -1,0 +1,60 @@
+{
+  "slug": "parasha-beshalach-em-5-minutos",
+  "arte": "public/images/posts/parasha-da-semana.png",
+  "clima": "esperanca",
+  "legenda": "Qual foi o “mar aberto” que Deus já fez na sua vida? Conte nos comentários.\n\nEnvie para quem está com o mar na frente.\n\nLeia o texto completo em ateladoreino.com (link na bio).\n\nGrátis: o Plano de leitura da Bíblia 2027 em PDF, em ateladoreino.com/links.\n\n#ParashaDaSemana #Êxodo #Torá #EstudoBíblico #Bíblia #ATelaDoReino",
+  "slides": [
+    {
+      "tipo": "capa",
+      "chapeu": "Parashá da semana",
+      "titulo": "Beshalach: *o mar e o maná*",
+      "apoio": "Êxodo 13:17 a 17:16, lida neste sábado. Em 5 minutos.",
+      "isca": "Deslize"
+    },
+    {
+      "tipo": "versiculo",
+      "busca": "sea waves dramatic sky",
+      "citacao": "Não temais; estai quietos e vede o livramento do Senhor, que hoje vos fará",
+      "ref": "Êxodo 14:13",
+      "destaque": "Mar na frente, exército atrás. *E o mar se abre.*",
+      "isca": "Depois, o cântico"
+    },
+    {
+      "tipo": "versiculo",
+      "busca": "tambourine dance silhouette",
+      "citacao": "O Senhor é a minha força e o meu cântico; ele me foi por salvação",
+      "ref": "Êxodo 15:2",
+      "destaque": "Este sábado se chama *Shabat Shirá*, o sábado do cântico.",
+      "isca": "Uma palavra hebraica"
+    },
+    {
+      "tipo": "texto",
+      "busca": "morning dew grass",
+      "titulo": "Man hu: *que é isto?*",
+      "texto": "Foi a pergunta do povo ao ver o pão no chão (Êxodo 16:15). Daí veio o nome: maná.",
+      "isca": "E onde está Jesus?"
+    },
+    {
+      "tipo": "versiculo",
+      "busca": "bread loaves table light",
+      "citacao": "Eu sou o pão da vida; aquele que vem a mim não terá fome",
+      "ref": "João 6:35",
+      "destaque": "Jesus liga o pão do deserto *a si mesmo.*",
+      "isca": "Ore agora"
+    },
+    {
+      "tipo": "oracao",
+      "busca": "hands holding bread",
+      "titulo": "Ore agora, com estas palavras",
+      "texto": "Senhor, dá-me hoje o pão de hoje. Quando eu reclamar, lembra-me do mar que já abriste. Amém.",
+      "isca": "Para este sábado"
+    },
+    {
+      "tipo": "final",
+      "busca": "beach sunrise calm",
+      "titulo": "Salve e leia *neste sábado.*",
+      "texto": "Envie para quem está lendo Êxodo com você.",
+      "rodape": "Texto completo: ateladoreino.com · link na bio"
+    }
+  ]
+}

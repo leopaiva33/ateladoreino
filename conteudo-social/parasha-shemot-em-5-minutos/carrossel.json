@@ -1,0 +1,59 @@
+{
+  "slug": "parasha-shemot-em-5-minutos",
+  "arte": "public/images/posts/parasha-da-semana.png",
+  "clima": "calma",
+  "legenda": "Em que área da sua vida você precisa lembrar que Deus ouve? Conte nos comentários.\n\nEnvie para quem está começando o ano cansado.\n\nLeia o texto completo em ateladoreino.com (link na bio).\n\nGrátis: o Plano de leitura da Bíblia 2027 em PDF, em ateladoreino.com/links.\n\n#ParashaDaSemana #Êxodo #Torá #EstudoBíblico #Bíblia #ATelaDoReino",
+  "slides": [
+    {
+      "tipo": "capa",
+      "chapeu": "Parashá da semana",
+      "titulo": "Shemot: *Eu Sou o Que Sou*",
+      "apoio": "Êxodo 1:1 a 6:1, lida neste sábado. Em 5 minutos.",
+      "isca": "Deslize"
+    },
+    {
+      "tipo": "texto",
+      "busca": "desert bricks mud",
+      "titulo": "Um povo *escravo*.",
+      "texto": "Um novo rei, que não conhecera José, escraviza Israel no Egito. Moisés nasce e é salvo das águas.",
+      "isca": "Mas Deus ouviu"
+    },
+    {
+      "tipo": "versiculo",
+      "busca": "burning bush desert",
+      "citacao": "E ouviu Deus o seu gemido e lembrou-se Deus do seu concerto com Abraão, com Isaque e com Jacó",
+      "ref": "Êxodo 2:24",
+      "destaque": "Antes de Moisés saber, *Deus já tinha ouvido.*",
+      "isca": "Uma palavra hebraica"
+    },
+    {
+      "tipo": "texto",
+      "busca": "flame in dark",
+      "titulo": "Ehyeh: *Eu Sou*.",
+      "texto": "“Eu Sou o Que Sou” (Êxodo 3:14). Em hebraico, o verbo pode ser lido no presente ou no futuro: “Eu serei o que serei”.",
+      "isca": "E onde está Jesus?"
+    },
+    {
+      "tipo": "versiculo",
+      "busca": "stone temple steps light",
+      "citacao": "Em verdade, em verdade vos digo que, antes que Abraão existisse, eu sou.",
+      "ref": "João 8:58",
+      "destaque": "Os cristãos leem aqui *um eco da sarça.*",
+      "isca": "Ore agora"
+    },
+    {
+      "tipo": "oracao",
+      "busca": "morning window quiet",
+      "titulo": "Ore agora, com estas palavras",
+      "texto": "Senhor, tu que ouviste o gemido do teu povo, ouve também a minha oração. Que eu comece este ano contigo. Amém.",
+      "isca": "Para este sábado"
+    },
+    {
+      "tipo": "final",
+      "busca": "sunrise desert mountains",
+      "titulo": "Salve e leia *neste sábado.*",
+      "texto": "Envie para quem está lendo Êxodo com você.",
+      "rodape": "Texto completo: ateladoreino.com · link na bio"
+    }
+  ]
+}

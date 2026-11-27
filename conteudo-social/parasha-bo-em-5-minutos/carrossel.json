@@ -1,0 +1,59 @@
+{
+  "slug": "parasha-bo-em-5-minutos",
+  "arte": "public/images/posts/parasha-da-semana.png",
+  "clima": "esperanca",
+  "legenda": "Que história de Deus na sua vida você contaria a alguém? Conte nos comentários.\n\nEnvie para quem quer entender a Páscoa.\n\nLeia o texto completo em ateladoreino.com (link na bio).\n\nGrátis: o Plano de leitura da Bíblia 2027 em PDF, em ateladoreino.com/links.\n\n#ParashaDaSemana #Páscoa #Êxodo #EstudoBíblico #Bíblia #ATelaDoReino",
+  "slides": [
+    {
+      "tipo": "capa",
+      "chapeu": "Parashá da semana",
+      "titulo": "Bo: *a primeira Páscoa*",
+      "apoio": "Êxodo 10:1 a 13:16, lida neste sábado. Em 5 minutos.",
+      "isca": "Deslize"
+    },
+    {
+      "tipo": "texto",
+      "busca": "old wooden door doorway",
+      "titulo": "O sangue *na porta*.",
+      "texto": "Cada família toma um cordeiro, marca a porta e come com pão sem fermento e ervas amargas (Êxodo 12).",
+      "isca": "E Deus diz"
+    },
+    {
+      "tipo": "versiculo",
+      "busca": "lamb field",
+      "citacao": "vendo eu sangue, passarei por cima de vós",
+      "ref": "Êxodo 12:13",
+      "destaque": "É a noite em que Deus *liberta o seu povo.*",
+      "isca": "Uma palavra hebraica"
+    },
+    {
+      "tipo": "texto",
+      "busca": "flat bread table",
+      "titulo": "Pessach: *passar por cima*.",
+      "texto": "Do verbo pasach vem o nome da festa, Pessach. Pelo grego e pelo latim, virou a nossa palavra Páscoa.",
+      "isca": "E onde está Jesus?"
+    },
+    {
+      "tipo": "versiculo",
+      "busca": "river jordan reeds",
+      "citacao": "Eis o Cordeiro de Deus, que tira o pecado do mundo.",
+      "ref": "João 1:29",
+      "destaque": "O Novo Testamento lê a cruz *à luz da Páscoa.*",
+      "isca": "Ore agora"
+    },
+    {
+      "tipo": "oracao",
+      "busca": "family table evening",
+      "titulo": "Ore agora, com estas palavras",
+      "texto": "Senhor, obrigado pela libertação que deste ao teu povo e pela que me dás em Jesus. Que eu conte o que fizeste. Amém.",
+      "isca": "Para este sábado"
+    },
+    {
+      "tipo": "final",
+      "busca": "night stars desert",
+      "titulo": "Salve e leia *neste sábado.*",
+      "texto": "Envie para quem está lendo Êxodo com você.",
+      "rodape": "Texto completo: ateladoreino.com · link na bio"
+    }
+  ]
+}
