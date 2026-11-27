@@ -1,0 +1,464 @@
+{
+  "2": {
+    "busca": "desert bricks mud",
+    "candidatas": [
+      {
+        "id": "pixabay-7395024",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/morocco-desert-palms-trees-nature-7395024/",
+        "fotografo": "YakupIpek",
+        "tags": "morocco, desert, palms, trees, nature, landscape",
+        "src": "https://cdn.pixabay.com/photo/2022/08/18/14/28/morocco-7395024_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2022/08/18/14/28/morocco-7395024_640.jpg"
+      },
+      {
+        "id": "pixabay-684694",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/heron-fishes-dryness-drought-684694/",
+        "fotografo": "garten-gg",
+        "tags": "heron, fishes, dryness, drought, hunger, dried out, heat, cracked, desert, nature, climate change, climate protection, heatwave, composing, fantasy",
+        "src": "https://cdn.pixabay.com/photo/2015/03/22/14/28/heron-684694_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2015/03/22/14/28/heron-684694_640.jpg"
+      },
+      {
+        "id": "pixabay-21772",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/safari-animal-elephant-21772/",
+        "fotografo": "PublicDomainPictures",
+        "tags": "safari, animal, elephant, elephant trunk, large animal, mammal, wildlife, fauna, wilderness, nature, portrait",
+        "src": "https://cdn.pixabay.com/photo/2012/03/04/00/08/safari-21772_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2012/03/04/00/08/safari-21772_640.jpg"
+      },
+      {
+        "id": "pixabay-171156",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/dirt-bike-motocross-bike-motorcycle-171156/",
+        "fotografo": "6554",
+        "tags": "dirt bike, motocross, bike, motorcycle, exhaust, metal, metallic, transportation, transport, trike, wheel, vehicle, cycle, wheels, bicycle, gray bike, gray metal, dirt bike, dirt bike, motocross, motocross, bike, bike, bike, bike, bike, motorcycle, motorcycle, motorcycle, motorcycle, cycle",
+        "src": "https://cdn.pixabay.com/photo/2013/08/09/18/08/dirt-bike-171156_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2013/08/09/18/08/dirt-bike-171156_640.jpg"
+      },
+      {
+        "id": "pixabay-10217381",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/namibia-desert-nature-namib-africa-10217381/",
+        "fotografo": "Rudi_Va_Denel",
+        "tags": "namibia, desert, nature, namib, africa, sossusvlei, landscape, sand, dune, dry, hot, tree, sandy, deadvlei, vegetation, dryness",
+        "src": "https://cdn.pixabay.com/photo/2026/04/09/10/19/rudi_nel-namibia-10217381_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2026/04/09/10/19/rudi_nel-namibia-10217381_640.jpg"
+      },
+      {
+        "id": "pixabay-3259562",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/door-doorway-architecture-entrance-3259562/",
+        "fotografo": "sharonang",
+        "tags": "door, doorway, architecture, entrance, wall, al hamra, nizwa, oman, 400-year, village, ancient, stone, brick, construction, material, stone wall, house, historical, travel, tourism, exterior, traditional, historic, middle east, street, alley, wood, front, oman, oman, oman, oman, oman",
+        "src": "https://cdn.pixabay.com/photo/2018/03/25/14/31/door-3259562_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2018/03/25/14/31/door-3259562_640.jpg"
+      },
+      {
+        "id": "pixabay-10427119",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/art-portrait-woman-fashion-horizon-10427119/",
+        "fotografo": "mokhaladmusavi",
+        "tags": "art, portrait, woman, fashion, horizon, desert, blue sky, stoic, tradition, headscarf, black, nature, artistic, model, outdoor, landscape, pose, dramatic, black color, wide angle",
+        "src": "https://cdn.pixabay.com/photo/2026/08/14/14/40/14-40-34-778_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2026/08/14/14/40/14-40-34-778_640.jpg"
+      },
+      {
+        "id": "pixabay-100991",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/earth-house-architecture-building-100991/",
+        "fotografo": "imshoiley",
+        "tags": "earth house, architecture, building, dwelling, structure, style, sustainable, ecology, eco, ecological, environmental, new mexico, usa, earth house, earth house, eco, new mexico, new mexico, new mexico, new mexico, new mexico",
+        "src": "https://cdn.pixabay.com/photo/2013/04/06/07/30/earth-house-100991_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2013/04/06/07/30/earth-house-100991_640.jpg"
+      }
+    ]
+  },
+  "3": {
+    "busca": "burning bush desert",
+    "candidatas": [
+      {
+        "id": "pixabay-10533552",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/candle-autumn-flame-candle-holder-10533552/",
+        "fotografo": "Christina9999",
+        "tags": "candle, autumn, flame, candle holder, metal, decoration, light, cozy, autumn decoration, peace, fireplace, bulbs, rustic, evening, medieval, shadow, retro, prayer, warmth, calm",
+        "src": "https://cdn.pixabay.com/photo/2026/10/20/12/32/12-32-25-132_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2026/10/20/12/32/12-32-25-132_640.jpg"
+      },
+      {
+        "id": "pixabay-7651446",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/elephants-africa-nature-safari-7651446/",
+        "fotografo": "MariLari",
+        "tags": "elephants, africa, nature, safari, zambia, elephants, elephants, elephants, africa, africa, africa, africa, nature, nature, nature, nature, nature, safari, safari, safari, zambia, zambia",
+        "src": "https://cdn.pixabay.com/photo/2022/12/12/17/05/elephants-7651446_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2022/12/12/17/05/elephants-7651446_640.jpg"
+      },
+      {
+        "id": "pixabay-8230528",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/fire-embers-heat-flames-hot-burn-8230528/",
+        "fotografo": "LAWJR",
+        "tags": "fire, embers, heat, flames, hot, burn, camp, camping, smoke, wood, fire, fire, fire, fire, fire",
+        "src": "https://cdn.pixabay.com/photo/2023/09/03/11/30/fire-8230528_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2023/09/03/11/30/fire-8230528_640.jpg"
+      },
+      {
+        "id": "pixabay-8047856",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/giraffes-herd-safari-namibia-8047856/",
+        "fotografo": "Daniele_K",
+        "tags": "giraffes, herd, safari, namibia, south africa, nature, africa, savannah, forest, wildlife",
+        "src": "https://cdn.pixabay.com/photo/2023/06/07/18/14/giraffes-8047856_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2023/06/07/18/14/giraffes-8047856_640.jpg"
+      },
+      {
+        "id": "pixabay-1850646",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/bonfire-burning-dark-fire-flames-1850646/",
+        "fotografo": "Pexels",
+        "tags": "bonfire, burning, dark, fire, flames, heat, burn, embers, firewood, black wallpaper, black, phone wallpaper, aesthetic wallpaper, phone wallpaper, phone wallpaper, phone wallpaper, phone wallpaper, phone wallpaper",
+        "src": "https://cdn.pixabay.com/photo/2016/11/22/21/33/bonfire-1850646_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2016/11/22/21/33/bonfire-1850646_640.jpg"
+      },
+      {
+        "id": "pixabay-419613",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/elephant-tusk-ivory-animal-trunk-419613/",
+        "fotografo": "Amandad",
+        "tags": "elephant, tusk, ivory, animal, trunk, africa, safari, nature, elephant, elephant, elephant, elephant, elephant",
+        "src": "https://cdn.pixabay.com/photo/2014/08/16/19/45/elephant-419613_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2014/08/16/19/45/elephant-419613_640.jpg"
+      },
+      {
+        "id": "pixabay-298115",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/fire-spark-spark-fire-flames-blaze-298115/",
+        "fotografo": "LoggaWiggler",
+        "tags": "fire, spark, spark fire, flames blaze, burn, hot, fire, fire, fire, fire, fire",
+        "src": "https://cdn.pixabay.com/photo/2014/03/25/21/40/fire-298115_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2014/03/25/21/40/fire-298115_640.jpg"
+      },
+      {
+        "id": "pixabay-3778536",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/giraffe-animal-nature-wildlife-3778536/",
+        "fotografo": "AndreasGoellner",
+        "tags": "giraffe, animal, nature, wildlife, mammal, safari, long-necked, long-legged, wildlife photography, giraffe, giraffe, giraffe, giraffe, giraffe",
+        "src": "https://cdn.pixabay.com/photo/2018/10/28/11/18/giraffe-3778536_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2018/10/28/11/18/giraffe-3778536_640.jpg"
+      }
+    ]
+  },
+  "4": {
+    "busca": "flame in dark",
+    "candidatas": [
+      {
+        "id": "pixabay-214439",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/grief-to-die-trauerkarte-memory-214439/",
+        "fotografo": "geralt",
+        "tags": "grief, to die, trauerkarte, memory, candle, light, flame, saying, map, condolences, power, consolation, commemorate, funeral, pain, forever",
+        "src": "https://cdn.pixabay.com/photo/2013/11/21/07/24/mourning-214439_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2013/11/21/07/24/mourning-214439_640.jpg"
+      },
+      {
+        "id": "pixabay-8604602",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/woman-model-fire-flame-fakir-8604602/",
+        "fotografo": "Sunriseforever",
+        "tags": "woman, model, fire, flame, fakir, twilight, pose, divination, girl with fire",
+        "src": "https://cdn.pixabay.com/photo/2024/02/29/14/55/woman-8604602_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2024/02/29/14/55/woman-8604602_640.jpg"
+      },
+      {
+        "id": "pixabay-9874140",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/candles-candlelight-tea-lights-9874140/",
+        "fotografo": "Couleur",
+        "tags": "candles, candlelight, tea lights, church, prayer, faith, religion, light, burn, all saints, advent",
+        "src": "https://cdn.pixabay.com/photo/2025/10/05/07/11/candles-9874140_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2025/10/05/07/11/candles-9874140_640.jpg"
+      },
+      {
+        "id": "pixabay-8230528",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/fire-embers-heat-flames-hot-burn-8230528/",
+        "fotografo": "LAWJR",
+        "tags": "fire, embers, heat, flames, hot, burn, camp, camping, smoke, wood, fire, fire, fire, fire, fire",
+        "src": "https://cdn.pixabay.com/photo/2023/09/03/11/30/fire-8230528_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2023/09/03/11/30/fire-8230528_640.jpg"
+      },
+      {
+        "id": "pixabay-2692556",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/tea-light-light-worships-2692556/",
+        "fotografo": "pixel2013",
+        "tags": "tea light, light, worships, candlelight, flame, meditation, prayer, candle, contemplative, memorial candle, ecclesiastical, shining, memorial lights, sacrificial candle, sacrificial light, reflection, warmth, burn, grief, seem, consolation, meditation, meditation, meditation, prayer, candle, candle, candle, candle, candle, grief",
+        "src": "https://cdn.pixabay.com/photo/2017/08/29/09/22/tealight-2692556_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2017/08/29/09/22/tealight-2692556_640.jpg"
+      },
+      {
+        "id": "pixabay-1850646",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/bonfire-burning-dark-fire-flames-1850646/",
+        "fotografo": "Pexels",
+        "tags": "bonfire, burning, dark, fire, flames, heat, burn, embers, firewood, black wallpaper, black, phone wallpaper, aesthetic wallpaper, phone wallpaper, phone wallpaper, phone wallpaper, phone wallpaper, phone wallpaper",
+        "src": "https://cdn.pixabay.com/photo/2016/11/22/21/33/bonfire-1850646_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2016/11/22/21/33/bonfire-1850646_640.jpg"
+      },
+      {
+        "id": "pixabay-7581472",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/candle-pine-christmas-tree-holidays-7581472/",
+        "fotografo": "Edyttka1388",
+        "tags": "candle, pine, christmas tree, holidays, decoration, the background, pictures, image, burn, fire, heat, light, symbol, cozy, wax, night, black, hot, religion, meditation, ornament, candle, christmas tree, christmas tree, cozy, meditation, meditation, meditation, meditation, meditation",
+        "src": "https://cdn.pixabay.com/photo/2022/11/09/21/12/candle-7581472_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2022/11/09/21/12/candle-7581472_640.jpg"
+      },
+      {
+        "id": "pixabay-298115",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/fire-spark-spark-fire-flames-blaze-298115/",
+        "fotografo": "LoggaWiggler",
+        "tags": "fire, spark, spark fire, flames blaze, burn, hot, fire, fire, fire, fire, fire",
+        "src": "https://cdn.pixabay.com/photo/2014/03/25/21/40/fire-298115_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2014/03/25/21/40/fire-298115_640.jpg"
+      }
+    ]
+  },
+  "5": {
+    "busca": "stone temple steps light",
+    "candidatas": [
+      {
+        "id": "pixabay-10404029",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/angkor-wat-architecture-temples-10404029/",
+        "fotografo": "drerre2015",
+        "tags": "angkor wat, architecture, temples, landmarks, stone, steps, travel, history, cambodia, sunrise, pillars, sitting person, vacation, tourist, nature, passage, latitude and longitude, culture, tourism, antiquity",
+        "src": "https://cdn.pixabay.com/photo/2026/07/30/15/31/drerre2015-angkor-wat-10404029_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2026/07/30/15/31/drerre2015-angkor-wat-10404029_640.jpg"
+      },
+      {
+        "id": "pixabay-10274718",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/buddhist-monk-thai-heritage-10274718/",
+        "fotografo": "ahmetyuksek",
+        "tags": "buddhist monk, thai heritage, temple steps, spiritual life, temple retreat, peaceful architecture, orange robe, sacred place, temple photography, serene vibes, chiang mai, traditional textiles, tranquility, meditation, sanctuary, calm scenery, contemplation, religious life",
+        "src": "https://cdn.pixabay.com/photo/2026/05/12/03/06/03-06-14-37_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2026/05/12/03/06/03-06-14-37_640.jpg"
+      },
+      {
+        "id": "pixabay-4735530",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/monk-peace-stairs-monastery-4735530/",
+        "fotografo": "danielkirsch",
+        "tags": "monk, peace, stairs, monastery, buddhist, believe, buddha, religion, garment, finish, buddha purnima, down, stages, enlightenment, truth",
+        "src": "https://cdn.pixabay.com/photo/2020/01/02/10/52/monk-4735530_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2020/01/02/10/52/monk-4735530_640.jpg"
+      },
+      {
+        "id": "pixabay-6004289",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/aodai-vietnam-aodaivietnam-aothun-6004289/",
+        "fotografo": "ghostw1997",
+        "tags": "aodai, vietnam, aodaivietnam, aothun, vietnamesegirl, vietnamese, aokhoac, hanoi, fashion, aodaicachtan, hand, hoian, saigon, pond, wedding, phukien",
+        "src": "https://cdn.pixabay.com/photo/2021/02/11/05/34/ghostw1997-aodai-6004289_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2021/02/11/05/34/ghostw1997-aodai-6004289_640.jpg"
+      },
+      {
+        "id": "pixabay-6285465",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/woman-ao-dai-temple-vietnamese-6285465/",
+        "fotografo": "AMVphoto",
+        "tags": "woman, ao dai, temple, vietnamese, girl, lady, conical hat, dress, traditional, culture",
+        "src": "https://cdn.pixabay.com/photo/2021/05/26/15/21/woman-6285465_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2021/05/26/15/21/woman-6285465_640.jpg"
+      },
+      {
+        "id": "pixabay-63747",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/stairs-staircase-stairway-63747/",
+        "fotografo": "Ichigo121212",
+        "tags": "stairs, staircase, stairway, architecture, concrete, black and white, stairs, stairs, stairs, stairs, stairs, staircase",
+        "src": "https://cdn.pixabay.com/photo/2012/11/01/05/36/stairs-63747_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2012/11/01/05/36/stairs-63747_640.jpg"
+      },
+      {
+        "id": "pixabay-4950141",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/subway-stairs-stair-handrail-4950141/",
+        "fotografo": "zj900430",
+        "tags": "subway stairs, stair handrail, subway exit, subway station entrance, steps, city, iphone wallpaper, phone wallpaper, aesthetic wallpaper",
+        "src": "https://cdn.pixabay.com/photo/2020/03/20/09/38/subway-stairs-4950141_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2020/03/20/09/38/subway-stairs-4950141_640.jpg"
+      },
+      {
+        "id": "pixabay-4534056",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/stairs-window-architecture-design-4534056/",
+        "fotografo": "TheFelip",
+        "tags": "stairs, window, architecture, design, railings, light, glass, shadow, lighting, stairs, stairs, stairs, stairs, stairs, shadow, shadow",
+        "src": "https://cdn.pixabay.com/photo/2019/10/08/03/40/ladder-4534056_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2019/10/08/03/40/ladder-4534056_640.jpg"
+      }
+    ]
+  },
+  "6": {
+    "busca": "morning window quiet",
+    "candidatas": [
+      {
+        "id": "pixabay-262423",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/morning-quiet-space-reading-books-262423/",
+        "fotografo": "gerdushe",
+        "tags": "morning, quiet, space, reading, books, coffee, cup and saucer, tea, relaxation, study, plan, tranquil, calm, windowsill, serenity, enjoyment, alone, brown book, brown coffee, brown books, brown reading, brown relax, brown study, brown alone, brown tea, brown calm, brown studying, brown plan, brown planning, brown cup, brown morning, tea, study, study, study, study, study, windowsill, windowsill, windowsill, windowsill",
+        "src": "https://cdn.pixabay.com/photo/2014/02/08/22/49/morning-262423_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2014/02/08/22/49/morning-262423_640.jpg"
+      },
+      {
+        "id": "pixabay-846365",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/eating-breakfast-morning-breakfast-846365/",
+        "fotografo": "JillWellington",
+        "tags": "eating breakfast, morning, breakfast, kitchen, table, healthy, eating, silhouette, eating breakfast, breakfast, eating, eating, eating, eating, eating",
+        "src": "https://cdn.pixabay.com/photo/2015/07/15/16/06/eating-breakfast-846365_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2015/07/15/16/06/eating-breakfast-846365_640.jpg"
+      },
+      {
+        "id": "pixabay-5928982",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/trees-road-forest-nature-path-5928982/",
+        "fotografo": "Lucent_Designs_dinoson20",
+        "tags": "trees, road, forest, nature, path, landscape, street, woods, woodlands, undergrowth, tree trunks, autumn, morning, fog, fall, rural, outdoors, countryside, road, forest, nature, nature, nature, nature, nature, street, street, autumn",
+        "src": "https://cdn.pixabay.com/photo/2021/01/18/18/03/trees-5928982_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2021/01/18/18/03/trees-5928982_640.jpg"
+      },
+      {
+        "id": "pixabay-1850893",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/morning-bedroom-bed-door-girl-1850893/",
+        "fotografo": "Pexels",
+        "tags": "morning, bedroom, bed, door, girl, indoors, person, fresh air, venting, room, woman, waking up, standing up, wallpaper for girls, iphone wallpaper, morning, morning, morning, morning, morning, bedroom, bed, door, door, fresh air, room, waking up, waking up, iphone wallpaper",
+        "src": "https://cdn.pixabay.com/photo/2016/11/22/22/18/morning-1850893_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2016/11/22/22/18/morning-1850893_640.jpg"
+      },
+      {
+        "id": "pixabay-3950334",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/black-flower-woman-colour-window-3950334/",
+        "fotografo": "fkabay",
+        "tags": "black, flower wallpaper, flower, beautiful flowers, nature, woman, colour, flower background, window",
+        "src": "https://cdn.pixabay.com/photo/2019/01/23/14/06/black-3950334_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2019/01/23/14/06/black-3950334_640.jpg"
+      },
+      {
+        "id": "pixabay-10377109",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/girl-portrait-school-student-10377109/",
+        "fotografo": "Chuotanhls",
+        "tags": "girl, portrait, school, student, headphones, lighting, shadows, silhouette, window, interior, vietnam, couple, classmates, low lighting, casual, youth, asian, sitting, back to camera, angle",
+        "src": "https://cdn.pixabay.com/photo/2026/07/14/04/40/04-40-14-48_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2026/07/14/04/40/04-40-14-48_640.jpg"
+      },
+      {
+        "id": "pixabay-4009096",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/woman-braided-hair-window-portrait-4009096/",
+        "fotografo": "valeriiiiiiiiiiiiiiii",
+        "tags": "woman, braided hair, window, portrait, beauty, beautiful, woman, window, window, window, window, window",
+        "src": "https://cdn.pixabay.com/photo/2019/02/20/12/31/woman-4009096_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2019/02/20/12/31/woman-4009096_640.jpg"
+      },
+      {
+        "id": "pixabay-10283354",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/coffee-cup-spoon-reading-book-10283354/",
+        "fotografo": "ahuanzuishuai111",
+        "tags": "coffee, cup, spoon, reading, coffee cup, book, wood, brown, ceramic, relaxation, detail, sleeve, black and white, home comfort, winter, afternoon, warm, interior, minimalism, hygge, woman",
+        "src": "https://cdn.pixabay.com/photo/2026/05/16/16/46/16-46-18-599_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2026/05/16/16/46/16-46-18-599_640.jpg"
+      }
+    ]
+  },
+  "7": {
+    "busca": "sunrise desert mountains",
+    "candidatas": [
+      {
+        "id": "pixabay-4965456",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/namibia-africa-desert-nature-4965456/",
+        "fotografo": "KevinSchmid",
+        "tags": "namibia, africa, desert, nature, sahara, national park, safari, antelope, dry, sand, dune, etosha, tree, heaven, sunset, mood, nobel, phone wallpaper, aesthetic wallpaper, iphone wallpaper",
+        "src": "https://cdn.pixabay.com/photo/2020/03/24/20/41/namibia-4965456_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2020/03/24/20/41/namibia-4965456_640.jpg"
+      },
+      {
+        "id": "pixabay-4993835",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/hot-air-balloon-africa-desert-4993835/",
+        "fotografo": "KevinSchmid",
+        "tags": "hot air balloon, africa, desert, sahara, nature, safari, etosha, phone wallpaper, iphone wallpaper, aesthetic wallpaper, phone wallpaper, phone wallpaper, phone wallpaper, phone wallpaper, phone wallpaper, iphone wallpaper",
+        "src": "https://cdn.pixabay.com/photo/2020/04/02/07/38/hot-air-balloon-4993835_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2020/04/02/07/38/hot-air-balloon-4993835_640.jpg"
+      },
+      {
+        "id": "pixabay-4970738",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/death-valley-bad-water-dry-badwater-4970738/",
+        "fotografo": "KevinSchmid",
+        "tags": "death valley, bad water, dry, badwater, salt lake, salt, national park, salt pan, mojave desert, california, dryness, desert, usa, expanse, infinity, nevada, nature, landscape, horizon, lonliness, dead, death valley, death valley, death valley, salt lake, salt, salt, salt, salt, salt, california, desert",
+        "src": "https://cdn.pixabay.com/photo/2020/03/26/15/23/death-valley-4970738_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2020/03/26/15/23/death-valley-4970738_640.jpg"
+      },
+      {
+        "id": "pixabay-6719996",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/cactus-desert-hill-clouds-nature-6719996/",
+        "fotografo": "kantolphotos",
+        "tags": "cactus, desert, hill, clouds, nature, arizona, landscape, cactus, cactus, cactus, cactus, cactus, arizona, arizona, arizona",
+        "src": "https://cdn.pixabay.com/photo/2021/10/18/02/43/cactus-6719996_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2021/10/18/02/43/cactus-6719996_640.jpg"
+      },
+      {
+        "id": "pixabay-2035446",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/death-valley-california-desert-sky-2035446/",
+        "fotografo": "12019",
+        "tags": "death valley, california, desert, sky, clouds, scenic, mountains, landscape, hot, dry, nature, outdoors, sunset, sunrise, hdr, country, countryside, death valley, death valley, death valley, desert, desert, desert, desert, desert",
+        "src": "https://cdn.pixabay.com/photo/2017/02/03/16/25/death-valley-2035446_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2017/02/03/16/25/death-valley-2035446_640.jpg"
+      },
+      {
+        "id": "pixabay-4908109",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/cactus-desert-succulent-nature-4908109/",
+        "fotografo": "urbancowboy",
+        "tags": "cactus, desert, succulent, nature, landscape, mountains, outdoor, hike, travel, scenery, adventure, national park, saguaro, saguaro national park, scenic, saguaro, saguaro, saguaro, saguaro, saguaro, saguaro national park",
+        "src": "https://cdn.pixabay.com/photo/2020/03/06/20/38/cactus-4908109_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2020/03/06/20/38/cactus-4908109_640.jpg"
+      },
+      {
+        "id": "pixabay-6724061",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/cacti-desert-sunset-mountains-6724061/",
+        "fotografo": "kantolphotos",
+        "tags": "cacti, desert, sunset, mountains, landscape, clouds, nature, desert, desert, desert, desert, desert",
+        "src": "https://cdn.pixabay.com/photo/2021/10/19/16/42/cacti-6724061_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2021/10/19/16/42/cacti-6724061_640.jpg"
+      },
+      {
+        "id": "pixabay-2608502",
+        "banco": "Pixabay",
+        "pagina": "https://pixabay.com/photos/death-valley-california-desert-2608502/",
+        "fotografo": "12019",
+        "tags": "death valley, california, desert, valley, mountains, landscape, tourism, san dunes, nature, outdoors, countryside, barren, sunset, sunrise, sky, clouds, orange nature, orange sky, orange landscape, orange sunset, orange mountain, orange sunrise, orange clouds, orange desert, orange death, death valley, death valley, death valley, death valley, death valley",
+        "src": "https://cdn.pixabay.com/photo/2017/08/07/22/17/death-valley-2608502_1280.jpg",
+        "miniatura": "https://cdn.pixabay.com/photo/2017/08/07/22/17/death-valley-2608502_640.jpg"
+      }
+    ]
+  }
+}

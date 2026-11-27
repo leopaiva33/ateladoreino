@@ -1,0 +1,85 @@
+{
+  "slug": "shabat-o-descanso-que-jesus-guardou",
+  "arte": "public/images/posts/shabat-o-descanso-que-jesus-guardou.png",
+  "clima": "calma",
+  "legenda": "Quando foi a última vez que você parou de verdade? Conte nos comentários.\n\nEnvie para quem precisa descansar.\n\nLeia o texto completo em ateladoreino.com (link na bio).\n\nGrátis: o Plano de leitura da Bíblia 2027 em PDF, em ateladoreino.com/links.\n\n#Shabat #ContextoJudaico #EstudoBíblico #Bíblia #Fé #ATelaDoReino",
+  "slides": [
+    {
+      "tipo": "capa",
+      "chapeu": "Contexto judaico",
+      "titulo": "Shabat: o descanso *que Jesus guardou*",
+      "apoio": "De onde vem e o que ensina hoje.",
+      "isca": "Deslize"
+    },
+    {
+      "tipo": "versiculo",
+      "busca": "calm field evening",
+      "citacao": "E abençoou Deus o dia sétimo e o santificou; porque nele descansou de toda a sua obra",
+      "ref": "Gênesis 2:3",
+      "destaque": "Shabat vem de *shavat: parar.*",
+      "isca": "Por que parar?",
+      "foto": "https://cdn.pixabay.com/photo/2020/04/25/14/08/tree-5090975_1280.jpg"
+    },
+    {
+      "tipo": "texto",
+      "busca": "open gate field light",
+      "titulo": "Memória da *liberdade*.",
+      "texto": "Êxodo lembra a criação; Deuteronômio lembra o Egito. Quem foi escravo agora tem um dia de descanso.",
+      "isca": "E Jesus?",
+      "foto": "https://cdn.pixabay.com/photo/2017/08/13/01/17/mosel-2635914_1280.jpg"
+    },
+    {
+      "tipo": "versiculo",
+      "busca": "old stone synagogue ruins",
+      "citacao": "entrou num dia de sábado, segundo o seu costume, na sinagoga e levantou-se para ler.",
+      "ref": "Lucas 4:16",
+      "destaque": "Jesus *guardava o sábado.*",
+      "isca": "O que ele ensinou",
+      "foto": "https://cdn.pixabay.com/photo/2017/10/31/00/01/goal-2903872_1280.png"
+    },
+    {
+      "tipo": "versiculo",
+      "busca": "wheat field path",
+      "citacao": "O sábado foi feito por causa do homem, e não o homem, por causa do sábado.",
+      "ref": "Marcos 2:27",
+      "destaque": "Para Jesus, o sábado é *dia de libertação.*",
+      "isca": "Sábado ou domingo?",
+      "foto": "https://cdn.pixabay.com/photo/2016/08/06/12/51/field-1574317_1280.jpg"
+    },
+    {
+      "tipo": "texto",
+      "busca": "church bench window light",
+      "titulo": "Igrejas *diferentes*.",
+      "texto": "A maioria se reúne no domingo; outras guardam o sábado. Paulo pede que ninguém despreze o outro (Romanos 14).",
+      "isca": "4 lições para hoje",
+      "foto": "https://cdn.pixabay.com/photo/2019/12/03/17/56/church-4670590_1280.jpg"
+    },
+    {
+      "tipo": "lista",
+      "titulo": "O que o Shabat ensina",
+      "itens": [
+        "Pare de verdade uma vez por semana.",
+        "Faça do descanso um tempo com Deus.",
+        "Coma com quem você ama.",
+        "Seu valor não está no que você produz."
+      ],
+      "isca": "Ore agora"
+    },
+    {
+      "tipo": "oracao",
+      "busca": "candles table evening",
+      "titulo": "Ore agora, com estas palavras",
+      "texto": "Senhor do sábado, ensina-me a parar. Que eu encontre descanso em ti. Amém.",
+      "isca": "Para guardar",
+      "foto": "https://cdn.pixabay.com/photo/2019/05/22/08/05/candles-4220874_1280.jpg"
+    },
+    {
+      "tipo": "final",
+      "busca": "sunset hills peaceful",
+      "titulo": "Salve para lembrar *de parar.*",
+      "texto": "Envie para quem precisa descansar.",
+      "rodape": "Texto completo: ateladoreino.com · link na bio",
+      "foto": "https://cdn.pixabay.com/photo/2019/03/05/05/51/mountain-4035621_1280.jpg"
+    }
+  ]
+}

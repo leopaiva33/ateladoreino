@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="ceu" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#150c1c"/>
+      <stop offset=".7" stop-color="#2e2f5e"/>
+      <stop offset="1" stop-color="#3b3a6e"/>
+    </linearGradient>
+    <radialGradient id="halo" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#f6c97a" stop-opacity=".8"/>
+      <stop offset="1" stop-color="#f6c97a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="mesa" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#97323f"/>
+      <stop offset="1" stop-color="#5c1a26"/>
+    </linearGradient>
+  </defs>
+  <!-- céu de noite com lua cheia -->
+  <rect width="1200" height="630" fill="url(#ceu)"/>
+  <g fill="#fff7e8" opacity=".7"><circle cx="120" cy="80" r="2"/><circle cx="300" cy="150" r="1.6"/><circle cx="1050" cy="60" r="2"/><circle cx="940" cy="170" r="1.6"/><circle cx="470" cy="60" r="1.6"/></g>
+  <circle cx="820" cy="170" r="150" fill="url(#halo)" opacity=".7"/>
+  <circle cx="820" cy="170" r="60" fill="#f9e4b0"/>
+  <!-- colinas de Jerusalém -->
+  <path d="M0 360 Q260 300 520 340 T1200 320 V630 H0 Z" fill="#3b2a48"/>
+  <path d="M0 410 Q320 370 640 400 T1200 390 V630 H0 Z" fill="#2a1d36"/>
+  <!-- oliveiras em silhueta -->
+  <g fill="#150c1c">
+    <rect x="148" y="330" width="10" height="60"/><ellipse cx="153" cy="320" rx="46" ry="30"/>
+    <rect x="1038" y="320" width="10" height="70"/><ellipse cx="1043" cy="308" rx="52" ry="32"/>
+  </g>
+  <!-- mesa -->
+  <path d="M220 470 H980 L1020 520 H180 Z" fill="url(#mesa)"/>
+  <rect x="180" y="520" width="840" height="14" fill="#5c1a26"/>
+  <rect x="230" y="534" width="16" height="90" fill="#3b0f18"/><rect x="954" y="534" width="16" height="90" fill="#3b0f18"/>
+  <!-- luz da lamparina -->
+  <circle cx="600" cy="440" r="210" fill="url(#halo)"/>
+  <!-- pão achatado -->
+  <ellipse cx="430" cy="485" rx="110" ry="22" fill="#e6d4b8"/>
+  <ellipse cx="430" cy="480" rx="102" ry="17" fill="#f3e6d3"/>
+  <g fill="#d9c3a0"><circle cx="395" cy="479" r="3"/><circle cx="430" cy="476" r="3"/><circle cx="465" cy="481" r="3"/><circle cx="412" cy="486" r="3"/><circle cx="450" cy="488" r="3"/></g>
+  <!-- lamparina -->
+  <path d="M560 480 C560 456 640 456 640 480 Z" fill="#e9b45f"/>
+  <path d="M632 468 C650 462 660 468 662 476 L640 482 Z" fill="#e9b45f"/>
+  <path d="M658 470 C670 450 665 436 656 424 C656 440 646 450 650 468 Z" fill="#f9e4b0"/>
+  <!-- cálice -->
+  <path d="M740 390 H820 C820 436 794 454 780 456 C766 454 740 436 740 390 Z" fill="#e9b45f"/>
+  <path d="M746 398 H814 C812 418 802 432 780 438 C758 432 748 418 746 398 Z" fill="#7a1f2b"/>
+  <rect x="774" y="454" width="12" height="28" fill="#e9b45f"/>
+  <ellipse cx="780" cy="484" rx="32" ry="7" fill="#e9b45f"/>
+</svg>

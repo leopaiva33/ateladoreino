@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="ceu" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fbf1dc"/>
+      <stop offset=".6" stop-color="#fbe6cb"/>
+      <stop offset="1" stop-color="#f1cfae"/>
+    </linearGradient>
+    <radialGradient id="halo" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#f6c97a" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#f6c97a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <!-- céu de amanhecer -->
+  <rect width="1200" height="630" fill="url(#ceu)"/>
+  <!-- sol atrás do monte -->
+  <circle cx="600" cy="200" r="210" fill="url(#halo)"/>
+  <circle cx="600" cy="205" r="62" fill="#e9b45f"/>
+  <!-- raios -->
+  <g stroke="#f6d28f" stroke-width="6" stroke-linecap="round" opacity=".7">
+    <path d="M600 110 V70 M520 140 L490 110 M680 140 L710 110 M480 210 H440 M720 210 H760"/>
+  </g>
+  <!-- monte -->
+  <path d="M330 330 L430 280 L480 250 L520 262 L575 205 L612 222 L650 196 L700 248 L760 262 L870 330 Z" fill="#97323f"/>
+  <path d="M575 205 L612 222 L650 196 L670 222 L640 236 L612 240 L590 228 Z" fill="#7a1f2b"/>
+  <!-- colinas -->
+  <path d="M0 340 Q300 300 600 330 T1200 320 V630 H0 Z" fill="#7a1f2b"/>
+  <path d="M0 430 Q320 390 640 420 T1200 410 V630 H0 Z" fill="#5c1a26"/>
+  <path d="M0 520 Q300 490 640 510 T1200 500 V630 H0 Z" fill="#3b0f18"/>
+  <!-- caminho subindo -->
+  <path d="M520 630 C560 560 690 540 640 480 C610 445 640 400 604 336 L616 336 C660 400 680 445 700 480 C740 545 640 580 700 630 Z" fill="#d9c3a0"/>
+  <!-- cinco marcos de pedras empilhadas -->
+  <g fill="#e6d4b8">
+    <g transform="translate(483 600)"><ellipse cx="0" cy="-6" rx="22" ry="8"/><ellipse cx="2" cy="-18" rx="15" ry="7"/><ellipse cx="0" cy="-28" rx="9" ry="5"/></g>
+    <g transform="translate(737 554)"><ellipse cx="0" cy="-5" rx="18" ry="6"/><ellipse cx="1" cy="-15" rx="12" ry="5"/><ellipse cx="0" cy="-23" rx="7" ry="4"/></g>
+    <g transform="translate(568 498)"><ellipse cx="0" cy="-4" rx="14" ry="5"/><ellipse cx="1" cy="-12" rx="9" ry="4"/><ellipse cx="0" cy="-18" rx="5" ry="3"/></g>
+    <g transform="translate(687 443)"><ellipse cx="0" cy="-3" rx="10" ry="4"/><ellipse cx="0" cy="-9" rx="6" ry="3"/></g>
+    <g transform="translate(596 390)"><ellipse cx="0" cy="-3" rx="8" ry="3"/><ellipse cx="0" cy="-7" rx="5" ry="2"/></g>
+  </g>
+</svg>

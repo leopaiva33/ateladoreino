@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="parede" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2a1d36"/>
+      <stop offset="1" stop-color="#3b2a48"/>
+    </linearGradient>
+    <linearGradient id="ceu" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3b3a6e"/>
+      <stop offset=".6" stop-color="#97323f"/>
+      <stop offset="1" stop-color="#f1cfae"/>
+    </linearGradient>
+    <radialGradient id="halo" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#f6c97a" stop-opacity=".85"/>
+      <stop offset="1" stop-color="#f6c97a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="mesa" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7a1f2b"/>
+      <stop offset="1" stop-color="#3b0f18"/>
+    </linearGradient>
+  </defs>
+  <!-- parede ao anoitecer -->
+  <rect width="1200" height="630" fill="url(#parede)"/>
+  <!-- janela com pôr do sol -->
+  <rect x="700" y="110" width="300" height="260" rx="6" fill="url(#ceu)"/>
+  <circle cx="790" cy="320" r="38" fill="#f6d28f"/>
+  <path d="M700 340 Q800 300 900 330 T1000 320 V370 H700 Z" fill="#5c1a26"/>
+  <path d="M850 110 V370 M700 240 H1000" stroke="#2a1d36" stroke-width="10"/>
+  <rect x="690" y="100" width="320" height="280" rx="8" fill="none" stroke="#5c1a26" stroke-width="14"/>
+  <!-- mesa -->
+  <rect x="0" y="430" width="1200" height="200" fill="url(#mesa)"/>
+  <rect x="0" y="424" width="1200" height="12" fill="#97323f"/>
+  <!-- luz das velas -->
+  <circle cx="470" cy="330" r="230" fill="url(#halo)"/>
+  <!-- duas velas -->
+  <g>
+    <rect x="420" y="300" width="26" height="130" rx="4" fill="#fff7e8"/>
+    <rect x="494" y="300" width="26" height="130" rx="4" fill="#fff7e8"/>
+    <rect x="408" y="420" width="50" height="14" rx="4" fill="#e9b45f"/>
+    <rect x="482" y="420" width="50" height="14" rx="4" fill="#e9b45f"/>
+    <path d="M433 298 C446 278 440 262 432 250 C431 266 422 276 426 296 Z" fill="#f9e4b0"/>
+    <path d="M507 298 C520 278 514 262 506 250 C505 266 496 276 500 296 Z" fill="#f9e4b0"/>
+  </g>
+  <!-- pão coberto por um pano -->
+  <path d="M600 470 C600 420 780 420 780 470 Z" fill="#f3e6d3"/>
+  <path d="M590 474 L790 474 L800 500 L580 500 Z" fill="#e6d4b8"/>
+  <path d="M640 474 L650 500 M700 474 L700 500 M750 474 L740 500" stroke="#d9c3a0" stroke-width="3"/>
+</svg>
