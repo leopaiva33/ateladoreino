@@ -1,0 +1,86 @@
+{
+  "slug": "festas-biblicas-2027",
+  "arte": "public/images/posts/festas-biblicas-2027.png",
+  "clima": "esperanca",
+  "legenda": "Qual dessas festas você quer conhecer melhor em 2027? Conte nos comentários.\n\nEnvie para quem vai ler a Bíblia com você no ano que vem.\n\nLeia o texto completo em ateladoreino.com (link na bio).\n\nGrátis: o Plano de leitura da Bíblia 2027 em PDF, em ateladoreino.com/links.\n\n#FestasBíblicas #ContextoJudaico #EstudoBíblico #Bíblia #Fé #ATelaDoReino",
+  "slides": [
+    {
+      "tipo": "capa",
+      "chapeu": "Calendário 2027",
+      "titulo": "As festas *bíblicas* em 2027",
+      "apoio": "Datas e o que cada uma significa.",
+      "isca": "Deslize"
+    },
+    {
+      "tipo": "versiculo",
+      "busca": "ancient stone path evening light",
+      "citacao": "As solenidades do Senhor, que convocareis, serão santas convocações; estas são as minhas solenidades.",
+      "ref": "Levítico 23:2",
+      "destaque": "Levítico 23 reúne as festas que *marcavam o ano de Israel.*",
+      "isca": "As datas de 2027",
+      "foto": "https://cdn.pixabay.com/photo/2019/08/07/15/13/stairs-4390973_1280.jpg"
+    },
+    {
+      "tipo": "lista",
+      "titulo": "1º semestre (ao pôr do sol)",
+      "itens": [
+        "Purim (Ester 9): 22 de março.",
+        "Páscoa judaica (Pessach): 21 de abril.",
+        "Semanas (Shavuot): 10 de junho."
+      ],
+      "isca": "E no segundo semestre?"
+    },
+    {
+      "tipo": "lista",
+      "titulo": "2º semestre (ao pôr do sol)",
+      "itens": [
+        "Trombetas (Rosh Hashaná): 1º de outubro.",
+        "Dia da Expiação (Yom Kippur): 10 de outubro.",
+        "Tabernáculos (Sucot): 15 de outubro."
+      ],
+      "isca": "Onde Jesus aparece"
+    },
+    {
+      "tipo": "versiculo",
+      "busca": "unleavened bread table",
+      "citacao": "Porque Cristo, nossa páscoa, foi sacrificado por nós.",
+      "ref": "1 Coríntios 5:7",
+      "destaque": "Jesus morreu na Páscoa, e o Espírito veio *em Pentecostes.*",
+      "isca": "Nos Tabernáculos",
+      "foto": "https://cdn.pixabay.com/photo/2020/09/24/18/54/roti-5599559_1280.jpg"
+    },
+    {
+      "tipo": "versiculo",
+      "busca": "water stream sunlight",
+      "citacao": "Se alguém tem sede, que venha a mim e beba.",
+      "ref": "João 7:37",
+      "destaque": "Dito no último dia da *Festa dos Tabernáculos.*",
+      "isca": "Um detalhe de 2027",
+      "foto": "https://cdn.pixabay.com/photo/2011/10/24/21/41/bach-10223_1280.jpg"
+    },
+    {
+      "tipo": "texto",
+      "busca": "full moon over hills",
+      "titulo": "Por que a Páscoa *muda*?",
+      "texto": "Em 2027, a Páscoa cristã é em 28 de março e o Pessach começa em 21 de abril: o ano judaico ganhou um mês extra.",
+      "isca": "Ore agora",
+      "foto": "https://cdn.pixabay.com/photo/2023/10/23/17/10/landscape-8336496_1280.jpg"
+    },
+    {
+      "tipo": "oracao",
+      "busca": "calendar notebook morning light",
+      "titulo": "Ore agora, com estas palavras",
+      "texto": "Senhor, ensina-me a contar os meus dias e a viver o ano de 2027 lembrando do que fizeste. Amém.",
+      "isca": "Para guardar",
+      "foto": "https://cdn.pixabay.com/photo/2019/10/31/06/24/lake-4591082_1280.jpg"
+    },
+    {
+      "tipo": "final",
+      "busca": "golden wheat sunset",
+      "titulo": "Salve para marcar *na agenda.*",
+      "texto": "Envie para quem vai ler a Bíblia com você em 2027.",
+      "rodape": "Texto completo: ateladoreino.com · link na bio",
+      "foto": "https://cdn.pixabay.com/photo/2022/07/05/09/59/cornfields-7302720_1280.jpg"
+    }
+  ]
+}
