@@ -60,7 +60,7 @@ Ou seja, "Jesus Cristo" não é nome e sobrenome: quer dizer "Jesus, o Messias".
 
 ### Rabi e Raboni
 
-*Rabi* (רַבִּי) quer dizer "meu mestre". Era o tratamento dado a quem ensinava a Torá (para acompanhar a Torá semana a semana, veja os [estudos semanais](/estudos/)). É assim que os primeiros discípulos se dirigem a Jesus logo no primeiro encontro (João 1:38).
+*Rabi* (רַבִּי) quer dizer "meu mestre". Era o tratamento dado a quem ensinava a Torá (para acompanhar a Torá semana a semana, veja os [estudos semanais da Torá](/estudos/)). É assim que os primeiros discípulos se dirigem a Jesus logo no primeiro encontro (João 1:38).
 
 *Raboni* é uma forma aramaica mais reverente, que muitos leem também como mais afetuosa. É a palavra de Maria Madalena ao reconhecer Jesus ressuscitado: "Raboni (que quer dizer Mestre)!" (João 20:16).
 

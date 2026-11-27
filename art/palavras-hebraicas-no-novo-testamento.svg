@@ -47,6 +47,6 @@
   <path d="M786 470 C786 452 842 452 842 470 V500 Q842 512 830 512 H798 Q786 512 786 500 Z" fill="#d9c3a0"/>
   <path d="M792 472 C794 462 804 460 808 462 V500 H792 Z" fill="#f3e6d3" opacity=".7"/>
   <ellipse cx="814" cy="456" rx="16" ry="5" fill="#3b0f18"/>
-  <path d="M812 458 L880 380" stroke="#d9c3a0" stroke-width="6" stroke-linecap="round"/>
+  <path d="M808 462 L880 380" stroke="#d9c3a0" stroke-width="6" stroke-linecap="round"/>
   <path d="M876 384 L896 360" stroke="#e6d4b8" stroke-width="4" stroke-linecap="round"/>
 </svg>
