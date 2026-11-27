@@ -4,6 +4,7 @@
 // reconstruído todo dia na publicação agendada). Fora do Google: é só uma página de atalhos.
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { getPublishedPosts } from '../utils/posts';
+import { SITE } from '../config';
 
 const posts = (await getPublishedPosts()).slice(0, 8);
 // Guia em destaque (isca da newsletter) enquanto fizer sentido; some sozinho depois da data.
@@ -27,6 +28,14 @@ const thumbOf = (image?: string) =>
     <p class="intro">Toque no post que você viu no Instagram para ler o texto completo.</p>
 
     {destaques.map((d) => <a class="destaque" href={`${d.href}${utm}`}>{d.texto}</a>)}
+
+    {
+      SITE.whatsapp && (
+        <a class="destaque" href={SITE.whatsapp} rel="noopener" target="_blank">
+          Grupo no WhatsApp: a leitura do dia<span class="sr-only"> (abre em nova aba)</span>
+        </a>
+      )
+    }
 
     <ul class="lista-links">
       {

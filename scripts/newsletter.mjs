@@ -18,6 +18,7 @@ const args = process.argv.slice(2);
 const modo = args.includes('--enviar') ? 'enviar' : args.includes('--teste') ? 'teste' : 'previa';
 const arqPrevia = args[args.indexOf('--previa') + 1] && args.includes('--previa') ? args[args.indexOf('--previa') + 1] : 'newsletter-previa.html';
 const SITE = 'https://ateladoreino.com';
+const WHATSAPP = 'https://chat.whatsapp.com/FIujE24Yk5Q63X1JxEqFlf'; // o mesmo de SITE.whatsapp em src/config.ts
 const agora = process.env.AGORA_ISO ? Date.parse(process.env.AGORA_ISO) : Date.now();
 const desde = agora - 7 * 86400000;
 const existe = (p) => access(p).then(() => true, () => false);
@@ -110,6 +111,9 @@ ${
 </td></tr>`
     : ''
 }
+<tr><td style="padding:0 32px 20px;font-family:${fonte};font-size:16px;line-height:1.6;color:${C.texto};">
+  <p style="margin:0;">Quer a leitura do dia no celular? <a href="${WHATSAPP}" style="color:${C.vinho};font-weight:bold;">Entre no grupo da A Tela do Reino no WhatsApp</a>.</p>
+</td></tr>
 <tr><td style="padding:8px 32px 28px;font-family:${fonte};font-size:16px;line-height:1.6;color:${C.texto};">
   <p style="margin:0 0 6px;">Um abraço,</p>
   <p style="margin:0;font-weight:bold;">Leonardo Paiva, A Tela do Reino</p>

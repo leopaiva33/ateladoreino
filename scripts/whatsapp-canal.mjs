@@ -1,6 +1,6 @@
-// Gera os textos do Canal do WhatsApp de um mês: uma mensagem por artigo do blog (pela data de
+// Gera os textos do grupo do WhatsApp de um mês: uma mensagem por artigo do blog (pela data de
 // publicação), pronta para copiar e colar no canal, mais lembretes dos guias grátis.
-// O WhatsApp não tem API para publicar em Canais, por isso a postagem é feita à mão.
+// O WhatsApp não tem API para publicar em grupos e canais, por isso a postagem é feita à mão.
 // Saída: conteudo-social/whatsapp/AAAA-MM.md
 // Uso: node scripts/whatsapp-canal.mjs 2026-12
 import { readdir, readFile, writeFile, mkdir } from 'node:fs/promises';
@@ -31,9 +31,9 @@ const dia = (iso) => {
   return `${SEMANA.at(d.getUTCDay())}, ${iso.slice(8)}/${iso.slice(5, 7)}`;
 };
 const L = [
-  `# Canal do WhatsApp: ${mes.slice(5)}/${mes.slice(0, 4)}`,
+  `# Grupo do WhatsApp: ${mes.slice(5)}/${mes.slice(0, 4)}`,
   '',
-  'Uma mensagem por dia de artigo novo. Copie o bloco do dia (entre as linhas) e cole no Canal "A Tela do Reino", de preferência de manhã, depois das 8h (o artigo entra no ar às 7h43).',
+  'Uma mensagem por dia de artigo novo. Copie o bloco do dia (entre as linhas) e cole no grupo "A Tela do Reino", de preferência de manhã, depois das 8h (o artigo entra no ar às 7h43).',
   '',
 ];
 for (const p of posts) {
