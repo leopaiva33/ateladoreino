@@ -30,14 +30,14 @@ Artigo: src/content/blog/o-que-e-a-tora.md
 ## Slide 4 (texto)
 
 - **titulo:** Um rolo, *54 porções*.
-- **texto:** Na sinagoga, a Torá é lida de um rolo escrito à mão, uma porção por sábado. Em um ano, ela é lida inteira.
+- **texto:** Na sinagoga, a Torá é lida de um rolo escrito à mão, uma porção (às vezes duas) por sábado. Em um ano, ela é lida inteira.
 - **isca:** E Jesus?
 
 ## Slide 5 (versiculo)
 
 - **citacao:** Não cuideis que vim destruir a lei ou os profetas; não vim ab-rogar, mas cumprir.
 - **ref:** Mateus 5:17
-- **destaque:** Jesus cresceu ouvindo a Torá *e a citava o tempo todo.*
+- **destaque:** Jesus veio *cumprir, não destruir.*
 - **isca:** Como começar
 
 ## Slide 6 (lista)
@@ -46,7 +46,7 @@ Artigo: src/content/blog/o-que-e-a-tora.md
 - **itens:**
   - Comece por Gênesis e Êxodo.
   - Siga a porção da semana.
-  - Leia com o Novo Testamento aberto.
+  - Leia também o trecho dos Profetas.
   - Anote uma frase por semana.
 - **isca:** Ore agora
 

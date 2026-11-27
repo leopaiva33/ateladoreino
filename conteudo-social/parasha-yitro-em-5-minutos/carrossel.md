@@ -7,7 +7,7 @@ Artigo: src/content/blog/parasha-yitro-em-5-minutos.md
 
 - **chapeu:** Parashá da semana
 - **titulo:** Yitro: *os Dez Mandamentos*
-- **apoio:** Êxodo 18 a 20, lida neste sábado. Em 5 minutos.
+- **apoio:** Êxodo 18:1 a 20:26, lida neste sábado. Em 5 minutos.
 - **isca:** Deslize
 
 ## Slide 2 (texto)
@@ -26,7 +26,7 @@ Artigo: src/content/blog/parasha-yitro-em-5-minutos.md
 ## Slide 4 (texto)
 
 - **titulo:** Devarim: *palavras*.
-- **texto:** A Bíblia hebraica chama os mandamentos de “as dez palavras” (Deuteronômio 10:4). Daí o nome Decálogo.
+- **texto:** No hebraico de Deuteronômio 10:4, os mandamentos são “as dez palavras”. Daí o nome Decálogo.
 - **isca:** E onde está Jesus?
 
 ## Slide 5 (versiculo)

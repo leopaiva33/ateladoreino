@@ -16,8 +16,7 @@
       "busca": "path in hills sunrise",
       "titulo": "Torá = *instrução*.",
       "texto": "A palavra hebraica fala de ensinar o caminho. “Lei” veio da tradução grega antiga.",
-      "isca": "Os 5 livros",
-      "foto": "https://cdn.pixabay.com/photo/2021/07/19/22/07/mountains-6479150_1280.jpg"
+      "isca": "Os 5 livros"
     },
     {
       "tipo": "lista",
@@ -35,7 +34,7 @@
       "tipo": "texto",
       "busca": "old wooden table candle",
       "titulo": "Um rolo, *54 porções*.",
-      "texto": "Na sinagoga, a Torá é lida de um rolo escrito à mão, uma porção por sábado. Em um ano, ela é lida inteira.",
+      "texto": "Na sinagoga, a Torá é lida de um rolo escrito à mão, uma porção (às vezes duas) por sábado. Em um ano, ela é lida inteira.",
       "isca": "E Jesus?"
     },
     {
@@ -43,7 +42,7 @@
       "busca": "stone path sunlight",
       "citacao": "Não cuideis que vim destruir a lei ou os profetas; não vim ab-rogar, mas cumprir.",
       "ref": "Mateus 5:17",
-      "destaque": "Jesus cresceu ouvindo a Torá *e a citava o tempo todo.*",
+      "destaque": "Jesus veio *cumprir, não destruir.*",
       "isca": "Como começar",
       "foto": "https://cdn.pixabay.com/photo/2020/01/07/22/41/hiking-trails-4748853_1280.jpg"
     },
@@ -53,7 +52,7 @@
       "itens": [
         "Comece por Gênesis e Êxodo.",
         "Siga a porção da semana.",
-        "Leia com o Novo Testamento aberto.",
+        "Leia também o trecho dos Profetas.",
         "Anote uma frase por semana."
       ],
       "isca": "Ore agora"

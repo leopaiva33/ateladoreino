@@ -44,10 +44,10 @@ Artigo: src/content/blog/santa-ceia-e-pascoa-judaica.md
 
 - **titulo:** Na próxima Ceia
 - **itens:**
-  - Leia Êxodo 12 antes do culto.
+  - Leia Êxodo 12 antes da celebração.
   - Leia Lucas 22:14-20.
-  - No pão, lembre da libertação.
-  - No cálice, da nova aliança.
+  - No pão, lembre-se do corpo de Jesus.
+  - No cálice, lembre-se da nova aliança.
 - **isca:** Ore agora
 
 ## Slide 7 (oracao)
@@ -66,7 +66,7 @@ Artigo: src/content/blog/santa-ceia-e-pascoa-judaica.md
 
 Você já sabia que a Ceia nasceu numa refeição de Páscoa? Conte nos comentários.
 
-Envie para quem vai participar da Ceia neste domingo.
+Envie para quem vai participar da próxima Ceia.
 
 Leia o texto completo em ateladoreino.com (link na bio).
 

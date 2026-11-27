@@ -2,7 +2,7 @@
   "slug": "santa-ceia-e-pascoa-judaica",
   "arte": "public/images/posts/santa-ceia-e-pascoa-judaica.png",
   "clima": "calma",
-  "legenda": "Você já sabia que a Ceia nasceu numa refeição de Páscoa? Conte nos comentários.\n\nEnvie para quem vai participar da Ceia neste domingo.\n\nLeia o texto completo em ateladoreino.com (link na bio).\n\nGrátis: o Plano de leitura da Bíblia 2027 em PDF, em ateladoreino.com/links.\n\n#SantaCeia #Páscoa #ContextoJudaico #EstudoBíblico #Bíblia #ATelaDoReino",
+  "legenda": "Você já sabia que a Ceia nasceu numa refeição de Páscoa? Conte nos comentários.\n\nEnvie para quem vai participar da próxima Ceia.\n\nLeia o texto completo em ateladoreino.com (link na bio).\n\nGrátis: o Plano de leitura da Bíblia 2027 em PDF, em ateladoreino.com/links.\n\n#SantaCeia #Páscoa #ContextoJudaico #EstudoBíblico #Bíblia #ATelaDoReino",
   "slides": [
     {
       "tipo": "capa",
@@ -46,16 +46,16 @@
       "titulo": "Saíram *cantando*.",
       "texto": "“Tendo cantado um hino, saíram para o monte das Oliveiras” (Mateus 26:30). Muitos entendem que era o Hallel, Salmos 113 a 118.",
       "isca": "Na próxima Ceia",
-      "foto": "https://cdn.pixabay.com/photo/2021/07/04/09/16/olives-6385808_1280.jpg"
+      "foto": "https://cdn.pixabay.com/photo/2016/11/29/04/06/olive-oil-1867229_1280.jpg"
     },
     {
       "tipo": "lista",
       "titulo": "Na próxima Ceia",
       "itens": [
-        "Leia Êxodo 12 antes do culto.",
+        "Leia Êxodo 12 antes da celebração.",
         "Leia Lucas 22:14-20.",
-        "No pão, lembre da libertação.",
-        "No cálice, da nova aliança."
+        "No pão, lembre-se do corpo de Jesus.",
+        "No cálice, lembre-se da nova aliança."
       ],
       "isca": "Ore agora"
     },
@@ -64,8 +64,7 @@
       "busca": "hands bread table",
       "titulo": "Ore agora, com estas palavras",
       "texto": "Senhor Jesus, nosso Cordeiro de Páscoa, obrigado pelo teu corpo dado e pelo teu sangue derramado. Amém.",
-      "isca": "Para guardar",
-      "foto": "https://cdn.pixabay.com/photo/2026/06/20/09/26/09-26-15-218_1280.jpg"
+      "isca": "Para guardar"
     },
     {
       "tipo": "final",
@@ -73,7 +72,7 @@
       "titulo": "Salve para *a próxima Ceia.*",
       "texto": "Envie para quem vai participar da Ceia com você.",
       "rodape": "Texto completo: ateladoreino.com · link na bio",
-      "foto": "https://cdn.pixabay.com/photo/2014/07/23/00/56/moon-399834_1280.jpg"
+      "foto": "https://cdn.pixabay.com/photo/2021/04/24/18/09/mountain-6204703_1280.jpg"
     }
   ]
 }
