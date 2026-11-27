@@ -1,0 +1,15 @@
+{
+  "slug": "parasha-vayigash-em-5-minutos",
+  "arte": "public/images/posts/parasha-da-semana.png",
+  "clima": "calma",
+  "legenda": "Já viu alguém mudar de verdade com o tempo? Conte nos comentários.\n\nEnvie para quem está tentando se reaproximar de alguém, quando for seguro.\n\nLeia o texto completo em ateladoreino.com (link na bio).\n\nGrátis: o Plano de leitura da Bíblia 2027 em PDF, em ateladoreino.com/links.\n\n#ParashaDaSemana #Torá #Perdão #EstudoBíblico #Bíblia #ATelaDoReino",
+  "slides": [
+    { "tipo": "capa", "chapeu": "Parashá da semana", "titulo": "Vayigash: *Eu sou José*", "apoio": "Gênesis 44:18 a 47:27, lida neste sábado. Em 5 minutos.", "isca": "Deslize" },
+    { "tipo": "texto", "busca": "two hands reaching", "titulo": "Judá *se aproxima*.", "texto": "O irmão que um dia propôs vender José agora pede para ficar escravo no lugar de Benjamim.", "isca": "E José não aguenta" },
+    { "tipo": "versiculo", "busca": "embrace silhouette sunset", "citacao": "E disse José a seus irmãos: Eu sou José; vive ainda meu pai?", "ref": "Gênesis 45:3", "destaque": "Depois de anos, a verdade vem *com lágrimas.*", "isca": "Uma palavra hebraica" },
+    { "tipo": "texto", "busca": "old key on wooden table", "titulo": "Arav: *ser fiador*.", "texto": "Judá “se deu por fiador” do irmão (Gênesis 44:32): respondeu por ele com a própria liberdade.", "isca": "E onde está Jesus?" },
+    { "tipo": "versiculo", "busca": "light through clouds over field", "citacao": "de tanto melhor concerto Jesus foi feito fiador.", "ref": "Hebreus 7:22", "destaque": "Judá se ofereceu por um irmão. Os cristãos leem em Jesus *quem se ofereceu por muitos.*", "isca": "Ore agora" },
+    { "tipo": "oracao", "busca": "candle soft light window", "titulo": "Ore agora, com estas palavras", "texto": "Senhor, dá-me coragem para me aproximar de quem eu feri e graça para perdoar quem me feriu. Amém.", "isca": "Para este sábado" },
+    { "tipo": "final", "busca": "path between hills morning", "titulo": "Salve e leia *neste sábado.*", "texto": "Envie para quem precisa ouvir que pessoas mudam.", "rodape": "Texto completo: ateladoreino.com · link na bio" }
+  ]
+}

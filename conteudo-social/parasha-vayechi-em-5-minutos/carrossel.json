@@ -1,0 +1,15 @@
+{
+  "slug": "parasha-vayechi-em-5-minutos",
+  "arte": "public/images/posts/parasha-da-semana.png",
+  "clima": "esperanca",
+  "legenda": "O que Deus transformou em bem na sua vida em 2026? Conte nos comentários.\n\nEnvie para quem está fechando um ano difícil.\n\nLeia o texto completo em ateladoreino.com (link na bio).\n\nGrátis: o Plano de leitura da Bíblia 2027 em PDF, em ateladoreino.com/links.\n\n#ParashaDaSemana #Torá #Gênesis #EstudoBíblico #Bíblia #ATelaDoReino",
+  "slides": [
+    { "tipo": "capa", "chapeu": "Parashá da semana", "titulo": "Vayechi: *o fim de Gênesis*", "apoio": "Gênesis 47:28 a 50:26, lida neste sábado. Em 5 minutos.", "isca": "Deslize" },
+    { "tipo": "texto", "busca": "elderly hands blessing", "titulo": "As mãos *cruzadas*.", "texto": "Jacó abençoa os netos e põe a mão direita sobre Efraim, o mais novo (Gênesis 48:14).", "isca": "O medo dos irmãos" },
+    { "tipo": "versiculo", "busca": "sunrise after storm", "citacao": "Vós bem intentastes mal contra mim, porém Deus o tornou em bem", "ref": "Gênesis 50:20", "destaque": "O mal foi real. *Não teve a última palavra.*", "isca": "Uma palavra hebraica" },
+    { "tipo": "texto", "busca": "strong old tree roots", "titulo": "Chazak: *sê forte*.", "texto": "Ao terminar cada livro da Torá, a sinagoga diz: “Sê forte, sê forte, e sejamos fortalecidos.”", "isca": "E onde está Jesus?" },
+    { "tipo": "versiculo", "busca": "golden lion statue light", "citacao": "eis aqui o Leão da tribo de Judá, a Raiz de Davi", "ref": "Apocalipse 5:5", "destaque": "Gênesis 49 fala do cetro de Judá. Os cristãos o ligam *a Jesus.*", "isca": "Ore agora" },
+    { "tipo": "oracao", "busca": "notebook window light evening", "titulo": "Ore agora, com estas palavras", "texto": "Senhor, obrigado por tudo o que transformaste em bem neste ano. Fortalece-me para o que vem. Amém.", "isca": "Para este sábado" },
+    { "tipo": "final", "busca": "new year sunrise mountains", "titulo": "Salve e leia *neste sábado.*", "texto": "Envie para quem está fechando um ano difícil.", "rodape": "Texto completo: ateladoreino.com · link na bio" }
+  ]
+}
