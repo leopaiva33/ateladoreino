@@ -25,7 +25,7 @@ Artigo: src/content/blog/parasha-miketz-em-5-minutos.md
 
 ## Slide 4 (texto)
 
-- **titulo:** Bil'adai: *não sou eu*.
+- **titulo:** Bil’adai: *não sou eu*.
 - **texto:** Em hebraico, “não está em mim” é uma palavra só. José não esconde o dom, mas diz de onde ele vem.
 - **isca:** E onde está Jesus?
 
@@ -39,7 +39,7 @@ Artigo: src/content/blog/parasha-miketz-em-5-minutos.md
 ## Slide 6 (oracao)
 
 - **titulo:** Ore agora, com estas palavras
-- **texto:** Senhor, quando as portas se abrirem, guarda-me do orgulho. Que eu reconheça que os dons vêm de ti. Amém.
+- **texto:** Senhor, guarda-me do orgulho. Que eu reconheça que os dons vêm de ti e diga, como José: não está em mim. Amém.
 - **isca:** Para este sábado
 
 ## Slide 7 (final)

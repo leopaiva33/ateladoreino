@@ -36,7 +36,7 @@ Hanucá também liga esta semana ao Novo Testamento, porque "Festa da Dedicaçã
 
 ## Para a vida
 
-José esperou "dois anos inteiros" depois de ser esquecido pelo copeiro. Quando a porta se abriu, ele não usou o momento para se promover: primeiro deu o crédito a Deus. Com os irmãos, foi duro e foi devagar, e o texto mostra que chorou às escondidas (Gênesis 42:24). Muitos leitores entendem que ele queria ver se eles tinham mudado.
+José esperou "dois anos inteiros" depois de ser esquecido pelo copeiro. Quando a porta se abriu, ele não usou o momento para se promover: primeiro deu o crédito a Deus. Com os irmãos, foi duro e foi devagar, e o texto mostra que chorou às escondidas (Gênesis 42:24).
 
 Nesta semana, agradeça a Deus por algo que deu certo antes de contar a alguém. E, se houver uma relação ferida, peça sabedoria para o próximo passo, quando for seguro.
 
