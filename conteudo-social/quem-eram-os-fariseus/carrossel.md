@@ -63,7 +63,7 @@ Artigo: src/content/blog/quem-eram-os-fariseus.md
 
 ## Legenda
 
-Você já tinha ouvido falar dos fariseus que ficaram do lado de Jesus? Conte nos comentários.
+Você já tinha ouvido falar dos fariseus que acolheram, defenderam ou seguiram Jesus? Conte nos comentários.
 
 Envie para quem gosta de estudar a Bíblia.
 
