@@ -26,7 +26,7 @@ Esta é a série **A parashá da semana em 5 minutos**: a porção da Torá que 
 
 Quando termina a leitura de um dos cinco livros da Torá, a congregação na sinagoga diz em voz alta: *Chazak, chazak, venitchazek* (חֲזַק חֲזַק וְנִתְחַזֵּק), "Sê forte, sê forte, e sejamos fortalecidos". Neste sábado, essas palavras encerram Gênesis.
 
-É um costume da tradição judaica, não um versículo, mas a raiz está na própria porção. Quando Jacó, já doente, recebe a visita de José, o texto diz: "E esforçou-se Israel e assentou-se sobre a cama" (Gênesis 48:2). "Esforçou-se" é *vayitchazek* (וַיִּתְחַזֵּק), a mesma forma de *venitchazek*. Na leitura dos profetas, Davi diz a Salomão "esforça-te" (*vechazakta*, וְחָזַקְתָּ, 1 Reis 2:2).
+É um costume da tradição judaica, não um versículo, mas a raiz está na própria porção. Quando Jacó, já doente, recebe a visita de José, o texto diz: "E esforçou-se Israel e assentou-se sobre a cama" (Gênesis 48:2). "Esforçou-se" é *vayitchazek* (וַיִּתְחַזֵּק), o mesmo verbo, na mesma forma reflexiva de *venitchazek*. Na leitura dos profetas, Davi diz a Salomão "esforça-te" (*vechazakta*, וְחָזַקְתָּ, 1 Reis 2:2).
 
 ## Onde Jesus aparece nesta história
 

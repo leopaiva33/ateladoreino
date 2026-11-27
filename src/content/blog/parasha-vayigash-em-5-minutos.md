@@ -10,7 +10,7 @@ tags: ["parashá da semana", "Torá", "contexto judaico", "perdão"]
 
 **A parashá desta semana é Vayigash, Gênesis 44:18 a 47:27, lida nas sinagogas no sábado, 19 de dezembro de 2026: Judá se oferece como escravo no lugar de Benjamim, José se revela aos irmãos e toda a família de Jacó desce ao Egito.**
 
-*Vayigash* (וַיִּגַּשׁ) quer dizer "e aproximou-se", a primeira palavra da porção: "Então, Judá se chegou a ele" (Gênesis 44:18). A leitura dos profetas deste sábado é Ezequiel 37:15-28, sobre os dois pedaços de madeira que Deus une numa só.
+*Vayigash* (וַיִּגַּשׁ) quer dizer "e aproximou-se", a primeira palavra da porção: "Então, Judá se chegou a ele" (Gênesis 44:18). A leitura dos profetas deste sábado é Ezequiel 37:15-28, sobre os dois pedaços de madeira que Deus une num só.
 
 Esta é a série **A parashá da semana em 5 minutos**: toda sexta-feira, a porção da Torá que os judeus leem no sábado, com uma palavra hebraica e a ligação com Jesus.
 
@@ -26,7 +26,7 @@ Esta é a série **A parashá da semana em 5 minutos**: toda sexta-feira, a por�
 
 Judá explica por que não pode voltar sem Benjamim: "teu servo se deu por fiador por este moço para com meu pai" (Gênesis 44:32). "Se deu por fiador" vem do verbo hebraico *arav* (עָרַב): ser fiador, responder pelo outro.
 
-É essa palavra que mostra a mudança de Judá. Anos antes, os irmãos deixaram José no poço. Agora, o mesmo Judá está pronto a perder a própria liberdade para salvar o irmão mais novo. Maimônides, no século 12, define o arrependimento completo exatamente assim: diante da mesma situação, a pessoa faz outra escolha. Muitos leitores judeus veem isso em Judá.
+É essa palavra que mostra a mudança de Judá. Anos antes, os irmãos deixaram José no poço. Agora, o mesmo Judá está pronto a perder a própria liberdade para salvar o irmão mais novo. Maimônides, no século 12 (Leis do Arrependimento 2:1), define o arrependimento completo exatamente assim: diante da mesma situação, a pessoa faz outra escolha. Muitos leitores judeus veem isso em Judá.
 
 ## Onde Jesus aparece nesta história
 

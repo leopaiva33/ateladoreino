@@ -14,13 +14,13 @@ Artigo: src/content/blog/parasha-vayechi-em-5-minutos.md
 
 - **titulo:** As mãos *cruzadas*.
 - **texto:** Jacó abençoa os netos e põe a mão direita sobre Efraim, o mais novo (Gênesis 48:14).
-- **isca:** O medo dos irmãos
+- **isca:** A resposta de José
 
 ## Slide 3 (versiculo)
 
 - **citacao:** Vós bem intentastes mal contra mim, porém Deus o tornou em bem
 - **ref:** Gênesis 50:20
-- **destaque:** O mal foi real. *Não teve a última palavra.*
+- **destaque:** Os irmãos esperavam vingança. *José viu a mão de Deus.*
 - **isca:** Uma palavra hebraica
 
 ## Slide 4 (texto)
@@ -33,7 +33,7 @@ Artigo: src/content/blog/parasha-vayechi-em-5-minutos.md
 
 - **citacao:** eis aqui o Leão da tribo de Judá, a Raiz de Davi
 - **ref:** Apocalipse 5:5
-- **destaque:** Gênesis 49 fala do cetro de Judá. Os cristãos o ligam *a Jesus.*
+- **destaque:** Gênesis 49:9 chama Judá de leãozinho. Os cristãos *ligam a imagem a Jesus.*
 - **isca:** Ore agora
 
 ## Slide 6 (oracao)
@@ -50,9 +50,9 @@ Artigo: src/content/blog/parasha-vayechi-em-5-minutos.md
 
 ## Legenda
 
-O que Deus transformou em bem na sua vida em 2026? Conte nos comentários.
+Que frase de Gênesis te acompanhou este ano? Conte nos comentários.
 
-Envie para quem está fechando um ano difícil.
+Envie para quem está fechando um ciclo.
 
 Leia o texto completo em ateladoreino.com (link na bio).
 

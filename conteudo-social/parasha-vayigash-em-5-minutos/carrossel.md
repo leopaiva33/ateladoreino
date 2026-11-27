@@ -39,7 +39,7 @@ Artigo: src/content/blog/parasha-vayigash-em-5-minutos.md
 ## Slide 6 (oracao)
 
 - **titulo:** Ore agora, com estas palavras
-- **texto:** Senhor, dá-me coragem para me aproximar de quem eu feri e graça para perdoar quem me feriu. Amém.
+- **texto:** Senhor, dá-me coragem para me aproximar de quem eu feri, quando for seguro, e graça para perdoar quem me feriu. Amém.
 - **isca:** Para este sábado
 
 ## Slide 7 (final)
