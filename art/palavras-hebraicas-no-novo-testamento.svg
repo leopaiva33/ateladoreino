@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="parede" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3b0f18"/>
+      <stop offset="1" stop-color="#5c1a26"/>
+    </linearGradient>
+    <linearGradient id="ceu" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3b2a48"/>
+      <stop offset=".6" stop-color="#97323f"/>
+      <stop offset="1" stop-color="#f1cfae"/>
+    </linearGradient>
+    <radialGradient id="halo" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#f6c97a" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#f6c97a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="mesa" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7a1f2b"/>
+      <stop offset="1" stop-color="#3b0f18"/>
+    </linearGradient>
+    <clipPath id="janela"><path d="M440 400 V180 A160 160 0 0 1 760 180 V400 Z"/></clipPath>
+  </defs>
+  <!-- parede -->
+  <rect width="1200" height="630" fill="url(#parede)"/>
+  <!-- janela em arco com o céu do entardecer -->
+  <path d="M440 400 V180 A160 160 0 0 1 760 180 V400 Z" fill="url(#ceu)"/>
+  <circle cx="600" cy="320" r="150" fill="url(#halo)" clip-path="url(#janela)"/>
+  <circle cx="600" cy="330" r="40" fill="#f6d28f"/>
+  <path d="M440 400 Q520 350 600 372 T760 360 V400 Z" fill="#5c1a26"/>
+  <g fill="#fff7e8" opacity=".7"><circle cx="520" cy="140" r="2"/><circle cx="672" cy="118" r="1.6"/><circle cx="700" cy="200" r="1.6"/></g>
+  <path d="M430 410 V180 A170 170 0 0 1 770 180 V410" fill="none" stroke="#7a1f2b" stroke-width="16"/>
+  <!-- mesa -->
+  <rect x="0" y="430" width="1200" height="200" fill="url(#mesa)"/>
+  <rect x="0" y="426" width="1200" height="10" fill="#97323f"/>
+  <!-- rolo aberto -->
+  <g>
+    <path d="M330 470 H690 V530 H330 Z" fill="#f3e6d3"/>
+    <rect x="300" y="458" width="36" height="84" rx="18" fill="#d9c3a0"/>
+    <rect x="684" y="458" width="36" height="84" rx="18" fill="#d9c3a0"/>
+    <rect x="312" y="446" width="12" height="108" rx="6" fill="#7a1f2b"/>
+    <rect x="696" y="446" width="12" height="108" rx="6" fill="#7a1f2b"/>
+    <g stroke="#c9ae86" stroke-width="4" stroke-linecap="round" fill="none">
+      <path d="M370 488 H480 M370 502 H470 M370 516 H486"/>
+      <path d="M540 488 H650 M550 502 H650 M536 516 H650"/>
+    </g>
+  </g>
+  <!-- tinteiro e pena de junco -->
+  <path d="M786 470 C786 452 842 452 842 470 V500 Q842 512 830 512 H798 Q786 512 786 500 Z" fill="#d9c3a0"/>
+  <path d="M792 472 C794 462 804 460 808 462 V500 H792 Z" fill="#f3e6d3" opacity=".7"/>
+  <ellipse cx="814" cy="456" rx="16" ry="5" fill="#3b0f18"/>
+  <path d="M808 462 L880 380" stroke="#d9c3a0" stroke-width="6" stroke-linecap="round"/>
+  <path d="M876 384 L896 360" stroke="#e6d4b8" stroke-width="4" stroke-linecap="round"/>
+</svg>

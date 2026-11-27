@@ -1,0 +1,87 @@
+{
+  "slug": "palavras-hebraicas-no-novo-testamento",
+  "arte": "public/images/posts/palavras-hebraicas-no-novo-testamento.png",
+  "clima": "esperanca",
+  "legenda": "Qual dessas palavras você mais usa nas suas orações? Conte nos comentários.\n\nEnvie para quem gosta de estudar a Bíblia.\n\nLeia o texto completo em ateladoreino.com (link na bio).\n\nGrátis: o Plano de leitura da Bíblia 2027 em PDF, em ateladoreino.com/links.\n\n#PalavrasHebraicas #ContextoJudaico #EstudoBíblico #Bíblia #Fé #ATelaDoReino",
+  "slides": [
+    {
+      "tipo": "capa",
+      "busca": "ancient stone arch sunset",
+      "chapeu": "Contexto judaico",
+      "titulo": "Palavras *hebraicas* que você já diz",
+      "apoio": "Amém, aleluia, hosana: veja o que elas querem dizer.",
+      "isca": "Deslize"
+    },
+    {
+      "tipo": "texto",
+      "busca": "open bible soft light table",
+      "titulo": "*Amém*",
+      "texto": "Vem de uma raiz hebraica de firmeza e confiança: “é verdade”. Dizer amém é concordar e assumir o que foi orado.",
+      "isca": "E o aleluia?",
+      "foto": "https://cdn.pixabay.com/photo/2021/05/27/09/01/sunrise-6287535_1280.jpg"
+    },
+    {
+      "tipo": "lista",
+      "titulo": "Na oração e no louvor",
+      "itens": [
+        "Aleluia: louvai a Yah (Apocalipse 19:1).",
+        "Hosana: salva, por favor (vem do Salmo 118:25).",
+        "Maranata: nosso Senhor, vem! (1 Coríntios 16:22)."
+      ],
+      "isca": "Hosana em Jerusalém"
+    },
+    {
+      "tipo": "versiculo",
+      "busca": "palm leaves sunlight",
+      "citacao": "Hosana ao Filho de Davi! Bendito o que vem em nome do Senhor! Hosana nas alturas!",
+      "ref": "Mateus 21:9",
+      "destaque": "Um louvor e, ao mesmo tempo, *um pedido de salvação.*",
+      "isca": "Nomes de Jesus",
+      "foto": "https://cdn.pixabay.com/photo/2019/04/27/19/48/leaf-4161092_1280.jpg"
+    },
+    {
+      "tipo": "lista",
+      "titulo": "Nomes e títulos de Jesus",
+      "itens": [
+        "Messias: ungido, o mesmo que Cristo (João 1:41).",
+        "Emanuel: Deus conosco (Mateus 1:23).",
+        "Rabi: meu mestre (João 1:38).",
+        "Raboni: Mestre, dito por Maria Madalena (João 20:16)."
+      ],
+      "isca": "A palavra do Getsêmani"
+    },
+    {
+      "tipo": "versiculo",
+      "busca": "olive tree night",
+      "citacao": "Aba, Pai, todas as coisas te são possíveis; afasta de mim este cálice; não seja, porém, o que eu quero, mas o que tu queres.",
+      "ref": "Marcos 14:36",
+      "destaque": "*Aba* é a palavra de família para pai: *proximidade e confiança.*",
+      "isca": "As palavras da cruz",
+      "foto": "https://cdn.pixabay.com/photo/2016/01/02/02/09/tribe-1117670_1280.jpg"
+    },
+    {
+      "tipo": "texto",
+      "busca": "dark hill dawn sky",
+      "titulo": "Eli, Eli, *lemá sabactâni*",
+      "texto": "“Deus meu, Deus meu, por que me desamparaste?” (Mateus 27:46). Jesus orou com o Salmo 22, que termina em louvor e confiança.",
+      "isca": "Ore agora",
+      "foto": "https://cdn.pixabay.com/photo/2022/09/08/05/35/fog-7440132_1280.jpg"
+    },
+    {
+      "tipo": "oracao",
+      "busca": "hands on bible prayer",
+      "titulo": "Ore agora, com estas palavras",
+      "texto": "Aba, Pai, obrigado por estares conosco em Jesus, o Emanuel. Ensina-me a dizer amém com o coração. Maranata: vem, Senhor Jesus. Amém.",
+      "isca": "Para guardar",
+      "foto": "https://cdn.pixabay.com/photo/2019/03/13/08/38/hands-4052466_1280.jpg"
+    },
+    {
+      "tipo": "final",
+      "busca": "golden field morning light",
+      "titulo": "Salve para *orar sabendo* o que diz.",
+      "texto": "Envie para quem gosta de estudar a Bíblia.",
+      "rodape": "Texto completo: ateladoreino.com · link na bio",
+      "foto": "https://cdn.pixabay.com/photo/2019/09/16/18/19/tree-4481688_1280.jpg"
+    }
+  ]
+}
