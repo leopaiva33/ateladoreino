@@ -1,0 +1,66 @@
+{
+  "slug": "parasha-miketz-em-5-minutos",
+  "arte": "public/images/posts/parasha-da-semana.png",
+  "clima": "esperanca",
+  "legenda": "Quando algo dá certo na sua vida, a quem você dá o crédito? Conte nos comentários.\n\nEnvie para quem está saindo de uma fase difícil.\n\nLeia o texto completo em ateladoreino.com (link na bio).\n\nGrátis: o Plano de leitura da Bíblia 2027 em PDF, em ateladoreino.com/links.\n\n#ParashaDaSemana #Torá #José #EstudoBíblico #Bíblia #ATelaDoReino",
+  "slides": [
+    {
+      "tipo": "capa",
+      "busca": "ancient egypt palace columns sunset",
+      "chapeu": "Parashá da semana",
+      "titulo": "Miketz: da prisão *ao palácio*",
+      "apoio": "Gênesis 41:1 a 44:17, lida neste sábado. Em 5 minutos.",
+      "isca": "Deslize"
+    },
+    {
+      "tipo": "texto",
+      "busca": "wheat field golden harvest",
+      "titulo": "Sete anos de *fartura*.",
+      "texto": "José interpreta os sonhos do faraó: sete anos de fartura e sete de fome. Sai da prisão e vira governador do Egito.",
+      "isca": "A primeira resposta dele",
+      "foto": "https://cdn.pixabay.com/photo/2026/07/10/14/57/14-57-36-764_1280.jpg"
+    },
+    {
+      "tipo": "versiculo",
+      "busca": "open hands light sky",
+      "citacao": "E respondeu José a Faraó, dizendo: Isso não está em mim; Deus dará resposta de paz a Faraó.",
+      "ref": "Gênesis 41:16",
+      "destaque": "Diante do homem mais poderoso do Egito, José *dá o crédito a Deus.*",
+      "isca": "Uma palavra hebraica",
+      "foto": "https://cdn.pixabay.com/photo/2022/02/11/00/15/hand-7006376_1280.jpg"
+    },
+    {
+      "tipo": "texto",
+      "busca": "wheat grain hands",
+      "titulo": "Bil’adai: *não sou eu*.",
+      "texto": "Em hebraico, “não está em mim” é uma palavra só. José não esconde o dom, mas diz de onde ele vem.",
+      "isca": "E onde está Jesus?",
+      "foto": "https://cdn.pixabay.com/photo/2020/01/09/12/32/hand-4752650_1280.jpg"
+    },
+    {
+      "tipo": "versiculo",
+      "busca": "stone water jars",
+      "citacao": "Ide a José; o que ele vos disser fazei.",
+      "ref": "Gênesis 41:55",
+      "destaque": "Muitos cristãos lembram de Caná: “Fazei tudo quanto ele vos disser” (João 2:5). *É uma leitura cristã.*",
+      "isca": "Ore agora",
+      "foto": "https://cdn.pixabay.com/photo/2015/01/02/15/35/source-586668_1280.jpg"
+    },
+    {
+      "tipo": "oracao",
+      "busca": "quiet morning window light",
+      "titulo": "Ore agora, com estas palavras",
+      "texto": "Senhor, guarda-me do orgulho. Que eu reconheça que os dons vêm de ti e diga, como José: não está em mim. Amém.",
+      "isca": "Para este sábado",
+      "foto": "https://cdn.pixabay.com/photo/2022/06/15/13/27/cup-7263953_1280.jpg"
+    },
+    {
+      "tipo": "final",
+      "busca": "sunrise over valley road",
+      "titulo": "Salve e leia *neste sábado.*",
+      "texto": "Envie para quem está saindo de uma fase difícil.",
+      "rodape": "Texto completo: ateladoreino.com · link na bio",
+      "foto": "https://cdn.pixabay.com/photo/2014/09/20/20/24/mountain-454249_1280.jpg"
+    }
+  ]
+}
