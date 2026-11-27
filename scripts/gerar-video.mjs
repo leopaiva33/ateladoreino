@@ -9,7 +9,7 @@
 //     pt-BR-AntonioNeural por padrão (troque com VOZ_GRATIS=pt-BR-FranciscaNeural, por exemplo).
 //     Tem prioridade sobre a ElevenLabs, para quando não houver créditos.
 //   - Azure: VOZ=azure com AZURE_SPEECH_KEY e AZURE_SPEECH_REGION (plano grátis: 500 mil caracteres
-//     por mês). Voz em VOZ_AZURE (padrão pt-BR-HumbertoNeural); tom em VOZ_AZURE_TOM (ex.: -6%).
+//     por mês). Voz em VOZ_AZURE (padrão en-US-DavisMultilingualNeural, falando pt-BR); tom em VOZ_AZURE_TOM (ex.: -6%).
 //   - Sem essas variáveis, usa a voz sintética do espeak-ng, se instalada (provisória, só para testar),
 //     ou silêncio com a duração estimada da fala. Para forçar uma delas: VOZ_PROVISORIA=espeak|silencio.
 // Aviso em temas sensíveis: campo "aviso" de uma cena (faixa discreta no rodapé), em vez de uma cena só para ele.
@@ -89,7 +89,7 @@ const temEspeak = await run('espeak-ng', ['--version']).then(() => true, () => f
 const VOZ_GRATIS = process.env.VOZ_GRATIS || 'pt-BR-AntonioNeural';
 const AZ_KEY = process.env.AZURE_SPEECH_KEY;
 const AZ_REGIAO = process.env.AZURE_SPEECH_REGION;
-const VOZ_AZURE = process.env.VOZ_AZURE || 'pt-BR-HumbertoNeural';
+const VOZ_AZURE = process.env.VOZ_AZURE || 'en-US-DavisMultilingualNeural';
 const TOM_AZURE = process.env.VOZ_AZURE_TOM || '0%';
 const querAzure = process.env.VOZ === 'azure';
 if (querAzure && !(AZ_KEY && AZ_REGIAO)) console.log('::warning::VOZ=azure sem AZURE_SPEECH_KEY/AZURE_SPEECH_REGION; usando a voz grátis.');
@@ -107,7 +107,12 @@ async function duracao(arquivo) {
 // Azure Speech (REST): devolve o MP3 da fala.
 async function falarAzure(fala, voz, tom = '0%', regiao = AZ_REGIAO, chave = AZ_KEY) {
   const x = (t) => t.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-  const ssml = `<speak version="1.0" xml:lang="pt-BR"><voice name="${voz}"><prosody rate="-4%" pitch="${tom}">${x(fala)}</prosody></voice></speak>`;
+  // Pausa curta depois de cada frase e maior entre parágrafos, como numa leitura de verdade.
+  const texto = fala
+    .split(/\n\s*\n/)
+    .map((p) => x(p.trim()).replace(/([.!?…]["”]?)\s+/g, '$1<break time="300ms"/> '))
+    .join('<break time="600ms"/> ');
+  const ssml = `<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xml:lang="pt-BR"><voice name="${voz}"><lang xml:lang="pt-BR"><prosody rate="-4%" pitch="${tom}">${texto}</prosody></lang></voice></speak>`;
   for (let tentativa = 1; ; tentativa++) {
     const r = await fetch(`https://${regiao}.tts.speech.microsoft.com/cognitiveservices/v1`, {
       method: 'POST',
