@@ -1,0 +1,64 @@
+{
+  "slug": "parasha-vayechi-em-5-minutos",
+  "arte": "public/images/posts/parasha-da-semana.png",
+  "clima": "esperanca",
+  "legenda": "Que frase de Gênesis te acompanhou este ano? Conte nos comentários.\n\nEnvie para quem está fechando um ciclo.\n\nLeia o texto completo em ateladoreino.com (link na bio).\n\nGrátis: o Plano de leitura da Bíblia 2027 em PDF, em ateladoreino.com/links.\n\n#ParashaDaSemana #Torá #Gênesis #EstudoBíblico #Bíblia #ATelaDoReino",
+  "slides": [
+    {
+      "tipo": "capa",
+      "chapeu": "Parashá da semana",
+      "titulo": "Vayechi: *o fim de Gênesis*",
+      "apoio": "Gênesis 47:28 a 50:26, lida neste sábado. Em 5 minutos.",
+      "isca": "Deslize"
+    },
+    {
+      "tipo": "texto",
+      "busca": "elderly hands blessing",
+      "titulo": "As mãos *cruzadas*.",
+      "texto": "Jacó abençoa os netos e põe a mão direita sobre Efraim, o mais novo (Gênesis 48:14).",
+      "isca": "A resposta de José",
+      "foto": "https://cdn.pixabay.com/photo/2015/03/30/14/36/hands-699486_1280.jpg"
+    },
+    {
+      "tipo": "versiculo",
+      "busca": "sunrise after storm",
+      "citacao": "Vós bem intentastes mal contra mim, porém Deus o tornou em bem",
+      "ref": "Gênesis 50:20",
+      "destaque": "Os irmãos esperavam vingança. *José viu a mão de Deus.*",
+      "isca": "Uma palavra hebraica",
+      "foto": "https://cdn.pixabay.com/photo/2013/09/08/21/48/glow-180582_1280.jpg"
+    },
+    {
+      "tipo": "texto",
+      "busca": "strong old tree roots",
+      "titulo": "Chazak: *sê forte*.",
+      "texto": "Ao terminar cada livro da Torá, a sinagoga diz: “Sê forte, sê forte, e sejamos fortalecidos.”",
+      "isca": "E onde está Jesus?",
+      "foto": "https://cdn.pixabay.com/photo/2017/07/18/13/19/root-2515833_1280.jpg"
+    },
+    {
+      "tipo": "versiculo",
+      "busca": "golden lion statue light",
+      "citacao": "eis aqui o Leão da tribo de Judá, a Raiz de Davi",
+      "ref": "Apocalipse 5:5",
+      "destaque": "Gênesis 49:9 chama Judá de leãozinho. Os cristãos *ligam a imagem a Jesus.*",
+      "isca": "Ore agora",
+      "foto": "https://cdn.pixabay.com/photo/2025/02/26/19/05/lion-9433653_1280.jpg"
+    },
+    {
+      "tipo": "oracao",
+      "busca": "notebook window light evening",
+      "titulo": "Ore agora, com estas palavras",
+      "texto": "Senhor, obrigado por tudo o que transformaste em bem neste ano. Fortalece-me para o que vem. Amém.",
+      "isca": "Para este sábado"
+    },
+    {
+      "tipo": "final",
+      "busca": "new year sunrise mountains",
+      "titulo": "Salve e leia *neste sábado.*",
+      "texto": "Envie para quem está fechando um ano difícil.",
+      "rodape": "Texto completo: ateladoreino.com · link na bio",
+      "foto": "https://cdn.pixabay.com/photo/2014/03/10/18/46/clouds-284688_1280.jpg"
+    }
+  ]
+}
