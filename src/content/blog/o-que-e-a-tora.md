@@ -3,7 +3,7 @@ title: "O que é a Torá? Significado, os 5 livros e Jesus"
 description: "O que é a Torá, o que a palavra significa, quais são os cinco livros, como ela é lida na sinagoga e como Jesus se relacionava com ela."
 pubDate: 2027-01-04T07:00:00-03:00
 image: "/images/posts/o-que-e-a-tora.png"
-imageAlt: "Ilustração de um caminho que sobe entre colinas até um monte iluminado pelo sol nascente, com cinco pedras de marco ao longo da estrada"
+imageAlt: "Caminho que sobe entre colinas até um monte de pedra iluminado pelo sol nascente, com cinco pedras de marco ao longo da estrada"
 category: "Vida cristã"
 tags: ["Torá", "contexto judaico", "estudo bíblico", "Jesus"]
 ---
@@ -36,15 +36,17 @@ A Bíblia hebraica tem três partes: a Torá, os Profetas (*Neviim*) e os Escrit
 
 ## Como a Torá é lida na sinagoga
 
-Na sinagoga, a Torá é lida de um rolo escrito à mão, o *Sefer Torá*, copiado letra por letra por um escriba. O texto é dividido em 54 porções, as *parashot*, e uma delas é lida a cada sábado.
+Na sinagoga, a Torá é lida de um rolo escrito à mão, o *Sefer Torá*, copiado letra por letra por um escriba. Hoje o texto é dividido em 54 porções, as *parashot*: uma (às vezes duas juntas) a cada sábado, de modo que a Torá inteira é lida em um ano. Às segundas e quintas de manhã, lê-se em público o começo da porção do sábado seguinte.
 
-Também há leituras menores às segundas e quintas de manhã e nas festas. Assim, a Torá inteira é lida em um ano. O ciclo termina e recomeça logo depois da Festa dos Tabernáculos, numa celebração chamada *Simchat Torá*, "alegria da Torá". Era esse costume de leitura que Jesus conhecia quando entrava na sinagoga no sábado (Lucas 4:16).
+O ciclo termina e recomeça no encerramento das festas de outono, no dia seguinte aos sete dias dos Tabernáculos (ou no outro, fora de Israel), numa celebração chamada *Simchat Torá*, "alegria da Torá".
 
-Além do texto escrito, o judaísmo tem a tradição oral, as explicações dos mestres sobre como viver a Torá, que mais tarde foram registradas na Mishná e no Talmude.
+A leitura da Torá aos sábados já existia no tempo de Jesus. Tiago lembra no concílio de Jerusalém: "Moisés, desde os tempos antigos, tem em cada cidade quem o pregue e, cada sábado, é lido nas sinagogas" (Atos 15:21). O ciclo anual de 54 porções e a festa de *Simchat Torá* se firmaram mais tarde; na terra de Israel, havia também um ciclo mais longo, de cerca de três anos.
+
+Além do texto escrito, o judaísmo tem a tradição oral, as explicações dos mestres sobre como viver a Torá, registradas na Mishná, por volta do ano 200, e depois no Talmude.
 
 ## Jesus e a Torá
 
-Jesus cresceu ouvindo a Torá e a citava o tempo todo. Quando foi tentado no deserto, respondeu três vezes com Deuteronômio (Mateus 4). Quando perguntaram pelo maior mandamento, citou o *Shemá*: "Ouve, Israel, o Senhor, nosso Deus, é o único Senhor" (Marcos 12:29, citando Deuteronômio 6:4).
+Jesus cresceu ouvindo a Torá e a citava o tempo todo. Quando foi tentado no deserto, respondeu três vezes com Deuteronômio (Mateus 4:1-11). Quando perguntaram pelo maior mandamento, juntou dois versículos da Torá: o amor a Deus, de Deuteronômio 6:5, e o amor ao próximo, de Levítico 19:18: "amarás o teu próximo como a ti mesmo. Eu sou o Senhor" (Levítico 19:18; veja Mateus 22:37-40).
 
 E disse com clareza: "Não cuideis que vim destruir a lei ou os profetas; não vim ab-rogar, mas cumprir" (Mateus 5:17). Para os cristãos, Jesus é o centro para onde a Torá aponta. Ele mesmo disse: "se vós crêsseis em Moisés, creríeis em mim, porque de mim escreveu ele" (João 5:46).
 
@@ -53,8 +55,8 @@ As igrejas têm entendimentos diferentes sobre como os mandamentos da Torá se a
 ## Como começar a ler a Torá
 
 1. **Comece por Gênesis e Êxodo.** São narrativos e mais fáceis. Deixe Levítico para depois, com um guia ao lado.
-2. **Siga a porção da semana.** A série [A parashá da semana em 5 minutos](/blog/parasha-shemot-em-5-minutos/) resume, toda sexta, a porção lida no sábado.
-3. **Leia com o Novo Testamento aberto.** Quando um texto do Novo Testamento citar a Torá, volte ao trecho original e leia o capítulo inteiro.
+2. **Siga a porção da semana.** A série [A parashá da semana em 5 minutos](/blog/parasha-shemot-em-5-minutos/) resume, toda sexta, a porção lida no sábado, e o [plano de leitura da Torá](/plano-de-leitura-tora/) traz o calendário do ano.
+3. **Leia também a *haftará*.** É o trecho dos Profetas lido na sinagoga no mesmo sábado, escolhido porque ecoa a porção da Torá. Comparar os dois textos ajuda a ver como a Bíblia conversa com ela mesma.
 4. **Anote uma palavra por semana.** Uma frase da Torá que você queira guardar, como o salmista: "Lâmpada para os meus pés é tua palavra e luz, para o meu caminho" (Salmos 119:105).
 
 ## Uma oração
@@ -82,8 +84,9 @@ Para continuar, veja as [palavras hebraicas do Novo Testamento e o que significa
 
 - Josué 1:8
 - Salmos 19:7; 119:105
-- Lucas 4:16; 24:44
-- Mateus 4; 5:17
-- Deuteronômio 6:4
-- Marcos 12:29
+- Lucas 24:44
+- Atos 15:21
+- Mateus 4:1-11; 5:17; 22:37-40
+- Deuteronômio 6:5
+- Levítico 19:18
 - João 5:46

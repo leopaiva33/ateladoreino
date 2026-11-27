@@ -26,9 +26,9 @@ Esta é a série **A parashá da semana em 5 minutos**: toda sexta-feira, a por�
 
 Em Êxodo 6:6, Deus diz: "vos tirarei de debaixo das cargas dos egípcios, vos livrarei da sua servidão e vos resgatarei com braço estendido". "Resgatarei" é *vegaalti*, do verbo *gaal* (גָּאַל): resgatar, redimir.
 
-O *go'el* era o parente próximo que pagava a dívida ou comprava de volta a liberdade de alguém da família, como Boaz faz por Rute (Rute 4). Quando Deus usa essa palavra, ele se apresenta como o parente que resgata o seu povo.
+O *go'el* era o parente próximo com o dever de resgatar: comprar de volta a terra que a família tinha perdido (Levítico 25:25) ou a liberdade de um parente vendido como servo (Levítico 25:47-49). Boaz age como *go'el* ao resgatar a terra de Elimeleque e se casar com Rute (Rute 4:9-10). Quando Deus usa essa palavra, ele se apresenta como o parente que resgata o seu povo.
 
-A tradição judaica conta quatro promessas em Êxodo 6:6-7 (tirar, livrar, resgatar e tomar como povo) e as lembra com os quatro cálices da ceia de Páscoa.
+O Talmude de Jerusalém conta quatro promessas em Êxodo 6:6-7 (tirar, livrar, resgatar e tomar como povo) e as liga aos quatro cálices da ceia de Páscoa.
 
 ## Onde Jesus aparece nesta história
 
@@ -36,9 +36,9 @@ A ideia do resgate atravessa o Novo Testamento. Zacarias, pai de João Batista, 
 
 ## Para a vida
 
-Vaera mostra um povo que não conseguiu ouvir a promessa, de tão cansado. E Deus não desistiu por isso.
+Em Vaera, a promessa chega a gente esgotada, e a história continua mesmo assim.
 
-Se você está cansado demais para crer, não precisa fingir força. A libertação de Israel não começou com a fé do povo, mas com a fidelidade de Deus. Leia devagar Êxodo 6:6-7 nesta semana e repare em quantas vezes Deus diz "eu farei".
+A libertação de Israel não começou com a fé do povo, mas com a fidelidade de Deus. Se a sua fé anda fraca, você não precisa fingir força. Leia devagar Êxodo 6:6-7 nesta semana e repare nos verbos no futuro: tirarei, livrarei, resgatarei, tomarei.
 
 > *Senhor, quando o cansaço for maior que a minha fé, lembra-me de que tu és fiel. Resgata-me do que me prende e ensina-me a ouvir a tua promessa. Amém.*
 
@@ -51,7 +51,7 @@ Significa "e apareci", palavra de Êxodo 6:3, onde Deus lembra que apareceu a Ab
 Porque este sábado coincide com o início do mês hebraico (*Rosh Chodesh*), e nesses sábados se lê Isaías 66, que fala da lua nova (Isaías 66:23).
 
 **Quem endureceu o coração do faraó?**
-O texto diz as duas coisas: em alguns versículos é o faraó, em outros é Deus. Muitos leitores entendem que Deus confirmou uma escolha que o faraó já vinha fazendo.
+O texto diz as duas coisas. Nas primeiras pragas, é o faraó que endurece o coração; a partir de Êxodo 9:12, o texto diz que foi o Senhor. Muitos leitores, judeus e cristãos, entendem que Deus confirmou uma escolha que o faraó já vinha fazendo.
 
 ## Para ir mais fundo
 
@@ -62,8 +62,9 @@ Para continuar: leia [o que é a Torá](/blog/o-que-e-a-tora/) e [as festas bíb
 ## Referências
 
 - Êxodo 6:2 a 9:35
-- Êxodo 6:3; 6:6-7; 6:9; 7:10
-- Rute 4
+- Êxodo 6:3; 6:6-7; 6:9; 7:10; 9:12
+- Levítico 25:25; 25:47-49
+- Rute 4:9-10
 - Isaías 66; 66:23
 - Lucas 1:68
 - Marcos 10:45

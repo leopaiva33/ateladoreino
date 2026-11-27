@@ -21,11 +21,11 @@
   <!-- parede ao anoitecer -->
   <rect width="1200" height="630" fill="url(#parede)"/>
   <!-- janela com pôr do sol -->
-  <rect x="760" y="110" width="300" height="260" rx="6" fill="url(#ceu)"/>
-  <circle cx="910" cy="330" r="40" fill="#f6d28f"/>
-  <path d="M760 340 Q860 300 960 330 T1060 320 V370 H760 Z" fill="#5c1a26"/>
-  <path d="M910 110 V370 M760 240 H1060" stroke="#2a1d36" stroke-width="10"/>
-  <rect x="750" y="100" width="320" height="280" rx="8" fill="none" stroke="#5c1a26" stroke-width="14"/>
+  <rect x="700" y="110" width="300" height="260" rx="6" fill="url(#ceu)"/>
+  <circle cx="790" cy="320" r="38" fill="#f6d28f"/>
+  <path d="M700 340 Q800 300 900 330 T1000 320 V370 H700 Z" fill="#5c1a26"/>
+  <path d="M850 110 V370 M700 240 H1000" stroke="#2a1d36" stroke-width="10"/>
+  <rect x="690" y="100" width="320" height="280" rx="8" fill="none" stroke="#5c1a26" stroke-width="14"/>
   <!-- mesa -->
   <rect x="0" y="430" width="1200" height="200" fill="url(#mesa)"/>
   <rect x="0" y="424" width="1200" height="12" fill="#97323f"/>
