@@ -4,13 +4,75 @@
   "clima": "calma",
   "legenda": "Você já tinha ouvido falar dos fariseus que ficaram do lado de Jesus? Conte nos comentários.\n\nEnvie para quem gosta de estudar a Bíblia.\n\nLeia o texto completo em ateladoreino.com (link na bio).\n\nGrátis: o Plano de leitura da Bíblia 2027 em PDF, em ateladoreino.com/links.\n\n#Fariseus #ContextoJudaico #EstudoBíblico #Bíblia #Fé #ATelaDoReino",
   "slides": [
-    { "tipo": "capa", "chapeu": "Contexto judaico", "titulo": "Quem eram os *fariseus*?", "apoio": "O que a Bíblia e a história mostram.", "isca": "Deslize" },
-    { "tipo": "texto", "busca": "ancient scroll library light", "titulo": "Um movimento de *leigos*.", "texto": "Artesãos, comerciantes e mestres que estudavam a Torá e queriam viver toda a vida segundo a lei de Moisés.", "isca": "No que acreditavam" },
-    { "tipo": "lista", "titulo": "No que os fariseus acreditavam", "itens": ["Na ressurreição dos mortos (Atos 23:8).", "Nos anjos (Atos 23:8).", "Na tradição dos antigos (Marcos 7:3).", "Na santidade da vida comum."], "isca": "E as críticas de Jesus?" },
-    { "tipo": "versiculo", "busca": "old stone chair light", "citacao": "Observai, pois, e praticai tudo o que vos disserem; mas não procedais em conformidade com as suas obras, porque dizem e não praticam.", "ref": "Mateus 23:3", "destaque": "Jesus critica a distância entre *dizer e praticar.*", "isca": "Fariseus do lado de Jesus" },
-    { "tipo": "lista", "titulo": "Fariseus do lado de Jesus", "itens": ["Nicodemos, que o defendeu (João 7:50-51).", "Os que o avisaram do perigo (Lucas 13:31).", "Gamaliel, que pediu cautela (Atos 5:34).", "Os que creram (Atos 15:5)."], "isca": "Para a sua leitura" },
-    { "tipo": "texto", "busca": "person praying silhouette window", "titulo": "Mateus 23 é *para mim*.", "texto": "A pergunta não é quem são os fariseus de hoje, mas onde eu digo e não pratico.", "isca": "Ore agora" },
-    { "tipo": "oracao", "busca": "hands folded morning light", "titulo": "Ore agora, com estas palavras", "texto": "Senhor, livra-me de dizer e não praticar. Ensina-me a orar como o publicano: com humildade e verdade. Amém.", "isca": "Para guardar" },
-    { "tipo": "final", "busca": "stone steps sunrise", "titulo": "Salve para ler os evangelhos *com cuidado.*", "texto": "Envie para quem gosta de estudar a Bíblia.", "rodape": "Texto completo: ateladoreino.com · link na bio" }
+    {
+      "tipo": "capa",
+      "chapeu": "Contexto judaico",
+      "titulo": "Quem eram os *fariseus*?",
+      "apoio": "O que a Bíblia e a história mostram.",
+      "isca": "Deslize"
+    },
+    {
+      "tipo": "texto",
+      "busca": "ancient scroll library light",
+      "titulo": "Um movimento de *leigos*.",
+      "texto": "Na maioria, não eram sacerdotes, mas leigos dedicados à Torá, que queriam viver toda a vida segundo a lei de Moisés.",
+      "isca": "No que acreditavam",
+      "foto": "https://cdn.pixabay.com/photo/2014/06/28/12/35/books-378903_1280.jpg"
+    },
+    {
+      "tipo": "lista",
+      "titulo": "No que os fariseus acreditavam",
+      "itens": [
+        "Na ressurreição dos mortos (Atos 23:8).",
+        "Nos anjos (Atos 23:8).",
+        "Na tradição dos antigos (Marcos 7:3).",
+        "Na santidade da vida comum."
+      ],
+      "isca": "E as críticas de Jesus?"
+    },
+    {
+      "tipo": "versiculo",
+      "busca": "old stone chair light",
+      "citacao": "Observai, pois, e praticai tudo o que vos disserem; mas não procedais em conformidade com as suas obras, porque dizem e não praticam.",
+      "ref": "Mateus 23:3",
+      "destaque": "Jesus critica a distância entre *dizer e praticar.*",
+      "isca": "Fariseus que não eram contra",
+      "foto": "https://cdn.pixabay.com/photo/2021/08/29/14/43/alley-6583471_1280.jpg"
+    },
+    {
+      "tipo": "lista",
+      "titulo": "Fariseus que não eram contra Jesus",
+      "itens": [
+        "Nicodemos, que pediu que ele fosse ouvido (João 7:50-51).",
+        "Os que o avisaram do perigo (Lucas 13:31).",
+        "Gamaliel, que pediu cautela ao conselho (Atos 5:34).",
+        "Os que creram (Atos 15:5)."
+      ],
+      "isca": "Para a sua leitura"
+    },
+    {
+      "tipo": "texto",
+      "busca": "person praying silhouette window",
+      "titulo": "Mateus 23 é *para mim*.",
+      "texto": "A pergunta não é quem são os fariseus de hoje, mas onde eu digo e não pratico.",
+      "isca": "Ore agora",
+      "foto": "https://cdn.pixabay.com/photo/2020/12/09/21/11/stairs-5818603_1280.jpg"
+    },
+    {
+      "tipo": "oracao",
+      "busca": "hands folded morning light",
+      "titulo": "Ore agora, com estas palavras",
+      "texto": "Senhor, livra-me de dizer e não praticar. Ensina-me a orar como o publicano: com humildade e verdade. Amém.",
+      "isca": "Para guardar",
+      "foto": "https://cdn.pixabay.com/photo/2019/11/02/20/50/coffee-4597416_1280.jpg"
+    },
+    {
+      "tipo": "final",
+      "busca": "stone steps sunrise",
+      "titulo": "Salve para ler os evangelhos *com cuidado.*",
+      "texto": "Envie para quem gosta de estudar a Bíblia.",
+      "rodape": "Texto completo: ateladoreino.com · link na bio",
+      "foto": "https://cdn.pixabay.com/photo/2019/12/05/14/31/hdr-4675335_1280.jpg"
+    }
   ]
 }

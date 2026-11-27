@@ -39,7 +39,7 @@
     <rect x="410" y="482" width="380" height="16" opacity=".7"/>
   </g>
   <!-- bancos de pedra -->
-  <g fill="#5c1a26">
+  <g fill="#d9c3a0" opacity=".55">
     <rect x="200" y="520" width="200" height="22" rx="4"/><rect x="220" y="542" width="16" height="30"/><rect x="364" y="542" width="16" height="30"/>
     <rect x="800" y="520" width="200" height="22" rx="4"/><rect x="820" y="542" width="16" height="30"/><rect x="964" y="542" width="16" height="30"/>
   </g>
