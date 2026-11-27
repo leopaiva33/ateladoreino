@@ -4,12 +4,62 @@
   "clima": "calma",
   "legenda": "Já viu alguém mudar de verdade com o tempo? Conte nos comentários.\n\nEnvie para quem está tentando se reaproximar de alguém, quando for seguro.\n\nLeia o texto completo em ateladoreino.com (link na bio).\n\nGrátis: o Plano de leitura da Bíblia 2027 em PDF, em ateladoreino.com/links.\n\n#ParashaDaSemana #Torá #Perdão #EstudoBíblico #Bíblia #ATelaDoReino",
   "slides": [
-    { "tipo": "capa", "chapeu": "Parashá da semana", "titulo": "Vayigash: *Eu sou José*", "apoio": "Gênesis 44:18 a 47:27, lida neste sábado. Em 5 minutos.", "isca": "Deslize" },
-    { "tipo": "texto", "busca": "two hands reaching", "titulo": "Judá *se aproxima*.", "texto": "O irmão que um dia propôs vender José agora pede para ficar escravo no lugar de Benjamim.", "isca": "E José não aguenta" },
-    { "tipo": "versiculo", "busca": "embrace silhouette sunset", "citacao": "E disse José a seus irmãos: Eu sou José; vive ainda meu pai?", "ref": "Gênesis 45:3", "destaque": "Depois de anos, a verdade vem *com lágrimas.*", "isca": "Uma palavra hebraica" },
-    { "tipo": "texto", "busca": "old key on wooden table", "titulo": "Arav: *ser fiador*.", "texto": "Judá “se deu por fiador” do irmão (Gênesis 44:32): respondeu por ele com a própria liberdade.", "isca": "E onde está Jesus?" },
-    { "tipo": "versiculo", "busca": "light through clouds over field", "citacao": "de tanto melhor concerto Jesus foi feito fiador.", "ref": "Hebreus 7:22", "destaque": "Judá se ofereceu por um irmão. Os cristãos leem em Jesus *quem se ofereceu por muitos.*", "isca": "Ore agora" },
-    { "tipo": "oracao", "busca": "candle soft light window", "titulo": "Ore agora, com estas palavras", "texto": "Senhor, dá-me coragem para me aproximar de quem eu feri e graça para perdoar quem me feriu. Amém.", "isca": "Para este sábado" },
-    { "tipo": "final", "busca": "path between hills morning", "titulo": "Salve e leia *neste sábado.*", "texto": "Envie para quem precisa ouvir que pessoas mudam.", "rodape": "Texto completo: ateladoreino.com · link na bio" }
+    {
+      "tipo": "capa",
+      "chapeu": "Parashá da semana",
+      "titulo": "Vayigash: *Eu sou José*",
+      "apoio": "Gênesis 44:18 a 47:27, lida neste sábado. Em 5 minutos.",
+      "isca": "Deslize"
+    },
+    {
+      "tipo": "texto",
+      "busca": "two hands reaching",
+      "titulo": "Judá *se aproxima*.",
+      "texto": "O irmão que um dia propôs vender José agora pede para ficar escravo no lugar de Benjamim.",
+      "isca": "E José não aguenta",
+      "foto": "https://cdn.pixabay.com/photo/2019/09/20/10/44/hands-4491448_1280.jpg"
+    },
+    {
+      "tipo": "versiculo",
+      "busca": "embrace silhouette sunset",
+      "citacao": "E disse José a seus irmãos: Eu sou José; vive ainda meu pai?",
+      "ref": "Gênesis 45:3",
+      "destaque": "Depois de anos, a verdade vem *com lágrimas.*",
+      "isca": "Uma palavra hebraica",
+      "foto": "https://cdn.pixabay.com/photo/2021/08/18/19/02/trees-6556336_1280.jpg"
+    },
+    {
+      "tipo": "texto",
+      "busca": "old key on wooden table",
+      "titulo": "Arav: *ser fiador*.",
+      "texto": "Judá “se deu por fiador” do irmão (Gênesis 44:32): respondeu por ele com a própria liberdade.",
+      "isca": "E onde está Jesus?",
+      "foto": "https://cdn.pixabay.com/photo/2013/06/08/23/23/key-123554_1280.jpg"
+    },
+    {
+      "tipo": "versiculo",
+      "busca": "light through clouds over field",
+      "citacao": "de tanto melhor concerto Jesus foi feito fiador.",
+      "ref": "Hebreus 7:22",
+      "destaque": "Judá se ofereceu por um irmão. Os cristãos leem em Jesus *quem se ofereceu por muitos.*",
+      "isca": "Ore agora",
+      "foto": "https://cdn.pixabay.com/photo/2015/07/30/15/31/grove-of-trees-867931_1280.jpg"
+    },
+    {
+      "tipo": "oracao",
+      "busca": "candle soft light window",
+      "titulo": "Ore agora, com estas palavras",
+      "texto": "Senhor, dá-me coragem para me aproximar de quem eu feri e graça para perdoar quem me feriu. Amém.",
+      "isca": "Para este sábado",
+      "foto": "https://cdn.pixabay.com/photo/2021/09/26/08/03/forest-6656672_1280.jpg"
+    },
+    {
+      "tipo": "final",
+      "busca": "path between hills morning",
+      "titulo": "Salve e leia *neste sábado.*",
+      "texto": "Envie para quem precisa ouvir que pessoas mudam.",
+      "rodape": "Texto completo: ateladoreino.com · link na bio",
+      "foto": "https://cdn.pixabay.com/photo/2025/07/20/08/07/alley-9723861_1280.jpg"
+    }
   ]
 }
