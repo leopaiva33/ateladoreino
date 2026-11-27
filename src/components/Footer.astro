@@ -30,6 +30,16 @@ const ano = new Date().getFullYear();
             </li>
           ))
         }
+        {
+          SITE.whatsapp && (
+            <li>
+              <a href={SITE.whatsapp} rel="noopener" target="_blank">
+                WhatsApp
+                <span class="sr-only"> (abre em nova aba)</span>
+              </a>
+            </li>
+          )
+        }
       </ul>
     </nav>
     <p>&copy; {ano} {SITE.name}. Todos os direitos reservados.</p>

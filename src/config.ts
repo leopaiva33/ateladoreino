@@ -24,6 +24,12 @@ export const SITE = {
   ],
 
   /**
+   * Grupo do WhatsApp (leitura do dia do plano 2027 e os artigos novos). Aparece no rodapé, no fim
+   * dos artigos, no /links e na newsletter. Fica fora do `sameAs`, porque é convite e não perfil.
+   */
+  whatsapp: 'https://chat.whatsapp.com/FIujE24Yk5Q63X1JxEqFlf' as string,
+
+  /**
    * Quem escreve e é responsável pelo site (E-E-A-T e LGPD).
    * Preencha com dados REAIS: quando `name` estiver preenchido, a página "Sobre" mostra a seção
    * "Quem escreve" e a Política de Privacidade identifica o responsável pelo tratamento de dados.

@@ -1,0 +1,47 @@
+---
+/** Convite para o grupo do WhatsApp, no fim dos artigos. Some se SITE.whatsapp estiver vazio. */
+import { SITE } from '../config';
+---
+
+{
+  SITE.whatsapp && (
+    <aside class="whatsapp-convite" aria-labelledby="whatsapp-titulo">
+      <h2 id="whatsapp-titulo">A leitura do dia no seu WhatsApp</h2>
+      <p>Entre no grupo da A Tela do Reino: todo dia, a leitura do plano da Bíblia e os textos novos do site.</p>
+      <a class="botao" href={SITE.whatsapp} rel="noopener" target="_blank">
+        Entrar no grupo<span class="sr-only"> (abre o WhatsApp em nova aba)</span>
+      </a>
+    </aside>
+  )
+}
+
+<style>
+  .whatsapp-convite {
+    margin: 2rem 0;
+    padding: 1.25rem 1.5rem;
+    border: 1px solid var(--cor-borda, #e6d4b8);
+    border-radius: var(--raio, 12px);
+    text-align: center;
+  }
+  .whatsapp-convite h2 {
+    margin: 0 0 0.5rem;
+    font-size: 1.25rem;
+  }
+  .whatsapp-convite p {
+    margin: 0 0 1rem;
+  }
+  .whatsapp-convite .botao {
+    display: inline-block;
+    padding: 0.7rem 1.4rem;
+    min-height: 44px;
+    border-radius: 999px;
+    background: #1f7a4d;
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  .whatsapp-convite .botao:hover,
+  .whatsapp-convite .botao:focus-visible {
+    background: #165c3a;
+  }
+</style>
