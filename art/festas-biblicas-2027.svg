@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="ceu" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2e2f5e"/>
+      <stop offset=".55" stop-color="#97323f"/>
+      <stop offset="1" stop-color="#f1cfae"/>
+    </linearGradient>
+    <radialGradient id="halo" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#f6c97a" stop-opacity=".85"/>
+      <stop offset="1" stop-color="#f6c97a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <!-- céu do entardecer -->
+  <rect width="1200" height="630" fill="url(#ceu)"/>
+  <g fill="#fff7e8" opacity=".7"><circle cx="120" cy="60" r="2"/><circle cx="300" cy="110" r="1.6"/><circle cx="1080" cy="70" r="2"/><circle cx="960" cy="140" r="1.6"/></g>
+  <!-- lua cheia nascendo -->
+  <circle cx="760" cy="300" r="190" fill="url(#halo)"/>
+  <circle cx="760" cy="300" r="70" fill="#f9e4b0"/>
+  <!-- colinas -->
+  <path d="M0 380 Q300 330 620 360 T1200 350 V630 H0 Z" fill="#7a1f2b"/>
+  <path d="M0 450 Q320 410 640 440 T1200 430 V630 H0 Z" fill="#5c1a26"/>
+  <path d="M0 530 Q300 500 640 520 T1200 510 V630 H0 Z" fill="#3b0f18"/>
+  <!-- tenda de ramos (sucá) -->
+  <g>
+    <rect x="360" y="330" width="12" height="190" fill="#3b0f18"/>
+    <rect x="618" y="330" width="12" height="190" fill="#3b0f18"/>
+    <rect x="372" y="380" width="246" height="140" fill="#5c1a26" opacity=".55"/>
+    <path d="M340 336 Q495 300 650 336 L650 350 Q495 318 340 350 Z" fill="#66794d"/>
+    <path d="M350 330 Q420 290 470 325 Q520 286 570 322 Q620 290 652 330 L652 342 L348 342 Z" fill="#9aa56b"/>
+    <g fill="#c9bf8c"><ellipse cx="410" cy="316" rx="26" ry="8"/><ellipse cx="500" cy="306" rx="30" ry="8"/><ellipse cx="590" cy="314" rx="26" ry="8"/></g>
+    <circle cx="495" cy="440" r="70" fill="url(#halo)"/>
+    <path d="M480 470 C480 452 510 452 510 470 Z" fill="#e9b45f"/>
+    <path d="M495 452 C503 440 500 430 494 422 C493 432 487 440 490 452 Z" fill="#fffaf0"/>
+  </g>
+  <!-- feixe de trigo -->
+  <g stroke="#e6d4b8" stroke-width="5" stroke-linecap="round" fill="none">
+    <path d="M800 520 L770 420 M808 520 L800 410 M816 520 L830 418"/>
+    <path d="M790 488 L826 488" stroke="#d9c3a0" stroke-width="8"/>
+  </g>
+  <g fill="#f3e6d3"><ellipse cx="766" cy="408" rx="8" ry="20" transform="rotate(-16 766 408)"/><ellipse cx="799" cy="398" rx="8" ry="20"/><ellipse cx="834" cy="406" rx="8" ry="20" transform="rotate(14 834 406)"/></g>
+</svg>
