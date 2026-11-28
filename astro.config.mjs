@@ -26,6 +26,8 @@ function datasDoConteudo() {
 const DATAS = datasDoConteudo();
 /** Páginas que não devem ir para o Google (também têm noindex). */
 const FORA_DO_SITEMAP = ['/newsletter/confirmada/', '/links/', '/guias/hanuca/obrigado/', '/guias/plano-2027/obrigado/'];
+// /apoie/ só entra no sitemap quando o link do Apoia.se (SITE.apoio) estiver preenchido.
+if (/^\s*apoio:\s*''/m.test(readFileSync('src/config.ts', 'utf8'))) FORA_DO_SITEMAP.push('/apoie/');
 
 // https://astro.build/config
 export default defineConfig({
