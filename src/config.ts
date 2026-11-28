@@ -30,6 +30,13 @@ export const SITE = {
   whatsapp: 'https://chat.whatsapp.com/FIujE24Yk5Q63X1JxEqFlf' as string,
 
   /**
+   * Apoio mensal (Apoia.se). Com o link preenchido, a página /apoie mostra o botão, o rodapé ganha
+   * o link "Apoie" e os artigos mostram um pedido discreto no fim. Vazio: /apoie mostra só as
+   * formas gratuitas de ajudar e fica fora do Google.
+   */
+  apoio: '' as string,
+
+  /**
    * Quem escreve e é responsável pelo site (E-E-A-T e LGPD).
    * Preencha com dados REAIS: quando `name` estiver preenchido, a página "Sobre" mostra a seção
    * "Quem escreve" e a Política de Privacidade identifica o responsável pelo tratamento de dados.

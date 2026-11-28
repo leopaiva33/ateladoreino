@@ -1,0 +1,111 @@
+---
+// Página de apoio: o pedido honesto da Fase 3, sem culpa nem promessa. O botão aparece quando
+// SITE.apoio (link da campanha no Apoia.se) estiver preenchido.
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { SITE } from '../config';
+
+const temApoio = Boolean(SITE.apoio);
+---
+
+<BaseLayout
+  title="Apoie"
+  description="Como apoiar a A Tela do Reino: apoio mensal pelo Apoia.se e formas gratuitas de ajudar o projeto a alcançar mais pessoas."
+  noindex={!temApoio}
+>
+  <div class="pagina">
+    <h1>Apoie a A Tela do Reino</h1>
+    <p>
+      Todo o conteúdo da A Tela do Reino é gratuito e vai continuar assim: os artigos, os estudos
+      da Torá, a parashá da semana, os guias em PDF e a newsletter. Se este trabalho tem ajudado
+      você a ler a Bíblia, existem formas simples de ajudar o projeto a continuar e a chegar a mais
+      gente.
+    </p>
+
+    {
+      temApoio ? (
+        <section class="caixa-apoio" aria-labelledby="apoio-mensal">
+          <h2 id="apoio-mensal">Apoio mensal</h2>
+          <p>
+            Com um valor pequeno por mês, pelo Apoia.se, você ajuda a cobrir as ferramentas do
+            projeto (site, imagens, narração dos vídeos e envio da newsletter) e o tempo de
+            pesquisa e escrita. Você escolhe o valor e pode cancelar quando quiser.
+          </p>
+          <a class="botao" href={SITE.apoio} rel="noopener" target="_blank">
+            Quero apoiar pelo Apoia.se<span class="sr-only"> (abre em nova aba)</span>
+          </a>
+        </section>
+      ) : (
+        <section class="caixa-apoio" aria-labelledby="apoio-mensal">
+          <h2 id="apoio-mensal">Apoio mensal: em breve</h2>
+          <p>
+            Estamos preparando uma forma de apoio mensal pelo Apoia.se. Enquanto isso, as formas
+            gratuitas abaixo já fazem muita diferença.
+          </p>
+        </section>
+      )
+    }
+
+    <h2>Formas gratuitas de ajudar</h2>
+    <ul>
+      <li>
+        <strong>Compartilhe</strong> um artigo ou um carrossel com alguém que gosta de estudar a
+        Bíblia. É o que mais ajuda o projeto a crescer.
+      </li>
+      {
+        SITE.newsletter && (
+          <li>
+            <strong>Assine a <a href="/newsletter/">newsletter</a></strong>: a reflexão da semana, todo
+            domingo, no seu e-mail.
+          </li>
+        )
+      }
+      {
+        SITE.whatsapp && (
+          <li>
+            <strong>Entre no <a href={SITE.whatsapp} rel="noopener" target="_blank">grupo do WhatsApp</a></strong>
+            e receba a leitura do dia.
+          </li>
+        )
+      }
+      <li>
+        <strong>Ore</strong> pelo projeto e por quem lê estes textos.
+      </li>
+    </ul>
+
+    <h2>Para onde vai o apoio</h2>
+    <p>
+      O apoio cobre os custos do projeto e o tempo dedicado a ele. Nada do conteúdo fica fechado
+      para quem não apoia: quem apoia ajuda todos os outros leitores a continuarem recebendo de
+      graça.
+    </p>
+
+    <p class="assinatura">Obrigado por caminhar com a gente. {SITE.author.name}, A Tela do Reino.</p>
+  </div>
+</BaseLayout>
+
+<style>
+  .caixa-apoio {
+    margin: 2rem 0;
+    padding: 1.25rem 1.5rem;
+    border: 1px solid var(--cor-borda);
+    border-radius: var(--raio);
+  }
+  .caixa-apoio h2 {
+    margin-top: 0;
+  }
+  .botao {
+    display: inline-block;
+    margin-top: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    min-height: 44px;
+    border-radius: var(--raio-pilula);
+    background: var(--cor-destaque);
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  .assinatura {
+    margin-top: 2rem;
+    font-style: italic;
+  }
+</style>

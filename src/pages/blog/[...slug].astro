@@ -119,6 +119,15 @@ const jsonLd = jsonLdArtigo({
 
     <WhatsAppConvite />
 
+    {
+      SITE.apoio && (
+        <p class="apoie-linha">
+          Gosta deste trabalho? Ele é gratuito e se mantém com a ajuda dos leitores.
+          <a href="/apoie/">Veja como apoiar</a>.
+        </p>
+      )
+    }
+
     <LeiaTambem posts={relacionados} />
 
     <ParaIrMaisFundo />
