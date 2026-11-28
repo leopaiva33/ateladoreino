@@ -1,0 +1,85 @@
+---
+// Fase 4: lista de espera do curso "A Bíblia com olhos judaicos". Mede o interesse antes de gravar.
+// A inscrição usa o formulário da newsletter com a isca "curso" (ver api/newsletter.js).
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import NewsletterForm from '../../components/NewsletterForm.astro';
+
+const modulos = [
+  { t: 'O mundo de Jesus', d: 'A terra de Israel no século 1, o Império Romano, o Templo, a sinagoga e os grupos da época: fariseus, saduceus, essênios e zelotes.' },
+  { t: 'A Bíblia de Jesus', d: 'A Torá, os Profetas e os Escritos; a tradução grega; a tradição oral; e como Jesus e os apóstolos citavam as Escrituras.' },
+  { t: 'O calendário de Deus', d: 'O Shabat e as festas de Levítico 23, Purim e Hanucá, e o que cada uma ilumina nos evangelhos.' },
+  { t: 'As palavras', d: 'Palavras hebraicas e aramaicas que mudam a leitura: Torá, chesed, shalom, teshuvá, amém, Aba, Messias.' },
+  { t: 'Os evangelhos com olhos judaicos', d: 'As parábolas, os debates com os mestres, o Sermão do Monte e a última ceia no seu contexto.' },
+  { t: 'Da Torá à igreja', d: 'Paulo, o fariseu; o concílio de Jerusalém; Romanos 9 a 11; e como ler o Novo Testamento sem preconceito contra o povo judeu.' },
+];
+---
+
+<BaseLayout
+  title="Curso: A Bíblia com olhos judaicos"
+  description="Lista de espera do curso A Bíblia com olhos judaicos: 6 módulos para ler os evangelhos no contexto judaico de Jesus, de forma simples."
+>
+  <div class="pagina">
+    <p class="selo">Em preparação · lista de espera</p>
+    <h1>A Bíblia com olhos judaicos</h1>
+    <p class="lead">
+      Um curso para ler a Bíblia no contexto judaico de Jesus, de forma simples: o mundo em que
+      ele viveu, a Bíblia que ele lia, as festas que celebrava e as palavras que usava. Sem precisar
+      saber hebraico e sem tomar partido entre as igrejas.
+    </p>
+
+    <h2>O que o curso vai ter</h2>
+    <ol class="modulos">
+      {
+        modulos.map((m) => (
+          <li>
+            <strong>{m.t}.</strong> {m.d}
+          </li>
+        ))
+      }
+    </ol>
+    <p>
+      O formato previsto é de aulas curtas em vídeo, com um material em PDF por módulo, leituras
+      bíblicas e perguntas para estudar sozinho ou em grupo.
+    </p>
+
+    <h2>Por que uma lista de espera?</h2>
+    <p>
+      O curso só vai ser gravado se houver interesse. Quem entra na lista recebe as novidades
+      primeiro, pode sugerir temas e terá condição especial no lançamento. Entrar na lista não
+      obriga a comprar nada.
+    </p>
+
+    <NewsletterForm
+      isca="curso"
+      titulo="Entrar na lista de espera"
+      texto="Deixe o seu e-mail e confirme. Você recebe as novidades do curso e, todo domingo, a reflexão da semana. Pode sair quando quiser."
+      botao="Quero entrar na lista"
+    />
+
+    <h2>Enquanto isso</h2>
+    <ul>
+      <li>Leia os <a href="/estudos/">estudos semanais da Torá</a>.</li>
+      <li>Acompanhe <a href="/blog/">a parashá da semana em 5 minutos</a>, toda sexta.</li>
+      <li>Baixe o <a href="/guias/plano-2027/">Plano de leitura da Bíblia 2027</a>, grátis.</li>
+    </ul>
+  </div>
+</BaseLayout>
+
+<style>
+  .selo {
+    display: inline-block;
+    padding: 0.3rem 0.8rem;
+    border-radius: var(--raio-pilula);
+    background: var(--cor-destaque-claro);
+    color: var(--cor-destaque);
+    font-family: var(--fonte-interface);
+    font-size: 0.85rem;
+    font-weight: 600;
+  }
+  .lead {
+    font-size: 1.15rem;
+  }
+  .modulos li {
+    margin-bottom: 0.6rem;
+  }
+</style>

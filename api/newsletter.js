@@ -9,7 +9,10 @@ const SITE = 'https://ateladoreino.com';
 const ISCAS = {
   hanuca: '/guias/hanuca/obrigado/',
   'plano-2027': '/guias/plano-2027/obrigado/',
+  curso: '/curso/obrigado/',
 };
+// Lista de espera do curso: se BREVO_LISTA_CURSO estiver definida, quem se inscreve pela página
+// /curso/ entra também nessa lista do Brevo (para contar o interesse e avisar no lançamento).
 // Aceita o número com ou sem "#" (como o Brevo mostra).
 const numero = (v) => Number(String(v ?? '').replace(/[^0-9]/g, ''));
 
@@ -46,7 +49,7 @@ export default async function handler(req, res) {
     headers: { 'api-key': BREVO_API_KEY, 'content-type': 'application/json', accept: 'application/json' },
     body: JSON.stringify({
       email,
-      includeListIds: [numero(BREVO_LIST_ID)],
+      includeListIds: [numero(BREVO_LIST_ID), ...(corpo.isca === 'curso' && process.env.BREVO_LISTA_CURSO ? [numero(process.env.BREVO_LISTA_CURSO)] : [])],
       templateId: numero(BREVO_DOI_TEMPLATE_ID),
       redirectionUrl: `${SITE}${Object.hasOwn(ISCAS, String(corpo.isca)) ? ISCAS[corpo.isca] : '/newsletter/confirmada/'}`,
     }),

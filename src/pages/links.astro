@@ -30,6 +30,9 @@ const thumbOf = (image?: string) =>
     {destaques.map((d) => <a class="destaque" href={`${d.href}${utm}`}>{d.texto}</a>)}
 
     {
+      <a class="destaque" href={`/curso/${utm}`}>Lista de espera: curso A Bíblia com olhos judaicos</a>
+    }
+    {
       SITE.whatsapp && (
         <a class="destaque" href={SITE.whatsapp} rel="noopener" target="_blank">
           Grupo no WhatsApp: a leitura do dia<span class="sr-only"> (abre em nova aba)</span>
