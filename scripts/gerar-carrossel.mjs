@@ -100,9 +100,10 @@ body{width:var(--W);height:var(--H);overflow:hidden;background:#000}
 .s{position:relative;width:var(--W);height:var(--H);overflow:hidden;color:#fff;font-family:Mont}
 .bg{position:absolute;inset:0;background-size:cover;background-position:center}
 .veu{position:absolute;inset:0}
+.topo-veu{position:absolute;left:0;right:0;top:0;height:calc(var(--topo) + 220px);background:linear-gradient(180deg,rgba(12,4,8,.62) 0%,rgba(12,4,8,.38) 45%,rgba(12,4,8,0) 100%);pointer-events:none}
 .marca{position:absolute;top:calc(var(--topo) + 58px);left:72px;font:700 25px Mont;letter-spacing:.24em;color:var(--creme);opacity:.95;text-shadow:0 1px 3px rgba(0,0,0,.7),0 0 18px rgba(0,0,0,.45)}
 .marca b{color:var(--ouro)}
-.num{position:absolute;top:52px;right:72px;font:700 25px Mont;color:var(--creme);opacity:.75;letter-spacing:.08em}
+.num{position:absolute;top:52px;right:72px;font:700 25px Mont;color:var(--creme);opacity:.9;letter-spacing:.08em;text-shadow:0 1px 3px rgba(0,0,0,.7),0 0 18px rgba(0,0,0,.45)}
 .prog{position:absolute;left:72px;right:72px;bottom:56px;display:flex;gap:8px}
 .prog i{flex:1;height:6px;border-radius:3px;background:rgba(255,255,255,.25)}
 .prog i.on{background:var(--ouro);box-shadow:0 0 12px rgba(245,198,110,.6)}
@@ -192,7 +193,7 @@ async function html(s, i, total) {
   } else if (modo === 'pin') {
     extras += `<div class="site">ateladoreino.com</div>`;
   }
-  return `<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><style>${css}</style></head><body><div class="s">${await fundo(s)}${conteudo(s)}<div class="marca">A TELA DO <b>REINO</b></div>${extras}</div></body></html>`;
+  return `<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><style>${css}</style></head><body><div class="s">${await fundo(s)}${conteudo(s)}<div class="topo-veu"></div><div class="marca">A TELA DO <b>REINO</b></div>${extras}</div></body></html>`;
 }
 
 /** Reduz a escala do texto (variável --k) até o bloco caber entre a marca e a isca. */
